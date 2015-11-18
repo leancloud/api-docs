@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVGroupDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/group:didReceiveEvent:peerIds:">- group:didReceiveEvent:peerIds:</option>
+		
+		<option value="//api/name/group:didReceiveMessage:">- group:didReceiveMessage:</option>
+		
+		<option value="//api/name/group:messageSendFailed:error:">- group:messageSendFailed:error:</option>
+		
+		<option value="//api/name/group:messageSendFinished:">- group:messageSendFinished:</option>
+		
+		<option value="//api/name/session:group:didReceiveGroupEvent:memberIds:">- session:group:didReceiveGroupEvent:memberIds:</option>
+		
+		<option value="//api/name/session:group:didReceiveGroupMessage:fromPeerId:">- session:group:didReceiveGroupMessage:fromPeerId:</option>
+		
+		<option value="//api/name/session:group:messageSent:success:">- session:group:messageSent:success:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVGroupDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AVGroup.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/group:didReceiveMessage:" title="group:didReceiveMessage:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/group:didReceiveMessage:">&ndash;&nbsp;group:didReceiveMessage:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)group:(AVGroup *)<em>group</em> didReceiveMessage:(AVMessage *)<em>message</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/group:didReceiveEvent:peerIds:" title="group:didReceiveEvent:peerIds:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/group:didReceiveEvent:peerIds:">&ndash;&nbsp;group:didReceiveEvent:peerIds:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)group:(AVGroup *)<em>group</em> didReceiveEvent:(AVGroupEvent)<em>event</em> peerIds:(NSArray *)<em>peerIds</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/group:messageSendFinished:" title="group:messageSendFinished:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/group:messageSendFinished:">&ndash;&nbsp;group:messageSendFinished:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)group:(AVGroup *)<em>group</em> messageSendFinished:(AVMessage *)<em>message</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/group:messageSendFailed:error:" title="group:messageSendFailed:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/group:messageSendFailed:error:">&ndash;&nbsp;group:messageSendFailed:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)group:(AVGroup *)<em>group</em> messageSendFailed:(AVMessage *)<em>message</em> error:(NSError *)<em>error</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/session:group:didReceiveGroupMessage:fromPeerId:" title="session:group:didReceiveGroupMessage:fromPeerId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/session:group:didReceiveGroupMessage:fromPeerId:">&ndash;&nbsp;session:group:didReceiveGroupMessage:fromPeerId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> group:(AVGroup *)<em>group</em> didReceiveGroupMessage:(NSString *)<em>message</em> fromPeerId:(NSString *)<em>peerId</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/session:group:didReceiveGroupEvent:memberIds:" title="session:group:didReceiveGroupEvent:memberIds:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/session:group:didReceiveGroupEvent:memberIds:">&ndash;&nbsp;session:group:didReceiveGroupEvent:memberIds:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> group:(AVGroup *)<em>group</em> didReceiveGroupEvent:(AVGroupEvent)<em>event</em> memberIds:(NSArray *)<em>memberIds</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/session:group:messageSent:success:" title="session:group:messageSent:success:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/session:group:messageSent:success:">&ndash;&nbsp;session:group:messageSent:success:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> group:(AVGroup *)<em>group</em> messageSent:(NSString *)<em>message</em> success:(BOOL)<em>success</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVObject Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/ACL">ACL</option>
+		
+		<option value="//api/name/className">className</option>
+		
+		<option value="//api/name/createdAt">createdAt</option>
+		
+		<option value="//api/name/fetchWhenSave">fetchWhenSave</option>
+		
+		<option value="//api/name/objectId">objectId</option>
+		
+		<option value="//api/name/updatedAt">updatedAt</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/deleteAll:">+ deleteAll:</option>
+		
+		<option value="//api/name/deleteAll:error:">+ deleteAll:error:</option>
+		
+		<option value="//api/name/deleteAllInBackground:block:">+ deleteAllInBackground:block:</option>
+		
+		<option value="//api/name/fetchAll:">+ fetchAll:</option>
+		
+		<option value="//api/name/fetchAll:error:">+ fetchAll:error:</option>
+		
+		<option value="//api/name/fetchAllIfNeeded:">+ fetchAllIfNeeded:</option>
+		
+		<option value="//api/name/fetchAllIfNeeded:error:">+ fetchAllIfNeeded:error:</option>
+		
+		<option value="//api/name/fetchAllIfNeededInBackground:block:">+ fetchAllIfNeededInBackground:block:</option>
+		
+		<option value="//api/name/fetchAllIfNeededInBackground:target:selector:">+ fetchAllIfNeededInBackground:target:selector:</option>
+		
+		<option value="//api/name/fetchAllInBackground:block:">+ fetchAllInBackground:block:</option>
+		
+		<option value="//api/name/fetchAllInBackground:target:selector:">+ fetchAllInBackground:target:selector:</option>
+		
+		<option value="//api/name/object">+ object</option>
+		
+		<option value="//api/name/objectWithClassName:">+ objectWithClassName:</option>
+		
+		<option value="//api/name/objectWithClassName:dictionary:">+ objectWithClassName:dictionary:</option>
+		
+		<option value="//api/name/objectWithDictionary:">+ objectWithDictionary:</option>
+		
+		<option value="//api/name/objectWithoutDataWithClassName:objectId:">+ objectWithoutDataWithClassName:objectId:</option>
+		
+		<option value="//api/name/objectWithoutDataWithObjectId:">+ objectWithoutDataWithObjectId:</option>
+		
+		<option value="//api/name/query">+ query</option>
+		
+		<option value="//api/name/registerSubclass">+ registerSubclass</option>
+		
+		<option value="//api/name/saveAll:">+ saveAll:</option>
+		
+		<option value="//api/name/saveAll:error:">+ saveAll:error:</option>
+		
+		<option value="//api/name/saveAllInBackground:">+ saveAllInBackground:</option>
+		
+		<option value="//api/name/saveAllInBackground:block:">+ saveAllInBackground:block:</option>
+		
+		<option value="//api/name/saveAllInBackground:target:selector:">+ saveAllInBackground:target:selector:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addObject:forKey:">- addObject:forKey:</option>
+		
+		<option value="//api/name/addObjectsFromArray:forKey:">- addObjectsFromArray:forKey:</option>
+		
+		<option value="//api/name/addUniqueObject:forKey:">- addUniqueObject:forKey:</option>
+		
+		<option value="//api/name/addUniqueObjectsFromArray:forKey:">- addUniqueObjectsFromArray:forKey:</option>
+		
+		<option value="//api/name/allKeys">- allKeys</option>
+		
+		<option value="//api/name/delete">- delete</option>
+		
+		<option value="//api/name/delete:">- delete:</option>
+		
+		<option value="//api/name/deleteEventually">- deleteEventually</option>
+		
+		<option value="//api/name/deleteEventuallyWithBlock:">- deleteEventuallyWithBlock:</option>
+		
+		<option value="//api/name/deleteInBackground">- deleteInBackground</option>
+		
+		<option value="//api/name/deleteInBackgroundWithBlock:">- deleteInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/deleteInBackgroundWithTarget:selector:">- deleteInBackgroundWithTarget:selector:</option>
+		
+		<option value="//api/name/dictionaryForObject">- dictionaryForObject</option>
+		
+		<option value="//api/name/fetch">- fetch</option>
+		
+		<option value="//api/name/fetch:">- fetch:</option>
+		
+		<option value="//api/name/fetchIfNeeded">- fetchIfNeeded</option>
+		
+		<option value="//api/name/fetchIfNeeded:">- fetchIfNeeded:</option>
+		
+		<option value="//api/name/fetchIfNeededInBackgroundWithBlock:">- fetchIfNeededInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/fetchIfNeededInBackgroundWithTarget:selector:">- fetchIfNeededInBackgroundWithTarget:selector:</option>
+		
+		<option value="//api/name/fetchIfNeededWithKeys:">- fetchIfNeededWithKeys:</option>
+		
+		<option value="//api/name/fetchIfNeededWithKeys:error:">- fetchIfNeededWithKeys:error:</option>
+		
+		<option value="//api/name/fetchInBackgroundWithBlock:">- fetchInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/fetchInBackgroundWithKeys:block:">- fetchInBackgroundWithKeys:block:</option>
+		
+		<option value="//api/name/fetchInBackgroundWithTarget:selector:">- fetchInBackgroundWithTarget:selector:</option>
+		
+		<option value="//api/name/fetchWithKeys:">- fetchWithKeys:</option>
+		
+		<option value="//api/name/fetchWithKeys:error:">- fetchWithKeys:error:</option>
+		
+		<option value="//api/name/incrementKey:">- incrementKey:</option>
+		
+		<option value="//api/name/incrementKey:byAmount:">- incrementKey:byAmount:</option>
+		
+		<option value="//api/name/initWithClassName:">- initWithClassName:</option>
+		
+		<option value="//api/name/isDataAvailable">- isDataAvailable</option>
+		
+		<option value="//api/name/objectForKey:">- objectForKey:</option>
+		
+		<option value="//api/name/objectForKeyedSubscript:">- objectForKeyedSubscript:</option>
+		
+		<option value="//api/name/objectFromDictionary:">- objectFromDictionary:</option>
+		
+		<option value="//api/name/refresh">- refresh</option>
+		
+		<option value="//api/name/refresh:">- refresh:</option>
+		
+		<option value="//api/name/refreshInBackgroundWithBlock:">- refreshInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/refreshInBackgroundWithKeys:block:">- refreshInBackgroundWithKeys:block:</option>
+		
+		<option value="//api/name/refreshInBackgroundWithTarget:selector:">- refreshInBackgroundWithTarget:selector:</option>
+		
+		<option value="//api/name/refreshWithKeys:">- refreshWithKeys:</option>
+		
+		<option value="//api/name/relationforKey:">- relationforKey:</option>
+		
+		<option value="//api/name/removeObject:forKey:">- removeObject:forKey:</option>
+		
+		<option value="//api/name/removeObjectForKey:">- removeObjectForKey:</option>
+		
+		<option value="//api/name/removeObjectsInArray:forKey:">- removeObjectsInArray:forKey:</option>
+		
+		<option value="//api/name/save">- save</option>
+		
+		<option value="//api/name/save:">- save:</option>
+		
+		<option value="//api/name/saveEventually">- saveEventually</option>
+		
+		<option value="//api/name/saveEventually:">- saveEventually:</option>
+		
+		<option value="//api/name/saveInBackground">- saveInBackground</option>
+		
+		<option value="//api/name/saveInBackgroundWithBlock:">- saveInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/saveInBackgroundWithTarget:selector:">- saveInBackgroundWithTarget:selector:</option>
+		
+		<option value="//api/name/setObject:forKey:">- setObject:forKey:</option>
+		
+		<option value="//api/name/setObject:forKeyedSubscript:">- setObject:forKeyedSubscript:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVObject Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AVObject.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>An object that is a local representation of data persisted to the AVOS Cloud. This is the
+main class that is used to interact with objects in your app.</p>
+
+<h3>Subclassing Notes</h3>
+
+
+<p>Developers can subclass AVObject for a more native object-oriented class structure. Strongly-typed subclasses of AVObject must conform to the AVSubclassing protocol and must call registerSubclass to be returned by AVQuery and other AVObject factories. All methods in AVSubclassing except for <a href="../Protocols/AVSubclassing.html#//api/name/parseClassName">[AVSubclassing parseClassName]</a> are already implemented in the AVObject(Subclass) category. Inculding AVObject+Subclass.h in your implementation file provides these implementations automatically.</p>
+
+<p>Subclasses support simpler initializers, <a href="#//api/name/query">query</a> syntax, and dynamic synthesizers. The following shows an example subclass:</p>
+
+<p>@interface MYGame : AVObject&lt; <a href="../Protocols/AVSubclassing.html">AVSubclassing</a> >
+// Accessing this property is the same as objectForKey:@&ldquo;title&rdquo;
+@property (retain) NSString <em>title;
++ (NSString </em>)parseClassName;
+@end</p>
+
+<p>@implementation MYGame
+@dynamic title;
++ (NSString *)parseClassName {
+return @&ldquo;Game&rdquo;;
+}
+@end</p>
+
+<p>MYGame *game = [[MYGame alloc] init];
+game.title = @&ldquo;Bughouse&rdquo;;
+[game saveInBackground];</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Creating a AVObject" name="task_Creating a AVObject"></a>
+						<h2 class="task-title">Creating a AVObject</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/objectWithClassName:" title="objectWithClassName:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithClassName:">+&nbsp;objectWithClassName:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a new AVObject with a class name.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithClassName:(NSString *)<em>className</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>className</code></th>
+						<td><p>A class name can be any alphanumeric string that begins with a letter. It represents an <a href="#//api/name/object">object</a> in your app, like a User of a Document.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the <a href="#//api/name/object">object</a> that is instantiated with the given class name.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates a new AVObject with a class name.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithoutDataWithClassName:objectId:" title="objectWithoutDataWithClassName:objectId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithClassName:objectId:">+&nbsp;objectWithoutDataWithClassName:objectId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
+<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>className</code></th>
+						<td><p>The object&rsquo;s class.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> id for the referenced <a href="#//api/name/object">object</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A AVObject without data.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
+<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithClassName:dictionary:" title="objectWithClassName:dictionary:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithClassName:dictionary:">+&nbsp;objectWithClassName:dictionary:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a new AVObject with a class name, initialized with data constructed from the specified set of objects and keys.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithClassName:(NSString *)<em>className</em> dictionary:(NSDictionary *)<em>dictionary</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>className</code></th>
+						<td><p>The object&rsquo;s class.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dictionary</code></th>
+						<td><p>An NSDictionary of keys and objects to set on the new AVObject.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A AVObject with the given class name and set with the given data.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates a new AVObject with a class name, initialized with data constructed from the specified set of objects and keys.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithClassName:" title="initWithClassName:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithClassName:">&ndash;&nbsp;initWithClassName:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes a new AVObject with a class name.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithClassName:(NSString *)<em>newClassName</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newClassName</code></th>
+						<td><p>A class name can be any alphanumeric string that begins with a letter. It represents an <a href="#//api/name/object">object</a> in your app, like a User or a Document.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the <a href="#//api/name/object">object</a> that is instantiated with the given class name.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Initializes a new AVObject with a class name.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Object Properties" name="task_Managing Object Properties"></a>
+						<h2 class="task-title">Managing Object Properties</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/objectId" title="objectId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectId">&nbsp;&nbsp;objectId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The id of the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *objectId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The id of the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updatedAt" title="updatedAt"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updatedAt">&nbsp;&nbsp;updatedAt</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>When the <a href="#//api/name/object">object</a> was last updated.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSDate *updatedAt</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>When the <a href="#//api/name/object">object</a> was last updated.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createdAt" title="createdAt"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createdAt">&nbsp;&nbsp;createdAt</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>When the <a href="#//api/name/object">object</a> was created.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSDate *createdAt</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>When the <a href="#//api/name/object">object</a> was created.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/className" title="className"></a>
+	<h3 class="method-title"><code><a href="#//api/name/className">&nbsp;&nbsp;className</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The class name of the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *className</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The class name of the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ACL" title="ACL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ACL">&nbsp;&nbsp;ACL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The ACL for this <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) AVACL *ACL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The ACL for this <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/allKeys" title="allKeys"></a>
+	<h3 class="method-title"><code><a href="#//api/name/allKeys">&ndash;&nbsp;allKeys</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an array of the keys contained in this <a href="#//api/name/object">object</a>. This does not include
+<a href="#//api/name/createdAt">createdAt</a>, <a href="#//api/name/updatedAt">updatedAt</a>, authData, or <a href="#//api/name/objectId">objectId</a>. It does include things like username
+and <a href="#//api/name/ACL">ACL</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSArray *)allKeys</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns an array of the keys contained in this <a href="#//api/name/object">object</a>. This does not include
+<a href="#//api/name/createdAt">createdAt</a>, <a href="#//api/name/updatedAt">updatedAt</a>, authData, or <a href="#//api/name/objectId">objectId</a>. It does include things like username
+and <a href="#//api/name/ACL">ACL</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectForKey:" title="objectForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectForKey:">&ndash;&nbsp;objectForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the <a href="#//api/name/object">object</a> associated with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)objectForKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key that the <a href="#//api/name/object">object</a> is associated with.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The value associated with the given key, or nil if no value is associated with key.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the <a href="#//api/name/object">object</a> associated with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setObject:forKey:" title="setObject:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setObject:forKey:">&ndash;&nbsp;setObject:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the <a href="#//api/name/object">object</a> associated with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setObject:(id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The <a href="#//api/name/object">object</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets the <a href="#//api/name/object">object</a> associated with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeObjectForKey:" title="removeObjectForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeObjectForKey:">&ndash;&nbsp;removeObjectForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Unsets a key on the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeObjectForKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Unsets a key on the <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectForKeyedSubscript:" title="objectForKeyedSubscript:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectForKeyedSubscript:">&ndash;&nbsp;objectForKeyedSubscript:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>In LLVM 4.0 (XCode 4.5) or higher allows myAVObject[key].</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)objectForKeyedSubscript:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li>In LLVM 4.0 (XCode 4.5) or higher allows myAVObject[key].</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setObject:forKeyedSubscript:" title="setObject:forKeyedSubscript:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setObject:forKeyedSubscript:">&ndash;&nbsp;setObject:forKeyedSubscript:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>In LLVM 4.0 (XCode 4.5) or higher allows myObject[key] = value</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setObject:(id)<em>object</em> forKeyedSubscript:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The <a href="#//api/name/object">object</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li>In LLVM 4.0 (XCode 4.5) or higher allows myObject[key] = value</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/relationforKey:" title="relationforKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/relationforKey:">&ndash;&nbsp;relationforKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the relation <a href="#//api/name/object">object</a> associated with the given key</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVRelation *)relationforKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key that the relation is associated with.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the relation <a href="#//api/name/object">object</a> associated with the given key</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addObject:forKey:" title="addObject:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addObject:forKey:">&ndash;&nbsp;addObject:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds an <a href="#//api/name/object">object</a> to the end of the array associated with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addObject:(id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to add.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds an <a href="#//api/name/object">object</a> to the end of the array associated with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addObjectsFromArray:forKey:" title="addObjectsFromArray:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addObjectsFromArray:forKey:">&ndash;&nbsp;addObjectsFromArray:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds the objects contained in another array to the end of the array associated
+with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addObjectsFromArray:(NSArray *)<em>objects</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to add.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds the objects contained in another array to the end of the array associated
+with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addUniqueObject:forKey:" title="addUniqueObject:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addUniqueObject:forKey:">&ndash;&nbsp;addUniqueObject:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds an <a href="#//api/name/object">object</a> to the array associated with a given key, only if it is not
+already present in the array. The position of the insert is not guaranteed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addUniqueObject:(id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to add.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds an <a href="#//api/name/object">object</a> to the array associated with a given key, only if it is not
+already present in the array. The position of the insert is not guaranteed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addUniqueObjectsFromArray:forKey:" title="addUniqueObjectsFromArray:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addUniqueObjectsFromArray:forKey:">&ndash;&nbsp;addUniqueObjectsFromArray:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds the objects contained in another array to the array associated with
+a given key, only adding elements which are not already present in the array.
+The position of the insert is not guaranteed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addUniqueObjectsFromArray:(NSArray *)<em>objects</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to add.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds the objects contained in another array to the array associated with
+a given key, only adding elements which are not already present in the array.
+The position of the insert is not guaranteed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeObject:forKey:" title="removeObject:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeObject:forKey:">&ndash;&nbsp;removeObject:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes all occurrences of an <a href="#//api/name/object">object</a> from the array associated with a given
+key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeObject:(id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to remove.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Removes all occurrences of an <a href="#//api/name/object">object</a> from the array associated with a given
+key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeObjectsInArray:forKey:" title="removeObjectsInArray:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeObjectsInArray:forKey:">&ndash;&nbsp;removeObjectsInArray:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes all occurrences of the objects contained in another array from the
+array associated with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeObjectsInArray:(NSArray *)<em>objects</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to remove.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Removes all occurrences of the objects contained in another array from the
+array associated with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/incrementKey:" title="incrementKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/incrementKey:">&ndash;&nbsp;incrementKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Increments the given key by 1.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)incrementKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Increments the given key by 1.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/incrementKey:byAmount:" title="incrementKey:byAmount:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/incrementKey:byAmount:">&ndash;&nbsp;incrementKey:byAmount:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Increments the given key by a number.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)incrementKey:(NSString *)<em>key</em> byAmount:(NSNumber *)<em>amount</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The key.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>amount</code></th>
+						<td><p>The amount to increment.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Increments the given key by a number.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Saving an Object to AVOS Cloud" name="task_Saving an Object to AVOS Cloud"></a>
+						<h2 class="task-title">Saving an Object to AVOS Cloud</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/save" title="save"></a>
+	<h3 class="method-title"><code><a href="#//api/name/save">&ndash;&nbsp;save</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves the AVObject.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)save</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the save succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves the AVObject.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/save:" title="save:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/save:">&ndash;&nbsp;save:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves the AVObject and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)save:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/save">save</a> succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves the AVObject and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackground" title="saveInBackground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackground">&ndash;&nbsp;saveInBackground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves the AVObject asynchronously.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves the AVObject asynchronously.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithBlock:" title="saveInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithTarget:selector:" title="saveInBackgroundWithTarget:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithTarget:selector:">&ndash;&nbsp;saveInBackgroundWithTarget:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveEventually" title="saveEventually"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveEventually">&ndash;&nbsp;saveEventually</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/saveEventually:">saveEventually:</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveEventually</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/saveEventually:">- saveEventually:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveEventually:" title="saveEventually:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveEventually:">&ndash;&nbsp;saveEventually:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves this <a href="#//api/name/object">object</a> to the server at some unspecified time in the future, even if AVOS Cloud is currently inaccessible.
+Use this when you may not have a solid network connection, and don&rsquo;t need to know when the <a href="#//api/name/save">save</a> completes.
+If there is some problem with the <a href="#//api/name/object">object</a> such that it can&rsquo;t be saved, it will be silently discarded.  If the <a href="#//api/name/save">save</a>
+completes successfully while the <a href="#//api/name/object">object</a> is still in memory, then callback will be called.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveEventually:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves this <a href="#//api/name/object">object</a> to the server at some unspecified time in the future, even if AVOS Cloud is currently inaccessible.
+Use this when you may not have a solid network connection, and don&rsquo;t need to know when the <a href="#//api/name/save">save</a> completes.
+If there is some problem with the <a href="#//api/name/object">object</a> such that it can&rsquo;t be saved, it will be silently discarded.  If the <a href="#//api/name/save">save</a>
+completes successfully while the <a href="#//api/name/object">object</a> is still in memory, then callback will be called.</p>
+
+<p>Objects saved with this method will be stored locally in an on-disk cache until they can be delivered to AVOS Cloud.
+They will be sent immediately if possible.  Otherwise, they will be sent the next time a network connection is
+available.  Objects saved this way will persist even after the app is closed, in which case they will be sent the
+next time the app is opened.  If more than 10MB of data is waiting to be sent, subsequent calls to <a href="#//api/name/saveEventually">saveEventually</a>
+will cause old saves to be silently discarded until the connection can be re-established, and the queued objects
+can be saved.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Saving Many Objects to AVOS Cloud" name="task_Saving Many Objects to AVOS Cloud"></a>
+						<h2 class="task-title">Saving Many Objects to AVOS Cloud</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/saveAll:" title="saveAll:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveAll:">+&nbsp;saveAll:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves a collection of objects all at once.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)saveAll:(NSArray *)<em>objects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/save">save</a> succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves a collection of objects all at once.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveAll:error:" title="saveAll:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveAll:error:">+&nbsp;saveAll:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves a collection of objects all at once and sets an error if necessary.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)saveAll:(NSArray *)<em>objects</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/save">save</a> succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves a collection of objects all at once and sets an error if necessary.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveAllInBackground:" title="saveAllInBackground:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveAllInBackground:">+&nbsp;saveAllInBackground:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves a collection of objects all at once asynchronously.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)saveAllInBackground:(NSArray *)<em>objects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves a collection of objects all at once asynchronously.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveAllInBackground:block:" title="saveAllInBackground:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveAllInBackground:block:">+&nbsp;saveAllInBackground:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves a collection of objects all at once asynchronously and the block when done.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)saveAllInBackground:(NSArray *)<em>objects</em> block:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves a collection of objects all at once asynchronously and the block when done.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveAllInBackground:target:selector:" title="saveAllInBackground:target:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveAllInBackground:target:selector:">+&nbsp;saveAllInBackground:target:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Saves a collection of objects all at once asynchronously and calls a callback when done.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)saveAllInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithError:(NSError *)error. error will be nil on success and set if there was an error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Saves a collection of objects all at once asynchronously and calls a callback when done.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Getting an Object from AVOS Cloud" name="task_Getting an Object from AVOS Cloud"></a>
+						<h2 class="task-title">Getting an Object from AVOS Cloud</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/isDataAvailable" title="isDataAvailable"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isDataAvailable">&ndash;&nbsp;isDataAvailable</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets whether the AVObject has been fetched.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isDataAvailable</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if the AVObject is new or has been fetched or refreshed.  NO otherwise.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets whether the AVObject has been fetched.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refresh" title="refresh"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refresh">&ndash;&nbsp;refresh</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refresh</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshWithKeys:" title="refreshWithKeys:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshWithKeys:">&ndash;&nbsp;refreshWithKeys:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refreshWithKeys:(NSArray *)<em>keys</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refresh:" title="refresh:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refresh:">&ndash;&nbsp;refresh:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)refresh:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>success or not</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshInBackgroundWithBlock:" title="refreshInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshInBackgroundWithBlock:">&ndash;&nbsp;refreshInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refreshInBackgroundWithBlock:(AVObjectResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (AVObject <em><a href="#//api/name/object">object</a>, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshInBackgroundWithKeys:block:" title="refreshInBackgroundWithKeys:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshInBackgroundWithKeys:block:">&ndash;&nbsp;refreshInBackgroundWithKeys:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refreshInBackgroundWithKeys:(NSArray *)<em>keys</em> block:(AVObjectResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (AVObject <em><a href="#//api/name/object">object</a>, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject with the current data from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshInBackgroundWithTarget:selector:" title="refreshInBackgroundWithTarget:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshInBackgroundWithTarget:selector:">&ndash;&nbsp;refreshInBackgroundWithTarget:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Refreshes the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refreshInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target on which the selector will be called.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(AVObject <em>)refreshedObject error:(NSError </em>)error. error will be nil on success and set if there was an error. refreshedObject will be the AVObject with the refreshed data.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Refreshes the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetch" title="fetch"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetch">&ndash;&nbsp;fetch</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject with the current data from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)fetch</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject with the current data from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetch:" title="fetch:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetch:">&ndash;&nbsp;fetch:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)fetch:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>success or not</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchWithKeys:" title="fetchWithKeys:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchWithKeys:">&ndash;&nbsp;fetchWithKeys:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject with the current data and specified keys from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchWithKeys:(NSArray *)<em>keys</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject with the current data and specified keys from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchWithKeys:error:" title="fetchWithKeys:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchWithKeys:error:">&ndash;&nbsp;fetchWithKeys:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject with the current data and specified keys from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)fetchWithKeys:(NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>success or not</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject with the current data and specified keys from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeeded" title="fetchIfNeeded"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeeded">&ndash;&nbsp;fetchIfNeeded</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeeded</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeeded:" title="fetchIfNeeded:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeeded:">&ndash;&nbsp;fetchIfNeeded:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeeded:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeededWithKeys:" title="fetchIfNeededWithKeys:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededWithKeys:">&ndash;&nbsp;fetchIfNeededWithKeys:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(NSArray *)<em>keys</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeededWithKeys:error:" title="fetchIfNeededWithKeys:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededWithKeys:error:">&ndash;&nbsp;fetchIfNeededWithKeys:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchInBackgroundWithBlock:" title="fetchInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchInBackgroundWithBlock:">&ndash;&nbsp;fetchInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithBlock:(AVObjectResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (AVObject <em><a href="#//api/name/object">object</a>, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchInBackgroundWithKeys:block:" title="fetchInBackgroundWithKeys:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchInBackgroundWithKeys:block:">&ndash;&nbsp;fetchInBackgroundWithKeys:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithKeys:(NSArray *)<em>keys</em> block:(AVObjectResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keys</code></th>
+						<td><p>Pointer to an NSArray that contains objects specified by the keys want to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (AVObject <em><a href="#//api/name/object">object</a>, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchInBackgroundWithTarget:selector:" title="fetchInBackgroundWithTarget:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchInBackgroundWithTarget:selector:">&ndash;&nbsp;fetchInBackgroundWithTarget:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target on which the selector will be called.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(AVObject <em>)refreshedObject error:(NSError </em>)error. error will be nil on success and set if there was an error. refreshedObject will be the AVObject with the refreshed data.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeededInBackgroundWithBlock:" title="fetchIfNeededInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededInBackgroundWithBlock:">&ndash;&nbsp;fetchIfNeededInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchIfNeededInBackgroundWithBlock:(AVObjectResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute.  The block should have the following argument signature: (AVObject <em><a href="#//api/name/object">object</a>, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchIfNeededInBackgroundWithTarget:selector:" title="fetchIfNeededInBackgroundWithTarget:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededInBackgroundWithTarget:selector:">&ndash;&nbsp;fetchIfNeededInBackgroundWithTarget:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchIfNeededInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target on which the selector will be called.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call.  It should have the following signature: (void)callbackWithResult:(AVObject <em>)fetchedObject error:(NSError </em>)error. error will be nil on success and set if there was an error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Getting Many Objects from AVOS Cloud" name="task_Getting Many Objects from AVOS Cloud"></a>
+						<h2 class="task-title">Getting Many Objects from AVOS Cloud</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/fetchAll:" title="fetchAll:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAll:">+&nbsp;fetchAll:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAll:(NSArray *)<em>objects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAll:error:" title="fetchAll:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAll:error:">+&nbsp;fetchAll:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)fetchAll:(NSArray *)<em>objects</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set  if necessary</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>success or not</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllIfNeeded:" title="fetchAllIfNeeded:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeeded:">+&nbsp;fetchAllIfNeeded:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAllIfNeeded:(NSArray *)<em>objects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllIfNeeded:error:" title="fetchAllIfNeeded:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeeded:error:">+&nbsp;fetchAllIfNeeded:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)fetchAllIfNeeded:(NSArray *)<em>objects</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set  if necessary</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>success or not</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllInBackground:block:" title="fetchAllInBackground:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllInBackground:block:">+&nbsp;fetchAllInBackground:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAllInBackground:(NSArray *)<em>objects</em> block:(AVArrayResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (NSArray <em>objects, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllInBackground:target:selector:" title="fetchAllInBackground:target:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllInBackground:target:selector:">+&nbsp;fetchAllInBackground:target:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAllInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target on which the selector will be called.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSArray <em>)fetchedObjects error:(NSError </em>)error. error will be nil on success and set if there was an error. fetchedObjects will the array of AVObjects that were fetched.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllIfNeededInBackground:block:" title="fetchAllIfNeededInBackground:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeededInBackground:block:">+&nbsp;fetchAllIfNeededInBackground:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAllIfNeededInBackground:(NSArray *)<em>objects</em> block:(AVArrayResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (NSArray <em>objects, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchAllIfNeededInBackground:target:selector:" title="fetchAllIfNeededInBackground:target:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeededInBackground:target:selector:">+&nbsp;fetchAllIfNeededInBackground:target:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)fetchAllIfNeededInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target on which the selector will be called.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSArray <em>)fetchedObjects error:(NSError </em>)error. error will be nil on success and set if there was an error. fetchedObjects will the array of AVObjects
+that were fetched.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Removing an Object from AVOS Cloud" name="task_Removing an Object from AVOS Cloud"></a>
+						<h2 class="task-title">Removing an Object from AVOS Cloud</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/delete" title="delete"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delete">&ndash;&nbsp;delete</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the AVObject.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)delete</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the delete succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes the AVObject.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delete:" title="delete:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delete:">&ndash;&nbsp;delete:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the AVObject and sets an error if it occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)delete:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/delete">delete</a> succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes the AVObject and sets an error if it occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteInBackground" title="deleteInBackground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteInBackground">&ndash;&nbsp;deleteInBackground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the AVObject asynchronously.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteInBackground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes the AVObject asynchronously.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteInBackgroundWithBlock:" title="deleteInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteInBackgroundWithBlock:">&ndash;&nbsp;deleteInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes the AVObject asynchronously and executes the given callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteInBackgroundWithTarget:selector:" title="deleteInBackgroundWithTarget:selector:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteInBackgroundWithTarget:selector:">&ndash;&nbsp;deleteInBackgroundWithTarget:selector:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selector</code></th>
+						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes the AVObject asynchronously and calls the given callback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteEventually" title="deleteEventually"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteEventually">&ndash;&nbsp;deleteEventually</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes this <a href="#//api/name/object">object</a> from the server at some unspecified time in the future, even if AVOS Cloud is currently inaccessible.
+Use this when you may not have a solid network connection, and don&rsquo;t need to know when the <a href="#//api/name/delete">delete</a> completes.
+If there is some problem with the <a href="#//api/name/object">object</a> such that it can&rsquo;t be deleted, the request will be silently discarded.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteEventually</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes this <a href="#//api/name/object">object</a> from the server at some unspecified time in the future, even if AVOS Cloud is currently inaccessible.
+Use this when you may not have a solid network connection, and don&rsquo;t need to know when the <a href="#//api/name/delete">delete</a> completes.
+If there is some problem with the <a href="#//api/name/object">object</a> such that it can&rsquo;t be deleted, the request will be silently discarded.</p>
+
+<p>Delete instructions made with this method will be stored locally in an on-disk cache until they can be transmitted
+to AVOS Cloud. They will be sent immediately if possible.  Otherwise, they will be sent the next time a network connection
+is available. Delete requests will persist even after the app is closed, in which case they will be sent the
+next time the app is opened.  If more than 10MB of <a href="#//api/name/saveEventually">saveEventually</a> or deleteEventually commands are waiting to be sent,
+subsequent calls to <a href="#//api/name/saveEventually">saveEventually</a> or deleteEventually will cause old requests to be silently discarded until the
+connection can be re-established, and the queued requests can go through.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteEventuallyWithBlock:" title="deleteEventuallyWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteEventuallyWithBlock:">&ndash;&nbsp;deleteEventuallyWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/deleteEventually">deleteEventually</a> with callback block.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteEventuallyWithBlock:(AVIdResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p><a href="#//api/name/deleteEventually">deleteEventually</a> with callback block.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteAll:" title="deleteAll:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteAll:">+&nbsp;deleteAll:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)deleteAll:(NSArray *)<em>objects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p><a href="#//api/name/object">object</a> array</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/delete">delete</a> succeeded</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteAll:error:" title="deleteAll:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteAll:error:">+&nbsp;deleteAll:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)deleteAll:(NSArray *)<em>objects</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p><a href="#//api/name/object">object</a> array</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to an NSError that will be set if necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>whether the <a href="#//api/name/delete">delete</a> succeeded.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteAllInBackground:block:" title="deleteAllInBackground:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteAllInBackground:block:">+&nbsp;deleteAllInBackground:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array. The element of objects array is AVObject or its subclass.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteAllInBackground:(NSArray *)<em>objects</em> block:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objects</code></th>
+						<td><p><a href="#//api/name/object">object</a> array</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deletes all objects specified in <a href="#//api/name/object">object</a> array. The element of objects array is AVObject or its subclass.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchWhenSave" title="fetchWhenSave"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchWhenSave">&nbsp;&nbsp;fetchWhenSave</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) BOOL fetchWhenSave</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dictionaryForObject" title="dictionaryForObject"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dictionaryForObject">&ndash;&nbsp;dictionaryForObject</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Generate JSON dictionary from AVObject or its subclass <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSMutableDictionary *)dictionaryForObject</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Generate JSON dictionary from AVObject or its subclass <a href="#//api/name/object">object</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithDictionary:" title="objectWithDictionary:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithDictionary:">+&nbsp;objectWithDictionary:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Construct an AVObject with dictionary.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVObject *)objectWithDictionary:(NSDictionary *)<em>dictionary</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dictionary</code></th>
+						<td><p>A dictionary to construct an AVObject.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Construct an AVObject with dictionary.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectFromDictionary:" title="objectFromDictionary:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectFromDictionary:">&ndash;&nbsp;objectFromDictionary:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Load <a href="#//api/name/object">object</a> properties from JSON dictionary.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)objectFromDictionary:(NSDictionary *)<em>dict</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dict</code></th>
+						<td><p>JSON dictionary</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Load <a href="#//api/name/object">object</a> properties from JSON dictionary.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Subclass Methods" name="task_Subclass Methods"></a>
+						<h2 class="task-title">Subclass Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/object" title="object"></a>
+	<h3 class="method-title"><code><a href="#//api/name/object">+&nbsp;object</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates an instance of the registered subclass with this class&rsquo;s parseClassName.
+This helps a subclass ensure that it can be subclassed itself. For example, [AVUser object] will
+return a MyUser object if MyUser is a registered subclass of AVUser. For this reason, [MyClass object] is
+preferred to [[MyClass alloc] init].
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)object</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates an instance of the registered subclass with this class&rsquo;s parseClassName.
+This helps a subclass ensure that it can be subclassed itself. For example, [AVUser object] will
+return a MyUser object if MyUser is a registered subclass of AVUser. For this reason, [MyClass object] is
+preferred to [[MyClass alloc] init].
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject+Subclass.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithoutDataWithObjectId:" title="objectWithoutDataWithObjectId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
+<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithObjectId:(NSString *)<em>objectId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> id for the referenced <a href="#//api/name/object">object</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A AVObject without data.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
+<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject+Subclass.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/registerSubclass" title="registerSubclass"></a>
+	<h3 class="method-title"><code><a href="#//api/name/registerSubclass">+&nbsp;registerSubclass</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Registers an Objective-C class for AVOS Cloud to use for representing a given AVOS Cloud class.
+Once this is called on a AVObject subclass, any AVObject AVOS Cloud creates with a class
+name matching [self parseClassName] will be an instance of subclass.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)registerSubclass</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Registers an Objective-C class for AVOS Cloud to use for representing a given AVOS Cloud class.
+Once this is called on a AVObject subclass, any AVObject AVOS Cloud creates with a class
+name matching [self parseClassName] will be an instance of subclass.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject+Subclass.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="method-title"><code><a href="#//api/name/query">+&nbsp;query</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a query for objects of type +parseClassName.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVQuery *)query</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns a query for objects of type +parseClassName.
+This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
+A default implementation is provided by AVObject which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVObject+Subclass.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVSubclassing Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/object">+ object</option>
+		
+		<option value="//api/name/objectWithoutDataWithObjectId:">+ objectWithoutDataWithObjectId:</option>
+		
+		<option value="//api/name/parseClassName">+ parseClassName</option>
+		
+		<option value="//api/name/query">+ query</option>
+		
+		<option value="//api/name/registerSubclass">+ registerSubclass</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVSubclassing Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>AVSubclassing.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>If a subclass of <a href="../Classes/AVObject.html">AVObject</a> conforms to AVSubclassing and calls <a href="#//api/name/registerSubclass">registerSubclass</a>, AVOS Cloud will be able to use that class as the native class for a AVOS Cloud <a href="#//api/name/object">object</a>.</p>
+
+<p>Classes conforming to this protocol should subclass <a href="../Classes/AVObject.html">AVObject</a> and include AVObject+Subclass.h in their implementation file. This ensures the methods in the Subclass category of <a href="../Classes/AVObject.html">AVObject</a> are exposed in its subclasses only.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/parseClassName" title="parseClassName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/parseClassName">+&nbsp;parseClassName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The name of the class as seen in the REST API.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)parseClassName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The name of the class as seen in the REST API.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSubclassing.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/object" title="object"></a>
+	<h3 class="method-title"><code><a href="#//api/name/object">+&nbsp;object</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Constructs an object of the most specific class known to implement parseClassName.
+This method takes care to help AVObject subclasses be subclassed themselves.
+For example, [AVUser object] returns a <a href="../Classes/AVUser.html">AVUser</a> by default but will return an
+object of a registered subclass instead if one is known.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)object</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the object that is instantiated.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Constructs an object of the most specific class known to implement parseClassName.
+This method takes care to help AVObject subclasses be subclassed themselves.
+For example, [AVUser object] returns a <a href="../Classes/AVUser.html">AVUser</a> by default but will return an
+object of a registered subclass instead if one is known.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSubclassing.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithoutDataWithObjectId:" title="objectWithoutDataWithObjectId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a reference to an existing <a href="../Classes/AVObject.html">AVObject</a> for use in creating associations between AVObjects.  Calling isDataAvailable on this
+<a href="#//api/name/object">object</a> will return NO until fetchIfNeeded or refresh has been called.  No network request will be made.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithObjectId:(NSString *)<em>objectId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>The <a href="#//api/name/object">object</a> id for the referenced <a href="#//api/name/object">object</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A <a href="../Classes/AVObject.html">AVObject</a> without data.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Creates a reference to an existing <a href="../Classes/AVObject.html">AVObject</a> for use in creating associations between AVObjects.  Calling isDataAvailable on this
+<a href="#//api/name/object">object</a> will return NO until fetchIfNeeded or refresh has been called.  No network request will be made.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSubclassing.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="method-title"><code><a href="#//api/name/query">+&nbsp;query</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create a query which returns objects of this type.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVQuery *)query</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create a query which returns objects of this type.
+A default implementation is provided by <a href="../Classes/AVObject.html">AVObject</a> which should always be sufficient.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSubclassing.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/registerSubclass" title="registerSubclass"></a>
+	<h3 class="method-title"><code><a href="#//api/name/registerSubclass">+&nbsp;registerSubclass</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Lets AVOS Cloud know this class should be used to instantiate all objects with class type parseClassName.
+This method must be called before <a href="../Classes/AVOSCloud.html#//api/name/setApplicationId:clientKey:">[AVOSCloud setApplicationId:clientKey:]</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)registerSubclass</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Lets AVOS Cloud know this class should be used to instantiate all objects with class type parseClassName.
+This method must be called before <a href="../Classes/AVOSCloud.html#//api/name/setApplicationId:clientKey:">[AVOSCloud setApplicationId:clientKey:]</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSubclassing.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

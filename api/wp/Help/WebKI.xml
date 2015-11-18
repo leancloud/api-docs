@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccountAlreadyLinked enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="ACL property" Url="html/7402B2.htm" />
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="AVObject.Add Method " Url="html/A76B964.htm" />
+    <HelpKINode Title="AVRelation(T).Add Method " Url="html/7ED7B45C.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddMembers method" Url="html/F0DB1507.htm" />
+  <HelpKINode Title="AddRangeToList(Of T) method" Url="html/E95AD0DD.htm" />
+  <HelpKINode Title="AddRangeToList&lt;T&gt; method" Url="html/E95AD0DD.htm" />
+  <HelpKINode Title="AddRangeUniqueToList(Of T) method" Url="html/426EE44A.htm" />
+  <HelpKINode Title="AddRangeUniqueToList&lt;T&gt; method" Url="html/426EE44A.htm" />
+  <HelpKINode Title="AddToList method" Url="html/BE8CE2E3.htm" />
+  <HelpKINode Title="AddUniqueToList method" Url="html/19AE885A.htm" />
+  <HelpKINode Title="Alert property" Url="html/348E9FCF.htm" />
+  <HelpKINode Title="AllPeerIds property" Url="html/8F19FFB6.htm" />
+  <HelpKINode Title="App class">
+    <HelpKINode Title="App Class" Url="html/BED1AEAC.htm" />
+    <HelpKINode Title="App Class" Url="html/FC60580A.htm" />
+    <HelpKINode Title="about App class" Url="html/BED1AEAC.htm" />
+    <HelpKINode Title="about App class" Url="html/FC60580A.htm" />
+    <HelpKINode Title="constructor" Url="html/1021E0B6.htm" />
+    <HelpKINode Title="constructor" Url="html/8E171D8A.htm" />
+    <HelpKINode Title="events" Url="html/DDFF5E9F.htm" />
+    <HelpKINode Title="events" Url="html/55F7C09D.htm" />
+    <HelpKINode Title="methods" Url="html/BD64E20E.htm" />
+    <HelpKINode Title="methods" Url="html/4A2CAF4C.htm" />
+    <HelpKINode Title="properties" Url="html/B8F4E411.htm" />
+    <HelpKINode Title="properties" Url="html/8E0359F3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.App constructor">
+    <HelpKINode Title="App Constructor " Url="html/8E171D8A.htm" />
+    <HelpKINode Title="App Constructor " Url="html/1021E0B6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.avSession property" Url="html/E1AF9A9.htm" />
+  <HelpKINode Title="App.ContactVM property" Url="html/C690F027.htm" />
+  <HelpKINode Title="App.InitializeComponent method">
+    <HelpKINode Title="App.InitializeComponent Method " Url="html/6D804300.htm" />
+    <HelpKINode Title="App.InitializeComponent Method " Url="html/26F0B218.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.RootFrame property">
+    <HelpKINode Title="App.RootFrame Property " Url="html/B5A99869.htm" />
+    <HelpKINode Title="App.RootFrame Property " Url="html/A3C340FF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.session property" Url="html/B62B9682.htm" />
+  <HelpKINode Title="App.ViewModel property">
+    <HelpKINode Title="App.ViewModel Property " Url="html/54DD272.htm" />
+    <HelpKINode Title="App.ViewModel Property " Url="html/A461BA50.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppIdentifier property" Url="html/F6BBA345.htm" />
+  <HelpKINode Title="AppName property" Url="html/E5BFFD59.htm" />
+  <HelpKINode Title="AppVersion property" Url="html/F872A332.htm" />
+  <HelpKINode Title="AssociateWithAuthData method" Url="html/E8AF7AD8.htm" />
+  <HelpKINode Title="AVACL class">
+    <HelpKINode Title="AVACL Class" Url="html/CB9C81D3.htm" />
+    <HelpKINode Title="about AVACL class" Url="html/CB9C81D3.htm" />
+    <HelpKINode Title="constructor" Url="html/3DB05796.htm" />
+    <HelpKINode Title="methods" Url="html/688B15F9.htm" />
+    <HelpKINode Title="properties" Url="html/4BDE7D52.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVACL.AVACL constructor" Url="html/3DB05796.htm" />
+  <HelpKINode Title="AVACL.GetReadAccess method" Url="html/D41AE499.htm" />
+  <HelpKINode Title="AVACL.GetRoleReadAccess method" Url="html/60D8A129.htm" />
+  <HelpKINode Title="AVACL.GetRoleWriteAccess method" Url="html/D633308A.htm" />
+  <HelpKINode Title="AVACL.GetWriteAccess method" Url="html/6609F56E.htm" />
+  <HelpKINode Title="AVACL.PublicReadAccess property" Url="html/F35A10BE.htm" />
+  <HelpKINode Title="AVACL.PublicWriteAccess property" Url="html/4D2BDAB1.htm" />
+  <HelpKINode Title="AVACL.SetReadAccess method" Url="html/9875B555.htm" />
+  <HelpKINode Title="AVACL.SetRoleReadAccess method" Url="html/E8004DE5.htm" />
+  <HelpKINode Title="AVACL.SetRoleWriteAccess method" Url="html/32AC8C46.htm" />
+  <HelpKINode Title="AVACL.SetWriteAccess method" Url="html/FFB6752A.htm" />
+  <HelpKINode Title="AVAnalytics class">
+    <HelpKINode Title="AVAnalytics Class" Url="html/4D56739B.htm" />
+    <HelpKINode Title="about AVAnalytics class" Url="html/4D56739B.htm" />
+    <HelpKINode Title="constructor" Url="html/36DC42C5.htm" />
+    <HelpKINode Title="methods" Url="html/7DF85C7D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVAnalytics.AVAnalytics constructor" Url="html/36DC42C5.htm" />
+  <HelpKINode Title="AVAnalytics.OnAppSetBackgroud method" Url="html/C68EE0DE.htm" />
+  <HelpKINode Title="AVAnalytics.OnExit method" Url="html/F3ACE739.htm" />
+  <HelpKINode Title="AVAnalytics.OnSceneEnd method" Url="html/938B4EC8.htm" />
+  <HelpKINode Title="AVAnalytics.OnSceneStart method" Url="html/DB41E68F.htm" />
+  <HelpKINode Title="AVAnalytics.SendAnalyticDataAsync method" Url="html/72F91B7.htm" />
+  <HelpKINode Title="AVAnalytics.StartEvent method" Url="html/32AB70C5.htm" />
+  <HelpKINode Title="AVAnalytics.StopEvent method" Url="html/42878159.htm" />
+  <HelpKINode Title="AVAnalytics.TrackAppOpened method" Url="html/294C860F.htm" />
+  <HelpKINode Title="AVAnalytics.TrackEvent method" Url="html/B5CF7EA.htm" />
+  <HelpKINode Title="AVClassNameAttribute class">
+    <HelpKINode Title="AVClassNameAttribute Class" Url="html/8A39A1CA.htm" />
+    <HelpKINode Title="about AVClassNameAttribute class" Url="html/8A39A1CA.htm" />
+    <HelpKINode Title="constructor" Url="html/24516F4E.htm" />
+    <HelpKINode Title="methods" Url="html/DA298F32.htm" />
+    <HelpKINode Title="properties" Url="html/2F8220CB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVClassNameAttribute.AVClassNameAttribute constructor" Url="html/24516F4E.htm" />
+  <HelpKINode Title="AVClassNameAttribute.ClassName property" Url="html/EB17833B.htm" />
+  <HelpKINode Title="AVClient class">
+    <HelpKINode Title="AVClient Class" Url="html/75B4C3F0.htm" />
+    <HelpKINode Title="about AVClient class" Url="html/75B4C3F0.htm" />
+    <HelpKINode Title="methods" Url="html/50F6EE3C.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVClient.Initialize method" Url="html/735DFD6E.htm" />
+  <HelpKINode Title="AVCloud class">
+    <HelpKINode Title="AVCloud Class" Url="html/F0ACF548.htm" />
+    <HelpKINode Title="about AVCloud class" Url="html/F0ACF548.htm" />
+    <HelpKINode Title="methods" Url="html/ECDFA114.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVCloud.CallFunctionAsync method" Url="html/15044CD4.htm" />
+  <HelpKINode Title="AVCloud.RequestSMSCode method" Url="html/91319053.htm" />
+  <HelpKINode Title="AVCloud.VerifySmsCode method" Url="html/D4DF49D5.htm" />
+  <HelpKINode Title="AVException class">
+    <HelpKINode Title="AVException Class" Url="html/947DBFB8.htm" />
+    <HelpKINode Title="about AVException class" Url="html/947DBFB8.htm" />
+    <HelpKINode Title="methods" Url="html/73442364.htm" />
+    <HelpKINode Title="properties" Url="html/1A9A519.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVException.Code property" Url="html/9185041.htm" />
+  <HelpKINode Title="AVException.ErrorCode enumeration" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="AVExtensions class">
+    <HelpKINode Title="AVExtensions Class" Url="html/8E786C7B.htm" />
+    <HelpKINode Title="about AVExtensions class" Url="html/8E786C7B.htm" />
+    <HelpKINode Title="methods" Url="html/789E2DF1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVExtensions.FetchAllAsync method" Url="html/2C8A4A4.htm" />
+  <HelpKINode Title="AVExtensions.FetchAllIfNeededAsync method" Url="html/42853EA.htm" />
+  <HelpKINode Title="AVExtensions.FetchAsync method" Url="html/F88E9427.htm" />
+  <HelpKINode Title="AVExtensions.FetchIfNeededAsync method" Url="html/DD36630F.htm" />
+  <HelpKINode Title="AVExtensions.Or(Of T) method" Url="html/8EDBB13E.htm" />
+  <HelpKINode Title="AVExtensions.Or&lt;T&gt; method" Url="html/8EDBB13E.htm" />
+  <HelpKINode Title="AVExtensions.SaveAllAsync method" Url="html/1DEBE83.htm" />
+  <HelpKINode Title="AVFieldNameAttribute class">
+    <HelpKINode Title="AVFieldNameAttribute Class" Url="html/7B605FA.htm" />
+    <HelpKINode Title="about AVFieldNameAttribute class" Url="html/7B605FA.htm" />
+    <HelpKINode Title="constructor" Url="html/9B282BE2.htm" />
+    <HelpKINode Title="methods" Url="html/2FE042E.htm" />
+    <HelpKINode Title="properties" Url="html/8B390D7F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVFieldNameAttribute.AVFieldNameAttribute constructor" Url="html/9B282BE2.htm" />
+  <HelpKINode Title="AVFieldNameAttribute.FieldName property" Url="html/19464003.htm" />
+  <HelpKINode Title="AVFile class">
+    <HelpKINode Title="AVFile Class" Url="html/FED47DEF.htm" />
+    <HelpKINode Title="about AVFile class" Url="html/FED47DEF.htm" />
+    <HelpKINode Title="constructor" Url="html/5BE6062E.htm" />
+    <HelpKINode Title="methods" Url="html/DDD424E9.htm" />
+    <HelpKINode Title="properties" Url="html/73602A60.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVFile.AVFile constructor" Url="html/5BE6062E.htm" />
+  <HelpKINode Title="AVFile.CreateFileWithLocalPath method" Url="html/18CE25B8.htm" />
+  <HelpKINode Title="AVFile.DataByte property" Url="html/7D82881F.htm" />
+  <HelpKINode Title="AVFile.DeleteAsync method" Url="html/25F58183.htm" />
+  <HelpKINode Title="AVFile.DownloadAsync method" Url="html/C28FE8B6.htm" />
+  <HelpKINode Title="AVFile.Encode method" Url="html/795028D3.htm" />
+  <HelpKINode Title="AVFile.GetFileWithObjectIdAsync method" Url="html/149D01F9.htm" />
+  <HelpKINode Title="AVFile.IsDirty property" Url="html/FA2F520D.htm" />
+  <HelpKINode Title="AVFile.IsExternal property" Url="html/EECBADC6.htm" />
+  <HelpKINode Title="AVFile.MetaData property" Url="html/4F8FD4A8.htm" />
+  <HelpKINode Title="AVFile.Name property" Url="html/6E8C08D6.htm" />
+  <HelpKINode Title="AVFile.ObjectId property" Url="html/4427B1D9.htm" />
+  <HelpKINode Title="AVFile.SaveAsync method" Url="html/51E2077E.htm" />
+  <HelpKINode Title="AVFile.StringToAscii method" Url="html/B935F247.htm" />
+  <HelpKINode Title="AVFile.ToBase64URLSafe method" Url="html/F91C21D0.htm" />
+  <HelpKINode Title="AVFile.Url property" Url="html/41AC864A.htm" />
+  <HelpKINode Title="AVGeoDistance structure">
+    <HelpKINode Title="AVGeoDistance Structure" Url="html/69B1F63F.htm" />
+    <HelpKINode Title="about AVGeoDistance structure" Url="html/69B1F63F.htm" />
+    <HelpKINode Title="constructor" Url="html/3A4E4C21.htm" />
+    <HelpKINode Title="methods" Url="html/63883CC9.htm" />
+    <HelpKINode Title="properties" Url="html/3B0CD1B8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGeoDistance.AVGeoDistance constructor" Url="html/3A4E4C21.htm" />
+  <HelpKINode Title="AVGeoDistance.FromKilometers method" Url="html/59D2C61F.htm" />
+  <HelpKINode Title="AVGeoDistance.FromMiles method" Url="html/C66BC9D8.htm" />
+  <HelpKINode Title="AVGeoDistance.FromRadians method" Url="html/D6921928.htm" />
+  <HelpKINode Title="AVGeoDistance.Kilometers property" Url="html/B7CE0AF0.htm" />
+  <HelpKINode Title="AVGeoDistance.Miles property" Url="html/E3218BEB.htm" />
+  <HelpKINode Title="AVGeoDistance.Radians property" Url="html/4B1B0B7.htm" />
+  <HelpKINode Title="AVGeoPoint structure">
+    <HelpKINode Title="AVGeoPoint Structure" Url="html/5323F55E.htm" />
+    <HelpKINode Title="about AVGeoPoint structure" Url="html/5323F55E.htm" />
+    <HelpKINode Title="constructor" Url="html/EF426DF2.htm" />
+    <HelpKINode Title="methods" Url="html/BB28113E.htm" />
+    <HelpKINode Title="properties" Url="html/EA6D8ABF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGeoPoint.AVGeoPoint constructor" Url="html/EF426DF2.htm" />
+  <HelpKINode Title="AVGeoPoint.DistanceTo method" Url="html/58E6DF0B.htm" />
+  <HelpKINode Title="AVGeoPoint.Latitude property" Url="html/789E0D4.htm" />
+  <HelpKINode Title="AVGeoPoint.Longitude property" Url="html/52FF30D5.htm" />
+  <HelpKINode Title="AVGroup class">
+    <HelpKINode Title="AVGroup Class" Url="html/BCFCCF3A.htm" />
+    <HelpKINode Title="about AVGroup class" Url="html/BCFCCF3A.htm" />
+    <HelpKINode Title="constructor" Url="html/CBC7C5E8.htm" />
+    <HelpKINode Title="events" Url="html/A2B5185F.htm" />
+    <HelpKINode Title="methods" Url="html/F0131FF2.htm" />
+    <HelpKINode Title="properties" Url="html/6D90E6ED.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroup.AddMembers method" Url="html/F0DB1507.htm" />
+  <HelpKINode Title="AVGroup.AVGroup constructor" Url="html/CBC7C5E8.htm" />
+  <HelpKINode Title="AVGroup.GroupId property" Url="html/79350202.htm" />
+  <HelpKINode Title="AVGroup.Join method" Url="html/DB70D662.htm" />
+  <HelpKINode Title="AVGroup.OnGroupMessageSent event" Url="html/A5B662D4.htm" />
+  <HelpKINode Title="AVGroup.OnJoined event" Url="html/1DFE413.htm" />
+  <HelpKINode Title="AVGroup.OnLeft event" Url="html/91C228DB.htm" />
+  <HelpKINode Title="AVGroup.OnMembersJoined event" Url="html/6E9FAEEE.htm" />
+  <HelpKINode Title="AVGroup.OnMembersLeft event" Url="html/DDEC1BE6.htm" />
+  <HelpKINode Title="AVGroup.OnMembersRemoved event" Url="html/D0D8DB1D.htm" />
+  <HelpKINode Title="AVGroup.OnMessage event" Url="html/F93C5CAB.htm" />
+  <HelpKINode Title="AVGroup.OnReject event" Url="html/523FFE13.htm" />
+  <HelpKINode Title="AVGroup.RemoveMembers method" Url="html/B805BDF0.htm" />
+  <HelpKINode Title="AVGroup.SelfId property" Url="html/DA16A7E5.htm" />
+  <HelpKINode Title="AVGroup.SendMessage method" Url="html/7CF6673F.htm" />
+  <HelpKINode Title="AVGroupMembersJoinedEventArgs class">
+    <HelpKINode Title="AVGroupMembersJoinedEventArgs Class" Url="html/8EE8E3FD.htm" />
+    <HelpKINode Title="about AVGroupMembersJoinedEventArgs class" Url="html/8EE8E3FD.htm" />
+    <HelpKINode Title="constructor" Url="html/6335B7F3.htm" />
+    <HelpKINode Title="methods" Url="html/B6A0B29B.htm" />
+    <HelpKINode Title="properties" Url="html/E76CE69E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroupMembersJoinedEventArgs.AVGroupMembersJoinedEventArgs constructor" Url="html/6335B7F3.htm" />
+  <HelpKINode Title="AVGroupMembersJoinedEventArgs.JoinedPeerIds property" Url="html/8784BCB2.htm" />
+  <HelpKINode Title="AVGroupMembersLeftEventArgs class">
+    <HelpKINode Title="AVGroupMembersLeftEventArgs Class" Url="html/248DD31D.htm" />
+    <HelpKINode Title="about AVGroupMembersLeftEventArgs class" Url="html/248DD31D.htm" />
+    <HelpKINode Title="constructor" Url="html/5A59233B.htm" />
+    <HelpKINode Title="methods" Url="html/371A288B.htm" />
+    <HelpKINode Title="properties" Url="html/81A8AEC6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroupMembersLeftEventArgs.AVGroupMembersLeftEventArgs constructor" Url="html/5A59233B.htm" />
+  <HelpKINode Title="AVGroupMembersLeftEventArgs.LeftPeerIds property" Url="html/E69BFF2.htm" />
+  <HelpKINode Title="AVGroupMembersRemovedEventArgs class">
+    <HelpKINode Title="AVGroupMembersRemovedEventArgs Class" Url="html/F8A55058.htm" />
+    <HelpKINode Title="about AVGroupMembersRemovedEventArgs class" Url="html/F8A55058.htm" />
+    <HelpKINode Title="constructor" Url="html/9162F19C.htm" />
+    <HelpKINode Title="methods" Url="html/E2CBE0A0.htm" />
+    <HelpKINode Title="properties" Url="html/2DF0B0FF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroupMembersRemovedEventArgs.AVGroupMembersRemovedEventArgs constructor" Url="html/9162F19C.htm" />
+  <HelpKINode Title="AVGroupMembersRemovedEventArgs.RemovedPeerIds property" Url="html/E9BE4268.htm" />
+  <HelpKINode Title="AVGroupMessageReceivedEventArgs class">
+    <HelpKINode Title="AVGroupMessageReceivedEventArgs Class" Url="html/A6A3AF49.htm" />
+    <HelpKINode Title="about AVGroupMessageReceivedEventArgs class" Url="html/A6A3AF49.htm" />
+    <HelpKINode Title="constructor" Url="html/199A6D33.htm" />
+    <HelpKINode Title="methods" Url="html/F1EB7CD3.htm" />
+    <HelpKINode Title="properties" Url="html/7C3A7660.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroupMessageReceivedEventArgs.AVGroupMessageReceivedEventArgs constructor" Url="html/199A6D33.htm" />
+  <HelpKINode Title="AVGroupMessageReceivedEventArgs.Message property" Url="html/93BB60D2.htm" />
+  <HelpKINode Title="AVGroupMessageSentEventArgs class">
+    <HelpKINode Title="AVGroupMessageSentEventArgs Class" Url="html/68393DE4.htm" />
+    <HelpKINode Title="about AVGroupMessageSentEventArgs class" Url="html/68393DE4.htm" />
+    <HelpKINode Title="constructor" Url="html/10950642.htm" />
+    <HelpKINode Title="methods" Url="html/53EAB38.htm" />
+    <HelpKINode Title="properties" Url="html/B6B5705D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVGroupMessageSentEventArgs.AVGroupMessageSentEventArgs constructor" Url="html/10950642.htm" />
+  <HelpKINode Title="AVGroupMessageSentEventArgs.Message property" Url="html/8EF0E477.htm" />
+  <HelpKINode Title="AVInstallation class">
+    <HelpKINode Title="AVInstallation Class" Url="html/AE6A8DB1.htm" />
+    <HelpKINode Title="about AVInstallation class" Url="html/AE6A8DB1.htm" />
+    <HelpKINode Title="constructor" Url="html/321E31E7.htm" />
+    <HelpKINode Title="events" Url="html/D88E54A6.htm" />
+    <HelpKINode Title="methods" Url="html/3290F35B.htm" />
+    <HelpKINode Title="properties" Url="html/A6C72D7E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVInstallation.AppIdentifier property" Url="html/F6BBA345.htm" />
+  <HelpKINode Title="AVInstallation.AppName property" Url="html/E5BFFD59.htm" />
+  <HelpKINode Title="AVInstallation.AppVersion property" Url="html/F872A332.htm" />
+  <HelpKINode Title="AVInstallation.AVInstallation constructor" Url="html/321E31E7.htm" />
+  <HelpKINode Title="AVInstallation.AVVersion property" Url="html/7083DAEC.htm" />
+  <HelpKINode Title="AVInstallation.Channels property" Url="html/8307FC57.htm" />
+  <HelpKINode Title="AVInstallation.CurrentInstallation property" Url="html/F986209C.htm" />
+  <HelpKINode Title="AVInstallation.DeviceType property" Url="html/ADF66C9B.htm" />
+  <HelpKINode Title="AVInstallation.InstallationId property" Url="html/E94277AA.htm" />
+  <HelpKINode Title="AVInstallation.Item property" Url="html/88110E6C.htm" />
+  <HelpKINode Title="AVInstallation.Query property" Url="html/95630DF5.htm" />
+  <HelpKINode Title="AVInstallation.TimeZone property" Url="html/5AE14014.htm" />
+  <HelpKINode Title="AVMessage class">
+    <HelpKINode Title="AVMessage Class" Url="html/C0D326FE.htm" />
+    <HelpKINode Title="about AVMessage class" Url="html/C0D326FE.htm" />
+    <HelpKINode Title="constructor" Url="html/12205778.htm" />
+    <HelpKINode Title="methods" Url="html/28E18D4A.htm" />
+    <HelpKINode Title="properties" Url="html/5A60CC6D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVMessage.AVMessage constructor" Url="html/12205778.htm" />
+  <HelpKINode Title="AVMessage.FromPeerId property" Url="html/77F25725.htm" />
+  <HelpKINode Title="AVMessage.GroupId property" Url="html/678DF106.htm" />
+  <HelpKINode Title="AVMessage.IsTransient property" Url="html/37C20912.htm" />
+  <HelpKINode Title="AVMessage.Message property" Url="html/1FBE969B.htm" />
+  <HelpKINode Title="AVMessage.Timestamp property" Url="html/C0712508.htm" />
+  <HelpKINode Title="AVMessage.ToPeerIds property" Url="html/5E8A99EB.htm" />
+  <HelpKINode Title="AVMessageReceivedEventArgs class">
+    <HelpKINode Title="AVMessageReceivedEventArgs Class" Url="html/42DE87AA.htm" />
+    <HelpKINode Title="about AVMessageReceivedEventArgs class" Url="html/42DE87AA.htm" />
+    <HelpKINode Title="constructor" Url="html/CD455BBE.htm" />
+    <HelpKINode Title="methods" Url="html/37CF27DE.htm" />
+    <HelpKINode Title="properties" Url="html/F62D6479.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVMessageReceivedEventArgs.AVMessageReceivedEventArgs constructor" Url="html/CD455BBE.htm" />
+  <HelpKINode Title="AVMessageReceivedEventArgs.Message property" Url="html/CC339C33.htm" />
+  <HelpKINode Title="AVMessageReceiver class">
+    <HelpKINode Title="AVMessageReceiver Class" Url="html/F1F25A3B.htm" />
+    <HelpKINode Title="about AVMessageReceiver class" Url="html/F1F25A3B.htm" />
+    <HelpKINode Title="constructor" Url="html/7184B7DD.htm" />
+    <HelpKINode Title="methods" Url="html/50313A1D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVMessageReceiver.AVMessageReceiver constructor" Url="html/7184B7DD.htm" />
+  <HelpKINode Title="AVMessageSentEventArgs class">
+    <HelpKINode Title="AVMessageSentEventArgs Class" Url="html/2094C4AD.htm" />
+    <HelpKINode Title="about AVMessageSentEventArgs class" Url="html/2094C4AD.htm" />
+    <HelpKINode Title="constructor" Url="html/5777ADDB.htm" />
+    <HelpKINode Title="methods" Url="html/A7C4795F.htm" />
+    <HelpKINode Title="properties" Url="html/33BD4A94.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVMessageSentEventArgs.AVMessageSentEventArgs constructor" Url="html/5777ADDB.htm" />
+  <HelpKINode Title="AVMessageSentEventArgs.Message property" Url="html/3D841970.htm" />
+  <HelpKINode Title="AVMessageSentFailedEventArgs class">
+    <HelpKINode Title="AVMessageSentFailedEventArgs Class" Url="html/19ECBB92.htm" />
+    <HelpKINode Title="about AVMessageSentFailedEventArgs class" Url="html/19ECBB92.htm" />
+    <HelpKINode Title="constructor" Url="html/6AADE8B2.htm" />
+    <HelpKINode Title="methods" Url="html/BFCF4A9A.htm" />
+    <HelpKINode Title="properties" Url="html/A736672D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVMessageSentFailedEventArgs.AVMessageSentFailedEventArgs constructor" Url="html/6AADE8B2.htm" />
+  <HelpKINode Title="AVMessageSentFailedEventArgs.Error property" Url="html/8712667E.htm" />
+  <HelpKINode Title="AVMessageSentFailedEventArgs.Message property" Url="html/E64A9BCB.htm" />
+  <HelpKINode Title="AVObject class">
+    <HelpKINode Title="AVObject Class" Url="html/2E8E2C58.htm" />
+    <HelpKINode Title="about AVObject class" Url="html/2E8E2C58.htm" />
+    <HelpKINode Title="constructor" Url="html/72063937.htm" />
+    <HelpKINode Title="events" Url="html/3EAE8819.htm" />
+    <HelpKINode Title="methods" Url="html/F2AD50A0.htm" />
+    <HelpKINode Title="properties" Url="html/DD90AB6F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVObject.ACL property" Url="html/7402B2.htm" />
+  <HelpKINode Title="AVObject.Add method" Url="html/A76B964.htm" />
+  <HelpKINode Title="AVObject.AddRangeToList(Of T) method" Url="html/E95AD0DD.htm" />
+  <HelpKINode Title="AVObject.AddRangeToList&lt;T&gt; method" Url="html/E95AD0DD.htm" />
+  <HelpKINode Title="AVObject.AddRangeUniqueToList(Of T) method" Url="html/426EE44A.htm" />
+  <HelpKINode Title="AVObject.AddRangeUniqueToList&lt;T&gt; method" Url="html/426EE44A.htm" />
+  <HelpKINode Title="AVObject.AddToList method" Url="html/BE8CE2E3.htm" />
+  <HelpKINode Title="AVObject.AddUniqueToList method" Url="html/19AE885A.htm" />
+  <HelpKINode Title="AVObject.AVObject constructor" Url="html/72063937.htm" />
+  <HelpKINode Title="AVObject.ClassName property" Url="html/A58A4697.htm" />
+  <HelpKINode Title="AVObject.ContainsKey method" Url="html/27FEE97B.htm" />
+  <HelpKINode Title="AVObject.Create method" Url="html/6E2A29FC.htm" />
+  <HelpKINode Title="AVObject.CreatedAt property" Url="html/8401029F.htm" />
+  <HelpKINode Title="AVObject.CreateWithoutData method" Url="html/7BDD58D8.htm" />
+  <HelpKINode Title="AVObject.DeleteAsync method" Url="html/8D890AD9.htm" />
+  <HelpKINode Title="AVObject.FetchAllAsync method" Url="html/F51859E1.htm" />
+  <HelpKINode Title="AVObject.FetchAllIfNeededAsync method" Url="html/6C5A3B15.htm" />
+  <HelpKINode Title="AVObject.Get(Of T) method" Url="html/6FB1B57A.htm" />
+  <HelpKINode Title="AVObject.Get&lt;T&gt; method" Url="html/6FB1B57A.htm" />
+  <HelpKINode Title="AVObject.GetProperty method" Url="html/D09CC2DB.htm" />
+  <HelpKINode Title="AVObject.GetQuery method" Url="html/149278DB.htm" />
+  <HelpKINode Title="AVObject.GetRelation(Of T) method" Url="html/3D382BCE.htm" />
+  <HelpKINode Title="AVObject.GetRelation&lt;T&gt; method" Url="html/3D382BCE.htm" />
+  <HelpKINode Title="AVObject.GetRelationProperty(Of T) method" Url="html/848A41ED.htm" />
+  <HelpKINode Title="AVObject.GetRelationProperty&lt;T&gt; method" Url="html/848A41ED.htm" />
+  <HelpKINode Title="AVObject.HasSameId method" Url="html/ACBAE890.htm" />
+  <HelpKINode Title="AVObject.Increment method" Url="html/630521D3.htm" />
+  <HelpKINode Title="AVObject.IsDataAvailable property" Url="html/D197945D.htm" />
+  <HelpKINode Title="AVObject.IsDirty property" Url="html/87D2E03A.htm" />
+  <HelpKINode Title="AVObject.IsKeyDirty method" Url="html/B9F24A84.htm" />
+  <HelpKINode Title="AVObject.IsNew property" Url="html/42713284.htm" />
+  <HelpKINode Title="AVObject.Item property" Url="html/B5F5B17.htm" />
+  <HelpKINode Title="AVObject.Keys property" Url="html/1363E46E.htm" />
+  <HelpKINode Title="AVObject.ObjectId property" Url="html/33F02790.htm" />
+  <HelpKINode Title="AVObject.OnFieldsChanged method" Url="html/96DB2921.htm" />
+  <HelpKINode Title="AVObject.OnPropertyChanged method" Url="html/6DE5D22B.htm" />
+  <HelpKINode Title="AVObject.PropertyChanged event" Url="html/AB156488.htm" />
+  <HelpKINode Title="AVObject.RegisterSubclass(Of T) method" Url="html/17F981CD.htm" />
+  <HelpKINode Title="AVObject.RegisterSubclass&lt;T&gt; method" Url="html/17F981CD.htm" />
+  <HelpKINode Title="AVObject.Remove method" Url="html/9E7E0B6D.htm" />
+  <HelpKINode Title="AVObject.RemoveAllFromList(Of T) method" Url="html/BC4FA5A9.htm" />
+  <HelpKINode Title="AVObject.RemoveAllFromList&lt;T&gt; method" Url="html/BC4FA5A9.htm" />
+  <HelpKINode Title="AVObject.Revert method" Url="html/81A35089.htm" />
+  <HelpKINode Title="AVObject.SaveAllAsync method" Url="html/E045CA48.htm" />
+  <HelpKINode Title="AVObject.SaveAsync method" Url="html/4574AFFD.htm" />
+  <HelpKINode Title="AVObject.SetProperty(Of T) method" Url="html/70E4591B.htm" />
+  <HelpKINode Title="AVObject.SetProperty&lt;T&gt; method" Url="html/70E4591B.htm" />
+  <HelpKINode Title="AVObject.TryGetValue(Of T) method" Url="html/76C5DD7E.htm" />
+  <HelpKINode Title="AVObject.TryGetValue&lt;T&gt; method" Url="html/76C5DD7E.htm" />
+  <HelpKINode Title="AVObject.UpdatedAt property" Url="html/6E017840.htm" />
+  <HelpKINode Title="AVOSCloud namespace" Url="html/B330723C.htm" />
+  <HelpKINode Title="AVOSCloud.AVACL class" Url="html/CB9C81D3.htm" />
+  <HelpKINode Title="AVOSCloud.AVAnalytics class" Url="html/4D56739B.htm" />
+  <HelpKINode Title="AVOSCloud.AVClassNameAttribute class" Url="html/8A39A1CA.htm" />
+  <HelpKINode Title="AVOSCloud.AVClient class" Url="html/75B4C3F0.htm" />
+  <HelpKINode Title="AVOSCloud.AVCloud class" Url="html/F0ACF548.htm" />
+  <HelpKINode Title="AVOSCloud.AVException class" Url="html/947DBFB8.htm" />
+  <HelpKINode Title="AVOSCloud.AVException.ErrorCode enumeration" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="AVOSCloud.AVExtensions class" Url="html/8E786C7B.htm" />
+  <HelpKINode Title="AVOSCloud.AVFieldNameAttribute class" Url="html/7B605FA.htm" />
+  <HelpKINode Title="AVOSCloud.AVFile class" Url="html/FED47DEF.htm" />
+  <HelpKINode Title="AVOSCloud.AVGeoDistance structure" Url="html/69B1F63F.htm" />
+  <HelpKINode Title="AVOSCloud.AVGeoPoint structure" Url="html/5323F55E.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroup class" Url="html/BCFCCF3A.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroupMembersJoinedEventArgs class" Url="html/8EE8E3FD.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroupMembersLeftEventArgs class" Url="html/248DD31D.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroupMembersRemovedEventArgs class" Url="html/F8A55058.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroupMessageReceivedEventArgs class" Url="html/A6A3AF49.htm" />
+  <HelpKINode Title="AVOSCloud.AVGroupMessageSentEventArgs class" Url="html/68393DE4.htm" />
+  <HelpKINode Title="AVOSCloud.AVInstallation class" Url="html/AE6A8DB1.htm" />
+  <HelpKINode Title="AVOSCloud.AVMessage class" Url="html/C0D326FE.htm" />
+  <HelpKINode Title="AVOSCloud.AVMessageReceivedEventArgs class" Url="html/42DE87AA.htm" />
+  <HelpKINode Title="AVOSCloud.AVMessageReceiver class" Url="html/F1F25A3B.htm" />
+  <HelpKINode Title="AVOSCloud.AVMessageSentEventArgs class" Url="html/2094C4AD.htm" />
+  <HelpKINode Title="AVOSCloud.AVMessageSentFailedEventArgs class" Url="html/19ECBB92.htm" />
+  <HelpKINode Title="AVOSCloud.AVObject class" Url="html/2E8E2C58.htm" />
+  <HelpKINode Title="AVOSCloud.AVPush class" Url="html/1FAD88F3.htm" />
+  <HelpKINode Title="AVOSCloud.AVQuery(Of T) class" Url="html/D93A5776.htm" />
+  <HelpKINode Title="AVOSCloud.AVQuery&lt;T&gt; class" Url="html/D93A5776.htm" />
+  <HelpKINode Title="AVOSCloud.AVRegion enumeration" Url="html/DE1A91A9.htm" />
+  <HelpKINode Title="AVOSCloud.AVRelation(Of T) class" Url="html/4C58C4E0.htm" />
+  <HelpKINode Title="AVOSCloud.AVRelation&lt;T&gt; class" Url="html/4C58C4E0.htm" />
+  <HelpKINode Title="AVOSCloud.AVRelationBase class" Url="html/6ADF26E.htm" />
+  <HelpKINode Title="AVOSCloud.AVRMError class" Url="html/15E8E238.htm" />
+  <HelpKINode Title="AVOSCloud.AVRMException class" Url="html/3B91E85.htm" />
+  <HelpKINode Title="AVOSCloud.AVRMProtocolUtils class" Url="html/C2038F97.htm" />
+  <HelpKINode Title="AVOSCloud.AVRole class" Url="html/789E5EBD.htm" />
+  <HelpKINode Title="AVOSCloud.AVSession class" Url="html/D605769B.htm" />
+  <HelpKINode Title="AVOSCloud.AVUploadProgressEventArgs class" Url="html/6098A3B6.htm" />
+  <HelpKINode Title="AVOSCloud.AVUser class" Url="html/BBEA2DE8.htm" />
+  <HelpKINode Title="AVOSCloud.Error delegate" Url="html/2887A202.htm" />
+  <HelpKINode Title="AVOSCloud.GroupMessageReceived delegate" Url="html/43BC312D.htm" />
+  <HelpKINode Title="AVOSCloud.GroupMessageSent delegate" Url="html/77C1348.htm" />
+  <HelpKINode Title="AVOSCloud.IAVGroupListener interface" Url="html/73983959.htm" />
+  <HelpKINode Title="AVOSCloud.IAVSessionListener interface" Url="html/FE542D40.htm" />
+  <HelpKINode Title="AVOSCloud.ISignatureFactory interface" Url="html/26DF9337.htm" />
+  <HelpKINode Title="AVOSCloud.Joined delegate" Url="html/4EF9C1F9.htm" />
+  <HelpKINode Title="AVOSCloud.Left delegate" Url="html/F1964D29.htm" />
+  <HelpKINode Title="AVOSCloud.MemberLeft delegate" Url="html/8556AD25.htm" />
+  <HelpKINode Title="AVOSCloud.MembersJoined delegate" Url="html/DA965DA.htm" />
+  <HelpKINode Title="AVOSCloud.Message delegate" Url="html/6725FB99.htm" />
+  <HelpKINode Title="AVOSCloud.MessageFailure delegate" Url="html/421B8801.htm" />
+  <HelpKINode Title="AVOSCloud.MessageSent delegate" Url="html/AFC6AE21.htm" />
+  <HelpKINode Title="AVOSCloud.PeersUnwatched delegate" Url="html/CFCD99B8.htm" />
+  <HelpKINode Title="AVOSCloud.PeersWatched delegate" Url="html/AE1CCB1F.htm" />
+  <HelpKINode Title="AVOSCloud.Reject delegate" Url="html/784EC69.htm" />
+  <HelpKINode Title="AVOSCloud.SessionClosed delegate" Url="html/3510D29C.htm" />
+  <HelpKINode Title="AVOSCloud.SessionOpen delegate" Url="html/A3D72724.htm" />
+  <HelpKINode Title="AVOSCloud.SessionPaused delegate" Url="html/294EAECA.htm" />
+  <HelpKINode Title="AVOSCloud.SessionResumed delegate" Url="html/EA254351.htm" />
+  <HelpKINode Title="AVOSCloud.SessionStatus enumeration" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="AVOSCloud.Signature class" Url="html/30BAE80E.htm" />
+  <HelpKINode Title="AVOSCloud.StatusOffline delegate" Url="html/9FA37797.htm" />
+  <HelpKINode Title="AVOSCloud.StatusOnline delegate" Url="html/FFCB4429.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest namespace" Url="html/CAE11C1D.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.App class" Url="html/BED1AEAC.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.ChatDemo class" Url="html/5A0CAC24.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.LocalizedStrings class" Url="html/211E09B0.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.MainPage class" Url="html/FABA8AE5.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.RelationTutorial class" Url="html/15948177.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.SampleAVSessionListener class" Url="html/14427E0C.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.SampleSignatureFactory class" Url="html/C0AA85DB.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.ViewModels namespace" Url="html/5FD1C334.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.ViewModels.ItemViewModel class" Url="html/F559A239.htm" />
+  <HelpKINode Title="AVOSCloud.WP.UnitTest.ViewModels.MainViewModel class" Url="html/82DE0F7.htm" />
+  <HelpKINode Title="AVPush class">
+    <HelpKINode Title="AVPush Class" Url="html/1FAD88F3.htm" />
+    <HelpKINode Title="about AVPush class" Url="html/1FAD88F3.htm" />
+    <HelpKINode Title="constructor" Url="html/84A8181D.htm" />
+    <HelpKINode Title="events" Url="html/63C57F12.htm" />
+    <HelpKINode Title="methods" Url="html/60D2DFB5.htm" />
+    <HelpKINode Title="properties" Url="html/B4436C1E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVPush.Alert property" Url="html/348E9FCF.htm" />
+  <HelpKINode Title="AVPush.AVPush constructor" Url="html/84A8181D.htm" />
+  <HelpKINode Title="AVPush.Channels property" Url="html/1B6E850D.htm" />
+  <HelpKINode Title="AVPush.Data property" Url="html/1406C48D.htm" />
+  <HelpKINode Title="AVPush.Expiration property" Url="html/BC89778A.htm" />
+  <HelpKINode Title="AVPush.ExpirationInterval property" Url="html/489E5A7D.htm" />
+  <HelpKINode Title="AVPush.PushJson method" Url="html/A025AA07.htm" />
+  <HelpKINode Title="AVPush.Query property" Url="html/B6C775AF.htm" />
+  <HelpKINode Title="AVPush.SendAlertAsync method" Url="html/930F13C5.htm" />
+  <HelpKINode Title="AVPush.SendAsync method" Url="html/8945E273.htm" />
+  <HelpKINode Title="AVPush.SendDataAsync method" Url="html/3E1BE283.htm" />
+  <HelpKINode Title="AVPush.SubscribeAsync method" Url="html/FB1BADC3.htm" />
+  <HelpKINode Title="AVPush.ToastNotificationReceived event" Url="html/BC1D151B.htm" />
+  <HelpKINode Title="AVPush.UnsubscribeAsync method" Url="html/95243A26.htm" />
+  <HelpKINode Title="AVQuery(Of T) class">
+    <HelpKINode Title="AVQuery(T) Class" Url="html/D93A5776.htm" />
+    <HelpKINode Title="about AVQuery(Of T) class" Url="html/D93A5776.htm" />
+    <HelpKINode Title="constructor" Url="html/72E551FD.htm" />
+    <HelpKINode Title="methods" Url="html/75BF9676.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVQuery(Of T).AVQuery constructor" Url="html/72E551FD.htm" />
+  <HelpKINode Title="AVQuery(Of T).CountAsync method" Url="html/6F3DB615.htm" />
+  <HelpKINode Title="AVQuery(Of T).DoCloudQuery method" Url="html/224A8070.htm" />
+  <HelpKINode Title="AVQuery(Of T).FindAsync method" Url="html/65E8BF0F.htm" />
+  <HelpKINode Title="AVQuery(Of T).FirstAsync method" Url="html/90F14610.htm" />
+  <HelpKINode Title="AVQuery(Of T).FirstOrDefaultAsync method" Url="html/BB8A6DAE.htm" />
+  <HelpKINode Title="AVQuery(Of T).GetAsync method" Url="html/3B0625A6.htm" />
+  <HelpKINode Title="AVQuery(Of T).Include method" Url="html/F9318CAD.htm" />
+  <HelpKINode Title="AVQuery(Of T).Limit method" Url="html/DB8B7040.htm" />
+  <HelpKINode Title="AVQuery(Of T).Or method" Url="html/6EE12DDC.htm" />
+  <HelpKINode Title="AVQuery(Of T).OrderBy method" Url="html/C4007376.htm" />
+  <HelpKINode Title="AVQuery(Of T).OrderByDescending method" Url="html/9259BA30.htm" />
+  <HelpKINode Title="AVQuery(Of T).Skip method" Url="html/9CC5FB76.htm" />
+  <HelpKINode Title="AVQuery(Of T).ThenBy method" Url="html/F89CAC61.htm" />
+  <HelpKINode Title="AVQuery(Of T).ThenByDescending method" Url="html/7BF9DF4F.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereContainedIn(Of TIn) method" Url="html/AFA45E2B.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereContains method" Url="html/846F1F17.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereContainsAll(Of TIn) method" Url="html/454E5F7B.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereDoesNotExist method" Url="html/94B9BB47.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereDoesNotMatchQuery(Of TOther) method" Url="html/54B5891C.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereEndsWith method" Url="html/9B0A80AA.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereEqualTo method" Url="html/B20A6E47.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereExists method" Url="html/97C3054C.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereGreaterThan method" Url="html/84E4C699.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereGreaterThanOrEqualTo method" Url="html/E2078FA7.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereLessThan method" Url="html/6B0464FE.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereLessThanOrEqualTo method" Url="html/497C0F78.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereMatches method" Url="html/764B1412.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereMatchesKeyInQuery(Of TOther) method" Url="html/E27BB3A0.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereMatchesQuery(Of TOther) method" Url="html/2C0FEC9A.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereNear method" Url="html/85E41596.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereNotContainedIn(Of TIn) method" Url="html/D1D14EF4.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereNotEqualTo method" Url="html/4442CA26.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereStartsWith method" Url="html/535201D1.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereWithinDistance method" Url="html/18CBD8F0.htm" />
+  <HelpKINode Title="AVQuery(Of T).WhereWithinGeoBox method" Url="html/53AC84ED.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt; class">
+    <HelpKINode Title="AVQuery(T) Class" Url="html/D93A5776.htm" />
+    <HelpKINode Title="about AVQuery&lt;T&gt; class" Url="html/D93A5776.htm" />
+    <HelpKINode Title="constructor" Url="html/72E551FD.htm" />
+    <HelpKINode Title="methods" Url="html/75BF9676.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVQuery&lt;T&gt;.AVQuery constructor" Url="html/72E551FD.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.CountAsync method" Url="html/6F3DB615.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.DoCloudQuery method" Url="html/224A8070.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.FindAsync method" Url="html/65E8BF0F.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.FirstAsync method" Url="html/90F14610.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.FirstOrDefaultAsync method" Url="html/BB8A6DAE.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.GetAsync method" Url="html/3B0625A6.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.Include method" Url="html/F9318CAD.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.Limit method" Url="html/DB8B7040.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.Or method" Url="html/6EE12DDC.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.OrderBy method" Url="html/C4007376.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.OrderByDescending method" Url="html/9259BA30.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.Skip method" Url="html/9CC5FB76.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.ThenBy method" Url="html/F89CAC61.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.ThenByDescending method" Url="html/7BF9DF4F.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereContainedIn&lt;TIn&gt; method" Url="html/AFA45E2B.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereContains method" Url="html/846F1F17.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereContainsAll&lt;TIn&gt; method" Url="html/454E5F7B.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereDoesNotExist method" Url="html/94B9BB47.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereDoesNotMatchQuery&lt;TOther&gt; method" Url="html/54B5891C.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereEndsWith method" Url="html/9B0A80AA.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereEqualTo method" Url="html/B20A6E47.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereExists method" Url="html/97C3054C.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereGreaterThan method" Url="html/84E4C699.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereGreaterThanOrEqualTo method" Url="html/E2078FA7.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereLessThan method" Url="html/6B0464FE.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereLessThanOrEqualTo method" Url="html/497C0F78.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereMatches method" Url="html/764B1412.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereMatchesKeyInQuery&lt;TOther&gt; method" Url="html/E27BB3A0.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereMatchesQuery&lt;TOther&gt; method" Url="html/2C0FEC9A.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereNear method" Url="html/85E41596.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereNotContainedIn&lt;TIn&gt; method" Url="html/D1D14EF4.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereNotEqualTo method" Url="html/4442CA26.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereStartsWith method" Url="html/535201D1.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereWithinDistance method" Url="html/18CBD8F0.htm" />
+  <HelpKINode Title="AVQuery&lt;T&gt;.WhereWithinGeoBox method" Url="html/53AC84ED.htm" />
+  <HelpKINode Title="AVRegion enumeration" Url="html/DE1A91A9.htm" />
+  <HelpKINode Title="AVRelation(Of T) class">
+    <HelpKINode Title="AVRelation(T) Class" Url="html/4C58C4E0.htm" />
+    <HelpKINode Title="about AVRelation(Of T) class" Url="html/4C58C4E0.htm" />
+    <HelpKINode Title="methods" Url="html/5E70661C.htm" />
+    <HelpKINode Title="properties" Url="html/F3B55A29.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRelation(Of T).Add method" Url="html/7ED7B45C.htm" />
+  <HelpKINode Title="AVRelation(Of T).Query property" Url="html/DEDBDB12.htm" />
+  <HelpKINode Title="AVRelation(Of T).Remove method" Url="html/6C0A7D8B.htm" />
+  <HelpKINode Title="AVRelation&lt;T&gt; class">
+    <HelpKINode Title="AVRelation(T) Class" Url="html/4C58C4E0.htm" />
+    <HelpKINode Title="about AVRelation&lt;T&gt; class" Url="html/4C58C4E0.htm" />
+    <HelpKINode Title="methods" Url="html/5E70661C.htm" />
+    <HelpKINode Title="properties" Url="html/F3B55A29.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRelation&lt;T&gt;.Add method" Url="html/7ED7B45C.htm" />
+  <HelpKINode Title="AVRelation&lt;T&gt;.Query property" Url="html/DEDBDB12.htm" />
+  <HelpKINode Title="AVRelation&lt;T&gt;.Remove method" Url="html/6C0A7D8B.htm" />
+  <HelpKINode Title="AVRelationBase class">
+    <HelpKINode Title="AVRelationBase Class" Url="html/6ADF26E.htm" />
+    <HelpKINode Title="about AVRelationBase class" Url="html/6ADF26E.htm" />
+    <HelpKINode Title="methods" Url="html/60A2710E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRMError class">
+    <HelpKINode Title="AVRMError Class" Url="html/15E8E238.htm" />
+    <HelpKINode Title="about AVRMError class" Url="html/15E8E238.htm" />
+    <HelpKINode Title="constructor" Url="html/A461724A.htm" />
+    <HelpKINode Title="methods" Url="html/4EAA1840.htm" />
+    <HelpKINode Title="properties" Url="html/DA25DD85.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRMError.AVRMError constructor" Url="html/A461724A.htm" />
+  <HelpKINode Title="AVRMError.Code property" Url="html/6C7996ED.htm" />
+  <HelpKINode Title="AVRMException class">
+    <HelpKINode Title="AVRMException Class" Url="html/3B91E85.htm" />
+    <HelpKINode Title="about AVRMException class" Url="html/3B91E85.htm" />
+    <HelpKINode Title="constructor" Url="html/E53CCA23.htm" />
+    <HelpKINode Title="methods" Url="html/75933563.htm" />
+    <HelpKINode Title="properties" Url="html/63D9C7B0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRMException.AVRMException constructor" Url="html/E53CCA23.htm" />
+  <HelpKINode Title="AVRMException.Error property" Url="html/22629D63.htm" />
+  <HelpKINode Title="AVRMProtocolUtils class">
+    <HelpKINode Title="AVRMProtocolUtils Class" Url="html/C2038F97.htm" />
+    <HelpKINode Title="about AVRMProtocolUtils class" Url="html/C2038F97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRole class">
+    <HelpKINode Title="AVRole Class" Url="html/789E5EBD.htm" />
+    <HelpKINode Title="about AVRole class" Url="html/789E5EBD.htm" />
+    <HelpKINode Title="constructor" Url="html/94119CE8.htm" />
+    <HelpKINode Title="events" Url="html/354BF0DA.htm" />
+    <HelpKINode Title="methods" Url="html/B7EDAFB.htm" />
+    <HelpKINode Title="properties" Url="html/23A42DBE.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVRole.AVRole constructor" Url="html/94119CE8.htm" />
+  <HelpKINode Title="AVRole.Name property" Url="html/4EDFF540.htm" />
+  <HelpKINode Title="AVRole.Query property" Url="html/F7EC14D1.htm" />
+  <HelpKINode Title="AVRole.Roles property" Url="html/3EF82EB4.htm" />
+  <HelpKINode Title="AVRole.Users property" Url="html/DB2CF29D.htm" />
+  <HelpKINode Title="AVSession class">
+    <HelpKINode Title="AVSession Class" Url="html/D605769B.htm" />
+    <HelpKINode Title="about AVSession class" Url="html/D605769B.htm" />
+    <HelpKINode Title="constructor" Url="html/D7DBFFF2.htm" />
+    <HelpKINode Title="events" Url="html/9558007A.htm" />
+    <HelpKINode Title="methods" Url="html/3E0F78ED.htm" />
+    <HelpKINode Title="properties" Url="html/203C65EE.htm" />
+  </HelpKINode>
+  <HelpKINode Title="avSession property" Url="html/E1AF9A9.htm" />
+  <HelpKINode Title="AVSession.AllPeerIds property" Url="html/8F19FFB6.htm" />
+  <HelpKINode Title="AVSession.AVSession constructor" Url="html/D7DBFFF2.htm" />
+  <HelpKINode Title="AVSession.AVSessionListener property" Url="html/294741DE.htm" />
+  <HelpKINode Title="AVSession.Close method" Url="html/E4B35300.htm" />
+  <HelpKINode Title="AVSession.GetGroup method" Url="html/AE66218C.htm" />
+  <HelpKINode Title="AVSession.OnlinePeerIds property" Url="html/B3093988.htm" />
+  <HelpKINode Title="AVSession.OnMessage event" Url="html/959A9A74.htm" />
+  <HelpKINode Title="AVSession.OnMessageFailed event" Url="html/BDCFD899.htm" />
+  <HelpKINode Title="AVSession.OnMessageSent event" Url="html/7238B54A.htm" />
+  <HelpKINode Title="AVSession.OnSessionClosed event" Url="html/28EC4ECD.htm" />
+  <HelpKINode Title="AVSession.OnSessionOpen event" Url="html/832F752B.htm" />
+  <HelpKINode Title="AVSession.OnSessionPaused event" Url="html/8CCE3325.htm" />
+  <HelpKINode Title="AVSession.OnSessionResumed event" Url="html/D4363C7C.htm" />
+  <HelpKINode Title="AVSession.Open method" Url="html/8756B615.htm" />
+  <HelpKINode Title="AVSession.Reconnect method" Url="html/9B742DD.htm" />
+  <HelpKINode Title="AVSession.SelfId property" Url="html/4A795E9A.htm" />
+  <HelpKINode Title="AVSession.SendMessage method" Url="html/3FF9ADBC.htm" />
+  <HelpKINode Title="AVSession.SetListener method" Url="html/D63E949C.htm" />
+  <HelpKINode Title="AVSession.SignatureFactory property" Url="html/9C6401AD.htm" />
+  <HelpKINode Title="AVSession.Status property" Url="html/C919544D.htm" />
+  <HelpKINode Title="AVSession.UnWatchPeer method" Url="html/4565980A.htm" />
+  <HelpKINode Title="AVSession.UnWatchPeers method" Url="html/A66DF85F.htm" />
+  <HelpKINode Title="AVSession.WatchPeer method" Url="html/C68908FB.htm" />
+  <HelpKINode Title="AVSession.WatchPeers method" Url="html/4A7ED4BC.htm" />
+  <HelpKINode Title="AVSessionListener property" Url="html/294741DE.htm" />
+  <HelpKINode Title="AVUploadProgressEventArgs class">
+    <HelpKINode Title="AVUploadProgressEventArgs Class" Url="html/6098A3B6.htm" />
+    <HelpKINode Title="about AVUploadProgressEventArgs class" Url="html/6098A3B6.htm" />
+    <HelpKINode Title="methods" Url="html/F412AAE2.htm" />
+    <HelpKINode Title="properties" Url="html/CD1FC6C3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVUploadProgressEventArgs.Progress property" Url="html/2C2939EF.htm" />
+  <HelpKINode Title="AVUser class">
+    <HelpKINode Title="AVUser Class" Url="html/BBEA2DE8.htm" />
+    <HelpKINode Title="about AVUser class" Url="html/BBEA2DE8.htm" />
+    <HelpKINode Title="constructor" Url="html/A4722A38.htm" />
+    <HelpKINode Title="events" Url="html/D72491A1.htm" />
+    <HelpKINode Title="methods" Url="html/ECA4F894.htm" />
+    <HelpKINode Title="properties" Url="html/6F59F45B.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AVUser.AssociateWithAuthData method" Url="html/E8AF7AD8.htm" />
+  <HelpKINode Title="AVUser.AVUser constructor" Url="html/A4722A38.htm" />
+  <HelpKINode Title="AVUser.BecomeAsync method" Url="html/92A80C6F.htm" />
+  <HelpKINode Title="AVUser.CurrentUser property" Url="html/B600C45C.htm" />
+  <HelpKINode Title="AVUser.DissociateAuthData method" Url="html/F349421C.htm" />
+  <HelpKINode Title="AVUser.Email property" Url="html/A9C7B2E2.htm" />
+  <HelpKINode Title="AVUser.Follow method" Url="html/6100517B.htm" />
+  <HelpKINode Title="AVUser.GetFolloweeQuery method" Url="html/B5D3C34.htm" />
+  <HelpKINode Title="AVUser.GetFollowees method" Url="html/CCE29DBF.htm" />
+  <HelpKINode Title="AVUser.GetFollowerQuery method" Url="html/A7D7E861.htm" />
+  <HelpKINode Title="AVUser.GetFollowers method" Url="html/84C5B732.htm" />
+  <HelpKINode Title="AVUser.GetFollowersAndFolloweesQuery method" Url="html/E7B74E2B.htm" />
+  <HelpKINode Title="AVUser.IsAuthenticated property" Url="html/3A3CF555.htm" />
+  <HelpKINode Title="AVUser.LogInAsync method" Url="html/5F5DB0AB.htm" />
+  <HelpKINode Title="AVUser.LogInByMobilePhoneNumberAsync method" Url="html/D256967.htm" />
+  <HelpKINode Title="AVUser.LoginBySmsCodeAsync method" Url="html/61BB7970.htm" />
+  <HelpKINode Title="AVUser.LogInWithAuthData method" Url="html/313B9F83.htm" />
+  <HelpKINode Title="AVUser.LogOut method" Url="html/378A0BD9.htm" />
+  <HelpKINode Title="AVUser.MobilePhoneNumber property" Url="html/2977BCED.htm" />
+  <HelpKINode Title="AVUser.MobilePhoneVerified property" Url="html/147D24B8.htm" />
+  <HelpKINode Title="AVUser.Password property" Url="html/8694C3E1.htm" />
+  <HelpKINode Title="AVUser.Query property" Url="html/C27F985E.htm" />
+  <HelpKINode Title="AVUser.Remove method" Url="html/D2B8B03D.htm" />
+  <HelpKINode Title="AVUser.RequestLoginSmsCodeAsync method" Url="html/9BDB0852.htm" />
+  <HelpKINode Title="AVUser.RequestMobilePhoneVerifyAsync method" Url="html/D6EB9458.htm" />
+  <HelpKINode Title="AVUser.RequestPasswordResetAsync method" Url="html/A957AA43.htm" />
+  <HelpKINode Title="AVUser.RequestPasswordResetBySmsCode method" Url="html/71AD68E.htm" />
+  <HelpKINode Title="AVUser.ResetPasswordBySmsCode method" Url="html/235E25F3.htm" />
+  <HelpKINode Title="AVUser.SignUpAsync method" Url="html/CAE60244.htm" />
+  <HelpKINode Title="AVUser.Unfollow method" Url="html/552D5C5D.htm" />
+  <HelpKINode Title="AVUser.Username property" Url="html/EF519856.htm" />
+  <HelpKINode Title="AVUser.VerifyMobilePhoneAsync method" Url="html/14B1FD73.htm" />
+  <HelpKINode Title="AVVersion property" Url="html/7083DAEC.htm" />
+  <HelpKINode Title="BaseItemViewModel class">
+    <HelpKINode Title="BaseItemViewModel Class" Url="html/8FC0AADE.htm" />
+    <HelpKINode Title="about BaseItemViewModel class" Url="html/8FC0AADE.htm" />
+    <HelpKINode Title="constructor" Url="html/B65FF660.htm" />
+    <HelpKINode Title="events" Url="html/A86D4893.htm" />
+    <HelpKINode Title="methods" Url="html/EBCE00CA.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseItemViewModel.BaseItemViewModel constructor" Url="html/B65FF660.htm" />
+  <HelpKINode Title="BaseViewModel class">
+    <HelpKINode Title="BaseViewModel Class" Url="html/EA152607.htm" />
+    <HelpKINode Title="about BaseViewModel class" Url="html/EA152607.htm" />
+    <HelpKINode Title="constructor" Url="html/D6D16471.htm" />
+    <HelpKINode Title="events" Url="html/BAEE3C28.htm" />
+    <HelpKINode Title="methods" Url="html/4BCAF561.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseViewModel.BaseViewModel constructor" Url="html/D6D16471.htm" />
+  <HelpKINode Title="BaseViewModel.NotifyPropertyChanged method" Url="html/8E01E93A.htm" />
+  <HelpKINode Title="BaseViewModel.PropertyChanged event" Url="html/B9D0E049.htm" />
+  <HelpKINode Title="BecomeAsync method" Url="html/92A80C6F.htm" />
+  <HelpKINode Title="CacheMiss enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="CallFunctionAsync method" Url="html/15044CD4.htm" />
+  <HelpKINode Title="CanNotSendMessageOnSessionNotOpen enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Channels property">
+    <HelpKINode Title="AVInstallation.Channels Property " Url="html/8307FC57.htm" />
+    <HelpKINode Title="AVPush.Channels Property " Url="html/1B6E850D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChatDemo class">
+    <HelpKINode Title="ChatDemo Class" Url="html/5A0CAC24.htm" />
+    <HelpKINode Title="about ChatDemo class" Url="html/5A0CAC24.htm" />
+    <HelpKINode Title="constructor" Url="html/47CC99C.htm" />
+    <HelpKINode Title="events" Url="html/66DD95FD.htm" />
+    <HelpKINode Title="methods" Url="html/C14A02E8.htm" />
+    <HelpKINode Title="properties" Url="html/7DBC542F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChatDemo.ChatDemo constructor" Url="html/47CC99C.htm" />
+  <HelpKINode Title="ChatDemo.InitializeComponent method" Url="html/1B7A8C66.htm" />
+  <HelpKINode Title="ClassName property">
+    <HelpKINode Title="AVClassNameAttribute.ClassName Property " Url="html/EB17833B.htm" />
+    <HelpKINode Title="AVObject.ClassName Property " Url="html/A58A4697.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Close method" Url="html/E4B35300.htm" />
+  <HelpKINode Title="Closed enumeration member" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="CloudNotFindUser enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="CN enumeration member" Url="html/DE1A91A9.htm" />
+  <HelpKINode Title="Code property">
+    <HelpKINode Title="AVException.Code Property " Url="html/9185041.htm" />
+    <HelpKINode Title="AVRMError.Code Property " Url="html/6C7996ED.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandUnavailable enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="ConnectionFailed enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Contact class">
+    <HelpKINode Title="Contact Class" Url="html/D6A33426.htm" />
+    <HelpKINode Title="about Contact class" Url="html/D6A33426.htm" />
+    <HelpKINode Title="constructor" Url="html/B0A26BE8.htm" />
+    <HelpKINode Title="events" Url="html/EA437045.htm" />
+    <HelpKINode Title="methods" Url="html/A3999306.htm" />
+    <HelpKINode Title="properties" Url="html/B7417AFF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contact.Contact constructor" Url="html/B0A26BE8.htm" />
+  <HelpKINode Title="Contact.Name property" Url="html/D76927F5.htm" />
+  <HelpKINode Title="Contacts property" Url="html/66661653.htm" />
+  <HelpKINode Title="ContactViewModel class">
+    <HelpKINode Title="ContactViewModel Class" Url="html/61F46EEC.htm" />
+    <HelpKINode Title="about ContactViewModel class" Url="html/61F46EEC.htm" />
+    <HelpKINode Title="constructor" Url="html/52E95580.htm" />
+    <HelpKINode Title="events" Url="html/D5B6D417.htm" />
+    <HelpKINode Title="methods" Url="html/997CAFA0.htm" />
+    <HelpKINode Title="properties" Url="html/B3C78215.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContactViewModel.Contacts property" Url="html/66661653.htm" />
+  <HelpKINode Title="ContactViewModel.ContactViewModel constructor" Url="html/52E95580.htm" />
+  <HelpKINode Title="ContactViewModel.LoadContacts method" Url="html/16E5DFF4.htm" />
+  <HelpKINode Title="ContactVM property" Url="html/C690F027.htm" />
+  <HelpKINode Title="ContainsKey method" Url="html/27FEE97B.htm" />
+  <HelpKINode Title="CountAsync method" Url="html/6F3DB615.htm" />
+  <HelpKINode Title="Create method" Url="html/6E2A29FC.htm" />
+  <HelpKINode Title="CreatedAt property" Url="html/8401029F.htm" />
+  <HelpKINode Title="CreateFileWithLocalPath method" Url="html/18CE25B8.htm" />
+  <HelpKINode Title="CreateGroupSignature method">
+    <HelpKINode Title="ISignatureFactory.CreateGroupSignature Method " Url="html/97F1B9A7.htm" />
+    <HelpKINode Title="SampleSignatureFactory.CreateGroupSignature Method " Url="html/8F5918EF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateSignature method">
+    <HelpKINode Title="ISignatureFactory.CreateSignature Method " Url="html/2C2741D0.htm" />
+    <HelpKINode Title="SampleSignatureFactory.CreateSignature Method " Url="html/860F6B92.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateWithoutData method" Url="html/7BDD58D8.htm" />
+  <HelpKINode Title="CurrentClientNetworkIsNotAvailable enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="CurrentInstallation property" Url="html/F986209C.htm" />
+  <HelpKINode Title="CurrentUser property" Url="html/B600C45C.htm" />
+  <HelpKINode Title="Data property" Url="html/1406C48D.htm" />
+  <HelpKINode Title="DataByte property" Url="html/7D82881F.htm" />
+  <HelpKINode Title="DeleteAsync method">
+    <HelpKINode Title="AVFile.DeleteAsync Method " Url="html/25F58183.htm" />
+    <HelpKINode Title="AVObject.DeleteAsync Method " Url="html/8D890AD9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeviceType property" Url="html/ADF66C9B.htm" />
+  <HelpKINode Title="DissociateAuthData method" Url="html/F349421C.htm" />
+  <HelpKINode Title="DistanceTo method" Url="html/58E6DF0B.htm" />
+  <HelpKINode Title="DoCloudQuery method" Url="html/224A8070.htm" />
+  <HelpKINode Title="DownloadAsync method" Url="html/C28FE8B6.htm" />
+  <HelpKINode Title="DuplicateValue enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Email property" Url="html/A9C7B2E2.htm" />
+  <HelpKINode Title="EmailMissing enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="EmailNotFound enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="EmailTaken enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Encode method" Url="html/795028D3.htm" />
+  <HelpKINode Title="Error delegate" Url="html/2887A202.htm" />
+  <HelpKINode Title="Error property">
+    <HelpKINode Title="AVMessageSentFailedEventArgs.Error Property " Url="html/8712667E.htm" />
+    <HelpKINode Title="AVRMException.Error Property " Url="html/22629D63.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExceededQuota enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Expiration property" Url="html/BC89778A.htm" />
+  <HelpKINode Title="ExpirationInterval property" Url="html/489E5A7D.htm" />
+  <HelpKINode Title="FetchAllAsync method">
+    <HelpKINode Title="AVExtensions.FetchAllAsync Method " Url="html/2C8A4A4.htm" />
+    <HelpKINode Title="AVObject.FetchAllAsync Method " Url="html/F51859E1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FetchAllIfNeededAsync method">
+    <HelpKINode Title="AVExtensions.FetchAllIfNeededAsync Method " Url="html/42853EA.htm" />
+    <HelpKINode Title="AVObject.FetchAllIfNeededAsync Method " Url="html/6C5A3B15.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FetchAsync method" Url="html/F88E9427.htm" />
+  <HelpKINode Title="FetchIfNeededAsync method" Url="html/DD36630F.htm" />
+  <HelpKINode Title="FieldName property" Url="html/19464003.htm" />
+  <HelpKINode Title="FindAsync method" Url="html/65E8BF0F.htm" />
+  <HelpKINode Title="FirstAsync method" Url="html/90F14610.htm" />
+  <HelpKINode Title="FirstOrDefaultAsync method" Url="html/BB8A6DAE.htm" />
+  <HelpKINode Title="Follow method" Url="html/6100517B.htm" />
+  <HelpKINode Title="FromKilometers method" Url="html/59D2C61F.htm" />
+  <HelpKINode Title="FromMiles method" Url="html/C66BC9D8.htm" />
+  <HelpKINode Title="FromPeerId property" Url="html/77F25725.htm" />
+  <HelpKINode Title="FromRadians method" Url="html/D6921928.htm" />
+  <HelpKINode Title="Get(Of T) method" Url="html/6FB1B57A.htm" />
+  <HelpKINode Title="Get&lt;T&gt; method" Url="html/6FB1B57A.htm" />
+  <HelpKINode Title="GetAsync method" Url="html/3B0625A6.htm" />
+  <HelpKINode Title="GetFileWithObjectIdAsync method" Url="html/149D01F9.htm" />
+  <HelpKINode Title="GetFolloweeQuery method" Url="html/B5D3C34.htm" />
+  <HelpKINode Title="GetFollowees method" Url="html/CCE29DBF.htm" />
+  <HelpKINode Title="GetFollowerQuery method" Url="html/A7D7E861.htm" />
+  <HelpKINode Title="GetFollowers method" Url="html/84C5B732.htm" />
+  <HelpKINode Title="GetFollowersAndFolloweesQuery method" Url="html/E7B74E2B.htm" />
+  <HelpKINode Title="GetGroup method" Url="html/AE66218C.htm" />
+  <HelpKINode Title="GetProperty method" Url="html/D09CC2DB.htm" />
+  <HelpKINode Title="GetQuery method" Url="html/149278DB.htm" />
+  <HelpKINode Title="GetReadAccess method" Url="html/D41AE499.htm" />
+  <HelpKINode Title="GetRelation(Of T) method" Url="html/3D382BCE.htm" />
+  <HelpKINode Title="GetRelation&lt;T&gt; method" Url="html/3D382BCE.htm" />
+  <HelpKINode Title="GetRelationProperty(Of T) method" Url="html/848A41ED.htm" />
+  <HelpKINode Title="GetRelationProperty&lt;T&gt; method" Url="html/848A41ED.htm" />
+  <HelpKINode Title="GetRoleReadAccess method" Url="html/60D8A129.htm" />
+  <HelpKINode Title="GetRoleWriteAccess method" Url="html/D633308A.htm" />
+  <HelpKINode Title="GetWriteAccess method" Url="html/6609F56E.htm" />
+  <HelpKINode Title="GroupAction property" Url="html/1528C125.htm" />
+  <HelpKINode Title="GroupId property">
+    <HelpKINode Title="AVGroup.GroupId Property " Url="html/79350202.htm" />
+    <HelpKINode Title="AVMessage.GroupId Property " Url="html/678DF106.htm" />
+    <HelpKINode Title="Signature.GroupId Property " Url="html/3AC7C606.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GroupMessageReceived delegate" Url="html/43BC312D.htm" />
+  <HelpKINode Title="GroupMessageSent delegate" Url="html/77C1348.htm" />
+  <HelpKINode Title="HasSameId method" Url="html/ACBAE890.htm" />
+  <HelpKINode Title="IAVGroupListener interface">
+    <HelpKINode Title="IAVGroupListener Interface" Url="html/73983959.htm" />
+    <HelpKINode Title="about IAVGroupListener interface" Url="html/73983959.htm" />
+    <HelpKINode Title="properties" Url="html/954C6152.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAVGroupListener.OnGroupMessageReceived property" Url="html/45FDC061.htm" />
+  <HelpKINode Title="IAVGroupListener.OnGroupMessageSent property" Url="html/9EB4AE5E.htm" />
+  <HelpKINode Title="IAVGroupListener.OnJoined property" Url="html/81E9AFBD.htm" />
+  <HelpKINode Title="IAVGroupListener.OnLeft property" Url="html/EB14C635.htm" />
+  <HelpKINode Title="IAVGroupListener.OnMemberLeft property" Url="html/C7CA0779.htm" />
+  <HelpKINode Title="IAVGroupListener.OnMembersJoined property" Url="html/2C508314.htm" />
+  <HelpKINode Title="IAVGroupListener.OnReject property" Url="html/8AE72245.htm" />
+  <HelpKINode Title="IAVSessionListener interface">
+    <HelpKINode Title="IAVSessionListener Interface" Url="html/FE542D40.htm" />
+    <HelpKINode Title="about IAVSessionListener interface" Url="html/FE542D40.htm" />
+    <HelpKINode Title="properties" Url="html/55B90BC3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAVSessionListener.OnError property" Url="html/B5F3537.htm" />
+  <HelpKINode Title="IAVSessionListener.OnMessage property" Url="html/3F7EC436.htm" />
+  <HelpKINode Title="IAVSessionListener.OnMessageFailure property" Url="html/CB6405A4.htm" />
+  <HelpKINode Title="IAVSessionListener.OnMessageSent property" Url="html/9E7B950C.htm" />
+  <HelpKINode Title="IAVSessionListener.OnPeersUnwatched property" Url="html/39097DF9.htm" />
+  <HelpKINode Title="IAVSessionListener.OnPeersWatched property" Url="html/6E897066.htm" />
+  <HelpKINode Title="IAVSessionListener.OnSessionClosed property" Url="html/D8CCF117.htm" />
+  <HelpKINode Title="IAVSessionListener.OnSessionOpen property" Url="html/E7436445.htm" />
+  <HelpKINode Title="IAVSessionListener.OnSessionPaused property" Url="html/67AECFD7.htm" />
+  <HelpKINode Title="IAVSessionListener.OnSessionResumed property" Url="html/A2803ECE.htm" />
+  <HelpKINode Title="IAVSessionListener.OnStatusOffline property" Url="html/D31B02A0.htm" />
+  <HelpKINode Title="IAVSessionListener.OnStatusOnline property" Url="html/DE10BBC6.htm" />
+  <HelpKINode Title="Include method" Url="html/F9318CAD.htm" />
+  <HelpKINode Title="IncorrectType enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Increment method" Url="html/630521D3.htm" />
+  <HelpKINode Title="Initialize method" Url="html/735DFD6E.htm" />
+  <HelpKINode Title="InitializeComponent method">
+    <HelpKINode Title="App.InitializeComponent Method " Url="html/26F0B218.htm" />
+    <HelpKINode Title="App.InitializeComponent Method " Url="html/6D804300.htm" />
+    <HelpKINode Title="ChatDemo.InitializeComponent Method " Url="html/1B7A8C66.htm" />
+    <HelpKINode Title="Login.InitializeComponent Method " Url="html/43C352F6.htm" />
+    <HelpKINode Title="MainPage.InitializeComponent Method " Url="html/7A39B85.htm" />
+    <HelpKINode Title="MainPage.InitializeComponent Method " Url="html/2084B9BB.htm" />
+    <HelpKINode Title="RelationTutorial.InitializeComponent Method " Url="html/BBB7A853.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstallationId property" Url="html/E94277AA.htm" />
+  <HelpKINode Title="InternalServerError enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidACL enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidChannelName enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidClassName enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidEmailAddress enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidFileName enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidJSON enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidKeyName enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidLinkedSession enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidNestedKey enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidPointer enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidQuery enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="InvalidRoleName enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="IsAuthenticated property" Url="html/3A3CF555.htm" />
+  <HelpKINode Title="IsDataAvailable property" Url="html/D197945D.htm" />
+  <HelpKINode Title="IsDataLoaded property">
+    <HelpKINode Title="MainViewModel.IsDataLoaded Property " Url="html/89D9D25A.htm" />
+    <HelpKINode Title="MainViewModel.IsDataLoaded Property " Url="html/619C3F0C.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDirty property">
+    <HelpKINode Title="AVFile.IsDirty Property " Url="html/FA2F520D.htm" />
+    <HelpKINode Title="AVObject.IsDirty Property " Url="html/87D2E03A.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsExternal property" Url="html/EECBADC6.htm" />
+  <HelpKINode Title="ISignatureFactory interface">
+    <HelpKINode Title="ISignatureFactory Interface" Url="html/26DF9337.htm" />
+    <HelpKINode Title="about ISignatureFactory interface" Url="html/26DF9337.htm" />
+    <HelpKINode Title="methods" Url="html/D13BE11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISignatureFactory.CreateGroupSignature method" Url="html/97F1B9A7.htm" />
+  <HelpKINode Title="ISignatureFactory.CreateSignature method" Url="html/2C2741D0.htm" />
+  <HelpKINode Title="IsKeyDirty method" Url="html/B9F24A84.htm" />
+  <HelpKINode Title="IsNew property" Url="html/42713284.htm" />
+  <HelpKINode Title="IsTransient property" Url="html/37C20912.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="AVInstallation.Item Property " Url="html/88110E6C.htm" />
+    <HelpKINode Title="AVObject.Item Property " Url="html/B5F5B17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Items property">
+    <HelpKINode Title="MainViewModel.Items Property " Url="html/BC3678D1.htm" />
+    <HelpKINode Title="MainViewModel.Items Property " Url="html/27F48BBF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel class">
+    <HelpKINode Title="ItemViewModel Class" Url="html/F5B68DBB.htm" />
+    <HelpKINode Title="ItemViewModel Class" Url="html/F559A239.htm" />
+    <HelpKINode Title="about ItemViewModel class" Url="html/F559A239.htm" />
+    <HelpKINode Title="about ItemViewModel class" Url="html/F5B68DBB.htm" />
+    <HelpKINode Title="constructor" Url="html/9E9976BD.htm" />
+    <HelpKINode Title="constructor" Url="html/33E53F7B.htm" />
+    <HelpKINode Title="events" Url="html/B4710E56.htm" />
+    <HelpKINode Title="events" Url="html/F4F0475A.htm" />
+    <HelpKINode Title="methods" Url="html/AEC29E4D.htm" />
+    <HelpKINode Title="methods" Url="html/B891020F.htm" />
+    <HelpKINode Title="properties" Url="html/2B670732.htm" />
+    <HelpKINode Title="properties" Url="html/434BF13E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel.ItemViewModel constructor">
+    <HelpKINode Title="ItemViewModel Constructor " Url="html/9E9976BD.htm" />
+    <HelpKINode Title="ItemViewModel Constructor " Url="html/33E53F7B.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel.LineOne property">
+    <HelpKINode Title="ItemViewModel.LineOne Property " Url="html/2D9C9F23.htm" />
+    <HelpKINode Title="ItemViewModel.LineOne Property " Url="html/CD346FE9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel.LineThree property">
+    <HelpKINode Title="ItemViewModel.LineThree Property " Url="html/2C5BA95F.htm" />
+    <HelpKINode Title="ItemViewModel.LineThree Property " Url="html/2C80CD85.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel.LineTwo property">
+    <HelpKINode Title="ItemViewModel.LineTwo Property " Url="html/E8081E3D.htm" />
+    <HelpKINode Title="ItemViewModel.LineTwo Property " Url="html/A030CEEF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemViewModel.PropertyChanged event">
+    <HelpKINode Title="ItemViewModel.PropertyChanged Event" Url="html/78FA7BC7.htm" />
+    <HelpKINode Title="ItemViewModel.PropertyChanged Event" Url="html/8290677D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Join method" Url="html/DB70D662.htm" />
+  <HelpKINode Title="Joined delegate" Url="html/4EF9C1F9.htm" />
+  <HelpKINode Title="JoinedPeerIds property" Url="html/8784BCB2.htm" />
+  <HelpKINode Title="Keys property" Url="html/1363E46E.htm" />
+  <HelpKINode Title="Kilometers property" Url="html/B7CE0AF0.htm" />
+  <HelpKINode Title="Latitude property" Url="html/789E0D4.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo namespace" Url="html/5FE1A21B.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.App class" Url="html/FC60580A.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.LocalizedStrings class" Url="html/19A47242.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.Login class" Url="html/32BCA954.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.MainPage class" Url="html/FA665F3B.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels namespace" Url="html/4C101BB6.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.BaseItemViewModel class" Url="html/8FC0AADE.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.BaseViewModel class" Url="html/EA152607.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.Contact class" Url="html/D6A33426.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.ContactViewModel class" Url="html/61F46EEC.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.ItemViewModel class" Url="html/F5B68DBB.htm" />
+  <HelpKINode Title="LeanCloud.LeanMeaasge.Demo.ViewModels.MainViewModel class" Url="html/1D836F4D.htm" />
+  <HelpKINode Title="Left delegate" Url="html/F1964D29.htm" />
+  <HelpKINode Title="LeftPeerIds property" Url="html/E69BFF2.htm" />
+  <HelpKINode Title="Limit method" Url="html/DB8B7040.htm" />
+  <HelpKINode Title="LineOne property">
+    <HelpKINode Title="ItemViewModel.LineOne Property " Url="html/2D9C9F23.htm" />
+    <HelpKINode Title="ItemViewModel.LineOne Property " Url="html/CD346FE9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LineThree property">
+    <HelpKINode Title="ItemViewModel.LineThree Property " Url="html/2C80CD85.htm" />
+    <HelpKINode Title="ItemViewModel.LineThree Property " Url="html/2C5BA95F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LineTwo property">
+    <HelpKINode Title="ItemViewModel.LineTwo Property " Url="html/E8081E3D.htm" />
+    <HelpKINode Title="ItemViewModel.LineTwo Property " Url="html/A030CEEF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LinkedIdMissing enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="LoadContacts method" Url="html/16E5DFF4.htm" />
+  <HelpKINode Title="LoadData method">
+    <HelpKINode Title="MainViewModel.LoadData Method " Url="html/5EC835FA.htm" />
+    <HelpKINode Title="MainViewModel.LoadData Method " Url="html/84D4EF02.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizedResources property">
+    <HelpKINode Title="LocalizedStrings.LocalizedResources Property " Url="html/C7709F5C.htm" />
+    <HelpKINode Title="LocalizedStrings.LocalizedResources Property " Url="html/E246A4BE.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizedSampleProperty property">
+    <HelpKINode Title="MainViewModel.LocalizedSampleProperty Property " Url="html/22787E81.htm" />
+    <HelpKINode Title="MainViewModel.LocalizedSampleProperty Property " Url="html/F163E6E3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizedStrings class">
+    <HelpKINode Title="LocalizedStrings Class" Url="html/19A47242.htm" />
+    <HelpKINode Title="LocalizedStrings Class" Url="html/211E09B0.htm" />
+    <HelpKINode Title="about LocalizedStrings class" Url="html/19A47242.htm" />
+    <HelpKINode Title="about LocalizedStrings class" Url="html/211E09B0.htm" />
+    <HelpKINode Title="constructor" Url="html/60B01FB8.htm" />
+    <HelpKINode Title="constructor" Url="html/90EB38B8.htm" />
+    <HelpKINode Title="methods" Url="html/5A7FEAAA.htm" />
+    <HelpKINode Title="methods" Url="html/F6B3A5FC.htm" />
+    <HelpKINode Title="properties" Url="html/C7DFB1D.htm" />
+    <HelpKINode Title="properties" Url="html/C8A0DABB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizedStrings.LocalizedResources property">
+    <HelpKINode Title="LocalizedStrings.LocalizedResources Property " Url="html/E246A4BE.htm" />
+    <HelpKINode Title="LocalizedStrings.LocalizedResources Property " Url="html/C7709F5C.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocalizedStrings.LocalizedStrings constructor">
+    <HelpKINode Title="LocalizedStrings Constructor " Url="html/90EB38B8.htm" />
+    <HelpKINode Title="LocalizedStrings Constructor " Url="html/60B01FB8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Login class">
+    <HelpKINode Title="Login Class" Url="html/32BCA954.htm" />
+    <HelpKINode Title="about Login class" Url="html/32BCA954.htm" />
+    <HelpKINode Title="constructor" Url="html/344827A4.htm" />
+    <HelpKINode Title="events" Url="html/E267665D.htm" />
+    <HelpKINode Title="methods" Url="html/2FD28888.htm" />
+    <HelpKINode Title="properties" Url="html/723053F7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Login.InitializeComponent method" Url="html/43C352F6.htm" />
+  <HelpKINode Title="Login.Login constructor" Url="html/344827A4.htm" />
+  <HelpKINode Title="Login.OnNavigatedTo method" Url="html/5A31D0FC.htm" />
+  <HelpKINode Title="LogInAsync method" Url="html/5F5DB0AB.htm" />
+  <HelpKINode Title="LogInByMobilePhoneNumberAsync method" Url="html/D256967.htm" />
+  <HelpKINode Title="LoginBySmsCodeAsync method" Url="html/61BB7970.htm" />
+  <HelpKINode Title="LogInWithAuthData method" Url="html/313B9F83.htm" />
+  <HelpKINode Title="LogOut method" Url="html/378A0BD9.htm" />
+  <HelpKINode Title="Longitude property" Url="html/52FF30D5.htm" />
+  <HelpKINode Title="MainPage class">
+    <HelpKINode Title="MainPage Class" Url="html/FABA8AE5.htm" />
+    <HelpKINode Title="MainPage Class" Url="html/FA665F3B.htm" />
+    <HelpKINode Title="about MainPage class" Url="html/FA665F3B.htm" />
+    <HelpKINode Title="about MainPage class" Url="html/FABA8AE5.htm" />
+    <HelpKINode Title="constructor" Url="html/E00832A9.htm" />
+    <HelpKINode Title="constructor" Url="html/5B0A8ECB.htm" />
+    <HelpKINode Title="events" Url="html/816D07EA.htm" />
+    <HelpKINode Title="events" Url="html/52D2251A.htm" />
+    <HelpKINode Title="fields" Url="html/EAB49F0A.htm" />
+    <HelpKINode Title="methods" Url="html/51DFBBC7.htm" />
+    <HelpKINode Title="methods" Url="html/D1A0FF1.htm" />
+    <HelpKINode Title="properties" Url="html/EF5C32B2.htm" />
+    <HelpKINode Title="properties" Url="html/600DBE32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainPage.InitializeComponent method">
+    <HelpKINode Title="MainPage.InitializeComponent Method " Url="html/7A39B85.htm" />
+    <HelpKINode Title="MainPage.InitializeComponent Method " Url="html/2084B9BB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainPage.MainPage constructor">
+    <HelpKINode Title="MainPage Constructor " Url="html/5B0A8ECB.htm" />
+    <HelpKINode Title="MainPage Constructor " Url="html/E00832A9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainPage.OnNavigatedTo method">
+    <HelpKINode Title="MainPage.OnNavigatedTo Method " Url="html/2F25F14D.htm" />
+    <HelpKINode Title="MainPage.OnNavigatedTo Method " Url="html/421C3A53.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainPage.XXX property" Url="html/C84F32B3.htm" />
+  <HelpKINode Title="MainPage._xxx field" Url="html/2548411E.htm" />
+  <HelpKINode Title="MainViewModel class">
+    <HelpKINode Title="MainViewModel Class" Url="html/82DE0F7.htm" />
+    <HelpKINode Title="MainViewModel Class" Url="html/1D836F4D.htm" />
+    <HelpKINode Title="about MainViewModel class" Url="html/82DE0F7.htm" />
+    <HelpKINode Title="about MainViewModel class" Url="html/1D836F4D.htm" />
+    <HelpKINode Title="constructor" Url="html/AA07C673.htm" />
+    <HelpKINode Title="constructor" Url="html/6387D515.htm" />
+    <HelpKINode Title="events" Url="html/BE23A938.htm" />
+    <HelpKINode Title="events" Url="html/E2A5FA8.htm" />
+    <HelpKINode Title="methods" Url="html/B6164885.htm" />
+    <HelpKINode Title="methods" Url="html/16BE70B.htm" />
+    <HelpKINode Title="properties" Url="html/B7868AD4.htm" />
+    <HelpKINode Title="properties" Url="html/4084B5B0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.IsDataLoaded property">
+    <HelpKINode Title="MainViewModel.IsDataLoaded Property " Url="html/89D9D25A.htm" />
+    <HelpKINode Title="MainViewModel.IsDataLoaded Property " Url="html/619C3F0C.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.Items property">
+    <HelpKINode Title="MainViewModel.Items Property " Url="html/27F48BBF.htm" />
+    <HelpKINode Title="MainViewModel.Items Property " Url="html/BC3678D1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.LoadData method">
+    <HelpKINode Title="MainViewModel.LoadData Method " Url="html/84D4EF02.htm" />
+    <HelpKINode Title="MainViewModel.LoadData Method " Url="html/5EC835FA.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.LocalizedSampleProperty property">
+    <HelpKINode Title="MainViewModel.LocalizedSampleProperty Property " Url="html/22787E81.htm" />
+    <HelpKINode Title="MainViewModel.LocalizedSampleProperty Property " Url="html/F163E6E3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.MainViewModel constructor">
+    <HelpKINode Title="MainViewModel Constructor " Url="html/6387D515.htm" />
+    <HelpKINode Title="MainViewModel Constructor " Url="html/AA07C673.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.PropertyChanged event">
+    <HelpKINode Title="MainViewModel.PropertyChanged Event" Url="html/3AD1B877.htm" />
+    <HelpKINode Title="MainViewModel.PropertyChanged Event" Url="html/2A90B30D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainViewModel.SampleProperty property">
+    <HelpKINode Title="MainViewModel.SampleProperty Property " Url="html/C0D6B9B6.htm" />
+    <HelpKINode Title="MainViewModel.SampleProperty Property " Url="html/67D3D604.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemberLeft delegate" Url="html/8556AD25.htm" />
+  <HelpKINode Title="MembersJoined delegate" Url="html/DA965DA.htm" />
+  <HelpKINode Title="Message delegate" Url="html/6725FB99.htm" />
+  <HelpKINode Title="Message property">
+    <HelpKINode Title="AVGroupMessageReceivedEventArgs.Message Property " Url="html/93BB60D2.htm" />
+    <HelpKINode Title="AVGroupMessageSentEventArgs.Message Property " Url="html/8EF0E477.htm" />
+    <HelpKINode Title="AVMessage.Message Property " Url="html/1FBE969B.htm" />
+    <HelpKINode Title="AVMessageReceivedEventArgs.Message Property " Url="html/CC339C33.htm" />
+    <HelpKINode Title="AVMessageSentEventArgs.Message Property " Url="html/3D841970.htm" />
+    <HelpKINode Title="AVMessageSentFailedEventArgs.Message Property " Url="html/E64A9BCB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageFailure delegate" Url="html/421B8801.htm" />
+  <HelpKINode Title="MessageSent delegate" Url="html/AFC6AE21.htm" />
+  <HelpKINode Title="MetaData property" Url="html/4F8FD4A8.htm" />
+  <HelpKINode Title="Miles property" Url="html/E3218BEB.htm" />
+  <HelpKINode Title="MissingObjectId enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="MobilePhoneInvalid enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="MobilePhoneNumber property" Url="html/2977BCED.htm" />
+  <HelpKINode Title="MobilePhoneVerified property" Url="html/147D24B8.htm" />
+  <HelpKINode Title="MustCreateUserThroughSignup enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="AVFile.Name Property " Url="html/6E8C08D6.htm" />
+    <HelpKINode Title="AVRole.Name Property " Url="html/4EDFF540.htm" />
+    <HelpKINode Title="Contact.Name Property " Url="html/D76927F5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nonce property" Url="html/4BF5D319.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="NotifyPropertyChanged method" Url="html/8E01E93A.htm" />
+  <HelpKINode Title="NotInitialized enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="ObjectId property">
+    <HelpKINode Title="AVFile.ObjectId Property " Url="html/4427B1D9.htm" />
+    <HelpKINode Title="AVObject.ObjectId Property " Url="html/33F02790.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectNotFound enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="ObjectTooLarge enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="OnAppSetBackgroud method" Url="html/C68EE0DE.htm" />
+  <HelpKINode Title="OnError property">
+    <HelpKINode Title="IAVSessionListener.OnError Property " Url="html/B5F3537.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnError Property " Url="html/386B2873.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnExit method" Url="html/F3ACE739.htm" />
+  <HelpKINode Title="OnFieldsChanged method" Url="html/96DB2921.htm" />
+  <HelpKINode Title="OnGroupMessageReceived property" Url="html/45FDC061.htm" />
+  <HelpKINode Title="OnGroupMessageSent event" Url="html/A5B662D4.htm" />
+  <HelpKINode Title="OnGroupMessageSent property" Url="html/9EB4AE5E.htm" />
+  <HelpKINode Title="OnJoined event" Url="html/1DFE413.htm" />
+  <HelpKINode Title="OnJoined property" Url="html/81E9AFBD.htm" />
+  <HelpKINode Title="OnLeft event" Url="html/91C228DB.htm" />
+  <HelpKINode Title="OnLeft property" Url="html/EB14C635.htm" />
+  <HelpKINode Title="OnlinePeerIds property" Url="html/B3093988.htm" />
+  <HelpKINode Title="OnMemberLeft property" Url="html/C7CA0779.htm" />
+  <HelpKINode Title="OnMembersJoined event" Url="html/6E9FAEEE.htm" />
+  <HelpKINode Title="OnMembersJoined property" Url="html/2C508314.htm" />
+  <HelpKINode Title="OnMembersLeft event" Url="html/DDEC1BE6.htm" />
+  <HelpKINode Title="OnMembersRemoved event" Url="html/D0D8DB1D.htm" />
+  <HelpKINode Title="OnMessage event">
+    <HelpKINode Title="AVGroup.OnMessage Event" Url="html/F93C5CAB.htm" />
+    <HelpKINode Title="AVSession.OnMessage Event" Url="html/959A9A74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnMessage property">
+    <HelpKINode Title="IAVSessionListener.OnMessage Property " Url="html/3F7EC436.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnMessage Property " Url="html/58F38852.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnMessageFailed event" Url="html/BDCFD899.htm" />
+  <HelpKINode Title="OnMessageFailure property">
+    <HelpKINode Title="IAVSessionListener.OnMessageFailure Property " Url="html/CB6405A4.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnMessageFailure Property " Url="html/AAB04AC8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnMessageSent event" Url="html/7238B54A.htm" />
+  <HelpKINode Title="OnMessageSent property">
+    <HelpKINode Title="IAVSessionListener.OnMessageSent Property " Url="html/9E7B950C.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnMessageSent Property " Url="html/AF377250.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnNavigatedTo method">
+    <HelpKINode Title="Login.OnNavigatedTo Method " Url="html/5A31D0FC.htm" />
+    <HelpKINode Title="MainPage.OnNavigatedTo Method " Url="html/2F25F14D.htm" />
+    <HelpKINode Title="MainPage.OnNavigatedTo Method " Url="html/421C3A53.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPeersUnwatched property">
+    <HelpKINode Title="IAVSessionListener.OnPeersUnwatched Property " Url="html/39097DF9.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnPeersUnwatched Property " Url="html/D5D862B9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPeersWatched property">
+    <HelpKINode Title="IAVSessionListener.OnPeersWatched Property " Url="html/6E897066.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnPeersWatched Property " Url="html/3070DFE.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPropertyChanged method" Url="html/6DE5D22B.htm" />
+  <HelpKINode Title="OnReject event" Url="html/523FFE13.htm" />
+  <HelpKINode Title="OnReject property" Url="html/8AE72245.htm" />
+  <HelpKINode Title="OnSceneEnd method" Url="html/938B4EC8.htm" />
+  <HelpKINode Title="OnSceneStart method" Url="html/DB41E68F.htm" />
+  <HelpKINode Title="OnSessionClosed event" Url="html/28EC4ECD.htm" />
+  <HelpKINode Title="OnSessionClosed property">
+    <HelpKINode Title="IAVSessionListener.OnSessionClosed Property " Url="html/D8CCF117.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnSessionClosed Property " Url="html/35335A73.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnSessionOpen event" Url="html/832F752B.htm" />
+  <HelpKINode Title="OnSessionOpen property">
+    <HelpKINode Title="IAVSessionListener.OnSessionOpen Property " Url="html/E7436445.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnSessionOpen Property " Url="html/82B6CA1D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnSessionPaused event" Url="html/8CCE3325.htm" />
+  <HelpKINode Title="OnSessionPaused property">
+    <HelpKINode Title="IAVSessionListener.OnSessionPaused Property " Url="html/67AECFD7.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnSessionPaused Property " Url="html/DD79DEF3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnSessionResumed event" Url="html/D4363C7C.htm" />
+  <HelpKINode Title="OnSessionResumed property">
+    <HelpKINode Title="IAVSessionListener.OnSessionResumed Property " Url="html/A2803ECE.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnSessionResumed Property " Url="html/C9E1E4DA.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnStatusOffline property">
+    <HelpKINode Title="IAVSessionListener.OnStatusOffline Property " Url="html/D31B02A0.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnStatusOffline Property " Url="html/C5B3C4C0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnStatusOnline property">
+    <HelpKINode Title="IAVSessionListener.OnStatusOnline Property " Url="html/DE10BBC6.htm" />
+    <HelpKINode Title="SampleAVSessionListener.OnStatusOnline Property " Url="html/65147382.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Open method" Url="html/8756B615.htm" />
+  <HelpKINode Title="Opend enumeration member" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="OperationForbidden enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Or method" Url="html/6EE12DDC.htm" />
+  <HelpKINode Title="Or(Of T) method" Url="html/8EDBB13E.htm" />
+  <HelpKINode Title="Or&lt;T&gt; method" Url="html/8EDBB13E.htm" />
+  <HelpKINode Title="OrderBy method" Url="html/C4007376.htm" />
+  <HelpKINode Title="OrderByDescending method" Url="html/9259BA30.htm" />
+  <HelpKINode Title="OtherCause enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Password property" Url="html/8694C3E1.htm" />
+  <HelpKINode Title="PasswordMissing enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Paused enumeration member" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="PeersUnwatched delegate" Url="html/CFCD99B8.htm" />
+  <HelpKINode Title="PeersWatched delegate" Url="html/AE1CCB1F.htm" />
+  <HelpKINode Title="Progress property" Url="html/2C2939EF.htm" />
+  <HelpKINode Title="PropertyChanged event">
+    <HelpKINode Title="AVObject.PropertyChanged Event" Url="html/AB156488.htm" />
+    <HelpKINode Title="BaseViewModel.PropertyChanged Event" Url="html/B9D0E049.htm" />
+    <HelpKINode Title="ItemViewModel.PropertyChanged Event" Url="html/78FA7BC7.htm" />
+    <HelpKINode Title="ItemViewModel.PropertyChanged Event" Url="html/8290677D.htm" />
+    <HelpKINode Title="MainViewModel.PropertyChanged Event" Url="html/3AD1B877.htm" />
+    <HelpKINode Title="MainViewModel.PropertyChanged Event" Url="html/2A90B30D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublicReadAccess property" Url="html/F35A10BE.htm" />
+  <HelpKINode Title="PublicWriteAccess property" Url="html/4D2BDAB1.htm" />
+  <HelpKINode Title="PushJson method" Url="html/A025AA07.htm" />
+  <HelpKINode Title="PushMisconfigured enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Query property">
+    <HelpKINode Title="AVInstallation.Query Property " Url="html/95630DF5.htm" />
+    <HelpKINode Title="AVPush.Query Property " Url="html/B6C775AF.htm" />
+    <HelpKINode Title="AVRelation(T).Query Property " Url="html/DEDBDB12.htm" />
+    <HelpKINode Title="AVRole.Query Property " Url="html/F7EC14D1.htm" />
+    <HelpKINode Title="AVUser.Query Property " Url="html/C27F985E.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Radians property" Url="html/4B1B0B7.htm" />
+  <HelpKINode Title="Reconnect method" Url="html/9B742DD.htm" />
+  <HelpKINode Title="RegisterSubclass(Of T) method" Url="html/17F981CD.htm" />
+  <HelpKINode Title="RegisterSubclass&lt;T&gt; method" Url="html/17F981CD.htm" />
+  <HelpKINode Title="Reject delegate" Url="html/784EC69.htm" />
+  <HelpKINode Title="RelationTutorial class">
+    <HelpKINode Title="RelationTutorial Class" Url="html/15948177.htm" />
+    <HelpKINode Title="about RelationTutorial class" Url="html/15948177.htm" />
+    <HelpKINode Title="constructor" Url="html/4A39A7BD.htm" />
+    <HelpKINode Title="events" Url="html/CC536286.htm" />
+    <HelpKINode Title="methods" Url="html/5887C8D5.htm" />
+    <HelpKINode Title="properties" Url="html/8E4924EE.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RelationTutorial.InitializeComponent method" Url="html/BBB7A853.htm" />
+  <HelpKINode Title="RelationTutorial.RelationTutorial constructor" Url="html/4A39A7BD.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="AVObject.Remove Method " Url="html/9E7E0B6D.htm" />
+    <HelpKINode Title="AVRelation(T).Remove Method " Url="html/6C0A7D8B.htm" />
+    <HelpKINode Title="AVUser.Remove Method " Url="html/D2B8B03D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveAllFromList(Of T) method" Url="html/BC4FA5A9.htm" />
+  <HelpKINode Title="RemoveAllFromList&lt;T&gt; method" Url="html/BC4FA5A9.htm" />
+  <HelpKINode Title="RemovedPeerIds property" Url="html/E9BE4268.htm" />
+  <HelpKINode Title="RemoveMembers method" Url="html/B805BDF0.htm" />
+  <HelpKINode Title="RequestLoginSmsCodeAsync method" Url="html/9BDB0852.htm" />
+  <HelpKINode Title="RequestMobilePhoneVerifyAsync method" Url="html/D6EB9458.htm" />
+  <HelpKINode Title="RequestPasswordResetAsync method" Url="html/A957AA43.htm" />
+  <HelpKINode Title="RequestPasswordResetBySmsCode method" Url="html/71AD68E.htm" />
+  <HelpKINode Title="RequestSMSCode method" Url="html/91319053.htm" />
+  <HelpKINode Title="ResetPasswordBySmsCode method" Url="html/235E25F3.htm" />
+  <HelpKINode Title="Revert method" Url="html/81A35089.htm" />
+  <HelpKINode Title="Roles property" Url="html/3EF82EB4.htm" />
+  <HelpKINode Title="RootFrame property">
+    <HelpKINode Title="App.RootFrame Property " Url="html/A3C340FF.htm" />
+    <HelpKINode Title="App.RootFrame Property " Url="html/B5A99869.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleAVSessionListener class">
+    <HelpKINode Title="SampleAVSessionListener Class" Url="html/14427E0C.htm" />
+    <HelpKINode Title="about SampleAVSessionListener class" Url="html/14427E0C.htm" />
+    <HelpKINode Title="constructor" Url="html/21D683B2.htm" />
+    <HelpKINode Title="methods" Url="html/BE50660C.htm" />
+    <HelpKINode Title="properties" Url="html/29E3B36B.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleAVSessionListener.OnError property" Url="html/386B2873.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnMessage property" Url="html/58F38852.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnMessageFailure property" Url="html/AAB04AC8.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnMessageSent property" Url="html/AF377250.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnPeersUnwatched property" Url="html/D5D862B9.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnPeersWatched property" Url="html/3070DFE.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnSessionClosed property" Url="html/35335A73.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnSessionOpen property" Url="html/82B6CA1D.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnSessionPaused property" Url="html/DD79DEF3.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnSessionResumed property" Url="html/C9E1E4DA.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnStatusOffline property" Url="html/C5B3C4C0.htm" />
+  <HelpKINode Title="SampleAVSessionListener.OnStatusOnline property" Url="html/65147382.htm" />
+  <HelpKINode Title="SampleAVSessionListener.SampleAVSessionListener constructor" Url="html/21D683B2.htm" />
+  <HelpKINode Title="SampleProperty property">
+    <HelpKINode Title="MainViewModel.SampleProperty Property " Url="html/67D3D604.htm" />
+    <HelpKINode Title="MainViewModel.SampleProperty Property " Url="html/C0D6B9B6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleSignatureFactory class">
+    <HelpKINode Title="SampleSignatureFactory Class" Url="html/C0AA85DB.htm" />
+    <HelpKINode Title="about SampleSignatureFactory class" Url="html/C0AA85DB.htm" />
+    <HelpKINode Title="constructor" Url="html/B68D8905.htm" />
+    <HelpKINode Title="methods" Url="html/79A7BFDD.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleSignatureFactory.CreateGroupSignature method" Url="html/8F5918EF.htm" />
+  <HelpKINode Title="SampleSignatureFactory.CreateSignature method" Url="html/860F6B92.htm" />
+  <HelpKINode Title="SampleSignatureFactory.SampleSignatureFactory constructor" Url="html/B68D8905.htm" />
+  <HelpKINode Title="SaveAllAsync method">
+    <HelpKINode Title="AVExtensions.SaveAllAsync Method " Url="html/1DEBE83.htm" />
+    <HelpKINode Title="AVObject.SaveAllAsync Method " Url="html/E045CA48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaveAsync method">
+    <HelpKINode Title="AVFile.SaveAsync Method " Url="html/51E2077E.htm" />
+    <HelpKINode Title="AVObject.SaveAsync Method " Url="html/4574AFFD.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScriptFailed enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="SelfId property">
+    <HelpKINode Title="AVGroup.SelfId Property " Url="html/DA16A7E5.htm" />
+    <HelpKINode Title="AVSession.SelfId Property " Url="html/4A795E9A.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendAlertAsync method" Url="html/930F13C5.htm" />
+  <HelpKINode Title="SendAnalyticDataAsync method" Url="html/72F91B7.htm" />
+  <HelpKINode Title="SendAsync method" Url="html/8945E273.htm" />
+  <HelpKINode Title="SendDataAsync method" Url="html/3E1BE283.htm" />
+  <HelpKINode Title="SendMessage method">
+    <HelpKINode Title="AVGroup.SendMessage Method " Url="html/7CF6673F.htm" />
+    <HelpKINode Title="AVSession.SendMessage Method " Url="html/3FF9ADBC.htm" />
+  </HelpKINode>
+  <HelpKINode Title="session property" Url="html/B62B9682.htm" />
+  <HelpKINode Title="SessionClosed delegate" Url="html/3510D29C.htm" />
+  <HelpKINode Title="SessionMissing enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="SessionOpen delegate" Url="html/A3D72724.htm" />
+  <HelpKINode Title="SessionPaused delegate" Url="html/294EAECA.htm" />
+  <HelpKINode Title="SessionResumed delegate" Url="html/EA254351.htm" />
+  <HelpKINode Title="SessionStatus enumeration" Url="html/82B9DC2.htm" />
+  <HelpKINode Title="SetListener method" Url="html/D63E949C.htm" />
+  <HelpKINode Title="SetProperty(Of T) method" Url="html/70E4591B.htm" />
+  <HelpKINode Title="SetProperty&lt;T&gt; method" Url="html/70E4591B.htm" />
+  <HelpKINode Title="SetReadAccess method" Url="html/9875B555.htm" />
+  <HelpKINode Title="SetRoleReadAccess method" Url="html/E8004DE5.htm" />
+  <HelpKINode Title="SetRoleWriteAccess method" Url="html/32AC8C46.htm" />
+  <HelpKINode Title="SetWriteAccess method" Url="html/FFB6752A.htm" />
+  <HelpKINode Title="Signature class">
+    <HelpKINode Title="Signature Class" Url="html/30BAE80E.htm" />
+    <HelpKINode Title="about Signature class" Url="html/30BAE80E.htm" />
+    <HelpKINode Title="constructor" Url="html/7D21EC54.htm" />
+    <HelpKINode Title="methods" Url="html/14A4B70E.htm" />
+    <HelpKINode Title="properties" Url="html/89F51481.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Signature.GroupAction property" Url="html/1528C125.htm" />
+  <HelpKINode Title="Signature.GroupId property" Url="html/3AC7C606.htm" />
+  <HelpKINode Title="Signature.Nonce property" Url="html/4BF5D319.htm" />
+  <HelpKINode Title="Signature.Signature constructor" Url="html/7D21EC54.htm" />
+  <HelpKINode Title="Signature.SignatureContent property" Url="html/2780A61.htm" />
+  <HelpKINode Title="Signature.SignedPeerIds property" Url="html/558353E2.htm" />
+  <HelpKINode Title="Signature.Timestamp property" Url="html/5ADDB060.htm" />
+  <HelpKINode Title="SignatureContent property" Url="html/2780A61.htm" />
+  <HelpKINode Title="SignatureFactory property" Url="html/9C6401AD.htm" />
+  <HelpKINode Title="SignedPeerIds property" Url="html/558353E2.htm" />
+  <HelpKINode Title="SignUpAsync method" Url="html/CAE60244.htm" />
+  <HelpKINode Title="Skip method" Url="html/9CC5FB76.htm" />
+  <HelpKINode Title="STAGE enumeration member" Url="html/DE1A91A9.htm" />
+  <HelpKINode Title="StartEvent method" Url="html/32AB70C5.htm" />
+  <HelpKINode Title="Status property" Url="html/C919544D.htm" />
+  <HelpKINode Title="StatusOffline delegate" Url="html/9FA37797.htm" />
+  <HelpKINode Title="StatusOnline delegate" Url="html/FFCB4429.htm" />
+  <HelpKINode Title="StopEvent method" Url="html/42878159.htm" />
+  <HelpKINode Title="StringToAscii method" Url="html/B935F247.htm" />
+  <HelpKINode Title="SubscribeAsync method" Url="html/FB1BADC3.htm" />
+  <HelpKINode Title="ThenBy method" Url="html/F89CAC61.htm" />
+  <HelpKINode Title="ThenByDescending method" Url="html/7BF9DF4F.htm" />
+  <HelpKINode Title="Timeout enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Timestamp property">
+    <HelpKINode Title="AVMessage.Timestamp Property " Url="html/C0712508.htm" />
+    <HelpKINode Title="Signature.Timestamp Property " Url="html/5ADDB060.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeZone property" Url="html/5AE14014.htm" />
+  <HelpKINode Title="ToastNotificationReceived event" Url="html/BC1D151B.htm" />
+  <HelpKINode Title="ToBase64URLSafe method" Url="html/F91C21D0.htm" />
+  <HelpKINode Title="ToPeerIds property" Url="html/5E8A99EB.htm" />
+  <HelpKINode Title="TrackAppOpened method" Url="html/294C860F.htm" />
+  <HelpKINode Title="TrackEvent method" Url="html/B5CF7EA.htm" />
+  <HelpKINode Title="TryGetValue(Of T) method" Url="html/76C5DD7E.htm" />
+  <HelpKINode Title="TryGetValue&lt;T&gt; method" Url="html/76C5DD7E.htm" />
+  <HelpKINode Title="Unfollow method" Url="html/552D5C5D.htm" />
+  <HelpKINode Title="UnsubscribeAsync method" Url="html/95243A26.htm" />
+  <HelpKINode Title="UnsupportedService enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="UnWatchPeer method" Url="html/4565980A.htm" />
+  <HelpKINode Title="UnWatchPeers method" Url="html/A66DF85F.htm" />
+  <HelpKINode Title="UpdatedAt property" Url="html/6E017840.htm" />
+  <HelpKINode Title="Url property" Url="html/41AC864A.htm" />
+  <HelpKINode Title="US enumeration member" Url="html/DE1A91A9.htm" />
+  <HelpKINode Title="Username property" Url="html/EF519856.htm" />
+  <HelpKINode Title="UsernameMissing enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="UsernameTaken enumeration member" Url="html/BEE575D5.htm" />
+  <HelpKINode Title="Users property" Url="html/DB2CF29D.htm" />
+  <HelpKINode Title="VerifyMobilePhoneAsync method" Url="html/14B1FD73.htm" />
+  <HelpKINode Title="VerifySmsCode method" Url="html/D4DF49D5.htm" />
+  <HelpKINode Title="ViewModel property">
+    <HelpKINode Title="App.ViewModel Property " Url="html/A461BA50.htm" />
+    <HelpKINode Title="App.ViewModel Property " Url="html/54DD272.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WatchPeer method" Url="html/C68908FB.htm" />
+  <HelpKINode Title="WatchPeers method" Url="html/4A7ED4BC.htm" />
+  <HelpKINode Title="WhereContainedIn(Of TIn) method" Url="html/AFA45E2B.htm" />
+  <HelpKINode Title="WhereContainedIn&lt;TIn&gt; method" Url="html/AFA45E2B.htm" />
+  <HelpKINode Title="WhereContains method" Url="html/846F1F17.htm" />
+  <HelpKINode Title="WhereContainsAll(Of TIn) method" Url="html/454E5F7B.htm" />
+  <HelpKINode Title="WhereContainsAll&lt;TIn&gt; method" Url="html/454E5F7B.htm" />
+  <HelpKINode Title="WhereDoesNotExist method" Url="html/94B9BB47.htm" />
+  <HelpKINode Title="WhereDoesNotMatchQuery(Of TOther) method" Url="html/54B5891C.htm" />
+  <HelpKINode Title="WhereDoesNotMatchQuery&lt;TOther&gt; method" Url="html/54B5891C.htm" />
+  <HelpKINode Title="WhereEndsWith method" Url="html/9B0A80AA.htm" />
+  <HelpKINode Title="WhereEqualTo method" Url="html/B20A6E47.htm" />
+  <HelpKINode Title="WhereExists method" Url="html/97C3054C.htm" />
+  <HelpKINode Title="WhereGreaterThan method" Url="html/84E4C699.htm" />
+  <HelpKINode Title="WhereGreaterThanOrEqualTo method" Url="html/E2078FA7.htm" />
+  <HelpKINode Title="WhereLessThan method" Url="html/6B0464FE.htm" />
+  <HelpKINode Title="WhereLessThanOrEqualTo method" Url="html/497C0F78.htm" />
+  <HelpKINode Title="WhereMatches method" Url="html/764B1412.htm" />
+  <HelpKINode Title="WhereMatchesKeyInQuery(Of TOther) method" Url="html/E27BB3A0.htm" />
+  <HelpKINode Title="WhereMatchesKeyInQuery&lt;TOther&gt; method" Url="html/E27BB3A0.htm" />
+  <HelpKINode Title="WhereMatchesQuery(Of TOther) method" Url="html/2C0FEC9A.htm" />
+  <HelpKINode Title="WhereMatchesQuery&lt;TOther&gt; method" Url="html/2C0FEC9A.htm" />
+  <HelpKINode Title="WhereNear method" Url="html/85E41596.htm" />
+  <HelpKINode Title="WhereNotContainedIn(Of TIn) method" Url="html/D1D14EF4.htm" />
+  <HelpKINode Title="WhereNotContainedIn&lt;TIn&gt; method" Url="html/D1D14EF4.htm" />
+  <HelpKINode Title="WhereNotEqualTo method" Url="html/4442CA26.htm" />
+  <HelpKINode Title="WhereStartsWith method" Url="html/535201D1.htm" />
+  <HelpKINode Title="WhereWithinDistance method" Url="html/18CBD8F0.htm" />
+  <HelpKINode Title="WhereWithinGeoBox method" Url="html/53AC84ED.htm" />
+  <HelpKINode Title="XXX property" Url="html/C84F32B3.htm" />
+  <HelpKINode Title="_xxx field" Url="html/2548411E.htm" />
+</HelpKI>

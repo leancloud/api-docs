@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class LeanCloud\LeanRole</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-LeanCloud.html">
+						LeanCloud<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-LeanCloud.Operation.html">
+						Operation					</a>
+
+						</li>
+				<li>
+					<a href="namespace-LeanCloud.Storage.html">
+						Storage					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-LeanCloud.GeoPoint.html">GeoPoint</a></li>
+				<li><a href="class-LeanCloud.LeanACL.html">LeanACL</a></li>
+				<li><a href="class-LeanCloud.LeanBytes.html">LeanBytes</a></li>
+				<li><a href="class-LeanCloud.LeanClient.html">LeanClient</a></li>
+				<li><a href="class-LeanCloud.LeanFile.html">LeanFile</a></li>
+				<li><a href="class-LeanCloud.LeanObject.html">LeanObject</a></li>
+				<li><a href="class-LeanCloud.LeanPush.html">LeanPush</a></li>
+				<li><a href="class-LeanCloud.LeanQuery.html">LeanQuery</a></li>
+				<li><a href="class-LeanCloud.LeanRelation.html">LeanRelation</a></li>
+				<li class="active"><a href="class-LeanCloud.LeanRole.html">LeanRole</a></li>
+				<li><a href="class-LeanCloud.LeanUser.html">LeanUser</a></li>
+				<li><a href="class-LeanCloud.MIMEType.html">MIMEType</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-LeanCloud.html" title="Summary of LeanCloud"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class LeanRole</h1>
+
+
+	<div class="description">
+	<p>Role representation on LeanCloud</p>
+
+<p>A role represents a group of users in ACL, where a role can be
+assigned read/write permissions. If a role was granted write
+permission, then users belongs to this role will all inherit the
+write permission.</p>
+
+<p>All users of a role could be queried by <code>$role-&gt;getUsers()</code>, which
+is an instance of LeanRelation, where users can be added or
+removed.</p>
+
+<p>Roles can belong to role as well, which can be got by
+<code>$role-&gt;getRoles()</code>, where roles can be added or removed.</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-LeanCloud.LeanObject.html"><span>LeanCloud\LeanObject</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>LeanCloud\LeanRole</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
+		
+
+				<b>See:</b>
+				<code><a href="class-LeanCloud.LeanACL.html">LeanCloud\LeanACL</a></code>, <code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code><br>
+			<b>Located at</b> <a href="source-class-LeanCloud.LeanRole.html#4-69" title="Go to source code">LeanCloud/LeanRole.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-LeanCloud.LeanRole.html#28-41" title="Go to source code">__construct</a>( <span>string <var>$name</var></span>, <span><code><a href="class-LeanCloud.LeanACL.html">LeanCloud\LeanACL</a></code> <var>$acl</var></span> )</code>
+
+		<div class="description short">
+			<p>Initialize a role</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Initialize a role</p>
+
+<p>The name can contain only alphanumeric characters, _, -, and
+space. It cannot be changed after being saved.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd>The name of role</dd>
+					<dt><var>$acl</var></dt>
+					<dd>The ACL specifies who can change <strong>this role</strong></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					InvalidArgumentException
+				</div>
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-LeanCloud.LeanObject.html#___construct">LeanCloud\LeanObject::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-LeanCloud.LeanRole.html#43-50" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			<p>Get name of role</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get name of role</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUsers" id="_getUsers">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUsers">#</a>
+		<code><a href="source-class-LeanCloud.LeanRole.html#52-59" title="Go to source code">getUsers</a>( )</code>
+
+		<div class="description short">
+			<p>Get a relation of users that belongs to this role</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a relation of users that belongs to this role</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRoles" id="_getRoles">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRoles">#</a>
+		<code><a href="source-class-LeanCloud.LeanRole.html#61-68" title="Go to source code">getRoles</a>( )</code>
+
+		<div class="description short">
+			<p>Get a relation of roles that belongs to this role</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a relation of roles that belongs to this role</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-LeanCloud.LeanObject.html#methods">LeanCloud\LeanObject</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-LeanCloud.LeanObject.html#_addIn">addIn()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_addUniqueIn">addUniqueIn()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_create">create()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_delete">delete()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_destroy">destroy()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_destroyAll">destroyAll()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_fetch">fetch()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_fetchAll">fetchAll()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_findUnsavedChildren">findUnsavedChildren()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_get">get()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getACL">getACL()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getClassName">getClassName()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getCreatedAt">getCreatedAt()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getObjectId">getObjectId()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getPointer">getPointer()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getQuery">getQuery()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getRelation">getRelation()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_getUpdatedAt">getUpdatedAt()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_increment">increment()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_isDirty">isDirty()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_mergeAfterFetch">mergeAfterFetch()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_mergeAfterSave">mergeAfterSave()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_registerClass">registerClass()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_removeIn">removeIn()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_save">save()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_saveAll">saveAll()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_set">set()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_setACL">setACL()</a>, 
+			<a href="class-LeanCloud.LeanObject.html#_traverse">traverse()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="className" id="$className">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-LeanCloud.LeanRole.html#22-26" title="Go to source code"><var>$className</var></a>
+
+			<div class="description short">
+				<p>Table name on LeanCloud</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Table name on LeanCloud</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$className" class="anchor">#</a>
+				<code><span class="php-quote">&quot;_Role&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

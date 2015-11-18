@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="e2f1fd72-5aa6-466f-aa71-9f73c12ef433" Title="AVOSCloud" Url="html/B330723C.htm">
+    <HelpTOCNode Id="1b839e8b-ba22-4780-8d39-fb73b4a352f8" Title="AVACL Class" Url="html/CB9C81D3.htm">
+      <HelpTOCNode Id="640c0a79-04b1-4188-abd1-1266b56c95c4" Title="AVACL Constructor " Url="html/3DB05796.htm">
+        <HelpTOCNode Title="AVACL Constructor " Url="html/871AE4A9.htm" />
+        <HelpTOCNode Title="AVACL Constructor (AVUser)" Url="html/6C11316F.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0479e064-9694-438f-b025-7033e212cbe3" Title="AVACL Methods" Url="html/688B15F9.htm">
+        <HelpTOCNode Id="2d351c01-5bea-42dc-bc41-b120c02890e5" Title="GetReadAccess Method " Url="html/D41AE499.htm">
+          <HelpTOCNode Title="GetReadAccess Method (String)" Url="html/2AA7B6DA.htm" />
+          <HelpTOCNode Title="GetReadAccess Method (AVUser)" Url="html/9A8FF45A.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1fe9c5f0-0006-44f7-866a-7c47e91e401c" Title="GetRoleReadAccess Method " Url="html/60D8A129.htm">
+          <HelpTOCNode Title="GetRoleReadAccess Method (String)" Url="html/2248F1EE.htm" />
+          <HelpTOCNode Title="GetRoleReadAccess Method (AVRole)" Url="html/A6444A1A.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4d4f396a-92ef-4417-a4cc-eb11cddad201" Title="GetRoleWriteAccess Method " Url="html/D633308A.htm">
+          <HelpTOCNode Title="GetRoleWriteAccess Method (String)" Url="html/9E6D4A6D.htm" />
+          <HelpTOCNode Title="GetRoleWriteAccess Method (AVRole)" Url="html/A6A43BBB.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9637ac95-93f2-4ee1-8096-aec922516d17" Title="GetWriteAccess Method " Url="html/6609F56E.htm">
+          <HelpTOCNode Title="GetWriteAccess Method (String)" Url="html/43B1FD5.htm" />
+          <HelpTOCNode Title="GetWriteAccess Method (AVUser)" Url="html/5C2FEEF7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aef6ff9c-ace2-4ada-ad68-56aeecb55240" Title="SetReadAccess Method " Url="html/9875B555.htm">
+          <HelpTOCNode Title="SetReadAccess Method (String, Boolean)" Url="html/F42F6046.htm" />
+          <HelpTOCNode Title="SetReadAccess Method (AVUser, Boolean)" Url="html/FDC29C66.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f8cafbe8-90bc-4ea5-810d-8a700402555c" Title="SetRoleReadAccess Method " Url="html/E8004DE5.htm">
+          <HelpTOCNode Title="SetRoleReadAccess Method (String, Boolean)" Url="html/5AC7C75A.htm" />
+          <HelpTOCNode Title="SetRoleReadAccess Method (AVRole, Boolean)" Url="html/A0389E26.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="76108290-268c-4bff-9683-1372455e84e1" Title="SetRoleWriteAccess Method " Url="html/32AC8C46.htm">
+          <HelpTOCNode Title="SetRoleWriteAccess Method (String, Boolean)" Url="html/30D602E1.htm" />
+          <HelpTOCNode Title="SetRoleWriteAccess Method (AVRole, Boolean)" Url="html/A35212C7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="807290e4-e2b4-469e-b997-d149dd69abb2" Title="SetWriteAccess Method " Url="html/FFB6752A.htm">
+          <HelpTOCNode Title="SetWriteAccess Method (String, Boolean)" Url="html/27ACAC49.htm" />
+          <HelpTOCNode Title="SetWriteAccess Method (AVUser, Boolean)" Url="html/C21C1A03.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="27b7e747-7d3d-484e-aae7-0a3c103f3eb9" Title="AVACL Properties" Url="html/4BDE7D52.htm">
+        <HelpTOCNode Title="PublicReadAccess Property " Url="html/F35A10BE.htm" />
+        <HelpTOCNode Title="PublicWriteAccess Property " Url="html/4D2BDAB1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4d093dd3-1581-48a9-bc9f-75871a2f04f7" Title="AVAnalytics Class" Url="html/4D56739B.htm">
+      <HelpTOCNode Title="AVAnalytics Constructor " Url="html/36DC42C5.htm" />
+      <HelpTOCNode Id="f61937a5-f6fa-4ef4-acc5-dafc3c11048e" Title="AVAnalytics Methods" Url="html/7DF85C7D.htm">
+        <HelpTOCNode Title="OnAppSetBackgroud Method " Url="html/C68EE0DE.htm" />
+        <HelpTOCNode Title="OnExit Method " Url="html/F3ACE739.htm" />
+        <HelpTOCNode Title="OnSceneEnd Method " Url="html/938B4EC8.htm" />
+        <HelpTOCNode Title="OnSceneStart Method " Url="html/DB41E68F.htm" />
+        <HelpTOCNode Title="SendAnalyticDataAsync Method " Url="html/72F91B7.htm" />
+        <HelpTOCNode Id="c5ada6c6-9b78-4f70-ace1-a7d34a7ae2df" Title="StartEvent Method " Url="html/32AB70C5.htm">
+          <HelpTOCNode Title="StartEvent Method (String)" Url="html/2720B02C.htm" />
+          <HelpTOCNode Title="StartEvent Method (String, IDictionary(String, Object))" Url="html/E7F51E5C.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0dd1cc78-ac42-48eb-9f43-a82a6af8ea6e" Title="StopEvent Method " Url="html/42878159.htm">
+          <HelpTOCNode Title="StopEvent Method (String)" Url="html/36B82730.htm" />
+          <HelpTOCNode Title="StopEvent Method (String, IDictionary(String, Object))" Url="html/99F49704.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TrackAppOpened Method " Url="html/294C860F.htm" />
+        <HelpTOCNode Id="aee69675-abf2-45a8-90c7-6ed94213fd21" Title="TrackEvent Method " Url="html/B5CF7EA.htm">
+          <HelpTOCNode Title="TrackEvent Method (String)" Url="html/FDB0C8A3.htm" />
+          <HelpTOCNode Title="TrackEvent Method (String, IDictionary(String, Object))" Url="html/80E89B19.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7979bc48-cba3-4b57-b98d-9631e1aaffd5" Title="AVClassNameAttribute Class" Url="html/8A39A1CA.htm">
+      <HelpTOCNode Title="AVClassNameAttribute Constructor " Url="html/24516F4E.htm" />
+      <HelpTOCNode Title="AVClassNameAttribute Methods" Url="html/DA298F32.htm" />
+      <HelpTOCNode Id="9cf7fcc7-6da2-4f16-bfa8-3a0db56f90b6" Title="AVClassNameAttribute Properties" Url="html/2F8220CB.htm">
+        <HelpTOCNode Title="ClassName Property " Url="html/EB17833B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="768e8410-d21a-437d-90cf-43cfff80fdeb" Title="AVClient Class" Url="html/75B4C3F0.htm">
+      <HelpTOCNode Id="ec4b4cb2-5d2a-4512-b16b-12b316dbabc4" Title="AVClient Methods" Url="html/50F6EE3C.htm">
+        <HelpTOCNode Id="dba2d4d8-4ccf-4292-8d07-0b3a7c567a6a" Title="Initialize Method " Url="html/735DFD6E.htm">
+          <HelpTOCNode Title="Initialize Method (String, String)" Url="html/5F842DCF.htm" />
+          <HelpTOCNode Title="Initialize Method (String, String, AVRegion)" Url="html/C54B601.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e611038-8a55-4fa1-ad30-f6780b4e2bb3" Title="AVCloud Class" Url="html/F0ACF548.htm">
+      <HelpTOCNode Id="0b0e9756-7786-4906-9001-88648c82dab7" Title="AVCloud Methods" Url="html/ECDFA114.htm">
+        <HelpTOCNode Id="726f07b3-e2fc-482a-906a-ff3bc38bfa34" Title="CallFunctionAsync Method " Url="html/15044CD4.htm">
+          <HelpTOCNode Title="CallFunctionAsync(T) Method (String, IDictionary(String, Object))" Url="html/A5D877EC.htm" />
+          <HelpTOCNode Title="CallFunctionAsync(T) Method (String, IDictionary(String, Object), CancellationToken)" Url="html/93C8B780.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5e7c9695-d495-42ae-9b9b-c12cf1b46cdc" Title="RequestSMSCode Method " Url="html/91319053.htm">
+          <HelpTOCNode Title="RequestSMSCode Method (String)" Url="html/1F1F1F98.htm" />
+          <HelpTOCNode Title="RequestSMSCode Method (String, CancellationToken)" Url="html/B8182E55.htm" />
+          <HelpTOCNode Title="RequestSMSCode Method (String, String, IDictionary(String, Object))" Url="html/D021D084.htm" />
+          <HelpTOCNode Title="RequestSMSCode Method (String, String, String, Int32)" Url="html/E82B72B3.htm" />
+          <HelpTOCNode Title="RequestSMSCode Method (String, String, String, Int32, CancellationToken)" Url="html/8AD2E74E.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2bd82cf9-873f-44eb-8de4-a600617f1683" Title="VerifySmsCode Method " Url="html/D4DF49D5.htm">
+          <HelpTOCNode Title="VerifySmsCode Method (String)" Url="html/2825B66E.htm" />
+          <HelpTOCNode Title="VerifySmsCode Method (String, CancellationToken)" Url="html/F5938DDA.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="45400186-37f8-45eb-a636-0df0c02f40a4" Title="AVException Class" Url="html/947DBFB8.htm">
+      <HelpTOCNode Title="AVException Methods" Url="html/73442364.htm" />
+      <HelpTOCNode Id="bc1604b2-2758-4b77-8cff-ae8209aed2f4" Title="AVException Properties" Url="html/1A9A519.htm">
+        <HelpTOCNode Title="Code Property " Url="html/9185041.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AVException.ErrorCode Enumeration" Url="html/BEE575D5.htm" />
+    <HelpTOCNode Id="9735d14e-82b7-4422-bab5-97751129ad5b" Title="AVExtensions Class" Url="html/8E786C7B.htm">
+      <HelpTOCNode Id="f1444afd-c337-4eb6-bc85-b273c667e78e" Title="AVExtensions Methods" Url="html/789E2DF1.htm">
+        <HelpTOCNode Id="0beac0e4-341d-4e09-8589-a1c80ef0b246" Title="FetchAllAsync Method " Url="html/2C8A4A4.htm">
+          <HelpTOCNode Title="FetchAllAsync(T) Method (IEnumerable(T))" Url="html/FF0C1232.htm" />
+          <HelpTOCNode Title="FetchAllAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/99A5B796.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8c8e69f7-ed89-45dd-b806-bb290601a30e" Title="FetchAllIfNeededAsync Method " Url="html/42853EA.htm">
+          <HelpTOCNode Title="FetchAllIfNeededAsync(T) Method (IEnumerable(T))" Url="html/E6F1188C.htm" />
+          <HelpTOCNode Title="FetchAllIfNeededAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/8C96EDB8.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d3c7d921-fc3f-4714-9445-16902fed6951" Title="FetchAsync Method " Url="html/F88E9427.htm">
+          <HelpTOCNode Title="FetchAsync(T) Method (T)" Url="html/60857D7F.htm" />
+          <HelpTOCNode Title="FetchAsync(T) Method (T, CancellationToken)" Url="html/E9655821.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="520cac29-acc0-4e51-9d65-04b520fd2d53" Title="FetchIfNeededAsync Method " Url="html/DD36630F.htm">
+          <HelpTOCNode Title="FetchIfNeededAsync(T) Method (T)" Url="html/C088C18F.htm" />
+          <HelpTOCNode Title="FetchIfNeededAsync(T) Method (T, CancellationToken)" Url="html/AE5F5C3D.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Or(T) Method " Url="html/8EDBB13E.htm" />
+        <HelpTOCNode Id="d2687a54-2868-4fb9-8587-621b1d0efc5f" Title="SaveAllAsync Method " Url="html/1DEBE83.htm">
+          <HelpTOCNode Title="SaveAllAsync(T) Method (IEnumerable(T))" Url="html/3A4C530B.htm" />
+          <HelpTOCNode Title="SaveAllAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/50F57281.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c364e44-7da5-45d8-a827-28b64c7d724b" Title="AVFieldNameAttribute Class" Url="html/7B605FA.htm">
+      <HelpTOCNode Title="AVFieldNameAttribute Constructor " Url="html/9B282BE2.htm" />
+      <HelpTOCNode Title="AVFieldNameAttribute Methods" Url="html/2FE042E.htm" />
+      <HelpTOCNode Id="02053611-10ab-45f5-b7f0-248de81498f1" Title="AVFieldNameAttribute Properties" Url="html/8B390D7F.htm">
+        <HelpTOCNode Title="FieldName Property " Url="html/19464003.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd3aa263-7b27-49d4-be8d-1bd298ccf0d6" Title="AVFile Class" Url="html/FED47DEF.htm">
+      <HelpTOCNode Id="0a3048f6-0d6a-4066-932f-10d80dbb16f5" Title="AVFile Constructor " Url="html/5BE6062E.htm">
+        <HelpTOCNode Title="AVFile Constructor (String, Byte[])" Url="html/45D2A9C1.htm" />
+        <HelpTOCNode Title="AVFile Constructor (String, Stream)" Url="html/1AFF81B8.htm" />
+        <HelpTOCNode Title="AVFile Constructor (String, String)" Url="html/4B12C616.htm" />
+        <HelpTOCNode Title="AVFile Constructor (String, Byte[], IDictionary(String, Object))" Url="html/330923E7.htm" />
+        <HelpTOCNode Title="AVFile Constructor (String, Stream, IDictionary(String, Object))" Url="html/78580D1D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcd237bb-e919-4cc6-8628-6750914d3271" Title="AVFile Methods" Url="html/DDD424E9.htm">
+        <HelpTOCNode Title="CreateFileWithLocalPath Method " Url="html/18CE25B8.htm" />
+        <HelpTOCNode Title="DeleteAsync Method " Url="html/25F58183.htm" />
+        <HelpTOCNode Title="DownloadAsync Method " Url="html/C28FE8B6.htm" />
+        <HelpTOCNode Id="895c749b-c185-4145-912b-cbfe0c66d9c5" Title="Encode Method " Url="html/795028D3.htm">
+          <HelpTOCNode Title="Encode Method (Byte[])" Url="html/6924EE78.htm" />
+          <HelpTOCNode Title="Encode Method (String)" Url="html/E1179990.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bd96ea09-fa4b-4cdd-a3b5-9ac0bf1b6998" Title="GetFileWithObjectIdAsync Method " Url="html/149D01F9.htm">
+          <HelpTOCNode Title="GetFileWithObjectIdAsync Method (String)" Url="html/F82EC322.htm" />
+          <HelpTOCNode Title="GetFileWithObjectIdAsync Method (String, CancellationToken)" Url="html/71CF9D4E.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="74532109-c07a-4d29-a0db-09a7755caa8b" Title="SaveAsync Method " Url="html/51E2077E.htm">
+          <HelpTOCNode Title="SaveAsync Method " Url="html/D5BDF4FF.htm" />
+          <HelpTOCNode Title="SaveAsync Method (CancellationToken)" Url="html/6B6F436F.htm" />
+          <HelpTOCNode Title="SaveAsync Method (IProgress(AVUploadProgressEventArgs))" Url="html/B0BE2CA5.htm" />
+          <HelpTOCNode Title="SaveAsync Method (IProgress(AVUploadProgressEventArgs), CancellationToken)" Url="html/C8C7CED4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="StringToAscii Method " Url="html/B935F247.htm" />
+        <HelpTOCNode Title="ToBase64URLSafe Method " Url="html/F91C21D0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="701fae93-8945-4316-ae6d-5a36b4d96e97" Title="AVFile Properties" Url="html/73602A60.htm">
+        <HelpTOCNode Title="DataByte Property " Url="html/7D82881F.htm" />
+        <HelpTOCNode Title="IsDirty Property " Url="html/FA2F520D.htm" />
+        <HelpTOCNode Title="IsExternal Property " Url="html/EECBADC6.htm" />
+        <HelpTOCNode Title="MetaData Property " Url="html/4F8FD4A8.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/6E8C08D6.htm" />
+        <HelpTOCNode Title="ObjectId Property " Url="html/4427B1D9.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/41AC864A.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="505387ac-2cc9-4472-8517-bd6833d0869a" Title="AVGeoDistance Structure" Url="html/69B1F63F.htm">
+      <HelpTOCNode Title="AVGeoDistance Constructor " Url="html/3A4E4C21.htm" />
+      <HelpTOCNode Id="815efd28-b898-4fd5-9d1e-09e114309c57" Title="AVGeoDistance Methods" Url="html/63883CC9.htm">
+        <HelpTOCNode Title="FromKilometers Method " Url="html/59D2C61F.htm" />
+        <HelpTOCNode Title="FromMiles Method " Url="html/C66BC9D8.htm" />
+        <HelpTOCNode Title="FromRadians Method " Url="html/D6921928.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="80552e3b-7bf2-4d86-9d31-6b1acb05936c" Title="AVGeoDistance Properties" Url="html/3B0CD1B8.htm">
+        <HelpTOCNode Title="Kilometers Property " Url="html/B7CE0AF0.htm" />
+        <HelpTOCNode Title="Miles Property " Url="html/E3218BEB.htm" />
+        <HelpTOCNode Title="Radians Property " Url="html/4B1B0B7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7469904c-1a1f-41ae-9a53-b279518a7171" Title="AVGeoPoint Structure" Url="html/5323F55E.htm">
+      <HelpTOCNode Title="AVGeoPoint Constructor " Url="html/EF426DF2.htm" />
+      <HelpTOCNode Id="615863fa-1482-4549-96e7-37cb7341fb9a" Title="AVGeoPoint Methods" Url="html/BB28113E.htm">
+        <HelpTOCNode Title="DistanceTo Method " Url="html/58E6DF0B.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1f932824-f264-4bdf-84af-944d75e7363c" Title="AVGeoPoint Properties" Url="html/EA6D8ABF.htm">
+        <HelpTOCNode Title="Latitude Property " Url="html/789E0D4.htm" />
+        <HelpTOCNode Title="Longitude Property " Url="html/52FF30D5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3a620f3-9e9f-49ac-8d54-0b8ccf28bd68" Title="AVGroup Class" Url="html/BCFCCF3A.htm">
+      <HelpTOCNode Title="AVGroup Constructor " Url="html/CBC7C5E8.htm" />
+      <HelpTOCNode Id="70259581-bdf3-44e3-9af0-e9762aa646d4" Title="AVGroup Methods" Url="html/F0131FF2.htm">
+        <HelpTOCNode Title="AddMembers Method " Url="html/F0DB1507.htm" />
+        <HelpTOCNode Id="cadb91c1-6d92-4216-bc6b-de3e449baacb" Title="Join Method " Url="html/DB70D662.htm">
+          <HelpTOCNode Title="Join Method " Url="html/6B1ACF3.htm" />
+          <HelpTOCNode Title="Join Method (EventHandler(EventArgs))" Url="html/55177675.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RemoveMembers Method " Url="html/B805BDF0.htm" />
+        <HelpTOCNode Id="0f05b670-1d3e-4b07-a712-6abdf6423089" Title="SendMessage Method " Url="html/7CF6673F.htm">
+          <HelpTOCNode Title="SendMessage Method (String)" Url="html/2242AC52.htm" />
+          <HelpTOCNode Title="SendMessage Method (String, EventHandler(AVGroupMessageSentEventArgs), EventHandler(AVGroupMessageReceivedEventArgs))" Url="html/2242AC53.htm" />
+          <HelpTOCNode Title="SendMessage Method (AVMessage, EventHandler(AVGroupMessageSentEventArgs), EventHandler(AVGroupMessageReceivedEventArgs))" Url="html/5A2EFE9A.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="32ebad28-7e3f-44ee-8a55-a4ec3d5b0158" Title="AVGroup Properties" Url="html/6D90E6ED.htm">
+        <HelpTOCNode Title="GroupId Property " Url="html/79350202.htm" />
+        <HelpTOCNode Title="SelfId Property " Url="html/DA16A7E5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3cd59cef-fd75-487d-bab7-bfb04f544137" Title="AVGroup Events" Url="html/A2B5185F.htm">
+        <HelpTOCNode Title="OnGroupMessageSent Event" Url="html/A5B662D4.htm" />
+        <HelpTOCNode Title="OnJoined Event" Url="html/1DFE413.htm" />
+        <HelpTOCNode Title="OnLeft Event" Url="html/91C228DB.htm" />
+        <HelpTOCNode Title="OnMembersJoined Event" Url="html/6E9FAEEE.htm" />
+        <HelpTOCNode Title="OnMembersLeft Event" Url="html/DDEC1BE6.htm" />
+        <HelpTOCNode Title="OnMembersRemoved Event" Url="html/D0D8DB1D.htm" />
+        <HelpTOCNode Title="OnMessage Event" Url="html/F93C5CAB.htm" />
+        <HelpTOCNode Title="OnReject Event" Url="html/523FFE13.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="098ad91b-86da-424b-a218-5b7d0cd04fff" Title="AVGroupMembersJoinedEventArgs Class" Url="html/8EE8E3FD.htm">
+      <HelpTOCNode Title="AVGroupMembersJoinedEventArgs Constructor " Url="html/6335B7F3.htm" />
+      <HelpTOCNode Title="AVGroupMembersJoinedEventArgs Methods" Url="html/B6A0B29B.htm" />
+      <HelpTOCNode Id="950ae05b-1139-4d25-a5a6-0d01554e9414" Title="AVGroupMembersJoinedEventArgs Properties" Url="html/E76CE69E.htm">
+        <HelpTOCNode Title="JoinedPeerIds Property " Url="html/8784BCB2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d07f654c-96d9-4383-b9c4-12819c50303f" Title="AVGroupMembersLeftEventArgs Class" Url="html/248DD31D.htm">
+      <HelpTOCNode Title="AVGroupMembersLeftEventArgs Constructor " Url="html/5A59233B.htm" />
+      <HelpTOCNode Title="AVGroupMembersLeftEventArgs Methods" Url="html/371A288B.htm" />
+      <HelpTOCNode Id="9bf20d5a-25e7-4fca-81f9-23c6a0609489" Title="AVGroupMembersLeftEventArgs Properties" Url="html/81A8AEC6.htm">
+        <HelpTOCNode Title="LeftPeerIds Property " Url="html/E69BFF2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="03d8d427-fa13-44f8-a6dd-9f64620d2f3f" Title="AVGroupMembersRemovedEventArgs Class" Url="html/F8A55058.htm">
+      <HelpTOCNode Title="AVGroupMembersRemovedEventArgs Constructor " Url="html/9162F19C.htm" />
+      <HelpTOCNode Title="AVGroupMembersRemovedEventArgs Methods" Url="html/E2CBE0A0.htm" />
+      <HelpTOCNode Id="71c9bd92-9e0f-4c7e-862b-229dcdc19e5e" Title="AVGroupMembersRemovedEventArgs Properties" Url="html/2DF0B0FF.htm">
+        <HelpTOCNode Title="RemovedPeerIds Property " Url="html/E9BE4268.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c3f7cd2-7920-45b4-99a9-ce9cd5f1cc9b" Title="AVGroupMessageReceivedEventArgs Class" Url="html/A6A3AF49.htm">
+      <HelpTOCNode Title="AVGroupMessageReceivedEventArgs Constructor " Url="html/199A6D33.htm" />
+      <HelpTOCNode Title="AVGroupMessageReceivedEventArgs Methods" Url="html/F1EB7CD3.htm" />
+      <HelpTOCNode Id="2abf3e1b-81ff-466a-8ac3-76cacaec5fb0" Title="AVGroupMessageReceivedEventArgs Properties" Url="html/7C3A7660.htm">
+        <HelpTOCNode Title="Message Property " Url="html/93BB60D2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="35fa1dd6-b2c0-4b0e-ba6a-b8b72c4bf471" Title="AVGroupMessageSentEventArgs Class" Url="html/68393DE4.htm">
+      <HelpTOCNode Title="AVGroupMessageSentEventArgs Constructor " Url="html/10950642.htm" />
+      <HelpTOCNode Title="AVGroupMessageSentEventArgs Methods" Url="html/53EAB38.htm" />
+      <HelpTOCNode Id="a7d5fb46-590b-4af1-8327-1d20629ec0b1" Title="AVGroupMessageSentEventArgs Properties" Url="html/B6B5705D.htm">
+        <HelpTOCNode Title="Message Property " Url="html/8EF0E477.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="66bbff42-5b12-4b72-b69f-97d7279995d1" Title="AVInstallation Class" Url="html/AE6A8DB1.htm">
+      <HelpTOCNode Title="AVInstallation Constructor " Url="html/321E31E7.htm" />
+      <HelpTOCNode Title="AVInstallation Methods" Url="html/3290F35B.htm" />
+      <HelpTOCNode Id="048496fc-3b36-40e3-8fdf-3f3694f50e3f" Title="AVInstallation Properties" Url="html/A6C72D7E.htm">
+        <HelpTOCNode Title="AppIdentifier Property " Url="html/F6BBA345.htm" />
+        <HelpTOCNode Title="AppName Property " Url="html/E5BFFD59.htm" />
+        <HelpTOCNode Title="AppVersion Property " Url="html/F872A332.htm" />
+        <HelpTOCNode Title="AVVersion Property " Url="html/7083DAEC.htm" />
+        <HelpTOCNode Title="Channels Property " Url="html/8307FC57.htm" />
+        <HelpTOCNode Title="CurrentInstallation Property " Url="html/F986209C.htm" />
+        <HelpTOCNode Title="DeviceType Property " Url="html/ADF66C9B.htm" />
+        <HelpTOCNode Title="InstallationId Property " Url="html/E94277AA.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/88110E6C.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/95630DF5.htm" />
+        <HelpTOCNode Title="TimeZone Property " Url="html/5AE14014.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AVInstallation Events" Url="html/D88E54A6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff530e76-6814-42e6-9877-f424ab5e9b56" Title="AVMessage Class" Url="html/C0D326FE.htm">
+      <HelpTOCNode Title="AVMessage Constructor " Url="html/12205778.htm" />
+      <HelpTOCNode Title="AVMessage Methods" Url="html/28E18D4A.htm" />
+      <HelpTOCNode Id="655436e7-b36d-402b-aa8b-b07d283729c0" Title="AVMessage Properties" Url="html/5A60CC6D.htm">
+        <HelpTOCNode Title="FromPeerId Property " Url="html/77F25725.htm" />
+        <HelpTOCNode Title="GroupId Property " Url="html/678DF106.htm" />
+        <HelpTOCNode Title="IsTransient Property " Url="html/37C20912.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/1FBE969B.htm" />
+        <HelpTOCNode Title="Timestamp Property " Url="html/C0712508.htm" />
+        <HelpTOCNode Title="ToPeerIds Property " Url="html/5E8A99EB.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6565a6e6-ef3d-4c1b-bd2c-93d4341cf2a4" Title="AVMessageReceivedEventArgs Class" Url="html/42DE87AA.htm">
+      <HelpTOCNode Title="AVMessageReceivedEventArgs Constructor " Url="html/CD455BBE.htm" />
+      <HelpTOCNode Title="AVMessageReceivedEventArgs Methods" Url="html/37CF27DE.htm" />
+      <HelpTOCNode Id="99868db6-6dcb-40c0-b5db-572a33ef1de3" Title="AVMessageReceivedEventArgs Properties" Url="html/F62D6479.htm">
+        <HelpTOCNode Title="Message Property " Url="html/CC339C33.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a97260f1-c956-4625-a5d7-b597c9f0c7b9" Title="AVMessageReceiver Class" Url="html/F1F25A3B.htm">
+      <HelpTOCNode Title="AVMessageReceiver Constructor " Url="html/7184B7DD.htm" />
+      <HelpTOCNode Title="AVMessageReceiver Methods" Url="html/50313A1D.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a2789885-6697-427c-8bf6-735887285156" Title="AVMessageSentEventArgs Class" Url="html/2094C4AD.htm">
+      <HelpTOCNode Title="AVMessageSentEventArgs Constructor " Url="html/5777ADDB.htm" />
+      <HelpTOCNode Title="AVMessageSentEventArgs Methods" Url="html/A7C4795F.htm" />
+      <HelpTOCNode Id="12a04e12-d6aa-4487-a61b-821c9e5805e3" Title="AVMessageSentEventArgs Properties" Url="html/33BD4A94.htm">
+        <HelpTOCNode Title="Message Property " Url="html/3D841970.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f9ee4a6-91d3-402a-bd20-f337bbb5c6ea" Title="AVMessageSentFailedEventArgs Class" Url="html/19ECBB92.htm">
+      <HelpTOCNode Title="AVMessageSentFailedEventArgs Constructor " Url="html/6AADE8B2.htm" />
+      <HelpTOCNode Title="AVMessageSentFailedEventArgs Methods" Url="html/BFCF4A9A.htm" />
+      <HelpTOCNode Id="9379015d-0a0a-4c58-90c8-9ad5cea174bc" Title="AVMessageSentFailedEventArgs Properties" Url="html/A736672D.htm">
+        <HelpTOCNode Title="Error Property " Url="html/8712667E.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/E64A9BCB.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6aea2ca9-789e-461b-a808-f4fea2fb54e7" Title="AVObject Class" Url="html/2E8E2C58.htm">
+      <HelpTOCNode Id="85441944-2136-4888-9b33-e6e868b3475f" Title="AVObject Constructor " Url="html/72063937.htm">
+        <HelpTOCNode Title="AVObject Constructor " Url="html/6A4F0CEC.htm" />
+        <HelpTOCNode Title="AVObject Constructor (String)" Url="html/D7724240.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="20cace5b-c6f3-4376-ad3e-7b802840b95a" Title="AVObject Methods" Url="html/F2AD50A0.htm">
+        <HelpTOCNode Title="Add Method " Url="html/A76B964.htm" />
+        <HelpTOCNode Title="AddRangeToList(T) Method " Url="html/E95AD0DD.htm" />
+        <HelpTOCNode Title="AddRangeUniqueToList(T) Method " Url="html/426EE44A.htm" />
+        <HelpTOCNode Title="AddToList Method " Url="html/BE8CE2E3.htm" />
+        <HelpTOCNode Title="AddUniqueToList Method " Url="html/19AE885A.htm" />
+        <HelpTOCNode Title="ContainsKey Method " Url="html/27FEE97B.htm" />
+        <HelpTOCNode Id="5b2b78d9-21eb-4b41-9379-747f0f430b8c" Title="Create Method " Url="html/6E2A29FC.htm">
+          <HelpTOCNode Title="Create(T) Method " Url="html/28A26668.htm" />
+          <HelpTOCNode Title="Create Method (String)" Url="html/839DB513.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7dd7bcc2-d501-488d-95cf-3f00e30c9f26" Title="CreateWithoutData Method " Url="html/7BDD58D8.htm">
+          <HelpTOCNode Title="CreateWithoutData(T) Method (String)" Url="html/D78C780E.htm" />
+          <HelpTOCNode Title="CreateWithoutData Method (String, String)" Url="html/1D18137F.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="46c33836-08d6-4d2d-a628-98d9b4a31097" Title="DeleteAsync Method " Url="html/8D890AD9.htm">
+          <HelpTOCNode Title="DeleteAsync Method " Url="html/7BFDF6A.htm" />
+          <HelpTOCNode Title="DeleteAsync Method (CancellationToken)" Url="html/22FD6456.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4c6731c0-0c06-43d0-94dd-087499942204" Title="FetchAllAsync Method " Url="html/F51859E1.htm">
+          <HelpTOCNode Title="FetchAllAsync(T) Method (IEnumerable(T))" Url="html/5B3FE1B9.htm" />
+          <HelpTOCNode Title="FetchAllAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/155CAF13.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2629625d-0dce-4d36-8fe9-62dc56ab5f07" Title="FetchAllIfNeededAsync Method " Url="html/6C5A3B15.htm">
+          <HelpTOCNode Title="FetchAllIfNeededAsync(T) Method (IEnumerable(T))" Url="html/FB146C8D.htm" />
+          <HelpTOCNode Title="FetchAllIfNeededAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/8C1B8B03.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Get(T) Method " Url="html/6FB1B57A.htm" />
+        <HelpTOCNode Id="276e3ff5-60a0-4ab8-bbf4-cff17ce51aa4" Title="GetProperty Method " Url="html/D09CC2DB.htm">
+          <HelpTOCNode Title="GetProperty(T) Method (String)" Url="html/8428C7D7.htm" />
+          <HelpTOCNode Title="GetProperty(T) Method (T, String)" Url="html/8CA9E2CD.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetQuery Method " Url="html/149278DB.htm" />
+        <HelpTOCNode Title="GetRelation(T) Method " Url="html/3D382BCE.htm" />
+        <HelpTOCNode Title="GetRelationProperty(T) Method " Url="html/848A41ED.htm" />
+        <HelpTOCNode Title="HasSameId Method " Url="html/ACBAE890.htm" />
+        <HelpTOCNode Id="1b76501c-8ea2-46a3-9213-816ec47b7a6f" Title="Increment Method " Url="html/630521D3.htm">
+          <HelpTOCNode Title="Increment Method (String)" Url="html/10904A26.htm" />
+          <HelpTOCNode Title="Increment Method (String, Double)" Url="html/557AD0CA.htm" />
+          <HelpTOCNode Title="Increment Method (String, Int64)" Url="html/3D712E9B.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsKeyDirty Method " Url="html/B9F24A84.htm" />
+        <HelpTOCNode Title="OnFieldsChanged Method " Url="html/96DB2921.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/6DE5D22B.htm" />
+        <HelpTOCNode Title="RegisterSubclass(T) Method " Url="html/17F981CD.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/9E7E0B6D.htm" />
+        <HelpTOCNode Title="RemoveAllFromList(T) Method " Url="html/BC4FA5A9.htm" />
+        <HelpTOCNode Title="Revert Method " Url="html/81A35089.htm" />
+        <HelpTOCNode Id="da6897e8-cb28-4b8e-b73e-ed7be56343c1" Title="SaveAllAsync Method " Url="html/E045CA48.htm">
+          <HelpTOCNode Title="SaveAllAsync(T) Method (IEnumerable(T))" Url="html/542F45B0.htm" />
+          <HelpTOCNode Title="SaveAllAsync(T) Method (IEnumerable(T), CancellationToken)" Url="html/61E7D07C.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b05df148-533d-45b7-85d3-700203ebcffa" Title="SaveAsync Method " Url="html/4574AFFD.htm">
+          <HelpTOCNode Title="SaveAsync Method " Url="html/BFBC778C.htm" />
+          <HelpTOCNode Title="SaveAsync Method (CancellationToken)" Url="html/EA2CAAE4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetProperty(T) Method " Url="html/70E4591B.htm" />
+        <HelpTOCNode Title="TryGetValue(T) Method " Url="html/76C5DD7E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="63cc9b4c-c35f-4ea1-bcfa-4ba137188505" Title="AVObject Properties" Url="html/DD90AB6F.htm">
+        <HelpTOCNode Title="ACL Property " Url="html/7402B2.htm" />
+        <HelpTOCNode Title="ClassName Property " Url="html/A58A4697.htm" />
+        <HelpTOCNode Title="CreatedAt Property " Url="html/8401029F.htm" />
+        <HelpTOCNode Title="IsDataAvailable Property " Url="html/D197945D.htm" />
+        <HelpTOCNode Title="IsDirty Property " Url="html/87D2E03A.htm" />
+        <HelpTOCNode Title="IsNew Property " Url="html/42713284.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/B5F5B17.htm" />
+        <HelpTOCNode Title="Keys Property " Url="html/1363E46E.htm" />
+        <HelpTOCNode Title="ObjectId Property " Url="html/33F02790.htm" />
+        <HelpTOCNode Title="UpdatedAt Property " Url="html/6E017840.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7fae99d4-c2fd-42ab-be13-d8021c48d476" Title="AVObject Events" Url="html/3EAE8819.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/AB156488.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b875a371-9a86-4a91-a990-503830d13ecd" Title="AVPush Class" Url="html/1FAD88F3.htm">
+      <HelpTOCNode Title="AVPush Constructor " Url="html/84A8181D.htm" />
+      <HelpTOCNode Id="de7e0c92-38f6-4a8f-b55f-0bf5d1a72628" Title="AVPush Methods" Url="html/60D2DFB5.htm">
+        <HelpTOCNode Id="5b9e93ee-29bc-425f-b147-fab4e816c367" Title="PushJson Method " Url="html/A025AA07.htm">
+          <HelpTOCNode Title="PushJson Method (NotificationEventArgs)" Url="html/F54F3FA2.htm" />
+          <HelpTOCNode Title="PushJson Method (NavigationEventArgs)" Url="html/96CD3BCE.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="190fdc00-87a8-4a1f-8a02-62d07ca9242b" Title="SendAlertAsync Method " Url="html/930F13C5.htm">
+          <HelpTOCNode Title="SendAlertAsync Method (String)" Url="html/3E5936D4.htm" />
+          <HelpTOCNode Title="SendAlertAsync Method (String, AVQuery(AVInstallation))" Url="html/A223D6A4.htm" />
+          <HelpTOCNode Title="SendAlertAsync Method (String, IEnumerable(String))" Url="html/A223D6A1.htm" />
+          <HelpTOCNode Title="SendAlertAsync Method (String, String)" Url="html/A223D6A2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bdf2cae5-319f-465f-b7df-6385e247b939" Title="SendAsync Method " Url="html/8945E273.htm">
+          <HelpTOCNode Title="SendAsync Method " Url="html/F4233DFE.htm" />
+          <HelpTOCNode Title="SendAsync Method (CancellationToken)" Url="html/567DAC36.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dcc32dbc-c9b5-43e5-801c-f1426eaf1326" Title="SendDataAsync Method " Url="html/3E1BE283.htm">
+          <HelpTOCNode Title="SendDataAsync Method (IDictionary(String, Object))" Url="html/BB49C84E.htm" />
+          <HelpTOCNode Title="SendDataAsync Method (IDictionary(String, Object), AVQuery(AVInstallation))" Url="html/1413A26.htm" />
+          <HelpTOCNode Title="SendDataAsync Method (IDictionary(String, Object), IEnumerable(String))" Url="html/5E99C58B.htm" />
+          <HelpTOCNode Title="SendDataAsync Method (IDictionary(String, Object), String)" Url="html/BBF250F0.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9c884f25-e5d1-42e3-93f4-0f678a43e81b" Title="SubscribeAsync Method " Url="html/FB1BADC3.htm">
+          <HelpTOCNode Title="SubscribeAsync Method (IEnumerable(String))" Url="html/36AB53A8.htm" />
+          <HelpTOCNode Title="SubscribeAsync Method (String)" Url="html/A7C115F.htm" />
+          <HelpTOCNode Title="SubscribeAsync Method (IEnumerable(String), CancellationToken)" Url="html/A7C1160.htm" />
+          <HelpTOCNode Title="SubscribeAsync Method (String, CancellationToken)" Url="html/A7C115E.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0e3c070b-9ce6-425e-bae3-eb5305c57c52" Title="UnsubscribeAsync Method " Url="html/95243A26.htm">
+          <HelpTOCNode Title="UnsubscribeAsync Method (IEnumerable(String))" Url="html/4F35BE11.htm" />
+          <HelpTOCNode Title="UnsubscribeAsync Method (String)" Url="html/2EB7CDFE.htm" />
+          <HelpTOCNode Title="UnsubscribeAsync Method (IEnumerable(String), CancellationToken)" Url="html/2EB7CDFB.htm" />
+          <HelpTOCNode Title="UnsubscribeAsync Method (String, CancellationToken)" Url="html/2EB7CDFD.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ecd32fab-5324-499b-a860-ae34bea844b2" Title="AVPush Properties" Url="html/B4436C1E.htm">
+        <HelpTOCNode Title="Alert Property " Url="html/348E9FCF.htm" />
+        <HelpTOCNode Title="Channels Property " Url="html/1B6E850D.htm" />
+        <HelpTOCNode Title="Data Property " Url="html/1406C48D.htm" />
+        <HelpTOCNode Title="Expiration Property " Url="html/BC89778A.htm" />
+        <HelpTOCNode Title="ExpirationInterval Property " Url="html/489E5A7D.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/B6C775AF.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d383d130-8f63-4f18-8eaa-93b6e1ac7323" Title="AVPush Events" Url="html/63C57F12.htm">
+        <HelpTOCNode Title="ToastNotificationReceived Event" Url="html/BC1D151B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="995fc2fe-afd5-435b-aadd-012dfdcf2ac0" Title="AVQuery(T) Class" Url="html/D93A5776.htm">
+      <HelpTOCNode Id="69efb721-fc1c-40bb-a353-a4219e957f0e" Title="AVQuery(T) Constructor " Url="html/72E551FD.htm">
+        <HelpTOCNode Title="AVQuery(T) Constructor " Url="html/E0BE404C.htm" />
+        <HelpTOCNode Title="AVQuery(T) Constructor (String)" Url="html/F5BA62C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0401c14c-9f5f-44c7-8438-249d423a5358" Title="AVQuery(T) Methods" Url="html/75BF9676.htm">
+        <HelpTOCNode Id="9b2492c4-fce8-4abf-adf7-78cf86e8de41" Title="CountAsync Method " Url="html/6F3DB615.htm">
+          <HelpTOCNode Title="CountAsync Method " Url="html/7BC68034.htm" />
+          <HelpTOCNode Title="CountAsync Method (CancellationToken)" Url="html/7C665B90.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7044f073-d6ac-4d64-9e21-8ba2f6678bc8" Title="DoCloudQuery Method " Url="html/224A8070.htm">
+          <HelpTOCNode Title="DoCloudQuery Method (String)" Url="html/1C2750A5.htm" />
+          <HelpTOCNode Title="DoCloudQuery Method (String, IList(Object))" Url="html/6E3023BF.htm" />
+          <HelpTOCNode Title="DoCloudQuery Method (String, CancellationToken)" Url="html/28E13A89.htm" />
+          <HelpTOCNode Title="DoCloudQuery Method (String, IList(Object), CancellationToken)" Url="html/8639C5EE.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="76b1002b-3af0-4a13-ba28-e7f802ae04e3" Title="FindAsync Method " Url="html/65E8BF0F.htm">
+          <HelpTOCNode Title="FindAsync Method " Url="html/5D4CB82A.htm" />
+          <HelpTOCNode Title="FindAsync Method (CancellationToken)" Url="html/355D4A42.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e3997774-2c05-4bf2-aef7-1ec283a046b2" Title="FirstAsync Method " Url="html/90F14610.htm">
+          <HelpTOCNode Title="FirstAsync Method " Url="html/95456E8D.htm" />
+          <HelpTOCNode Title="FirstAsync Method (CancellationToken)" Url="html/6000921B.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e633f5c9-edd5-44c6-9bd4-f2ea42b3c7e2" Title="FirstOrDefaultAsync Method " Url="html/BB8A6DAE.htm">
+          <HelpTOCNode Title="FirstOrDefaultAsync Method " Url="html/4FA3C2AF.htm" />
+          <HelpTOCNode Title="FirstOrDefaultAsync Method (CancellationToken)" Url="html/ACAC9961.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8a825f0b-6de8-4844-ac1e-f848d2ceef01" Title="GetAsync Method " Url="html/3B0625A6.htm">
+          <HelpTOCNode Title="GetAsync Method (String)" Url="html/DEAD0BD9.htm" />
+          <HelpTOCNode Title="GetAsync Method (String, CancellationToken)" Url="html/3C1E5C33.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Include Method " Url="html/F9318CAD.htm" />
+        <HelpTOCNode Title="Limit Method " Url="html/DB8B7040.htm" />
+        <HelpTOCNode Title="Or Method " Url="html/6EE12DDC.htm" />
+        <HelpTOCNode Title="OrderBy Method " Url="html/C4007376.htm" />
+        <HelpTOCNode Title="OrderByDescending Method " Url="html/9259BA30.htm" />
+        <HelpTOCNode Title="Skip Method " Url="html/9CC5FB76.htm" />
+        <HelpTOCNode Title="ThenBy Method " Url="html/F89CAC61.htm" />
+        <HelpTOCNode Title="ThenByDescending Method " Url="html/7BF9DF4F.htm" />
+        <HelpTOCNode Title="WhereContainedIn(TIn) Method " Url="html/AFA45E2B.htm" />
+        <HelpTOCNode Title="WhereContains Method " Url="html/846F1F17.htm" />
+        <HelpTOCNode Title="WhereContainsAll(TIn) Method " Url="html/454E5F7B.htm" />
+        <HelpTOCNode Title="WhereDoesNotExist Method " Url="html/94B9BB47.htm" />
+        <HelpTOCNode Title="WhereDoesNotMatchQuery(TOther) Method " Url="html/54B5891C.htm" />
+        <HelpTOCNode Title="WhereEndsWith Method " Url="html/9B0A80AA.htm" />
+        <HelpTOCNode Title="WhereEqualTo Method " Url="html/B20A6E47.htm" />
+        <HelpTOCNode Title="WhereExists Method " Url="html/97C3054C.htm" />
+        <HelpTOCNode Title="WhereGreaterThan Method " Url="html/84E4C699.htm" />
+        <HelpTOCNode Title="WhereGreaterThanOrEqualTo Method " Url="html/E2078FA7.htm" />
+        <HelpTOCNode Title="WhereLessThan Method " Url="html/6B0464FE.htm" />
+        <HelpTOCNode Title="WhereLessThanOrEqualTo Method " Url="html/497C0F78.htm" />
+        <HelpTOCNode Id="da4b6827-eae8-4bb6-8cba-66c542bedd2b" Title="WhereMatches Method " Url="html/764B1412.htm">
+          <HelpTOCNode Title="WhereMatches Method (String, String)" Url="html/B6505DB5.htm" />
+          <HelpTOCNode Title="WhereMatches Method (String, Regex)" Url="html/464520D4.htm" />
+          <HelpTOCNode Title="WhereMatches Method (String, String, String)" Url="html/5E4EC303.htm" />
+          <HelpTOCNode Title="WhereMatches Method (String, Regex, String)" Url="html/A39DAC39.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WhereMatchesKeyInQuery(TOther) Method " Url="html/E27BB3A0.htm" />
+        <HelpTOCNode Title="WhereMatchesQuery(TOther) Method " Url="html/2C0FEC9A.htm" />
+        <HelpTOCNode Title="WhereNear Method " Url="html/85E41596.htm" />
+        <HelpTOCNode Title="WhereNotContainedIn(TIn) Method " Url="html/D1D14EF4.htm" />
+        <HelpTOCNode Title="WhereNotEqualTo Method " Url="html/4442CA26.htm" />
+        <HelpTOCNode Title="WhereStartsWith Method " Url="html/535201D1.htm" />
+        <HelpTOCNode Title="WhereWithinDistance Method " Url="html/18CBD8F0.htm" />
+        <HelpTOCNode Title="WhereWithinGeoBox Method " Url="html/53AC84ED.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AVRegion Enumeration" Url="html/DE1A91A9.htm" />
+    <HelpTOCNode Id="5593d82e-e3f3-49c2-9259-4cfbe47605da" Title="AVRelation(T) Class" Url="html/4C58C4E0.htm">
+      <HelpTOCNode Id="36090c31-35c0-4d7b-8896-9deb672228f0" Title="AVRelation(T) Methods" Url="html/5E70661C.htm">
+        <HelpTOCNode Title="Add Method " Url="html/7ED7B45C.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/6C0A7D8B.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e744d525-470c-400c-bd29-770c3b6046a6" Title="AVRelation(T) Properties" Url="html/F3B55A29.htm">
+        <HelpTOCNode Title="Query Property " Url="html/DEDBDB12.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="13dfcb46-123c-44eb-9ba7-6484d96b0e1e" Title="AVRelationBase Class" Url="html/6ADF26E.htm">
+      <HelpTOCNode Title="AVRelationBase Methods" Url="html/60A2710E.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="335f9b03-6e28-4235-a961-17cbcf0197e5" Title="AVRMError Class" Url="html/15E8E238.htm">
+      <HelpTOCNode Title="AVRMError Constructor " Url="html/A461724A.htm" />
+      <HelpTOCNode Title="AVRMError Methods" Url="html/4EAA1840.htm" />
+      <HelpTOCNode Id="30a6cd3b-50d2-4fe9-919c-7633d50c6907" Title="AVRMError Properties" Url="html/DA25DD85.htm">
+        <HelpTOCNode Title="Code Property " Url="html/6C7996ED.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="446b9134-0a9d-4f32-be49-5181a9013f3e" Title="AVRMException Class" Url="html/3B91E85.htm">
+      <HelpTOCNode Title="AVRMException Constructor " Url="html/E53CCA23.htm" />
+      <HelpTOCNode Title="AVRMException Methods" Url="html/75933563.htm" />
+      <HelpTOCNode Id="1a14ab72-2b9c-4bf0-ad86-cd63460cc401" Title="AVRMException Properties" Url="html/63D9C7B0.htm">
+        <HelpTOCNode Title="Error Property " Url="html/22629D63.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AVRMProtocolUtils Class" Url="html/C2038F97.htm" />
+    <HelpTOCNode Id="df54c2dc-352c-4d3d-b4ed-baae0f5a53c8" Title="AVRole Class" Url="html/789E5EBD.htm">
+      <HelpTOCNode Id="4e9f9d66-486b-4b98-a2ad-a8847e9e81c4" Title="AVRole Constructor " Url="html/94119CE8.htm">
+        <HelpTOCNode Title="AVRole Constructor " Url="html/C41A2497.htm" />
+        <HelpTOCNode Title="AVRole Constructor (String, AVACL)" Url="html/7A3FF965.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AVRole Methods" Url="html/B7EDAFB.htm" />
+      <HelpTOCNode Id="14ebb8c9-3396-4a9e-abde-d2d762e411e6" Title="AVRole Properties" Url="html/23A42DBE.htm">
+        <HelpTOCNode Title="Name Property " Url="html/4EDFF540.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/F7EC14D1.htm" />
+        <HelpTOCNode Title="Roles Property " Url="html/3EF82EB4.htm" />
+        <HelpTOCNode Title="Users Property " Url="html/DB2CF29D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AVRole Events" Url="html/354BF0DA.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="598b9b91-795b-4eb9-8439-cdb3f8a7f4e6" Title="AVSession Class" Url="html/D605769B.htm">
+      <HelpTOCNode Id="3a0725b7-606c-41a7-8e14-70a1e1710bbd" Title="AVSession Constructor " Url="html/D7DBFFF2.htm">
+        <HelpTOCNode Title="AVSession Constructor (String)" Url="html/FABD4FAD.htm" />
+        <HelpTOCNode Title="AVSession Constructor (String, IAVSessionListener)" Url="html/F642FFF7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1b60bab2-21ad-4a45-bc19-eff69cd10a2a" Title="AVSession Methods" Url="html/3E0F78ED.htm">
+        <HelpTOCNode Title="Close Method " Url="html/E4B35300.htm" />
+        <HelpTOCNode Id="1311706b-6d4e-4611-8b8c-f66f71447836" Title="GetGroup Method " Url="html/AE66218C.htm">
+          <HelpTOCNode Title="GetGroup Method " Url="html/83D2D5D1.htm" />
+          <HelpTOCNode Title="GetGroup Method (String)" Url="html/203AE1C3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1db8f979-9872-4159-a822-64eb1fbd7d99" Title="Open Method " Url="html/8756B615.htm">
+          <HelpTOCNode Title="Open Method " Url="html/DB38D03C.htm" />
+          <HelpTOCNode Title="Open Method (IList(String))" Url="html/1F11408C.htm" />
+          <HelpTOCNode Title="Open Method (String, IList(String))" Url="html/7079E5D.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Reconnect Method " Url="html/9B742DD.htm" />
+        <HelpTOCNode Id="9df93508-ed83-4762-b1bd-ec643b88fbbc" Title="SendMessage Method " Url="html/3FF9ADBC.htm">
+          <HelpTOCNode Title="SendMessage Method (AVGroup, AVMessage)" Url="html/7B3FE59B.htm" />
+          <HelpTOCNode Title="SendMessage Method (String, IList(String), Boolean, EventHandler(AVMessageReceivedEventArgs))" Url="html/1BB9D58D.htm" />
+          <HelpTOCNode Title="SendMessage Method (String, String, Boolean, EventHandler(AVMessageReceivedEventArgs))" Url="html/1BB9D58C.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetListener Method " Url="html/D63E949C.htm" />
+        <HelpTOCNode Title="UnWatchPeer Method " Url="html/4565980A.htm" />
+        <HelpTOCNode Title="UnWatchPeers Method " Url="html/A66DF85F.htm" />
+        <HelpTOCNode Title="WatchPeer Method " Url="html/C68908FB.htm" />
+        <HelpTOCNode Title="WatchPeers Method " Url="html/4A7ED4BC.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="45711472-4246-4d4a-b976-cb4b5f8edda2" Title="AVSession Properties" Url="html/203C65EE.htm">
+        <HelpTOCNode Title="AllPeerIds Property " Url="html/8F19FFB6.htm" />
+        <HelpTOCNode Title="AVSessionListener Property " Url="html/294741DE.htm" />
+        <HelpTOCNode Title="OnlinePeerIds Property " Url="html/B3093988.htm" />
+        <HelpTOCNode Title="SelfId Property " Url="html/4A795E9A.htm" />
+        <HelpTOCNode Title="SignatureFactory Property " Url="html/9C6401AD.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/C919544D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4f72aa4b-297f-4e42-aea1-6fe6fd52ecf2" Title="AVSession Events" Url="html/9558007A.htm">
+        <HelpTOCNode Title="OnMessage Event" Url="html/959A9A74.htm" />
+        <HelpTOCNode Title="OnMessageFailed Event" Url="html/BDCFD899.htm" />
+        <HelpTOCNode Title="OnMessageSent Event" Url="html/7238B54A.htm" />
+        <HelpTOCNode Title="OnSessionClosed Event" Url="html/28EC4ECD.htm" />
+        <HelpTOCNode Title="OnSessionOpen Event" Url="html/832F752B.htm" />
+        <HelpTOCNode Title="OnSessionPaused Event" Url="html/8CCE3325.htm" />
+        <HelpTOCNode Title="OnSessionResumed Event" Url="html/D4363C7C.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9b2b617-10cb-4c0a-8c85-336ae2138210" Title="AVUploadProgressEventArgs Class" Url="html/6098A3B6.htm">
+      <HelpTOCNode Title="AVUploadProgressEventArgs Methods" Url="html/F412AAE2.htm" />
+      <HelpTOCNode Id="ad9c010a-8b47-468a-b0cc-f5b3f438126e" Title="AVUploadProgressEventArgs Properties" Url="html/CD1FC6C3.htm">
+        <HelpTOCNode Title="Progress Property " Url="html/2C2939EF.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e60d9d88-4e36-49f8-bde0-3a69b6703a9b" Title="AVUser Class" Url="html/BBEA2DE8.htm">
+      <HelpTOCNode Title="AVUser Constructor " Url="html/A4722A38.htm" />
+      <HelpTOCNode Id="5e89db31-c136-4146-af33-3f3ac48fc0fb" Title="AVUser Methods" Url="html/ECA4F894.htm">
+        <HelpTOCNode Id="a0634df2-6e78-416a-86f5-a23b6495d1ef" Title="AssociateWithAuthData Method " Url="html/E8AF7AD8.htm">
+          <HelpTOCNode Title="AssociateWithAuthData Method (AVUser, String, String, String, Int64)" Url="html/A39FE375.htm" />
+          <HelpTOCNode Title="AssociateWithAuthData Method (AVUser, String, String, String, Int64, CancellationToken)" Url="html/8FCC7D33.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="438d66c7-85a0-4736-8605-33d4a0d610c9" Title="BecomeAsync Method " Url="html/92A80C6F.htm">
+          <HelpTOCNode Title="BecomeAsync Method (String)" Url="html/938ED944.htm" />
+          <HelpTOCNode Title="BecomeAsync Method (String, CancellationToken)" Url="html/D288BFE8.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fe317771-c988-40e6-aeac-97ea61629c57" Title="DissociateAuthData Method " Url="html/F349421C.htm">
+          <HelpTOCNode Title="DissociateAuthData Method (AVUser, String)" Url="html/18214313.htm" />
+          <HelpTOCNode Title="DissociateAuthData Method (AVUser, String, CancellationToken)" Url="html/1DE35CF9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6d7b2d30-7c39-421a-8757-8a4851961d06" Title="Follow Method " Url="html/6100517B.htm">
+          <HelpTOCNode Title="Follow Method (String)" Url="html/93227BE0.htm" />
+          <HelpTOCNode Title="Follow Method (String, IDictionary(String, Object))" Url="html/53963D94.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetFolloweeQuery Method " Url="html/B5D3C34.htm" />
+        <HelpTOCNode Title="GetFollowees Method " Url="html/CCE29DBF.htm" />
+        <HelpTOCNode Title="GetFollowerQuery Method " Url="html/A7D7E861.htm" />
+        <HelpTOCNode Title="GetFollowers Method " Url="html/84C5B732.htm" />
+        <HelpTOCNode Title="GetFollowersAndFolloweesQuery Method " Url="html/E7B74E2B.htm" />
+        <HelpTOCNode Id="64f7e695-2b0a-406c-9c0b-d7e87e8db1ce" Title="LogInAsync Method " Url="html/5F5DB0AB.htm">
+          <HelpTOCNode Title="LogInAsync Method (String, String)" Url="html/6C499DF6.htm" />
+          <HelpTOCNode Title="LogInAsync Method (String, String, CancellationToken)" Url="html/77B1370E.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d7fad13-d7fb-4bb9-97bf-1362e242a1b4" Title="LogInByMobilePhoneNumberAsync Method " Url="html/D256967.htm">
+          <HelpTOCNode Title="LogInByMobilePhoneNumberAsync Method (String, String)" Url="html/A54510CA.htm" />
+          <HelpTOCNode Title="LogInByMobilePhoneNumberAsync Method (String, String, CancellationToken)" Url="html/2AA592B6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a6176631-3bbb-4ae7-9cc6-07dafaa89a53" Title="LoginBySmsCodeAsync Method " Url="html/61BB7970.htm">
+          <HelpTOCNode Title="LoginBySmsCodeAsync Method (String, String)" Url="html/559F70D5.htm" />
+          <HelpTOCNode Title="LoginBySmsCodeAsync Method (String, String, CancellationToken)" Url="html/81BDB6BB.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7cded40e-b249-4a3d-b486-cee7a0a16e70" Title="LogInWithAuthData Method " Url="html/313B9F83.htm">
+          <HelpTOCNode Title="LogInWithAuthData Method (String, String, String, Int64)" Url="html/7DBA1800.htm" />
+          <HelpTOCNode Title="LogInWithAuthData Method (String, String, String, Int64, CancellationToken)" Url="html/21BD688.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogOut Method " Url="html/378A0BD9.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/D2B8B03D.htm" />
+        <HelpTOCNode Id="6a07e540-1c06-4a4c-8ca4-78805109eb3d" Title="RequestLoginSmsCodeAsync Method " Url="html/9BDB0852.htm">
+          <HelpTOCNode Title="RequestLoginSmsCodeAsync Method (String)" Url="html/46E3FD63.htm" />
+          <HelpTOCNode Title="RequestLoginSmsCodeAsync Method (String, CancellationToken)" Url="html/8BF42A75.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="653796d5-77f4-4e26-abc4-1db26fb0ba02" Title="RequestMobilePhoneVerifyAsync Method " Url="html/D6EB9458.htm">
+          <HelpTOCNode Title="RequestMobilePhoneVerifyAsync Method (String)" Url="html/58D1587.htm" />
+          <HelpTOCNode Title="RequestMobilePhoneVerifyAsync Method (String, CancellationToken)" Url="html/93EE2EB5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ac73d315-84fd-4f0d-8584-c99b9ec8abba" Title="RequestPasswordResetAsync Method " Url="html/A957AA43.htm">
+          <HelpTOCNode Title="RequestPasswordResetAsync Method (String)" Url="html/254456AE.htm" />
+          <HelpTOCNode Title="RequestPasswordResetAsync Method (String, CancellationToken)" Url="html/559F012A.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c1946fc4-7704-417d-9b09-1761258f92ad" Title="RequestPasswordResetBySmsCode Method " Url="html/71AD68E.htm">
+          <HelpTOCNode Title="RequestPasswordResetBySmsCode Method (String)" Url="html/662AE8CF.htm" />
+          <HelpTOCNode Title="RequestPasswordResetBySmsCode Method (String, CancellationToken)" Url="html/A3B82DD5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="917e48a8-618c-4f59-8b38-ff90a3ce0f45" Title="ResetPasswordBySmsCode Method " Url="html/235E25F3.htm">
+          <HelpTOCNode Title="ResetPasswordBySmsCode Method (String, String)" Url="html/E6EB1A98.htm" />
+          <HelpTOCNode Title="ResetPasswordBySmsCode Method (String, String, CancellationToken)" Url="html/166F0370.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="227e5f19-248d-4d4a-94ce-873f3012a4d2" Title="SignUpAsync Method " Url="html/CAE60244.htm">
+          <HelpTOCNode Title="SignUpAsync Method " Url="html/6137E4DB.htm" />
+          <HelpTOCNode Title="SignUpAsync Method (CancellationToken)" Url="html/66272E39.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Unfollow Method " Url="html/552D5C5D.htm" />
+        <HelpTOCNode Id="ad2c1318-5a7d-4940-8a33-56ef91658129" Title="VerifyMobilePhoneAsync Method " Url="html/14B1FD73.htm">
+          <HelpTOCNode Title="VerifyMobilePhoneAsync Method (String)" Url="html/4A34206.htm" />
+          <HelpTOCNode Title="VerifyMobilePhoneAsync Method (String, CancellationToken)" Url="html/D188BF3A.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3aef590d-4a3d-44b3-a3c3-bfdac54bbb84" Title="AVUser Properties" Url="html/6F59F45B.htm">
+        <HelpTOCNode Title="CurrentUser Property " Url="html/B600C45C.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/A9C7B2E2.htm" />
+        <HelpTOCNode Title="IsAuthenticated Property " Url="html/3A3CF555.htm" />
+        <HelpTOCNode Title="MobilePhoneNumber Property " Url="html/2977BCED.htm" />
+        <HelpTOCNode Title="MobilePhoneVerified Property " Url="html/147D24B8.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/8694C3E1.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/C27F985E.htm" />
+        <HelpTOCNode Title="Username Property " Url="html/EF519856.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AVUser Events" Url="html/D72491A1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="Error Delegate" Url="html/2887A202.htm" />
+    <HelpTOCNode Title="GroupMessageReceived Delegate" Url="html/43BC312D.htm" />
+    <HelpTOCNode Title="GroupMessageSent Delegate" Url="html/77C1348.htm" />
+    <HelpTOCNode Id="db1f198f-f2be-411a-8b7f-98ca427080f1" Title="IAVGroupListener Interface" Url="html/73983959.htm">
+      <HelpTOCNode Id="582d74cd-2a36-40bc-94e7-10a79b593a33" Title="IAVGroupListener Properties" Url="html/954C6152.htm">
+        <HelpTOCNode Title="OnGroupMessageReceived Property " Url="html/45FDC061.htm" />
+        <HelpTOCNode Title="OnGroupMessageSent Property " Url="html/9EB4AE5E.htm" />
+        <HelpTOCNode Title="OnJoined Property " Url="html/81E9AFBD.htm" />
+        <HelpTOCNode Title="OnLeft Property " Url="html/EB14C635.htm" />
+        <HelpTOCNode Title="OnMemberLeft Property " Url="html/C7CA0779.htm" />
+        <HelpTOCNode Title="OnMembersJoined Property " Url="html/2C508314.htm" />
+        <HelpTOCNode Title="OnReject Property " Url="html/8AE72245.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58d1c3e6-9a87-43d5-91f1-4bbf52acc863" Title="IAVSessionListener Interface" Url="html/FE542D40.htm">
+      <HelpTOCNode Id="465829ab-a292-4213-bdae-0f35ecb9829c" Title="IAVSessionListener Properties" Url="html/55B90BC3.htm">
+        <HelpTOCNode Title="OnError Property " Url="html/B5F3537.htm" />
+        <HelpTOCNode Title="OnMessage Property " Url="html/3F7EC436.htm" />
+        <HelpTOCNode Title="OnMessageFailure Property " Url="html/CB6405A4.htm" />
+        <HelpTOCNode Title="OnMessageSent Property " Url="html/9E7B950C.htm" />
+        <HelpTOCNode Title="OnPeersUnwatched Property " Url="html/39097DF9.htm" />
+        <HelpTOCNode Title="OnPeersWatched Property " Url="html/6E897066.htm" />
+        <HelpTOCNode Title="OnSessionClosed Property " Url="html/D8CCF117.htm" />
+        <HelpTOCNode Title="OnSessionOpen Property " Url="html/E7436445.htm" />
+        <HelpTOCNode Title="OnSessionPaused Property " Url="html/67AECFD7.htm" />
+        <HelpTOCNode Title="OnSessionResumed Property " Url="html/A2803ECE.htm" />
+        <HelpTOCNode Title="OnStatusOffline Property " Url="html/D31B02A0.htm" />
+        <HelpTOCNode Title="OnStatusOnline Property " Url="html/DE10BBC6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e5c9c9c2-79bd-4eff-b69b-f91fb018b91d" Title="ISignatureFactory Interface" Url="html/26DF9337.htm">
+      <HelpTOCNode Id="d85b3dcf-4a7f-49aa-bdb0-07ac34d581c1" Title="ISignatureFactory Methods" Url="html/D13BE11.htm">
+        <HelpTOCNode Title="CreateGroupSignature Method " Url="html/97F1B9A7.htm" />
+        <HelpTOCNode Title="CreateSignature Method " Url="html/2C2741D0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Joined Delegate" Url="html/4EF9C1F9.htm" />
+    <HelpTOCNode Title="Left Delegate" Url="html/F1964D29.htm" />
+    <HelpTOCNode Title="MemberLeft Delegate" Url="html/8556AD25.htm" />
+    <HelpTOCNode Title="MembersJoined Delegate" Url="html/DA965DA.htm" />
+    <HelpTOCNode Title="Message Delegate" Url="html/6725FB99.htm" />
+    <HelpTOCNode Title="MessageFailure Delegate" Url="html/421B8801.htm" />
+    <HelpTOCNode Title="MessageSent Delegate" Url="html/AFC6AE21.htm" />
+    <HelpTOCNode Title="PeersUnwatched Delegate" Url="html/CFCD99B8.htm" />
+    <HelpTOCNode Title="PeersWatched Delegate" Url="html/AE1CCB1F.htm" />
+    <HelpTOCNode Title="Reject Delegate" Url="html/784EC69.htm" />
+    <HelpTOCNode Title="SessionClosed Delegate" Url="html/3510D29C.htm" />
+    <HelpTOCNode Title="SessionOpen Delegate" Url="html/A3D72724.htm" />
+    <HelpTOCNode Title="SessionPaused Delegate" Url="html/294EAECA.htm" />
+    <HelpTOCNode Title="SessionResumed Delegate" Url="html/EA254351.htm" />
+    <HelpTOCNode Title="SessionStatus Enumeration" Url="html/82B9DC2.htm" />
+    <HelpTOCNode Id="23a71a7c-0759-4abe-9b4c-5e292cd0de91" Title="Signature Class" Url="html/30BAE80E.htm">
+      <HelpTOCNode Title="Signature Constructor " Url="html/7D21EC54.htm" />
+      <HelpTOCNode Title="Signature Methods" Url="html/14A4B70E.htm" />
+      <HelpTOCNode Id="72842eba-8018-46e9-afbe-d9e580d874c9" Title="Signature Properties" Url="html/89F51481.htm">
+        <HelpTOCNode Title="GroupAction Property " Url="html/1528C125.htm" />
+        <HelpTOCNode Title="GroupId Property " Url="html/3AC7C606.htm" />
+        <HelpTOCNode Title="Nonce Property " Url="html/4BF5D319.htm" />
+        <HelpTOCNode Title="SignatureContent Property " Url="html/2780A61.htm" />
+        <HelpTOCNode Title="SignedPeerIds Property " Url="html/558353E2.htm" />
+        <HelpTOCNode Title="Timestamp Property " Url="html/5ADDB060.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="StatusOffline Delegate" Url="html/9FA37797.htm" />
+    <HelpTOCNode Title="StatusOnline Delegate" Url="html/FFCB4429.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="421a147b-42bc-4e44-ab95-26b5edbf9983" Title="AVOSCloud.WP.UnitTest" Url="html/CAE11C1D.htm">
+    <HelpTOCNode Id="a5e32682-1d16-45bd-a7d5-acf9c7d0cff3" Title="App Class" Url="html/BED1AEAC.htm">
+      <HelpTOCNode Title="App Constructor " Url="html/8E171D8A.htm" />
+      <HelpTOCNode Id="30c98134-99b4-49ee-83f5-70de2f251a12" Title="App Methods" Url="html/4A2CAF4C.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/26F0B218.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="696decb0-b45f-4baa-b587-739c70c8ff85" Title="App Properties" Url="html/8E0359F3.htm">
+        <HelpTOCNode Title="RootFrame Property " Url="html/B5A99869.htm" />
+        <HelpTOCNode Title="session Property " Url="html/B62B9682.htm" />
+        <HelpTOCNode Title="ViewModel Property " Url="html/A461BA50.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="App Events" Url="html/55F7C09D.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a4ebcab3-0c18-4d00-9255-38e769563ee4" Title="ChatDemo Class" Url="html/5A0CAC24.htm">
+      <HelpTOCNode Title="ChatDemo Constructor " Url="html/47CC99C.htm" />
+      <HelpTOCNode Id="4cecf2a8-89a5-400d-9b3e-85ef6d376efc" Title="ChatDemo Methods" Url="html/C14A02E8.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/1B7A8C66.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ChatDemo Properties" Url="html/7DBC542F.htm" />
+      <HelpTOCNode Title="ChatDemo Events" Url="html/66DD95FD.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3aa34e22-a801-4f62-aa33-019f178f64df" Title="LocalizedStrings Class" Url="html/211E09B0.htm">
+      <HelpTOCNode Title="LocalizedStrings Constructor " Url="html/60B01FB8.htm" />
+      <HelpTOCNode Title="LocalizedStrings Methods" Url="html/F6B3A5FC.htm" />
+      <HelpTOCNode Id="1a31a09e-14df-40bf-857b-51539f2a2796" Title="LocalizedStrings Properties" Url="html/C8A0DABB.htm">
+        <HelpTOCNode Title="LocalizedResources Property " Url="html/C7709F5C.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6675ff0-439b-4511-a2af-556c56670d5a" Title="MainPage Class" Url="html/FABA8AE5.htm">
+      <HelpTOCNode Title="MainPage Constructor " Url="html/5B0A8ECB.htm" />
+      <HelpTOCNode Id="804b6442-4465-4831-bf91-0b807efc1db4" Title="MainPage Fields" Url="html/EAB49F0A.htm">
+        <HelpTOCNode Title="_xxx Field" Url="html/2548411E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0eb87aa4-eda1-4151-8012-2067f924f36e" Title="MainPage Methods" Url="html/51DFBBC7.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/7A39B85.htm" />
+        <HelpTOCNode Title="OnNavigatedTo Method " Url="html/421C3A53.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4d84abbb-ebf0-4191-b2b9-7e4fba9e7c3c" Title="MainPage Properties" Url="html/EF5C32B2.htm">
+        <HelpTOCNode Title="XXX Property " Url="html/C84F32B3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MainPage Events" Url="html/816D07EA.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="afee7335-c4cd-4181-91f2-d13560b481bb" Title="RelationTutorial Class" Url="html/15948177.htm">
+      <HelpTOCNode Title="RelationTutorial Constructor " Url="html/4A39A7BD.htm" />
+      <HelpTOCNode Id="11e6e8b2-b531-4db0-a8b9-477fa9bd82ff" Title="RelationTutorial Methods" Url="html/5887C8D5.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/BBB7A853.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RelationTutorial Properties" Url="html/8E4924EE.htm" />
+      <HelpTOCNode Title="RelationTutorial Events" Url="html/CC536286.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b862e528-103b-4164-9231-ffb38eebb36d" Title="SampleAVSessionListener Class" Url="html/14427E0C.htm">
+      <HelpTOCNode Title="SampleAVSessionListener Constructor " Url="html/21D683B2.htm" />
+      <HelpTOCNode Title="SampleAVSessionListener Methods" Url="html/BE50660C.htm" />
+      <HelpTOCNode Id="b080e1d6-cb5b-4412-96af-afdf1ff3c7ce" Title="SampleAVSessionListener Properties" Url="html/29E3B36B.htm">
+        <HelpTOCNode Title="OnError Property " Url="html/386B2873.htm" />
+        <HelpTOCNode Title="OnMessage Property " Url="html/58F38852.htm" />
+        <HelpTOCNode Title="OnMessageFailure Property " Url="html/AAB04AC8.htm" />
+        <HelpTOCNode Title="OnMessageSent Property " Url="html/AF377250.htm" />
+        <HelpTOCNode Title="OnPeersUnwatched Property " Url="html/D5D862B9.htm" />
+        <HelpTOCNode Title="OnPeersWatched Property " Url="html/3070DFE.htm" />
+        <HelpTOCNode Title="OnSessionClosed Property " Url="html/35335A73.htm" />
+        <HelpTOCNode Title="OnSessionOpen Property " Url="html/82B6CA1D.htm" />
+        <HelpTOCNode Title="OnSessionPaused Property " Url="html/DD79DEF3.htm" />
+        <HelpTOCNode Title="OnSessionResumed Property " Url="html/C9E1E4DA.htm" />
+        <HelpTOCNode Title="OnStatusOffline Property " Url="html/C5B3C4C0.htm" />
+        <HelpTOCNode Title="OnStatusOnline Property " Url="html/65147382.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="733dcb1f-1824-46bc-911e-6575b15e8eca" Title="SampleSignatureFactory Class" Url="html/C0AA85DB.htm">
+      <HelpTOCNode Title="SampleSignatureFactory Constructor " Url="html/B68D8905.htm" />
+      <HelpTOCNode Id="b067328b-3397-4969-9f27-96693336ec2d" Title="SampleSignatureFactory Methods" Url="html/79A7BFDD.htm">
+        <HelpTOCNode Title="CreateGroupSignature Method " Url="html/8F5918EF.htm" />
+        <HelpTOCNode Title="CreateSignature Method " Url="html/860F6B92.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3cf40b71-c62a-4a4d-9a64-e353dae71f75" Title="AVOSCloud.WP.UnitTest.ViewModels" Url="html/5FD1C334.htm">
+    <HelpTOCNode Id="249bb949-b131-423f-8072-3b871277c078" Title="ItemViewModel Class" Url="html/F559A239.htm">
+      <HelpTOCNode Title="ItemViewModel Constructor " Url="html/33E53F7B.htm" />
+      <HelpTOCNode Title="ItemViewModel Methods" Url="html/B891020F.htm" />
+      <HelpTOCNode Id="38d1d502-6b78-44b1-9144-23086269f7e2" Title="ItemViewModel Properties" Url="html/2B670732.htm">
+        <HelpTOCNode Title="LineOne Property " Url="html/CD346FE9.htm" />
+        <HelpTOCNode Title="LineThree Property " Url="html/2C5BA95F.htm" />
+        <HelpTOCNode Title="LineTwo Property " Url="html/E8081E3D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="307d5034-2877-4cea-856a-5e1402b3108e" Title="ItemViewModel Events" Url="html/B4710E56.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/78FA7BC7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dddaa421-443e-4683-b6e3-00b6258744af" Title="MainViewModel Class" Url="html/82DE0F7.htm">
+      <HelpTOCNode Title="MainViewModel Constructor " Url="html/6387D515.htm" />
+      <HelpTOCNode Id="ced0f31b-fe23-4761-97b8-5055080482ca" Title="MainViewModel Methods" Url="html/B6164885.htm">
+        <HelpTOCNode Title="LoadData Method " Url="html/5EC835FA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="65323e9f-5125-40ae-ad20-8579b57c491e" Title="MainViewModel Properties" Url="html/B7868AD4.htm">
+        <HelpTOCNode Title="IsDataLoaded Property " Url="html/619C3F0C.htm" />
+        <HelpTOCNode Title="Items Property " Url="html/27F48BBF.htm" />
+        <HelpTOCNode Title="LocalizedSampleProperty Property " Url="html/F163E6E3.htm" />
+        <HelpTOCNode Title="SampleProperty Property " Url="html/C0D6B9B6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cea35b81-20e6-48a4-b0c9-94afd41b0d4f" Title="MainViewModel Events" Url="html/E2A5FA8.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/2A90B30D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d9094ae4-dfbc-4bd4-84eb-b22d7bfc1e89" Title="LeanCloud.LeanMeaasge.Demo" Url="html/5FE1A21B.htm">
+    <HelpTOCNode Id="d1d4fbe2-47fb-4d1f-b1ec-3ee02d12abce" Title="App Class" Url="html/FC60580A.htm">
+      <HelpTOCNode Title="App Constructor " Url="html/1021E0B6.htm" />
+      <HelpTOCNode Id="fb7a4759-6a9a-4dbe-9556-4b7992ba0320" Title="App Methods" Url="html/BD64E20E.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/6D804300.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ccf7f3a-45f2-40c0-95b5-052f89be4020" Title="App Properties" Url="html/B8F4E411.htm">
+        <HelpTOCNode Title="avSession Property " Url="html/E1AF9A9.htm" />
+        <HelpTOCNode Title="ContactVM Property " Url="html/C690F027.htm" />
+        <HelpTOCNode Title="RootFrame Property " Url="html/A3C340FF.htm" />
+        <HelpTOCNode Title="ViewModel Property " Url="html/54DD272.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="App Events" Url="html/DDFF5E9F.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0381a1e5-ce12-471d-b7f1-30a3436ea225" Title="LocalizedStrings Class" Url="html/19A47242.htm">
+      <HelpTOCNode Title="LocalizedStrings Constructor " Url="html/90EB38B8.htm" />
+      <HelpTOCNode Title="LocalizedStrings Methods" Url="html/5A7FEAAA.htm" />
+      <HelpTOCNode Id="6bdc2d61-26c0-441c-9495-aa6eb464fb08" Title="LocalizedStrings Properties" Url="html/C7DFB1D.htm">
+        <HelpTOCNode Title="LocalizedResources Property " Url="html/E246A4BE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3d2568d-fde9-4647-91cf-1cc8106adc03" Title="Login Class" Url="html/32BCA954.htm">
+      <HelpTOCNode Title="Login Constructor " Url="html/344827A4.htm" />
+      <HelpTOCNode Id="a47ff806-3109-46bc-9993-ce62f8402c5b" Title="Login Methods" Url="html/2FD28888.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/43C352F6.htm" />
+        <HelpTOCNode Title="OnNavigatedTo Method " Url="html/5A31D0FC.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Login Properties" Url="html/723053F7.htm" />
+      <HelpTOCNode Title="Login Events" Url="html/E267665D.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b8c3a5e-4986-4ae0-94c0-79b89205ac71" Title="MainPage Class" Url="html/FA665F3B.htm">
+      <HelpTOCNode Title="MainPage Constructor " Url="html/E00832A9.htm" />
+      <HelpTOCNode Id="163c3832-0d82-4126-8f23-551144de0c7a" Title="MainPage Methods" Url="html/D1A0FF1.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/2084B9BB.htm" />
+        <HelpTOCNode Title="OnNavigatedTo Method " Url="html/2F25F14D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MainPage Properties" Url="html/600DBE32.htm" />
+      <HelpTOCNode Title="MainPage Events" Url="html/52D2251A.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="32856538-642d-4074-8c78-9124edd695a9" Title="LeanCloud.LeanMeaasge.Demo.ViewModels" Url="html/4C101BB6.htm">
+    <HelpTOCNode Id="e523fc13-c3b2-4f72-9057-82ca6185d433" Title="BaseItemViewModel Class" Url="html/8FC0AADE.htm">
+      <HelpTOCNode Title="BaseItemViewModel Constructor " Url="html/B65FF660.htm" />
+      <HelpTOCNode Title="BaseItemViewModel Methods" Url="html/EBCE00CA.htm" />
+      <HelpTOCNode Title="BaseItemViewModel Events" Url="html/A86D4893.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd44b472-01a5-4fb6-a497-c7d5b37c3e5e" Title="BaseViewModel Class" Url="html/EA152607.htm">
+      <HelpTOCNode Title="BaseViewModel Constructor " Url="html/D6D16471.htm" />
+      <HelpTOCNode Id="2727ae46-d751-49c6-abdf-707b1a99c6c5" Title="BaseViewModel Methods" Url="html/4BCAF561.htm">
+        <HelpTOCNode Title="NotifyPropertyChanged Method " Url="html/8E01E93A.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8d83f1b9-dcf8-463e-a9fe-524d178f81ae" Title="BaseViewModel Events" Url="html/BAEE3C28.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/B9D0E049.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b34d164-003e-478f-b75b-24e1398881ff" Title="Contact Class" Url="html/D6A33426.htm">
+      <HelpTOCNode Title="Contact Constructor " Url="html/B0A26BE8.htm" />
+      <HelpTOCNode Title="Contact Methods" Url="html/A3999306.htm" />
+      <HelpTOCNode Id="833b38f0-f8ca-492e-85c3-1715d453d3f9" Title="Contact Properties" Url="html/B7417AFF.htm">
+        <HelpTOCNode Title="Name Property " Url="html/D76927F5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Contact Events" Url="html/EA437045.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="271c1fcf-dc60-4a3b-b128-0715d2919156" Title="ContactViewModel Class" Url="html/61F46EEC.htm">
+      <HelpTOCNode Title="ContactViewModel Constructor " Url="html/52E95580.htm" />
+      <HelpTOCNode Id="7c224a5d-3bf4-4c1b-a943-e2d1702fde1f" Title="ContactViewModel Methods" Url="html/997CAFA0.htm">
+        <HelpTOCNode Title="LoadContacts Method " Url="html/16E5DFF4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5a8f7c75-1a4e-4a7b-9c09-bd01bb07d20a" Title="ContactViewModel Properties" Url="html/B3C78215.htm">
+        <HelpTOCNode Title="Contacts Property " Url="html/66661653.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ContactViewModel Events" Url="html/D5B6D417.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a8325e45-568a-4d49-b3e9-5b1520b70282" Title="ItemViewModel Class" Url="html/F5B68DBB.htm">
+      <HelpTOCNode Title="ItemViewModel Constructor " Url="html/9E9976BD.htm" />
+      <HelpTOCNode Title="ItemViewModel Methods" Url="html/AEC29E4D.htm" />
+      <HelpTOCNode Id="eed69b61-a1a4-450f-8632-660d27a00ea6" Title="ItemViewModel Properties" Url="html/434BF13E.htm">
+        <HelpTOCNode Title="LineOne Property " Url="html/2D9C9F23.htm" />
+        <HelpTOCNode Title="LineThree Property " Url="html/2C80CD85.htm" />
+        <HelpTOCNode Title="LineTwo Property " Url="html/A030CEEF.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8b4c9a7c-61f4-4294-a58c-13b689ce35bb" Title="ItemViewModel Events" Url="html/F4F0475A.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/8290677D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fc025650-01f5-4b64-b088-4e6cafa95817" Title="MainViewModel Class" Url="html/1D836F4D.htm">
+      <HelpTOCNode Title="MainViewModel Constructor " Url="html/AA07C673.htm" />
+      <HelpTOCNode Id="d9a51149-bc40-4e8c-8ed6-e7ed00cc802e" Title="MainViewModel Methods" Url="html/16BE70B.htm">
+        <HelpTOCNode Title="LoadData Method " Url="html/84D4EF02.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d79abc69-fad4-475d-ac00-c96beab3827f" Title="MainViewModel Properties" Url="html/4084B5B0.htm">
+        <HelpTOCNode Title="IsDataLoaded Property " Url="html/89D9D25A.htm" />
+        <HelpTOCNode Title="Items Property " Url="html/BC3678D1.htm" />
+        <HelpTOCNode Title="LocalizedSampleProperty Property " Url="html/22787E81.htm" />
+        <HelpTOCNode Title="SampleProperty Property " Url="html/67D3D604.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67b74722-4756-4a09-a68f-5a17ba7befc9" Title="MainViewModel Events" Url="html/BE23A938.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/3AD1B877.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

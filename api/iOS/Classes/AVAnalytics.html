@@ -1,0 +1,2525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVAnalytics Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/beginEvent:">+ beginEvent:</option>
+		
+		<option value="//api/name/beginEvent:label:">+ beginEvent:label:</option>
+		
+		<option value="//api/name/beginEvent:primarykey:attributes:">+ beginEvent:primarykey:attributes:</option>
+		
+		<option value="//api/name/beginLogPageView:">+ beginLogPageView:</option>
+		
+		<option value="//api/name/endEvent:">+ endEvent:</option>
+		
+		<option value="//api/name/endEvent:label:">+ endEvent:label:</option>
+		
+		<option value="//api/name/endEvent:primarykey:">+ endEvent:primarykey:</option>
+		
+		<option value="//api/name/endLogPageView:">+ endLogPageView:</option>
+		
+		<option value="//api/name/event:">+ event:</option>
+		
+		<option value="//api/name/event:acc:">+ event:acc:</option>
+		
+		<option value="//api/name/event:attributes:">+ event:attributes:</option>
+		
+		<option value="//api/name/event:attributes:durations:">+ event:attributes:durations:</option>
+		
+		<option value="//api/name/event:durations:">+ event:durations:</option>
+		
+		<option value="//api/name/event:label:">+ event:label:</option>
+		
+		<option value="//api/name/event:label:acc:">+ event:label:acc:</option>
+		
+		<option value="//api/name/event:label:durations:">+ event:label:durations:</option>
+		
+		<option value="//api/name/getConfigParams">+ getConfigParams</option>
+		
+		<option value="//api/name/getConfigParams:">+ getConfigParams:</option>
+		
+		<option value="//api/name/logPageView:seconds:">+ logPageView:seconds:</option>
+		
+		<option value="//api/name/setAnalyticsEnabled:">+ setAnalyticsEnabled:</option>
+		
+		<option value="//api/name/setChannel:">+ setChannel:</option>
+		
+		<option value="//api/name/setCrashReportEnabled:">+ setCrashReportEnabled:</option>
+		
+		<option value="//api/name/setCrashReportEnabled:andIgnore:">+ setCrashReportEnabled:andIgnore:</option>
+		
+		<option value="//api/name/setCrashReportEnabled:completion:">+ setCrashReportEnabled:completion:</option>
+		
+		<option value="//api/name/setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:">+ setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:</option>
+		
+		<option value="//api/name/setCustomInfo:">+ setCustomInfo:</option>
+		
+		<option value="//api/name/setLatitude:longitude:">+ setLatitude:longitude:</option>
+		
+		<option value="//api/name/setLocation:">+ setLocation:</option>
+		
+		<option value="//api/name/setLogEnabled:">+ setLogEnabled:</option>
+		
+		<option value="//api/name/setLogSendInterval:">+ setLogSendInterval:</option>
+		
+		<option value="//api/name/start">+ start</option>
+		
+		<option value="//api/name/startWithReportPolicy:channelId:">+ startWithReportPolicy:channelId:</option>
+		
+		<option value="//api/name/trackAppOpenedWithLaunchOptions:">+ trackAppOpenedWithLaunchOptions:</option>
+		
+		<option value="//api/name/trackAppOpenedWithRemoteNotificationPayload:">+ trackAppOpenedWithRemoteNotificationPayload:</option>
+		
+		<option value="//api/name/updateOnlineConfig">+ updateOnlineConfig</option>
+		
+		<option value="//api/name/updateOnlineConfigWithBlock:">+ updateOnlineConfigWithBlock:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVAnalytics Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AVAnalytics.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>统计功能</p>
+
+<p>稳定实时的数据统计分析服务，从用户量，用户行为，渠道效果，自定义事件等多个维度，帮助您更清楚的了解用户习惯，提高用户黏性和活跃度</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setChannel:" title="setChannel:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setChannel:">+&nbsp;setChannel:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置渠道名称, 如果不设置, 默认是 <code>App Store</code></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setChannel:(NSString *)<em>channel</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>channel</code></th>
+						<td><p>渠道名称</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置渠道名称, 如果不设置, 默认是 <code>App Store</code></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAnalyticsEnabled:" title="setAnalyticsEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAnalyticsEnabled:">+&nbsp;setAnalyticsEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启统计功能, 默认是开启状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setAnalyticsEnabled:(BOOL)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置成NO, 就可以关闭统计功能, 防止开发时测试数据污染线上数据.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启统计功能, 默认是开启状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCrashReportEnabled:" title="setCrashReportEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCrashReportEnabled:">+&nbsp;setCrashReportEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启CrashReport收集, 默认是关闭状态.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置成 YES,就可以开启CrashReport收集.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启CrashReport收集, 默认是关闭状态.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCrashReportEnabled:completion:" title="setCrashReportEnabled:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCrashReportEnabled:completion:">+&nbsp;setCrashReportEnabled:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启CrashReport收集, 默认是关闭状态.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> completion:(void ( ^ ) ( void ))<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置成 YES,就可以开启CrashReport收集.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>设置完成后回调.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启CrashReport收集, 默认是关闭状态.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCrashReportEnabled:andIgnore:" title="setCrashReportEnabled:andIgnore:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCrashReportEnabled:andIgnore:">+&nbsp;setCrashReportEnabled:andIgnore:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启CrashReport收集, 并且尝试忽略异常.
+@discuss 当异常被捕获后,如果开启了CrashReport功能,异常会被自动捕获,如果开启ignore,会尝试阻止app崩溃, 如果阻止成功,则会提示(UIAlertView)用户程序可能不稳定,请用户选择继续运行还是退出.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> andIgnore:(BOOL)<em>ignore</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置成YES,就可以开启CrashReport收集.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ignore</code></th>
+						<td><p>设置成YES,可以尝试忽略异常.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启CrashReport收集, 并且尝试忽略异常.
+@discuss 当异常被捕获后,如果开启了CrashReport功能,异常会被自动捕获,如果开启ignore,会尝试阻止app崩溃, 如果阻止成功,则会提示(UIAlertView)用户程序可能不稳定,请用户选择继续运行还是退出.</p><div class="warning"><p><strong>Warning:</strong> 这不是解决问题的办法,因为App仍然存在不可控因素,而且忽略异常后会造成CPU的占用率提高5%左右. 所以,请尽量找出引起Crash的原因(AVOSCloud后台的错误报告中已经记录了相关信息),并且修复这个问题.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:" title="setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:">+&nbsp;setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启CrashReport收集, 并且尝试忽略异常.
+@discuss 效果等同于<a href="#//api/name/setCrashReportEnabled:andIgnore:"><code>setCrashReportEnabled:andIgnore:</code></a> 但是可以自定义弹出提醒的文字内容.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> withIgnoreAlertTitle:(NSString *)<em>alertTitle</em> andMessage:(NSString *)<em>alertMsg</em> andQuitTitle:(NSString *)<em>alertQuit</em> andContinueTitle:(NSString *)<em>alertContinue</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置成 YES,就可以开启 CrashReport 收集.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alertTitle</code></th>
+						<td><p>弹出提醒的标题</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alertMsg</code></th>
+						<td><p>弹出提醒的内容</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alertQuit</code></th>
+						<td><p><code>退出</code>按钮的文字</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alertContinue</code></th>
+						<td><p><code>继续</code>按钮的文字</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启CrashReport收集, 并且尝试忽略异常.
+@discuss 效果等同于<a href="#//api/name/setCrashReportEnabled:andIgnore:"><code>setCrashReportEnabled:andIgnore:</code></a> 但是可以自定义弹出提醒的文字内容.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLogEnabled:" title="setLogEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLogEnabled:">+&nbsp;setLogEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置是否打印sdk的log信息,默认不开启</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLogEnabled:(BOOL)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>设置为YES, SDK 会输出log信息,记得release产品时要设置回NO.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>.
+@exception .</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置是否打印sdk的log信息,默认不开启</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLogSendInterval:" title="setLogSendInterval:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLogSendInterval:">+&nbsp;setLogSendInterval:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>当reportPolicy == AV_SEND_INTERVAL 时设定log发送间隔</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLogSendInterval:(double)<em>second</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>second</code></th>
+						<td><p>单位为秒,最小为10,最大为86400(一天).</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>当reportPolicy == AV_SEND_INTERVAL 时设定log发送间隔</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="开启统计(已废止)" name="task_开启统计(已废止)"></a>
+						<h2 class="task-title">开启统计(已废止)</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/start" title="start"></a>
+	<h3 class="method-title"><code><a href="#//api/name/start">+&nbsp;start</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
+<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)start</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
+<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startWithReportPolicy:channelId:" title="startWithReportPolicy:channelId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startWithReportPolicy:channelId:">+&nbsp;startWithReportPolicy:channelId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
+<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)startWithReportPolicy:(AVReportPolicy)<em>rp</em> channelId:(NSString *)<em>cid</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rp</code></th>
+						<td><p>发送策略.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cid</code></th>
+						<td><p>渠道名称,为nil或@&ldquo;"时,默认会被被当作@"App Store"渠道</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
+<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackAppOpenedWithLaunchOptions:" title="trackAppOpenedWithLaunchOptions:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackAppOpenedWithLaunchOptions:">+&nbsp;trackAppOpenedWithLaunchOptions:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>跟踪 app 打开情况</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithLaunchOptions:(NSDictionary *)<em>launchOptions</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>launchOptions</code></th>
+						<td><p>对应上述方法的参数launchOptions</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>跟踪 app 打开情况</p><p>该方法应在 &ldquo;- (BOOL)application:(UIApplication <em>)application didFinishLaunchingWithOptions:(NSDictionary </em>)launchOptions&rdquo; 中调用</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackAppOpenedWithRemoteNotificationPayload:" title="trackAppOpenedWithRemoteNotificationPayload:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackAppOpenedWithRemoteNotificationPayload:">+&nbsp;trackAppOpenedWithRemoteNotificationPayload:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>跟踪 app 被 Push 通知打开的情况</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithRemoteNotificationPayload:(NSDictionary *)<em>userInfo</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>对应上述方法的参数userInfo</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>跟踪 app 被 Push 通知打开的情况</p><p>该方法应在 &ldquo;- (void)application:(UIApplication <em>)application didReceiveRemoteNotification:(NSDictionary </em>)userInfo&rdquo; 中调用</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="页面计时" name="task_页面计时"></a>
+						<h2 class="task-title">页面计时</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/logPageView:seconds:" title="logPageView:seconds:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logPageView:seconds:">+&nbsp;logPageView:seconds:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>页面时长统计,记录某个view被打开多长时间,可以自己计时也可以调用beginLogPageView,endLogPageView自动计时</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)logPageView:(NSString *)<em>pageName</em> seconds:(int)<em>seconds</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pageName</code></th>
+						<td><p>需要记录时长的view名称.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>seconds</code></th>
+						<td><p>秒数，int型.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>页面时长统计,记录某个view被打开多长时间,可以自己计时也可以调用beginLogPageView,endLogPageView自动计时</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/beginLogPageView:" title="beginLogPageView:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/beginLogPageView:">+&nbsp;beginLogPageView:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>页面时长统计,记录页面开始事件。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)beginLogPageView:(NSString *)<em>pageName</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pageName</code></th>
+						<td><p>需要记录时长的view名称.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>页面时长统计,记录页面开始事件。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endLogPageView:" title="endLogPageView:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endLogPageView:">+&nbsp;endLogPageView:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>页面时长统计,记录页面结束事件。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)endLogPageView:(NSString *)<em>pageName</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pageName</code></th>
+						<td><p>需要记录时长的view名称.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>页面时长统计,记录页面结束事件。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="事件统计" name="task_事件统计"></a>
+						<h2 class="task-title">事件统计</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/event:" title="event:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:">+&nbsp;event:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义的事件Id.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:label:" title="event:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:label:">+&nbsp;event:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义的事件Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>分类标签。不同的标签会分别进行统计，方便同一事件的不同标签的对比,为nil或空字符串时后台会生成和eventId同名的标签.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:acc:" title="event:acc:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:acc:">+&nbsp;event:acc:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> acc:(NSInteger)<em>accumulation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义的事件Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>accumulation</code></th>
+						<td><p>事件的累计发生次数，可以将相同事件合并在一起发送节省网络流量.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:label:acc:" title="event:label:acc:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:label:acc:">+&nbsp;event:label:acc:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em> acc:(NSInteger)<em>accumulation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义的事件Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>分类标签。不同的标签会分别进行统计，方便同一事件的不同标签的对比,为nil或空字符串时后台会生成和eventId同名的标签.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>accumulation</code></th>
+						<td><p>事件的累计发生次数，可以将相同事件合并在一起发送节省网络流量.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:attributes:" title="event:attributes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:attributes:">+&nbsp;event:attributes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义的事件Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>attributes</code></th>
+						<td><p>支持字符串和数字的key-value</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,数量统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/beginEvent:" title="beginEvent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/beginEvent:">+&nbsp;beginEvent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endEvent:" title="endEvent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endEvent:">+&nbsp;endEvent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计，记录事件结束。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计，记录事件结束。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/beginEvent:label:" title="beginEvent:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/beginEvent:label:">+&nbsp;beginEvent:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>分类标签。不同的标签会分别进行统计，方便同一事件的不同标签的对比,为nil或空字符串时后台会生成和eventId同名的标签.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endEvent:label:" title="endEvent:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endEvent:label:">+&nbsp;endEvent:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计， 记录事件结束。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>分类标签。不同的标签会分别进行统计，方便同一事件的不同标签的对比,为nil或空字符串时后台会生成和eventId同名的标签.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计， 记录事件结束。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/beginEvent:primarykey:attributes:" title="beginEvent:primarykey:attributes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/beginEvent:primarykey:attributes:">+&nbsp;beginEvent:primarykey:attributes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> primarykey:(NSString *)<em>keyName</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keyName</code></th>
+						<td><p>自定义关键事件的标签. 关键事件标签用于区分同名事件，但不参与统计运算结果.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>attributes</code></th>
+						<td><p>自定义事件的属性列表.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计， 记录事件开始。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endEvent:primarykey:" title="endEvent:primarykey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endEvent:primarykey:">+&nbsp;endEvent:primarykey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计， 记录事件结束。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> primarykey:(NSString *)<em>keyName</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keyName</code></th>
+						<td><p>自定义关键事件的标签. 关键事件标签用于区分同名事件，但不参与统计运算结果.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计， 记录事件结束。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:durations:" title="event:durations:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:durations:">+&nbsp;event:durations:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> durations:(int)<em>millisecond</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>millisecond</code></th>
+						<td><p>自定义事件的持续时间.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:label:durations:" title="event:label:durations:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:label:durations:">+&nbsp;event:label:durations:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em> durations:(int)<em>millisecond</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>分类标签。不同的标签会分别进行统计，方便同一事件的不同标签的对比,为nil或空字符串时后台会生成和eventId同名的标签.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>millisecond</code></th>
+						<td><p>自定义事件的持续时间.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/event:attributes:durations:" title="event:attributes:durations:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/event:attributes:durations:">+&nbsp;event:attributes:durations:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(NSDictionary *)<em>attributes</em> durations:(int)<em>millisecond</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>eventId</code></th>
+						<td><p>自定义事件的Id.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>attributes</code></th>
+						<td><p>自定义事件的属性列表.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>millisecond</code></th>
+						<td><p>自定义事件的持续时间.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>自定义事件,时长统计.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="在线参数" name="task_在线参数"></a>
+						<h2 class="task-title">在线参数</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/updateOnlineConfig" title="updateOnlineConfig"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateOnlineConfig">+&nbsp;updateOnlineConfig</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
+检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
+调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;
+@param 无.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)updateOnlineConfig</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
+检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
+调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;
+@param 无.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateOnlineConfigWithBlock:" title="updateOnlineConfigWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateOnlineConfigWithBlock:">+&nbsp;updateOnlineConfigWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
+检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
+调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)updateOnlineConfigWithBlock:(AVDictionaryResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>自定义的接收block，您的配置参数会通过block传给您的应用.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
+检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
+调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getConfigParams:" title="getConfigParams:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getConfigParams:">+&nbsp;getConfigParams:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>从[NSUserDefaults standardUserDefaults]获取缓存的在线参数的数值
+带参数的方法获取某个key的值，不带参数的获取所有的在线参数.
+需要先调用updateOnlineConfig才能使用</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)getConfigParams:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>键名</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>返回键值</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>从[NSUserDefaults standardUserDefaults]获取缓存的在线参数的数值
+带参数的方法获取某个key的值，不带参数的获取所有的在线参数.
+需要先调用updateOnlineConfig才能使用</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getConfigParams" title="getConfigParams"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getConfigParams">+&nbsp;getConfigParams</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>从[NSUserDefaults standardUserDefaults]获取缓存的在线参数</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSDictionary *)getConfigParams</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>(NSDictionary *).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>从[NSUserDefaults standardUserDefaults]获取缓存的在线参数</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="地理位置设置" name="task_地理位置设置"></a>
+						<h2 class="task-title">地理位置设置</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setLatitude:longitude:" title="setLatitude:longitude:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLatitude:longitude:">+&nbsp;setLatitude:longitude:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息
+需要链接 CoreLocation.framework 并且 #import &lt;CoreLocation/CoreLocation.h></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLatitude:(double)<em>latitude</em> longitude:(double)<em>longitude</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>latitude</code></th>
+						<td><p>纬度.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>longitude</code></th>
+						<td><p>经度.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>void</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息
+需要链接 CoreLocation.framework 并且 #import &lt;CoreLocation/CoreLocation.h></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLocation:" title="setLocation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLocation:">+&nbsp;setLocation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLocation:(CLLocation *)<em>location</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>location</code></th>
+						<td><p>CLLocation *型的地理信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCustomInfo:" title="setCustomInfo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCustomInfo:">+&nbsp;setCustomInfo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置自定义信息</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCustomInfo:(NSDictionary *)<em>info</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>info</code></th>
+						<td><p>自定义信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置自定义信息</p><div class="warning"><p><strong>Warning:</strong> info的内容只支持数字和字符串</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
