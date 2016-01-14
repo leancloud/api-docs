@@ -695,7 +695,7 @@
 </span><span id="583" class="l">        <span class="php-var">$children</span> = <span class="php-keyword1">array</span>(); <span class="php-comment">// Array of unsaved objects excluding files</span>
 </span><span id="584" class="l">        <span class="php-keyword1">forEach</span>(<span class="php-var">$unsavedChildren</span> <span class="php-keyword1">as</span> <span class="php-var">$obj</span>) {
 </span><span id="585" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$obj</span> <span class="php-keyword1">instanceof</span> LeanFile) {
-</span><span id="586" class="l">                <span class="php-var">$obj</span>.save();
+</span><span id="586" class="l">                <span class="php-var">$obj</span>-&gt;save();
 </span><span id="587" class="l">            } <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (<span class="php-var">$obj</span> <span class="php-keyword1">instanceof</span> LeanObject) {
 </span><span id="588" class="l">                <span class="php-keyword1">if</span> (!<span class="php-keyword2">in_array</span>(<span class="php-var">$obj</span>, <span class="php-var">$children</span>)) {
 </span><span id="589" class="l">                    <span class="php-var">$children</span>[] = <span class="php-var">$obj</span>;
@@ -826,7 +826,7 @@
 	</div>
 </div>
 </div>
-<script src="resources/combined.js?6c1445516699060e9205736f33c2dc95dfd61b10"></script>
+<script src="resources/combined.js?f1dd8977297ee7abb6b1e4bb4c9bcea5316d1f9c"></script>
 <script src="elementlist.js?5eafcb7e3c897c08b644726a47bc075952de7e1d"></script>
 </body>
 </html>

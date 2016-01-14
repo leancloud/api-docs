@@ -134,7 +134,7 @@
 </span><span id="22" class="l">    <span class="php-comment">/**
 </span></span><span id="23" class="l"><span class="php-comment">     * Client version
 </span></span><span id="24" class="l"><span class="php-comment">     */</span>
-</span><span id="25" class="l">    <span class="php-keyword1">const</span> VERSION = <span class="php-quote">'0.2.0'</span>;
+</span><span id="25" class="l">    <span class="php-keyword1">const</span> VERSION = <span class="php-quote">'0.2.3'</span>;
 </span><span id="26" class="l">
 </span><span id="27" class="l">    <span class="php-comment">/**
 </span></span><span id="28" class="l"><span class="php-comment">     * API Endpoints for Regions
@@ -706,7 +706,7 @@
 </span><span id="594" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword2">is_array</span>(<span class="php-var">$value</span>)) {
 </span><span id="595" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$value</span>;
 </span><span id="596" class="l">        }
-</span><span id="597" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$key</span> == <span class="php-quote">'ACL'</span>) {
+</span><span id="597" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$key</span> === <span class="php-quote">'ACL'</span>) {
 </span><span id="598" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword1">new</span> LeanACL(<span class="php-var">$value</span>);
 </span><span id="599" class="l">        }
 </span><span id="600" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">isset</span>(<span class="php-var">$value</span>[<span class="php-quote">&quot;__type&quot;</span>])) {
@@ -720,22 +720,22 @@
 </span><span id="608" class="l">        <span class="php-comment">// Parse different data type from server.</span>
 </span><span id="609" class="l">        <span class="php-var">$type</span> = <span class="php-var">$value</span>[<span class="php-quote">&quot;__type&quot;</span>];
 </span><span id="610" class="l">
-</span><span id="611" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;Date&quot;</span>) {
+</span><span id="611" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;Date&quot;</span>) {
 </span><span id="612" class="l">            <span class="php-comment">// return time in default time zone</span>
 </span><span id="613" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword1">new</span> \DateTime(<span class="php-var">$value</span>[<span class="php-quote">&quot;iso&quot;</span>]);
 </span><span id="614" class="l">        }
-</span><span id="615" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;Bytes&quot;</span>) {
+</span><span id="615" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;Bytes&quot;</span>) {
 </span><span id="616" class="l">            <span class="php-keyword1">return</span> LeanBytes::createFromBase64Data(<span class="php-var">$value</span>[<span class="php-quote">&quot;base64&quot;</span>]);
 </span><span id="617" class="l">        }
-</span><span id="618" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;GeoPoint&quot;</span>) {
+</span><span id="618" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;GeoPoint&quot;</span>) {
 </span><span id="619" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword1">new</span> GeoPoint(<span class="php-var">$value</span>[<span class="php-quote">&quot;latitude&quot;</span>], <span class="php-var">$value</span>[<span class="php-quote">&quot;longitude&quot;</span>]);
 </span><span id="620" class="l">        }
-</span><span id="621" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;File&quot;</span>) {
+</span><span id="621" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;File&quot;</span>) {
 </span><span id="622" class="l">            <span class="php-var">$file</span> = <span class="php-keyword1">new</span> LeanFile(<span class="php-var">$value</span>[<span class="php-quote">&quot;name&quot;</span>]);
 </span><span id="623" class="l">            <span class="php-var">$file</span>-&gt;mergeAfterFetch(<span class="php-var">$value</span>);
 </span><span id="624" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$file</span>;
 </span><span id="625" class="l">        }
-</span><span id="626" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;Pointer&quot;</span> || <span class="php-var">$type</span> == <span class="php-quote">&quot;Object&quot;</span>) {
+</span><span id="626" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;Pointer&quot;</span> || <span class="php-var">$type</span> === <span class="php-quote">&quot;Object&quot;</span>) {
 </span><span id="627" class="l">            <span class="php-var">$obj</span> = LeanObject::create(<span class="php-var">$value</span>[<span class="php-quote">&quot;className&quot;</span>], <span class="php-var">$value</span>[<span class="php-quote">&quot;objectId&quot;</span>]);
 </span><span id="628" class="l">            <span class="php-keyword1">unset</span>(<span class="php-var">$value</span>[<span class="php-quote">&quot;__type&quot;</span>]);
 </span><span id="629" class="l">            <span class="php-keyword1">unset</span>(<span class="php-var">$value</span>[<span class="php-quote">&quot;className&quot;</span>]);
@@ -744,7 +744,7 @@
 </span><span id="632" class="l">            }
 </span><span id="633" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$obj</span>;
 </span><span id="634" class="l">        }
-</span><span id="635" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> == <span class="php-quote">&quot;Relation&quot;</span>) {
+</span><span id="635" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type</span> === <span class="php-quote">&quot;Relation&quot;</span>) {
 </span><span id="636" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword1">new</span> LeanRelation(<span class="php-keyword1">null</span>, <span class="php-var">$key</span>, <span class="php-var">$value</span>[<span class="php-quote">&quot;className&quot;</span>]);
 </span><span id="637" class="l">        }
 </span><span id="638" class="l">    }
@@ -790,7 +790,7 @@
 	</div>
 </div>
 </div>
-<script src="resources/combined.js?6c1445516699060e9205736f33c2dc95dfd61b10"></script>
+<script src="resources/combined.js?f1dd8977297ee7abb6b1e4bb4c9bcea5316d1f9c"></script>
 <script src="elementlist.js?5eafcb7e3c897c08b644726a47bc075952de7e1d"></script>
 </body>
 </html>
