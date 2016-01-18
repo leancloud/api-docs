@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVIMConversationResultBlock Block Reference</title>
+		<title>AVIMClientStatus Constants Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVIMConversationResultBlock Block Reference</h1>
+				<h1 class="hideInXcode">AVIMClientStatus Constants Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -45,7 +45,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVIMConversationResultBlock Block Reference" name="top"></a>
+				<a title="AVIMClientStatus Constants Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -54,7 +54,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVIMConversationResultBlock Block Reference</h1>
+						<h1 class="title title-header">AVIMClientStatus Constants Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -62,7 +62,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVIMCommon.h</td>
+	<td class="specification-value">AVIMClient.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -74,18 +74,162 @@
 					
                     
                     
+                    <h3 class="subsubtitle method-title">AVIMClientStatus</h3>
+                    
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSUInteger, AVIMClientStatus ) {<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusNone</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusOpening</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusOpened</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusPaused</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusResuming</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusClosing</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMClientStatusClosed</a>,<br/>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="AVIMClientStatusNone"></a><code>AVIMClientStatusNone</code></dt>
+<dd>
+
+
+<p>Initial client status.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusOpening"></a><code>AVIMClientStatusOpening</code></dt>
+<dd>
+
+
+<p>Indicate the client is connecting the server now.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusOpened"></a><code>AVIMClientStatusOpened</code></dt>
+<dd>
+
+
+<p>Indicate the client connected the server.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusPaused"></a><code>AVIMClientStatusPaused</code></dt>
+<dd>
+
+
+<p>Indicate the connection paused. Usually for the network reason.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusResuming"></a><code>AVIMClientStatusResuming</code></dt>
+<dd>
+
+
+<p>Indicate the connection is recovering.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusClosing"></a><code>AVIMClientStatusClosing</code></dt>
+<dd>
+
+
+<p>Indicate the connection is closing.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMClientStatusClosed"></a><code>AVIMClientStatusClosed</code></dt>
+<dd>
+
+
+<p>Indicate the connection is closed.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
                     
                     
-                    <a title="Block Definition" name="instance_methods"></a>
-                    <h2 class="subtitle subtitle-methods">Block Definition</h2>
-                    <h3 class="subsubtitle method-title">AVIMConversationResultBlock</h3>
-
-
-<code>typedef void (^AVIMConversationResultBlock) (AVIMConversation *conversation, NSError *error)</code>
-
-
-
-
+                    
+                    
+                    
                     
 
 				</div>

@@ -1,313 +1,475 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVIMKeyedConversation Class Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVIMKeyedConversation Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVIMKeyedConversation Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
-
+	<option value="overview">Overview</option>
+	
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/attributes">attributes</option>
-		
-		<option value="//api/name/conversationId">conversationId</option>
-		
-		<option value="//api/name/createAt">createAt</option>
-		
-		<option value="//api/name/creator">creator</option>
-		
-		<option value="//api/name/lastMessageAt">lastMessageAt</option>
-		
-		<option value="//api/name/members">members</option>
-		
-		<option value="//api/name/muted">muted</option>
-		
-		<option value="//api/name/name">name</option>
-		
-		<option value="//api/name/transient">transient</option>
-		
-		<option value="//api/name/updateAt">updateAt</option>
-		
-	</optgroup>
 	
-
+	<option value="properties">Properties</option>
 	
-
+	<option value="//api/name/attributes">&nbsp;&nbsp;&nbsp;&nbsp;attributes</option>
+	
+	<option value="//api/name/conversationId">&nbsp;&nbsp;&nbsp;&nbsp;conversationId</option>
+	
+	<option value="//api/name/createAt">&nbsp;&nbsp;&nbsp;&nbsp;createAt</option>
+	
+	<option value="//api/name/creator">&nbsp;&nbsp;&nbsp;&nbsp;creator</option>
+	
+	<option value="//api/name/lastMessageAt">&nbsp;&nbsp;&nbsp;&nbsp;lastMessageAt</option>
+	
+	<option value="//api/name/members">&nbsp;&nbsp;&nbsp;&nbsp;members</option>
+	
+	<option value="//api/name/muted">&nbsp;&nbsp;&nbsp;&nbsp;muted</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
+	
+	<option value="//api/name/transient">&nbsp;&nbsp;&nbsp;&nbsp;transient</option>
+	
+	<option value="//api/name/updateAt">&nbsp;&nbsp;&nbsp;&nbsp;updateAt</option>
+	
+	
+	
+	
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVIMKeyedConversation Class Reference</h1>
 
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributes">attributes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/conversationId">conversationId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createAt">createAt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/creator">creator</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastMessageAt">lastMessageAt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/members">members</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/muted">muted</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transient">transient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateAt">updateAt</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVIMKeyedConversation Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVIMKeyedConversation Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Conforms to</th>
-	<td>NSCoding</td>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVIMKeyedConversation.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVIMKeyedConversation.h</td>
 </tr>
 						</tbody></table></div>
 					
-
                     
-
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Represents a conversation which intends to be archived. Can get this object from AVIMConversation by <a href="../Classes/AVIMConversation.html#//api/name/keyedConversation">[AVIMConversation keyedConversation]</a>. Can convert this object to AVIMConverstaion by <a href="../Classes/AVIMClient.html#//api/name/conversationWithKeyedConversation:">[AVIMClient conversationWithKeyedConversation:]</a>.</p>
+					</div>
+					
+					
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
 						
 
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/conversationId">&nbsp;&nbsp;conversationId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/creator">&nbsp;&nbsp;creator</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createAt">&nbsp;&nbsp;createAt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateAt">&nbsp;&nbsp;updateAt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastMessageAt">&nbsp;&nbsp;lastMessageAt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/members">&nbsp;&nbsp;members</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributes">&nbsp;&nbsp;attributes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transient">&nbsp;&nbsp;transient</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/muted">&nbsp;&nbsp;muted</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
 						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
 						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/conversationId" title="conversationId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/conversationId">&nbsp;&nbsp;conversationId</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *conversationId</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/creator" title="creator"></a>
-	<h3 class="method-title"><code><a href="#//api/name/creator">&nbsp;&nbsp;creator</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *creator</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/createAt" title="createAt"></a>
-	<h3 class="method-title"><code><a href="#//api/name/createAt">&nbsp;&nbsp;createAt</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *createAt</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/updateAt" title="updateAt"></a>
-	<h3 class="method-title"><code><a href="#//api/name/updateAt">&nbsp;&nbsp;updateAt</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *updateAt</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/lastMessageAt" title="lastMessageAt"></a>
-	<h3 class="method-title"><code><a href="#//api/name/lastMessageAt">&nbsp;&nbsp;lastMessageAt</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *lastMessageAt</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/name" title="name"></a>
-	<h3 class="method-title"><code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *name</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/members" title="members"></a>
-	<h3 class="method-title"><code><a href="#//api/name/members">&nbsp;&nbsp;members</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSArray *members</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
+						<div class="section-method">
 	<a name="//api/name/attributes" title="attributes"></a>
-	<h3 class="method-title"><code><a href="#//api/name/attributes">&nbsp;&nbsp;attributes</a></code>
-</h3>
+	<h3 class="subsubtitle method-title">attributes</h3>
+	
+	
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDictionary *attributes</code></div>
 
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDictionary *attributes</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/transient" title="transient"></a>
-	<h3 class="method-title"><code><a href="#//api/name/transient">&nbsp;&nbsp;transient</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL transient</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/muted" title="muted"></a>
-	<h3 class="method-title"><code><a href="#//api/name/muted">&nbsp;&nbsp;muted</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL muted</code></div>
-
-		    
-		</div>
-	</div>
+    
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/conversationId" title="conversationId"></a>
+	<h3 class="subsubtitle method-title">conversationId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *conversationId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createAt" title="createAt"></a>
+	<h3 class="subsubtitle method-title">createAt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *createAt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/creator" title="creator"></a>
+	<h3 class="subsubtitle method-title">creator</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *creator</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastMessageAt" title="lastMessageAt"></a>
+	<h3 class="subsubtitle method-title">lastMessageAt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *lastMessageAt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/members" title="members"></a>
+	<h3 class="subsubtitle method-title">members</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSArray *members</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/muted" title="muted"></a>
+	<h3 class="subsubtitle method-title">muted</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL muted</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *name</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transient" title="transient"></a>
+	<h3 class="subsubtitle method-title">transient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL transient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateAt" title="updateAt"></a>
+	<h3 class="subsubtitle method-title">updateAt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) NSDate *updateAt</code></div>
+
+    
+</div>
 						
 					</div>
 					
 					
-
+					
+					
+					
+					
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>

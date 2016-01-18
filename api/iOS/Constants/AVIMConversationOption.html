@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVIMConversationResultBlock Block Reference</title>
+		<title>AVIMConversationOption Constants Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVIMConversationResultBlock Block Reference</h1>
+				<h1 class="hideInXcode">AVIMConversationOption Constants Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -45,7 +45,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVIMConversationResultBlock Block Reference" name="top"></a>
+				<a title="AVIMConversationOption Constants Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -54,7 +54,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVIMConversationResultBlock Block Reference</h1>
+						<h1 class="title title-header">AVIMConversationOption Constants Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -62,7 +62,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVIMCommon.h</td>
+	<td class="specification-value">AVIMClient.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -74,18 +74,86 @@
 					
                     
                     
+                    <h3 class="subsubtitle method-title">AVIMConversationOption</h3>
+                    
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_OPTIONS(uint64_t, AVIMConversationOption ) {<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMConversationOptionNone</a> = 0,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMConversationOptionTransient</a> = 1 &lt; &lt; 0,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">AVIMConversationOptionUnique</a> = 1 &lt; &lt; 1,<br/>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="AVIMConversationOptionNone"></a><code>AVIMConversationOptionNone</code></dt>
+<dd>
+
+
+<p>Default conversation. At most allow 500 people to join the conversation.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMConversationOptionTransient"></a><code>AVIMConversationOptionTransient</code></dt>
+<dd>
+
+
+<p>Transient conversation. No headcount limits. But the functionality is limited. No offline messages, no offline notifications, etc.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AVIMConversationOptionUnique"></a><code>AVIMConversationOptionUnique</code></dt>
+<dd>
+
+
+<p>Unique conversation. If the server detects the conversation with that members exists, will return it instead of creating a new one.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMClient.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
                     
                     
-                    <a title="Block Definition" name="instance_methods"></a>
-                    <h2 class="subtitle subtitle-methods">Block Definition</h2>
-                    <h3 class="subsubtitle method-title">AVIMConversationResultBlock</h3>
-
-
-<code>typedef void (^AVIMConversationResultBlock) (AVIMConversation *conversation, NSError *error)</code>
-
-
-
-
+                    
+                    
+                    
                     
 
 				</div>

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVRelation Class Reference</title>
+		<title>AVFileQuery Class Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVRelation Class Reference</h1>
+				<h1 class="hideInXcode">AVFileQuery Class Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -37,27 +37,24 @@
 	
 	
 	
-	<option value="properties">Properties</option>
-	
-	<option value="//api/name/targetClass">&nbsp;&nbsp;&nbsp;&nbsp;targetClass</option>
-	
-	
 	
 	
 	<option value="class_methods">Class Methods</option>
 	
-	<option value="//api/name/reverseQuery:relationKey:childObject:">&nbsp;&nbsp;&nbsp;&nbsp;+ reverseQuery:relationKey:childObject:</option>
+	<option value="//api/name/query">&nbsp;&nbsp;&nbsp;&nbsp;+ query</option>
 	
 	
 	
 	
 	<option value="instance_methods">Instance Methods</option>
 	
-	<option value="//api/name/addObject:">&nbsp;&nbsp;&nbsp;&nbsp;- addObject:</option>
+	<option value="//api/name/findFiles:">&nbsp;&nbsp;&nbsp;&nbsp;- findFiles:</option>
 	
-	<option value="//api/name/query">&nbsp;&nbsp;&nbsp;&nbsp;- query</option>
+	<option value="//api/name/findFilesInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- findFilesInBackgroundWithBlock:</option>
 	
-	<option value="//api/name/removeObject:">&nbsp;&nbsp;&nbsp;&nbsp;- removeObject:</option>
+	<option value="//api/name/getFileInBackgroundWithId:block:">&nbsp;&nbsp;&nbsp;&nbsp;- getFileInBackgroundWithId:block:</option>
+	
+	<option value="//api/name/getFileWithId:error:">&nbsp;&nbsp;&nbsp;&nbsp;- getFileWithId:error:</option>
 	
 	
 	
@@ -81,17 +78,11 @@
 
 
 
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/targetClass">targetClass</a></span></li>
-	
-</ul></li>
-
 
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reverseQuery:relationKey:childObject:">reverseQuery:relationKey:childObject:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/query">query</a></span></li>
 	
 </ul></li>
 
@@ -99,11 +90,13 @@
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addObject:">addObject:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findFiles:">findFiles:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/query">query</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findFilesInBackgroundWithBlock:">findFilesInBackgroundWithBlock:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeObject:">removeObject:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFileInBackgroundWithId:block:">getFileInBackgroundWithId:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFileWithId:error:">getFileWithId:error:</a></span></li>
 	
 </ul></li>
 
@@ -112,7 +105,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVRelation Class Reference" name="top"></a>
+				<a title="AVFileQuery Class Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -121,7 +114,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVRelation Class Reference</h1>
+						<h1 class="title title-header">AVFileQuery Class Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -129,10 +122,10 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Inherits from</td>
-	<td class="specification-value">NSObject</td>
+	<td class="specification-value"><a href="../Classes/AVQuery.html">AVQuery</a> : NSObject</td>
 </tr><tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVRelation.h</td>
+	<td class="specification-value">AVFileQuery.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -142,8 +135,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>A class that is used to access all of the children of a many-to-many relationship.  Each instance
-of AVRelation is associated with a particular parent object and key.</p>
+						<p><a href="../Classes/AVFile.html">AVFile</a> 查询类</p>
 					</div>
 					
 					
@@ -161,31 +153,31 @@ of AVRelation is associated with a particular parent object and key.</p>
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/targetClass">&nbsp;&nbsp;targetClass</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/query">&ndash;&nbsp;query</a></code>
+		<code><a href="#//api/name/query">+&nbsp;query</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/addObject:">&ndash;&nbsp;addObject:</a></code>
+		<code><a href="#//api/name/findFiles:">&ndash;&nbsp;findFiles:</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/removeObject:">&ndash;&nbsp;removeObject:</a></code>
+		<code><a href="#//api/name/findFilesInBackgroundWithBlock:">&ndash;&nbsp;findFilesInBackgroundWithBlock:</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/reverseQuery:relationKey:childObject:">+&nbsp;reverseQuery:relationKey:childObject:</a></code>
+		<code><a href="#//api/name/getFileWithId:error:">&ndash;&nbsp;getFileWithId:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getFileInBackgroundWithId:block:">&ndash;&nbsp;getFileInBackgroundWithId:block:</a></code>
 	</span>
 	
 	
@@ -198,23 +190,6 @@ of AVRelation is associated with a particular parent object and key.</p>
 					
 					
 					
-					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/targetClass" title="targetClass"></a>
-	<h3 class="subsubtitle method-title">targetClass</h3>
-	
-	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *targetClass</code></div>
-
-    
-</div>
-						
-					</div>
-					
 					
 					
 					<div class="section section-methods">
@@ -222,69 +197,14 @@ of AVRelation is associated with a particular parent object and key.</p>
 						<h2 class="subtitle subtitle-methods">Class Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/reverseQuery:relationKey:childObject:" title="reverseQuery:relationKey:childObject:"></a>
-	<h3 class="subsubtitle method-title">reverseQuery:relationKey:childObject:</h3>
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="subsubtitle method-title">query</h3>
 	
 	
-	
-	<div class="method-subsection brief-description">
-		<p>A <a href="../Classes/AVQuery.html">AVQuery</a> that can be used to get parent objects in this relation.</p>
-	</div>		
-	
-    
 
-	<div class="method-subsection method-declaration"><code>+ (AVQuery *)reverseQuery:(NSString *)<em>parentClassName</em> relationKey:(NSString *)<em>relationKey</em> childObject:(AVObject *)<em>child</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)query</code></div>
 
     
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>parentClassName</em></dt>
-			<dd><p>parent Class Name</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>relationKey</em></dt>
-			<dd><p>relation Key</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>child</em></dt>
-			<dd><p>child object</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>the Query</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>A <a href="../Classes/AVQuery.html">AVQuery</a> that can be used to get parent objects in this relation.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVRelation.h</code><br />
-	</div>				
-	
-	
 </div>
 						
 					</div>
@@ -296,18 +216,18 @@ of AVRelation is associated with a particular parent object and key.</p>
 						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/addObject:" title="addObject:"></a>
-	<h3 class="subsubtitle method-title">addObject:</h3>
+	<a name="//api/name/findFiles:" title="findFiles:"></a>
+	<h3 class="subsubtitle method-title">findFiles:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Adds a relation to the passed in object.</p>
+		<p>查找一组文件，同步方法</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)addObject:(AVObject *)<em>object</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (NSArray *)findFiles:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -315,63 +235,27 @@ of AVRelation is associated with a particular parent object and key.</p>
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>object</em></dt>
-			<dd><p><a href="../Classes/AVObject.html">AVObject</a> to add relation to.</p></dd>
+			<dt><em>error</em></dt>
+			<dd><p>通常是网络错误或者查找权限未开启</p></dd>
 		</dl>
 		
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Adds a relation to the passed in object.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVRelation.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/query" title="query"></a>
-	<h3 class="subsubtitle method-title">query</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A <a href="../Classes/AVQuery.html">AVQuery</a> that can be used to get objects in this relation.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (AVQuery *)query</code></div>
-
-    
 	
 	
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A <a href="../Classes/AVQuery.html">AVQuery</a> that can be used to get objects in this relation.</p>
+		<p>返回一组 <a href="../Classes/AVFile.html">AVFile</a> 对象</p>
 	</div>
 	
 	
 	
 	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查找一组文件，同步方法</p>
+	</div>
 	
 	
 	
@@ -381,25 +265,25 @@ of AVRelation is associated with a particular parent object and key.</p>
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVRelation.h</code><br />
+		<code class="declared-in-ref">AVFileQuery.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/removeObject:" title="removeObject:"></a>
-	<h3 class="subsubtitle method-title">removeObject:</h3>
+	<a name="//api/name/findFilesInBackgroundWithBlock:" title="findFilesInBackgroundWithBlock:"></a>
+	<h3 class="subsubtitle method-title">findFilesInBackgroundWithBlock:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Removes a relation to the passed in object.</p>
+		<p>查找一组文件，异步方法</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)removeObject:(AVObject *)<em>object</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)findFilesInBackgroundWithBlock:(AVArrayResultBlock)<em>resultBlock</em></code></div>
 
     
 	
@@ -407,8 +291,8 @@ of AVRelation is associated with a particular parent object and key.</p>
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>object</em></dt>
-			<dd><p><a href="../Classes/AVObject.html">AVObject</a> to add relation to.</p></dd>
+			<dt><em>resultBlock</em></dt>
+			<dd><p>回调 block</p></dd>
 		</dl>
 		
 	</div>
@@ -421,7 +305,72 @@ of AVRelation is associated with a particular parent object and key.</p>
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>Removes a relation to the passed in object.</p>
+		<p>查找一组文件，异步方法</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/findFiles:">- findFiles:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVFileQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getFileInBackgroundWithId:block:" title="getFileInBackgroundWithId:block:"></a>
+	<h3 class="subsubtitle method-title">getFileInBackgroundWithId:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据 objectId 来查找文件，异步方法</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getFileInBackgroundWithId:(NSString *)<em>objectId</em> block:(AVFileResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>objectId</em></dt>
+			<dd><p>目标文件的 objectId</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>回调 block</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据 objectId 来查找文件，异步方法</p>
 	</div>
 	
 	
@@ -432,7 +381,68 @@ of AVRelation is associated with a particular parent object and key.</p>
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVRelation.h</code><br />
+		<code class="declared-in-ref">AVFileQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getFileWithId:error:" title="getFileWithId:error:"></a>
+	<h3 class="subsubtitle method-title">getFileWithId:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据 objectId 来查找文件，同步方法</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AVFile *)getFileWithId:(NSString *)<em>objectId</em> error:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>objectId</em></dt>
+			<dd><p>目标文件的 objectId</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>通过是网络错误或查找权限未开启</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>返回 <a href="../Classes/AVFile.html">AVFile</a> 对象</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据 objectId 来查找文件，同步方法</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVFileQuery.h</code><br />
 	</div>				
 	
 	

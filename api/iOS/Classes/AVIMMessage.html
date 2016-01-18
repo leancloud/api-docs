@@ -1,359 +1,516 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVIMMessage Class Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVIMMessage Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVIMMessage Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
-
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/clientId">clientId</option>
-		
-		<option value="//api/name/content">content</option>
-		
-		<option value="//api/name/conversationId">conversationId</option>
-		
-		<option value="//api/name/deliveredTimestamp">deliveredTimestamp</option>
-		
-		<option value="//api/name/ioType">ioType</option>
-		
-		<option value="//api/name/messageId">messageId</option>
-		
-		<option value="//api/name/sendTimestamp">sendTimestamp</option>
-		
-		<option value="//api/name/status">status</option>
-		
-		<option value="//api/name/transient">transient</option>
-		
-	</optgroup>
 	
-
+	<option value="properties">Properties</option>
 	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/messageWithContent:">+ messageWithContent:</option>
-		
-	</optgroup>
+	<option value="//api/name/clientId">&nbsp;&nbsp;&nbsp;&nbsp;clientId</option>
 	
-
+	<option value="//api/name/content">&nbsp;&nbsp;&nbsp;&nbsp;content</option>
+	
+	<option value="//api/name/conversationId">&nbsp;&nbsp;&nbsp;&nbsp;conversationId</option>
+	
+	<option value="//api/name/deliveredTimestamp">&nbsp;&nbsp;&nbsp;&nbsp;deliveredTimestamp</option>
+	
+	<option value="//api/name/ioType">&nbsp;&nbsp;&nbsp;&nbsp;ioType</option>
+	
+	<option value="//api/name/messageId">&nbsp;&nbsp;&nbsp;&nbsp;messageId</option>
+	
+	<option value="//api/name/sendTimestamp">&nbsp;&nbsp;&nbsp;&nbsp;sendTimestamp</option>
+	
+	<option value="//api/name/status">&nbsp;&nbsp;&nbsp;&nbsp;status</option>
+	
+	<option value="//api/name/transient">&nbsp;&nbsp;&nbsp;&nbsp;transient</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/messageWithContent:">&nbsp;&nbsp;&nbsp;&nbsp;+ messageWithContent:</option>
+	
+	
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVIMMessage Class Reference</h1>
 
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clientId">clientId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/content">content</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/conversationId">conversationId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deliveredTimestamp">deliveredTimestamp</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ioType">ioType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageId">messageId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendTimestamp">sendTimestamp</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/status">status</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transient">transient</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageWithContent:">messageWithContent:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVIMMessage Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVIMMessage Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Conforms to</th>
-	<td>NSCoding<br />NSCopying</td>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVIMMessage.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVIMMessage.h</td>
 </tr>
 						</tbody></table></div>
 					
-
                     
-
+                    
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
 						
 
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ioType">&nbsp;&nbsp;ioType</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageId">&nbsp;&nbsp;messageId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clientId">&nbsp;&nbsp;clientId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/conversationId">&nbsp;&nbsp;conversationId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/content">&nbsp;&nbsp;content</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendTimestamp">&nbsp;&nbsp;sendTimestamp</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deliveredTimestamp">&nbsp;&nbsp;deliveredTimestamp</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transient">&nbsp;&nbsp;transient</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageWithContent:">+&nbsp;messageWithContent:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
 						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/ioType" title="ioType"></a>
-	<h3 class="method-title"><code><a href="#//api/name/ioType">&nbsp;&nbsp;ioType</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) AVIMMessageIOType ioType</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/status" title="status"></a>
-	<h3 class="method-title"><code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVIMMessageStatus status</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/messageId" title="messageId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/messageId">&nbsp;&nbsp;messageId</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *messageId</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
+						<div class="section-method">
 	<a name="//api/name/clientId" title="clientId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/clientId">&nbsp;&nbsp;clientId</a></code>
-</h3>
+	<h3 class="subsubtitle method-title">clientId</h3>
+	
+	
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *clientId</code></div>
 
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *clientId</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/conversationId" title="conversationId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/conversationId">&nbsp;&nbsp;conversationId</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *conversationId</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/content" title="content"></a>
-	<h3 class="method-title"><code><a href="#//api/name/content">&nbsp;&nbsp;content</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *content</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sendTimestamp" title="sendTimestamp"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendTimestamp">&nbsp;&nbsp;sendTimestamp</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t sendTimestamp</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/deliveredTimestamp" title="deliveredTimestamp"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deliveredTimestamp">&nbsp;&nbsp;deliveredTimestamp</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t deliveredTimestamp</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/transient" title="transient"></a>
-	<h3 class="method-title"><code><a href="#//api/name/transient">&nbsp;&nbsp;transient</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL transient</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/messageWithContent:" title="messageWithContent:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/messageWithContent:">+&nbsp;messageWithContent:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>创建文本消息。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithContent:(NSString *)<em>content</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>content</code></th>
-						<td><p>－ 消息文本.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>创建文本消息。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMMessage.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
+    
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/content" title="content"></a>
+	<h3 class="subsubtitle method-title">content</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *content</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/conversationId" title="conversationId"></a>
+	<h3 class="subsubtitle method-title">conversationId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *conversationId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deliveredTimestamp" title="deliveredTimestamp"></a>
+	<h3 class="subsubtitle method-title">deliveredTimestamp</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t deliveredTimestamp</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ioType" title="ioType"></a>
+	<h3 class="subsubtitle method-title">ioType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) AVIMMessageIOType ioType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageId" title="messageId"></a>
+	<h3 class="subsubtitle method-title">messageId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *messageId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendTimestamp" title="sendTimestamp"></a>
+	<h3 class="subsubtitle method-title">sendTimestamp</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t sendTimestamp</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/status" title="status"></a>
+	<h3 class="subsubtitle method-title">status</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVIMMessageStatus status</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transient" title="transient"></a>
+	<h3 class="subsubtitle method-title">transient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL transient</code></div>
+
+    
+</div>
 						
 					</div>
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/messageWithContent:" title="messageWithContent:"></a>
+	<h3 class="subsubtitle method-title">messageWithContent:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>创建文本消息。</p>
+	</div>		
+	
+    
 
+	<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithContent:(NSString *)<em>content</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>content</em></dt>
+			<dd><p>－ 消息文本.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>创建文本消息。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>

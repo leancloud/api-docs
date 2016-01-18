@@ -1,550 +1,724 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVSessionDelegate Protocol Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVSessionDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVSessionDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
-
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-
 	
-
 	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/onSessionError:withException:">- onSessionError:withException:</option>
-		
-		<option value="//api/name/onSessionMessage:message:peerId:">- onSessionMessage:message:peerId:</option>
-		
-		<option value="//api/name/onSessionMessageFailure:message:toPeerIds:">- onSessionMessageFailure:message:toPeerIds:</option>
-		
-		<option value="//api/name/onSessionMessageSent:message:toPeerIds:">- onSessionMessageSent:message:toPeerIds:</option>
-		
-		<option value="//api/name/onSessionOpen:">- onSessionOpen:</option>
-		
-		<option value="//api/name/onSessionPaused:">- onSessionPaused:</option>
-		
-		<option value="//api/name/onSessionResumed:">- onSessionResumed:</option>
-		
-		<option value="//api/name/onSessionStatusOffline:peers:">- onSessionStatusOffline:peers:</option>
-		
-		<option value="//api/name/onSessionStatusOnline:peers:">- onSessionStatusOnline:peers:</option>
-		
-		<option value="//api/name/session:didReceiveMessage:">- session:didReceiveMessage:</option>
-		
-		<option value="//api/name/session:didReceiveStatus:peerIds:">- session:didReceiveStatus:peerIds:</option>
-		
-		<option value="//api/name/session:messageArrived:">- session:messageArrived:</option>
-		
-		<option value="//api/name/session:messageSendFailed:error:">- session:messageSendFailed:error:</option>
-		
-		<option value="//api/name/session:messageSendFinished:">- session:messageSendFinished:</option>
-		
-		<option value="//api/name/sessionFailed:error:">- sessionFailed:error:</option>
-		
-		<option value="//api/name/sessionOpened:">- sessionOpened:</option>
-		
-		<option value="//api/name/sessionPaused:">- sessionPaused:</option>
-		
-		<option value="//api/name/sessionResumed:">- sessionResumed:</option>
-		
-	</optgroup>
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/onSessionError:withException:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionError:withException:</option>
+	
+	<option value="//api/name/onSessionMessage:message:peerId:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionMessage:message:peerId:</option>
+	
+	<option value="//api/name/onSessionMessageFailure:message:toPeerIds:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionMessageFailure:message:toPeerIds:</option>
+	
+	<option value="//api/name/onSessionMessageSent:message:toPeerIds:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionMessageSent:message:toPeerIds:</option>
+	
+	<option value="//api/name/onSessionOpen:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionOpen:</option>
+	
+	<option value="//api/name/onSessionPaused:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionPaused:</option>
+	
+	<option value="//api/name/onSessionResumed:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionResumed:</option>
+	
+	<option value="//api/name/onSessionStatusOffline:peers:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionStatusOffline:peers:</option>
+	
+	<option value="//api/name/onSessionStatusOnline:peers:">&nbsp;&nbsp;&nbsp;&nbsp;- onSessionStatusOnline:peers:</option>
+	
+	<option value="//api/name/session:didReceiveMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- session:didReceiveMessage:</option>
+	
+	<option value="//api/name/session:didReceiveStatus:peerIds:">&nbsp;&nbsp;&nbsp;&nbsp;- session:didReceiveStatus:peerIds:</option>
+	
+	<option value="//api/name/session:messageArrived:">&nbsp;&nbsp;&nbsp;&nbsp;- session:messageArrived:</option>
+	
+	<option value="//api/name/session:messageSendFailed:error:">&nbsp;&nbsp;&nbsp;&nbsp;- session:messageSendFailed:error:</option>
+	
+	<option value="//api/name/session:messageSendFinished:">&nbsp;&nbsp;&nbsp;&nbsp;- session:messageSendFinished:</option>
+	
+	<option value="//api/name/sessionFailed:error:">&nbsp;&nbsp;&nbsp;&nbsp;- sessionFailed:error:</option>
+	
+	<option value="//api/name/sessionOpened:">&nbsp;&nbsp;&nbsp;&nbsp;- sessionOpened:</option>
+	
+	<option value="//api/name/sessionPaused:">&nbsp;&nbsp;&nbsp;&nbsp;- sessionPaused:</option>
+	
+	<option value="//api/name/sessionResumed:">&nbsp;&nbsp;&nbsp;&nbsp;- sessionResumed:</option>
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVSessionDelegate Protocol Reference</h1>
 
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionError:withException:">onSessionError:withException:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionMessage:message:peerId:">onSessionMessage:message:peerId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionMessageFailure:message:toPeerIds:">onSessionMessageFailure:message:toPeerIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionMessageSent:message:toPeerIds:">onSessionMessageSent:message:toPeerIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionOpen:">onSessionOpen:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionPaused:">onSessionPaused:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionResumed:">onSessionResumed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionStatusOffline:peers:">onSessionStatusOffline:peers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSessionStatusOnline:peers:">onSessionStatusOnline:peers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session:didReceiveMessage:">session:didReceiveMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session:didReceiveStatus:peerIds:">session:didReceiveStatus:peerIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session:messageArrived:">session:messageArrived:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session:messageSendFailed:error:">session:messageSendFailed:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session:messageSendFinished:">session:messageSendFinished:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sessionFailed:error:">sessionFailed:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sessionOpened:">sessionOpened:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sessionPaused:">sessionPaused:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sessionResumed:">sessionResumed:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVSessionDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVSessionDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Conforms to</th>
-	<td>NSObject</td>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVSession.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVSession.h</td>
 </tr>
 						</tbody></table></div>
 					
-
                     
-
+                    
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
 						
 
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sessionOpened:">&ndash;&nbsp;sessionOpened:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sessionPaused:">&ndash;&nbsp;sessionPaused:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sessionResumed:">&ndash;&nbsp;sessionResumed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sessionFailed:error:">&ndash;&nbsp;sessionFailed:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session:didReceiveMessage:">&ndash;&nbsp;session:didReceiveMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session:didReceiveStatus:peerIds:">&ndash;&nbsp;session:didReceiveStatus:peerIds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session:messageSendFinished:">&ndash;&nbsp;session:messageSendFinished:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session:messageSendFailed:error:">&ndash;&nbsp;session:messageSendFailed:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session:messageArrived:">&ndash;&nbsp;session:messageArrived:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionOpen:">&ndash;&nbsp;onSessionOpen:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionPaused:">&ndash;&nbsp;onSessionPaused:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionResumed:">&ndash;&nbsp;onSessionResumed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionMessage:message:peerId:">&ndash;&nbsp;onSessionMessage:message:peerId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionMessageSent:message:toPeerIds:">&ndash;&nbsp;onSessionMessageSent:message:toPeerIds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionMessageFailure:message:toPeerIds:">&ndash;&nbsp;onSessionMessageFailure:message:toPeerIds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionStatusOnline:peers:">&ndash;&nbsp;onSessionStatusOnline:peers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionStatusOffline:peers:">&ndash;&nbsp;onSessionStatusOffline:peers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSessionError:withException:">&ndash;&nbsp;onSessionError:withException:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
 						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/sessionOpened:" title="sessionOpened:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sessionOpened:">&ndash;&nbsp;sessionOpened:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)sessionOpened:(AVSession *)<em>session</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sessionPaused:" title="sessionPaused:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sessionPaused:">&ndash;&nbsp;sessionPaused:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)sessionPaused:(AVSession *)<em>session</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sessionResumed:" title="sessionResumed:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sessionResumed:">&ndash;&nbsp;sessionResumed:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)sessionResumed:(AVSession *)<em>session</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sessionFailed:error:" title="sessionFailed:error:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sessionFailed:error:">&ndash;&nbsp;sessionFailed:error:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)sessionFailed:(AVSession *)<em>session</em> error:(NSError *)<em>error</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session:didReceiveMessage:" title="session:didReceiveMessage:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session:didReceiveMessage:">&ndash;&nbsp;session:didReceiveMessage:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> didReceiveMessage:(AVMessage *)<em>message</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session:didReceiveStatus:peerIds:" title="session:didReceiveStatus:peerIds:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session:didReceiveStatus:peerIds:">&ndash;&nbsp;session:didReceiveStatus:peerIds:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> didReceiveStatus:(AVPeerStatus)<em>status</em> peerIds:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session:messageSendFinished:" title="session:messageSendFinished:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session:messageSendFinished:">&ndash;&nbsp;session:messageSendFinished:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>消息发送成功
-回调表示消息已经成功发送到服务器</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageSendFinished:(AVMessage *)<em>message</em></code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>消息发送成功
-回调表示消息已经成功发送到服务器</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSession.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session:messageSendFailed:error:" title="session:messageSendFailed:error:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session:messageSendFailed:error:">&ndash;&nbsp;session:messageSendFailed:error:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>消息发送失败
-回调表示消息长时间没得到服务器确认或网络故障</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageSendFailed:(AVMessage *)<em>message</em> error:(NSError *)<em>error</em></code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>消息发送失败
-回调表示消息长时间没得到服务器确认或网络故障</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSession.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session:messageArrived:" title="session:messageArrived:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session:messageArrived:">&ndash;&nbsp;session:messageArrived:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>消息到达接收方，需要消息设置requestReceipt为YES，默认为NO
-回调表示消息已经发送到接收方</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageArrived:(AVMessage *)<em>message</em></code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>消息到达接收方，需要消息设置requestReceipt为YES，默认为NO
-回调表示消息已经发送到接收方</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSession.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionOpen:" title="onSessionOpen:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionOpen:">&ndash;&nbsp;onSessionOpen:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionOpen:(AVSession *)<em>session</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionPaused:" title="onSessionPaused:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionPaused:">&ndash;&nbsp;onSessionPaused:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionPaused:(AVSession *)<em>session</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionResumed:" title="onSessionResumed:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionResumed:">&ndash;&nbsp;onSessionResumed:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionResumed:(AVSession *)<em>seesion</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionMessage:message:peerId:" title="onSessionMessage:message:peerId:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionMessage:message:peerId:">&ndash;&nbsp;onSessionMessage:message:peerId:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionMessage:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> peerId:(NSString *)<em>peerId</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionMessageSent:message:toPeerIds:" title="onSessionMessageSent:message:toPeerIds:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionMessageSent:message:toPeerIds:">&ndash;&nbsp;onSessionMessageSent:message:toPeerIds:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionMessageSent:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> toPeerIds:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionMessageFailure:message:toPeerIds:" title="onSessionMessageFailure:message:toPeerIds:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionMessageFailure:message:toPeerIds:">&ndash;&nbsp;onSessionMessageFailure:message:toPeerIds:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionMessageFailure:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> toPeerIds:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionStatusOnline:peers:" title="onSessionStatusOnline:peers:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionStatusOnline:peers:">&ndash;&nbsp;onSessionStatusOnline:peers:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionStatusOnline:(AVSession *)<em>session</em> peers:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/onSessionStatusOffline:peers:" title="onSessionStatusOffline:peers:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionStatusOffline:peers:">&ndash;&nbsp;onSessionStatusOffline:peers:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionStatusOffline:(AVSession *)<em>session</em> peers:(NSArray *)<em>peerId</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
+						<div class="section-method">
 	<a name="//api/name/onSessionError:withException:" title="onSessionError:withException:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/onSessionError:withException:">&ndash;&nbsp;onSessionError:withException:</a></code>
-</h3>
+	<h3 class="subsubtitle method-title">onSessionError:withException:</h3>
+	
+	
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>- (void)onSessionError:(AVSession *)<em>session</em> withException:(NSException *)<em>exception</em></code></div>
 
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)onSessionError:(AVSession *)<em>session</em> withException:(NSException *)<em>exception</em></code></div>
-
-		    
-		</div>
-	</div>
+    
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionMessage:message:peerId:" title="onSessionMessage:message:peerId:"></a>
+	<h3 class="subsubtitle method-title">onSessionMessage:message:peerId:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionMessage:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> peerId:(NSString *)<em>peerId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionMessageFailure:message:toPeerIds:" title="onSessionMessageFailure:message:toPeerIds:"></a>
+	<h3 class="subsubtitle method-title">onSessionMessageFailure:message:toPeerIds:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionMessageFailure:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> toPeerIds:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionMessageSent:message:toPeerIds:" title="onSessionMessageSent:message:toPeerIds:"></a>
+	<h3 class="subsubtitle method-title">onSessionMessageSent:message:toPeerIds:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionMessageSent:(AVSession *)<em>session</em> message:(NSString *)<em>message</em> toPeerIds:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionOpen:" title="onSessionOpen:"></a>
+	<h3 class="subsubtitle method-title">onSessionOpen:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionOpen:(AVSession *)<em>session</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionPaused:" title="onSessionPaused:"></a>
+	<h3 class="subsubtitle method-title">onSessionPaused:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionPaused:(AVSession *)<em>session</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionResumed:" title="onSessionResumed:"></a>
+	<h3 class="subsubtitle method-title">onSessionResumed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionResumed:(AVSession *)<em>seesion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionStatusOffline:peers:" title="onSessionStatusOffline:peers:"></a>
+	<h3 class="subsubtitle method-title">onSessionStatusOffline:peers:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionStatusOffline:(AVSession *)<em>session</em> peers:(NSArray *)<em>peerId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSessionStatusOnline:peers:" title="onSessionStatusOnline:peers:"></a>
+	<h3 class="subsubtitle method-title">onSessionStatusOnline:peers:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSessionStatusOnline:(AVSession *)<em>session</em> peers:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session:didReceiveMessage:" title="session:didReceiveMessage:"></a>
+	<h3 class="subsubtitle method-title">session:didReceiveMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> didReceiveMessage:(AVMessage *)<em>message</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session:didReceiveStatus:peerIds:" title="session:didReceiveStatus:peerIds:"></a>
+	<h3 class="subsubtitle method-title">session:didReceiveStatus:peerIds:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> didReceiveStatus:(AVPeerStatus)<em>status</em> peerIds:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session:messageArrived:" title="session:messageArrived:"></a>
+	<h3 class="subsubtitle method-title">session:messageArrived:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>消息到达接收方，需要消息设置requestReceipt为YES，默认为NO
+回调表示消息已经发送到接收方</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageArrived:(AVMessage *)<em>message</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息到达接收方，需要消息设置requestReceipt为YES，默认为NO
+回调表示消息已经发送到接收方</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSession.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session:messageSendFailed:error:" title="session:messageSendFailed:error:"></a>
+	<h3 class="subsubtitle method-title">session:messageSendFailed:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>消息发送失败
+回调表示消息长时间没得到服务器确认或网络故障</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageSendFailed:(AVMessage *)<em>message</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息发送失败
+回调表示消息长时间没得到服务器确认或网络故障</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSession.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session:messageSendFinished:" title="session:messageSendFinished:"></a>
+	<h3 class="subsubtitle method-title">session:messageSendFinished:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>消息发送成功
+回调表示消息已经成功发送到服务器</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)session:(AVSession *)<em>session</em> messageSendFinished:(AVMessage *)<em>message</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息发送成功
+回调表示消息已经成功发送到服务器</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSession.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sessionFailed:error:" title="sessionFailed:error:"></a>
+	<h3 class="subsubtitle method-title">sessionFailed:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sessionFailed:(AVSession *)<em>session</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sessionOpened:" title="sessionOpened:"></a>
+	<h3 class="subsubtitle method-title">sessionOpened:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sessionOpened:(AVSession *)<em>session</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sessionPaused:" title="sessionPaused:"></a>
+	<h3 class="subsubtitle method-title">sessionPaused:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sessionPaused:(AVSession *)<em>session</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sessionResumed:" title="sessionResumed:"></a>
+	<h3 class="subsubtitle method-title">sessionResumed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sessionResumed:(AVSession *)<em>session</em></code></div>
+
+    
+</div>
 						
 					</div>
 					
 					
-
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>
