@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class LeanCloud\GeoPoint</title>
+	<title>Class LeanCloud\BatchRequestError</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -44,7 +44,7 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
-				<li class="active"><a href="class-LeanCloud.GeoPoint.html">GeoPoint</a></li>
+				<li><a href="class-LeanCloud.GeoPoint.html">GeoPoint</a></li>
 				<li><a href="class-LeanCloud.LeanACL.html">LeanACL</a></li>
 				<li><a href="class-LeanCloud.LeanBytes.html">LeanBytes</a></li>
 				<li><a href="class-LeanCloud.LeanClient.html">LeanClient</a></li>
@@ -62,7 +62,7 @@
 
 			<h3>Exceptions</h3>
 			<ul>
-				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
+				<li class="active"><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
 				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
@@ -99,17 +99,38 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class GeoPoint</h1>
+	<h1>Class BatchRequestError</h1>
 
 
 	<div class="description">
-	<p>GeoPoint type representation</p>
+	<p>BatchRequestError</p>
 
-<p>It represents a geographic point, and supports computing geo
-distance from point to point. It can also be used in LeanQuery to
-build proximity-based queries.</p>
+<p>A BatchRequestError object consists of zero or more request and
+response errors.</p>
 	</div>
 
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Exception
+			 implements 
+<span>Throwable</span>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+			<a href="class-LeanCloud.CloudException.html"><span>LeanCloud\CloudException</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>LeanCloud\BatchRequestError</span></b>			
+			
+			
+		</dd>
+	</dl>
 
 
 
@@ -124,9 +145,7 @@ build proximity-based queries.</p>
 		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
 		
 
-				<b>See:</b>
-				<code><a href="class-LeanCloud.LeanQuery.html">LeanCloud\LeanQuery</a></code><br>
-			<b>Located at</b> <a href="source-class-LeanCloud.GeoPoint.html#5-106" title="Go to source code">LeanCloud/GeoPoint.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.BatchRequestError.html#4-84" title="Go to source code">LeanCloud/BatchRequestError.php</a>
 		<br>
 	</div>
 
@@ -146,61 +165,56 @@ build proximity-based queries.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#25-41" title="Go to source code">__construct</a>( <span>number <var>$latitude</var> = <span class="php-num">0.0</span></span>, <span>number <var>$longitude</var> = <span class="php-num">0.0</span></span> )</code>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#20-23" title="Go to source code">__construct</a>( <span> <var>$message</var> = <span class="php-quote">&quot;&quot;</span></span>, <span> <var>$code</var> = <span class="php-num">1</span></span> )</code>
 
 		<div class="description short">
-			<p>Initialize a geo point</p>
+			
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Initialize a geo point</p>
+			
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$latitude</var></dt>
-					<dd></dd>
-					<dt><var>$longitude</var></dt>
-					<dd></dd>
-				</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					InvalidArgumentException
-				</div>
 
 
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-LeanCloud.CloudException.html#___construct">LeanCloud\CloudException::__construct()</a></code></div>
 
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="getLatitude" id="_getLatitude">
+	<tr data-order="add" id="_add">
 
 		<td class="attributes"><code>
 			 public 
 
-			number
+			<code><a href="class-LeanCloud.BatchRequestError.html">LeanCloud\BatchRequestError</a></code>
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_getLatitude">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#43-48" title="Go to source code">getLatitude</a>( )</code>
+		<a class="anchor" href="#_add">#</a>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#25-44" title="Go to source code">add</a>( <span> <var>$request</var></span>, <span> <var>$response</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Add failed request and its error response</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Add failed request and its error response</p>
+
+<p>Both request and response are expected to be array. The response
+array must contain an <code>error</code> message, while the request should
+contain <code>method</code> and <code>path</code>.</p>
 
 
 
 				<h4>Returns</h4>
 				<div class="list">
-					number
+					<code><a href="class-LeanCloud.BatchRequestError.html">LeanCloud\BatchRequestError</a></code>
 				</div>
 
 
@@ -209,32 +223,32 @@ build proximity-based queries.</p>
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="getLongitude" id="_getLongitude">
+	<tr data-order="getAll" id="_getAll">
 
 		<td class="attributes"><code>
 			 public 
 
-			number
+			array
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_getLongitude">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#50-55" title="Go to source code">getLongitude</a>( )</code>
+		<a class="anchor" href="#_getAll">#</a>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#46-53" title="Go to source code">getAll</a>( )</code>
 
 		<div class="description short">
-			
+			<p>Get all error response</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Get all error response</p>
 
 
 
 				<h4>Returns</h4>
 				<div class="list">
-					number
+					array
 				</div>
 
 
@@ -243,37 +257,36 @@ build proximity-based queries.</p>
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="radiansTo" id="_radiansTo">
+	<tr data-order="getFirst" id="_getFirst">
 
 		<td class="attributes"><code>
 			 public 
 
-			number
+			array|null
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_radiansTo">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#57-77" title="Go to source code">radiansTo</a>( <span><code><a href="class-LeanCloud.GeoPoint.html">LeanCloud\GeoPoint</a></code> <var>$point</var></span> )</code>
+		<a class="anchor" href="#_getFirst">#</a>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#55-66" title="Go to source code">getFirst</a>( )</code>
 
 		<div class="description short">
-			<p>Compute distance (in radians) to a geo point</p>
+			<p>Get first error response as map</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Compute distance (in radians) to a geo point</p>
+			<p>Get first error response as map</p>
+
+<p>Returns associative array of following format:</p>
+
+<p><code>{"code": 101, "error": "error message", "request": {...}}</code></p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$point</var></dt>
-					<dd>Other geo point</dd>
-				</dl></div>
 
 				<h4>Returns</h4>
 				<div class="list">
-					number
+					array|null
 				</div>
 
 
@@ -282,37 +295,32 @@ build proximity-based queries.</p>
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="kilometersTo" id="_kilometersTo">
+	<tr data-order="isEmpty" id="_isEmpty">
 
 		<td class="attributes"><code>
 			 public 
 
-			number
+			boolean
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_kilometersTo">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#79-87" title="Go to source code">kilometersTo</a>( <span><code><a href="class-LeanCloud.GeoPoint.html">LeanCloud\GeoPoint</a></code> <var>$point</var></span> )</code>
+		<a class="anchor" href="#_isEmpty">#</a>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#68-75" title="Go to source code">isEmpty</a>( )</code>
 
 		<div class="description short">
-			<p>Compute distance (in kilometers) to other geo point</p>
+			<p>Contains error response or not</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Compute distance (in kilometers) to other geo point</p>
+			<p>Contains error response or not</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$point</var></dt>
-					<dd>Other geo point</dd>
-				</dl></div>
 
 				<h4>Returns</h4>
 				<div class="list">
-					number
+					boolean
 				</div>
 
 
@@ -321,46 +329,7 @@ build proximity-based queries.</p>
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="milesTo" id="_milesTo">
-
-		<td class="attributes"><code>
-			 public 
-
-			number
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_milesTo">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#89-97" title="Go to source code">milesTo</a>( <span><code><a href="class-LeanCloud.GeoPoint.html">LeanCloud\GeoPoint</a></code> <var>$point</var></span> )</code>
-
-		<div class="description short">
-			<p>Compute distance (in miles) to other geo point</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Compute distance (in miles) to other geo point</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$point</var></dt>
-					<dd>Other geo point</dd>
-				</dl></div>
-
-				<h4>Returns</h4>
-				<div class="list">
-					number
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="encode" id="_encode">
+	<tr data-order="__toString" id="___toString">
 
 		<td class="attributes"><code>
 			 public 
@@ -371,8 +340,8 @@ build proximity-based queries.</p>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_encode">#</a>
-		<code><a href="source-class-LeanCloud.GeoPoint.html#99-105" title="Go to source code">encode</a>( )</code>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-LeanCloud.BatchRequestError.html#77-83" title="Go to source code">__toString</a>( )</code>
 
 		<div class="description short">
 			
@@ -386,9 +355,27 @@ build proximity-based queries.</p>
 
 
 
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-LeanCloud.CloudException.html#___toString">LeanCloud\CloudException::__toString()</a></code></div>
 
 		</div>
 		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from Exception</caption>
+	<tr>
+		<td><code>
+__wakeup(), 
+getCode(), 
+getFile(), 
+getLine(), 
+getMessage(), 
+getPrevious(), 
+getTrace(), 
+getTraceAsString()
+		</code></td>
 	</tr>
 	</table>
 
@@ -403,7 +390,17 @@ build proximity-based queries.</p>
 
 
 
-
+	<table class="summary inherited">
+	<caption>Properties inherited from Exception</caption>
+	<tr>
+		<td><code>
+<var>$code</var>, 
+<var>$file</var>, 
+<var>$line</var>, 
+<var>$message</var>
+		</code></td>
+	</tr>
+	</table>
 
 
 

@@ -62,6 +62,7 @@
 
 			<h3>Exceptions</h3>
 			<ul>
+				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
 				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
@@ -155,7 +156,7 @@ fetched by</p>
 		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-LeanCloud.LeanUser.html#9-466" title="Go to source code">LeanCloud/LeanUser.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.LeanUser.html#9-484" title="Go to source code">LeanCloud/LeanUser.php</a>
 		<br>
 	</div>
 
@@ -796,6 +797,47 @@ if given token is null.</p>
 		</div>
 		</div></td>
 	</tr>
+	<tr data-order="logInWithMobilePhoneNumber" id="_logInWithMobilePhoneNumber">
+
+		<td class="attributes"><code>
+			 public static
+
+			<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logInWithMobilePhoneNumber">#</a>
+		<code><a href="source-class-LeanCloud.LeanUser.html#287-302" title="Go to source code">logInWithMobilePhoneNumber</a>( <span>string <var>$phoneNumber</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			<p>Log-in user by mobile phone and password</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Log-in user by mobile phone and password</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$phoneNumber</var></dt>
+					<dd></dd>
+					<dt><var>$password</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
 	<tr data-order="logInWithSmsCode" id="_logInWithSmsCode">
 
 		<td class="attributes"><code>
@@ -808,7 +850,7 @@ if given token is null.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_logInWithSmsCode">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#287-304" title="Go to source code">logInWithSmsCode</a>( <span>string <var>$phoneNumber</var></span>, <span>string <var>$smsCode</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#304-322" title="Go to source code">logInWithSmsCode</a>( <span>string <var>$phoneNumber</var></span>, <span>string <var>$smsCode</var></span> )</code>
 
 		<div class="description short">
 			<p>Log-in user by mobile phone and SMS code.</p>
@@ -852,7 +894,7 @@ if given token is null.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_requestLoginSmsCode">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#306-317" title="Go to source code">requestLoginSmsCode</a>( <span>string <var>$phoneNumber</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#324-335" title="Go to source code">requestLoginSmsCode</a>( <span>string <var>$phoneNumber</var></span> )</code>
 
 		<div class="description short">
 			<p>Request login SMS code</p>
@@ -890,7 +932,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_requestEmailVerify">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#319-328" title="Go to source code">requestEmailVerify</a>( <span>string <var>$email</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#337-346" title="Go to source code">requestEmailVerify</a>( <span>string <var>$email</var></span> )</code>
 
 		<div class="description short">
 			<p>Request email verify</p>
@@ -927,7 +969,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_requestPasswordReset">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#330-337" title="Go to source code">requestPasswordReset</a>( <span>string <var>$email</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#348-355" title="Go to source code">requestPasswordReset</a>( <span>string <var>$email</var></span> )</code>
 
 		<div class="description short">
 			<p>Request password reset by email</p>
@@ -962,7 +1004,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_requestPasswordResetBySmsCode">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#339-349" title="Go to source code">requestPasswordResetBySmsCode</a>( <span>string <var>$phoneNumber</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#357-367" title="Go to source code">requestPasswordResetBySmsCode</a>( <span>string <var>$phoneNumber</var></span> )</code>
 
 		<div class="description short">
 			<p>Request password reset by SMS</p>
@@ -999,7 +1041,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_resetPasswordBySmsCode">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#351-360" title="Go to source code">resetPasswordBySmsCode</a>( <span>string <var>$smsCode</var></span>, <span>string <var>$newPassword</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#369-378" title="Go to source code">resetPasswordBySmsCode</a>( <span>string <var>$smsCode</var></span>, <span>string <var>$newPassword</var></span> )</code>
 
 		<div class="description short">
 			<p>Reset password by SMS code.</p>
@@ -1036,7 +1078,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_requestMobilePhoneVerify">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#362-372" title="Go to source code">requestMobilePhoneVerify</a>( <span>string <var>$phoneNumber</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#380-390" title="Go to source code">requestMobilePhoneVerify</a>( <span>string <var>$phoneNumber</var></span> )</code>
 
 		<div class="description short">
 			<p>Request mobile phone verify.</p>
@@ -1073,7 +1115,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_verifyMobilePhone">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#374-381" title="Go to source code">verifyMobilePhone</a>( <span>string <var>$smsCode</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#392-399" title="Go to source code">verifyMobilePhone</a>( <span>string <var>$smsCode</var></span> )</code>
 
 		<div class="description short">
 			<p>Verify mobile phone by SMS code</p>
@@ -1108,7 +1150,7 @@ for login then.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_logInWith">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#400-417" title="Go to source code">logInWith</a>( <span>string <var>$provider</var></span>, <span>array <var>$authToken</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#418-435" title="Go to source code">logInWith</a>( <span>string <var>$provider</var></span>, <span>array <var>$authToken</var></span> )</code>
 
 		<div class="description short">
 			<p>Log-in with 3rd party auth data</p>
@@ -1154,7 +1196,7 @@ current user.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_linkWith">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#419-440" title="Go to source code">linkWith</a>( <span>string <var>$provider</var></span>, <span>array <var>$authToken</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#437-458" title="Go to source code">linkWith</a>( <span>string <var>$provider</var></span>, <span>array <var>$authToken</var></span> )</code>
 
 		<div class="description short">
 			<p>Link user with 3rd party provider</p>
@@ -1195,7 +1237,7 @@ current user.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_unlinkWith">#</a>
-		<code><a href="source-class-LeanCloud.LeanUser.html#442-464" title="Go to source code">unlinkWith</a>( <span>string <var>$provider</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanUser.html#460-482" title="Go to source code">unlinkWith</a>( <span>string <var>$provider</var></span> )</code>
 
 		<div class="description short">
 			<p>Unlink user with a provider</p>
@@ -1337,7 +1379,7 @@ current user.</p>
 	</div>
 </div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?f1dd8977297ee7abb6b1e4bb4c9bcea5316d1f9c"></script>
+<script src="elementlist.js?5eafcb7e3c897c08b644726a47bc075952de7e1d"></script>
 </body>
 </html>

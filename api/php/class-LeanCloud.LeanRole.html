@@ -62,6 +62,7 @@
 
 			<h3>Exceptions</h3>
 			<ul>
+				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
 				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
@@ -147,7 +148,7 @@ removed.</p>
 
 				<b>See:</b>
 				<code><a href="class-LeanCloud.LeanACL.html">LeanCloud\LeanACL</a></code>, <code><a href="class-LeanCloud.LeanRelation.html">LeanCloud\LeanRelation</a></code><br>
-			<b>Located at</b> <a href="source-class-LeanCloud.LeanRole.html#4-69" title="Go to source code">LeanCloud/LeanRole.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.LeanRole.html#4-67" title="Go to source code">LeanCloud/LeanRole.php</a>
 		<br>
 	</div>
 
@@ -155,48 +156,39 @@ removed.</p>
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+	<tr data-order="setName" id="_setName">
 
 		<td class="attributes"><code>
 			 public 
 
-			
+			<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code>
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.LeanRole.html#28-41" title="Go to source code">__construct</a>( <span>string <var>$name</var></span>, <span><code><a href="class-LeanCloud.LeanACL.html">LeanCloud\LeanACL</a></code> <var>$acl</var></span> )</code>
+		<a class="anchor" href="#_setName">#</a>
+		<code><a href="source-class-LeanCloud.LeanRole.html#28-39" title="Go to source code">setName</a>( <span> <var>$name</var></span> )</code>
 
 		<div class="description short">
-			<p>Initialize a role</p>
+			<p>Set name of role</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Initialize a role</p>
+			<p>Set name of role</p>
 
 <p>The name can contain only alphanumeric characters, _, -, and
 space. It cannot be changed after being saved.</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$name</var></dt>
-					<dd>The name of role</dd>
-					<dt><var>$acl</var></dt>
-					<dd>The ACL specifies who can change <strong>this role</strong></dd>
-				</dl></div>
 
-
-				<h4>Throws</h4>
+				<h4>Returns</h4>
 				<div class="list">
-					InvalidArgumentException
+					<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code>
 				</div>
 
 
-				<h4>Overrides</h4>
-				<div class="list"><code><a href="class-LeanCloud.LeanObject.html#___construct">LeanCloud\LeanObject::__construct()</a></code></div>
+
 
 		</div>
 		</div></td>
@@ -213,7 +205,7 @@ space. It cannot be changed after being saved.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getName">#</a>
-		<code><a href="source-class-LeanCloud.LeanRole.html#43-50" title="Go to source code">getName</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanRole.html#41-48" title="Go to source code">getName</a>( )</code>
 
 		<div class="description short">
 			<p>Get name of role</p>
@@ -247,7 +239,7 @@ space. It cannot be changed after being saved.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getUsers">#</a>
-		<code><a href="source-class-LeanCloud.LeanRole.html#52-59" title="Go to source code">getUsers</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanRole.html#50-57" title="Go to source code">getUsers</a>( )</code>
 
 		<div class="description short">
 			<p>Get a relation of users that belongs to this role</p>
@@ -281,7 +273,7 @@ space. It cannot be changed after being saved.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getRoles">#</a>
-		<code><a href="source-class-LeanCloud.LeanRole.html#61-68" title="Go to source code">getRoles</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanRole.html#59-66" title="Go to source code">getRoles</a>( )</code>
 
 		<div class="description short">
 			<p>Get a relation of roles that belongs to this role</p>
@@ -309,6 +301,7 @@ space. It cannot be changed after being saved.</p>
 	<caption>Methods inherited from <a href="class-LeanCloud.LeanObject.html#methods">LeanCloud\LeanObject</a></caption>
 	<tr>
 		<td><code>
+			<a href="class-LeanCloud.LeanObject.html#___construct">__construct()</a>, 
 			<a href="class-LeanCloud.LeanObject.html#_addIn">addIn()</a>, 
 			<a href="class-LeanCloud.LeanObject.html#_addUniqueIn">addUniqueIn()</a>, 
 			<a href="class-LeanCloud.LeanObject.html#_create">create()</a>, 
@@ -393,7 +386,7 @@ space. It cannot be changed after being saved.</p>
 	</div>
 </div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?f1dd8977297ee7abb6b1e4bb4c9bcea5316d1f9c"></script>
+<script src="elementlist.js?5eafcb7e3c897c08b644726a47bc075952de7e1d"></script>
 </body>
 </html>
