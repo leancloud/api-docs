@@ -25,6 +25,11 @@
 
 						<ul>
 				<li>
+					<a href="namespace-LeanCloud.Engine.html">
+						Engine					</a>
+
+						</li>
+				<li>
 					<a href="namespace-LeanCloud.Operation.html">
 						Operation					</a>
 
@@ -62,6 +67,7 @@
 
 			<h3>Exceptions</h3>
 			<ul>
+				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
 				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
@@ -126,7 +132,7 @@ in an ACL.</p>
 
 				<b>See:</b>
 				<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code><br>
-			<b>Located at</b> <a href="source-class-LeanCloud.LeanACL.html#4-304" title="Go to source code">LeanCloud/LeanACL.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.LeanACL.html#4-310" title="Go to source code">LeanCloud/LeanACL.php</a>
 		<br>
 	</div>
 
@@ -146,7 +152,7 @@ in an ACL.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#27-56" title="Go to source code">__construct</a>( <span>mixed <var>$val</var> = <span class="php-keyword1">null</span></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#27-58" title="Go to source code">__construct</a>( <span>mixed <var>$val</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			<p>Initialize an ACL object</p>
@@ -158,6 +164,8 @@ in an ACL.</p>
 <p>It accepts user, or JSON encoded ACL data. In the former, the
 user will be granted both read and write access. While the
 latter will be interpretted as JSON encoded array.</p>
+
+<p>With empty param, it creates an ACL with no permission granted.</p>
 
 
 				<h4>Parameters</h4>
@@ -185,7 +193,7 @@ latter will be interpretted as JSON encoded array.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getPublicReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#106-113" title="Go to source code">getPublicReadAccess</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#108-115" title="Go to source code">getPublicReadAccess</a>( )</code>
 
 		<div class="description short">
 			<p>Get whether public is allowed to read</p>
@@ -219,7 +227,7 @@ latter will be interpretted as JSON encoded array.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getPublicWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#115-122" title="Go to source code">getPublicWriteAccess</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#117-124" title="Go to source code">getPublicWriteAccess</a>( )</code>
 
 		<div class="description short">
 			<p>Get whether public is allowed to write</p>
@@ -253,7 +261,7 @@ latter will be interpretted as JSON encoded array.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setPublicReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#124-133" title="Go to source code">setPublicReadAccess</a>( <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#126-135" title="Go to source code">setPublicReadAccess</a>( <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set read access for public</p>
@@ -292,7 +300,7 @@ latter will be interpretted as JSON encoded array.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setPublicWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#135-144" title="Go to source code">setPublicWriteAccess</a>( <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#137-146" title="Go to source code">setPublicWriteAccess</a>( <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set write access for public</p>
@@ -331,7 +339,7 @@ latter will be interpretted as JSON encoded array.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getRoleReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#146-160" title="Go to source code">getRoleReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#148-162" title="Go to source code">getRoleReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span> )</code>
 
 		<div class="description short">
 			<p>Get explicit read access for role</p>
@@ -373,7 +381,7 @@ object if object is accessible to public.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getRoleWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#162-176" title="Go to source code">getRoleWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#164-178" title="Go to source code">getRoleWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span> )</code>
 
 		<div class="description short">
 			<p>Get explicit write access for role</p>
@@ -415,7 +423,7 @@ object if object is accessible to public.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setRoleReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#178-195" title="Go to source code">setRoleReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span>, <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#180-197" title="Go to source code">setRoleReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span>, <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set read access for role</p>
@@ -456,7 +464,7 @@ object if object is accessible to public.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setRoleWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#197-214" title="Go to source code">setRoleWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span>, <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#199-216" title="Go to source code">setRoleWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanRole.html">LeanCloud\LeanRole</a></code> <var>$role</var></span>, <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set write access for role</p>
@@ -497,7 +505,7 @@ object if object is accessible to public.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#216-231" title="Go to source code">getReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#218-233" title="Go to source code">getReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span> )</code>
 
 		<div class="description short">
 			<p>Get explicit read access for user</p>
@@ -540,7 +548,7 @@ belongs to.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#233-248" title="Go to source code">getWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#235-250" title="Go to source code">getWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span> )</code>
 
 		<div class="description short">
 			<p>Get explicit write access for user</p>
@@ -583,7 +591,7 @@ belongs to.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setReadAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#250-271" title="Go to source code">setReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span>, <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#252-273" title="Go to source code">setReadAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span>, <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set read access for user</p>
@@ -624,7 +632,7 @@ belongs to.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setWriteAccess">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#273-294" title="Go to source code">setWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span>, <span>boolean <var>$flag</var></span> )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#275-296" title="Go to source code">setWriteAccess</a>( <span>string|<code><a href="class-LeanCloud.LeanUser.html">LeanCloud\LeanUser</a></code> <var>$user</var></span>, <span>boolean <var>$flag</var></span> )</code>
 
 		<div class="description short">
 			<p>Set write access for user</p>
@@ -658,14 +666,14 @@ belongs to.</p>
 		<td class="attributes"><code>
 			 public 
 
-			array
+			array|object
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_encode">#</a>
-		<code><a href="source-class-LeanCloud.LeanACL.html#296-303" title="Go to source code">encode</a>( )</code>
+		<code><a href="source-class-LeanCloud.LeanACL.html#298-309" title="Go to source code">encode</a>( )</code>
 
 		<div class="description short">
 			<p>Encode to JSON representation</p>
@@ -674,11 +682,15 @@ belongs to.</p>
 		<div class="description detailed hidden">
 			<p>Encode to JSON representation</p>
 
+<p>It returns an associative array, or an empty object if
+empty. The latter is a workaround as we need to json encode
+empty ACL as json object, instead of array.</p>
+
 
 
 				<h4>Returns</h4>
 				<div class="list">
-					array
+					array|object
 				</div>
 
 
