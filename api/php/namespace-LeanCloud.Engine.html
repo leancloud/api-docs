@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Namespace LeanCloud\Storage</title>
+	<title>Namespace LeanCloud\Engine</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -24,7 +24,7 @@
 					</a>
 
 						<ul>
-				<li>
+				<li class="active">
 					<a href="namespace-LeanCloud.Engine.html">
 						Engine					</a>
 
@@ -34,7 +34,7 @@
 						Operation					</a>
 
 						</li>
-				<li class="active">
+				<li>
 					<a href="namespace-LeanCloud.Storage.html">
 						Storage					</a>
 
@@ -49,16 +49,18 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
-				<li><a href="class-LeanCloud.Storage.CookieStorage.html">CookieStorage</a></li>
-				<li><a href="class-LeanCloud.Storage.SessionStorage.html">SessionStorage</a></li>
+				<li><a href="class-LeanCloud.Engine.Cloud.html">Cloud</a></li>
+				<li><a href="class-LeanCloud.Engine.LaravelEngine.html">LaravelEngine</a></li>
+				<li><a href="class-LeanCloud.Engine.LeanEngine.html">LeanEngine</a></li>
+				<li><a href="class-LeanCloud.Engine.SlimEngine.html">SlimEngine</a></li>
 			</ul>
 
-			<h3>Interfaces</h3>
+
+
+			<h3>Exceptions</h3>
 			<ul>
-				<li><a href="class-LeanCloud.Storage.IStorage.html">IStorage</a></li>
+				<li><a href="class-LeanCloud.Engine.FunctionError.html">FunctionError</a></li>
 			</ul>
-
-
 
 
 		</div>
@@ -92,31 +94,39 @@
 	</div>
 
 <div id="content" class="namespace">
-	<h1>Namespace <a href="namespace-LeanCloud.html">LeanCloud</a>\Storage</h1>
+	<h1>Namespace <a href="namespace-LeanCloud.html">LeanCloud</a>\Engine</h1>
 
 
 
 <table class="summary" id="classes">
 <caption>Classes summary</caption>
 <tr>
-	<td class="name"><a href="class-LeanCloud.Storage.CookieStorage.html">CookieStorage</a></td>
-	<td>Cookie Storage</td>
+	<td class="name"><a href="class-LeanCloud.Engine.Cloud.html">Cloud</a></td>
+	<td>Cloud functions and hooks repository</td>
 </tr>
 <tr>
-	<td class="name"><a href="class-LeanCloud.Storage.SessionStorage.html">SessionStorage</a></td>
-	<td>Session Based Storage</td>
+	<td class="name"><a href="class-LeanCloud.Engine.LaravelEngine.html">LaravelEngine</a></td>
+	<td>LeanEngine as Laravel middleware</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-LeanCloud.Engine.LeanEngine.html">LeanEngine</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td class="name"><a href="class-LeanCloud.Engine.SlimEngine.html">SlimEngine</a></td>
+	<td>LeanEngine as Slim middleware</td>
 </tr>
 </table>
 
-<table class="summary" id="interfaces">
-<caption>Interfaces summary</caption>
+
+
+<table class="summary" id="exceptions">
+<caption>Exceptions summary</caption>
 <tr>
-	<td class="name"><a href="class-LeanCloud.Storage.IStorage.html">IStorage</a></td>
-	<td>Storage Interface</td>
+	<td class="name"><a href="class-LeanCloud.Engine.FunctionError.html">FunctionError</a></td>
+	<td>Error thrown when invoking function error</td>
 </tr>
 </table>
-
-
 
 
 </div>
