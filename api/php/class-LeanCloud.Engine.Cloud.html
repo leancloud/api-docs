@@ -39,6 +39,11 @@
 						Storage					</a>
 
 						</li>
+				<li>
+					<a href="namespace-LeanCloud.Uploader.html">
+						Uploader					</a>
+
+						</li>
 							</ul></li>
 			</ul>
 		</div>
@@ -615,7 +620,7 @@ could be thrown in the $func, which will reject the user for login.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_run">#</a>
-		<code><a href="source-class-LeanCloud.Engine.Cloud.html#232-257" title="Go to source code">run</a>( <span>string <var>$funcName</var></span>, <span>array <var>$params</var></span>, <span>LeanUser <var>$user</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-LeanCloud.Engine.Cloud.html#232-257" title="Go to source code">run</a>( <span>string <var>$funcName</var></span>, <span>array <var>$params</var></span>, <span>User <var>$user</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			<p>Run cloud function</p>
@@ -674,7 +679,7 @@ could be thrown in the $func, which will reject the user for login.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_runHook">#</a>
-		<code><a href="source-class-LeanCloud.Engine.Cloud.html#259-288" title="Go to source code">runHook</a>( <span>string <var>$className</var></span>, <span>string <var>$hookName</var></span>, <span>LeanObject <var>$object</var></span>, <span>LeanUser <var>$user</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-LeanCloud.Engine.Cloud.html#259-288" title="Go to source code">runHook</a>( <span>string <var>$className</var></span>, <span>string <var>$hookName</var></span>, <span>Object <var>$object</var></span>, <span>User <var>$user</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			<p>Run cloud hook</p>
@@ -731,7 +736,7 @@ could be thrown in the $func, which will reject the user for login.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_runOnLogin">#</a>
-		<code><a href="source-class-LeanCloud.Engine.Cloud.html#290-301" title="Go to source code">runOnLogin</a>( <span>LeanUser <var>$user</var></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-LeanCloud.Engine.Cloud.html#290-301" title="Go to source code">runOnLogin</a>( <span>User <var>$user</var></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			<p>Run hook when a user logs in</p>
@@ -777,7 +782,7 @@ could be thrown in the $func, which will reject the user for login.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_runOnVerified">#</a>
-		<code><a href="source-class-LeanCloud.Engine.Cloud.html#303-321" title="Go to source code">runOnVerified</a>( <span>string <var>$type</var></span>, <span>LeanUser <var>$user</var></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-LeanCloud.Engine.Cloud.html#303-321" title="Go to source code">runOnVerified</a>( <span>string <var>$type</var></span>, <span>User <var>$user</var></span>, <span>array <var>$meta</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			<p>Run hook when user verified by Email or SMS</p>
