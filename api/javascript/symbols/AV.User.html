@@ -213,19 +213,13 @@ ul.inheritsList
 	
 	<li><a href="../symbols/AV.Cloud.FunctionResponse.html">AV.Cloud.FunctionResponse</a></li>
 	
-	<li><a href="../symbols/AV.Collection.html">AV.Collection</a></li>
-	
 	<li><a href="../symbols/AV.Error.html">AV.Error</a></li>
 	
 	<li><a href="../symbols/AV.Events.html">AV.Events</a></li>
 	
-	<li><a href="../symbols/AV.FacebookUtils.html">AV.FacebookUtils</a></li>
-	
 	<li><a href="../symbols/AV.File.html">AV.File</a></li>
 	
 	<li><a href="../symbols/AV.GeoPoint.html">AV.GeoPoint</a></li>
-	
-	<li><a href="../symbols/AV.History.html">AV.History</a></li>
 	
 	<li><a href="../symbols/AV.InboxQuery.html">AV.InboxQuery</a></li>
 	
@@ -259,8 +253,6 @@ ul.inheritsList
 	
 	<li><a href="../symbols/AV.Role.html">AV.Role</a></li>
 	
-	<li><a href="../symbols/AV.Router.html">AV.Router</a></li>
-	
 	<li><a href="../symbols/AV.SearchQuery.html">AV.SearchQuery</a></li>
 	
 	<li><a href="../symbols/AV.SearchSortBuilder.html">AV.SearchSortBuilder</a></li>
@@ -268,8 +260,6 @@ ul.inheritsList
 	<li><a href="../symbols/AV.Status.html">AV.Status</a></li>
 	
 	<li><a href="../symbols/AV.User.html">AV.User</a></li>
-	
-	<li><a href="../symbols/AV.View.html">AV.View</a></li>
 	
 	<li><a href="../symbols/avosExpressCookieSession.html">avosExpressCookieSession</a></li>
 	
@@ -373,9 +363,19 @@ either from memory or localStorage, if necessary.</div>
 						</tr>
 					
 						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.currentAsync">currentAsync</a></b>()
+								</div>
+								<div class="description">Retrieves the currently logged in AVUser with a valid session,
+either from memory or localStorage, if necessary.</div>
+							</td>
+						</tr>
+					
+						<tr>
 							<td class="attributes">&nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont"><b><a href="../symbols/AV.User.html#fetch">fetch</a></b>(options)
+								<div class="fixedFont"><b><a href="../symbols/AV.User.html#fetch">fetch</a></b>(fetchOptions, options)
 								</div>
 								<div class="description"></div>
 							</td>
@@ -391,15 +391,6 @@ either from memory or localStorage, if necessary.</div>
 						</tr>
 					
 						<tr>
-							<td class="attributes">&nbsp;</td>
-							<td class="nameDescription">
-								<div class="fixedFont"><b><a href="../symbols/AV.User.html#followeeQuery">followeeQuery</a></b>()
-								</div>
-								<div class="description">Create a followee query to query the user's followees.</div>
-							</td>
-						</tr>
-					
-						<tr>
 							<td class="attributes">&lt;static&gt; &nbsp;</td>
 							<td class="nameDescription">
 								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.followeeQuery">followeeQuery</a></b>(userObjectId)
@@ -411,9 +402,9 @@ either from memory or localStorage, if necessary.</div>
 						<tr>
 							<td class="attributes">&nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont"><b><a href="../symbols/AV.User.html#followerQuery">followerQuery</a></b>()
+								<div class="fixedFont"><b><a href="../symbols/AV.User.html#followeeQuery">followeeQuery</a></b>()
 								</div>
-								<div class="description">Create a follower query to query the user's followers.</div>
+								<div class="description">Create a followee query to query the user's followees.</div>
 							</td>
 						</tr>
 					
@@ -423,6 +414,15 @@ either from memory or localStorage, if necessary.</div>
 								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.followerQuery">followerQuery</a></b>(userObjectId)
 								</div>
 								<div class="description">Create a follower query for special user to query the user's followers.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/AV.User.html#followerQuery">followerQuery</a></b>()
+								</div>
+								<div class="description">Create a follower query to query the user's followers.</div>
 							</td>
 						</tr>
 					
@@ -463,20 +463,20 @@ either from memory or localStorage, if necessary.</div>
 						</tr>
 					
 						<tr>
-							<td class="attributes">&lt;static&gt; &nbsp;</td>
-							<td class="nameDescription">
-								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.logIn">logIn</a></b>(username, password, options)
-								</div>
-								<div class="description">Logs in a user with a username (or email) and password.</div>
-							</td>
-						</tr>
-					
-						<tr>
 							<td class="attributes">&nbsp;</td>
 							<td class="nameDescription">
 								<div class="fixedFont"><b><a href="../symbols/AV.User.html#logIn">logIn</a></b>(options)
 								</div>
 								<div class="description">Logs in a AV.User.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.logIn">logIn</a></b>(username, password, options)
+								</div>
+								<div class="description">Logs in a user with a username (or email) and password.</div>
 							</td>
 						</tr>
 					
@@ -638,6 +638,15 @@ number associated with the user account.</div>
 								<div class="fixedFont"><b><a href="../symbols/AV.User.html#signUp">signUp</a></b>(attrs, options)
 								</div>
 								<div class="description">Signs up a new user.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">AV.User.<b><a href="../symbols/AV.User.html#.signUpOrlogInWithAuthData">signUpOrlogInWithAuthData</a></b>(data, platform, callback)
+								</div>
+								<div class="description">Sign up or logs in a user with a third party auth data(AccessToken).</div>
 							</td>
 						</tr>
 					
@@ -854,11 +863,44 @@ either from memory or localStorage, if necessary.
 
 					<hr />
 				
+					<a name=".currentAsync"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{AV.Promise}</span>
+					<span class="light">AV.User.</span><b>currentAsync</b>()
+					
+					</div>
+					<div class="description">
+						Retrieves the currently logged in AVUser with a valid session,
+either from memory or localStorage, if necessary.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{AV.Promise}</span> resolved with the currently logged in AV.User.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
 					<a name="fetch"> </a>
 					<div class="fixedFont">
 					
 					
-					<b>fetch</b>(options)
+					<b>fetch</b>(fetchOptions, options)
 					
 					</div>
 					<div class="description">
@@ -872,6 +914,12 @@ either from memory or localStorage, if necessary.
 						
 							<dl class="detailList">
 							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>fetchOptions</b>
+									
+								</dt>
+								<dd></dd>
 							
 								<dt>
 									<b>options</b>
@@ -947,6 +995,48 @@ either from memory or localStorage, if necessary.
 
 					<hr />
 				
+					<a name=".followeeQuery"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">AV.User.</span><b>followeeQuery</b>(userObjectId)
+					
+					</div>
+					<div class="description">
+						Create a followee query for special user to query the user's followees.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>userObjectId</b>
+									
+								</dt>
+								<dd>{String} The user object id.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Since:</dt>
+								<dd>0.3.0</dd>
+							</dl>
+							</dl>
+						
+						
+						
+						
+						
+
+					<hr />
+				
 					<a name="followeeQuery"> </a>
 					<div class="fixedFont">
 					
@@ -985,15 +1075,15 @@ either from memory or localStorage, if necessary.
 
 					<hr />
 				
-					<a name=".followeeQuery"> </a>
+					<a name=".followerQuery"> </a>
 					<div class="fixedFont">&lt;static&gt; 
 					
 					
-					<span class="light">AV.User.</span><b>followeeQuery</b>(userObjectId)
+					<span class="light">AV.User.</span><b>followerQuery</b>(userObjectId)
 					
 					</div>
 					<div class="description">
-						Create a followee query for special user to query the user's followees.
+						Create a follower query for special user to query the user's followers.
 						
 						
 					</div>
@@ -1061,48 +1151,6 @@ either from memory or localStorage, if necessary.
 								<dd><a href="../symbols/AV.User.html#followerQuery">AV.User#followerQuery</a></dd>
 							
 							</dl>
-						
-
-					<hr />
-				
-					<a name=".followerQuery"> </a>
-					<div class="fixedFont">&lt;static&gt; 
-					
-					
-					<span class="light">AV.User.</span><b>followerQuery</b>(userObjectId)
-					
-					</div>
-					<div class="description">
-						Create a follower query for special user to query the user's followers.
-						
-						
-					</div>
-					
-					
-					
-						
-							<dl class="detailList">
-							<dt class="heading">Parameters:</dt>
-							
-								<dt>
-									<b>userObjectId</b>
-									
-								</dt>
-								<dd>{String} The user object id.</dd>
-							
-							</dl>
-						
-						
-						
-							<dl class="detailList">
-							<dt class="heading">Since:</dt>
-								<dd>0.3.0</dd>
-							</dl>
-							</dl>
-						
-						
-						
-						
 						
 
 					<hr />
@@ -1256,6 +1304,63 @@ either from memory or localStorage, if necessary.
 
 					<hr />
 				
+					<a name="logIn"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{AV.Promise}</span>
+					<b>logIn</b>(options)
+					
+					</div>
+					<div class="description">
+						Logs in a AV.User. On success, this saves the session to localStorage,
+so you can retrieve the currently logged in user using
+<code>current</code>.
+
+<p>A username and password must be set before calling logIn.</p>
+
+<p>Calls options.success or options.error on completion.</p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>options</b>
+									
+								</dt>
+								<dd>A Backbone-style options object.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{AV.Promise}</span> A promise that is fulfilled with the user when
+    the login is complete.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd><a href="../symbols/AV.User.html#.logIn">AV.User.logIn</a></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
 					<a name=".logIn"> </a>
 					<div class="fixedFont">&lt;static&gt; 
 					
@@ -1317,63 +1422,6 @@ user using <code>current</code>.
 							<dt class="heading">See:</dt>
 							
 								<dd><a href="../symbols/AV.User.html#logIn">AV.User#logIn</a></dd>
-							
-							</dl>
-						
-
-					<hr />
-				
-					<a name="logIn"> </a>
-					<div class="fixedFont">
-					
-					<span class="light">{AV.Promise}</span>
-					<b>logIn</b>(options)
-					
-					</div>
-					<div class="description">
-						Logs in a AV.User. On success, this saves the session to localStorage,
-so you can retrieve the currently logged in user using
-<code>current</code>.
-
-<p>A username and password must be set before calling logIn.</p>
-
-<p>Calls options.success or options.error on completion.</p>
-						
-						
-					</div>
-					
-					
-					
-						
-							<dl class="detailList">
-							<dt class="heading">Parameters:</dt>
-							
-								<dt>
-									<span class="light fixedFont">{Object}</span> <b>options</b>
-									
-								</dt>
-								<dd>A Backbone-style options object.</dd>
-							
-							</dl>
-						
-						
-						
-						
-						
-							<dl class="detailList">
-							<dt class="heading">Returns:</dt>
-							
-								<dd><span class="light fixedFont">{AV.Promise}</span> A promise that is fulfilled with the user when
-    the login is complete.</dd>
-							
-							</dl>
-						
-						
-						
-							<dl class="detailList">
-							<dt class="heading">See:</dt>
-							
-								<dd><a href="../symbols/AV.User.html#.logIn">AV.User.logIn</a></dd>
 							
 							</dl>
 						
@@ -2293,6 +2341,84 @@ also persist the session on disk so that you can access the user using
 
 					<hr />
 				
+					<a name=".signUpOrlogInWithAuthData"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{AV.Promise}</span>
+					<span class="light">AV.User.</span><b>signUpOrlogInWithAuthData</b>(data, platform, callback)
+					
+					</div>
+					<div class="description">
+						Sign up or logs in a user with a third party auth data(AccessToken).
+On success, this saves the session to disk, so you can retrieve the currently
+logged in user using <code>current</code>.
+
+<p>Calls options.success or options.error on completion.</p>
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">AV.User.signUpOrlogInWithAuthData(data, platform, {
+         success: function(user) {
+             //Access user here
+         },
+         error: function(error) {
+             //console.log("error: ", error);
+         }
+     });</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>data</b>
+									
+								</dt>
+								<dd>The response json data returned from third party token.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>platform</b>
+									
+								</dt>
+								<dd>Available platform for sign up.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>callback</b>
+									<i>Optional</i>
+								</dt>
+								<dd>An object that has an optional success function, that takes no arguments and will be called on a successful puSH. and an error function that takes a AV.Error and will be called if the push failed.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{AV.Promise}</span> A promise that is fulfilled with the user when
+    the login completes.</dd>
+							
+							</dl>
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">See:</dt>
+							
+								<dd></dd>
+							
+							</dl>
+						
+
+					<hr />
+				
 					<a name=".signUpOrlogInWithMobilePhone"> </a>
 					<div class="fixedFont">&lt;static&gt; 
 					
@@ -2598,7 +2724,7 @@ of the function.</dd>
 <!-- ============================== footer ================================= -->
 		<div class="fineprint" style="clear:both">
 			
-			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Tue Oct 27 2015 19:09:46 GMT+0800 (CST)
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Jan 27 2016 14:50:24 GMT+0800 (CST)
 		</div>
 	</body>
 </html>

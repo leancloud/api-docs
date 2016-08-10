@@ -1,1193 +1,1375 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVSearchQuery Class Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVSearchQuery Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVSearchQuery Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
-
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/cachePolicy">cachePolicy</option>
-		
-		<option value="//api/name/className">className</option>
-		
-		<option value="//api/name/fields">fields</option>
-		
-		<option value="//api/name/highlights">highlights</option>
-		
-		<option value="//api/name/hits">hits</option>
-		
-		<option value="//api/name/limit">limit</option>
-		
-		<option value="//api/name/maxCacheAge">maxCacheAge</option>
-		
-		<option value="//api/name/queryString">queryString</option>
-		
-		<option value="//api/name/sid">sid</option>
-		
-		<option value="//api/name/sortBuilder">sortBuilder</option>
-		
-	</optgroup>
 	
-
+	<option value="properties">Properties</option>
 	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/searchWithQueryString:">+ searchWithQueryString:</option>
-		
-	</optgroup>
+	<option value="//api/name/cachePolicy">&nbsp;&nbsp;&nbsp;&nbsp;cachePolicy</option>
 	
-
+	<option value="//api/name/className">&nbsp;&nbsp;&nbsp;&nbsp;className</option>
 	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/addAscendingOrder:">- addAscendingOrder:</option>
-		
-		<option value="//api/name/addDescendingOrder:">- addDescendingOrder:</option>
-		
-		<option value="//api/name/findInBackground:">- findInBackground:</option>
-		
-		<option value="//api/name/findObjects">- findObjects</option>
-		
-		<option value="//api/name/findObjects:">- findObjects:</option>
-		
-		<option value="//api/name/orderByAscending:">- orderByAscending:</option>
-		
-		<option value="//api/name/orderByDescending:">- orderByDescending:</option>
-		
-		<option value="//api/name/orderBySortDescriptor:">- orderBySortDescriptor:</option>
-		
-		<option value="//api/name/orderBySortDescriptors:">- orderBySortDescriptors:</option>
-		
-	</optgroup>
+	<option value="//api/name/fields">&nbsp;&nbsp;&nbsp;&nbsp;fields</option>
+	
+	<option value="//api/name/highlights">&nbsp;&nbsp;&nbsp;&nbsp;highlights</option>
+	
+	<option value="//api/name/hits">&nbsp;&nbsp;&nbsp;&nbsp;hits</option>
+	
+	<option value="//api/name/limit">&nbsp;&nbsp;&nbsp;&nbsp;limit</option>
+	
+	<option value="//api/name/maxCacheAge">&nbsp;&nbsp;&nbsp;&nbsp;maxCacheAge</option>
+	
+	<option value="//api/name/queryString">&nbsp;&nbsp;&nbsp;&nbsp;queryString</option>
+	
+	<option value="//api/name/sid">&nbsp;&nbsp;&nbsp;&nbsp;sid</option>
+	
+	<option value="//api/name/sortBuilder">&nbsp;&nbsp;&nbsp;&nbsp;sortBuilder</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/searchWithQueryString:">&nbsp;&nbsp;&nbsp;&nbsp;+ searchWithQueryString:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAscendingOrder:">&nbsp;&nbsp;&nbsp;&nbsp;- addAscendingOrder:</option>
+	
+	<option value="//api/name/addDescendingOrder:">&nbsp;&nbsp;&nbsp;&nbsp;- addDescendingOrder:</option>
+	
+	<option value="//api/name/findInBackground:">&nbsp;&nbsp;&nbsp;&nbsp;- findInBackground:</option>
+	
+	<option value="//api/name/findObjects">&nbsp;&nbsp;&nbsp;&nbsp;- findObjects</option>
+	
+	<option value="//api/name/findObjects:">&nbsp;&nbsp;&nbsp;&nbsp;- findObjects:</option>
+	
+	<option value="//api/name/orderByAscending:">&nbsp;&nbsp;&nbsp;&nbsp;- orderByAscending:</option>
+	
+	<option value="//api/name/orderByDescending:">&nbsp;&nbsp;&nbsp;&nbsp;- orderByDescending:</option>
+	
+	<option value="//api/name/orderBySortDescriptor:">&nbsp;&nbsp;&nbsp;&nbsp;- orderBySortDescriptor:</option>
+	
+	<option value="//api/name/orderBySortDescriptors:">&nbsp;&nbsp;&nbsp;&nbsp;- orderBySortDescriptors:</option>
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVSearchQuery Class Reference</h1>
 
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cachePolicy">cachePolicy</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/className">className</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fields">fields</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/highlights">highlights</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hits">hits</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/limit">limit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxCacheAge">maxCacheAge</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryString">queryString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sid">sid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sortBuilder">sortBuilder</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchWithQueryString:">searchWithQueryString:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAscendingOrder:">addAscendingOrder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addDescendingOrder:">addDescendingOrder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findInBackground:">findInBackground:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findObjects">findObjects</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/findObjects:">findObjects:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderByAscending:">orderByAscending:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderByDescending:">orderByDescending:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderBySortDescriptor:">orderBySortDescriptor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderBySortDescriptors:">orderBySortDescriptors:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVSearchQuery Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVSearchQuery Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVSearchQuery.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVSearchQuery.h</td>
 </tr>
 						</tbody></table></div>
 					
-
                     
-
+                    
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
 						
 
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchWithQueryString:">+&nbsp;searchWithQueryString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/className">&nbsp;&nbsp;className</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/limit">&nbsp;&nbsp;limit</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryString">&nbsp;&nbsp;queryString</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sortBuilder">&nbsp;&nbsp;sortBuilder</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hits">&nbsp;&nbsp;hits</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sid">&nbsp;&nbsp;sid</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fields">&nbsp;&nbsp;fields</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/highlights">&nbsp;&nbsp;highlights</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cachePolicy">&nbsp;&nbsp;cachePolicy</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxCacheAge">&nbsp;&nbsp;maxCacheAge</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/findObjects">&ndash;&nbsp;findObjects</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/findObjects:">&ndash;&nbsp;findObjects:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/findInBackground:">&ndash;&nbsp;findInBackground:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderByAscending:">&ndash;&nbsp;orderByAscending:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAscendingOrder:">&ndash;&nbsp;addAscendingOrder:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderByDescending:">&ndash;&nbsp;orderByDescending:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addDescendingOrder:">&ndash;&nbsp;addDescendingOrder:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderBySortDescriptor:">&ndash;&nbsp;orderBySortDescriptor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderBySortDescriptors:">&ndash;&nbsp;orderBySortDescriptors:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
 						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/searchWithQueryString:" title="searchWithQueryString:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/searchWithQueryString:">+&nbsp;searchWithQueryString:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>使用 <a href="#//api/name/queryString">queryString</a> 构造一个 AVSearchQuery 对象</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)searchWithQueryString:(NSString *)<em>queryString</em></code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>AVSearchQuery 实例</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>使用 <a href="#//api/name/queryString">queryString</a> 构造一个 AVSearchQuery 对象</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/className" title="className"></a>
-	<h3 class="method-title"><code><a href="#//api/name/className">&nbsp;&nbsp;className</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>查询的 className，默认为 nil，即包括所有启用了应用内搜索的 Class</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *className</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>查询的 className，默认为 nil，即包括所有启用了应用内搜索的 Class</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/limit" title="limit"></a>
-	<h3 class="method-title"><code><a href="#//api/name/limit">&nbsp;&nbsp;limit</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>返回集合大小上限，默认值为100，最大为1000</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger limit</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>返回集合大小上限，默认值为100，最大为1000</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/queryString" title="queryString"></a>
-	<h3 class="method-title"><code><a href="#//api/name/queryString">&nbsp;&nbsp;queryString</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>查询字符串，具体语法参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html</a>#query-string-syntax</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *queryString</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>查询字符串，具体语法参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html</a>#query-string-syntax</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sortBuilder" title="sortBuilder"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sortBuilder">&nbsp;&nbsp;sortBuilder</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>查询的AVSearchSortBuilder，使用更丰富的排序选项</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) AVSearchSortBuilder *sortBuilder</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>查询的AVSearchSortBuilder，使用更丰富的排序选项</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/hits" title="hits"></a>
-	<h3 class="method-title"><code><a href="#//api/name/hits">&nbsp;&nbsp;hits</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>符合查询条件的记录条数</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSInteger hits</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>符合查询条件的记录条数</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sid" title="sid"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sid">&nbsp;&nbsp;sid</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<ul>
-<li>当前页面的scroll id，用于分页，可选。
-
-<h1>@warning 如非特殊需求，请不要手动设置 sid。每次 <a href="#//api/name/findObjects">findObjects</a> 之后，SDK 会自动更新 sid。如果手动设置了错误的sid，将无法获取到搜索结果。</h1></li>
-<li>有关scroll id，可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html">http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html</a></li>
-</ul>
-
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *sid</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<ul>
-<li>当前页面的scroll id，用于分页，可选。
-
-<h1>@warning 如非特殊需求，请不要手动设置 sid。每次 <a href="#//api/name/findObjects">findObjects</a> 之后，SDK 会自动更新 sid。如果手动设置了错误的sid，将无法获取到搜索结果。</h1></li>
-<li>有关scroll id，可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html">http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html</a></li>
-</ul>
-
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/fields" title="fields"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fields">&nbsp;&nbsp;fields</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>查询的字段列表，可选。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *fields</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>查询的字段列表，可选。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/highlights" title="highlights"></a>
-	<h3 class="method-title"><code><a href="#//api/name/highlights">&nbsp;&nbsp;highlights</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>返回结果的高亮语法，默认为 &ldquo;*&rdquo;
-语法规则可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html</a>#highlighting-settings</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *highlights</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>返回结果的高亮语法，默认为 &ldquo;*&rdquo;
-语法规则可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html</a>#highlighting-settings</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
+						<div class="section-method">
 	<a name="//api/name/cachePolicy" title="cachePolicy"></a>
-	<h3 class="method-title"><code><a href="#//api/name/cachePolicy">&nbsp;&nbsp;cachePolicy</a></code>
-</h3>
+	<h3 class="subsubtitle method-title">cachePolicy</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>缓存策略</p>
+	</div>		
+	
+    
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>@property (readwrite, assign) AVCachePolicy cachePolicy</code></div>
 
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>缓存策略</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (readwrite, assign) AVCachePolicy cachePolicy</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>缓存策略</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>缓存策略</p>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/maxCacheAge" title="maxCacheAge"></a>
-	<h3 class="method-title"><code><a href="#//api/name/maxCacheAge">&nbsp;&nbsp;maxCacheAge</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (readwrite, assign) NSTimeInterval maxCacheAge</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/findObjects" title="findObjects"></a>
-	<h3 class="method-title"><code><a href="#//api/name/findObjects">&ndash;&nbsp;findObjects</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>根据查询条件获取结果对象</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (NSArray *)findObjects</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>AVObjects 数组</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>根据查询条件获取结果对象</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/findObjects:" title="findObjects:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/findObjects:">&ndash;&nbsp;findObjects:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>根据查询条件获取结果对象，如果有 error，则设置一个 error</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (NSArray *)findObjects:(NSError **)<em>error</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>error</code></th>
-						<td><p>指针</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>AVObjects 数组</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>根据查询条件获取结果对象，如果有 error，则设置一个 error</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/findInBackground:" title="findInBackground:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/findInBackground:">&ndash;&nbsp;findInBackground:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>异步获取搜索结果，并回调block</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)findInBackground:(AVArrayResultBlock)<em>block</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>block</code></th>
-						<td><p>需要有这样的方法签名 (NSArray <em>objects, NSError </em>error)</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>异步获取搜索结果，并回调block</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/orderByAscending:" title="orderByAscending:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/orderByAscending:">&ndash;&nbsp;orderByAscending:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>搜索结果会根据关键字，按升序排序</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)orderByAscending:(NSString *)<em>key</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>key</code></th>
-						<td><p>排序关键字</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>搜索结果会根据关键字，按升序排序</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/addAscendingOrder:" title="addAscendingOrder:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/addAscendingOrder:">&ndash;&nbsp;addAscendingOrder:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>添加一个升序排序关键字。排序优先级由添加关键字的前后顺序决定。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)addAscendingOrder:(NSString *)<em>key</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>key</code></th>
-						<td><p>排序关键字</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>添加一个升序排序关键字。排序优先级由添加关键字的前后顺序决定。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/orderByDescending:" title="orderByDescending:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/orderByDescending:">&ndash;&nbsp;orderByDescending:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>搜索结果会根据关键字，按降序排序</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)orderByDescending:(NSString *)<em>key</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>key</code></th>
-						<td><p>排序关键字</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>搜索结果会根据关键字，按降序排序</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/addDescendingOrder:" title="addDescendingOrder:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/addDescendingOrder:">&ndash;&nbsp;addDescendingOrder:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>添加一个降序排序关键字。关键字的排序优先级由添加关键字的前后顺序决定。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)addDescendingOrder:(NSString *)<em>key</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>key</code></th>
-						<td><p>排序关键字</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>添加一个降序排序关键字。关键字的排序优先级由添加关键字的前后顺序决定。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/orderBySortDescriptor:" title="orderBySortDescriptor:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/orderBySortDescriptor:">&ndash;&nbsp;orderBySortDescriptor:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>根据 NSSortDescriptor 排序搜索结果</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)orderBySortDescriptor:(NSSortDescriptor *)<em>sortDescriptor</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>sortDescriptor</code></th>
-						<td><p>排序描述符</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>根据 NSSortDescriptor 排序搜索结果</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/orderBySortDescriptors:" title="orderBySortDescriptors:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/orderBySortDescriptors:">&ndash;&nbsp;orderBySortDescriptors:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>根据 NSSortDescriptor 数组排序搜索结果</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)orderBySortDescriptors:(NSArray *)<em>sortDescriptors</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>sortDescriptors</code></th>
-						<td><p>NSSortDescriptor 数组</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>根据 NSSortDescriptor 数组排序搜索结果</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVSearchQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/className" title="className"></a>
+	<h3 class="subsubtitle method-title">className</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查询的 className，默认为 nil，即包括所有启用了应用内搜索的 Class</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *className</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查询的 className，默认为 nil，即包括所有启用了应用内搜索的 Class</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fields" title="fields"></a>
+	<h3 class="subsubtitle method-title">fields</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查询的字段列表，可选。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *fields</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查询的字段列表，可选。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/highlights" title="highlights"></a>
+	<h3 class="subsubtitle method-title">highlights</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>返回结果的高亮语法，默认为 &ldquo;*&rdquo;
+语法规则可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html</a>#highlighting-settings</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *highlights</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>返回结果的高亮语法，默认为 &ldquo;*&rdquo;
+语法规则可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-request-highlighting.html</a>#highlighting-settings</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hits" title="hits"></a>
+	<h3 class="subsubtitle method-title">hits</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>符合查询条件的记录条数</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSInteger hits</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>符合查询条件的记录条数</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/limit" title="limit"></a>
+	<h3 class="subsubtitle method-title">limit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>返回集合大小上限，默认值为100，最大为1000</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger limit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>返回集合大小上限，默认值为100，最大为1000</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxCacheAge" title="maxCacheAge"></a>
+	<h3 class="subsubtitle method-title">maxCacheAge</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, assign) NSTimeInterval maxCacheAge</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queryString" title="queryString"></a>
+	<h3 class="subsubtitle method-title">queryString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查询字符串，具体语法参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html</a>#query-string-syntax</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *queryString</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查询字符串，具体语法参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html</a>#query-string-syntax</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sid" title="sid"></a>
+	<h3 class="subsubtitle method-title">sid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<ul>
+<li>当前页面的scroll id，用于分页，可选。
+
+<h1>@warning 如非特殊需求，请不要手动设置 sid。每次 <a href="#//api/name/findObjects">findObjects</a> 之后，SDK 会自动更新 sid。如果手动设置了错误的sid，将无法获取到搜索结果。</h1></li>
+<li>有关scroll id，可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html">http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html</a></li>
+</ul>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *sid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<ul>
+<li>当前页面的scroll id，用于分页，可选。
+
+<h1>@warning 如非特殊需求，请不要手动设置 sid。每次 <a href="#//api/name/findObjects">findObjects</a> 之后，SDK 会自动更新 sid。如果手动设置了错误的sid，将无法获取到搜索结果。</h1></li>
+<li>有关scroll id，可以参考 <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html">http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/scan-scroll.html</a></li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sortBuilder" title="sortBuilder"></a>
+	<h3 class="subsubtitle method-title">sortBuilder</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查询的AVSearchSortBuilder，使用更丰富的排序选项</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) AVSearchSortBuilder *sortBuilder</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查询的AVSearchSortBuilder，使用更丰富的排序选项</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
 						
 					</div>
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/searchWithQueryString:" title="searchWithQueryString:"></a>
+	<h3 class="subsubtitle method-title">searchWithQueryString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>使用 <a href="#//api/name/queryString">queryString</a> 构造一个 AVSearchQuery 对象</p>
+	</div>		
+	
+    
 
+	<div class="method-subsection method-declaration"><code>+ (instancetype)searchWithQueryString:(NSString *)<em>queryString</em></code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>AVSearchQuery 实例</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>使用 <a href="#//api/name/queryString">queryString</a> 构造一个 AVSearchQuery 对象</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAscendingOrder:" title="addAscendingOrder:"></a>
+	<h3 class="subsubtitle method-title">addAscendingOrder:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>添加一个升序排序关键字。排序优先级由添加关键字的前后顺序决定。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAscendingOrder:(NSString *)<em>key</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>排序关键字</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>添加一个升序排序关键字。排序优先级由添加关键字的前后顺序决定。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addDescendingOrder:" title="addDescendingOrder:"></a>
+	<h3 class="subsubtitle method-title">addDescendingOrder:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>添加一个降序排序关键字。关键字的排序优先级由添加关键字的前后顺序决定。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addDescendingOrder:(NSString *)<em>key</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>排序关键字</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>添加一个降序排序关键字。关键字的排序优先级由添加关键字的前后顺序决定。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/findInBackground:" title="findInBackground:"></a>
+	<h3 class="subsubtitle method-title">findInBackground:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>异步获取搜索结果，并回调block</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)findInBackground:(AVArrayResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>需要有这样的方法签名 (NSArray <em>objects, NSError </em>error)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>异步获取搜索结果，并回调block</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/findObjects" title="findObjects"></a>
+	<h3 class="subsubtitle method-title">findObjects</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据查询条件获取结果对象</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)findObjects</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>AVObjects 数组</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据查询条件获取结果对象</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/findObjects:" title="findObjects:"></a>
+	<h3 class="subsubtitle method-title">findObjects:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据查询条件获取结果对象，如果有 error，则设置一个 error</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)findObjects:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>指针</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>AVObjects 数组</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据查询条件获取结果对象，如果有 error，则设置一个 error</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderByAscending:" title="orderByAscending:"></a>
+	<h3 class="subsubtitle method-title">orderByAscending:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>搜索结果会根据关键字，按升序排序</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)orderByAscending:(NSString *)<em>key</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>排序关键字</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>搜索结果会根据关键字，按升序排序</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderByDescending:" title="orderByDescending:"></a>
+	<h3 class="subsubtitle method-title">orderByDescending:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>搜索结果会根据关键字，按降序排序</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)orderByDescending:(NSString *)<em>key</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>排序关键字</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>搜索结果会根据关键字，按降序排序</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderBySortDescriptor:" title="orderBySortDescriptor:"></a>
+	<h3 class="subsubtitle method-title">orderBySortDescriptor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据 NSSortDescriptor 排序搜索结果</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)orderBySortDescriptor:(NSSortDescriptor *)<em>sortDescriptor</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sortDescriptor</em></dt>
+			<dd><p>排序描述符</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据 NSSortDescriptor 排序搜索结果</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderBySortDescriptors:" title="orderBySortDescriptors:"></a>
+	<h3 class="subsubtitle method-title">orderBySortDescriptors:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据 NSSortDescriptor 数组排序搜索结果</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)orderBySortDescriptors:(NSArray *)<em>sortDescriptors</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sortDescriptors</em></dt>
+			<dd><p>NSSortDescriptor 数组</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据 NSSortDescriptor 数组排序搜索结果</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVSearchQuery.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>

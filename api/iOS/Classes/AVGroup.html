@@ -1,993 +1,1165 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVGroup Class Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVGroup Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVGroup Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
-
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/delegate">delegate</option>
-		
-		<option value="//api/name/groupId">groupId</option>
-		
-		<option value="//api/name/session">session</option>
-		
-	</optgroup>
 	
-
+	<option value="properties">Properties</option>
 	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/createGroupWithSession:groupDelegate:callback:">+ createGroupWithSession:groupDelegate:callback:</option>
-		
-		<option value="//api/name/createGroupWithSession:groupDelegate:options:callback:">+ createGroupWithSession:groupDelegate:options:callback:</option>
-		
-		<option value="//api/name/getGroupWithGroupId:session:">+ getGroupWithGroupId:session:</option>
-		
-		<option value="//api/name/setDefaultDelegate:">+ setDefaultDelegate:</option>
-		
-	</optgroup>
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
 	
-
+	<option value="//api/name/groupId">&nbsp;&nbsp;&nbsp;&nbsp;groupId</option>
 	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/invite:">- invite:</option>
-		
-		<option value="//api/name/invitePeerIds:">- invitePeerIds:</option>
-		
-		<option value="//api/name/invitePeerIds:callback:">- invitePeerIds:callback:</option>
-		
-		<option value="//api/name/join">- join</option>
-		
-		<option value="//api/name/kick:">- kick:</option>
-		
-		<option value="//api/name/kickPeerIds:">- kickPeerIds:</option>
-		
-		<option value="//api/name/kickPeerIds:callback:">- kickPeerIds:callback:</option>
-		
-		<option value="//api/name/quit">- quit</option>
-		
-		<option value="//api/name/sendMessage:">- sendMessage:</option>
-		
-		<option value="//api/name/sendMessage:isTransient:">- sendMessage:isTransient:</option>
-		
-		<option value="//api/name/sendMessage:transient:">- sendMessage:transient:</option>
-		
-	</optgroup>
+	<option value="//api/name/session">&nbsp;&nbsp;&nbsp;&nbsp;session</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/createGroupWithSession:groupDelegate:callback:">&nbsp;&nbsp;&nbsp;&nbsp;+ createGroupWithSession:groupDelegate:callback:</option>
+	
+	<option value="//api/name/createGroupWithSession:groupDelegate:options:callback:">&nbsp;&nbsp;&nbsp;&nbsp;+ createGroupWithSession:groupDelegate:options:callback:</option>
+	
+	<option value="//api/name/getGroupWithGroupId:session:">&nbsp;&nbsp;&nbsp;&nbsp;+ getGroupWithGroupId:session:</option>
+	
+	<option value="//api/name/setDefaultDelegate:">&nbsp;&nbsp;&nbsp;&nbsp;+ setDefaultDelegate:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/invite:">&nbsp;&nbsp;&nbsp;&nbsp;- invite:</option>
+	
+	<option value="//api/name/invitePeerIds:">&nbsp;&nbsp;&nbsp;&nbsp;- invitePeerIds:</option>
+	
+	<option value="//api/name/invitePeerIds:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- invitePeerIds:callback:</option>
+	
+	<option value="//api/name/join">&nbsp;&nbsp;&nbsp;&nbsp;- join</option>
+	
+	<option value="//api/name/kick:">&nbsp;&nbsp;&nbsp;&nbsp;- kick:</option>
+	
+	<option value="//api/name/kickPeerIds:">&nbsp;&nbsp;&nbsp;&nbsp;- kickPeerIds:</option>
+	
+	<option value="//api/name/kickPeerIds:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- kickPeerIds:callback:</option>
+	
+	<option value="//api/name/quit">&nbsp;&nbsp;&nbsp;&nbsp;- quit</option>
+	
+	<option value="//api/name/sendMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- sendMessage:</option>
+	
+	<option value="//api/name/sendMessage:isTransient:">&nbsp;&nbsp;&nbsp;&nbsp;- sendMessage:isTransient:</option>
+	
+	<option value="//api/name/sendMessage:transient:">&nbsp;&nbsp;&nbsp;&nbsp;- sendMessage:transient:</option>
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVGroup Class Reference</h1>
 
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/groupId">groupId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session">session</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createGroupWithSession:groupDelegate:callback:">createGroupWithSession:groupDelegate:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createGroupWithSession:groupDelegate:options:callback:">createGroupWithSession:groupDelegate:options:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getGroupWithGroupId:session:">getGroupWithGroupId:session:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDefaultDelegate:">setDefaultDelegate:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invite:">invite:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invitePeerIds:">invitePeerIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invitePeerIds:callback:">invitePeerIds:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/join">join</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/kick:">kick:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/kickPeerIds:">kickPeerIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/kickPeerIds:callback:">kickPeerIds:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quit">quit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendMessage:">sendMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendMessage:isTransient:">sendMessage:isTransient:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendMessage:transient:">sendMessage:transient:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVGroup Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVGroup Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVGroup.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVGroup.h</td>
 </tr>
 						</tbody></table></div>
 					
-
                     
-
+                    
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
 						
 
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/groupId">&nbsp;&nbsp;groupId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session">&nbsp;&nbsp;session</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createGroupWithSession:groupDelegate:callback:">+&nbsp;createGroupWithSession:groupDelegate:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createGroupWithSession:groupDelegate:options:callback:">+&nbsp;createGroupWithSession:groupDelegate:options:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getGroupWithGroupId:session:">+&nbsp;getGroupWithGroupId:session:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDefaultDelegate:">+&nbsp;setDefaultDelegate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/join">&ndash;&nbsp;join</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendMessage:">&ndash;&nbsp;sendMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendMessage:transient:">&ndash;&nbsp;sendMessage:transient:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendMessage:isTransient:">&ndash;&nbsp;sendMessage:isTransient:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/kickPeerIds:">&ndash;&nbsp;kickPeerIds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/kickPeerIds:callback:">&ndash;&nbsp;kickPeerIds:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/kick:">&ndash;&nbsp;kick:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invitePeerIds:">&ndash;&nbsp;invitePeerIds:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invitePeerIds:callback:">&ndash;&nbsp;invitePeerIds:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invite:">&ndash;&nbsp;invite:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quit">&ndash;&nbsp;quit</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
 						
-
-						<div class="task-list">
-							<div class="section-method">
+						<div class="section-method">
 	<a name="//api/name/delegate" title="delegate"></a>
-	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
-</h3>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;AVGroupDelegate&gt; delegate</code></div>
 
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;AVGroupDelegate&gt; delegate</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/groupId" title="groupId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/groupId">&nbsp;&nbsp;groupId</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSString *groupId</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/session" title="session"></a>
-	<h3 class="method-title"><code><a href="#//api/name/session">&nbsp;&nbsp;session</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) AVSession *session</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/createGroupWithSession:groupDelegate:callback:" title="createGroupWithSession:groupDelegate:callback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/createGroupWithSession:groupDelegate:callback:">+&nbsp;createGroupWithSession:groupDelegate:callback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>异步创建一个新group并加入此group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)createGroupWithSession:(AVSession *)<em>session</em> groupDelegate:(id&lt;AVGroupDelegate&gt;)<em>groupDelegate</em> callback:(AVGroupResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>session</code></th>
-						<td><p>group依赖的服务器会话</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>groupDelegate</code></th>
-						<td><p>group使用的<a href="#//api/name/delegate">delegate</a></p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>group创建成功或失败的回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>异步创建一个新group并加入此group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/createGroupWithSession:groupDelegate:options:callback:" title="createGroupWithSession:groupDelegate:options:callback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/createGroupWithSession:groupDelegate:options:callback:">+&nbsp;createGroupWithSession:groupDelegate:options:callback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>异步创建一个新group并加入此group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)createGroupWithSession:(AVSession *)<em>session</em> groupDelegate:(id&lt;AVGroupDelegate&gt;)<em>groupDelegate</em> options:(AVGroupOption)<em>options</em> callback:(AVGroupResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>session</code></th>
-						<td><p>group依赖的服务器会话</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>groupDelegate</code></th>
-						<td><p>group使用的<a href="#//api/name/delegate">delegate</a></p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>options</code></th>
-						<td><p>－ 可选参数，可以使用或 “|” 操作表示多个选项</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>group创建成功或失败的回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>异步创建一个新group并加入此group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/getGroupWithGroupId:session:" title="getGroupWithGroupId:session:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getGroupWithGroupId:session:">+&nbsp;getGroupWithGroupId:session:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>根据groupId获取一个AVGroup对象</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVGroup *)getGroupWithGroupId:(NSString *)<em>groupId</em> session:(AVSession *)<em>session</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>groupId</code></th>
-						<td><p>已经存在的groupId，不能为nil</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>session</code></th>
-						<td><p>group依赖的服务器会话</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>返回group对象</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>根据groupId获取一个AVGroup对象</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/setDefaultDelegate:" title="setDefaultDelegate:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setDefaultDelegate:">+&nbsp;setDefaultDelegate:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>当生成一个AVGroup对象时默认使用此delegate，主要用于构建非主动创建的AVGroup对象，如被邀请加入某个Group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setDefaultDelegate:(id&lt;AVGroupDelegate&gt;)<em>delegate</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>delegate</code></th>
-						<td><p>默认的<a href="#//api/name/delegate">delegate</a></p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>当生成一个AVGroup对象时默认使用此delegate，主要用于构建非主动创建的AVGroup对象，如被邀请加入某个Group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/join" title="join"></a>
-	<h3 class="method-title"><code><a href="#//api/name/join">&ndash;&nbsp;join</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>加入group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)join</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>加入group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sendMessage:" title="sendMessage:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendMessage:">&ndash;&nbsp;sendMessage:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>向group发送消息</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVMessage *)<em>message</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>message</code></th>
-						<td><p>消息对象</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>向group发送消息</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sendMessage:transient:" title="sendMessage:transient:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendMessage:transient:">&ndash;&nbsp;sendMessage:transient:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>向group发送消息</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVMessage *)<em>message</em> transient:(BOOL)<em>transient</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>message</code></th>
-						<td><p>消息对象</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>transient</code></th>
-						<td><p>设置为 YES, 当且仅当某个 peer 在线才会收到该条消息，且该条消息既不会存为离线消息，也不会通过消息推送系统发出去.
-如果设置为 NO, 则该条消息会设法通过各种途径发到 peer 客户端，比如即时通信、推送、离线消息等。</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>向group发送消息</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sendMessage:isTransient:" title="sendMessage:isTransient:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendMessage:isTransient:">&ndash;&nbsp;sendMessage:isTransient:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(NSString *)<em>message</em> isTransient:(BOOL)<em>transient</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/kickPeerIds:" title="kickPeerIds:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/kickPeerIds:">&ndash;&nbsp;kickPeerIds:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>将指定peerIds踢出group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)kickPeerIds:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>peerIds</code></th>
-						<td><p>需要踢出group的peerId列表</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>将指定peerIds踢出group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/kickPeerIds:callback:" title="kickPeerIds:callback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/kickPeerIds:callback:">&ndash;&nbsp;kickPeerIds:callback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>将指定peerIds踢出group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)kickPeerIds:(NSArray *)<em>peerIds</em> callback:(AVArrayResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>peerIds</code></th>
-						<td><p>需要踢出group的peerId列表</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>结果回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>将指定peerIds踢出group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/kick:" title="kick:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/kick:">&ndash;&nbsp;kick:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (BOOL)kick:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/invitePeerIds:" title="invitePeerIds:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/invitePeerIds:">&ndash;&nbsp;invitePeerIds:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>邀请peerIds加入group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)invitePeerIds:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>peerIds</code></th>
-						<td><p>需要邀请的peerId列表</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>邀请peerIds加入group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/invitePeerIds:callback:" title="invitePeerIds:callback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/invitePeerIds:callback:">&ndash;&nbsp;invitePeerIds:callback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>邀请peerIds加入group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)invitePeerIds:(NSArray *)<em>peerIds</em> callback:(AVArrayResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>peerIds</code></th>
-						<td><p>需要邀请的peerId列表</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>结果回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>邀请peerIds加入group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/invite:" title="invite:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/invite:">&ndash;&nbsp;invite:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (BOOL)invite:(NSArray *)<em>peerIds</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/quit" title="quit"></a>
-	<h3 class="method-title"><code><a href="#//api/name/quit">&ndash;&nbsp;quit</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>退出group</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)quit</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>退出group</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGroup.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
+    
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/groupId" title="groupId"></a>
+	<h3 class="subsubtitle method-title">groupId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSString *groupId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session" title="session"></a>
+	<h3 class="subsubtitle method-title">session</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) AVSession *session</code></div>
+
+    
+</div>
 						
 					</div>
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createGroupWithSession:groupDelegate:callback:" title="createGroupWithSession:groupDelegate:callback:"></a>
+	<h3 class="subsubtitle method-title">createGroupWithSession:groupDelegate:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>异步创建一个新group并加入此group</p>
+	</div>		
+	
+    
 
+	<div class="method-subsection method-declaration"><code>+ (void)createGroupWithSession:(AVSession *)<em>session</em> groupDelegate:(id&lt;AVGroupDelegate&gt;)<em>groupDelegate</em> callback:(AVGroupResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>session</em></dt>
+			<dd><p>group依赖的服务器会话</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>groupDelegate</em></dt>
+			<dd><p>group使用的<a href="#//api/name/delegate">delegate</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>group创建成功或失败的回调</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>异步创建一个新group并加入此group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createGroupWithSession:groupDelegate:options:callback:" title="createGroupWithSession:groupDelegate:options:callback:"></a>
+	<h3 class="subsubtitle method-title">createGroupWithSession:groupDelegate:options:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>异步创建一个新group并加入此group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)createGroupWithSession:(AVSession *)<em>session</em> groupDelegate:(id&lt;AVGroupDelegate&gt;)<em>groupDelegate</em> options:(AVGroupOption)<em>options</em> callback:(AVGroupResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>session</em></dt>
+			<dd><p>group依赖的服务器会话</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>groupDelegate</em></dt>
+			<dd><p>group使用的<a href="#//api/name/delegate">delegate</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>－ 可选参数，可以使用或 “|” 操作表示多个选项</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>group创建成功或失败的回调</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>异步创建一个新group并加入此group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getGroupWithGroupId:session:" title="getGroupWithGroupId:session:"></a>
+	<h3 class="subsubtitle method-title">getGroupWithGroupId:session:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>根据groupId获取一个AVGroup对象</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (AVGroup *)getGroupWithGroupId:(NSString *)<em>groupId</em> session:(AVSession *)<em>session</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>groupId</em></dt>
+			<dd><p>已经存在的groupId，不能为nil</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>session</em></dt>
+			<dd><p>group依赖的服务器会话</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>返回group对象</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>根据groupId获取一个AVGroup对象</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDefaultDelegate:" title="setDefaultDelegate:"></a>
+	<h3 class="subsubtitle method-title">setDefaultDelegate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当生成一个AVGroup对象时默认使用此delegate，主要用于构建非主动创建的AVGroup对象，如被邀请加入某个Group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)setDefaultDelegate:(id&lt;AVGroupDelegate&gt;)<em>delegate</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delegate</em></dt>
+			<dd><p>默认的<a href="#//api/name/delegate">delegate</a></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当生成一个AVGroup对象时默认使用此delegate，主要用于构建非主动创建的AVGroup对象，如被邀请加入某个Group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/invite:" title="invite:"></a>
+	<h3 class="subsubtitle method-title">invite:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)invite:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/invitePeerIds:" title="invitePeerIds:"></a>
+	<h3 class="subsubtitle method-title">invitePeerIds:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>邀请peerIds加入group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)invitePeerIds:(NSArray *)<em>peerIds</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>peerIds</em></dt>
+			<dd><p>需要邀请的peerId列表</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>邀请peerIds加入group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/invitePeerIds:callback:" title="invitePeerIds:callback:"></a>
+	<h3 class="subsubtitle method-title">invitePeerIds:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>邀请peerIds加入group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)invitePeerIds:(NSArray *)<em>peerIds</em> callback:(AVArrayResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>peerIds</em></dt>
+			<dd><p>需要邀请的peerId列表</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>结果回调</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>邀请peerIds加入group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/join" title="join"></a>
+	<h3 class="subsubtitle method-title">join</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>加入group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)join</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>加入group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/kick:" title="kick:"></a>
+	<h3 class="subsubtitle method-title">kick:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)kick:(NSArray *)<em>peerIds</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/kickPeerIds:" title="kickPeerIds:"></a>
+	<h3 class="subsubtitle method-title">kickPeerIds:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>将指定peerIds踢出group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)kickPeerIds:(NSArray *)<em>peerIds</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>peerIds</em></dt>
+			<dd><p>需要踢出group的peerId列表</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>将指定peerIds踢出group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/kickPeerIds:callback:" title="kickPeerIds:callback:"></a>
+	<h3 class="subsubtitle method-title">kickPeerIds:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>将指定peerIds踢出group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)kickPeerIds:(NSArray *)<em>peerIds</em> callback:(AVArrayResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>peerIds</em></dt>
+			<dd><p>需要踢出group的peerId列表</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>结果回调</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>将指定peerIds踢出group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quit" title="quit"></a>
+	<h3 class="subsubtitle method-title">quit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>退出group</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)quit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>退出group</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendMessage:" title="sendMessage:"></a>
+	<h3 class="subsubtitle method-title">sendMessage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>向group发送消息</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVMessage *)<em>message</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>message</em></dt>
+			<dd><p>消息对象</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>向group发送消息</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendMessage:isTransient:" title="sendMessage:isTransient:"></a>
+	<h3 class="subsubtitle method-title">sendMessage:isTransient:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendMessage:(NSString *)<em>message</em> isTransient:(BOOL)<em>transient</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendMessage:transient:" title="sendMessage:transient:"></a>
+	<h3 class="subsubtitle method-title">sendMessage:transient:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>向group发送消息</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVMessage *)<em>message</em> transient:(BOOL)<em>transient</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>message</em></dt>
+			<dd><p>消息对象</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>transient</em></dt>
+			<dd><p>设置为 YES, 当且仅当某个 peer 在线才会收到该条消息，且该条消息既不会存为离线消息，也不会通过消息推送系统发出去.
+如果设置为 NO, 则该条消息会设法通过各种途径发到 peer 客户端，比如即时通信、推送、离线消息等。</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>向group发送消息</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>

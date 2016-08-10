@@ -1,123 +1,167 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-
-	<title>AVGeoPoint Class Reference</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
-</head>
-<body class="appledoc">
-	<header>
-		<div class="container" class="hide-in-xcode">
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AVGeoPoint Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+			</div>
 			
-			<h1 id="library-title">
-				<a href="../index.html">LeanCloud SDK </a>
-			</h1>
-
-			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc</a>
-			</p>
-			
-		</div>
-	</header>
-
-	<aside>
-		<div class="container">
-			<nav>
-				<ul id="header-buttons" role="toolbar">
-					<li><a href="../index.html">Index</a></li>
-<li><a href="../hierarchy.html">Hierarchy</a></li>
-
-					<li id="on-this-page" role="navigation">
-						<label>
-							On This Page
-
-							<div class="chevron">
-								<div class="chevy chevron-left"></div>
-								<div class="chevy chevron-right"></div>
-							</div>
-
-							<select id="jump-to">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AVGeoPoint Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
 	<option value="overview">Overview</option>
 	
-
+	
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
-
 	
 	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/latitude">latitude</option>
-		
-		<option value="//api/name/longitude">longitude</option>
-		
-	</optgroup>
 	
-
+	<option value="properties">Properties</option>
 	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/geoPoint">+ geoPoint</option>
-		
-		<option value="//api/name/geoPointForCurrentLocationInBackground:">+ geoPointForCurrentLocationInBackground:</option>
-		
-		<option value="//api/name/geoPointWithLatitude:longitude:">+ geoPointWithLatitude:longitude:</option>
-		
-		<option value="//api/name/geoPointWithLocation:">+ geoPointWithLocation:</option>
-		
-	</optgroup>
+	<option value="//api/name/latitude">&nbsp;&nbsp;&nbsp;&nbsp;latitude</option>
 	
-
+	<option value="//api/name/longitude">&nbsp;&nbsp;&nbsp;&nbsp;longitude</option>
 	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/distanceInKilometersTo:">- distanceInKilometersTo:</option>
-		
-		<option value="//api/name/distanceInMilesTo:">- distanceInMilesTo:</option>
-		
-		<option value="//api/name/distanceInRadiansTo:">- distanceInRadiansTo:</option>
-		
-	</optgroup>
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/geoPoint">&nbsp;&nbsp;&nbsp;&nbsp;+ geoPoint</option>
+	
+	<option value="//api/name/geoPointForCurrentLocationInBackground:">&nbsp;&nbsp;&nbsp;&nbsp;+ geoPointForCurrentLocationInBackground:</option>
+	
+	<option value="//api/name/geoPointWithLatitude:longitude:">&nbsp;&nbsp;&nbsp;&nbsp;+ geoPointWithLatitude:longitude:</option>
+	
+	<option value="//api/name/geoPointWithLocation:">&nbsp;&nbsp;&nbsp;&nbsp;+ geoPointWithLocation:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/distanceInKilometersTo:">&nbsp;&nbsp;&nbsp;&nbsp;- distanceInKilometersTo:</option>
+	
+	<option value="//api/name/distanceInMilesTo:">&nbsp;&nbsp;&nbsp;&nbsp;- distanceInMilesTo:</option>
+	
+	<option value="//api/name/distanceInRadiansTo:">&nbsp;&nbsp;&nbsp;&nbsp;- distanceInRadiansTo:</option>
+	
 	
 	
 </select>
-						</label>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</aside>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
 
-	<article>
-		<div id="overview_contents" class="container">
-			<div id="content">
-				<main role="main">
-					<h1 class="title">AVGeoPoint Class Reference</h1>
 
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Creating a AVGeoPoint">Creating a AVGeoPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Controlling Position">Controlling Position</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Calculating Distance">Calculating Distance</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/latitude">latitude</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/longitude">longitude</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/geoPoint">geoPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/geoPointForCurrentLocationInBackground:">geoPointForCurrentLocationInBackground:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/geoPointWithLatitude:longitude:">geoPointWithLatitude:longitude:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/geoPointWithLocation:">geoPointWithLocation:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/distanceInKilometersTo:">distanceInKilometersTo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/distanceInMilesTo:">distanceInMilesTo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/distanceInRadiansTo:">distanceInRadiansTo:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AVGeoPoint Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AVGeoPoint Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
 </tr><tr>
-	<th>Conforms to</th>
-	<td>NSCopying</td>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCopying</td>
 </tr><tr>
-	<th>Declared in</th>
-	<td>AVGeoPoint.h</td>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AVGeoPoint.h</td>
 </tr>
 						</tbody></table></div>
 					
-
+                    
                     
 					
 					<div class="section section-overview">
@@ -132,585 +176,702 @@ AVObjects with a AVGeoPoint field may be queried in a geospatial manner using AV
 					</div>
 					
 					
-
+					
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
 						
-
+						
 						<a title="Creating a AVGeoPoint" name="task_Creating a AVGeoPoint"></a>
-						<h2 class="task-title">Creating a AVGeoPoint</h2>
+						<h3 class="subsubtitle task-title">Creating a AVGeoPoint</h3>
 
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/geoPoint" title="geoPoint"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPoint">+&nbsp;geoPoint</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPoint</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>a new AVGeoPoint.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/geoPointWithLocation:" title="geoPointWithLocation:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPointWithLocation:">+&nbsp;geoPointWithLocation:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates a new AVGeoPoint object for the given CLLocation, set to the location&rsquo;s
-coordinates.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPointWithLocation:(CLLocation *)<em>location</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>location</code></th>
-						<td><p>CLLocation object, with set <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>a new AVGeoPoint at specified location.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a new AVGeoPoint object for the given CLLocation, set to the location&rsquo;s
-coordinates.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/geoPointWithLatitude:longitude:" title="geoPointWithLatitude:longitude:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPointWithLatitude:longitude:">+&nbsp;geoPointWithLatitude:longitude:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPointWithLatitude:(double)<em>latitude</em> longitude:(double)<em>longitude</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>latitude</code></th>
-						<td><p>Latitude of point in degrees.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>longitude</code></th>
-						<td><p>Longitude of point in degrees.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>New point object with specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/geoPointForCurrentLocationInBackground:" title="geoPointForCurrentLocationInBackground:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPointForCurrentLocationInBackground:">+&nbsp;geoPointForCurrentLocationInBackground:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Fetches the user&rsquo;s current location and returns a new AVGeoPoint object via the
-provided block.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)geoPointForCurrentLocationInBackground:(void ( ^ ) ( AVGeoPoint *geoPoint , NSError *error ))<em>geoPointHandler</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>geoPointHandler</code></th>
-						<td><p>A block which takes the newly created AVGeoPoint as an
-argument.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Fetches the user&rsquo;s current location and returns a new AVGeoPoint object via the
-provided block.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/geoPoint">+&nbsp;geoPoint</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/geoPointWithLocation:">+&nbsp;geoPointWithLocation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/geoPointWithLatitude:longitude:">+&nbsp;geoPointWithLatitude:longitude:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/geoPointForCurrentLocationInBackground:">+&nbsp;geoPointForCurrentLocationInBackground:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
-
+						
 						<a title="Controlling Position" name="task_Controlling Position"></a>
-						<h2 class="task-title">Controlling Position</h2>
+						<h3 class="subsubtitle task-title">Controlling Position</h3>
 
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/latitude" title="latitude"></a>
-	<h3 class="method-title"><code><a href="#//api/name/latitude">&nbsp;&nbsp;latitude</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic) double latitude</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/longitude" title="longitude"></a>
-	<h3 class="method-title"><code><a href="#//api/name/longitude">&nbsp;&nbsp;longitude</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic) double longitude</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/latitude">&nbsp;&nbsp;latitude</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/longitude">&nbsp;&nbsp;longitude</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
 						
-
+						
 						<a title="Calculating Distance" name="task_Calculating Distance"></a>
-						<h2 class="task-title">Calculating Distance</h2>
+						<h3 class="subsubtitle task-title">Calculating Distance</h3>
 
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/distanceInRadiansTo:" title="distanceInRadiansTo:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/distanceInRadiansTo:">&ndash;&nbsp;distanceInRadiansTo:</a></code>
-</h3>
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/distanceInRadiansTo:">&ndash;&nbsp;distanceInRadiansTo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/distanceInMilesTo:">&ndash;&nbsp;distanceInMilesTo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/distanceInKilometersTo:">&ndash;&nbsp;distanceInKilometersTo:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/latitude" title="latitude"></a>
+	<h3 class="subsubtitle method-title">latitude</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
+	</div>		
+	
+    
 
-	<div class="method-info">
-		<div class="pointy-thing"></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) double latitude</code></div>
 
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Get distance in radians from this point to specified point.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (double)distanceInRadiansTo:(AVGeoPoint *)<em>point</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>point</code></th>
-						<td><p>AVGeoPoint location of other point.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>distance in radians</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Get distance in radians from this point to specified point.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/distanceInMilesTo:" title="distanceInMilesTo:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/distanceInMilesTo:">&ndash;&nbsp;distanceInMilesTo:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Get distance in miles from this point to specified point.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (double)distanceInMilesTo:(AVGeoPoint *)<em>point</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>point</code></th>
-						<td><p>AVGeoPoint location of other point.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>distance in miles</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Get distance in miles from this point to specified point.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/distanceInKilometersTo:" title="distanceInKilometersTo:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/distanceInKilometersTo:">&ndash;&nbsp;distanceInKilometersTo:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Get distance in kilometers from this point to specified point.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (double)distanceInKilometersTo:(AVGeoPoint *)<em>point</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>point</code></th>
-						<td><p>AVGeoPoint location of other point.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>distance in kilometers</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Get distance in kilometers from this point to specified point.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
 </div>
-						</div>
+						
+						<div class="section-method">
+	<a name="//api/name/longitude" title="longitude"></a>
+	<h3 class="subsubtitle method-title">longitude</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) double longitude</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
 						
 					</div>
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/geoPoint" title="geoPoint"></a>
+	<h3 class="subsubtitle method-title">geoPoint</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
+	</div>		
+	
+    
 
+	<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPoint</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>a new AVGeoPoint.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/geoPointForCurrentLocationInBackground:" title="geoPointForCurrentLocationInBackground:"></a>
+	<h3 class="subsubtitle method-title">geoPointForCurrentLocationInBackground:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetches the user&rsquo;s current location and returns a new AVGeoPoint object via the
+provided block.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)geoPointForCurrentLocationInBackground:(void ( ^ ) ( AVGeoPoint *geoPoint , NSError *error ))<em>geoPointHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>geoPointHandler</em></dt>
+			<dd><p>A block which takes the newly created AVGeoPoint as an
+argument.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Fetches the user&rsquo;s current location and returns a new AVGeoPoint object via the
+provided block.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/geoPointWithLatitude:longitude:" title="geoPointWithLatitude:longitude:"></a>
+	<h3 class="subsubtitle method-title">geoPointWithLatitude:longitude:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPointWithLatitude:(double)<em>latitude</em> longitude:(double)<em>longitude</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>latitude</em></dt>
+			<dd><p>Latitude of point in degrees.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>longitude</em></dt>
+			<dd><p>Longitude of point in degrees.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>New point object with specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/geoPointWithLocation:" title="geoPointWithLocation:"></a>
+	<h3 class="subsubtitle method-title">geoPointWithLocation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a new AVGeoPoint object for the given CLLocation, set to the location&rsquo;s
+coordinates.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (AVGeoPoint *)geoPointWithLocation:(CLLocation *)<em>location</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>location</em></dt>
+			<dd><p>CLLocation object, with set <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>a new AVGeoPoint at specified location.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a new AVGeoPoint object for the given CLLocation, set to the location&rsquo;s
+coordinates.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/distanceInKilometersTo:" title="distanceInKilometersTo:"></a>
+	<h3 class="subsubtitle method-title">distanceInKilometersTo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get distance in kilometers from this point to specified point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (double)distanceInKilometersTo:(AVGeoPoint *)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>AVGeoPoint location of other point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>distance in kilometers</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get distance in kilometers from this point to specified point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/distanceInMilesTo:" title="distanceInMilesTo:"></a>
+	<h3 class="subsubtitle method-title">distanceInMilesTo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get distance in miles from this point to specified point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (double)distanceInMilesTo:(AVGeoPoint *)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>AVGeoPoint location of other point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>distance in miles</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get distance in miles from this point to specified point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/distanceInRadiansTo:" title="distanceInRadiansTo:"></a>
+	<h3 class="subsubtitle method-title">distanceInRadiansTo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get distance in radians from this point to specified point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (double)distanceInRadiansTo:(AVGeoPoint *)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>AVGeoPoint location of other point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>distance in radians</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get distance in radians from this point to specified point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVGeoPoint.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
                     
                     
-          
-				</main>
+                    
+                    
 
-				<footer>
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
 					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
 						
-						<p class="copyright">Copyright &copy; 2015 LeanCloud, Inc. All rights reserved. Updated: 2015-09-16</p>
-						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
 						
 					</div>
-				</footer>
+				</div>
 			</div>
-		</div>
-	</article>
-
-	<script src="../js/script.js"></script>
-</body>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
 </html>
