@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class LeanCloud\CloudException</title>
+	<title>Class LeanCloud\SaveOption</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -65,7 +65,7 @@
 				<li><a href="class-LeanCloud.Query.html">Query</a></li>
 				<li><a href="class-LeanCloud.Relation.html">Relation</a></li>
 				<li><a href="class-LeanCloud.Role.html">Role</a></li>
-				<li><a href="class-LeanCloud.SaveOption.html">SaveOption</a></li>
+				<li class="active"><a href="class-LeanCloud.SaveOption.html">SaveOption</a></li>
 				<li><a href="class-LeanCloud.SMS.html">SMS</a></li>
 				<li><a href="class-LeanCloud.User.html">User</a></li>
 			</ul>
@@ -75,7 +75,7 @@
 			<h3>Exceptions</h3>
 			<ul>
 				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
-				<li class="active"><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
+				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
 
@@ -111,34 +111,15 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class CloudException</h1>
+	<h1>Class SaveOption</h1>
 
 
 	<div class="description">
-	<p>Exception thrown when cloud API returns error</p>
+	<p>Object save option builder</p>
 	</div>
 
-	<dl class="tree">
-		<dd style="padding-left:0px">
-Exception
-			 implements 
-<span>Throwable</span>
-			
-			
-		</dd>
-		<dd style="padding-left:30px">
-			<img src="resources/inherit.png" alt="Extended by">
-<b><span>LeanCloud\CloudException</span></b>			
-			
-			
-		</dd>
-	</dl>
 
 
-	<div>
-		<h4>Direct known subclasses</h4>
-			<a href="class-LeanCloud.BatchRequestError.html">LeanCloud\BatchRequestError</a>
-	</div>
 
 
 
@@ -151,7 +132,7 @@ Exception
 		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-LeanCloud.CloudException.html#4-15" title="Go to source code">LeanCloud/CloudException.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.SaveOption.html#5-44" title="Go to source code">LeanCloud/SaveOption.php</a>
 		<br>
 	</div>
 
@@ -159,110 +140,107 @@ Exception
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+	<tr data-order="encode" id="_encode">
 
 		<td class="attributes"><code>
 			 public 
 
-			
+			array
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#8-10" title="Go to source code">__construct</a>( <span> <var>$message</var></span>, <span> <var>$code</var> = <span class="php-num">0</span></span> )</code>
+		<a class="anchor" href="#_encode">#</a>
+		<code><a href="source-class-LeanCloud.SaveOption.html#24-43" title="Go to source code">encode</a>( )</code>
 
 		<div class="description short">
-			
+			<p>Encode a save option as array</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Encode a save option as array</p>
 
 
 
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
 
 
 
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__construct()</code></div>
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="__toString" id="___toString">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#___toString">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#12-14" title="Go to source code">__toString</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-
-
-
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__toString()</code></div>
 
 		</div>
 		</div></td>
 	</tr>
 	</table>
 
-	<table class="summary inherited">
-	<caption>Methods inherited from Exception</caption>
-	<tr>
-		<td><code>
-__wakeup(), 
-getCode(), 
-getFile(), 
-getLine(), 
-getMessage(), 
-getPrevious(), 
-getTrace(), 
-getTraceAsString()
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="fetchWhenSave" id="$fetchWhenSave">
+		<td class="attributes"><code>
+			public  
+			boolean
 		</code></td>
+
+		<td class="name">
+				<a href="source-class-LeanCloud.SaveOption.html#10-15" title="Go to source code"><var>$fetchWhenSave</var></a>
+
+			<div class="description short">
+				<p>Fetch object when save if set to true</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Fetch object when save if set to true</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$fetchWhenSave" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="where" id="$where">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-LeanCloud.Query.html">LeanCloud\Query</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-LeanCloud.SaveOption.html#17-22" title="Go to source code"><var>$where</var></a>
+
+			<div class="description short">
+				<p>Update object only when where query matches</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Update object only when where query matches</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$where" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
 	</tr>
 	</table>
 
-
-
-
-
-
-
-
-
-
-
-
-	<table class="summary inherited">
-	<caption>Properties inherited from Exception</caption>
-	<tr>
-		<td><code>
-<var>$code</var>, 
-<var>$file</var>, 
-<var>$line</var>, 
-<var>$message</var>
-		</code></td>
-	</tr>
-	</table>
 
 
 

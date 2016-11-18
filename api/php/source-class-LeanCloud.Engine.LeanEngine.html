@@ -75,6 +75,7 @@
 				<li><a href="class-LeanCloud.Query.html">LeanCloud\Query</a></li>
 				<li><a href="class-LeanCloud.Relation.html">LeanCloud\Relation</a></li>
 				<li><a href="class-LeanCloud.Role.html">LeanCloud\Role</a></li>
+				<li><a href="class-LeanCloud.SaveOption.html">LeanCloud\SaveOption</a></li>
 				<li><a href="class-LeanCloud.SMS.html">LeanCloud\SMS</a></li>
 				<li><a href="class-LeanCloud.Storage.CookieStorage.html">LeanCloud\Storage\CookieStorage</a></li>
 				<li><a href="class-LeanCloud.Storage.SessionStorage.html">LeanCloud\Storage\SessionStorage</a></li>
@@ -750,7 +751,7 @@
 </span><span id="617" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> httpsRedirect() {
 </span><span id="618" class="l">        <span class="php-var">$reqProto</span> = <span class="php-var">$this</span>-&gt;getHeaderLine(<span class="php-quote">&quot;HTTP_X_FORWARDED_PROTO&quot;</span>);
 </span><span id="619" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$reqProto</span> === <span class="php-quote">&quot;http&quot;</span> &amp;&amp;
-</span><span id="620" class="l">            <span class="php-keyword2">getenv</span>(<span class="php-quote">&quot;LC_APP_ENV&quot;</span>) === <span class="php-quote">&quot;production&quot;</span>) {
+</span><span id="620" class="l">            <span class="php-keyword2">in_array</span>(<span class="php-keyword2">getenv</span>(<span class="php-quote">&quot;LC_APP_ENV&quot;</span>), <span class="php-keyword1">array</span>(<span class="php-quote">&quot;production&quot;</span>, <span class="php-quote">&quot;stg&quot;</span>))) {
 </span><span id="621" class="l">            <span class="php-var">$url</span> = <span class="php-quote">&quot;https://</span><span class="php-var">{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}</span><span class="php-quote">&quot;</span>;
 </span><span id="622" class="l">            <span class="php-var">$this</span>-&gt;redirect(<span class="php-var">$url</span>);
 </span><span id="623" class="l">        }
@@ -773,6 +774,6 @@
 </div>
 </div>
 <script src="resources/combined.js?768909401efe0895b1dd6335be9b2c57dc8be831"></script>
-<script src="elementlist.js?d4897b9edac817e0f64935b5bff32fdb07044cab"></script>
+<script src="elementlist.js?351f2c5f96e98fb4b05652a36388484ec792ad0e"></script>
 </body>
 </html>
