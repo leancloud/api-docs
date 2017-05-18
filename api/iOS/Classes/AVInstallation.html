@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -38,6 +38,8 @@
 	
 	
 	<option value="properties">Properties</option>
+	
+	<option value="//api/name/apnsTopic">&nbsp;&nbsp;&nbsp;&nbsp;apnsTopic</option>
 	
 	<option value="//api/name/badge">&nbsp;&nbsp;&nbsp;&nbsp;badge</option>
 	
@@ -98,6 +100,8 @@
 
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/apnsTopic">apnsTopic</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/badge">badge</a></span></li>
 	
@@ -277,6 +281,12 @@ applications running on OS X, because they cannot receive push notifications.</p
 	</span>
 	<span class="task-item-suffix">property</span>
 	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/apnsTopic">&nbsp;&nbsp;apnsTopic</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
 </li>
 						</ul>
 						
@@ -289,6 +299,47 @@ applications running on OS X, because they cannot receive push notifications.</p
 					<div class="section section-methods">
 						<a title="Properties" name="properties"></a>
 						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/apnsTopic" title="apnsTopic"></a>
+	<h3 class="subsubtitle method-title">apnsTopic</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The apns topic for universal push notification.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *apnsTopic</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The apns topic for universal push notification.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVInstallation.h</code><br />
+	</div>				
+	
+	
+</div>
 						
 						<div class="section-method">
 	<a name="//api/name/badge" title="badge"></a>
@@ -343,7 +394,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *channels</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray *channels</code></div>
 
     
 	
@@ -384,7 +435,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *deviceProfile</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceProfile</code></div>
 
     
 	
@@ -425,7 +476,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *deviceToken</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceToken</code></div>
 
     
 	
@@ -466,7 +517,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) NSString *deviceType</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *deviceType</code></div>
 
     
 	
@@ -507,7 +558,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) NSString *installationId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *installationId</code></div>
 
     
 	
@@ -548,7 +599,7 @@ applications running on OS X, because they cannot receive push notifications.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) NSString *timeZone</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *timeZone</code></div>
 
     
 	
@@ -760,9 +811,9 @@ will raise an exception.</p>
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

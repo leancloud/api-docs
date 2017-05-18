@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -81,7 +81,7 @@
                     <h3 class="subsubtitle method-title">AVStatusResultBlock</h3>
 
 
-<code>typedef void (^AVStatusResultBlock) (AVStatus *status, NSError *error)</code>
+<code>typedef void (^AVStatusResultBlock) (AVStatus *_Nullable, status ,, NSError *_Nullable, error ), ; @interface, AVStatus :, NSObject @property, ( nonatomic, copy ,, readonly ,, nullable ), NSString *objectId, ; @property, ( nonatomic, assign ,, readonly ), NSUInteger messageId, ; @property, ( nonatomic, strong ,, readonly ,, nullable ), NSDate *createdAt, ; @property, ( nonatomic, strong ,, nullable ), NSDictionary *data, ; @property, ( nonatomic, strong ,, nullable ), AVObject *source, ; @property, ( nonatomic, copy ), AVStatusType *type, ; +, ( void, ) getStatusWithID, : (, NSString *), objectId andCallback, : (, AVStatusResultBlock ), callback ;, + (, void ), deleteStatusWithID :, ( NSString, * ), objectId andCallback, : (, AVBooleanResultBlock ), callback ;, + (, BOOL ), deleteInboxStatusForMessageId :, ( NSUInteger, ) messageId, inboxType :, ( NSString, * ), inboxType receiver, : (, NSString *), receiver error, : (, NSError **), error ;, + (, void ), deleteInboxStatusInBackgroundForMessageId :, ( NSUInteger, ) messageId, inboxType :, ( NSString, * ), inboxType receiver, : (, NSString *), receiver block, : (, AVBooleanResultBlock ), block ;, - (, void ), setQuery :, ( AVQuery, * ), query ;, + (, AVStatusQuery *), inboxQuery :, ( AVStatusType, * ), inboxType ;, + (, AVStatusQuery *), statusQuery ;, + (, void ), getUnreadStatusesCountWithType :, ( AVStatusType, * ), type andCallback, : (, AVIntegerResultBlock ), callback ;, + (, void ), resetUnreadStatusesCountWithType :, ( AVStatusType, * ), type andCallback, : (, AVBooleanResultBlock ), callback ;, + (, void ), getStatusesWithType :, ( AVStatusType, * ), type skip, : (, NSUInteger ), skip limit, : (, NSUInteger ), limit andCallback, : (, AVArrayResultBlock ), callback AV_DEPRECATED, ( "2.3.2以后不再需要，请使用inboxQuery类方法", ) ;, + (, void ), getStatusesFromCurrentUserWithType :, ( AVStatusType, * ), type skip, : (, NSUInteger ), skip limit, : (, NSUInteger ), limit andCallback, : (, AVArrayResultBlock ), callback AV_DEPRECATED, ( "2.3.2以后不再需要，请使用statusQuery类方法", ) ;, + (, void ), getStatusesFromUser :, ( NSString, * ), userId skip, : (, NSUInteger ), skip limit, : (, NSUInteger ), limit andCallback, : (, AVArrayResultBlock ), callback AV_DEPRECATED, ( "2.3.2以后不再需要，请使用statusQuery", ) ;, + (, void ), sendStatusToFollowers :, ( AVStatus, * ), status andCallback, : (, AVBooleanResultBlock ), callback ;, + (, void ), sendPrivateStatus :, ( AVStatus, * ), status toUserWithID, : (, NSString *), userId andCallback, : (, AVBooleanResultBlock ), callback ;, - (, void ), sendInBackgroundWithBlock :, ( AVBooleanResultBlock, ) block, ; @end, @interface AVUser, ( Friendship, ) +, ( AVQuery, * ), followerQuery :, ( NSString, * ), userObjectId ;, - (, AVQuery *), followerQuery ;, + (, AVQuery *), followeeQuery :, ( NSString, * ), userObjectId ;, - (, AVQuery *), followeeQuery ;, - (, void ), follow :, ( NSString, * ), userId andCallback, : (, AVBooleanResultBlock ), callback ;, - (, void ), follow :, ( NSString, * ), userId userDictionary, : (, nullable NSDictionary, * ), dictionary andCallback, : (, AVBooleanResultBlock ), callback ;, - (, void ), unfollow :, ( NSString, * ), userId andCallback, : (, AVBooleanResultBlock ), callback ;, - (, void ), getFollowers :, ( AVArrayResultBlock, ) callback, ; -, ( void, ) getFollowees, : (, AVArrayResultBlock ), callback ;, - (, void ), getFollowersAndFollowees :, ( AVDictionaryResultBlock, ) callback, ; @end, @interface AVStatusQuery, : AVQuery, @property (, nonatomic ,, assign ), NSUInteger sinceId, ; @property, ( nonatomic, assign ), NSUInteger maxId, ; @property, ( nonatomic, strong ,, nullable ), AVObject *owner, ; @property, ( nonatomic, copy ,, nullable ), AVStatusType *inboxType, ; @property, ( nonatomic, ) BOOL, end ;, @end NS_ASSUME_NONNULL_END)</code>
 
 
 
@@ -98,9 +98,9 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

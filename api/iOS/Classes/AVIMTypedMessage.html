@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -63,6 +63,11 @@
 	
 	
 	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/setObject:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setObject:forKey:</option>
+	
+	
 	
 </select>
 				</li>
@@ -111,6 +116,12 @@
 </ul></li>
 
 
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setObject:forKey:">setObject:forKey:</a></span></li>
+	
+</ul></li>
 
 
 			</ul>
@@ -195,6 +206,12 @@
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/setObject:forKey:">&ndash;&nbsp;setObject:forKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/registerSubclass">+&nbsp;registerSubclass</a></code>
 	</span>
 	
@@ -230,7 +247,7 @@
 	
 	
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDictionary *attributes</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary *attributes</code></div>
 
     
 </div>
@@ -241,7 +258,7 @@
 	
 	
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AVFile *file</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) AVFile *file</code></div>
 
     
 </div>
@@ -252,7 +269,7 @@
 	
 	
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AVGeoPoint *location</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) AVGeoPoint *location</code></div>
 
     
 </div>
@@ -263,7 +280,7 @@
 	
 	
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic) AVIMMessageMediaType mediaType</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVIMMessageMediaType mediaType</code></div>
 
     
 </div>
@@ -274,7 +291,7 @@
 	
 	
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *text</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *text</code></div>
 
     
 </div>
@@ -299,7 +316,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithText:(NSString *)<em>text</em> attachedFilePath:(NSString *)<em>attachedFilePath</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithText:(nullable NSString *)<em>text</em> attachedFilePath:(NSString *)<em>attachedFilePath</em> attributes:(nullable NSDictionary *)<em>attributes</em></code></div>
 
     
 	
@@ -360,7 +377,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithText:(NSString *)<em>text</em> file:(AVFile *)<em>file</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)messageWithText:(nullable NSString *)<em>text</em> file:(AVFile *)<em>file</em> attributes:(nullable NSDictionary *)<em>attributes</em></code></div>
 
     
 	
@@ -454,6 +471,68 @@
 					
 					
 					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/setObject:forKey:" title="setObject:forKey:"></a>
+	<h3 class="subsubtitle method-title">setObject:forKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add custom property for message.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setObject:(nullable id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>object</em></dt>
+			<dd><p>The property value.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The property name.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add custom property for message.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMTypedMessage.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
 					
                     
                     
@@ -470,9 +549,9 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

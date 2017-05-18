@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVStorageType Constants Reference</title>
+		<title>AVIMErrorCode Constants Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVStorageType Constants Reference</h1>
+				<h1 class="hideInXcode">AVIMErrorCode Constants Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -45,7 +45,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVStorageType Constants Reference" name="top"></a>
+				<a title="AVIMErrorCode Constants Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -54,7 +54,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVStorageType Constants Reference</h1>
+						<h1 class="title title-header">AVIMErrorCode Constants Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -62,7 +62,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVOSCloud.h</td>
+	<td class="specification-value">AVIMCommon.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -74,29 +74,31 @@
 					
                     
                     
-                    <h3 class="subsubtitle method-title">AVStorageType</h3>
+                    <h3 class="subsubtitle method-title">AVIMErrorCode</h3>
                     
-					
-					<div class="section section-overview">
-                        <p>Storage Type</p>
-					</div>
-					
-					
                     <div class="section">
                         <!-- display enum values -->
                         
                         <h4 class="method-subtitle">Definition</h4>
-                        <code>typedef NS_ENUM(NSInteger, AVStorageType ) {<br/>
+                        <code>typedef NS_ENUM(NSInteger, AVIMErrorCode ) {<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeQiniu</a> = 0,<br/>
+                            &nbsp;&nbsp; <a href="">kAVIMErrorTimeout</a> = 9000,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeParse</a>,<br/>
+                            &nbsp;&nbsp; <a href="">kAVIMErrorConnectionLost</a>,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeS3</a>,<br/>
+                            &nbsp;&nbsp; <a href="">kAVIMErrorClientNotOpen</a>,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeQCloud</a>,<br/>
+                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidCommand</a>,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeDefault</a> = AVStorageTypeQiniu,<br/>
+                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidArguments</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">kAVIMErrorMessageNotFound</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">kAVIMErrorConversationNotFound</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidData</a>,<br/>
+                            
+                            &nbsp;&nbsp; <a href="">kAVIMErrorMessageTooLong</a>,<br/>
                             
                             };</code>
                     
@@ -106,87 +108,92 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="AVStorageTypeQiniu"></a><code>AVStorageTypeQiniu</code></dt>
+                            <dt><a name="" title="kAVIMErrorTimeout"></a><code>kAVIMErrorTimeout</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeParse"></a><code>AVStorageTypeParse</code></dt>
+                            <dt><a name="" title="kAVIMErrorConnectionLost"></a><code>kAVIMErrorConnectionLost</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeS3"></a><code>AVStorageTypeS3</code></dt>
+                            <dt><a name="" title="kAVIMErrorClientNotOpen"></a><code>kAVIMErrorClientNotOpen</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeQCloud"></a><code>AVStorageTypeQCloud</code></dt>
+                            <dt><a name="" title="kAVIMErrorInvalidCommand"></a><code>kAVIMErrorInvalidCommand</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeDefault"></a><code>AVStorageTypeDefault</code></dt>
+                            <dt><a name="" title="kAVIMErrorInvalidArguments"></a><code>kAVIMErrorInvalidArguments</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAVIMErrorMessageNotFound"></a><code>kAVIMErrorMessageNotFound</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAVIMErrorConversationNotFound"></a><code>kAVIMErrorConversationNotFound</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAVIMErrorInvalidData"></a><code>kAVIMErrorInvalidData</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAVIMErrorMessageTooLong"></a><code>kAVIMErrorMessageTooLong</code></dt>
+<dd>
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
 	</p>
 	
 </dd>
@@ -194,17 +201,6 @@
                         </dl>
                     </div>
                     
-                    
-                    
-                    
-
-                    
-                    
-                    
-                    <div class="method-subsection declared-in-section">
-                        <h4 class="method-subtitle">Declared In</h4>
-                        <code class="declared-in-ref">AVOSCloud.h</code><br />
-                    </div>				
                     
                     
                     

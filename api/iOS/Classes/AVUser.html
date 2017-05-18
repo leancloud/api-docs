@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -68,10 +68,6 @@
 	
 	<option value="//api/name/enableAutomaticUser">&nbsp;&nbsp;&nbsp;&nbsp;+ enableAutomaticUser</option>
 	
-	<option value="//api/name/followeeQuery:">&nbsp;&nbsp;&nbsp;&nbsp;+ followeeQuery:</option>
-	
-	<option value="//api/name/followerQuery:">&nbsp;&nbsp;&nbsp;&nbsp;+ followerQuery:</option>
-	
 	<option value="//api/name/logInWithMobilePhoneNumber:password:">&nbsp;&nbsp;&nbsp;&nbsp;+ logInWithMobilePhoneNumber:password:</option>
 	
 	<option value="//api/name/logInWithMobilePhoneNumber:password:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ logInWithMobilePhoneNumber:password:error:</option>
@@ -108,9 +104,13 @@
 	
 	<option value="//api/name/requestEmailVerify:withBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestEmailVerify:withBlock:</option>
 	
+	<option value="//api/name/requestLoginCodeForPhoneNumber:options:callback:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestLoginCodeForPhoneNumber:options:callback:</option>
+	
 	<option value="//api/name/requestLoginSmsCode:withBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestLoginSmsCode:withBlock:</option>
 	
 	<option value="//api/name/requestMobilePhoneVerify:withBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestMobilePhoneVerify:withBlock:</option>
+	
+	<option value="//api/name/requestPasswordResetCodeForPhoneNumber:options:callback:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestPasswordResetCodeForPhoneNumber:options:callback:</option>
 	
 	<option value="//api/name/requestPasswordResetForEmail:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestPasswordResetForEmail:</option>
 	
@@ -123,6 +123,8 @@
 	<option value="//api/name/requestPasswordResetForEmailInBackground:target:selector:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestPasswordResetForEmailInBackground:target:selector:</option>
 	
 	<option value="//api/name/requestPasswordResetWithPhoneNumber:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestPasswordResetWithPhoneNumber:block:</option>
+	
+	<option value="//api/name/requestVerificationCodeForPhoneNumber:options:callback:">&nbsp;&nbsp;&nbsp;&nbsp;+ requestVerificationCodeForPhoneNumber:options:callback:</option>
 	
 	<option value="//api/name/resetPasswordWithSmsCode:newPassword:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ resetPasswordWithSmsCode:newPassword:block:</option>
 	
@@ -139,33 +141,27 @@
 	
 	<option value="instance_methods">Instance Methods</option>
 	
-	<option value="//api/name/follow:andCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- follow:andCallback:</option>
+	<option value="//api/name/getRoles:">&nbsp;&nbsp;&nbsp;&nbsp;- getRoles:</option>
 	
-	<option value="//api/name/follow:userDictionary:andCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- follow:userDictionary:andCallback:</option>
+	<option value="//api/name/getRolesAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- getRolesAndThrowsWithError:</option>
 	
-	<option value="//api/name/followeeQuery">&nbsp;&nbsp;&nbsp;&nbsp;- followeeQuery</option>
-	
-	<option value="//api/name/followerQuery">&nbsp;&nbsp;&nbsp;&nbsp;- followerQuery</option>
-	
-	<option value="//api/name/getFollowees:">&nbsp;&nbsp;&nbsp;&nbsp;- getFollowees:</option>
-	
-	<option value="//api/name/getFollowers:">&nbsp;&nbsp;&nbsp;&nbsp;- getFollowers:</option>
-	
-	<option value="//api/name/getFollowersAndFollowees:">&nbsp;&nbsp;&nbsp;&nbsp;- getFollowersAndFollowees:</option>
+	<option value="//api/name/getRolesInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getRolesInBackgroundWithBlock:</option>
 	
 	<option value="//api/name/isAuthenticated">&nbsp;&nbsp;&nbsp;&nbsp;- isAuthenticated</option>
+	
+	<option value="//api/name/isAuthenticatedWithSessionToken:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- isAuthenticatedWithSessionToken:callback:</option>
 	
 	<option value="//api/name/signUp">&nbsp;&nbsp;&nbsp;&nbsp;- signUp</option>
 	
 	<option value="//api/name/signUp:">&nbsp;&nbsp;&nbsp;&nbsp;- signUp:</option>
+	
+	<option value="//api/name/signUpAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- signUpAndThrowsWithError:</option>
 	
 	<option value="//api/name/signUpInBackground">&nbsp;&nbsp;&nbsp;&nbsp;- signUpInBackground</option>
 	
 	<option value="//api/name/signUpInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- signUpInBackgroundWithBlock:</option>
 	
 	<option value="//api/name/signUpInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- signUpInBackgroundWithTarget:selector:</option>
-	
-	<option value="//api/name/unfollow:andCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- unfollow:andCallback:</option>
 	
 	<option value="//api/name/updatePassword:newPassword:block:">&nbsp;&nbsp;&nbsp;&nbsp;- updatePassword:newPassword:block:</option>
 	
@@ -196,8 +192,6 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Requesting a Password Reset">Requesting a Password Reset</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Querying for Users">Querying for Users</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Friendship Methods">Friendship Methods</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Deprecated Methods">Deprecated Methods</a></span></li>
 	
@@ -239,10 +233,6 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableAutomaticUser">enableAutomaticUser</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/followeeQuery:">followeeQuery:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/followerQuery:">followerQuery:</a></span></li>
-	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logInWithMobilePhoneNumber:password:">logInWithMobilePhoneNumber:password:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logInWithMobilePhoneNumber:password:error:">logInWithMobilePhoneNumber:password:error:</a></span></li>
@@ -279,9 +269,13 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestEmailVerify:withBlock:">requestEmailVerify:withBlock:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestLoginCodeForPhoneNumber:options:callback:">requestLoginCodeForPhoneNumber:options:callback:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestLoginSmsCode:withBlock:">requestLoginSmsCode:withBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestMobilePhoneVerify:withBlock:">requestMobilePhoneVerify:withBlock:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestPasswordResetCodeForPhoneNumber:options:callback:">requestPasswordResetCodeForPhoneNumber:options:callback:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestPasswordResetForEmail:">requestPasswordResetForEmail:</a></span></li>
 	
@@ -294,6 +288,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestPasswordResetForEmailInBackground:target:selector:">requestPasswordResetForEmailInBackground:target:selector:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestPasswordResetWithPhoneNumber:block:">requestPasswordResetWithPhoneNumber:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestVerificationCodeForPhoneNumber:options:callback:">requestVerificationCodeForPhoneNumber:options:callback:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetPasswordWithSmsCode:newPassword:block:">resetPasswordWithSmsCode:newPassword:block:</a></span></li>
 	
@@ -311,33 +307,27 @@
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/follow:andCallback:">follow:andCallback:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getRoles:">getRoles:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/follow:userDictionary:andCallback:">follow:userDictionary:andCallback:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getRolesAndThrowsWithError:">getRolesAndThrowsWithError:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/followeeQuery">followeeQuery</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/followerQuery">followerQuery</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFollowees:">getFollowees:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFollowers:">getFollowers:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFollowersAndFollowees:">getFollowersAndFollowees:</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getRolesInBackgroundWithBlock:">getRolesInBackgroundWithBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAuthenticated">isAuthenticated</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAuthenticatedWithSessionToken:callback:">isAuthenticatedWithSessionToken:callback:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUp">signUp</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUp:">signUp:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUpAndThrowsWithError:">signUpAndThrowsWithError:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUpInBackground">signUpInBackground</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUpInBackgroundWithBlock:">signUpInBackgroundWithBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUpInBackgroundWithTarget:selector:">signUpInBackgroundWithTarget:selector:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unfollow:andCallback:">unfollow:andCallback:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updatePassword:newPassword:block:">updatePassword:newPassword:block:</a></span></li>
 	
@@ -389,8 +379,6 @@ is a subclass of a <a href="../Classes/AVObject.html">AVObject</a>, and retains 
 
 <p>Many APIs responsible for linking a AVUser with Facebook or Twitter have been deprecated in favor of dedicated
 utilities for each social network. See AVFacebookUtils and AVTwitterUtils for more information.</p>
-
-<p>用户好友关系</p>
 					</div>
 					
 					
@@ -432,7 +420,7 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/isAuthenticated">&ndash;&nbsp;isAuthenticated</a></code>
+		<code><a href="#//api/name/isAuthenticatedWithSessionToken:callback:">&ndash;&nbsp;isAuthenticatedWithSessionToken:callback:</a></code>
 	</span>
 	
 	
@@ -500,13 +488,43 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/requestVerificationCodeForPhoneNumber:options:callback:">+&nbsp;requestVerificationCodeForPhoneNumber:options:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/verifyMobilePhone:withBlock:">+&nbsp;verifyMobilePhone:withBlock:</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/getRoles:">&ndash;&nbsp;getRoles:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getRolesAndThrowsWithError:">&ndash;&nbsp;getRolesAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getRolesInBackgroundWithBlock:">&ndash;&nbsp;getRolesInBackgroundWithBlock:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/signUp:">&ndash;&nbsp;signUp:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/signUpAndThrowsWithError:">&ndash;&nbsp;signUpAndThrowsWithError:</a></code>
 	</span>
 	
 	
@@ -549,6 +567,12 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/requestLoginSmsCode:withBlock:">+&nbsp;requestLoginSmsCode:withBlock:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/requestLoginCodeForPhoneNumber:options:callback:">+&nbsp;requestLoginCodeForPhoneNumber:options:callback:</a></code>
 	</span>
 	
 	
@@ -618,6 +642,12 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/requestPasswordResetCodeForPhoneNumber:options:callback:">+&nbsp;requestPasswordResetCodeForPhoneNumber:options:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/resetPasswordWithSmsCode:newPassword:block:">+&nbsp;resetPasswordWithSmsCode:newPassword:block:</a></code>
 	</span>
 	
@@ -645,74 +675,6 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 							<li>
 	<span class="tooltip">
 		<code><a href="#//api/name/query">+&nbsp;query</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="Friendship Methods" name="task_Friendship Methods"></a>
-						<h3 class="subsubtitle task-title">Friendship Methods</h3>
-
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/followerQuery:">+&nbsp;followerQuery:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/followerQuery">&ndash;&nbsp;followerQuery</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/followeeQuery:">+&nbsp;followeeQuery:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/followeeQuery">&ndash;&nbsp;followeeQuery</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/follow:andCallback:">&ndash;&nbsp;follow:andCallback:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/follow:userDictionary:andCallback:">&ndash;&nbsp;follow:userDictionary:andCallback:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/unfollow:andCallback:">&ndash;&nbsp;unfollow:andCallback:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getFollowers:">&ndash;&nbsp;getFollowers:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getFollowees:">&ndash;&nbsp;getFollowees:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getFollowersAndFollowees:">&ndash;&nbsp;getFollowersAndFollowees:</a></code>
 	</span>
 	
 	
@@ -820,6 +782,12 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	</span>
 	
 	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isAuthenticated">&ndash;&nbsp;isAuthenticated</a></code>
+	</span>
+	
+	
 </li>
 						</ul>
 						
@@ -845,7 +813,7 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *email</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *email</code></div>
 
     
 	
@@ -886,7 +854,7 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readonly, assign) BOOL isNew</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL isNew</code></div>
 
     
 	
@@ -927,7 +895,7 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *mobilePhoneNumber</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *mobilePhoneNumber</code></div>
 
     
 	
@@ -968,7 +936,7 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL mobilePhoneVerified</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL mobilePhoneVerified</code></div>
 
     
 	
@@ -1010,7 +978,7 @@ the password. It is only meant to be set.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *password</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *password</code></div>
 
     
 	
@@ -1052,7 +1020,7 @@ the password. It is only meant to be set.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *sessionToken</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *sessionToken</code></div>
 
     
 	
@@ -1093,7 +1061,7 @@ the password. It is only meant to be set.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *username</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *username</code></div>
 
     
 	
@@ -1142,7 +1110,7 @@ the password. It is only meant to be set.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)becomeWithSessionToken:(NSString *)<em>sessionToken</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)becomeWithSessionToken:(NSString *)<em>sessionToken</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -1259,7 +1227,7 @@ the password. It is only meant to be set.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)changeCurrentUser:(AVUser *)<em>newUser</em> save:(BOOL)<em>save</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)changeCurrentUser:(nullable AVUser *)<em>newUser</em> save:(BOOL)<em>save</em></code></div>
 
     
 	
@@ -1316,7 +1284,7 @@ Note: 请注意不要随意调用这个函数！</p></dd>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)currentUser</code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)currentUser</code></div>
 
     
 	
@@ -1398,124 +1366,12 @@ an ACL that refers to the <a href="#//api/name/user">user</a> has been saved.</p
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/followeeQuery:" title="followeeQuery:"></a>
-	<h3 class="subsubtitle method-title">followeeQuery:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (AVQuery *)followeeQuery:(NSString *)<em>userObjectId</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>userObjectId</em></dt>
-			<dd><p>用户ID</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/followerQuery:" title="followerQuery:"></a>
-	<h3 class="subsubtitle method-title">followerQuery:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (AVQuery *)followerQuery:(NSString *)<em>userObjectId</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>userObjectId</em></dt>
-			<dd><p>用户ID</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
 	<a name="//api/name/logInWithMobilePhoneNumber:password:" title="logInWithMobilePhoneNumber:password:"></a>
 	<h3 class="subsubtitle method-title">logInWithMobilePhoneNumber:password:</h3>
 	
 	
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em></code></div>
 
     
 </div>
@@ -1532,7 +1388,7 @@ an ACL that refers to the <a href="#//api/name/user">user</a> has been saved.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -1587,7 +1443,7 @@ an ACL that refers to the <a href="#//api/name/user">user</a> has been saved.</p
 	
 	
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em></code></div>
 
     
 </div>
@@ -1604,7 +1460,7 @@ an ACL that refers to the <a href="#//api/name/user">user</a> has been saved.</p
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -1833,7 +1689,7 @@ that calls to userFromCurrentUser will use the latest logged in <a href="#//api/
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithUsername:(NSString *)<em>username</em> password:(NSString *)<em>password</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithUsername:(NSString *)<em>username</em> password:(NSString *)<em>password</em></code></div>
 
     
 	
@@ -1898,7 +1754,7 @@ locally so that calls to userFromCurrentUser will use the latest logged in <a hr
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)logInWithUsername:(NSString *)<em>username</em> password:(NSString *)<em>password</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithUsername:(NSString *)<em>username</em> password:(NSString *)<em>password</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -2292,6 +2148,67 @@ The selector for the callback should look like: myCallback:(AVUser *)<a href="#/
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/requestLoginCodeForPhoneNumber:options:callback:" title="requestLoginCodeForPhoneNumber:options:callback:"></a>
+	<h3 class="subsubtitle method-title">requestLoginCodeForPhoneNumber:options:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Request a login code for a phone number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)requestLoginCodeForPhoneNumber:(NSString *)<em>phoneNumber</em> options:(nullable AVUserShortMessageRequestOptions *)<em>options</em> callback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>phoneNumber</em></dt>
+			<dd><p>The phone number of an <a href="#//api/name/user">user</a> who will login later.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>The short message request options.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>The callback of request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Request a login code for a phone number.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/requestLoginSmsCode:withBlock:" title="requestLoginSmsCode:withBlock:"></a>
 	<h3 class="subsubtitle method-title">requestLoginSmsCode:withBlock:</h3>
 	
@@ -2391,6 +2308,67 @@ The selector for the callback should look like: myCallback:(AVUser *)<a href="#/
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>请求手机号码验证
 发送短信到指定的手机上，内容有6位数字验证码。验证码10分钟内有效。</p><div class="warning"><p><strong>Warning:</strong> 对同一个手机号码，每天有 5 条数量的限制，并且发送间隔需要控制在一分钟。</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/requestPasswordResetCodeForPhoneNumber:options:callback:" title="requestPasswordResetCodeForPhoneNumber:options:callback:"></a>
+	<h3 class="subsubtitle method-title">requestPasswordResetCodeForPhoneNumber:options:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Request a <a href="#//api/name/password">password</a> reset code for a phone number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)requestPasswordResetCodeForPhoneNumber:(NSString *)<em>phoneNumber</em> options:(nullable AVUserShortMessageRequestOptions *)<em>options</em> callback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>phoneNumber</em></dt>
+			<dd><p>The phone number of an <a href="#//api/name/user">user</a> whose <a href="#//api/name/password">password</a> will be reset.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>The short message request options.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>The callback of request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Request a <a href="#//api/name/password">password</a> reset code for a phone number.</p>
 	</div>
 	
 	
@@ -2769,6 +2747,67 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/requestVerificationCodeForPhoneNumber:options:callback:" title="requestVerificationCodeForPhoneNumber:options:callback:"></a>
+	<h3 class="subsubtitle method-title">requestVerificationCodeForPhoneNumber:options:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Request a verification code for a phone number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)requestVerificationCodeForPhoneNumber:(NSString *)<em>phoneNumber</em> options:(nullable AVUserShortMessageRequestOptions *)<em>options</em> callback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>phoneNumber</em></dt>
+			<dd><p>The phone number that will be verified later.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>The short message request options.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>callback</em></dt>
+			<dd><p>The callback of request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Request a verification code for a phone number.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/resetPasswordWithSmsCode:newPassword:block:" title="resetPasswordWithSmsCode:newPassword:block:"></a>
 	<h3 class="subsubtitle method-title">resetPasswordWithSmsCode:newPassword:block:</h3>
 	
@@ -2842,7 +2881,7 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)signUpOrLoginWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable instancetype)signUpOrLoginWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -3068,18 +3107,18 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/follow:andCallback:" title="follow:andCallback:"></a>
-	<h3 class="subsubtitle method-title">follow:andCallback:</h3>
+	<a name="//api/name/getRoles:" title="getRoles:"></a>
+	<h3 class="subsubtitle method-title">getRoles:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>通过ID来关注其他用户</p>
+		<p>Get roles which current <a href="#//api/name/user">user</a> belongs to.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSArray&lt;AVRole*&gt; *)getRoles:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -3087,124 +3126,17 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>userId</em></dt>
-			<dd><p>要关注的用户objectId</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果</p></dd>
+			<dt><em>error</em></dt>
+			<dd><p>The error of request, or nil if request did succeed.</p></dd>
 		</dl>
 		
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/follow:userDictionary:andCallback:" title="follow:userDictionary:andCallback:"></a>
-	<h3 class="subsubtitle method-title">follow:userDictionary:andCallback:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>通过ID来关注其他用户</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> userDictionary:(NSDictionary *)<em>dictionary</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>userId</em></dt>
-			<dd><p>要关注的用户objectId</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>dictionary</em></dt>
-			<dd><p>添加的自定义属性</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/followeeQuery" title="followeeQuery"></a>
-	<h3 class="subsubtitle method-title">followeeQuery</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (AVQuery *)followeeQuery</code></div>
-
-    
 	
 	
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
+		<p>An array of roles, or nil if some error occured.</p>
 	</div>
 	
 	
@@ -3213,7 +3145,7 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
+		<p>Get roles which current <a href="#//api/name/user">user</a> belongs to.</p>
 	</div>
 	
 	
@@ -3224,34 +3156,30 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
+		<code class="declared-in-ref">AVUser.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/followerQuery" title="followerQuery"></a>
-	<h3 class="subsubtitle method-title">followerQuery</h3>
+	<a name="//api/name/getRolesAndThrowsWithError:" title="getRolesAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">getRolesAndThrowsWithError:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+		<p>An alias of <a href="#//api/name/getRolesAndThrowsWithError:"><code>[AVUser getRolesAndThrowsWithError:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/getRolesAndThrowsWithError:"><code>[AVUser getRolesAndThrowsWithError:]</code></a></p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (AVQuery *)followerQuery</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSArray&lt;AVRole*&gt; *)getRolesAndThrowsWithError:(NSError **)<em>error</em></code></div>
 
     
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-	</div>
 	
 	
 	
@@ -3259,7 +3187,8 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+		<p>An alias of <a href="#//api/name/getRolesAndThrowsWithError:"><code>[AVUser getRolesAndThrowsWithError:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/getRolesAndThrowsWithError:"><code>[AVUser getRolesAndThrowsWithError:]</code></a></p>
 	</div>
 	
 	
@@ -3270,25 +3199,25 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
+		<code class="declared-in-ref">AVUser.h</code><br />
 	</div>				
 	
 	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/getFollowees:" title="getFollowees:"></a>
-	<h3 class="subsubtitle method-title">getFollowees:</h3>
+	<a name="//api/name/getRolesInBackgroundWithBlock:" title="getRolesInBackgroundWithBlock:"></a>
+	<h3 class="subsubtitle method-title">getRolesInBackgroundWithBlock:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>获取当前用户所关注的列表</p>
+		<p>Asynchronously get roles which current <a href="#//api/name/user">user</a> belongs to.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)getFollowees:(AVArrayResultBlock)<em>callback</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)getRolesInBackgroundWithBlock:(void ( ^ ) ( NSArray&lt;AVRole*&gt; *_Nullable objects , NSError *_Nullable error ))<em>block</em></code></div>
 
     
 	
@@ -3296,8 +3225,8 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果</p></dd>
+			<dt><em>block</em></dt>
+			<dd><p>The callback for request.</p></dd>
 		</dl>
 		
 	</div>
@@ -3310,7 +3239,7 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取当前用户所关注的列表</p>
+		<p>Asynchronously get roles which current <a href="#//api/name/user">user</a> belongs to.</p>
 	</div>
 	
 	
@@ -3321,109 +3250,7 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 	
 	<div class="method-subsection declared-in-section">
 		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getFollowers:" title="getFollowers:"></a>
-	<h3 class="subsubtitle method-title">getFollowers:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>获取当前用户粉丝的列表</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getFollowers:(AVArrayResultBlock)<em>callback</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>获取当前用户粉丝的列表</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getFollowersAndFollowees:" title="getFollowersAndFollowees:"></a>
-	<h3 class="subsubtitle method-title">getFollowersAndFollowees:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>同时获取当前用户的粉丝和关注列表</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getFollowersAndFollowees:(AVDictionaryResultBlock)<em>callback</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果, 列表字典包含<code>followers</code>数组和<code>followees</code>数组</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>同时获取当前用户的粉丝和关注列表</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
+		<code class="declared-in-ref">AVUser.h</code><br />
 	</div>				
 	
 	
@@ -3461,6 +3288,47 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Whether the <a href="#//api/name/user">user</a> is an authenticated object for the device. An authenticated AVUser is one that is obtained via
 a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated object is required in order to save (with altered values) or delete it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isAuthenticatedWithSessionToken:callback:" title="isAuthenticatedWithSessionToken:callback:"></a>
+	<h3 class="subsubtitle method-title">isAuthenticatedWithSessionToken:callback:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the <a href="#//api/name/user">user</a> is an authenticated object with the given <a href="#//api/name/sessionToken">sessionToken</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)isAuthenticatedWithSessionToken:(NSString *)<em>sessionToken</em> callback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the <a href="#//api/name/user">user</a> is an authenticated object with the given <a href="#//api/name/sessionToken">sessionToken</a>.</p>
 	</div>
 	
 	
@@ -3563,6 +3431,49 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Signs up the <a href="#//api/name/user">user</a>. Make sure that <a href="#//api/name/password">password</a> and <a href="#//api/name/username">username</a> are set. This will also enforce that the <a href="#//api/name/username">username</a> isn&rsquo;t already taken.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/signUpAndThrowsWithError:" title="signUpAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">signUpAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/signUp:"><code>[AVUser signUp:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/signUp:"><code>[AVUser signUp:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)signUpAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/signUp:"><code>[AVUser signUp:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/signUp:"><code>[AVUser signUp:]</code></a></p>
 	</div>
 	
 	
@@ -3728,62 +3639,6 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/unfollow:andCallback:" title="unfollow:andCallback:"></a>
-	<h3 class="subsubtitle method-title">unfollow:andCallback:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>通过ID来取消关注其他用户</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)unfollow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>userId</em></dt>
-			<dd><p>要取消关注的用户objectId</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>callback</em></dt>
-			<dd><p>回调结果</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>通过ID来取消关注其他用户</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVStatus.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
 	<a name="//api/name/updatePassword:newPassword:block:" title="updatePassword:newPassword:block:"></a>
 	<h3 class="subsubtitle method-title">updatePassword:newPassword:block:</h3>
 	
@@ -3928,9 +3783,9 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

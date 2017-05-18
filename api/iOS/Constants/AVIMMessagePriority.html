@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVStorageType Constants Reference</title>
+		<title>AVIMMessagePriority Constants Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVStorageType Constants Reference</h1>
+				<h1 class="hideInXcode">AVIMMessagePriority Constants Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -45,7 +45,7 @@
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVStorageType Constants Reference" name="top"></a>
+				<a title="AVIMMessagePriority Constants Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -54,7 +54,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVStorageType Constants Reference</h1>
+						<h1 class="title title-header">AVIMMessagePriority Constants Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -62,7 +62,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVOSCloud.h</td>
+	<td class="specification-value">AVIMMessageOption.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -74,29 +74,19 @@
 					
                     
                     
-                    <h3 class="subsubtitle method-title">AVStorageType</h3>
+                    <h3 class="subsubtitle method-title">AVIMMessagePriority</h3>
                     
-					
-					<div class="section section-overview">
-                        <p>Storage Type</p>
-					</div>
-					
-					
                     <div class="section">
                         <!-- display enum values -->
                         
                         <h4 class="method-subtitle">Definition</h4>
-                        <code>typedef NS_ENUM(NSInteger, AVStorageType ) {<br/>
+                        <code>typedef NS_ENUM(NSInteger, AVIMMessagePriority ) {<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeQiniu</a> = 0,<br/>
+                            &nbsp;&nbsp; <a href="">AVIMMessagePriorityHigh</a> = 1,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeParse</a>,<br/>
+                            &nbsp;&nbsp; <a href="">AVIMMessagePriorityNormal</a> = 2,<br/>
                             
-                            &nbsp;&nbsp; <a href="">AVStorageTypeS3</a>,<br/>
-                            
-                            &nbsp;&nbsp; <a href="">AVStorageTypeQCloud</a>,<br/>
-                            
-                            &nbsp;&nbsp; <a href="">AVStorageTypeDefault</a> = AVStorageTypeQiniu,<br/>
+                            &nbsp;&nbsp; <a href="">AVIMMessagePriorityLow</a> = 3,<br/>
                             
                             };</code>
                     
@@ -106,87 +96,32 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="AVStorageTypeQiniu"></a><code>AVStorageTypeQiniu</code></dt>
+                            <dt><a name="" title="AVIMMessagePriorityHigh"></a><code>AVIMMessagePriorityHigh</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMMessageOption.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeParse"></a><code>AVStorageTypeParse</code></dt>
+                            <dt><a name="" title="AVIMMessagePriorityNormal"></a><code>AVIMMessagePriorityNormal</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMMessageOption.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="AVStorageTypeS3"></a><code>AVStorageTypeS3</code></dt>
+                            <dt><a name="" title="AVIMMessagePriorityLow"></a><code>AVIMMessagePriorityLow</code></dt>
 <dd>
-
-
-<p>Storage Type</p>
-
-
-
-
 
     
 	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
-	</p>
-	
-</dd>
-                            
-                            <dt><a name="" title="AVStorageTypeQCloud"></a><code>AVStorageTypeQCloud</code></dt>
-<dd>
-
-
-<p>Storage Type</p>
-
-
-
-
-
-    
-	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
-	</p>
-	
-</dd>
-                            
-                            <dt><a name="" title="AVStorageTypeDefault"></a><code>AVStorageTypeDefault</code></dt>
-<dd>
-
-
-<p>Storage Type</p>
-
-
-
-
-
-    
-	<p>
-		Declared In <code class="declared-in-ref">AVOSCloud.h</code>.
+		Declared In <code class="declared-in-ref">AVIMMessageOption.h</code>.
 	</p>
 	
 </dd>
@@ -194,17 +129,6 @@
                         </dl>
                     </div>
                     
-                    
-                    
-                    
-
-                    
-                    
-                    
-                    <div class="method-subsection declared-in-section">
-                        <h4 class="method-subtitle">Declared In</h4>
-                        <code class="declared-in-ref">AVOSCloud.h</code><br />
-                    </div>				
                     
                     
                     

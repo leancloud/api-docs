@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -126,6 +126,8 @@
 	<option value="//api/name/save">&nbsp;&nbsp;&nbsp;&nbsp;- save</option>
 	
 	<option value="//api/name/save:">&nbsp;&nbsp;&nbsp;&nbsp;- save:</option>
+	
+	<option value="//api/name/saveAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- saveAndThrowsWithError:</option>
 	
 	<option value="//api/name/saveInBackground">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackground</option>
 	
@@ -263,6 +265,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/save:">save:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveAndThrowsWithError:">saveAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackground">saveInBackground</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithBlock:">saveInBackgroundWithBlock:</a></span></li>
@@ -300,6 +304,9 @@
 						<tr>
 	<td class="specification-title">Inherits from</td>
 	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding</td>
 </tr><tr>
 	<td class="specification-title">Declared in</td>
 	<td class="specification-value">AVFile.h</td>
@@ -424,6 +431,12 @@ that an application needs to reference in a non-relational way.</p>
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/save:">&ndash;&nbsp;save:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveAndThrowsWithError:">&ndash;&nbsp;saveAndThrowsWithError:</a></code>
 	</span>
 	
 	
@@ -656,7 +669,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readwrite, strong) NSMutableDictionary *AVDeprecated ( &quot;2.6.1以后请使用metaData&quot; )</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSMutableDictionary *AV_DEPRECATED ( &quot;2.6.1以后请使用metaData&quot; )</code></div>
 
     
 	
@@ -697,7 +710,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AVACL *ACL</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVACL *ACL</code></div>
 
     
 	
@@ -738,7 +751,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy) NSString *bucket</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *bucket</code></div>
 
     
 	
@@ -820,7 +833,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readonly) BOOL isDirty</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) BOOL isDirty</code></div>
 
     
 	
@@ -861,7 +874,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readwrite, strong) NSMutableDictionary *metaData</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSMutableDictionary *metaData</code></div>
 
     
 	
@@ -902,7 +915,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy) NSString *name</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *name</code></div>
 
     
 	
@@ -943,7 +956,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readwrite, copy) NSString *objectId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *objectId</code></div>
 
     
 	
@@ -984,7 +997,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readonly) NSString *url</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *url</code></div>
 
     
 	
@@ -1247,7 +1260,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(NSString *)<em>name</em> contentsAtPath:(NSString *)<em>path</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(nullable NSString *)<em>name</em> contentsAtPath:(NSString *)<em>path</em></code></div>
 
     
 	
@@ -1303,7 +1316,7 @@ that an application needs to reference in a non-relational way.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(NSString *)<em>name</em> data:(NSData *)<em>data</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(nullable NSString *)<em>name</em> data:(NSData *)<em>data</em></code></div>
 
     
 	
@@ -1700,7 +1713,7 @@ servers.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSData *)getData</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSData *)getData</code></div>
 
     
 	
@@ -1748,7 +1761,7 @@ servers. Sets an error if it occurs.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSData *)getData:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSData *)getData:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -1860,7 +1873,7 @@ completion or error. Executes the progressBlock periodically with the percent pr
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(AVDataResultBlock)<em>resultBlock</em> progressBlock:(AVProgressBlock)<em>progressBlock</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(AVDataResultBlock)<em>resultBlock</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
 
     
 	
@@ -1978,7 +1991,7 @@ avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSInputStream *)getDataStream</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSInputStream *)getDataStream</code></div>
 
     
 	
@@ -2029,7 +2042,7 @@ avoid memory warnings. Sets an error if it occurs.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSInputStream *)getDataStream:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSInputStream *)getDataStream:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -2145,7 +2158,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)getDataStreamInBackgroundWithBlock:(AVDataStreamResultBlock)<em>resultBlock</em> progressBlock:(AVProgressBlock)<em>progressBlock</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)getDataStreamInBackgroundWithBlock:(AVDataStreamResultBlock)<em>resultBlock</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
 
     
 	
@@ -2269,7 +2282,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em></code></div>
 
     
 	
@@ -2330,7 +2343,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> quality:(int)<em>quality</em> format:(NSString *)<em>format</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> quality:(int)<em>quality</em> format:(nullable NSString *)<em>format</em></code></div>
 
     
 	
@@ -2401,7 +2414,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)localPath</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)localPath</code></div>
 
     
 	
@@ -2442,7 +2455,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)ownerId</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)ownerId</code></div>
 
     
 	
@@ -2483,7 +2496,7 @@ applications with many large AVFiles avoid memory warnings.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (NSString *)pathExtension</code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)pathExtension</code></div>
 
     
 	
@@ -2615,6 +2628,49 @@ applications with many large AVFiles avoid memory warnings.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/saveAndThrowsWithError:" title="saveAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">saveAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/save:"><code>[AVFile save:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/save:"><code>[AVFile save:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)saveAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/save:"><code>[AVFile save:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/save:"><code>[AVFile save:]</code></a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVFile.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/saveInBackground" title="saveInBackground"></a>
 	<h3 class="subsubtitle method-title">saveInBackground</h3>
 	
@@ -2631,11 +2687,6 @@ applications with many large AVFiles avoid memory warnings.</p>
     
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>whether the <a href="#//api/name/save">save</a> succeeded.</p>
-	</div>
 	
 	
 	
@@ -2724,7 +2775,7 @@ progress. progressBlock will get called with 100 before resultBlock is called.</
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em> progressBlock:(AVProgressBlock)<em>progressBlock</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
 
     
 	
@@ -2837,7 +2888,7 @@ progress. progressBlock will get called with 100 before resultBlock is called.</
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)setOwnerId:(NSString *)<em>ownerId</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)setOwnerId:(nullable NSString *)<em>ownerId</em></code></div>
 
     
 	
@@ -2935,9 +2986,9 @@ progress. progressBlock will get called with 100 before resultBlock is called.</
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

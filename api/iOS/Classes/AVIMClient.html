@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -89,6 +89,10 @@
 	
 	<option value="//api/name/openWithClientId:tag:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithClientId:tag:callback:</option>
 	
+	<option value="//api/name/openWithOption:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithOption:callback:</option>
+	
+	<option value="//api/name/queryOnlineClientsInClients:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- queryOnlineClientsInClients:callback:</option>
+	
 	
 	
 </select>
@@ -102,6 +106,8 @@
 
 
 <li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AVDeprecated Methods">AVDeprecated Methods</a></span></li>
 	
 </ul></li>
 
@@ -165,6 +171,10 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithClientId:tag:callback:">openWithClientId:tag:callback:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithOption:callback:">openWithOption:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryOnlineClientsInClients:callback:">queryOnlineClientsInClients:callback:</a></span></li>
+	
 </ul></li>
 
 
@@ -207,7 +217,7 @@
 						
 						
 						
-						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
 
 						<ul class="task-list">
 							<li>
@@ -230,13 +240,13 @@
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
+		<code><a href="#//api/name/tag">&nbsp;&nbsp;tag</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/tag">&nbsp;&nbsp;tag</a></code>
+		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
@@ -290,13 +300,7 @@
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/openWithClientId:callback:">&ndash;&nbsp;openWithClientId:callback:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/openWithClientId:tag:callback:">&ndash;&nbsp;openWithClientId:tag:callback:</a></code>
+		<code><a href="#//api/name/openWithOption:callback:">&ndash;&nbsp;openWithOption:callback:</a></code>
 	</span>
 	
 	
@@ -336,6 +340,32 @@
 	</span>
 	
 	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryOnlineClientsInClients:callback:">&ndash;&nbsp;queryOnlineClientsInClients:callback:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
+						<h3 class="subsubtitle task-title">AVDeprecated Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/openWithClientId:callback:">&ndash;&nbsp;openWithClientId:callback:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/openWithClientId:tag:callback:">&ndash;&nbsp;openWithClientId:tag:callback:</a></code>
+	</span>
+	
+	
 </li>
 						</ul>
 						
@@ -361,7 +391,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy) NSString *clientId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *clientId</code></div>
 
     
 	
@@ -402,7 +432,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;AVIMClientDelegate&gt; delegate</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, nullable) id&lt;AVIMClientDelegate&gt; delegate</code></div>
 
     
 	
@@ -484,7 +514,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;AVIMSignatureDataSource&gt; signatureDataSource</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, nullable) id&lt;AVIMSignatureDataSource&gt; signatureDataSource</code></div>
 
     
 	
@@ -559,10 +589,40 @@
 	<h3 class="subsubtitle method-title">tag</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>If tag is not nil and &ldquo;default&rdquo;, offline mechanism is enabled.</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy) NSString *tag</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *tag</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Tag of current client.</p><p>If one client id login on two different devices, previous opened client will be gone offline by later opened client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMClient.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -802,11 +862,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
-	
 	
 	
 	
@@ -843,7 +898,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (AVIMConversation *)conversationForId:(NSString *)<em>conversationId</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable AVIMConversation *)conversationForId:(NSString *)<em>conversationId</em></code></div>
 
     
 	
@@ -1003,7 +1058,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)createConversationWithName:(NSString *)<em>name</em> clientIds:(NSArray *)<em>clientIds</em> attributes:(NSDictionary *)<em>attributes</em> options:(AVIMConversationOption)<em>options</em> callback:(AVIMConversationResultBlock)<em>callback</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)createConversationWithName:(NSString *)<em>name</em> clientIds:(NSArray *)<em>clientIds</em> attributes:(nullable NSDictionary *)<em>attributes</em> options:(AVIMConversationOption)<em>options</em> callback:(AVIMConversationResultBlock)<em>callback</em></code></div>
 
     
 	
@@ -1047,11 +1102,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
 	
 	
 	
@@ -1121,11 +1171,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
 	
 	
 	
@@ -1214,7 +1259,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (instancetype)initWithClientId:(NSString *)<em>clientId</em> tag:(NSString *)<em>tag</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithClientId:(NSString *)<em>clientId</em> tag:(nullable NSString *)<em>tag</em></code></div>
 
     
 	
@@ -1286,11 +1331,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
-	
 	
 	
 	
@@ -1319,14 +1359,36 @@
 	<h3 class="subsubtitle method-title">openWithClientId:callback:</h3>
 	
 	
+
+	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/openWithClientId:tag:callback:" title="openWithClientId:tag:callback:"></a>
+	<h3 class="subsubtitle method-title">openWithClientId:tag:callback:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> tag:(nullable NSString *)<em>tag</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/openWithOption:callback:" title="openWithOption:callback:"></a>
+	<h3 class="subsubtitle method-title">openWithOption:callback:</h3>
+	
+	
 	
 	<div class="method-subsection brief-description">
-		<p>开启某个账户的聊天</p>
+		<p>Open client with option of which the properties will override client&rsquo;s default option.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)openWithOption:(nullable AVIMClientOpenOption *)<em>option</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
 
     
 	
@@ -1334,26 +1396,18 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>clientId</em></dt>
-			<dd><ul>
-<li>操作发起人的 id，以后使用该账户的所有聊天行为，都由此人发起。</li>
-</ul>
-</dd>
+			<dt><em>option</em></dt>
+			<dd><p>Option to open client.</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
 			<dt><em>callback</em></dt>
-			<dd><p>－ 聊天开启之后的回调</p></dd>
+			<dd><p>Callback for openning client.</p></dd>
 		</dl>
 		
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
 	
 	
 	
@@ -1361,7 +1415,7 @@
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>开启某个账户的聊天</p>
+		<p>Open client with option.</p>
 	</div>
 	
 	
@@ -1379,18 +1433,18 @@
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/openWithClientId:tag:callback:" title="openWithClientId:tag:callback:"></a>
-	<h3 class="subsubtitle method-title">openWithClientId:tag:callback:</h3>
+	<a name="//api/name/queryOnlineClientsInClients:callback:" title="queryOnlineClientsInClients:callback:"></a>
+	<h3 class="subsubtitle method-title">queryOnlineClientsInClients:callback:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>开启某个账户的聊天。</p>
+		<p>Query online clients within the given array of clients.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> tag:(NSString *)<em>tag</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)queryOnlineClientsInClients:(NSArray&lt;NSString*&gt; *)<em>clients</em> callback:(AVIMArrayResultBlock)<em>callback</em></code></div>
 
     
 	
@@ -1398,28 +1452,18 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>clientId</em></dt>
-			<dd><p>操作发起人的 id，以后使用该账户的所有聊天行为，都由此人发起。</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>tag</em></dt>
-			<dd><p>单点登录的 tag，如果为 nil 或 &ldquo;default&rdquo; 表示允许多点登录，否则会把当前在线的且 <a href="#//api/name/tag">tag</a> 相同的其他设备踢下线。</p></dd>
+			<dt><em>clients</em></dt>
+			<dd><p>An array of clients you want to query.</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
 			<dt><em>callback</em></dt>
-			<dd><p>聊天开启之后的回调。</p></dd>
+			<dd><p>The callback of query.</p></dd>
 		</dl>
 		
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>None.</p>
-	</div>
 	
 	
 	
@@ -1427,7 +1471,7 @@
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>开启某个账户的聊天。</p>
+		<p>Query online clients within the given array of clients.</p><div class="note"><p><strong>Note:</strong> Currently, It only supports to query 20 clients at most.</p></div>
 	</div>
 	
 	
@@ -1462,9 +1506,9 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

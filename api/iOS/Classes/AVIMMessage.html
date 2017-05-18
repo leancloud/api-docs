@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -49,6 +49,8 @@
 	
 	<option value="//api/name/messageId">&nbsp;&nbsp;&nbsp;&nbsp;messageId</option>
 	
+	<option value="//api/name/readTimestamp">&nbsp;&nbsp;&nbsp;&nbsp;readTimestamp</option>
+	
 	<option value="//api/name/sendTimestamp">&nbsp;&nbsp;&nbsp;&nbsp;sendTimestamp</option>
 	
 	<option value="//api/name/status">&nbsp;&nbsp;&nbsp;&nbsp;status</option>
@@ -63,6 +65,11 @@
 	<option value="//api/name/messageWithContent:">&nbsp;&nbsp;&nbsp;&nbsp;+ messageWithContent:</option>
 	
 	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/payload">&nbsp;&nbsp;&nbsp;&nbsp;- payload</option>
 	
 	
 	
@@ -98,6 +105,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageId">messageId</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/readTimestamp">readTimestamp</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendTimestamp">sendTimestamp</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/status">status</a></span></li>
@@ -115,6 +124,12 @@
 </ul></li>
 
 
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/payload">payload</a></span></li>
+	
+</ul></li>
 
 
 			</ul>
@@ -212,9 +227,21 @@
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/readTimestamp">&nbsp;&nbsp;readTimestamp</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/transient">&nbsp;&nbsp;transient</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/payload">&ndash;&nbsp;payload</a></code>
+	</span>
+	
 	
 </li><li>
 	<span class="tooltip">
@@ -240,10 +267,40 @@
 	<h3 class="subsubtitle method-title">clientId</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>消息发送/接收方 id</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *clientId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *clientId</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息发送/接收方 id</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -251,10 +308,40 @@
 	<h3 class="subsubtitle method-title">content</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>消息文本</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *content</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *content</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息文本</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -262,10 +349,40 @@
 	<h3 class="subsubtitle method-title">conversationId</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>消息所属对话的 id</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *conversationId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *conversationId</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息所属对话的 id</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -273,10 +390,40 @@
 	<h3 class="subsubtitle method-title">deliveredTimestamp</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>接收时间（精确到毫秒）</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t deliveredTimestamp</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) int64_t deliveredTimestamp</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>接收时间（精确到毫秒）</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -284,10 +431,40 @@
 	<h3 class="subsubtitle method-title">ioType</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>表示接收和发出的消息</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) AVIMMessageIOType ioType</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) AVIMMessageIOType ioType</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>表示接收和发出的消息</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -295,10 +472,81 @@
 	<h3 class="subsubtitle method-title">messageId</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>消息 id</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *messageId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *messageId</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>消息 id</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/readTimestamp" title="readTimestamp"></a>
+	<h3 class="subsubtitle method-title">readTimestamp</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>被标记为已读的时间（精确到毫秒）</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) int64_t readTimestamp</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>被标记为已读的时间（精确到毫秒）</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -306,10 +554,40 @@
 	<h3 class="subsubtitle method-title">sendTimestamp</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>发送时间（精确到毫秒）</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t sendTimestamp</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) int64_t sendTimestamp</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>发送时间（精确到毫秒）</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -317,10 +595,40 @@
 	<h3 class="subsubtitle method-title">status</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>表示消息状态</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVIMMessageStatus status</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) AVIMMessageStatus status</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>表示消息状态</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -328,10 +636,40 @@
 	<h3 class="subsubtitle method-title">transient</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>是否是暂态消息</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL transient</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL transient</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>是否是暂态消息</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -397,6 +735,23 @@
 					
 					
 					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/payload" title="payload"></a>
+	<h3 class="subsubtitle method-title">payload</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (nullable NSString *)payload</code></div>
+
+    
+</div>
+						
+					</div>
+					
 					
                     
                     
@@ -413,9 +768,9 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

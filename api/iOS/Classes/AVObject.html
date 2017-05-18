@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -84,7 +84,11 @@
 	
 	<option value="//api/name/objectWithClassName:dictionary:">&nbsp;&nbsp;&nbsp;&nbsp;+ objectWithClassName:dictionary:</option>
 	
+	<option value="//api/name/objectWithClassName:objectId:">&nbsp;&nbsp;&nbsp;&nbsp;+ objectWithClassName:objectId:</option>
+	
 	<option value="//api/name/objectWithDictionary:">&nbsp;&nbsp;&nbsp;&nbsp;+ objectWithDictionary:</option>
+	
+	<option value="//api/name/objectWithObjectId:">&nbsp;&nbsp;&nbsp;&nbsp;+ objectWithObjectId:</option>
 	
 	<option value="//api/name/objectWithoutDataWithClassName:objectId:">&nbsp;&nbsp;&nbsp;&nbsp;+ objectWithoutDataWithClassName:objectId:</option>
 	
@@ -125,6 +129,8 @@
 	
 	<option value="//api/name/delete:">&nbsp;&nbsp;&nbsp;&nbsp;- delete:</option>
 	
+	<option value="//api/name/deleteAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteAndThrowsWithError:</option>
+	
 	<option value="//api/name/deleteEventually">&nbsp;&nbsp;&nbsp;&nbsp;- deleteEventually</option>
 	
 	<option value="//api/name/deleteEventuallyWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteEventuallyWithBlock:</option>
@@ -141,9 +147,13 @@
 	
 	<option value="//api/name/fetch:">&nbsp;&nbsp;&nbsp;&nbsp;- fetch:</option>
 	
+	<option value="//api/name/fetchAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- fetchAndThrowsWithError:</option>
+	
 	<option value="//api/name/fetchIfNeeded">&nbsp;&nbsp;&nbsp;&nbsp;- fetchIfNeeded</option>
 	
 	<option value="//api/name/fetchIfNeeded:">&nbsp;&nbsp;&nbsp;&nbsp;- fetchIfNeeded:</option>
+	
+	<option value="//api/name/fetchIfNeededAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- fetchIfNeededAndThrowsWithError:</option>
 	
 	<option value="//api/name/fetchIfNeededInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- fetchIfNeededInBackgroundWithBlock:</option>
 	
@@ -181,6 +191,8 @@
 	
 	<option value="//api/name/refresh:">&nbsp;&nbsp;&nbsp;&nbsp;- refresh:</option>
 	
+	<option value="//api/name/refreshAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshAndThrowsWithError:</option>
+	
 	<option value="//api/name/refreshInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshInBackgroundWithBlock:</option>
 	
 	<option value="//api/name/refreshInBackgroundWithKeys:block:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshInBackgroundWithKeys:block:</option>
@@ -188,6 +200,8 @@
 	<option value="//api/name/refreshInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshInBackgroundWithTarget:selector:</option>
 	
 	<option value="//api/name/refreshWithKeys:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshWithKeys:</option>
+	
+	<option value="//api/name/relationForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- relationForKey:</option>
 	
 	<option value="//api/name/relationforKey:">&nbsp;&nbsp;&nbsp;&nbsp;- relationforKey:</option>
 	
@@ -201,6 +215,8 @@
 	
 	<option value="//api/name/save:">&nbsp;&nbsp;&nbsp;&nbsp;- save:</option>
 	
+	<option value="//api/name/saveAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- saveAndThrowsWithError:</option>
+	
 	<option value="//api/name/saveEventually">&nbsp;&nbsp;&nbsp;&nbsp;- saveEventually</option>
 	
 	<option value="//api/name/saveEventually:">&nbsp;&nbsp;&nbsp;&nbsp;- saveEventually:</option>
@@ -209,7 +225,17 @@
 	
 	<option value="//api/name/saveInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithBlock:</option>
 	
+	<option value="//api/name/saveInBackgroundWithOption:block:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithOption:block:</option>
+	
+	<option value="//api/name/saveInBackgroundWithOption:eventually:block:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithOption:eventually:block:</option>
+	
+	<option value="//api/name/saveInBackgroundWithOption:target:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithOption:target:selector:</option>
+	
 	<option value="//api/name/saveInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithTarget:selector:</option>
+	
+	<option value="//api/name/saveWithOption:error:">&nbsp;&nbsp;&nbsp;&nbsp;- saveWithOption:error:</option>
+	
+	<option value="//api/name/saveWithOption:eventually:error:">&nbsp;&nbsp;&nbsp;&nbsp;- saveWithOption:eventually:error:</option>
 	
 	<option value="//api/name/setObject:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setObject:forKey:</option>
 	
@@ -244,6 +270,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Getting Many Objects from LeanCloud">Getting Many Objects from LeanCloud</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Removing an Object from LeanCloud">Removing an Object from LeanCloud</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AVDeprecated Methods">AVDeprecated Methods</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Subclass Methods">Subclass Methods</a></span></li>
 	
@@ -301,7 +329,11 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectWithClassName:dictionary:">objectWithClassName:dictionary:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectWithClassName:objectId:">objectWithClassName:objectId:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectWithDictionary:">objectWithDictionary:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectWithObjectId:">objectWithObjectId:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectWithoutDataWithClassName:objectId:">objectWithoutDataWithClassName:objectId:</a></span></li>
 	
@@ -343,6 +375,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delete:">delete:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteAndThrowsWithError:">deleteAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteEventually">deleteEventually</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteEventuallyWithBlock:">deleteEventuallyWithBlock:</a></span></li>
@@ -359,9 +393,13 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetch:">fetch:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchAndThrowsWithError:">fetchAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchIfNeeded:">fetchIfNeeded:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchIfNeededAndThrowsWithError:">fetchIfNeededAndThrowsWithError:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fetchIfNeededInBackgroundWithBlock:">fetchIfNeededInBackgroundWithBlock:</a></span></li>
 	
@@ -399,6 +437,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refresh:">refresh:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshAndThrowsWithError:">refreshAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshInBackgroundWithBlock:">refreshInBackgroundWithBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshInBackgroundWithKeys:block:">refreshInBackgroundWithKeys:block:</a></span></li>
@@ -406,6 +446,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshInBackgroundWithTarget:selector:">refreshInBackgroundWithTarget:selector:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshWithKeys:">refreshWithKeys:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/relationForKey:">relationForKey:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/relationforKey:">relationforKey:</a></span></li>
 	
@@ -419,6 +461,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/save:">save:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveAndThrowsWithError:">saveAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveEventually">saveEventually</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveEventually:">saveEventually:</a></span></li>
@@ -427,7 +471,17 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithBlock:">saveInBackgroundWithBlock:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithOption:block:">saveInBackgroundWithOption:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithOption:eventually:block:">saveInBackgroundWithOption:eventually:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithOption:target:selector:">saveInBackgroundWithOption:target:selector:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithTarget:selector:">saveInBackgroundWithTarget:selector:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveWithOption:error:">saveWithOption:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveWithOption:eventually:error:">saveWithOption:eventually:error:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setObject:forKey:">setObject:forKey:</a></span></li>
 	
@@ -459,6 +513,9 @@
 	<td class="specification-title">Inherits from</td>
 	<td class="specification-value">NSObject</td>
 </tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding</td>
+</tr><tr>
 	<td class="specification-title">Declared in</td>
 	<td class="specification-value">AVObject.h</td>
 </tr>
@@ -478,24 +535,7 @@ main class that is used to interact with objects in your app.</p>
 
 <p>Developers can subclass AVObject for a more native object-oriented class structure. Strongly-typed subclasses of AVObject must conform to the AVSubclassing protocol and must call registerSubclass to be returned by AVQuery and other AVObject factories. All methods in AVSubclassing except for <a href="../Protocols/AVSubclassing.html#//api/name/parseClassName">[AVSubclassing parseClassName]</a> are already implemented in the AVObject(Subclass) category. Inculding AVObject+Subclass.h in your implementation file provides these implementations automatically.</p>
 
-<p>Subclasses support simpler initializers, <a href="#//api/name/query">query</a> syntax, and dynamic synthesizers. The following shows an example subclass:</p>
-
-<p>@interface MYGame : AVObject&lt; <a href="../Protocols/AVSubclassing.html">AVSubclassing</a> >
-// Accessing this property is the same as objectForKey:@&ldquo;title&rdquo;
-@property (retain) NSString <em>title;
-+ (NSString </em>)parseClassName;
-@end</p>
-
-<p>@implementation MYGame
-@dynamic title;
-+ (NSString *)parseClassName {
-return @&ldquo;Game&rdquo;;
-}
-@end</p>
-
-<p>MYGame *game = [[MYGame alloc] init];
-game.title = @&ldquo;Bughouse&rdquo;;
-[game saveInBackground];</p>
+<p>Subclasses support simpler initializers, <a href="#//api/name/query">query</a> syntax, and dynamic synthesizers.</p>
 					</div>
 					
 					
@@ -505,6 +545,20 @@ game.title = @&ldquo;Bughouse&rdquo;;
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
 						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/objectWithObjectId:">+&nbsp;objectWithObjectId:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
 						
 						<a title="Creating a AVObject" name="task_Creating a AVObject"></a>
@@ -519,7 +573,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/objectWithoutDataWithClassName:objectId:">+&nbsp;objectWithoutDataWithClassName:objectId:</a></code>
+		<code><a href="#//api/name/objectWithClassName:objectId:">+&nbsp;objectWithClassName:objectId:</a></code>
 	</span>
 	
 	
@@ -617,7 +671,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/relationforKey:">&ndash;&nbsp;relationforKey:</a></code>
+		<code><a href="#//api/name/relationForKey:">&ndash;&nbsp;relationForKey:</a></code>
 	</span>
 	
 	
@@ -691,6 +745,24 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/saveAndThrowsWithError:">&ndash;&nbsp;saveAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveWithOption:error:">&ndash;&nbsp;saveWithOption:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveWithOption:eventually:error:">&ndash;&nbsp;saveWithOption:eventually:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/saveInBackground">&ndash;&nbsp;saveInBackground</a></code>
 	</span>
 	
@@ -703,7 +775,25 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/saveInBackgroundWithOption:block:">&ndash;&nbsp;saveInBackgroundWithOption:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveInBackgroundWithOption:eventually:block:">&ndash;&nbsp;saveInBackgroundWithOption:eventually:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/saveInBackgroundWithTarget:selector:">&ndash;&nbsp;saveInBackgroundWithTarget:selector:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveInBackgroundWithOption:target:selector:">&ndash;&nbsp;saveInBackgroundWithOption:target:selector:</a></code>
 	</span>
 	
 	
@@ -791,6 +881,12 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/refreshAndThrowsWithError:">&ndash;&nbsp;refreshAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/refreshInBackgroundWithBlock:">&ndash;&nbsp;refreshInBackgroundWithBlock:</a></code>
 	</span>
 	
@@ -821,6 +917,12 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/fetchAndThrowsWithError:">&ndash;&nbsp;fetchAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/fetchWithKeys:">&ndash;&nbsp;fetchWithKeys:</a></code>
 	</span>
 	
@@ -840,6 +942,12 @@ game.title = @&ldquo;Bughouse&rdquo;;
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/fetchIfNeeded:">&ndash;&nbsp;fetchIfNeeded:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fetchIfNeededAndThrowsWithError:">&ndash;&nbsp;fetchIfNeededAndThrowsWithError:</a></code>
 	</span>
 	
 	
@@ -963,6 +1071,12 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/deleteAndThrowsWithError:">&ndash;&nbsp;deleteAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/deleteInBackground">&ndash;&nbsp;deleteInBackground</a></code>
 	</span>
 	
@@ -1037,6 +1151,32 @@ game.title = @&ldquo;Bughouse&rdquo;;
 						</ul>
 						
 						
+						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
+						<h3 class="subsubtitle task-title">AVDeprecated Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/objectWithoutDataWithClassName:objectId:">+&nbsp;objectWithoutDataWithClassName:objectId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/relationforKey:">&ndash;&nbsp;relationforKey:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
 						<a title="Subclass Methods" name="task_Subclass Methods"></a>
 						<h3 class="subsubtitle task-title">Subclass Methods</h3>
 
@@ -1044,12 +1184,6 @@ game.title = @&ldquo;Bughouse&rdquo;;
 							<li>
 	<span class="tooltip">
 		<code><a href="#//api/name/object">+&nbsp;object</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
 	</span>
 	
 	
@@ -1090,7 +1224,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) AVACL *ACL</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVACL *ACL</code></div>
 
     
 	
@@ -1131,7 +1265,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (readonly) NSString *className</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *className</code></div>
 
     
 	
@@ -1172,7 +1306,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSDate *createdAt</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) NSDate *createdAt</code></div>
 
     
 	
@@ -1224,7 +1358,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *objectId</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *objectId</code></div>
 
     
 	
@@ -1265,7 +1399,7 @@ game.title = @&ldquo;Bughouse&rdquo;;
 	
     
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSDate *updatedAt</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) NSDate *updatedAt</code></div>
 
     
 	
@@ -2103,6 +2237,69 @@ A default implementation is provided by AVObject which should always be sufficie
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/objectWithClassName:objectId:" title="objectWithClassName:objectId:"></a>
+	<h3 class="subsubtitle method-title">objectWithClassName:objectId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>className</em></dt>
+			<dd><p>The object&rsquo;s class name.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>objectId</em></dt>
+			<dd><p>The <a href="#//api/name/object">object</a> ID for the referenced <a href="#//api/name/object">object</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An <a href="#//api/name/object">object</a> with the given class name and <a href="#//api/name/object">object</a> ID.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.</p>
+
+<p>Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this <a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/objectWithDictionary:" title="objectWithDictionary:"></a>
 	<h3 class="subsubtitle method-title">objectWithDictionary:</h3>
 	
@@ -2114,7 +2311,7 @@ A default implementation is provided by AVObject which should always be sufficie
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (AVObject *)objectWithDictionary:(NSDictionary *)<em>dictionary</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable AVObject *)objectWithDictionary:(NSDictionary *)<em>dictionary</em></code></div>
 
     
 	
@@ -2154,19 +2351,18 @@ A default implementation is provided by AVObject which should always be sufficie
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/objectWithoutDataWithClassName:objectId:" title="objectWithoutDataWithClassName:objectId:"></a>
-	<h3 class="subsubtitle method-title">objectWithoutDataWithClassName:objectId:</h3>
+	<a name="//api/name/objectWithObjectId:" title="objectWithObjectId:"></a>
+	<h3 class="subsubtitle method-title">objectWithObjectId:</h3>
 	
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
-<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.</p>
+		<p>Creates a reference to an existing AVObject with an <a href="#//api/name/object">object</a> ID.</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithObjectId:(NSString *)<em>objectId</em></code></div>
 
     
 	
@@ -2174,13 +2370,8 @@ A default implementation is provided by AVObject which should always be sufficie
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>className</em></dt>
-			<dd><p>The object&rsquo;s class.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
 			<dt><em>objectId</em></dt>
-			<dd><p>The <a href="#//api/name/object">object</a> id for the referenced <a href="#//api/name/object">object</a>.</p></dd>
+			<dd><p>The <a href="#//api/name/object">object</a> ID.</p></dd>
 		</dl>
 		
 	</div>
@@ -2189,7 +2380,7 @@ A default implementation is provided by AVObject which should always be sufficie
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A AVObject without data.</p>
+		<p>An <a href="#//api/name/object">object</a> with the given <a href="#//api/name/object">object</a> ID.</p>
 	</div>
 	
 	
@@ -2198,8 +2389,9 @@ A default implementation is provided by AVObject which should always be sufficie
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
-<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.</p>
+		<p>Creates a reference to an existing AVObject with an <a href="#//api/name/object">object</a> ID.</p>
+
+<p>Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this <a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.</p>
 	</div>
 	
 	
@@ -2217,65 +2409,25 @@ A default implementation is provided by AVObject which should always be sufficie
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/objectWithoutDataWithClassName:objectId:" title="objectWithoutDataWithClassName:objectId:"></a>
+	<h3 class="subsubtitle method-title">objectWithoutDataWithClassName:objectId:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/objectWithoutDataWithObjectId:" title="objectWithoutDataWithObjectId:"></a>
 	<h3 class="subsubtitle method-title">objectWithoutDataWithObjectId:</h3>
 	
 	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
-<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.
-This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
-A default implementation is provided by AVObject which should always be sufficient.</p>
-	</div>		
-	
-    
 
 	<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithObjectId:(NSString *)<em>objectId</em></code></div>
 
     
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>objectId</em></dt>
-			<dd><p>The <a href="#//api/name/object">object</a> id for the referenced <a href="#//api/name/object">object</a>.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A AVObject without data.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a reference to an existing AVObject for use in creating associations between AVObjects.  Calling <a href="#//api/name/isDataAvailable">isDataAvailable</a> on this
-<a href="#//api/name/object">object</a> will return NO until <a href="#//api/name/fetchIfNeeded">fetchIfNeeded</a> or <a href="#//api/name/refresh">refresh</a> has been called.  No network request will be made.
-This method can only be called on subclasses which conform to <a href="../Protocols/AVSubclassing.html">AVSubclassing</a>.
-A default implementation is provided by AVObject which should always be sufficient.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVObject+Subclass.h</code><br />
-	</div>				
-	
-	
 </div>
 						
 						<div class="section-method">
@@ -3096,6 +3248,49 @@ and <a href="#//api/name/ACL">ACL</a>.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/deleteAndThrowsWithError:" title="deleteAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">deleteAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/delete:"><code>[AVObject delete:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/delete:"><code>[AVObject delete:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)deleteAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/delete:"><code>[AVObject delete:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/delete:"><code>[AVObject delete:]</code></a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/deleteEventually" title="deleteEventually"></a>
 	<h3 class="subsubtitle method-title">deleteEventually</h3>
 	
@@ -3485,6 +3680,49 @@ connection can be re-established, and the queued requests can go through.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/fetchAndThrowsWithError:" title="fetchAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">fetchAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/fetch:"><code>[AVObject fetch:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/fetch:"><code>[AVObject fetch:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)fetchAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/fetch:"><code>[AVObject fetch:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/fetch:"><code>[AVObject fetch:]</code></a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/fetchIfNeeded" title="fetchIfNeeded"></a>
 	<h3 class="subsubtitle method-title">fetchIfNeeded</h3>
 	
@@ -3560,6 +3798,49 @@ connection can be re-established, and the queued requests can go through.</p>
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Fetches the AVObject&rsquo;s data from the server if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fetchIfNeededAndThrowsWithError:" title="fetchIfNeededAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">fetchIfNeededAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/fetchIfNeeded:"><code>[AVObject fetchIfNeeded:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/fetchIfNeeded:"><code>[AVObject fetchIfNeeded:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/fetchIfNeeded:"><code>[AVObject fetchIfNeeded:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/fetchIfNeeded:"><code>[AVObject fetchIfNeeded:]</code></a></p>
 	</div>
 	
 	
@@ -3695,7 +3976,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(NSArray *)<em>keys</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(nullable NSArray *)<em>keys</em></code></div>
 
     
 	
@@ -3746,7 +4027,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (AVObject *)fetchIfNeededWithKeys:(nullable NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -3853,7 +4134,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithKeys:(NSArray *)<em>keys</em> block:(AVObjectResultBlock)<em>block</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithKeys:(nullable NSArray *)<em>keys</em> block:(AVObjectResultBlock)<em>block</em></code></div>
 
     
 	
@@ -3965,7 +4246,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)fetchWithKeys:(NSArray *)<em>keys</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)fetchWithKeys:(nullable NSArray *)<em>keys</em></code></div>
 
     
 	
@@ -4016,7 +4297,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (BOOL)fetchWithKeys:(NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (BOOL)fetchWithKeys:(nullable NSArray *)<em>keys</em> error:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -4286,7 +4567,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (id)objectForKey:(NSString *)<em>key</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable id)objectForKey:(NSString *)<em>key</em></code></div>
 
     
 	
@@ -4345,7 +4626,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (id)objectForKeyedSubscript:(NSString *)<em>key</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (nullable id)objectForKeyedSubscript:(NSString *)<em>key</em></code></div>
 
     
 	
@@ -4519,6 +4800,49 @@ connection can be re-established, and the queued requests can go through.</p>
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Refreshes the AVObject with the current data from the server and sets an error if it occurs.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refreshAndThrowsWithError:" title="refreshAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">refreshAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/refresh:"><code>[AVObject refresh:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/refresh:"><code>[AVObject refresh:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)refreshAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/refresh:"><code>[AVObject refresh:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/refresh:"><code>[AVObject refresh:]</code></a></p>
 	</div>
 	
 	
@@ -4750,8 +5074,8 @@ connection can be re-established, and the queued requests can go through.</p>
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/relationforKey:" title="relationforKey:"></a>
-	<h3 class="subsubtitle method-title">relationforKey:</h3>
+	<a name="//api/name/relationForKey:" title="relationForKey:"></a>
+	<h3 class="subsubtitle method-title">relationForKey:</h3>
 	
 	
 	
@@ -4761,7 +5085,7 @@ connection can be re-established, and the queued requests can go through.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (AVRelation *)relationforKey:(NSString *)<em>key</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (AVRelation *)relationForKey:(NSString *)<em>key</em></code></div>
 
     
 	
@@ -4798,6 +5122,17 @@ connection can be re-established, and the queued requests can go through.</p>
 	</div>				
 	
 	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/relationforKey:" title="relationforKey:"></a>
+	<h3 class="subsubtitle method-title">relationforKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (AVRelation *)relationforKey:(NSString *)<em>key</em></code></div>
+
+    
 </div>
 						
 						<div class="section-method">
@@ -5070,6 +5405,49 @@ array associated with a given key.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/saveAndThrowsWithError:" title="saveAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">saveAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/save:"><code>[AVObject save:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/save:"><code>[AVObject save:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)saveAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/save:"><code>[AVObject save:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/save:"><code>[AVObject save:]</code></a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/saveEventually" title="saveEventually"></a>
 	<h3 class="subsubtitle method-title">saveEventually</h3>
 	
@@ -5271,6 +5649,184 @@ can be saved.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/saveInBackgroundWithOption:block:" title="saveInBackgroundWithOption:block:"></a>
+	<h3 class="subsubtitle method-title">saveInBackgroundWithOption:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the AVObject with option asynchronously and executes the given callback block.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithOption:(nullable AVSaveOption *)<em>option</em> block:(AVBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>option</em></dt>
+			<dd><p>Option for current <a href="#//api/name/save">save</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the AVObject with option asynchronously and executes the given callback block.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveInBackgroundWithOption:eventually:block:" title="saveInBackgroundWithOption:eventually:block:"></a>
+	<h3 class="subsubtitle method-title">saveInBackgroundWithOption:eventually:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the AVObject with option asynchronously and executes the given callback block.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithOption:(nullable AVSaveOption *)<em>option</em> eventually:(BOOL)<em>eventually</em> block:(AVBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>option</em></dt>
+			<dd><p>Option for current <a href="#//api/name/save">save</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>eventually</em></dt>
+			<dd><p>Whether <a href="#//api/name/save">save</a> in eventually or not.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the AVObject with option asynchronously and executes the given callback block.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveInBackgroundWithOption:target:selector:" title="saveInBackgroundWithOption:target:selector:"></a>
+	<h3 class="subsubtitle method-title">saveInBackgroundWithOption:target:selector:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the AVObject with option asynchronously and calls the given callback.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithOption:(nullable AVSaveOption *)<em>option</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>option</em></dt>
+			<dd><p>Option for current <a href="#//api/name/save">save</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>target</em></dt>
+			<dd><p>The <a href="#//api/name/object">object</a> to call selector on.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>selector</em></dt>
+			<dd><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the AVObject with option asynchronously and calls the given callback.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/saveInBackgroundWithTarget:selector:" title="saveInBackgroundWithTarget:selector:"></a>
 	<h3 class="subsubtitle method-title">saveInBackgroundWithTarget:selector:</h3>
 	
@@ -5327,6 +5883,133 @@ can be saved.</p>
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/saveWithOption:error:" title="saveWithOption:error:"></a>
+	<h3 class="subsubtitle method-title">saveWithOption:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the AVObject with option and sets an error if it occurs.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)saveWithOption:(nullable AVSaveOption *)<em>option</em> error:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>option</em></dt>
+			<dd><p>Option for current <a href="#//api/name/save">save</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>A pointer to an NSError that will be set if necessary.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the <a href="#//api/name/save">save</a> succeeded.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the AVObject with option and sets an error if it occurs.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveWithOption:eventually:error:" title="saveWithOption:eventually:error:"></a>
+	<h3 class="subsubtitle method-title">saveWithOption:eventually:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Saves the AVObject with option and sets an error if it occurs.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)saveWithOption:(nullable AVSaveOption *)<em>option</em> eventually:(BOOL)<em>eventually</em> error:(NSError **)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>option</em></dt>
+			<dd><p>Option for current <a href="#//api/name/save">save</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>eventually</em></dt>
+			<dd><p>Whether <a href="#//api/name/save">save</a> in eventually or not.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>A pointer to an NSError that will be set if necessary.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the <a href="#//api/name/save">save</a> succeeded.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Saves the AVObject with option and sets an error if it occurs.</p><div class="note"><p><strong>Note:</strong> If eventually is specified to YES, request will be stored locally in an on-disk cache until it can be delivered to server.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/setObject:forKey:" title="setObject:forKey:"></a>
 	<h3 class="subsubtitle method-title">setObject:forKey:</h3>
 	
@@ -5338,7 +6021,7 @@ can be saved.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)setObject:(id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)setObject:(nullable id)<em>object</em> forKey:(NSString *)<em>key</em></code></div>
 
     
 	
@@ -5397,7 +6080,7 @@ can be saved.</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>- (void)setObject:(id)<em>object</em> forKeyedSubscript:(NSString *)<em>key</em></code></div>
+	<div class="method-subsection method-declaration"><code>- (void)setObject:(nullable id)<em>object</em> forKeyedSubscript:(NSString *)<em>key</em></code></div>
 
     
 	
@@ -5462,9 +6145,9 @@ can be saved.</p>
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

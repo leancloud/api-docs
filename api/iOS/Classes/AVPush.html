@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -43,11 +43,11 @@
 	
 	<option value="//api/name/getSubscribedChannels:">&nbsp;&nbsp;&nbsp;&nbsp;+ getSubscribedChannels:</option>
 	
+	<option value="//api/name/getSubscribedChannelsAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;+ getSubscribedChannelsAndThrowsWithError:</option>
+	
 	<option value="//api/name/getSubscribedChannelsInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ getSubscribedChannelsInBackgroundWithBlock:</option>
 	
 	<option value="//api/name/getSubscribedChannelsInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;+ getSubscribedChannelsInBackgroundWithTarget:selector:</option>
-	
-	<option value="//api/name/handlePush:">&nbsp;&nbsp;&nbsp;&nbsp;+ handlePush:</option>
 	
 	<option value="//api/name/push">&nbsp;&nbsp;&nbsp;&nbsp;+ push</option>
 	
@@ -81,8 +81,6 @@
 	
 	<option value="//api/name/setProductionMode:">&nbsp;&nbsp;&nbsp;&nbsp;+ setProductionMode:</option>
 	
-	<option value="//api/name/storeDeviceToken:">&nbsp;&nbsp;&nbsp;&nbsp;+ storeDeviceToken:</option>
-	
 	<option value="//api/name/subscribeToChannel:error:">&nbsp;&nbsp;&nbsp;&nbsp;+ subscribeToChannel:error:</option>
 	
 	<option value="//api/name/subscribeToChannelInBackground:">&nbsp;&nbsp;&nbsp;&nbsp;+ subscribeToChannelInBackground:</option>
@@ -111,6 +109,8 @@
 	<option value="//api/name/expireAtDate:">&nbsp;&nbsp;&nbsp;&nbsp;- expireAtDate:</option>
 	
 	<option value="//api/name/sendPush:">&nbsp;&nbsp;&nbsp;&nbsp;- sendPush:</option>
+	
+	<option value="//api/name/sendPushAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendPushAndThrowsWithError:</option>
 	
 	<option value="//api/name/sendPushInBackground">&nbsp;&nbsp;&nbsp;&nbsp;- sendPushInBackground</option>
 	
@@ -162,8 +162,6 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Handling Notifications">Handling Notifications</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing Channel Subscriptions">Managing Channel Subscriptions</a></span></li>
-	
 </ul></li>
 
 
@@ -176,11 +174,11 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscribedChannels:">getSubscribedChannels:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscribedChannelsAndThrowsWithError:">getSubscribedChannelsAndThrowsWithError:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscribedChannelsInBackgroundWithBlock:">getSubscribedChannelsInBackgroundWithBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscribedChannelsInBackgroundWithTarget:selector:">getSubscribedChannelsInBackgroundWithTarget:selector:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/handlePush:">handlePush:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/push">push</a></span></li>
 	
@@ -214,8 +212,6 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setProductionMode:">setProductionMode:</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/storeDeviceToken:">storeDeviceToken:</a></span></li>
-	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribeToChannel:error:">subscribeToChannel:error:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribeToChannelInBackground:">subscribeToChannelInBackground:</a></span></li>
@@ -245,6 +241,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expireAtDate:">expireAtDate:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPush:">sendPush:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPushAndThrowsWithError:">sendPushAndThrowsWithError:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPushInBackground">sendPushInBackground</a></span></li>
 	
@@ -490,6 +488,12 @@ or Android).</p>
 	
 </li><li>
 	<span class="tooltip">
+		<code><a href="#//api/name/sendPushAndThrowsWithError:">&ndash;&nbsp;sendPushAndThrowsWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
 		<code><a href="#//api/name/sendPushInBackground">&ndash;&nbsp;sendPushInBackground</a></code>
 	</span>
 	
@@ -558,27 +562,13 @@ or Android).</p>
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/handlePush:">+&nbsp;handlePush:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="Managing Channel Subscriptions" name="task_Managing Channel Subscriptions"></a>
-						<h3 class="subsubtitle task-title">Managing Channel Subscriptions</h3>
-
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/storeDeviceToken:">+&nbsp;storeDeviceToken:</a></code>
+		<code><a href="#//api/name/getSubscribedChannels:">+&nbsp;getSubscribedChannels:</a></code>
 	</span>
 	
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/getSubscribedChannels:">+&nbsp;getSubscribedChannels:</a></code>
+		<code><a href="#//api/name/getSubscribedChannelsAndThrowsWithError:">+&nbsp;getSubscribedChannelsAndThrowsWithError:</a></code>
 	</span>
 	
 	
@@ -669,7 +659,7 @@ or Android).</p>
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (NSSet *)getSubscribedChannels:(NSError **)<em>error</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable NSSet *)getSubscribedChannels:(NSError **)<em>error</em></code></div>
 
     
 	
@@ -697,6 +687,49 @@ or Android).</p>
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Get all the channels that this device is subscribed to.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVPush.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSubscribedChannelsAndThrowsWithError:" title="getSubscribedChannelsAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">getSubscribedChannelsAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/getSubscribedChannels:"><code>[AVPush getSubscribedChannels:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/getSubscribedChannels:"><code>[AVPush getSubscribedChannels:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (nullable NSSet *)getSubscribedChannelsAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/getSubscribedChannels:"><code>[AVPush getSubscribedChannels:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/getSubscribedChannels:"><code>[AVPush getSubscribedChannels:]</code></a></p>
 	</div>
 	
 	
@@ -797,11 +830,6 @@ or Android).</p>
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>an NSSet containing all the channel names this device is subscribed to.</p>
-	</div>
-	
 	
 	
 	
@@ -809,57 +837,6 @@ or Android).</p>
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Asynchronously get all the channels that this device is subscribed to.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVPush.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/handlePush:" title="handlePush:"></a>
-	<h3 class="subsubtitle method-title">handlePush:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A default handler for <a href="#//api/name/push">push</a> notifications while the app is active to mimic the behavior of iOS <a href="#//api/name/push">push</a> notifications while the app is backgrounded or not running. Call this from didReceiveRemoteNotification.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)handlePush:(NSDictionary *)<em>userInfo</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>userInfo</em></dt>
-			<dd><p>The userInfo dictionary you get in didReceiveRemoteNotification.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>A default handler for <a href="#//api/name/push">push</a> notifications while the app is active to mimic the behavior of iOS <a href="#//api/name/push">push</a> notifications while the app is backgrounded or not running. Call this from didReceiveRemoteNotification.</p>
 	</div>
 	
 	
@@ -1852,57 +1829,6 @@ created with <a href="../Classes/AVInstallation.html#//api/name/query">[AVInstal
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/storeDeviceToken:" title="storeDeviceToken:"></a>
-	<h3 class="subsubtitle method-title">storeDeviceToken:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Store the device token locally for <a href="#//api/name/push">push</a> notifications. Usually called from you main app delegate&rsquo;s didRegisterForRemoteNotificationsWithDeviceToken.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)storeDeviceToken:(id)<em>deviceToken</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>deviceToken</em></dt>
-			<dd><p>Either as an NSData straight from didRegisterForRemoteNotificationsWithDeviceToken or as an NSString if you converted it yourself.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Store the device token locally for <a href="#//api/name/push">push</a> notifications. Usually called from you main app delegate&rsquo;s didRegisterForRemoteNotificationsWithDeviceToken.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVPush.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
 	<a name="//api/name/subscribeToChannel:error:" title="subscribeToChannel:error:"></a>
 	<h3 class="subsubtitle method-title">subscribeToChannel:error:</h3>
 	
@@ -2575,6 +2501,49 @@ should instead use expireAfterTimeInterval.</p>
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Send this <a href="#//api/name/push">push</a> message.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVPush.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendPushAndThrowsWithError:" title="sendPushAndThrowsWithError:"></a>
+	<h3 class="subsubtitle method-title">sendPushAndThrowsWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An alias of <a href="#//api/name/sendPush:"><code>[AVPush sendPush:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/sendPush:"><code>[AVPush sendPush:]</code></a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)sendPushAndThrowsWithError:(NSError **)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An alias of <a href="#//api/name/sendPush:"><code>[AVPush sendPush:]</code></a> methods that supports Swift exception.
+@seealso <a href="#//api/name/sendPush:"><code>[AVPush sendPush:]</code></a></p>
 	</div>
 	
 	
@@ -3282,9 +3251,9 @@ skip, limit, or order.</p>
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>

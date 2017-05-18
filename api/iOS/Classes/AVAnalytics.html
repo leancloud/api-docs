@@ -6,13 +6,13 @@
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2.1 (build 1333)" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
 	</head>
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc</a>
+				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
+				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
 			</div>
 			
 			<div id="title" role="banner">
@@ -101,10 +101,6 @@
 	
 	<option value="//api/name/setLogSendInterval:">&nbsp;&nbsp;&nbsp;&nbsp;+ setLogSendInterval:</option>
 	
-	<option value="//api/name/start">&nbsp;&nbsp;&nbsp;&nbsp;+ start</option>
-	
-	<option value="//api/name/startWithReportPolicy:channelId:">&nbsp;&nbsp;&nbsp;&nbsp;+ startWithReportPolicy:channelId:</option>
-	
 	<option value="//api/name/trackAppOpenedWithLaunchOptions:">&nbsp;&nbsp;&nbsp;&nbsp;+ trackAppOpenedWithLaunchOptions:</option>
 	
 	<option value="//api/name/trackAppOpenedWithRemoteNotificationPayload:">&nbsp;&nbsp;&nbsp;&nbsp;+ trackAppOpenedWithRemoteNotificationPayload:</option>
@@ -130,8 +126,6 @@
 
 
 <li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_开启统计(已废止)">开启统计(已废止)</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_页面计时">页面计时</a></span></li>
 	
@@ -210,10 +204,6 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLogEnabled:">setLogEnabled:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setLogSendInterval:">setLogSendInterval:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/start">start</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startWithReportPolicy:channelId:">startWithReportPolicy:channelId:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trackAppOpenedWithLaunchOptions:">trackAppOpenedWithLaunchOptions:</a></span></li>
 	
@@ -325,26 +315,6 @@
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/setLogSendInterval:">+&nbsp;setLogSendInterval:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="开启统计(已废止)" name="task_开启统计(已废止)"></a>
-						<h3 class="subsubtitle task-title">开启统计(已废止)</h3>
-
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/start">+&nbsp;start</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/startWithReportPolicy:channelId:">+&nbsp;startWithReportPolicy:channelId:</a></code>
 	</span>
 	
 	
@@ -614,7 +584,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> label:(nullable NSString *)<em>label</em></code></div>
 
     
 	
@@ -670,7 +640,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> primarykey:(NSString *)<em>keyName</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)beginEvent:(NSString *)<em>eventId</em> primarykey:(nullable NSString *)<em>keyName</em> attributes:(nullable NSDictionary *)<em>attributes</em></code></div>
 
     
 	
@@ -746,11 +716,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
 	
 	
 	
@@ -838,7 +803,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> label:(nullable NSString *)<em>label</em></code></div>
 
     
 	
@@ -894,7 +859,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> primarykey:(NSString *)<em>keyName</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)endEvent:(NSString *)<em>eventId</em> primarykey:(nullable NSString *)<em>keyName</em></code></div>
 
     
 	
@@ -966,11 +931,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
-	
 	
 	
 	
@@ -1021,11 +981,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
 	
 	
 	
@@ -1083,11 +1038,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
-	
 	
 	
 	
@@ -1123,7 +1073,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(NSDictionary *)<em>attributes</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(nullable NSDictionary *)<em>attributes</em></code></div>
 
     
 	
@@ -1179,7 +1129,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(NSDictionary *)<em>attributes</em> durations:(int)<em>millisecond</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> attributes:(nullable NSDictionary *)<em>attributes</em> durations:(int)<em>millisecond</em></code></div>
 
     
 	
@@ -1296,7 +1246,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(nullable NSString *)<em>label</em></code></div>
 
     
 	
@@ -1316,11 +1266,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
 	
 	
 	
@@ -1357,7 +1302,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em> acc:(NSInteger)<em>accumulation</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(nullable NSString *)<em>label</em> acc:(NSInteger)<em>accumulation</em></code></div>
 
     
 	
@@ -1418,7 +1363,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(NSString *)<em>label</em> durations:(int)<em>millisecond</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)event:(NSString *)<em>eventId</em> label:(nullable NSString *)<em>label</em> durations:(int)<em>millisecond</em></code></div>
 
     
 	
@@ -1479,7 +1424,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (NSDictionary *)getConfigParams</code></div>
+	<div class="method-subsection method-declaration"><code>+ (nullable NSDictionary *)getConfigParams</code></div>
 
     
 	
@@ -1605,11 +1550,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
 	
 	
 	
@@ -1764,11 +1704,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
-	
 	
 	
 	
@@ -1862,7 +1797,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> completion:(void ( ^ ) ( void ))<em>completion</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> completion:(nullable void ( ^ ) ( void ))<em>completion</em></code></div>
 
     
 	
@@ -1882,11 +1817,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
 	
 	
 	
@@ -1924,7 +1854,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> withIgnoreAlertTitle:(NSString *)<em>alertTitle</em> andMessage:(NSString *)<em>alertMsg</em> andQuitTitle:(NSString *)<em>alertQuit</em> andContinueTitle:(NSString *)<em>alertContinue</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)setCrashReportEnabled:(BOOL)<em>value</em> withIgnoreAlertTitle:(nullable NSString *)<em>alertTitle</em> andMessage:(nullable NSString *)<em>alertMsg</em> andQuitTitle:(nullable NSString *)<em>alertQuit</em> andContinueTitle:(nullable NSString *)<em>alertContinue</em></code></div>
 
     
 	
@@ -1996,7 +1926,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)setCustomInfo:(NSDictionary *)<em>info</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)setCustomInfo:(nullable NSDictionary *)<em>info</em></code></div>
 
     
 	
@@ -2068,11 +1998,6 @@
 	</div>
 	
 	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void</p>
-	</div>
 	
 	
 	
@@ -2177,12 +2102,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>.
-@exception .</p>
-	</div>
-	
 	
 	
 	
@@ -2258,107 +2177,6 @@
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/start" title="start"></a>
-	<h3 class="subsubtitle method-title">start</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
-<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)start</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
-<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVAnalytics.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/startWithReportPolicy:channelId:" title="startWithReportPolicy:channelId:"></a>
-	<h3 class="subsubtitle method-title">startWithReportPolicy:channelId:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
-<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)startWithReportPolicy:(AVReportPolicy)<em>rp</em> channelId:(NSString *)<em>cid</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>rp</em></dt>
-			<dd><p>发送策略.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>cid</em></dt>
-			<dd><p>渠道名称,为nil或@&ldquo;"时,默认会被被当作@"App Store"渠道</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>开启统计,默认以AV_BATCH方式发送log. 1.4.3以后不再需要，请前往在线配置进行配置。
-<a href="https://leancloud.cn/stat.html?appid=YOUR">https://leancloud.cn/stat.html?appid=YOUR</a>_APP_ID&amp;os=ios#/statconfig/trans_strategoy</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVAnalytics.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
 	<a name="//api/name/trackAppOpenedWithLaunchOptions:" title="trackAppOpenedWithLaunchOptions:"></a>
 	<h3 class="subsubtitle method-title">trackAppOpenedWithLaunchOptions:</h3>
 	
@@ -2370,7 +2188,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithLaunchOptions:(NSDictionary *)<em>launchOptions</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithLaunchOptions:(nullable NSDictionary *)<em>launchOptions</em></code></div>
 
     
 	
@@ -2421,7 +2239,7 @@
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithRemoteNotificationPayload:(NSDictionary *)<em>userInfo</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)trackAppOpenedWithRemoteNotificationPayload:(nullable NSDictionary *)<em>userInfo</em></code></div>
 
     
 	
@@ -2470,8 +2288,7 @@
 		<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;
-@param 无.</p>
+请在[AVAnalytics start]方法之后调用;</p>
 	</div>		
 	
     
@@ -2482,11 +2299,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
-	
 	
 	
 	
@@ -2496,8 +2308,7 @@
 		<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;
-@param 无.</p>
+请在[AVAnalytics start]方法之后调用;</p>
 	</div>
 	
 	
@@ -2524,12 +2335,12 @@
 		<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
+请在[AVAnalytics start]方法之后调用;</p>
 	</div>		
 	
     
 
-	<div class="method-subsection method-declaration"><code>+ (void)updateOnlineConfigWithBlock:(AVDictionaryResultBlock)<em>block</em></code></div>
+	<div class="method-subsection method-declaration"><code>+ (void)updateOnlineConfigWithBlock:(nullable AVDictionaryResultBlock)<em>block</em></code></div>
 
     
 	
@@ -2545,11 +2356,6 @@
 	
 	
 	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>void.</p>
-	</div>
-	
 	
 	
 	
@@ -2559,7 +2365,7 @@
 		<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
+请在[AVAnalytics start]方法之后调用;</p>
 	</div>
 	
 	
@@ -2596,9 +2402,9 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 LeanCloud, Inc. All rights reserved. (Last updated: 2016-01-18)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-05-18)</span><br />
 						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</span></p>
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
 					</div>
 				</div>
