@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVSignature Class Reference</title>
+		<title>AVIMConversationDelegate Protocol Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVSignature Class Reference</h1>
+				<h1 class="hideInXcode">AVIMConversationDelegate Protocol Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -25,6 +25,8 @@
 				<li id="jumpto_button" role="navigation">
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
 	
 	
 	
@@ -35,23 +37,13 @@
 	
 	
 	
-	<option value="properties">Properties</option>
-	
-	<option value="//api/name/)">&nbsp;&nbsp;&nbsp;&nbsp;)</option>
-	
-	<option value="//api/name/error">&nbsp;&nbsp;&nbsp;&nbsp;error</option>
-	
-	<option value="//api/name/nonce">&nbsp;&nbsp;&nbsp;&nbsp;nonce</option>
-	
-	<option value="//api/name/signature">&nbsp;&nbsp;&nbsp;&nbsp;signature</option>
-	
-	<option value="//api/name/signedPeerIds">&nbsp;&nbsp;&nbsp;&nbsp;signedPeerIds</option>
-	
-	<option value="//api/name/timestamp">&nbsp;&nbsp;&nbsp;&nbsp;timestamp</option>
 	
 	
 	
 	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/conversation:messageHasBeenUpdated:">&nbsp;&nbsp;&nbsp;&nbsp;- conversation:messageHasBeenUpdated:</option>
 	
 	
 	
@@ -62,6 +54,8 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
@@ -73,32 +67,22 @@
 
 
 
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/)">)</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/error">error</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nonce">nonce</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signature">signature</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signedPeerIds">signedPeerIds</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/timestamp">timestamp</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/conversation:messageHasBeenUpdated:">conversation:messageHasBeenUpdated:</a></span></li>
 	
 </ul></li>
-
-
-
-
 
 
 			</ul>
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVSignature Class Reference" name="top"></a>
+				<a title="AVIMConversationDelegate Protocol Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -107,23 +91,31 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVSignature Class Reference</h1>
+						<h1 class="title title-header">AVIMConversationDelegate Protocol Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<td class="specification-title">Inherits from</td>
+	<td class="specification-title">Conforms to</td>
 	<td class="specification-value">NSObject</td>
 </tr><tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVSignature.h</td>
+	<td class="specification-value">AVIMConversation.h</td>
 </tr>
 						</tbody></table></div>
 					
                     
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A protocol defines callbacks of events related to conversation.</p>
+					</div>
+					
+					
 					
 					
 					
@@ -138,40 +130,10 @@
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/signature">&nbsp;&nbsp;signature</a></code>
+		<code><a href="#//api/name/conversation:messageHasBeenUpdated:">&ndash;&nbsp;conversation:messageHasBeenUpdated:</a></code>
 	</span>
-	<span class="task-item-suffix">property</span>
 	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/timestamp">&nbsp;&nbsp;timestamp</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/nonce">&nbsp;&nbsp;nonce</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/)">&nbsp;&nbsp;)</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/signedPeerIds">&nbsp;&nbsp;signedPeerIds</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/error">&nbsp;&nbsp;error</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
+	<span class="task-item-suffix">required method</span>
 </li>
 						</ul>
 						
@@ -181,81 +143,71 @@
 					
 					
 					
+					
+					
+					
+					
 					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/)" title=")"></a>
-	<h3 class="subsubtitle method-title">)</h3>
+	<a name="//api/name/conversation:messageHasBeenUpdated:" title="conversation:messageHasBeenUpdated:"></a>
+	<h3 class="subsubtitle method-title">conversation:messageHasBeenUpdated:</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Callback which called when a message has been updated.</p>
+	</div>		
+	
+    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *AV_DEPRECATED ( &quot;2.6.4&quot; )</code></div>
+	<div class="method-subsection method-declaration"><code>- (void)conversation:(AVIMConversation *)<em>conversation</em> messageHasBeenUpdated:(AVIMMessage *)<em>message</em></code></div>
 
     
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/error" title="error"></a>
-	<h3 class="subsubtitle method-title">error</h3>
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>conversation</em></dt>
+			<dd><p>The conversation which the message belongs to.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>message</em></dt>
+			<dd><p>The new message which has been updated.</p></dd>
+		</dl>
+		
+	</div>
 	
 	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSError *error</code></div>
-
-    
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/nonce" title="nonce"></a>
-	<h3 class="subsubtitle method-title">nonce</h3>
 	
 	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *nonce</code></div>
-
-    
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/signature" title="signature"></a>
-	<h3 class="subsubtitle method-title">signature</h3>
 	
 	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *signature</code></div>
-
-    
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/signedPeerIds" title="signedPeerIds"></a>
-	<h3 class="subsubtitle method-title">signedPeerIds</h3>
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Callback which called when a message has been updated.</p>
+	</div>
 	
 	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray *signedPeerIds</code></div>
-
-    
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/timestamp" title="timestamp"></a>
-	<h3 class="subsubtitle method-title">timestamp</h3>
 	
 	
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t timestamp</code></div>
-
-    
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMConversation.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
-					
-					
-					
-					
 					
 					
                     
@@ -273,7 +225,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-06-19)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-06-28)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
