@@ -151,6 +151,8 @@
 	
 	<option value="//api/name/isAuthenticatedWithSessionToken:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- isAuthenticatedWithSessionToken:callback:</option>
 	
+	<option value="//api/name/refreshSessionTokenWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshSessionTokenWithBlock:</option>
+	
 	<option value="//api/name/signUp">&nbsp;&nbsp;&nbsp;&nbsp;- signUp</option>
 	
 	<option value="//api/name/signUp:">&nbsp;&nbsp;&nbsp;&nbsp;- signUp:</option>
@@ -316,6 +318,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAuthenticated">isAuthenticated</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAuthenticatedWithSessionToken:callback:">isAuthenticatedWithSessionToken:callback:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshSessionTokenWithBlock:">refreshSessionTokenWithBlock:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signUp">signUp</a></span></li>
 	
@@ -537,6 +541,12 @@ utilities for each social network. See AVFacebookUtils and AVTwitterUtils for mo
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/updatePassword:newPassword:block:">&ndash;&nbsp;updatePassword:newPassword:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refreshSessionTokenWithBlock:">&ndash;&nbsp;refreshSessionTokenWithBlock:</a></code>
 	</span>
 	
 	
@@ -3329,6 +3339,57 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
 		<p>Whether the <a href="#//api/name/user">user</a> is an authenticated object with the given <a href="#//api/name/sessionToken">sessionToken</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refreshSessionTokenWithBlock:" title="refreshSessionTokenWithBlock:"></a>
+	<h3 class="subsubtitle method-title">refreshSessionTokenWithBlock:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Refresh <a href="#//api/name/user">user</a> session token asynchronously.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)refreshSessionTokenWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>The callback of request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Refresh <a href="#//api/name/user">user</a> session token asynchronously.</p>
 	</div>
 	
 	
