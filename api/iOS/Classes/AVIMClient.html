@@ -49,14 +49,12 @@
 	
 	<option value="//api/name/tag">&nbsp;&nbsp;&nbsp;&nbsp;tag</option>
 	
+	<option value="//api/name/user">&nbsp;&nbsp;&nbsp;&nbsp;user</option>
+	
 	
 	
 	
 	<option value="class_methods">Class Methods</option>
-	
-	<option value="//api/name/defaultClient">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultClient</option>
-	
-	<option value="//api/name/resetDefaultClient">&nbsp;&nbsp;&nbsp;&nbsp;+ resetDefaultClient</option>
 	
 	<option value="//api/name/setTimeoutIntervalInSeconds:">&nbsp;&nbsp;&nbsp;&nbsp;+ setTimeoutIntervalInSeconds:</option>
 	
@@ -85,11 +83,11 @@
 	
 	<option value="//api/name/initWithClientId:tag:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithClientId:tag:</option>
 	
+	<option value="//api/name/initWithUser:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithUser:</option>
+	
+	<option value="//api/name/initWithUser:tag:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithUser:tag:</option>
+	
 	<option value="//api/name/openWithCallback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithCallback:</option>
-	
-	<option value="//api/name/openWithClientId:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithClientId:callback:</option>
-	
-	<option value="//api/name/openWithClientId:tag:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithClientId:tag:callback:</option>
 	
 	<option value="//api/name/openWithOption:callback:">&nbsp;&nbsp;&nbsp;&nbsp;- openWithOption:callback:</option>
 	
@@ -108,8 +106,6 @@
 
 
 <li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AVDeprecated Methods">AVDeprecated Methods</a></span></li>
 	
 </ul></li>
 
@@ -131,15 +127,13 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tag">tag</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/user">user</a></span></li>
+	
 </ul></li>
 
 
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultClient">defaultClient</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetDefaultClient">resetDefaultClient</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTimeoutIntervalInSeconds:">setTimeoutIntervalInSeconds:</a></span></li>
 	
@@ -169,11 +163,11 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithClientId:tag:">initWithClientId:tag:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithUser:">initWithUser:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithUser:tag:">initWithUser:tag:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithCallback:">openWithCallback:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithClientId:callback:">openWithClientId:callback:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithClientId:tag:callback:">openWithClientId:tag:callback:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openWithOption:callback:">openWithOption:callback:</a></span></li>
 	
@@ -221,7 +215,7 @@
 						
 						
 						
-						<h3 class="subsubtitle task-title">Other Methods</h3>
+						
 
 						<ul class="task-list">
 							<li>
@@ -239,6 +233,12 @@
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/clientId">&nbsp;&nbsp;clientId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/user">&nbsp;&nbsp;user</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
@@ -274,7 +274,13 @@
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/defaultClient">+&nbsp;defaultClient</a></code>
+		<code><a href="#//api/name/initWithUser:">&ndash;&nbsp;initWithUser:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithUser:tag:">&ndash;&nbsp;initWithUser:tag:</a></code>
 	</span>
 	
 	
@@ -293,12 +299,6 @@
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/setTimeoutIntervalInSeconds:">+&nbsp;setTimeoutIntervalInSeconds:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/resetDefaultClient">+&nbsp;resetDefaultClient</a></code>
 	</span>
 	
 	
@@ -353,26 +353,6 @@
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/queryOnlineClientsInClients:callback:">&ndash;&nbsp;queryOnlineClientsInClients:callback:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
-						<h3 class="subsubtitle task-title">AVDeprecated Methods</h3>
-
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/openWithClientId:callback:">&ndash;&nbsp;openWithClientId:callback:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/openWithClientId:tag:callback:">&ndash;&nbsp;openWithClientId:tag:callback:</a></code>
 	</span>
 	
 	
@@ -635,6 +615,47 @@
 	
 </div>
 						
+						<div class="section-method">
+	<a name="//api/name/user" title="user"></a>
+	<h3 class="subsubtitle method-title">user</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The user that you login as a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) AVUser *user</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The user that you login as a client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
 					</div>
 					
 					
@@ -642,95 +663,6 @@
 					<div class="section section-methods">
 						<a title="Class Methods" name="class_methods"></a>
 						<h2 class="subtitle subtitle-methods">Class Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/defaultClient" title="defaultClient"></a>
-	<h3 class="subsubtitle method-title">defaultClient</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>默认 AVIMClient 实例</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultClient</code></div>
-
-    
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>AVIMClient 实例</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>默认 AVIMClient 实例</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/resetDefaultClient" title="resetDefaultClient"></a>
-	<h3 class="subsubtitle method-title">resetDefaultClient</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>重置默认 AVIMClient 实例
-置后再调用 <a href="#//api/name/defaultClient">defaultClient</a> 将返回新的实例</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)resetDefaultClient</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>重置默认 AVIMClient 实例
-置后再调用 <a href="#//api/name/defaultClient">defaultClient</a> 将返回新的实例</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMClient.h</code><br />
-	</div>				
-	
-	
-</div>
 						
 						<div class="section-method">
 	<a name="//api/name/setTimeoutIntervalInSeconds:" title="setTimeoutIntervalInSeconds:"></a>
@@ -1367,6 +1299,110 @@
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/initWithUser:" title="initWithUser:"></a>
+	<h3 class="subsubtitle method-title">initWithUser:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes client with an <a href="#//api/name/user">user</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithUser:(AVUser *)<em>user</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initializes client with an user.</p>
+
+<p>@seealso It&rsquo;s a convenience initializer of <code><a href="#//api/name/initWithUser:tag:">[AVIMClient initWithUser:tag:]</a></code></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithUser:tag:" title="initWithUser:tag:"></a>
+	<h3 class="subsubtitle method-title">initWithUser:tag:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes client with an <a href="#//api/name/user">user</a> and a <a href="#//api/name/tag">tag</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithUser:(AVUser *)<em>user</em> tag:(nullable NSString *)<em>tag</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>user</em></dt>
+			<dd><p>An <a href="#//api/name/user">user</a> who has logged in.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tag</em></dt>
+			<dd><p>Tag of client.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initializes client with an <a href="#//api/name/user">user</a> and a <a href="#//api/name/tag">tag</a>.</p>
+
+<p>This method allows you to use an <a href="#//api/name/user">user</a> as a client to login to IM.
+Using <a href="#//api/name/user">user</a> as an IM client has some extra benifits. For example, It will activate
+login signature to improve security. Besides that, you can also take advantage of
+the friendship relations of users.</p><div class="note"><p><strong>Note:</strong> You should enable login signature option in application console before you call this method.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/openWithCallback:" title="openWithCallback:"></a>
 	<h3 class="subsubtitle method-title">openWithCallback:</h3>
 	
@@ -1415,28 +1451,6 @@
 	</div>				
 	
 	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/openWithClientId:callback:" title="openWithClientId:callback:"></a>
-	<h3 class="subsubtitle method-title">openWithClientId:callback:</h3>
-	
-	
-
-	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
-
-    
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/openWithClientId:tag:callback:" title="openWithClientId:tag:callback:"></a>
-	<h3 class="subsubtitle method-title">openWithClientId:tag:callback:</h3>
-	
-	
-
-	<div class="method-subsection method-declaration"><code>- (void)openWithClientId:(NSString *)<em>clientId</em> tag:(nullable NSString *)<em>tag</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
-
-    
 </div>
 						
 						<div class="section-method">
@@ -1569,7 +1583,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-06-29)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-07-29)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
