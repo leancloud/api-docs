@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVIMSignature Class Reference</title>
+		<title>AVIMMessageInterval Class Reference</title>
 		<meta id="xcode-display" name="xcode-display" content="render"/>
 		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
 		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
@@ -16,7 +16,7 @@
 			</div>
 			
 			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVIMSignature Class Reference</h1>
+				<h1 class="hideInXcode">AVIMMessageInterval Class Reference</h1>
 			</div>
 			<ul id="headerButtons" role="toolbar">
 				<li id="toc_button">
@@ -37,17 +37,18 @@
 	
 	<option value="properties">Properties</option>
 	
-	<option value="//api/name/error">&nbsp;&nbsp;&nbsp;&nbsp;error</option>
+	<option value="//api/name/endIntervalBound">&nbsp;&nbsp;&nbsp;&nbsp;endIntervalBound</option>
 	
-	<option value="//api/name/nonce">&nbsp;&nbsp;&nbsp;&nbsp;nonce</option>
-	
-	<option value="//api/name/signature">&nbsp;&nbsp;&nbsp;&nbsp;signature</option>
-	
-	<option value="//api/name/timestamp">&nbsp;&nbsp;&nbsp;&nbsp;timestamp</option>
+	<option value="//api/name/startIntervalBound">&nbsp;&nbsp;&nbsp;&nbsp;startIntervalBound</option>
 	
 	
 	
 	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initWithStartIntervalBound:endIntervalBound:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithStartIntervalBound:endIntervalBound:</option>
 	
 	
 	
@@ -71,13 +72,9 @@
 
 <li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/error">error</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/endIntervalBound">endIntervalBound</a></span></li>
 	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nonce">nonce</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signature">signature</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/timestamp">timestamp</a></span></li>
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startIntervalBound">startIntervalBound</a></span></li>
 	
 </ul></li>
 
@@ -85,12 +82,18 @@
 
 
 
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithStartIntervalBound:endIntervalBound:">initWithStartIntervalBound:endIntervalBound:</a></span></li>
+	
+</ul></li>
+
 
 			</ul>
 		</nav>
 		<article>
 			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVIMSignature Class Reference" name="top"></a>
+				<a title="AVIMMessageInterval Class Reference" name="top"></a>
 				<div class="main-navigation navigation-top">
 					<ul>
 	<li><a href="../index.html">Index</a></li>
@@ -99,7 +102,7 @@
 				</div>
 				<div id="header">
 					<div class="section-header">
-						<h1 class="title title-header">AVIMSignature Class Reference</h1>
+						<h1 class="title title-header">AVIMMessageInterval Class Reference</h1>
 					</div>		
 				</div>
 				<div id="container">	
@@ -110,7 +113,7 @@
 	<td class="specification-value">NSObject</td>
 </tr><tr>
 	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVIMSignature.h</td>
+	<td class="specification-value">AVIMConversation.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -130,27 +133,21 @@
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
-		<code><a href="#//api/name/signature">&nbsp;&nbsp;signature</a></code>
+		<code><a href="#//api/name/startIntervalBound">&nbsp;&nbsp;startIntervalBound</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/timestamp">&nbsp;&nbsp;timestamp</a></code>
+		<code><a href="#//api/name/endIntervalBound">&nbsp;&nbsp;endIntervalBound</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
 </li><li>
 	<span class="tooltip">
-		<code><a href="#//api/name/nonce">&nbsp;&nbsp;nonce</a></code>
+		<code><a href="#//api/name/initWithStartIntervalBound:endIntervalBound:">&ndash;&nbsp;initWithStartIntervalBound:endIntervalBound:</a></code>
 	</span>
-	<span class="task-item-suffix">property</span>
 	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/error">&nbsp;&nbsp;error</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
 	
 </li>
 						</ul>
@@ -166,167 +163,25 @@
 						<h2 class="subtitle subtitle-methods">Properties</h2>
 						
 						<div class="section-method">
-	<a name="//api/name/error" title="error"></a>
-	<h3 class="subsubtitle method-title">error</h3>
+	<a name="//api/name/endIntervalBound" title="endIntervalBound"></a>
+	<h3 class="subsubtitle method-title">endIntervalBound</h3>
 	
 	
-	
-	<div class="method-subsection brief-description">
-		<p>Error in the course of getting <a href="#//api/name/signature">signature</a> from server. Commonly network error. Please set it if any error when getting <a href="#//api/name/signature">signature</a>.</p>
-	</div>		
-	
-    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSError *error</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVIMMessageIntervalBound *endIntervalBound</code></div>
 
     
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Error in the course of getting <a href="#//api/name/signature">signature</a> from server. Commonly network error. Please set it if any error when getting <a href="#//api/name/signature">signature</a>.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMSignature.h</code><br />
-	</div>				
-	
-	
 </div>
 						
 						<div class="section-method">
-	<a name="//api/name/nonce" title="nonce"></a>
-	<h3 class="subsubtitle method-title">nonce</h3>
+	<a name="//api/name/startIntervalBound" title="startIntervalBound"></a>
+	<h3 class="subsubtitle method-title">startIntervalBound</h3>
 	
 	
-	
-	<div class="method-subsection brief-description">
-		<p>Nonce string used to construct <a href="#//api/name/signature">signature</a></p>
-	</div>		
-	
-    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *nonce</code></div>
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AVIMMessageIntervalBound *startIntervalBound</code></div>
 
     
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Nonce string used to construct <a href="#//api/name/signature">signature</a></p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMSignature.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/signature" title="signature"></a>
-	<h3 class="subsubtitle method-title">signature</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Signture result signed by server master key.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *signature</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Signture result signed by server master key.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMSignature.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/timestamp" title="timestamp"></a>
-	<h3 class="subsubtitle method-title">timestamp</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Timestamp used to construct <a href="#//api/name/signature">signature</a>.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int64_t timestamp</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Timestamp used to construct <a href="#//api/name/signature">signature</a>.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVIMSignature.h</code><br />
-	</div>				
-	
-	
 </div>
 						
 					</div>
@@ -334,6 +189,23 @@
 					
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithStartIntervalBound:endIntervalBound:" title="initWithStartIntervalBound:endIntervalBound:"></a>
+	<h3 class="subsubtitle method-title">initWithStartIntervalBound:endIntervalBound:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithStartIntervalBound:(AVIMMessageIntervalBound *)<em>startIntervalBound</em> endIntervalBound:(nullable AVIMMessageIntervalBound *)<em>endIntervalBound</em></code></div>
+
+    
+</div>
+						
+					</div>
 					
 					
                     
