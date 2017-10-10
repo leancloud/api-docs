@@ -49,6 +49,12 @@
 	
 	<option value="//api/name/mediaType">&nbsp;&nbsp;&nbsp;&nbsp;mediaType</option>
 	
+	<option value="//api/name/mentionAll">&nbsp;&nbsp;&nbsp;&nbsp;mentionAll</option>
+	
+	<option value="//api/name/mentionList">&nbsp;&nbsp;&nbsp;&nbsp;mentionList</option>
+	
+	<option value="//api/name/mentioned">&nbsp;&nbsp;&nbsp;&nbsp;mentioned</option>
+	
 	<option value="//api/name/messageId">&nbsp;&nbsp;&nbsp;&nbsp;messageId</option>
 	
 	<option value="//api/name/readTimestamp">&nbsp;&nbsp;&nbsp;&nbsp;readTimestamp</option>
@@ -108,6 +114,12 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ioType">ioType</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mediaType">mediaType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mentionAll">mentionAll</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mentionList">mentionList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mentioned">mentioned</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageId">messageId</a></span></li>
 	
@@ -212,6 +224,24 @@
 </li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/clientId">&nbsp;&nbsp;clientId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mentionAll">&nbsp;&nbsp;mentionAll</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mentionList">&nbsp;&nbsp;mentionList</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mentioned">&nbsp;&nbsp;mentioned</a></code>
 	</span>
 	<span class="task-item-suffix">property</span>
 	
@@ -496,6 +526,129 @@
 	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) AVIMMessageMediaType mediaType</code></div>
 
     
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mentionAll" title="mentionAll"></a>
+	<h3 class="subsubtitle method-title">mentionAll</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A flag indicates whether this message mentions all members in conversation or not.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL mentionAll</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A flag indicates whether this message mentions all members in conversation or not.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mentionList" title="mentionList"></a>
+	<h3 class="subsubtitle method-title">mentionList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An ID list of clients who <a href="#//api/name/mentioned">mentioned</a> by this message.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray&lt;NSString*&gt; *mentionList</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An ID list of clients who <a href="#//api/name/mentioned">mentioned</a> by this message.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mentioned" title="mentioned"></a>
+	<h3 class="subsubtitle method-title">mentioned</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether current client is mentioned by this message.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL mentioned</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether current client is mentioned by this message.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AVIMMessage.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -840,7 +993,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-08-23)</span><br />
+						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-10-10)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
