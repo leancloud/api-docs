@@ -1,327 +1,185 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVFile Class Reference</title>
-		<meta id="xcode-display" name="xcode-display" content="render"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2 (build 963)" />
-	</head>
-	<body>
-		<header id="top_header">
-			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
-			</div>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVFile Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
 			
-			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVFile Class Reference</h1>
-			</div>
-			<ul id="headerButtons" role="toolbar">
-				<li id="toc_button">
-					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
-				</li>
-				<li id="jumpto_button" role="navigation">
-					<select id="jumpTo">
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud Objective-C SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
 	<option value="overview">Overview</option>
 	
-	
+
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
+
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/ACL">ACL</option>
+		
+		<option value="//api/name/checksum">checksum</option>
+		
+		<option value="//api/name/metaData">metaData</option>
+		
+		<option value="//api/name/ownerId">ownerId</option>
+		
+		<option value="//api/name/uploadingHeaders">uploadingHeaders</option>
+		
+	</optgroup>
 	
-	<option value="properties">Properties</option>
+
 	
-	<option value="//api/name/)">&nbsp;&nbsp;&nbsp;&nbsp;)</option>
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/clearAllPersistentCache">+ clearAllPersistentCache</option>
+		
+		<option value="//api/name/deleteWithFiles:completionHandler:">+ deleteWithFiles:completionHandler:</option>
+		
+		<option value="//api/name/fileWithAVObject:">+ fileWithAVObject:</option>
+		
+		<option value="//api/name/fileWithData:">+ fileWithData:</option>
+		
+		<option value="//api/name/fileWithData:name:">+ fileWithData:name:</option>
+		
+		<option value="//api/name/fileWithLocalPath:error:">+ fileWithLocalPath:error:</option>
+		
+		<option value="//api/name/fileWithRemoteURL:">+ fileWithRemoteURL:</option>
+		
+		<option value="//api/name/getFileWithObjectId:completionHandler:">+ getFileWithObjectId:completionHandler:</option>
+		
+		<option value="//api/name/query">+ query</option>
+		
+		<option value="//api/name/setCustomPersistentCacheDirectory:">+ setCustomPersistentCacheDirectory:</option>
+		
+	</optgroup>
 	
-	<option value="//api/name/ACL">&nbsp;&nbsp;&nbsp;&nbsp;ACL</option>
+
 	
-	<option value="//api/name/bucket">&nbsp;&nbsp;&nbsp;&nbsp;bucket</option>
-	
-	<option value="//api/name/isDataAvailable">&nbsp;&nbsp;&nbsp;&nbsp;isDataAvailable</option>
-	
-	<option value="//api/name/isDirty">&nbsp;&nbsp;&nbsp;&nbsp;isDirty</option>
-	
-	<option value="//api/name/metaData">&nbsp;&nbsp;&nbsp;&nbsp;metaData</option>
-	
-	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
-	
-	<option value="//api/name/objectId">&nbsp;&nbsp;&nbsp;&nbsp;objectId</option>
-	
-	<option value="//api/name/uploadingHeaders">&nbsp;&nbsp;&nbsp;&nbsp;uploadingHeaders</option>
-	
-	<option value="//api/name/url">&nbsp;&nbsp;&nbsp;&nbsp;url</option>
-	
-	
-	
-	
-	<option value="class_methods">Class Methods</option>
-	
-	<option value="//api/name/clearAllCachedFiles">&nbsp;&nbsp;&nbsp;&nbsp;+ clearAllCachedFiles</option>
-	
-	<option value="//api/name/clearCacheMoreThanDays:">&nbsp;&nbsp;&nbsp;&nbsp;+ clearCacheMoreThanDays:</option>
-	
-	<option value="//api/name/deleteFiles:inBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ deleteFiles:inBackgroundWithBlock:</option>
-	
-	<option value="//api/name/fileWithAVObject:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileWithAVObject:</option>
-	
-	<option value="//api/name/fileWithData:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileWithData:</option>
-	
-	<option value="//api/name/fileWithName:contentsAtPath:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileWithName:contentsAtPath:</option>
-	
-	<option value="//api/name/fileWithName:data:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileWithName:data:</option>
-	
-	<option value="//api/name/fileWithURL:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileWithURL:</option>
-	
-	<option value="//api/name/getFileWithObjectId:withBlock:">&nbsp;&nbsp;&nbsp;&nbsp;+ getFileWithObjectId:withBlock:</option>
-	
-	<option value="//api/name/query">&nbsp;&nbsp;&nbsp;&nbsp;+ query</option>
-	
-	
-	
-	
-	<option value="instance_methods">Instance Methods</option>
-	
-	<option value="//api/name/cancel">&nbsp;&nbsp;&nbsp;&nbsp;- cancel</option>
-	
-	<option value="//api/name/clearCachedFile">&nbsp;&nbsp;&nbsp;&nbsp;- clearCachedFile</option>
-	
-	<option value="//api/name/deleteInBackground">&nbsp;&nbsp;&nbsp;&nbsp;- deleteInBackground</option>
-	
-	<option value="//api/name/deleteInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteInBackgroundWithBlock:</option>
-	
-	<option value="//api/name/getData">&nbsp;&nbsp;&nbsp;&nbsp;- getData</option>
-	
-	<option value="//api/name/getData:">&nbsp;&nbsp;&nbsp;&nbsp;- getData:</option>
-	
-	<option value="//api/name/getDataInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataInBackgroundWithBlock:</option>
-	
-	<option value="//api/name/getDataInBackgroundWithBlock:progressBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataInBackgroundWithBlock:progressBlock:</option>
-	
-	<option value="//api/name/getDataInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataInBackgroundWithTarget:selector:</option>
-	
-	<option value="//api/name/getDataStream">&nbsp;&nbsp;&nbsp;&nbsp;- getDataStream</option>
-	
-	<option value="//api/name/getDataStream:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataStream:</option>
-	
-	<option value="//api/name/getDataStreamInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataStreamInBackgroundWithBlock:</option>
-	
-	<option value="//api/name/getDataStreamInBackgroundWithBlock:progressBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getDataStreamInBackgroundWithBlock:progressBlock:</option>
-	
-	<option value="//api/name/getThumbnail:width:height:withBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- getThumbnail:width:height:withBlock:</option>
-	
-	<option value="//api/name/getThumbnailURLWithScaleToFit:width:height:">&nbsp;&nbsp;&nbsp;&nbsp;- getThumbnailURLWithScaleToFit:width:height:</option>
-	
-	<option value="//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:">&nbsp;&nbsp;&nbsp;&nbsp;- getThumbnailURLWithScaleToFit:width:height:quality:format:</option>
-	
-	<option value="//api/name/localPath">&nbsp;&nbsp;&nbsp;&nbsp;- localPath</option>
-	
-	<option value="//api/name/ownerId">&nbsp;&nbsp;&nbsp;&nbsp;- ownerId</option>
-	
-	<option value="//api/name/pathExtension">&nbsp;&nbsp;&nbsp;&nbsp;- pathExtension</option>
-	
-	<option value="//api/name/save">&nbsp;&nbsp;&nbsp;&nbsp;- save</option>
-	
-	<option value="//api/name/save:">&nbsp;&nbsp;&nbsp;&nbsp;- save:</option>
-	
-	<option value="//api/name/saveAndThrowsWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- saveAndThrowsWithError:</option>
-	
-	<option value="//api/name/saveInBackground">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackground</option>
-	
-	<option value="//api/name/saveInBackgroundWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithBlock:</option>
-	
-	<option value="//api/name/saveInBackgroundWithBlock:progressBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithBlock:progressBlock:</option>
-	
-	<option value="//api/name/saveInBackgroundWithTarget:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- saveInBackgroundWithTarget:selector:</option>
-	
-	<option value="//api/name/setOwnerId:">&nbsp;&nbsp;&nbsp;&nbsp;- setOwnerId:</option>
-	
-	<option value="//api/name/size">&nbsp;&nbsp;&nbsp;&nbsp;- size</option>
-	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/cancelDownloading">- cancelDownloading</option>
+		
+		<option value="//api/name/cancelUploading">- cancelUploading</option>
+		
+		<option value="//api/name/clearPersistentCache">- clearPersistentCache</option>
+		
+		<option value="//api/name/deleteWithCompletionHandler:">- deleteWithCompletionHandler:</option>
+		
+		<option value="//api/name/downloadWithCompletionHandler:">- downloadWithCompletionHandler:</option>
+		
+		<option value="//api/name/downloadWithOption:progress:completionHandler:">- downloadWithOption:progress:completionHandler:</option>
+		
+		<option value="//api/name/downloadWithProgress:completionHandler:">- downloadWithProgress:completionHandler:</option>
+		
+		<option value="//api/name/getDataInBackgroundWithBlock:">- getDataInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/getDataInBackgroundWithBlock:progressBlock:">- getDataInBackgroundWithBlock:progressBlock:</option>
+		
+		<option value="//api/name/getThumbnail:width:height:withBlock:">- getThumbnail:width:height:withBlock:</option>
+		
+		<option value="//api/name/getThumbnailURLWithScaleToFit:width:height:">- getThumbnailURLWithScaleToFit:width:height:</option>
+		
+		<option value="//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:">- getThumbnailURLWithScaleToFit:width:height:quality:format:</option>
+		
+		<option value="//api/name/mimeType">- mimeType</option>
+		
+		<option value="//api/name/name">- name</option>
+		
+		<option value="//api/name/objectForKey:">- objectForKey:</option>
+		
+		<option value="//api/name/objectId">- objectId</option>
+		
+		<option value="//api/name/pathExtension">- pathExtension</option>
+		
+		<option value="//api/name/persistentCachePath">- persistentCachePath</option>
+		
+		<option value="//api/name/saveInBackgroundWithBlock:">- saveInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/saveInBackgroundWithBlock:progressBlock:">- saveInBackgroundWithBlock:progressBlock:</option>
+		
+		<option value="//api/name/size">- size</option>
+		
+		<option value="//api/name/uploadWithCompletionHandler:">- uploadWithCompletionHandler:</option>
+		
+		<option value="//api/name/uploadWithOption:progress:completionHandler:">- uploadWithOption:progress:completionHandler:</option>
+		
+		<option value="//api/name/uploadWithProgress:completionHandler:">- uploadWithProgress:completionHandler:</option>
+		
+		<option value="//api/name/url">- url</option>
+		
+	</optgroup>
 	
 	
 </select>
-				</li>
-			</ul>
-		</header>
-		<nav id="tocContainer" class="isShowingTOC">
-			<ul id="toc" role="tree">
-				
-<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
 
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVFile Class Reference</h1>
 
-
-
-<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Creating a AVFile">Creating a AVFile</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Storing Data with LeanCloud">Storing Data with LeanCloud</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Getting Data from LeanCloud">Getting Data from LeanCloud</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Interrupting a Transfer">Interrupting a Transfer</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Cache management">Cache management</a></span></li>
-	
-</ul></li>
-
-
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/)">)</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ACL">ACL</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bucket">bucket</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isDataAvailable">isDataAvailable</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isDirty">isDirty</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/metaData">metaData</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectId">objectId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/uploadingHeaders">uploadingHeaders</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/url">url</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearAllCachedFiles">clearAllCachedFiles</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearCacheMoreThanDays:">clearCacheMoreThanDays:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteFiles:inBackgroundWithBlock:">deleteFiles:inBackgroundWithBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileWithAVObject:">fileWithAVObject:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileWithData:">fileWithData:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileWithName:contentsAtPath:">fileWithName:contentsAtPath:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileWithName:data:">fileWithName:data:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileWithURL:">fileWithURL:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getFileWithObjectId:withBlock:">getFileWithObjectId:withBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/query">query</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancel">cancel</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearCachedFile">clearCachedFile</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteInBackground">deleteInBackground</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteInBackgroundWithBlock:">deleteInBackgroundWithBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getData">getData</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getData:">getData:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataInBackgroundWithBlock:">getDataInBackgroundWithBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">getDataInBackgroundWithBlock:progressBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataInBackgroundWithTarget:selector:">getDataInBackgroundWithTarget:selector:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataStream">getDataStream</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataStream:">getDataStream:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataStreamInBackgroundWithBlock:">getDataStreamInBackgroundWithBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDataStreamInBackgroundWithBlock:progressBlock:">getDataStreamInBackgroundWithBlock:progressBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getThumbnail:width:height:withBlock:">getThumbnail:width:height:withBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:">getThumbnailURLWithScaleToFit:width:height:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:">getThumbnailURLWithScaleToFit:width:height:quality:format:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/localPath">localPath</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ownerId">ownerId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pathExtension">pathExtension</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/save">save</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/save:">save:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveAndThrowsWithError:">saveAndThrowsWithError:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackground">saveInBackground</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithBlock:">saveInBackgroundWithBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithBlock:progressBlock:">saveInBackgroundWithBlock:progressBlock:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveInBackgroundWithTarget:selector:">saveInBackgroundWithTarget:selector:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setOwnerId:">setOwnerId:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/size">size</a></span></li>
-	
-</ul></li>
-
-
-			</ul>
-		</nav>
-		<article>
-			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVFile Class Reference" name="top"></a>
-				<div class="main-navigation navigation-top">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="header">
-					<div class="section-header">
-						<h1 class="title title-header">AVFile Class Reference</h1>
-					</div>		
-				</div>
-				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<td class="specification-title">Inherits from</td>
-	<td class="specification-value">NSObject</td>
+	<th>Inherits from</th>
+	<td>NSObject</td>
 </tr><tr>
-	<td class="specification-title">Conforms to</td>
-	<td class="specification-value">NSCoding</td>
+	<th>Conforms to</th>
+	<td>NSCoding</td>
 </tr><tr>
-	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVFile.h</td>
+	<th>Declared in</th>
+	<td>AVFile.h</td>
 </tr>
 						</tbody></table></div>
 					
-                    
+
                     
 					
 					<div class="section section-overview">
@@ -332,2879 +190,2122 @@ that an application needs to reference in a non-relational way.</p>
 					</div>
 					
 					
-					
+
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
-						<h2 class="subtitle subtitle-tasks">Tasks</h2>
 						
-						
-						<a title="Creating a AVFile" name="task_Creating a AVFile"></a>
-						<h3 class="subsubtitle task-title">Creating a AVFile</h3>
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/fileWithData:">+&nbsp;fileWithData:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/fileWithName:data:">+&nbsp;fileWithName:data:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/fileWithURL:">+&nbsp;fileWithURL:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/fileWithName:contentsAtPath:">+&nbsp;fileWithName:contentsAtPath:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/fileWithAVObject:">+&nbsp;fileWithAVObject:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/objectId">&nbsp;&nbsp;objectId</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/url">&nbsp;&nbsp;url</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/bucket">&nbsp;&nbsp;bucket</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li>
-						</ul>
 						
 						
-						<a title="Storing Data with LeanCloud" name="task_Storing Data with LeanCloud"></a>
-						<h3 class="subsubtitle task-title">Storing Data with LeanCloud</h3>
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/isDirty">&nbsp;&nbsp;isDirty</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/)">&nbsp;&nbsp;)</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/metaData">&nbsp;&nbsp;metaData</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/ACL">&nbsp;&nbsp;ACL</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/uploadingHeaders">&nbsp;&nbsp;uploadingHeaders</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/save">&ndash;&nbsp;save</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/save:">&ndash;&nbsp;save:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/saveAndThrowsWithError:">&ndash;&nbsp;saveAndThrowsWithError:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/saveInBackground">&ndash;&nbsp;saveInBackground</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/saveInBackgroundWithBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/saveInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:progressBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/saveInBackgroundWithTarget:selector:">&ndash;&nbsp;saveInBackgroundWithTarget:selector:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="Getting Data from LeanCloud" name="task_Getting Data from LeanCloud"></a>
-						<h3 class="subsubtitle task-title">Getting Data from LeanCloud</h3>
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/fileWithData:" title="fileWithData:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fileWithData:">+&nbsp;fileWithData:</a></code>
+</h3>
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/isDataAvailable">&nbsp;&nbsp;isDataAvailable</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getData">&ndash;&nbsp;getData</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataStream">&ndash;&nbsp;getDataStream</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getData:">&ndash;&nbsp;getData:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataStream:">&ndash;&nbsp;getDataStream:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataInBackgroundWithBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataStreamInBackgroundWithBlock:">&ndash;&nbsp;getDataStreamInBackgroundWithBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:progressBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataStreamInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;getDataStreamInBackgroundWithBlock:progressBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getDataInBackgroundWithTarget:selector:">&ndash;&nbsp;getDataInBackgroundWithTarget:selector:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="Interrupting a Transfer" name="task_Interrupting a Transfer"></a>
-						<h3 class="subsubtitle task-title">Interrupting a Transfer</h3>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/cancel">&ndash;&nbsp;cancel</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getFileWithObjectId:withBlock:">+&nbsp;getFileWithObjectId:withBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:">&ndash;&nbsp;getThumbnailURLWithScaleToFit:width:height:quality:format:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:">&ndash;&nbsp;getThumbnailURLWithScaleToFit:width:height:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/getThumbnail:width:height:withBlock:">&ndash;&nbsp;getThumbnail:width:height:withBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/query">+&nbsp;query</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/setOwnerId:">&ndash;&nbsp;setOwnerId:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/ownerId">&ndash;&nbsp;ownerId</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/size">&ndash;&nbsp;size</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/pathExtension">&ndash;&nbsp;pathExtension</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/localPath">&ndash;&nbsp;localPath</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/deleteInBackgroundWithBlock:">&ndash;&nbsp;deleteInBackgroundWithBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/deleteFiles:inBackgroundWithBlock:">+&nbsp;deleteFiles:inBackgroundWithBlock:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/deleteInBackground">&ndash;&nbsp;deleteInBackground</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-						
-						<a title="Cache management" name="task_Cache management"></a>
-						<h3 class="subsubtitle task-title">Cache management</h3>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create file from NSData.</p>
+			</div>
+			
+		    
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/clearCachedFile">&ndash;&nbsp;clearCachedFile</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/clearAllCachedFiles">+&nbsp;clearAllCachedFiles</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/clearCacheMoreThanDays:">+&nbsp;clearCacheMoreThanDays:</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-					</div>
-					
-					
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/)" title=")"></a>
-	<h3 class="subsubtitle method-title">)</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>File metadata, caller is able to store additional values here.</p>
-	</div>		
-	
-    
+			<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithData:(NSData *)<em>data</em></code></div>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSMutableDictionary *AV_DEPRECATED ( &quot;2.6.1以后请使用metaData&quot; )</code></div>
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>Data</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>File metadata, caller is able to store additional values here.</p>
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Instance</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create file from NSData.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/ACL" title="ACL"></a>
-	<h3 class="subsubtitle method-title">ACL</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The access control list  for this file.</p>
-	</div>		
-	
-    
+</div><div class="section-method">
+	<a name="//api/name/fileWithData:name:" title="fileWithData:name:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fileWithData:name:">+&nbsp;fileWithData:name:</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVACL *ACL</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The access control list  for this file.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create file with a <a href="#//api/name/name">name</a> from NSData.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithData:(NSData *)<em>data</em> name:(NSString *_Nullable)<em>name</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>Data</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>Name</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Instance</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create file with a <a href="#//api/name/name">name</a> from NSData.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/bucket" title="bucket"></a>
-	<h3 class="subsubtitle method-title">bucket</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The Qiniu bucket of the file.</p>
-	</div>		
-	
-    
+</div><div class="section-method">
+	<a name="//api/name/fileWithLocalPath:error:" title="fileWithLocalPath:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fileWithLocalPath:error:">+&nbsp;fileWithLocalPath:error:</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *bucket</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The Qiniu bucket of the file.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create file from Local Path</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype _Nullable)fileWithLocalPath:(NSString *)<em>localPath</em> error:(NSError *__autoreleasing *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>localPath</code></th>
+						<td><p>Path</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Instance</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create file from Local Path</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/isDataAvailable" title="isDataAvailable"></a>
-	<h3 class="subsubtitle method-title">isDataAvailable</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Whether the data is available in memory or needs to be downloaded.</p>
-	</div>		
-	
-    
+</div><div class="section-method">
+	<a name="//api/name/fileWithRemoteURL:" title="fileWithRemoteURL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fileWithRemoteURL:">+&nbsp;fileWithRemoteURL:</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (readonly) BOOL isDataAvailable</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Whether the data is available in memory or needs to be downloaded.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create file from Remote URL</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithRemoteURL:(NSURL *)<em>remoteURL</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>remoteURL</code></th>
+						<td><p>URL</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Instance</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create file from Remote URL</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/isDirty" title="isDirty"></a>
-	<h3 class="subsubtitle method-title">isDirty</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Whether the file has been uploaded for the first time.</p>
-	</div>		
-	
-    
+</div><div class="section-method">
+	<a name="//api/name/fileWithAVObject:" title="fileWithAVObject:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fileWithAVObject:">+&nbsp;fileWithAVObject:</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) BOOL isDirty</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Whether the file has been uploaded for the first time.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create file from <a href="../Classes/AVObject.html">AVObject</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithAVObject:(AVObject *)<em>avObject</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>avObject</code></th>
+						<td><p><a href="../Classes/AVObject.html">AVObject</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Instance</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create file from <a href="../Classes/AVObject.html">AVObject</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/metaData" title="metaData"></a>
-	<h3 class="subsubtitle method-title">metaData</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>File metadata, caller is able to store additional values here.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSMutableDictionary *metaData</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>File metadata, caller is able to store additional values here.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+</div><div class="section-method">
 	<a name="//api/name/name" title="name"></a>
-	<h3 class="subsubtitle method-title">name</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The name of the file.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/name">&ndash;&nbsp;name</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *name</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The name of the file.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The name of the file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)name</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The name of the file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+</div><div class="section-method">
 	<a name="//api/name/objectId" title="objectId"></a>
-	<h3 class="subsubtitle method-title">objectId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The id of the file.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/objectId">&ndash;&nbsp;objectId</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *objectId</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The id of the file.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The id of the file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)objectId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The id of the file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+</div><div class="section-method">
+	<a name="//api/name/url" title="url"></a>
+	<h3 class="method-title"><code><a href="#//api/name/url">&ndash;&nbsp;url</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The url of the file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)url</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The url of the file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/metaData" title="metaData"></a>
+	<h3 class="method-title"><code><a href="#//api/name/metaData">&nbsp;&nbsp;metaData</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>File metadata, caller is able to store additional values here.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary *metaData</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>File metadata, caller is able to store additional values here.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ownerId" title="ownerId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ownerId">&nbsp;&nbsp;ownerId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Owner ID of file, Customizable.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSString *ownerId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Owner ID of file, Customizable.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/checksum" title="checksum"></a>
+	<h3 class="method-title"><code><a href="#//api/name/checksum">&nbsp;&nbsp;checksum</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Checksum of file, Customizable.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSString *checksum</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Checksum of file, Customizable.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/size" title="size"></a>
+	<h3 class="method-title"><code><a href="#//api/name/size">&ndash;&nbsp;size</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Size of file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSUInteger)size</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Size of file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pathExtension" title="pathExtension"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pathExtension">&ndash;&nbsp;pathExtension</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Path Extension of file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)pathExtension</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Path Extension of file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mimeType" title="mimeType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mimeType">&ndash;&nbsp;mimeType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>MIME Type of file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)mimeType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>MIME Type of file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ACL" title="ACL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ACL">&nbsp;&nbsp;ACL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The access control list for this file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVACL *ACL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The access control list for this file.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/uploadingHeaders" title="uploadingHeaders"></a>
-	<h3 class="subsubtitle method-title">uploadingHeaders</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Request headers for file uploading.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/uploadingHeaders">&nbsp;&nbsp;uploadingHeaders</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary&lt;NSString*NSString*&gt; *uploadingHeaders</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Request headers for file uploading.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Request headers for file uploading.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary&lt;NSString*NSString*&gt; *uploadingHeaders</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Request headers for file uploading.</p>
 
 <p>Some file hosting services allow you set custom headers in uploading request.
 Currently, it only supports files in US node, aka. the files hosted on AmazonS3.
-See <a href="http://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html">http://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html</a> for all request headers.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/url" title="url"></a>
-	<h3 class="subsubtitle method-title">url</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The url of the file.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, copy, nullable) NSString *url</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The url of the file.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Class Methods" name="class_methods"></a>
-						<h2 class="subtitle subtitle-methods">Class Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/clearAllCachedFiles" title="clearAllCachedFiles"></a>
-	<h3 class="subsubtitle method-title">clearAllCachedFiles</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>clear All Cached AVFiles</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (BOOL)clearAllCachedFiles</code></div>
-
-    
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>clear success or not</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>clear All Cached AVFiles</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/clearCacheMoreThanDays:" title="clearCacheMoreThanDays:"></a>
-	<h3 class="subsubtitle method-title">clearCacheMoreThanDays:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>clear All Cached AVFiles by days ago</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (BOOL)clearCacheMoreThanDays:(NSInteger)<em>numberOfDays</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>numberOfDays</em></dt>
-			<dd><p>number Of Days</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>clear success or not</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>clear All Cached AVFiles by days ago</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/deleteFiles:inBackgroundWithBlock:" title="deleteFiles:inBackgroundWithBlock:"></a>
-	<h3 class="subsubtitle method-title">deleteFiles:inBackgroundWithBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Delete an array of files asynchronously.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)deleteFiles:(NSArray&lt;AVFile*&gt; *)<em>files</em> inBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>files</em></dt>
-			<dd><p>The files to be deleted.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The callback of deletion request.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Delete an array of files asynchronously.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/fileWithAVObject:" title="fileWithAVObject:"></a>
-	<h3 class="subsubtitle method-title">fileWithAVObject:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a file with an <a href="../Classes/AVObject.html">AVObject</a>.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithAVObject:(AVObject *)<em>object</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>object</em></dt>
-			<dd><p>an <a href="../Classes/AVObject.html">AVObject</a>.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>an AVFile.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a file with an <a href="../Classes/AVObject.html">AVObject</a>.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/fileWithData:" title="fileWithData:"></a>
-	<h3 class="subsubtitle method-title">fileWithData:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a file with given data. A <a href="#//api/name/name">name</a> will be assigned to it by the server.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithData:(NSData *)<em>data</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>data</em></dt>
-			<dd><p>The contents of the new AVFile.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A AVFile.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a file with given data. A <a href="#//api/name/name">name</a> will be assigned to it by the server.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/fileWithName:contentsAtPath:" title="fileWithName:contentsAtPath:"></a>
-	<h3 class="subsubtitle method-title">fileWithName:contentsAtPath:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a file with the contents of another file.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(nullable NSString *)<em>name</em> contentsAtPath:(NSString *)<em>path</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>name</em></dt>
-			<dd><p>The <a href="#//api/name/name">name</a> of the new AVFile</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>path</em></dt>
-			<dd><p>The path to the file that will be uploaded to LeanCloud</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a file with the contents of another file.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/fileWithName:data:" title="fileWithName:data:"></a>
-	<h3 class="subsubtitle method-title">fileWithName:data:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a file with given data and <a href="#//api/name/name">name</a>.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithName:(nullable NSString *)<em>name</em> data:(NSData *)<em>data</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>name</em></dt>
-			<dd><p>The <a href="#//api/name/name">name</a> of the new AVFile.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>data</em></dt>
-			<dd><p>The contents of the new AVFile.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A AVFile.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a file with given data and <a href="#//api/name/name">name</a>.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/fileWithURL:" title="fileWithURL:"></a>
-	<h3 class="subsubtitle method-title">fileWithURL:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Creates a file with given <a href="#//api/name/url">url</a>.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (instancetype)fileWithURL:(NSString *)<em>url</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>url</em></dt>
-			<dd><p>The <a href="#//api/name/url">url</a> of file.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>an AVFile.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Creates a file with given <a href="#//api/name/url">url</a>.</p><div class="warning"><p><strong>Warning:</strong> only for getting image thumbnail with a known QiNiu file <a href="#//api/name/url">url</a></p></div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getFileWithObjectId:withBlock:" title="getFileWithObjectId:withBlock:"></a>
-	<h3 class="subsubtitle method-title">getFileWithObjectId:withBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets a AVFile asynchronously and calls the given block with the result.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)getFileWithObjectId:(NSString *)<em>objectId</em> withBlock:(AVFileResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>objectId</em></dt>
-			<dd><p>The <a href="#//api/name/objectId">objectId</a> associated with file object.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block to execute. The block should have the following argument signature: (AVFile <em>file, NSError </em>error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets a AVFile asynchronously and calls the given block with the result.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/query" title="query"></a>
-	<h3 class="subsubtitle method-title">query</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Create an <a href="../Classes/AVFileQuery.html">AVFileQuery</a> which returns files.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (AVFileQuery *)query</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Create an <a href="../Classes/AVFileQuery.html">AVFileQuery</a> which returns files.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Instance Methods" name="instance_methods"></a>
-						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/cancel" title="cancel"></a>
-	<h3 class="subsubtitle method-title">cancel</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Cancels the current request (whether upload or download of file data).</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)cancel</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Cancels the current request (whether upload or download of file data).</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/clearCachedFile" title="clearCachedFile"></a>
-	<h3 class="subsubtitle method-title">clearCachedFile</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Clear file cache.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)clearCachedFile</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Clear file cache.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/deleteInBackground" title="deleteInBackground"></a>
-	<h3 class="subsubtitle method-title">deleteInBackground</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Remove file in background.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)deleteInBackground</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Remove file in background.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/deleteInBackgroundWithBlock:" title="deleteInBackgroundWithBlock:"></a>
-	<h3 class="subsubtitle method-title">deleteInBackgroundWithBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Remove file in background.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)deleteInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block to execute. The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Remove file in background.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getData" title="getData"></a>
-	<h3 class="subsubtitle method-title">getData</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets the data from cache if available or fetches its contents from the LeanCloud
-servers.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSData *)getData</code></div>
-
-    
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>The data. Returns nil if there was an error in fetching.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets the data from cache if available or fetches its contents from the LeanCloud
-servers.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getData:" title="getData:"></a>
-	<h3 class="subsubtitle method-title">getData:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets the data from cache if available or fetches its contents from the LeanCloud
-servers. Sets an error if it occurs.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSData *)getData:(NSError **)<em>error</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>error</em></dt>
-			<dd><p>Pointer to an NSError that will be set if necessary.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>The data. Returns nil if there was an error in fetching.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets the data from cache if available or fetches its contents from the LeanCloud
-servers. Sets an error if it occurs.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataInBackgroundWithBlock:" title="getDataInBackgroundWithBlock:"></a>
-	<h3 class="subsubtitle method-title">getDataInBackgroundWithBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers. Executes the given block.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(AVDataResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block should have the following argument signature: (NSData <em>result, NSError </em>error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers. Executes the given block.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataInBackgroundWithBlock:progressBlock:" title="getDataInBackgroundWithBlock:progressBlock:"></a>
-	<h3 class="subsubtitle method-title">getDataInBackgroundWithBlock:progressBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers. Executes the resultBlock upon
-completion or error. Executes the progressBlock periodically with the percent progress. progressBlock will get called with 100 before resultBlock is called.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(AVDataResultBlock)<em>resultBlock</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>resultBlock</em></dt>
-			<dd><p>The block should have the following argument signature: (NSData <em>result, NSError </em>error)</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>progressBlock</em></dt>
-			<dd><p>The block should have the following argument signature: (int percentDone)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers. Executes the resultBlock upon
-completion or error. Executes the progressBlock periodically with the percent progress. progressBlock will get called with 100 before resultBlock is called.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataInBackgroundWithTarget:selector:" title="getDataInBackgroundWithTarget:selector:"></a>
-	<h3 class="subsubtitle method-title">getDataInBackgroundWithTarget:selector:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>target</em></dt>
-			<dd><p>The object to call selector on.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>selector</em></dt>
-			<dd><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSData <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Asynchronously gets the data from cache if available or fetches its contents
-from the LeanCloud servers.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataStream" title="getDataStream"></a>
-	<h3 class="subsubtitle method-title">getDataStream</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>This method is like <a href="#//api/name/getData">getData</a> but avoids ever holding the entire AVFile&rsquo;s
-contents in memory at once. This can help applications with many large AVFiles
-avoid memory warnings.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSInputStream *)getDataStream</code></div>
-
-    
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A stream containing the data. Returns nil if there was an error in
-fetching.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>This method is like <a href="#//api/name/getData">getData</a> but avoids ever holding the entire AVFile&rsquo;s
-contents in memory at once. This can help applications with many large AVFiles
-avoid memory warnings.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataStream:" title="getDataStream:"></a>
-	<h3 class="subsubtitle method-title">getDataStream:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>This method is like <a href="#//api/name/getData:">getData:</a> but avoids ever holding the entire AVFile&rsquo;s
-contents in memory at once. This can help applications with many large AVFiles
-avoid memory warnings. Sets an error if it occurs.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSInputStream *)getDataStream:(NSError **)<em>error</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>error</em></dt>
-			<dd><p>Pointer to an NSError that will be set if necessary.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>A stream containing the data. Returns nil if there was an error in
-fetching.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>This method is like <a href="#//api/name/getData:">getData:</a> but avoids ever holding the entire AVFile&rsquo;s
-contents in memory at once. This can help applications with many large AVFiles
-avoid memory warnings. Sets an error if it occurs.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataStreamInBackgroundWithBlock:" title="getDataStreamInBackgroundWithBlock:"></a>
-	<h3 class="subsubtitle method-title">getDataStreamInBackgroundWithBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>This method is like <a href="#//api/name/getDataInBackgroundWithBlock:">getDataInBackgroundWithBlock:</a> but avoids ever holding the
-entire AVFile&rsquo;s contents in memory at once. This can help applications with
-many large AVFiles avoid memory warnings.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getDataStreamInBackgroundWithBlock:(AVDataStreamResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block should have the following argument signature: (NSInputStream <em>result, NSError </em>error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>This method is like <a href="#//api/name/getDataInBackgroundWithBlock:">getDataInBackgroundWithBlock:</a> but avoids ever holding the
-entire AVFile&rsquo;s contents in memory at once. This can help applications with
-many large AVFiles avoid memory warnings.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getDataStreamInBackgroundWithBlock:progressBlock:" title="getDataStreamInBackgroundWithBlock:progressBlock:"></a>
-	<h3 class="subsubtitle method-title">getDataStreamInBackgroundWithBlock:progressBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>This method is like <a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">getDataInBackgroundWithBlock:progressBlock:</a> but avoids ever
-holding the entire AVFile&rsquo;s contents in memory at once. This can help
-applications with many large AVFiles avoid memory warnings.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getDataStreamInBackgroundWithBlock:(AVDataStreamResultBlock)<em>resultBlock</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>resultBlock</em></dt>
-			<dd><p>The block should have the following argument signature: (NSInputStream <em>result, NSError </em>error)</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>progressBlock</em></dt>
-			<dd><p>The block should have the following argument signature: (int percentDone)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>This method is like <a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">getDataInBackgroundWithBlock:progressBlock:</a> but avoids ever
-holding the entire AVFile&rsquo;s contents in memory at once. This can help
-applications with many large AVFiles avoid memory warnings.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getThumbnail:width:height:withBlock:" title="getThumbnail:width:height:withBlock:"></a>
-	<h3 class="subsubtitle method-title">getThumbnail:width:height:withBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets a thumbnail asynchronously and calls the given block with the result.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)getThumbnail:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> withBlock:(AVImageResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>scaleToFit</em></dt>
-			<dd><p>Scale the thumbnail and keep aspect ratio.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>width</em></dt>
-			<dd><p>The desired width.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>height</em></dt>
-			<dd><p>The desired height.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block to execute. The block should have the following argument signature: (UIImage <em>image, NSError </em>error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets a thumbnail asynchronously and calls the given block with the result.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getThumbnailURLWithScaleToFit:width:height:" title="getThumbnailURLWithScaleToFit:width:height:"></a>
-	<h3 class="subsubtitle method-title">getThumbnailURLWithScaleToFit:width:height:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Get a thumbnail URL for image saved on Qiniu.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>scaleToFit</em></dt>
-			<dd><p>Scale the thumbnail and keep aspect ratio.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>width</em></dt>
-			<dd><p>The thumbnail width.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>height</em></dt>
-			<dd><p>The thumbnail height.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Get a thumbnail URL for image saved on Qiniu.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:" title="getThumbnailURLWithScaleToFit:width:height:quality:format:"></a>
-	<h3 class="subsubtitle method-title">getThumbnailURLWithScaleToFit:width:height:quality:format:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Get a thumbnail URL for image saved on Qiniu.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> quality:(int)<em>quality</em> format:(nullable NSString *)<em>format</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>scaleToFit</em></dt>
-			<dd><p>Scale the thumbnail and keep aspect ratio.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>width</em></dt>
-			<dd><p>The thumbnail width.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>height</em></dt>
-			<dd><p>The thumbnail height.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>quality</em></dt>
-			<dd><p>The thumbnail image quality in 1 - 100.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>format</em></dt>
-			<dd><p>The thumbnail image format such as &lsquo;jpg&rsquo;, &lsquo;gif&rsquo;, &lsquo;png&rsquo;, &lsquo;tif&rsquo; etc.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Get a thumbnail URL for image saved on Qiniu.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/localPath" title="localPath"></a>
-	<h3 class="subsubtitle method-title">localPath</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets local file path.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSString *)localPath</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets local file path.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/ownerId" title="ownerId"></a>
-	<h3 class="subsubtitle method-title">ownerId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets owner id from metadata.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSString *)ownerId</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets owner id from metadata.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/pathExtension" title="pathExtension"></a>
-	<h3 class="subsubtitle method-title">pathExtension</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets file path extension from <a href="#//api/name/url">url</a>, <a href="#//api/name/name">name</a> or local file path.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (nullable NSString *)pathExtension</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets file path extension from <a href="#//api/name/url">url</a>, <a href="#//api/name/name">name</a> or local file path.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/save" title="save"></a>
-	<h3 class="subsubtitle method-title">save</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BOOL)save</code></div>
-
-    
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>whether the save succeeded.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/save:" title="save:"></a>
-	<h3 class="subsubtitle method-title">save:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file and sets an error if it occurs.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BOOL)save:(NSError **)<em>error</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>error</em></dt>
-			<dd><p>Pointer to an NSError that will be set if necessary.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>whether the <a href="#//api/name/save">save</a> succeeded.</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file and sets an error if it occurs.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/saveAndThrowsWithError:" title="saveAndThrowsWithError:"></a>
-	<h3 class="subsubtitle method-title">saveAndThrowsWithError:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>An alias of <a href="#//api/name/save:"><code>[AVFile save:]</code></a> methods that supports Swift exception.
-@seealso <a href="#//api/name/save:"><code>[AVFile save:]</code></a></p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BOOL)saveAndThrowsWithError:(NSError **)<em>error</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>An alias of <a href="#//api/name/save:"><code>[AVFile save:]</code></a> methods that supports Swift exception.
-@seealso <a href="#//api/name/save:"><code>[AVFile save:]</code></a></p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/saveInBackground" title="saveInBackground"></a>
-	<h3 class="subsubtitle method-title">saveInBackground</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file asynchronously.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)saveInBackground</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file asynchronously.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/saveInBackgroundWithBlock:" title="saveInBackgroundWithBlock:"></a>
-	<h3 class="subsubtitle method-title">saveInBackgroundWithBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file asynchronously and executes the given block.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file asynchronously and executes the given block.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/saveInBackgroundWithBlock:progressBlock:" title="saveInBackgroundWithBlock:progressBlock:"></a>
-	<h3 class="subsubtitle method-title">saveInBackgroundWithBlock:progressBlock:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file asynchronously and executes the given resultBlock. Executes the progressBlock periodically with the percent
-progress. progressBlock will get called with 100 before resultBlock is called.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em> progressBlock:(nullable AVProgressBlock)<em>progressBlock</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>block</em></dt>
-			<dd><p>The block should have the following argument signature: (BOOL succeeded, NSError *error)</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>progressBlock</em></dt>
-			<dd><p>The block should have the following argument signature: (int percentDone)</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file asynchronously and executes the given resultBlock. Executes the progressBlock periodically with the percent
-progress. progressBlock will get called with 100 before resultBlock is called.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/saveInBackgroundWithTarget:selector:" title="saveInBackgroundWithTarget:selector:"></a>
-	<h3 class="subsubtitle method-title">saveInBackgroundWithTarget:selector:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Saves the file asynchronously and calls the given callback.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>target</em></dt>
-			<dd><p>The object to call selector on.</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>selector</em></dt>
-			<dd><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Saves the file asynchronously and calls the given callback.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/setOwnerId:" title="setOwnerId:"></a>
-	<h3 class="subsubtitle method-title">setOwnerId:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Sets a owner id to metadata.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)setOwnerId:(nullable NSString *)<em>ownerId</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>ownerId</em></dt>
-			<dd><p>The owner <a href="#//api/name/objectId">objectId</a>.</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Sets a owner id to metadata.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/size" title="size"></a>
-	<h3 class="subsubtitle method-title">size</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets file size in bytes.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (NSUInteger)size</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets file size in bytes.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVFile.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-                    
-                    
-                    
-                    
-
-				</div>
-				<div class="main-navigation navigation-bottom">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="footer">
-					<hr />
-					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-10-10)</span><br />
-						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
-						
-					</div>
-				</div>
+See <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html">https://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html</a> for all request headers.</p>
 			</div>
-		</article>
-		<script type="text/javascript">
-			function jumpToChange()
-			{
-				window.location.hash = this.options[this.selectedIndex].value;
-			}
 			
-			function toggleTOC()
-			{
-				var contents = document.getElementById('contents');
-				var tocContainer = document.getElementById('tocContainer');
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectForKey:" title="objectForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectForKey:">&ndash;&nbsp;objectForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the value associated with a given key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id _Nullable)objectForKey:(id)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
 				
-				if (this.getAttribute('class') == 'open')
-				{
-					this.setAttribute('class', '');
-					contents.setAttribute('class', '');
-					tocContainer.setAttribute('class', '');
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>Key.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Value.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the value associated with a given key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uploadWithCompletionHandler:" title="uploadWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uploadWithCompletionHandler:">&ndash;&nbsp;uploadWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload Method. Use default option <code>AVFileUploadOptionCachingData</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)uploadWithCompletionHandler:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload Method. Use default option <code>AVFileUploadOptionCachingData</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uploadWithProgress:completionHandler:" title="uploadWithProgress:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uploadWithProgress:completionHandler:">&ndash;&nbsp;uploadWithProgress:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload Method. Use default option <code>AVFileUploadOptionCachingData</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)uploadWithProgress:(void ( ^ _Nullable ) ( NSInteger number ))<em>uploadProgressBlock</em> completionHandler:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>uploadProgressBlock</code></th>
+						<td><p>Upload Progress Block.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload Method. Use default option <code>AVFileUploadOptionCachingData</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uploadWithOption:progress:completionHandler:" title="uploadWithOption:progress:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uploadWithOption:progress:completionHandler:">&ndash;&nbsp;uploadWithOption:progress:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Upload Method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)uploadWithOption:(AVFileUploadOption)<em>uploadOption</em> progress:(void ( ^ _Nullable ) ( NSInteger number ))<em>uploadProgressBlock</em> completionHandler:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>uploadOption</code></th>
+						<td><p>See <a href="../Constants/AVFileUploadOption.html"><code>AVFileUploadOption</code></a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>uploadProgressBlock</code></th>
+						<td><p>Upload Progress Block.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Upload Method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/downloadWithCompletionHandler:" title="downloadWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/downloadWithCompletionHandler:">&ndash;&nbsp;downloadWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Download Method. Use default option <code>AVFileDownloadOptionCachedData</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)downloadWithCompletionHandler:(void ( ^ ) ( NSURL *_Nullable filePath , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Download Method. Use default option <code>AVFileDownloadOptionCachedData</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/downloadWithProgress:completionHandler:" title="downloadWithProgress:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/downloadWithProgress:completionHandler:">&ndash;&nbsp;downloadWithProgress:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Download Method. Use default option <code>AVFileDownloadOptionCachedData</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)downloadWithProgress:(void ( ^ _Nullable ) ( NSInteger number ))<em>downloadProgressBlock</em> completionHandler:(void ( ^ ) ( NSURL *_Nullable filePath , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>downloadProgressBlock</code></th>
+						<td><p>Download Progress Block.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Download Method. Use default option <code>AVFileDownloadOptionCachedData</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/downloadWithOption:progress:completionHandler:" title="downloadWithOption:progress:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/downloadWithOption:progress:completionHandler:">&ndash;&nbsp;downloadWithOption:progress:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Download Method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)downloadWithOption:(AVFileDownloadOption)<em>downloadOption</em> progress:(void ( ^ _Nullable ) ( NSInteger number ))<em>downloadProgressBlock</em> completionHandler:(void ( ^ ) ( NSURL *_Nullable filePath , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>downloadOption</code></th>
+						<td><p>See <a href="../Constants/AVFileDownloadOption.html"><code>AVFileDownloadOption</code></a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>downloadProgressBlock</code></th>
+						<td><p>Download Progress Block.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Download Method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cancelUploading" title="cancelUploading"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cancelUploading">&ndash;&nbsp;cancelUploading</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Cancel Uploading Task.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cancelUploading</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Cancel Uploading Task.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cancelDownloading" title="cancelDownloading"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cancelDownloading">&ndash;&nbsp;cancelDownloading</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Cancel Downloading Task.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cancelDownloading</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Cancel Downloading Task.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCustomPersistentCacheDirectory:" title="setCustomPersistentCacheDirectory:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCustomPersistentCacheDirectory:">+&nbsp;setCustomPersistentCacheDirectory:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a Custom Persistent Cache Directory for files.
+if not set, AVFile will use a default Persistent Cache Directory.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCustomPersistentCacheDirectory:(NSString *)<em>directory</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>directory</code></th>
+						<td><p>Custom Persistent Cache Directory.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set a Custom Persistent Cache Directory for files.
+if not set, AVFile will use a default Persistent Cache Directory.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearPersistentCache" title="clearPersistentCache"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearPersistentCache">&ndash;&nbsp;clearPersistentCache</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Clear This file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearPersistentCache</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Clear This file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearAllPersistentCache" title="clearAllPersistentCache"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearAllPersistentCache">+&nbsp;clearAllPersistentCache</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Clear All file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)clearAllPersistentCache</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Clear All file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/persistentCachePath" title="persistentCachePath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/persistentCachePath">&ndash;&nbsp;persistentCachePath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Path of This file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *_Nullable)persistentCachePath</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Path.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Path of This file&rsquo;s Persistent Cache.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteWithCompletionHandler:" title="deleteWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteWithCompletionHandler:">&ndash;&nbsp;deleteWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Delete This File Object from server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteWithCompletionHandler:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Delete This File Object from server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteWithFiles:completionHandler:" title="deleteWithFiles:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteWithFiles:completionHandler:">+&nbsp;deleteWithFiles:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Delete File Object List from server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteWithFiles:(NSArray&lt;AVFile*&gt; *)<em>files</em> completionHandler:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>files</code></th>
+						<td><p>File Object List</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Delete File Object List from server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getFileWithObjectId:completionHandler:" title="getFileWithObjectId:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getFileWithObjectId:completionHandler:">+&nbsp;getFileWithObjectId:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get File Object from server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getFileWithObjectId:(NSString *)<em>objectId</em> completionHandler:(void ( ^ ) ( AVFile *_Nullable file , NSError *_Nullable error ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>Object ID.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>Completion Handler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get File Object from server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:" title="getThumbnailURLWithScaleToFit:width:height:quality:format:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:quality:format:">&ndash;&nbsp;getThumbnailURLWithScaleToFit:width:height:quality:format:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get a thumbnail URL for image saved on Qiniu.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> quality:(int)<em>quality</em> format:(nullable NSString *)<em>format</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scaleToFit</code></th>
+						<td><p>Scale the thumbnail and keep aspect ratio.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>width</code></th>
+						<td><p>The thumbnail width.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>height</code></th>
+						<td><p>The thumbnail height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>quality</code></th>
+						<td><p>The thumbnail image quality in 1 - 100.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>format</code></th>
+						<td><p>The thumbnail image format such as &lsquo;jpg&rsquo;, &lsquo;gif&rsquo;, &lsquo;png&rsquo;, &lsquo;tif&rsquo; etc.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get a thumbnail URL for image saved on Qiniu.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getThumbnailURLWithScaleToFit:width:height:" title="getThumbnailURLWithScaleToFit:width:height:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getThumbnailURLWithScaleToFit:width:height:">&ndash;&nbsp;getThumbnailURLWithScaleToFit:width:height:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get a thumbnail URL for image saved on Qiniu.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable NSString *)getThumbnailURLWithScaleToFit:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scaleToFit</code></th>
+						<td><p>Scale the thumbnail and keep aspect ratio.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>width</code></th>
+						<td><p>The thumbnail width.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>height</code></th>
+						<td><p>The thumbnail height.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get a thumbnail URL for image saved on Qiniu.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getThumbnail:width:height:withBlock:" title="getThumbnail:width:height:withBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getThumbnail:width:height:withBlock:">&ndash;&nbsp;getThumbnail:width:height:withBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets a thumbnail asynchronously and calls the given block with the result.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getThumbnail:(BOOL)<em>scaleToFit</em> width:(int)<em>width</em> height:(int)<em>height</em> withBlock:(AVImageResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scaleToFit</code></th>
+						<td><p>Scale the thumbnail and keep aspect ratio.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>width</code></th>
+						<td><p>The desired width.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>height</code></th>
+						<td><p>The desired height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>The block to execute. The block should have the following argument signature: (UIImage <em>image, NSError </em>error)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets a thumbnail asynchronously and calls the given block with the result.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="method-title"><code><a href="#//api/name/query">+&nbsp;query</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create an <a href="../Classes/AVFileQuery.html">AVFileQuery</a> which returns files.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVFileQuery *)query</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create an <a href="../Classes/AVFileQuery.html">AVFileQuery</a> which returns files.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVFile.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithBlock:" title="saveInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>block</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithBlock:progressBlock:" title="saveInBackgroundWithBlock:progressBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:progressBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>block</em> progressBlock:(void ( ^ _Nullable ) ( NSInteger number ))<em>progressBlock</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDataInBackgroundWithBlock:" title="getDataInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDataInBackgroundWithBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(void ( ^ ) ( NSData *_Nullable data , NSError *_Nullable error ))<em>block</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDataInBackgroundWithBlock:progressBlock:" title="getDataInBackgroundWithBlock:progressBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:progressBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(void ( ^ ) ( NSData *_Nullable data , NSError *_Nullable error ))<em>block</em> progressBlock:(void ( ^ _Nullable ) ( NSInteger number ))<em>progressBlock</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
 					
-					window.name = "hideTOC";
-				}
-				else
-				{
-					this.setAttribute('class', 'open');
-					contents.setAttribute('class', 'isShowingTOC');
-					tocContainer.setAttribute('class', 'isShowingTOC');
 					
-					window.name = "";
-				}
-				return false;
-			}
-			
-			function toggleTOCEntryChildren(e)
-			{
-				e.stopPropagation();
-				var currentClass = this.getAttribute('class');
-				if (currentClass == 'children') {
-					this.setAttribute('class', 'children open');
-				}
-				else if (currentClass == 'children open') {
-					this.setAttribute('class', 'children');
-				}
-				return false;
-			}
-			
-			function tocEntryClick(e)
-			{
-				e.stopPropagation();
-				return true;
-			}
-			
-			function init()
-			{
-				var selectElement = document.getElementById('jumpTo');
-				selectElement.addEventListener('change', jumpToChange, false);
-				
-				var tocButton = document.getElementById('table_of_contents');
-				tocButton.addEventListener('click', toggleTOC, false);
-				
-				var taskTreeItem = document.getElementById('task_treeitem');
-				if (taskTreeItem.getElementsByTagName('li').length > 0)
-				{
-					taskTreeItem.setAttribute('class', 'children');
-					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
-				}
-				
-				var tocList = document.getElementById('toc');
-				
-				var tocEntries = tocList.getElementsByTagName('li');
-				for (var i = 0; i < tocEntries.length; i++) {
-					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
-				}
-				
-				var tocLinks = tocList.getElementsByTagName('a');
-				for (var i = 0; i < tocLinks.length; i++) {
-					tocLinks[i].addEventListener('click', tocEntryClick, false);
-				}
-				
-				if (window.name == "hideTOC") {
-					toggleTOC.call(tocButton);
-				}
-			}
-			
-			window.onload = init;
-			
-			// If showing in Xcode, hide the TOC and Header
-			if (navigator.userAgent.match(/xcode/i)) {
-				document.getElementById("contents").className = "hideInXcode"
-				document.getElementById("tocContainer").className = "hideInXcode"
-				document.getElementById("top_header").className = "hideInXcode"
-			}
-			
-		</script>
-	</body>
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
 </html>

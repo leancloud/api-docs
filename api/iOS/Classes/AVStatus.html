@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVStatus Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud Objective-C SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/createdAt">createdAt</option>
+		
+		<option value="//api/name/data">data</option>
+		
+		<option value="//api/name/messageId">messageId</option>
+		
+		<option value="//api/name/objectId">objectId</option>
+		
+		<option value="//api/name/source">source</option>
+		
+		<option value="//api/name/type">type</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/deleteInboxStatusForMessageId:inboxType:receiver:error:">+ deleteInboxStatusForMessageId:inboxType:receiver:error:</option>
+		
+		<option value="//api/name/deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:">+ deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:</option>
+		
+		<option value="//api/name/deleteStatusWithID:andCallback:">+ deleteStatusWithID:andCallback:</option>
+		
+		<option value="//api/name/getStatusWithID:andCallback:">+ getStatusWithID:andCallback:</option>
+		
+		<option value="//api/name/getStatusesFromCurrentUserWithType:skip:limit:andCallback:">+ getStatusesFromCurrentUserWithType:skip:limit:andCallback:</option>
+		
+		<option value="//api/name/getStatusesFromUser:skip:limit:andCallback:">+ getStatusesFromUser:skip:limit:andCallback:</option>
+		
+		<option value="//api/name/getStatusesWithType:skip:limit:andCallback:">+ getStatusesWithType:skip:limit:andCallback:</option>
+		
+		<option value="//api/name/getUnreadStatusesCountWithType:andCallback:">+ getUnreadStatusesCountWithType:andCallback:</option>
+		
+		<option value="//api/name/inboxQuery:">+ inboxQuery:</option>
+		
+		<option value="//api/name/resetUnreadStatusesCountWithType:andCallback:">+ resetUnreadStatusesCountWithType:andCallback:</option>
+		
+		<option value="//api/name/sendPrivateStatus:toUserWithID:andCallback:">+ sendPrivateStatus:toUserWithID:andCallback:</option>
+		
+		<option value="//api/name/sendStatusToFollowers:andCallback:">+ sendStatusToFollowers:andCallback:</option>
+		
+		<option value="//api/name/statusQuery">+ statusQuery</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/sendInBackgroundWithBlock:">- sendInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/setQuery:">- setQuery:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVStatus Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AVStatus.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>发送和获取状态更新和消息</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/objectId" title="objectId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectId">&nbsp;&nbsp;objectId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>此状态的ID 具有唯一性</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *objectId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>此状态的ID 具有唯一性</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/messageId" title="messageId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/messageId">&nbsp;&nbsp;messageId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>此状态在用户某个Type的收件箱中的ID</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) NSUInteger messageId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>此状态在用户某个Type的收件箱中的ID</p><div class="warning"><p><strong>Warning:</strong> 仅用于分片查询,不具有唯一性,同一条状态在不同的inbox里的messageId也是不同的</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createdAt" title="createdAt"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createdAt">&nbsp;&nbsp;createdAt</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>状态的创建时间</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) NSDate *createdAt</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>状态的创建时间</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/data" title="data"></a>
+	<h3 class="method-title"><code><a href="#//api/name/data">&nbsp;&nbsp;data</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>状态的内容</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary *data</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>状态的内容</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/source" title="source"></a>
+	<h3 class="method-title"><code><a href="#//api/name/source">&nbsp;&nbsp;source</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>状态的发出"人",可以是<a href="../Classes/AVUser.html">AVUser</a> 也可以是任意的<a href="../Classes/AVObject.html">AVObject</a>,也可能是nil</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) AVObject *source</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>状态的发出"人",可以是<a href="../Classes/AVUser.html">AVUser</a> 也可以是任意的<a href="../Classes/AVObject.html">AVObject</a>,也可能是nil</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/type" title="type"></a>
+	<h3 class="method-title"><code><a href="#//api/name/type">&nbsp;&nbsp;type</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>状态类型,默认是kAVStatusTypeTimeline, 可以是任意自定义字符串</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) AVStatusType *type</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>状态类型,默认是kAVStatusTypeTimeline, 可以是任意自定义字符串</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="针对某条状态的操作" name="task_针对某条状态的操作"></a>
+						<h2 class="task-title">针对某条状态的操作</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getStatusWithID:andCallback:" title="getStatusWithID:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStatusWithID:andCallback:">+&nbsp;getStatusWithID:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取某条状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStatusWithID:(NSString *)<em>objectId</em> andCallback:(AVStatusResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>状态的<a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取某条状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteStatusWithID:andCallback:" title="deleteStatusWithID:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteStatusWithID:andCallback:">+&nbsp;deleteStatusWithID:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>删除当前用户发布的某条状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteStatusWithID:(NSString *)<em>objectId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectId</code></th>
+						<td><p>状态的<a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>删除当前用户发布的某条状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteInboxStatusForMessageId:inboxType:receiver:error:" title="deleteInboxStatusForMessageId:inboxType:receiver:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteInboxStatusForMessageId:inboxType:receiver:error:">+&nbsp;deleteInboxStatusForMessageId:inboxType:receiver:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>删除收件箱中的状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)deleteInboxStatusForMessageId:(NSUInteger)<em>messageId</em> inboxType:(NSString *)<em>inboxType</em> receiver:(NSString *)<em>receiver</em> error:(NSError **)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>messageId</code></th>
+						<td><p>状态的 <a href="#//api/name/messageId">messageId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>inboxType</code></th>
+						<td><p>收件箱类型</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>receiver</code></th>
+						<td><p>收件人的 <a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>删除收件箱中的状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:" title="deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:">+&nbsp;deleteInboxStatusInBackgroundForMessageId:inboxType:receiver:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>删除收件箱中的状态，异步执行</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)deleteInboxStatusInBackgroundForMessageId:(NSUInteger)<em>messageId</em> inboxType:(NSString *)<em>inboxType</em> receiver:(NSString *)<em>receiver</em> block:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>messageId</code></th>
+						<td><p>状态的 <a href="#//api/name/messageId">messageId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>inboxType</code></th>
+						<td><p>收件箱类型</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>receiver</code></th>
+						<td><p>收件人的 <a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>回调 block</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>删除收件箱中的状态，异步执行</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setQuery:" title="setQuery:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setQuery:">&ndash;&nbsp;setQuery:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置受众群体</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setQuery:(AVQuery *)<em>query</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>query</code></th>
+						<td><p>限定条件</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置受众群体</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="获取状态" name="task_获取状态"></a>
+						<h2 class="task-title">获取状态</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/inboxQuery:" title="inboxQuery:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inboxQuery:">+&nbsp;inboxQuery:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户收件箱里的状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVStatusQuery *)inboxQuery:(AVStatusType *)<em>inboxType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>inboxType</code></th>
+						<td><p>收件箱类型</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVStatusQuery.html">AVStatusQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户收件箱里的状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/statusQuery" title="statusQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/statusQuery">+&nbsp;statusQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户发出的状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVStatusQuery *)statusQuery</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVStatusQuery.html">AVStatusQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户发出的状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getUnreadStatusesCountWithType:andCallback:" title="getUnreadStatusesCountWithType:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getUnreadStatusesCountWithType:andCallback:">+&nbsp;getUnreadStatusesCountWithType:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户特定类型未读状态条数</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getUnreadStatusesCountWithType:(AVStatusType *)<em>type</em> andCallback:(AVIntegerResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>type</code></th>
+						<td><p>收件箱类型</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户特定类型未读状态条数</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resetUnreadStatusesCountWithType:andCallback:" title="resetUnreadStatusesCountWithType:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resetUnreadStatusesCountWithType:andCallback:">+&nbsp;resetUnreadStatusesCountWithType:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reset unread count of specific status <a href="#//api/name/type">type</a> (inbox).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)resetUnreadStatusesCountWithType:(AVStatusType *)<em>type</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>type</code></th>
+						<td><p>Status <a href="#//api/name/type">type</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>Callback of reset request.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Reset unread count of specific status <a href="#//api/name/type">type</a> (inbox).</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getStatusesWithType:skip:limit:andCallback:" title="getStatusesWithType:skip:limit:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStatusesWithType:skip:limit:andCallback:">+&nbsp;getStatusesWithType:skip:limit:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户接收到的状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStatusesWithType:(AVStatusType *)<em>type</em> skip:(NSUInteger)<em>skip</em> limit:(NSUInteger)<em>limit</em> andCallback:(AVArrayResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>type</code></th>
+						<td><p>状态类型,默认是kAVStatusTypeTimeline, 可以是任意自定义字符串</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>skip</code></th>
+						<td><p>跳过条数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>需要返回的条数 默认<code>100</code>，最大<code>100</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户接收到的状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getStatusesFromCurrentUserWithType:skip:limit:andCallback:" title="getStatusesFromCurrentUserWithType:skip:limit:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStatusesFromCurrentUserWithType:skip:limit:andCallback:">+&nbsp;getStatusesFromCurrentUserWithType:skip:limit:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户发布的状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStatusesFromCurrentUserWithType:(AVStatusType *)<em>type</em> skip:(NSUInteger)<em>skip</em> limit:(NSUInteger)<em>limit</em> andCallback:(AVArrayResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>type</code></th>
+						<td><p>状态类型,默认是kAVStatusTypeTimeline, 可以是任意自定义字符串</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>skip</code></th>
+						<td><p>跳过条数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>需要返回的条数 默认<code>100</code>，最大<code>100</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户发布的状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getStatusesFromUser:skip:limit:andCallback:" title="getStatusesFromUser:skip:limit:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getStatusesFromUser:skip:limit:andCallback:">+&nbsp;getStatusesFromUser:skip:limit:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>通过用户ID获取其发布的公开的状态列表</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getStatusesFromUser:(NSString *)<em>userId</em> skip:(NSUInteger)<em>skip</em> limit:(NSUInteger)<em>limit</em> andCallback:(AVArrayResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userId</code></th>
+						<td><p>用户的<a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>skip</code></th>
+						<td><p>跳过条数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>需要返回的条数 默认<code>100</code>，最大<code>100</code></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>通过用户ID获取其发布的公开的状态列表</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="发送状态" name="task_发送状态"></a>
+						<h2 class="task-title">发送状态</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sendStatusToFollowers:andCallback:" title="sendStatusToFollowers:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendStatusToFollowers:andCallback:">+&nbsp;sendStatusToFollowers:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>向用户的粉丝发送新状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)sendStatusToFollowers:(AVStatus *)<em>status</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p>状态</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>向用户的粉丝发送新状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendPrivateStatus:toUserWithID:andCallback:" title="sendPrivateStatus:toUserWithID:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendPrivateStatus:toUserWithID:andCallback:">+&nbsp;sendPrivateStatus:toUserWithID:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>向用户发私信</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)sendPrivateStatus:(AVStatus *)<em>status</em> toUserWithID:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p>状态</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userId</code></th>
+						<td><p>接受私信的用户<a href="#//api/name/objectId">objectId</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>向用户发私信</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendInBackgroundWithBlock:" title="sendInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendInBackgroundWithBlock:">&ndash;&nbsp;sendInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>发送</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendInBackgroundWithBlock:(AVBooleanResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>发送</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

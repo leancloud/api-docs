@@ -1,666 +1,522 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AVShortMessageRequestOptions Class Reference</title>
-		<meta id="xcode-display" name="xcode-display" content="render"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2 (build 963)" />
-	</head>
-	<body>
-		<header id="top_header">
-			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">LeanCloud Objective-C SDK </a></h1>
-				<a id="developerHome" href="../index.html">LeanCloud, Inc.</a>
-			</div>
+<head>
+	<meta charset="utf-8">
+
+	<title>AVShortMessageRequestOptions Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
 			
-			<div id="title" role="banner">
-				<h1 class="hideInXcode">AVShortMessageRequestOptions Class Reference</h1>
-			</div>
-			<ul id="headerButtons" role="toolbar">
-				<li id="toc_button">
-					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
-				</li>
-				<li id="jumpto_button" role="navigation">
-					<select id="jumpTo">
+			<h1 id="library-title">
+				<a href="../index.html">LeanCloud Objective-C SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">LeanCloud, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	
+
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
+
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/TTL">TTL</option>
+		
+		<option value="//api/name/applicationName">applicationName</option>
+		
+		<option value="//api/name/operation">operation</option>
+		
+		<option value="//api/name/signatureName">signatureName</option>
+		
+		<option value="//api/name/templateName">templateName</option>
+		
+		<option value="//api/name/templateVariables">templateVariables</option>
+		
+		<option value="//api/name/type">type</option>
+		
+		<option value="//api/name/validationToken">validationToken</option>
+		
+	</optgroup>
 	
-	<option value="properties">Properties</option>
+
 	
-	<option value="//api/name/TTL">&nbsp;&nbsp;&nbsp;&nbsp;TTL</option>
-	
-	<option value="//api/name/applicationName">&nbsp;&nbsp;&nbsp;&nbsp;applicationName</option>
-	
-	<option value="//api/name/operation">&nbsp;&nbsp;&nbsp;&nbsp;operation</option>
-	
-	<option value="//api/name/signatureName">&nbsp;&nbsp;&nbsp;&nbsp;signatureName</option>
-	
-	<option value="//api/name/templateName">&nbsp;&nbsp;&nbsp;&nbsp;templateName</option>
-	
-	<option value="//api/name/templateVariables">&nbsp;&nbsp;&nbsp;&nbsp;templateVariables</option>
-	
-	<option value="//api/name/type">&nbsp;&nbsp;&nbsp;&nbsp;type</option>
-	
-	<option value="//api/name/validationToken">&nbsp;&nbsp;&nbsp;&nbsp;validationToken</option>
-	
-	
-	
-	
-	
+
 	
 	
 </select>
-				</li>
-			</ul>
-		</header>
-		<nav id="tocContainer" class="isShowingTOC">
-			<ul id="toc" role="tree">
-				
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
 
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AVShortMessageRequestOptions Class Reference</h1>
 
-
-<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-</ul></li>
-
-
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/TTL">TTL</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applicationName">applicationName</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/operation">operation</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signatureName">signatureName</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/templateName">templateName</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/templateVariables">templateVariables</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/type">type</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/validationToken">validationToken</a></span></li>
-	
-</ul></li>
-
-
-
-
-
-
-			</ul>
-		</nav>
-		<article>
-			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AVShortMessageRequestOptions Class Reference" name="top"></a>
-				<div class="main-navigation navigation-top">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="header">
-					<div class="section-header">
-						<h1 class="title title-header">AVShortMessageRequestOptions Class Reference</h1>
-					</div>		
-				</div>
-				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<td class="specification-title">Inherits from</td>
-	<td class="specification-value"><a href="../Classes/AVDynamicObject.html">AVDynamicObject</a> : NSObject</td>
+	<th>Inherits from</th>
+	<td><a href="../Classes/AVDynamicObject.html">AVDynamicObject</a> : NSObject</td>
 </tr><tr>
-	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AVSMS.h</td>
+	<th>Declared in</th>
+	<td>AVSMS.h</td>
 </tr>
 						</tbody></table></div>
 					
+
                     
-                    
-					
+
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
-						<h2 class="subtitle subtitle-tasks">Tasks</h2>
 						
-						
+
 						
 						
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/TTL">&nbsp;&nbsp;TTL</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/type">&nbsp;&nbsp;type</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/validationToken">&nbsp;&nbsp;validationToken</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/templateName">&nbsp;&nbsp;templateName</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/templateVariables">&nbsp;&nbsp;templateVariables</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/signatureName">&nbsp;&nbsp;signatureName</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/applicationName">&nbsp;&nbsp;applicationName</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/operation">&nbsp;&nbsp;operation</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li>
-						</ul>
-						
-					</div>
-					
-					
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
-						
-						<div class="section-method">
+						<div class="task-list">
+							<div class="section-method">
 	<a name="//api/name/TTL" title="TTL"></a>
-	<h3 class="subsubtitle method-title">TTL</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Time to live of validation information, in minutes. Defaults to 10 minutes.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/TTL">&nbsp;&nbsp;TTL</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger TTL</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Time to live of validation information, in minutes. Defaults to 10 minutes.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Time to live of validation information, in minutes. Defaults to 10 minutes.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger TTL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Time to live of validation information, in minutes. Defaults to 10 minutes.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+</div><div class="section-method">
+	<a name="//api/name/type" title="type"></a>
+	<h3 class="method-title"><code><a href="#//api/name/type">&nbsp;&nbsp;type</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The representation or form of short message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVShortMessageType type</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The representation or form of short message.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/validationToken" title="validationToken"></a>
+	<h3 class="method-title"><code><a href="#//api/name/validationToken">&nbsp;&nbsp;validationToken</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Token used to validate short message request.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *validationToken</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Token used to validate short message request.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/templateName" title="templateName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/templateName">&nbsp;&nbsp;templateName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Template name of text short message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *templateName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Template name of text short message.</p><div class="note"><p><strong>Note:</strong> If not specified, the default validation message will be requested.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/templateVariables" title="templateVariables"></a>
+	<h3 class="method-title"><code><a href="#//api/name/templateVariables">&nbsp;&nbsp;templateVariables</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A set of key value pairs that will fill in template placeholders.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary *templateVariables</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A set of key value pairs that will fill in template placeholders.</p><div class="note"><p><strong>Note:</strong> You should not use the placeholders listed here in your template:
+<code>mobilePhoneNumber</code>, <code>ttl</code>, <code>smsType</code>, <code>template</code> and <code>sign</code>.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/signatureName" title="signatureName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/signatureName">&nbsp;&nbsp;signatureName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Signature name of text short message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *signatureName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Signature name of text short message.</p>
+
+<p>It will be placed ahead of text short message.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/applicationName" title="applicationName"></a>
-	<h3 class="subsubtitle method-title">applicationName</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Application name showed in validation message.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/applicationName">&nbsp;&nbsp;applicationName</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *applicationName</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Application name showed in validation message.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Application name showed in validation message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *applicationName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Application name showed in validation message.</p>
 
 <p>It fills the placeholder <code>{{name}}</code> in default validation message template.
 If not given, the application name in LeanCloud console will be used.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+</div><div class="section-method">
 	<a name="//api/name/operation" title="operation"></a>
-	<h3 class="subsubtitle method-title">operation</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The operation description showed in validation message.</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/operation">&nbsp;&nbsp;operation</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *operation</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The operation description showed in validation message.</p>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The operation description showed in validation message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *operation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The operation description showed in validation message.</p>
 
 <p>It fills the placeholder <code>{{op}}</code> in default validation message template.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/signatureName" title="signatureName"></a>
-	<h3 class="subsubtitle method-title">signatureName</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Signature name of text short message.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *signatureName</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Signature name of text short message.</p>
-
-<p>It will be placed ahead of text short message.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/templateName" title="templateName"></a>
-	<h3 class="subsubtitle method-title">templateName</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Template name of text short message.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *templateName</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Template name of text short message.</p><div class="note"><p><strong>Note:</strong> If not specified, the default validation message will be requested.</p></div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/templateVariables" title="templateVariables"></a>
-	<h3 class="subsubtitle method-title">templateVariables</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A set of key value pairs that will fill in template placeholders.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSDictionary *templateVariables</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>A set of key value pairs that will fill in template placeholders.</p><div class="note"><p><strong>Note:</strong> You should not use the placeholders listed here in your template:
-<code>mobilePhoneNumber</code>, <code>ttl</code>, <code>smsType</code>, <code>template</code> and <code>sign</code>.</p></div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/type" title="type"></a>
-	<h3 class="subsubtitle method-title">type</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The representation or form of short message.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) AVShortMessageType type</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The representation or form of short message.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/validationToken" title="validationToken"></a>
-	<h3 class="subsubtitle method-title">validationToken</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Token used to validate short message request.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *validationToken</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Token used to validate short message request.</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AVSMS.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					
-					
-					
-                    
-                    
-                    
-                    
-
-				</div>
-				<div class="main-navigation navigation-bottom">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="footer">
-					<hr />
-					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2017 LeanCloud, Inc.. All rights reserved. (Last updated: 2017-10-10)</span><br />
-						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
-						
-					</div>
-				</div>
 			</div>
-		</article>
-		<script type="text/javascript">
-			function jumpToChange()
-			{
-				window.location.hash = this.options[this.selectedIndex].value;
-			}
 			
-			function toggleTOC()
-			{
-				var contents = document.getElementById('contents');
-				var tocContainer = document.getElementById('tocContainer');
-				
-				if (this.getAttribute('class') == 'open')
-				{
-					this.setAttribute('class', '');
-					contents.setAttribute('class', '');
-					tocContainer.setAttribute('class', '');
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVSMS.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
 					
-					window.name = "hideTOC";
-				}
-				else
-				{
-					this.setAttribute('class', 'open');
-					contents.setAttribute('class', 'isShowingTOC');
-					tocContainer.setAttribute('class', 'isShowingTOC');
 					
-					window.name = "";
-				}
-				return false;
-			}
-			
-			function toggleTOCEntryChildren(e)
-			{
-				e.stopPropagation();
-				var currentClass = this.getAttribute('class');
-				if (currentClass == 'children') {
-					this.setAttribute('class', 'children open');
-				}
-				else if (currentClass == 'children open') {
-					this.setAttribute('class', 'children');
-				}
-				return false;
-			}
-			
-			function tocEntryClick(e)
-			{
-				e.stopPropagation();
-				return true;
-			}
-			
-			function init()
-			{
-				var selectElement = document.getElementById('jumpTo');
-				selectElement.addEventListener('change', jumpToChange, false);
-				
-				var tocButton = document.getElementById('table_of_contents');
-				tocButton.addEventListener('click', toggleTOC, false);
-				
-				var taskTreeItem = document.getElementById('task_treeitem');
-				if (taskTreeItem.getElementsByTagName('li').length > 0)
-				{
-					taskTreeItem.setAttribute('class', 'children');
-					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
-				}
-				
-				var tocList = document.getElementById('toc');
-				
-				var tocEntries = tocList.getElementsByTagName('li');
-				for (var i = 0; i < tocEntries.length; i++) {
-					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
-				}
-				
-				var tocLinks = tocList.getElementsByTagName('a');
-				for (var i = 0; i < tocLinks.length; i++) {
-					tocLinks[i].addEventListener('click', tocEntryClick, false);
-				}
-				
-				if (window.name == "hideTOC") {
-					toggleTOC.call(tocButton);
-				}
-			}
-			
-			window.onload = init;
-			
-			// If showing in Xcode, hide the TOC and Header
-			if (navigator.userAgent.match(/xcode/i)) {
-				document.getElementById("contents").className = "hideInXcode"
-				document.getElementById("tocContainer").className = "hideInXcode"
-				document.getElementById("top_header").className = "hideInXcode"
-			}
-			
-		</script>
-	</body>
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
 </html>
