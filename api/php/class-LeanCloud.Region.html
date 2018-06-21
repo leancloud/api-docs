@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class LeanCloud\CloudException</title>
+	<title>Class LeanCloud\Region</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -64,7 +64,7 @@
 				<li><a href="class-LeanCloud.MIMEType.html">MIMEType</a></li>
 				<li><a href="class-LeanCloud.Push.html">Push</a></li>
 				<li><a href="class-LeanCloud.Query.html">Query</a></li>
-				<li><a href="class-LeanCloud.Region.html">Region</a></li>
+				<li class="active"><a href="class-LeanCloud.Region.html">Region</a></li>
 				<li><a href="class-LeanCloud.Relation.html">Relation</a></li>
 				<li><a href="class-LeanCloud.Role.html">Role</a></li>
 				<li><a href="class-LeanCloud.RouteCache.html">RouteCache</a></li>
@@ -78,7 +78,7 @@
 			<h3>Exceptions</h3>
 			<ul>
 				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
-				<li class="active"><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
+				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
 
@@ -114,32 +114,12 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class CloudException</h1>
+	<h1>Class Region</h1>
 
 
-	<div class="description">
-	<p>Exception thrown when cloud API returns error</p>
-	</div>
-
-	<dl class="tree">
-		<dd style="padding-left:0px">
-Exception
-			
-			
-		</dd>
-		<dd style="padding-left:30px">
-			<img src="resources/inherit.png" alt="Extended by">
-<b><span>LeanCloud\CloudException</span></b>			
-			
-			
-		</dd>
-	</dl>
 
 
-	<div>
-		<h4>Direct known subclasses</h4>
-			<a href="class-LeanCloud.BatchRequestError.html">LeanCloud\BatchRequestError</a>
-	</div>
+
 
 
 
@@ -147,12 +127,12 @@ Exception
 
 
 	<div class="info">
-		
+		<b>Abstract</b><br>
 		
 		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-LeanCloud.CloudException.html#4-15" title="Go to source code">LeanCloud/CloudException.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.Region.html#5-23" title="Go to source code">LeanCloud/Region.php</a>
 		<br>
 	</div>
 
@@ -160,10 +140,10 @@ Exception
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+	<tr data-order="fromName" id="_fromName">
 
 		<td class="attributes"><code>
-			 public 
+			 public static
 
 			
 			
@@ -171,99 +151,143 @@ Exception
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#8-10" title="Go to source code">__construct</a>( <span> <var>$message</var></span>, <span> <var>$code</var> = <span class="php-num">1</span></span> )</code>
+		<a class="anchor" href="#_fromName">#</a>
+		<code><a href="source-class-LeanCloud.Region.html#15-22" title="Go to source code">fromName</a>( <span>string <var>$name</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Create region from name, such as <code>CN</code>, <code>CN_N1</code>.</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Create region from name, such as <code>CN</code>, <code>CN_N1</code>.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd></dd>
+				</dl></div>
 
 
 
 
-
-
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__construct()</code></div>
 
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="__toString" id="___toString">
+	</table>
 
-		<td class="attributes"><code>
-			 public 
 
-			
-			
+
+
+
+
+
+
+	<table class="summary constants" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="CN_N1" id="CN_N1">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-LeanCloud.Region.html#6" title="Go to source code"><b>CN_N1</b></a>
 			</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
 		</td>
+		<td class="value">
+			<div>
+				<a href="#CN_N1" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="US" id="US">
 
-		<td class="name"><div>
-		<a class="anchor" href="#___toString">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#12-14" title="Go to source code">__toString</a>( )</code>
+		<td class="attributes"><code>integer</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-LeanCloud.Region.html#7" title="Go to source code"><b>US</b></a>
+			</code>
 
-		<div class="description short">
-			
-		</div>
+			<div class="description short">
+				
+			</div>
 
-		<div class="description detailed hidden">
-			
+			<div class="description detailed hidden">
+				
 
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#US" class="anchor">#</a>
+				<code><span class="php-num">1</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="CN_E1" id="CN_E1">
 
+		<td class="attributes"><code>integer</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-LeanCloud.Region.html#8" title="Go to source code"><b>CN_E1</b></a>
+			</code>
 
+			<div class="description short">
+				
+			</div>
 
+			<div class="description detailed hidden">
+				
 
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#CN_E1" class="anchor">#</a>
+				<code><span class="php-num">2</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="CN" id="CN">
 
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__toString()</code></div>
+		<td class="attributes"><code>integer</code></td>
+		<td class="name">
+			<code>
+				<a href="source-class-LeanCloud.Region.html#10-13" title="Go to source code"><b>CN</b></a>
+			</code>
 
-		</div>
-		</div></td>
+			<div class="description short">
+				<p>Alias of <code>CN_N1</code></p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Alias of <code>CN_N1</code></p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#CN" class="anchor">#</a>
+				<code><code><a href="class-LeanCloud.Region.html#CN_N1">LeanCloud\Region::<b>CN_N1</b></a></code></code>
+			</div>
+		</td>
 	</tr>
 	</table>
 
-	<table class="summary inherited">
-	<caption>Methods inherited from Exception</caption>
-	<tr>
-		<td><code>
-__wakeup(), 
-getCode(), 
-getFile(), 
-getLine(), 
-getMessage(), 
-getPrevious(), 
-getTrace(), 
-getTraceAsString()
-		</code></td>
-	</tr>
-	</table>
 
 
 
 
-
-
-
-
-
-
-
-
-	<table class="summary inherited">
-	<caption>Properties inherited from Exception</caption>
-	<tr>
-		<td><code>
-<var>$code</var>, 
-<var>$file</var>, 
-<var>$line</var>, 
-<var>$message</var>
-		</code></td>
-	</tr>
-	</table>
 
 
 

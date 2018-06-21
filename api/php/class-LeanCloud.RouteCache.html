@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class LeanCloud\CloudException</title>
+	<title>Class LeanCloud\RouteCache</title>
 
 	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
 
@@ -67,7 +67,7 @@
 				<li><a href="class-LeanCloud.Region.html">Region</a></li>
 				<li><a href="class-LeanCloud.Relation.html">Relation</a></li>
 				<li><a href="class-LeanCloud.Role.html">Role</a></li>
-				<li><a href="class-LeanCloud.RouteCache.html">RouteCache</a></li>
+				<li class="active"><a href="class-LeanCloud.RouteCache.html">RouteCache</a></li>
 				<li><a href="class-LeanCloud.SaveOption.html">SaveOption</a></li>
 				<li><a href="class-LeanCloud.SMS.html">SMS</a></li>
 				<li><a href="class-LeanCloud.User.html">User</a></li>
@@ -78,7 +78,7 @@
 			<h3>Exceptions</h3>
 			<ul>
 				<li><a href="class-LeanCloud.BatchRequestError.html">BatchRequestError</a></li>
-				<li class="active"><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
+				<li><a href="class-LeanCloud.CloudException.html">CloudException</a></li>
 			</ul>
 
 
@@ -114,32 +114,19 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class CloudException</h1>
+	<h1>Class RouteCache</h1>
 
 
 	<div class="description">
-	<p>Exception thrown when cloud API returns error</p>
+	<p>Route cache</p>
+
+<p>Ideally we should use ACPu for caching, but it can be inconvenient to
+install, esp. on Windows<a href="https://stackoverflow.com/a/28124144/108112">1</a>, thus we implement a naive file based
+cache.</p>
 	</div>
 
-	<dl class="tree">
-		<dd style="padding-left:0px">
-Exception
-			
-			
-		</dd>
-		<dd style="padding-left:30px">
-			<img src="resources/inherit.png" alt="Extended by">
-<b><span>LeanCloud\CloudException</span></b>			
-			
-			
-		</dd>
-	</dl>
 
 
-	<div>
-		<h4>Direct known subclasses</h4>
-			<a href="class-LeanCloud.BatchRequestError.html">LeanCloud\BatchRequestError</a>
-	</div>
 
 
 
@@ -152,7 +139,7 @@ Exception
 		<b>Namespace:</b> <a href="namespace-LeanCloud.html">LeanCloud</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-LeanCloud.CloudException.html#4-15" title="Go to source code">LeanCloud/CloudException.php</a>
+			<b>Located at</b> <a href="source-class-LeanCloud.RouteCache.html#159-225" title="Go to source code">LeanCloud/AppRouter.php</a>
 		<br>
 	</div>
 
@@ -160,10 +147,10 @@ Exception
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+	<tr data-order="create" id="_create">
 
 		<td class="attributes"><code>
-			 public 
+			 public static
 
 			
 			
@@ -171,8 +158,8 @@ Exception
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#8-10" title="Go to source code">__construct</a>( <span> <var>$message</var></span>, <span> <var>$code</var> = <span class="php-num">1</span></span> )</code>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-LeanCloud.RouteCache.html#176-178" title="Go to source code">create</a>( <span> <var>$id</var></span> )</code>
 
 		<div class="description short">
 			
@@ -186,13 +173,11 @@ Exception
 
 
 
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__construct()</code></div>
 
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="__toString" id="___toString">
+	<tr data-order="write" id="_write">
 
 		<td class="attributes"><code>
 			 public 
@@ -203,44 +188,57 @@ Exception
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#___toString">#</a>
-		<code><a href="source-class-LeanCloud.CloudException.html#12-14" title="Go to source code">__toString</a>( )</code>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-LeanCloud.RouteCache.html#180-190" title="Go to source code">write</a>( <span> <var>$array</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Serialize array and store in file, array must be json_encode safe.</p>
 		</div>
 
 		<div class="description detailed hidden">
+			<p>Serialize array and store in file, array must be json_encode safe.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="read" id="_read">
+
+		<td class="attributes"><code>
+			 public 
+
 			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_read">#</a>
+		<code><a href="source-class-LeanCloud.RouteCache.html#192-205" title="Go to source code">read</a>( )</code>
+
+		<div class="description short">
+			<p>Read routes either from cache or file, return json_decoded array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Read routes either from cache or file, return json_decoded array.</p>
 
 
 
 
 
 
-				<h4>Overrides</h4>
-				<div class="list"><code>Exception::__toString()</code></div>
 
 		</div>
 		</div></td>
 	</tr>
 	</table>
 
-	<table class="summary inherited">
-	<caption>Methods inherited from Exception</caption>
-	<tr>
-		<td><code>
-__wakeup(), 
-getCode(), 
-getFile(), 
-getLine(), 
-getMessage(), 
-getPrevious(), 
-getTrace(), 
-getTraceAsString()
-		</code></td>
-	</tr>
-	</table>
 
 
 
@@ -253,17 +251,6 @@ getTraceAsString()
 
 
 
-	<table class="summary inherited">
-	<caption>Properties inherited from Exception</caption>
-	<tr>
-		<td><code>
-<var>$code</var>, 
-<var>$file</var>, 
-<var>$line</var>, 
-<var>$message</var>
-		</code></td>
-	</tr>
-	</table>
 
 
 
