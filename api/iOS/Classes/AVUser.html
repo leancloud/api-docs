@@ -156,6 +156,8 @@
 		
 		<option value="//api/name/signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:block:">+ signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:block:</option>
 		
+		<option value="//api/name/signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:">+ signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:</option>
+		
 		<option value="//api/name/user">+ user</option>
 		
 		<option value="//api/name/verifyMobilePhone:withBlock:">+ verifyMobilePhone:withBlock:</option>
@@ -2296,6 +2298,79 @@ the <a href="#//api/name/user">user</a> locally so that calls to userFromCurrent
 			
 		</div>
 	</div>
+</div><div class="section-method">
+	<a name="//api/name/signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:" title="signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:">+&nbsp;signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:password:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Use mobile phone number &amp; SMS code &amp; <a href="#//api/name/password">password</a> to sign up or login.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)signUpOrLoginWithMobilePhoneNumberInBackground:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>smsCode</em> password:(NSString *)<em>password</em> block:(AVUserResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>phoneNumber</code></th>
+						<td><p>Phone number.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>smsCode</code></th>
+						<td><p>SMS code.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>password</code></th>
+						<td><p>Password.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>Result callback.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Use mobile phone number &amp; SMS code &amp; <a href="#//api/name/password">password</a> to sign up or login.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVUser.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
 </div>
 						</div>
 						
@@ -3087,6 +3162,610 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
 				<p><code class="declared-in-ref">AVUser.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Friendship Methods" name="task_Friendship Methods"></a>
+						<h2 class="task-title">Friendship Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/followerQuery:" title="followerQuery:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/followerQuery:">+&nbsp;followerQuery:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVQuery *)followerQuery:(NSString *)<em>userObjectId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userObjectId</code></th>
+						<td><p>用户ID</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/followerQuery" title="followerQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/followerQuery">&ndash;&nbsp;followerQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVQuery *)followerQuery</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/followeeQuery:" title="followeeQuery:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/followeeQuery:">+&nbsp;followeeQuery:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AVQuery *)followeeQuery:(NSString *)<em>userObjectId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userObjectId</code></th>
+						<td><p>用户ID</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/followeeQuery" title="followeeQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/followeeQuery">&ndash;&nbsp;followeeQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVQuery *)followeeQuery</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/follow:andCallback:" title="follow:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/follow:andCallback:">&ndash;&nbsp;follow:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>通过ID来关注其他用户</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userId</code></th>
+						<td><p>要关注的用户objectId</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/follow:userDictionary:andCallback:" title="follow:userDictionary:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/follow:userDictionary:andCallback:">&ndash;&nbsp;follow:userDictionary:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>通过ID来关注其他用户</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> userDictionary:(nullable NSDictionary *)<em>dictionary</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userId</code></th>
+						<td><p>要关注的用户objectId</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dictionary</code></th>
+						<td><p>添加的自定义属性</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/unfollow:andCallback:" title="unfollow:andCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/unfollow:andCallback:">&ndash;&nbsp;unfollow:andCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>通过ID来取消关注其他用户</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)unfollow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userId</code></th>
+						<td><p>要取消关注的用户objectId</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>通过ID来取消关注其他用户</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getFollowers:" title="getFollowers:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getFollowers:">&ndash;&nbsp;getFollowers:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户粉丝的列表</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getFollowers:(AVArrayResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户粉丝的列表</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getFollowees:" title="getFollowees:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getFollowees:">&ndash;&nbsp;getFollowees:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前用户所关注的列表</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getFollowees:(AVArrayResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前用户所关注的列表</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getFollowersAndFollowees:" title="getFollowersAndFollowees:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getFollowersAndFollowees:">&ndash;&nbsp;getFollowersAndFollowees:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>同时获取当前用户的粉丝和关注列表</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getFollowersAndFollowees:(AVDictionaryResultBlock)<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>回调结果, 列表字典包含<code>followers</code>数组和<code>followees</code>数组</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>同时获取当前用户的粉丝和关注列表</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVStatus.h</code></p>
 			</div>
 			
 			
@@ -4133,610 +4812,6 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 </div>
 						</div>
 						
-
-						<a title="Friendship Methods" name="task_Friendship Methods"></a>
-						<h2 class="task-title">Friendship Methods</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/followerQuery:" title="followerQuery:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/followerQuery:">+&nbsp;followerQuery:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVQuery *)followerQuery:(NSString *)<em>userObjectId</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>userObjectId</code></th>
-						<td><p>用户ID</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/followerQuery" title="followerQuery"></a>
-	<h3 class="method-title"><code><a href="#//api/name/followerQuery">&ndash;&nbsp;followerQuery</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (AVQuery *)followerQuery</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取本用户粉丝<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/followeeQuery:" title="followeeQuery:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/followeeQuery:">+&nbsp;followeeQuery:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVQuery *)followeeQuery:(NSString *)<em>userObjectId</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>userObjectId</code></th>
-						<td><p>用户ID</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/followeeQuery" title="followeeQuery"></a>
-	<h3 class="method-title"><code><a href="#//api/name/followeeQuery">&ndash;&nbsp;followeeQuery</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (AVQuery *)followeeQuery</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>用于查询的<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取本用户关注<a href="../Classes/AVQuery.html">AVQuery</a></p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/follow:andCallback:" title="follow:andCallback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/follow:andCallback:">&ndash;&nbsp;follow:andCallback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>通过ID来关注其他用户</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>userId</code></th>
-						<td><p>要关注的用户objectId</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/follow:userDictionary:andCallback:" title="follow:userDictionary:andCallback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/follow:userDictionary:andCallback:">&ndash;&nbsp;follow:userDictionary:andCallback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>通过ID来关注其他用户</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)follow:(NSString *)<em>userId</em> userDictionary:(nullable NSDictionary *)<em>dictionary</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>userId</code></th>
-						<td><p>要关注的用户objectId</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>dictionary</code></th>
-						<td><p>添加的自定义属性</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>通过ID来关注其他用户</p><div class="warning"><p><strong>Warning:</strong> 如果需要被关注者收到消息 需要手动给他发送一条<a href="../Classes/AVStatus.html">AVStatus</a>.</p></div>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/unfollow:andCallback:" title="unfollow:andCallback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/unfollow:andCallback:">&ndash;&nbsp;unfollow:andCallback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>通过ID来取消关注其他用户</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)unfollow:(NSString *)<em>userId</em> andCallback:(AVBooleanResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>userId</code></th>
-						<td><p>要取消关注的用户objectId</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>通过ID来取消关注其他用户</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/getFollowers:" title="getFollowers:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getFollowers:">&ndash;&nbsp;getFollowers:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取当前用户粉丝的列表</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)getFollowers:(AVArrayResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取当前用户粉丝的列表</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/getFollowees:" title="getFollowees:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getFollowees:">&ndash;&nbsp;getFollowees:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>获取当前用户所关注的列表</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)getFollowees:(AVArrayResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取当前用户所关注的列表</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/getFollowersAndFollowees:" title="getFollowersAndFollowees:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getFollowersAndFollowees:">&ndash;&nbsp;getFollowersAndFollowees:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>同时获取当前用户的粉丝和关注列表</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)getFollowersAndFollowees:(AVDictionaryResultBlock)<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>回调结果, 列表字典包含<code>followers</code>数组和<code>followees</code>数组</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>同时获取当前用户的粉丝和关注列表</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVStatus.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
 					</div>
 					
 					
@@ -4749,7 +4824,7 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

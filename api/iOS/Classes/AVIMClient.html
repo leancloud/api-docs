@@ -62,8 +62,6 @@
 		
 		<option value="//api/name/signatureDataSource">signatureDataSource</option>
 		
-		<option value="//api/name/status">status</option>
-		
 		<option value="//api/name/tag">tag</option>
 		
 		<option value="//api/name/user">user</option>
@@ -106,6 +104,8 @@
 		
 		<option value="//api/name/createTemporaryConversationWithClientIds:timeToLive:callback:">- createTemporaryConversationWithClientIds:timeToLive:callback:</option>
 		
+		<option value="//api/name/getConversationsFromMemoryWith:callback:">- getConversationsFromMemoryWith:callback:</option>
+		
 		<option value="//api/name/init">- init</option>
 		
 		<option value="//api/name/initWithClientId:">- initWithClientId:</option>
@@ -125,6 +125,8 @@
 		<option value="//api/name/removeAllConversationsInMemoryWith:">- removeAllConversationsInMemoryWith:</option>
 		
 		<option value="//api/name/removeConversationsInMemoryWith:callback:">- removeConversationsInMemoryWith:callback:</option>
+		
+		<option value="//api/name/status">- status</option>
 		
 	</optgroup>
 	
@@ -297,7 +299,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Thread-safe for getter &amp; setter.</p>
+				<p>No thread-safe for getter &amp; setter. recommend setting after instantiation.</p>
 			</div>
 			
 		    
@@ -314,7 +316,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Thread-safe for getter &amp; setter.</p>
+				<p>No thread-safe for getter &amp; setter. recommend setting after instantiation.</p>
 			</div>
 			
 
@@ -364,7 +366,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nonnull) NSString *clientId</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nonnull) NSString *clientId</code></div>
 
 		    
 			
@@ -377,8 +379,6 @@ Defaults to <code>NO</code>.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>The ID of this Client.</p>
-
-<p>see more: -[initWithClientId:] or -[initWithClientId:tag:]</p>
 			</div>
 			
 
@@ -425,8 +425,6 @@ Defaults to <code>NO</code>.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>The <a href="../Classes/AVUser.html"><code>AVUser</code></a> of this Client.</p>
-
-<p>see more: -[initWithUser:] or -[initWithUser:tag:]</p>
 			</div>
 			
 
@@ -460,7 +458,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *tag</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly, nullable) NSString *tag</code></div>
 
 		    
 			
@@ -473,56 +471,6 @@ Defaults to <code>NO</code>.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>The Tag of this Client.</p>
-
-<p>see more: -[initWithClientId:tag:] or -[initWithUser:tag:]</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMClient.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/status" title="status"></a>
-	<h3 class="method-title"><code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The Status of this Client.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) AVIMClientStatus status</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The Status of this Client.</p><div class="note"><p><strong>Note:</strong> Out of Thread-safe, this property Not Support KVO. Recommend using <a href="../Protocols/AVIMClientDelegate.html"><code>AVIMClientDelegate</code></a>.</p>
-
-<p>see more: <a href="../Constants/AVIMClientStatus.html"><code>AVIMClientStatus</code></a></p></div>
 			</div>
 			
 
@@ -595,45 +543,10 @@ Defaults to <code>NO</code>.</p></td>
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Unavailable.</p>
-			</div>
-			
-		    
 
 			<div class="method-subsection method-declaration"><code>+ (instancetype)new</code></div>
 
 		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>Exception.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Unavailable.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMClient.h</code></p>
-			</div>
-			
-			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -646,45 +559,10 @@ Defaults to <code>NO</code>.</p></td>
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Unavailable.</p>
-			</div>
-			
-		    
 
 			<div class="method-subsection method-declaration"><code>- (instancetype)init</code></div>
 
 		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>Exception.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Unavailable.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMClient.h</code></p>
-			</div>
-			
-			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -733,7 +611,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initialization method.</p>
+				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64].</p></div>
 			</div>
 			
 
@@ -782,7 +660,7 @@ Defaults to <code>NO</code>.</p></td>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>tag</code></th>
-						<td><p>You can use &lsquo;Tag&rsquo; to implement the feature that the same &lsquo;clientId&rsquo; only used in single device. &lsquo;Tag&rsquo; Can&rsquo;t set with &ldquo;default&rdquo;, it&rsquo;s a reserved <a href="#//api/name/tag">tag</a>.</p></td>
+						<td><p>Set it to implement only one client online.</p></td>
 					</tr>
 				
 				</table>
@@ -801,7 +679,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initialization method.</p>
+				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64], <a href="#//api/name/tag"><code>tag</code></a> should not use @&ldquo;default&rdquo;.</p></div>
 			</div>
 			
 
@@ -845,7 +723,7 @@ Defaults to <code>NO</code>.</p></td>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>user</code></th>
-						<td><p>The <a href="../Classes/AVUser.html">AVUser</a> of this Client.</p></td>
+						<td><p>The <a href="../Classes/AVUser.html"><code>AVUser</code></a> of this Client.</p></td>
 					</tr>
 				
 				</table>
@@ -908,12 +786,12 @@ Defaults to <code>NO</code>.</p></td>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>user</code></th>
-						<td><p>The <a href="../Classes/AVUser.html">AVUser</a> of this Client.</p></td>
+						<td><p>The <a href="../Classes/AVUser.html"><code>AVUser</code></a> of this Client.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>tag</code></th>
-						<td><p>You can use &lsquo;Tag&rsquo; to implement the feature that the same &lsquo;clientId&rsquo; only used in single device. &lsquo;Tag&rsquo; Can&rsquo;t set with &ldquo;default&rdquo;, it&rsquo;s a reserved <a href="#//api/name/tag">tag</a>.</p></td>
+						<td><p>Set it to implement only one client online.</p></td>
 					</tr>
 				
 				</table>
@@ -932,7 +810,53 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initialization method.</p>
+				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/tag"><code>tag</code></a> should not use @&ldquo;default&rdquo;.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVIMClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/status" title="status"></a>
+	<h3 class="method-title"><code><a href="#//api/name/status">&ndash;&nbsp;status</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The Status of this Client.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVIMClientStatus)status</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The Status of this Client.</p>
 			</div>
 			
 
@@ -1530,7 +1454,8 @@ It is similar to Logout.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Get a Exist Conversation Retained by this Client.</p>
+				<p>Get a Exist Conversation Retained by this Client.
+Thread-safe &amp; Sync.</p>
 			</div>
 			
 		    
@@ -1564,9 +1489,73 @@ It is similar to Logout.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Get a Exist Conversation Retained by this Client.</p>
+				<p>Get a Exist Conversation Retained by this Client.
+Thread-safe &amp; Sync.</p>
+			</div>
+			
 
-<p>Thread-safe &amp; Sync.</p>
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVIMClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getConversationsFromMemoryWith:callback:" title="getConversationsFromMemoryWith:callback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getConversationsFromMemoryWith:callback:">&ndash;&nbsp;getConversationsFromMemoryWith:callback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getConversationsFromMemoryWith:(NSArray&lt;NSString*&gt; *)<em>conversationIds</em> callback:(void ( ^ ) ( NSArray&lt;AVIMConversation*&gt; *_Nullable conversations ))<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>conversationIds</code></th>
+						<td><p>ID array.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>Result.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
 			</div>
 			
 
@@ -1595,12 +1584,13 @@ It is similar to Logout.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Remove Conversations Retained by this Client.</p>
+				<p>Remove Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)removeConversationsInMemoryWith:(NSArray&lt;NSString*&gt; *)<em>conversationIDArray</em> callback:(void ( ^ ) ( void ))<em>callback</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)removeConversationsInMemoryWith:(NSArray&lt;NSString*&gt; *)<em>conversationIds</em> callback:(void ( ^ ) ( void ))<em>callback</em></code></div>
 
 		    
 			
@@ -1609,7 +1599,7 @@ It is similar to Logout.</p>
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>conversationIDArray</code></th>
+						<th scope="row" class="argument-name"><code>conversationIds</code></th>
 						<td><p>Array of conversation&rsquo;s ID</p></td>
 					</tr>
 				
@@ -1629,9 +1619,8 @@ It is similar to Logout.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Remove Conversations Retained by this Client.</p>
-
-<p>Thread-safe &amp; Async.</p>
+				<p>Remove Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
 			</div>
 			
 
@@ -1660,7 +1649,8 @@ It is similar to Logout.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Remove all Conversations Retained by this Client.</p>
+				<p>Remove all Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
 			</div>
 			
 		    
@@ -1689,9 +1679,8 @@ It is similar to Logout.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Remove all Conversations Retained by this Client.</p>
-
-<p>Thread-safe &amp; Async.</p>
+				<p>Remove all Conversations Retained by this Client.
+Thread-safe &amp; Async.</p>
 			</div>
 			
 
@@ -1725,7 +1714,7 @@ It is similar to Logout.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (AVIMConversation *)conversationWithKeyedConversation:(AVIMKeyedConversation *)<em>keyedConversation</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AVIMConversation *_Nullable)conversationWithKeyedConversation:(AVIMKeyedConversation *)<em>keyedConversation</em></code></div>
 
 		    
 			
@@ -1968,7 +1957,7 @@ It is similar to Logout.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

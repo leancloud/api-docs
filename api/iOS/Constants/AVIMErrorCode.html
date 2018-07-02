@@ -83,23 +83,21 @@
                         <h4 class="method-subtitle">Definition</h4>
                         <code>typedef NS_ENUM(NSInteger, AVIMErrorCode ) {<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorTimeout</a> = 9000,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeCommandTimeout</a> = 9000,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorConnectionLost</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeConnectionLost</a> = 9001,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorClientNotOpen</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeClientNotOpen</a> = 9002,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidCommand</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeInvalidCommand</a> = 9003,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidArguments</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeCommandDataLengthTooLong</a> = 9008,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorMessageNotFound</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeUpdatingMessageNotAllowed</a> = 9120,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorConversationNotFound</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeUpdatingMessageNotSent</a> = 9121,<br>
                             
-                            &nbsp;&nbsp; <a href="">kAVIMErrorInvalidData</a>,<br>
-                            
-                            &nbsp;&nbsp; <a href="">kAVIMErrorMessageTooLong</a>,<br>
+                            &nbsp;&nbsp; <a href="">AVIMErrorCodeOwnerPromotionNotAllowed</a> = 9130,<br>
                             
                             };</code>
                     
@@ -109,7 +107,7 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="kAVIMErrorTimeout"></a><code>kAVIMErrorTimeout</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeCommandTimeout"></a><code>AVIMErrorCodeCommandTimeout</code></dt>
 <dd>
 
     
@@ -119,7 +117,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorConnectionLost"></a><code>kAVIMErrorConnectionLost</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeConnectionLost"></a><code>AVIMErrorCodeConnectionLost</code></dt>
 <dd>
 
     
@@ -129,7 +127,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorClientNotOpen"></a><code>kAVIMErrorClientNotOpen</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeClientNotOpen"></a><code>AVIMErrorCodeClientNotOpen</code></dt>
 <dd>
 
     
@@ -139,7 +137,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorInvalidCommand"></a><code>kAVIMErrorInvalidCommand</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeInvalidCommand"></a><code>AVIMErrorCodeInvalidCommand</code></dt>
 <dd>
 
     
@@ -149,7 +147,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorInvalidArguments"></a><code>kAVIMErrorInvalidArguments</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeCommandDataLengthTooLong"></a><code>AVIMErrorCodeCommandDataLengthTooLong</code></dt>
 <dd>
 
     
@@ -159,7 +157,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorMessageNotFound"></a><code>kAVIMErrorMessageNotFound</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeUpdatingMessageNotAllowed"></a><code>AVIMErrorCodeUpdatingMessageNotAllowed</code></dt>
 <dd>
 
     
@@ -169,7 +167,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorConversationNotFound"></a><code>kAVIMErrorConversationNotFound</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeUpdatingMessageNotSent"></a><code>AVIMErrorCodeUpdatingMessageNotSent</code></dt>
 <dd>
 
     
@@ -179,17 +177,7 @@
 	
 </dd>
                             
-                            <dt><a name="" title="kAVIMErrorInvalidData"></a><code>kAVIMErrorInvalidData</code></dt>
-<dd>
-
-    
-	<p>
-		Declared In <code class="declared-in-ref">AVIMCommon.h</code>.
-	</p>
-	
-</dd>
-                            
-                            <dt><a name="" title="kAVIMErrorMessageTooLong"></a><code>kAVIMErrorMessageTooLong</code></dt>
+                            <dt><a name="" title="AVIMErrorCodeOwnerPromotionNotAllowed"></a><code>AVIMErrorCodeOwnerPromotionNotAllowed</code></dt>
 <dd>
 
     
@@ -212,7 +200,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-05-15</p>
+						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
