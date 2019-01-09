@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['id',['Id',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_message.htm#a7f9a2651ed04310b3e460dfb0489faa7',1,'LeanCloud.Realtime.AVIMMessage.Id()'],['../interface_lean_cloud_1_1_realtime_1_1_i_a_v_i_m_message.htm#ad7b09111e53c71c6b3b79c45d466b475',1,'LeanCloud.Realtime.IAVIMMessage.Id()']]],
-  ['interval',['Interval',['../struct_lean_cloud_1_1_realtime_1_1_a_v_realtime_1_1_a_v_i_m_reconnect_options.htm#adec5aabfe023883f36f9a7abc3e5794e',1,'LeanCloud::Realtime::AVRealtime::AVIMReconnectOptions']]],
-  ['invitedby',['InvitedBy',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_on_members_joined_event_args.htm#a6c34d151cc6be9be3ce6f87a27a506dc',1,'LeanCloud.Realtime.AVIMOnMembersJoinedEventArgs.InvitedBy()'],['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_on_invited_event_args.htm#a22fca965245b5eca2f0e55bc099b31b8',1,'LeanCloud.Realtime.AVIMOnInvitedEventArgs.InvitedBy()']]],
-  ['isanonymous',['IsAnonymous',['../class_lean_cloud_1_1_a_v_user.htm#abaf920ae2deb12d1584817049ea6cc16',1,'LeanCloud::AVUser']]],
-  ['isauthenticated',['IsAuthenticated',['../class_lean_cloud_1_1_a_v_user.htm#ac898596aa6322a0475d138d40ecb4222',1,'LeanCloud::AVUser']]],
-  ['isauto',['IsAuto',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_reconnecting_event_args.htm#af79e51517754e01584cdbe5858ada1ff',1,'LeanCloud.Realtime.AVIMReconnectingEventArgs.IsAuto()'],['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_reconnected_event_args.htm#acf65635870f895e0b9d7634ec65953a6',1,'LeanCloud.Realtime.AVIMReconnectedEventArgs.IsAuto()'],['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_reconnect_failed_args.htm#a435653f3ddec5e5f20029a05268ef796',1,'LeanCloud.Realtime.AVIMReconnectFailedArgs.IsAuto()']]],
-  ['isdataavailable',['IsDataAvailable',['../class_lean_cloud_1_1_a_v_object.htm#ad0e4ef1e2f29b7a3eede98a89e499e36',1,'LeanCloud::AVObject']]],
-  ['isdirty',['IsDirty',['../class_lean_cloud_1_1_a_v_file.htm#a0805048857df11326d0dd1e38324f4f0',1,'LeanCloud.AVFile.IsDirty()'],['../class_lean_cloud_1_1_a_v_object.htm#ae0a46338609d9c72b6c50be375f40f20',1,'LeanCloud.AVObject.IsDirty()']]],
-  ['isexternal',['IsExternal',['../class_lean_cloud_1_1_a_v_file.htm#a20520d4adf6d1885a18647fce85017f8',1,'LeanCloud::AVFile']]],
-  ['isnew',['IsNew',['../class_lean_cloud_1_1_a_v_object.htm#a565c56fded627822820a9a1fdbfb23a8',1,'LeanCloud::AVObject']]],
-  ['issesstiontokenexpired',['IsSesstionTokenExpired',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#ac7d4e27753478c396046c0ea69a06833',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['issystem',['IsSystem',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation.htm#abecf1defcb9fd03ebff8aa2d99f451f2',1,'LeanCloud::Realtime::AVIMConversation']]],
-  ['istemporary',['IsTemporary',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation.htm#acac8728b9c7d3a44c465d678d3b298c7',1,'LeanCloud::Realtime::AVIMConversation']]],
-  ['istransient',['IsTransient',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation.htm#a855aeea449b4053365fe0293f4fe533f',1,'LeanCloud::Realtime::AVIMConversation']]],
-  ['isunique',['IsUnique',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation.htm#af8c9e28f506f01af78a1bc8112db8e91',1,'LeanCloud::Realtime::AVIMConversation']]],
-  ['iswebplayer',['IsWebPlayer',['../class_lean_cloud_1_1_a_v_initialize_behaviour.htm#a9abababb331f0fedd37fb8ae0c232ab9',1,'LeanCloud::AVInitializeBehaviour']]]
+  ['gameobject',['GameObject',['../class_lean_cloud_1_1_storage_1_1_internal_1_1_dispatcher.htm#a01e61c128f897f2d658bd926c6efb4d7',1,'LeanCloud::Storage::Internal::Dispatcher']]],
+  ['groupid',['groupId',['../class_lean_cloud_1_1_realtime_1_1_internal_1_1_push_router_state.htm#a938bde6abf28609315947693f23f3d14',1,'LeanCloud::Realtime::Internal::PushRouterState']]],
+  ['groupurl',['groupUrl',['../class_lean_cloud_1_1_realtime_1_1_internal_1_1_push_router_state.htm#aa9b0b348511626b4783f1ab1655f5776',1,'LeanCloud::Realtime::Internal::PushRouterState']]]
 ];

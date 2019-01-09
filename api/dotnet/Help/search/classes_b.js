@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['versioninformation',['VersionInformation',['../struct_lean_cloud_1_1_a_v_client_1_1_configuration_1_1_version_information.htm',1,'LeanCloud::AVClient::Configuration']]]
+  ['noobjectsencoder',['NoObjectsEncoder',['../class_lean_cloud_1_1_core_1_1_internal_1_1_no_objects_encoder.htm',1,'LeanCloud::Core::Internal']]]
 ];

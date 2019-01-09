@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['websocketclient',['WebSocketClient',['../struct_lean_cloud_1_1_realtime_1_1_a_v_realtime_1_1_configuration.htm#a2d8ccfe49f633f8ca9dc21e8a395cf90',1,'LeanCloud::Realtime::AVRealtime::Configuration']]],
+  ['websocketclient',['WebSocketClient',['../class_lean_cloud_1_1_realtime_1_1_web_socket_client.htm',1,'LeanCloud.Realtime.WebSocketClient'],['../struct_lean_cloud_1_1_realtime_1_1_a_v_realtime_1_1_configuration.htm#a2d8ccfe49f633f8ca9dc21e8a395cf90',1,'LeanCloud.Realtime.AVRealtime.Configuration.WebSocketClient()'],['../interface_lean_cloud_1_1_realtime_1_1_internal_1_1_i_a_v_i_m_platform_hooks.htm#a2cdabeff228a4ceb20732f63aeb21592',1,'LeanCloud.Realtime.Internal.IAVIMPlatformHooks.WebSocketClient()'],['../class_lean_cloud_1_1_realtime_1_1_web_socket_client.htm#ad31093a7946e2f0ef4a71230ba889bf9',1,'LeanCloud.Realtime.WebSocketClient.WebSocketClient()']]],
+  ['websocketclient_2enetfx45_2ecs',['WebSocketClient.NetFx45.cs',['../_web_socket_client_8_net_fx45_8cs.htm',1,'']]],
   ['websocketlog',['WebSocketLog',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a0dd7018c0baf2349d83f4c9a719d06b0',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['where',['where',['../class_lean_cloud_1_1_a_v_query_pair.htm#a34dae50f05dd7122e8f9beb11d68983c',1,'LeanCloud.AVQueryPair.where()'],['../class_lean_cloud_1_1_a_v_query_base.htm#a9dbcd5842aba63fc1d0d2cad55e344de',1,'LeanCloud.AVQueryBase.Where()']]],
+  ['where',['Where',['../class_lean_cloud_1_1_a_v_query_base.htm#a9dbcd5842aba63fc1d0d2cad55e344de',1,'LeanCloud.AVQueryBase.Where()'],['../class_lean_cloud_1_1_realtime_1_1_internal_1_1_conversation_command.htm#aa0d91546aa244aa8cda3407a1a9eb4fc',1,'LeanCloud.Realtime.Internal.ConversationCommand.Where()'],['../class_lean_cloud_1_1_a_v_query_pair.htm#a34dae50f05dd7122e8f9beb11d68983c',1,'LeanCloud.AVQueryPair.where()']]],
   ['where_3c_20tsource_20_3e',['Where&lt; TSource &gt;',['../class_lean_cloud_1_1_a_v_query_extensions.htm#ac478352872270d05971710fd6922c0d0',1,'LeanCloud::AVQueryExtensions']]],
   ['wherecontainedin_3c_20tin_20_3e',['WhereContainedIn&lt; TIn &gt;',['../class_lean_cloud_1_1_a_v_query_pair.htm#ab8b63600ab3785ec350d53f950f7443a',1,'LeanCloud::AVQueryPair']]],
   ['wherecontains',['WhereContains',['../class_lean_cloud_1_1_a_v_query_pair.htm#a5d14a073b04a32d93faab6e3f0dba8b2',1,'LeanCloud::AVQueryPair']]],
@@ -27,6 +28,7 @@ var searchData=
   ['wherestartswith',['WhereStartsWith',['../class_lean_cloud_1_1_a_v_query_pair.htm#afdb26ba09d6e250968b6529634cc90c0',1,'LeanCloud::AVQueryPair']]],
   ['wherewithindistance',['WhereWithinDistance',['../class_lean_cloud_1_1_a_v_query_pair.htm#a9c4821e1f9303e3e920f8759012f9d84',1,'LeanCloud::AVQueryPair']]],
   ['wherewithingeobox',['WhereWithinGeoBox',['../class_lean_cloud_1_1_a_v_query_pair.htm#a8fba3a28ce0c829f551cc577cc083db0',1,'LeanCloud::AVQueryPair']]],
-  ['will',['Will',['../struct_lean_cloud_1_1_realtime_1_1_a_v_i_m_send_options.htm#a627765242962cf5b698be0e9c9c6a152',1,'LeanCloud::Realtime::AVIMSendOptions']]],
+  ['whileasync',['WhileAsync',['../class_lean_cloud_1_1_storage_1_1_internal_1_1_internal_extensions.htm#a2995a83af11400932eaf5684912f0662',1,'LeanCloud::Storage::Internal::InternalExtensions']]],
+  ['will',['Will',['../struct_lean_cloud_1_1_realtime_1_1_a_v_i_m_send_options.htm#a627765242962cf5b698be0e9c9c6a152',1,'LeanCloud.Realtime.AVIMSendOptions.Will()'],['../class_lean_cloud_1_1_realtime_1_1_internal_1_1_message_command.htm#a843b8959c6891042a18c4e01b761ebf4',1,'LeanCloud.Realtime.Internal.MessageCommand.Will()']]],
   ['withlastmessagerefreshed',['WithLastMessageRefreshed',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation_query.htm#a8f7d7e4cef159d14707bf3afcefdb9a8',1,'LeanCloud::Realtime::AVIMConversationQuery']]]
 ];

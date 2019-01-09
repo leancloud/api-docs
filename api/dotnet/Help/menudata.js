@@ -82,7 +82,25 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.htm#index_u"},
 {text:"v",url:"functions_func_v.htm#index_v"},
 {text:"w",url:"functions_func_w.htm#index_w"}]},
-{text:"Variables",url:"functions_vars.htm"},
+{text:"Variables",url:"functions_vars.htm",children:[
+{text:"a",url:"functions_vars.htm#index_a"},
+{text:"b",url:"functions_vars.htm#index_b"},
+{text:"c",url:"functions_vars.htm#index_c"},
+{text:"d",url:"functions_vars.htm#index_d"},
+{text:"e",url:"functions_vars.htm#index_e"},
+{text:"f",url:"functions_vars.htm#index_f"},
+{text:"h",url:"functions_vars.htm#index_h"},
+{text:"i",url:"functions_vars.htm#index_i"},
+{text:"l",url:"functions_vars.htm#index_l"},
+{text:"m",url:"functions_vars.htm#index_m"},
+{text:"o",url:"functions_vars.htm#index_o"},
+{text:"p",url:"functions_vars.htm#index_p"},
+{text:"r",url:"functions_vars.htm#index_r"},
+{text:"s",url:"functions_vars.htm#index_s"},
+{text:"t",url:"functions_vars.htm#index_t"},
+{text:"u",url:"functions_vars.htm#index_u"},
+{text:"v",url:"functions_vars.htm#index_v"},
+{text:"w",url:"functions_vars.htm#index_w"}]},
 {text:"Enumerations",url:"functions_enum.htm"},
 {text:"Properties",url:"functions_prop.htm",children:[
 {text:"a",url:"functions_prop.htm#index_a"},
@@ -91,6 +109,8 @@ var menudata={children:[
 {text:"d",url:"functions_prop_d.htm#index_d"},
 {text:"e",url:"functions_prop_e.htm#index_e"},
 {text:"f",url:"functions_prop_f.htm#index_f"},
+{text:"g",url:"functions_prop_g.htm#index_g"},
+{text:"h",url:"functions_prop_h.htm#index_h"},
 {text:"i",url:"functions_prop_i.htm#index_i"},
 {text:"j",url:"functions_prop_j.htm#index_j"},
 {text:"k",url:"functions_prop_k.htm#index_k"},
@@ -108,4 +128,7 @@ var menudata={children:[
 {text:"w",url:"functions_prop_w.htm#index_w"}]},
 {text:"Events",url:"functions_evnt.htm"}]}]},
 {text:"Files",url:"files.htm",children:[
-{text:"File List",url:"files.htm"}]}]}
+{text:"File List",url:"files.htm"},
+{text:"File Members",url:"globals.htm",children:[
+{text:"All",url:"globals.htm"},
+{text:"Typedefs",url:"globals_type.htm"}]}]}]}
