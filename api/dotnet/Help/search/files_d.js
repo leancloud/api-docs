@@ -32,6 +32,7 @@ var searchData=
   ['parsesetoperation_2ecs',['ParseSetOperation.cs',['../_parse_set_operation_8cs.htm',1,'']]],
   ['parseusercontroller_2ecs',['ParseUserController.cs',['../_parse_user_controller_8cs.htm',1,'']]],
   ['parseuserextensions_2ecs',['ParseUserExtensions.cs',['../_parse_user_extensions_8cs.htm',1,'']]],
+  ['patchcommand_2ecs',['PatchCommand.cs',['../_patch_command_8cs.htm',1,'']]],
   ['pointerorlocalidencoder_2ecs',['PointerOrLocalIdEncoder.cs',['../_pointer_or_local_id_encoder_8cs.htm',1,'']]],
   ['program_2ecs',['Program.cs',['../_program_8cs.htm',1,'']]],
   ['progresstests_2ecs',['ProgressTests.cs',['../_progress_tests_8cs.htm',1,'']]]

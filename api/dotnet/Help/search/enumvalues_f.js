@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['unsupportedservice',['UnsupportedService',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a96e7f7b91d6c0ce83d57646e728a31c8',1,'LeanCloud::AVException']]],
-  ['usernamemissing',['UsernameMissing',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811af81af01bd4119d4732574afc3ad8d0d5',1,'LeanCloud::AVException']]],
-  ['usernametaken',['UsernameTaken',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811aebec8df953fb4f86244a988aa3de9d4d',1,'LeanCloud::AVException']]]
+  ['timeout',['Timeout',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811ac85a251cc457840f1e032f1b733e9398',1,'LeanCloud::AVException']]],
+  ['transient_5fconversation_5frequired',['TRANSIENT_CONVERSATION_REQUIRED',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_exception.htm#a57930dcac4736361464b10ea131e2c0ba66f905e80dfffda7d8baa26022481990',1,'LeanCloud::Realtime::AVIMException']]]
 ];

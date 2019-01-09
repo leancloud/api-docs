@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['redirectclassnameforkey',['redirectClassNameForKey',['../class_lean_cloud_1_1_a_v_query_pair.htm#a392e9444df1de6eede968af4a34061bc',1,'LeanCloud::AVQueryPair']]],
-  ['region',['region',['../class_lean_cloud_1_1_a_v_initialize_behaviour.htm#a742525d4db41dbacc5b5110b1a76d734',1,'LeanCloud::AVInitializeBehaviour']]]
+  ['op',['op',['../class_lean_cloud_1_1_realtime_1_1_internal_1_1_a_v_i_m_command.htm#afba603cfb22d345c1fcea87ba8521a03',1,'LeanCloud::Realtime::Internal::AVIMCommand']]],
+  ['orderby',['orderBy',['../class_lean_cloud_1_1_a_v_query_pair.htm#ac965d070af97af19a8b1aecf14fee830',1,'LeanCloud::AVQueryPair']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['kb256',['KB256',['../namespace_lean_cloud_1_1_core_1_1_internal.htm#ac086d85cb62d80224d106f94b12e9c3ba480f87f2b7b1225862485b13b92e199f',1,'LeanCloud::Core::Internal']]],
-  ['kb512',['KB512',['../namespace_lean_cloud_1_1_core_1_1_internal.htm#ac086d85cb62d80224d106f94b12e9c3ba48081c8c723151cd789e8183292afce9',1,'LeanCloud::Core::Internal']]]
+  ['joined',['Joined',['../namespace_lean_cloud_1_1_realtime.htm#a5fe8d3aef19c5ab04e8de70bd1b4b31ea7d50c09f1ad7d098e0a847bcdcab7efb',1,'LeanCloud::Realtime']]]
 ];
