@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['geopointtests',['GeoPointTests',['../class_parse_test_1_1_geo_point_tests.htm',1,'ParseTest']]]
+  ['messagepatchlistener',['MessagePatchListener',['../class_lean_cloud_1_1_realtime_1_1_message_patch_listener.htm',1,'LeanCloud::Realtime']]]
 ];
