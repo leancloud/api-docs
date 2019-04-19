@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A ParseFieldOperation represents a modification to a value in a <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a>. For example, setting, deleting, or incrementing a value are all different kinds of <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_parse_field_operations.htm">ParseFieldOperations</a>. <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_parse_field_operations.htm">ParseFieldOperations</a> themselves can be considered to be immutable.  
+<p>A AVFieldOperation represents a modification to a value in a <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a>. For example, setting, deleting, or incrementing a value are all different kinds of AVFieldOperations. AVFieldOperations themselves can be considered to be immutable.  
  <a href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for LeanCloud.Core.Internal.IAVFieldOperation:</div>
@@ -94,7 +94,7 @@ Inheritance diagram for LeanCloud.Core.Internal.IAVFieldOperation:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0de73a09a3cb885c6c83f2c80666d395"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm#a0de73a09a3cb885c6c83f2c80666d395">Encode</a> ()</td></tr>
-<tr class="memdesc:a0de73a09a3cb885c6c83f2c80666d395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the ParseFieldOperation to a data structure that can be converted to JSON and sent to <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> as part of a save operation.  <a href="#a0de73a09a3cb885c6c83f2c80666d395">More...</a><br /></td></tr>
+<tr class="memdesc:a0de73a09a3cb885c6c83f2c80666d395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the AVFieldOperation to a data structure that can be converted to JSON and sent to <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> as part of a save operation.  <a href="#a0de73a09a3cb885c6c83f2c80666d395">More...</a><br /></td></tr>
 <tr class="separator:a0de73a09a3cb885c6c83f2c80666d395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d7a5dd9a484e12f8c994dc95bfd3c7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm">IAVFieldOperation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm#a9d7a5dd9a484e12f8c994dc95bfd3c7b">MergeWithPrevious</a> (<a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm">IAVFieldOperation</a> previous)</td></tr>
 <tr class="memdesc:a9d7a5dd9a484e12f8c994dc95bfd3c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a field operation that is composed of a previous operation followed by this operation. This will not mutate either operation. However, it may return  <a href="#a9d7a5dd9a484e12f8c994dc95bfd3c7b">More...</a><br /></td></tr>
@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a297fe60c492455fa73213a4dbce70a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A ParseFieldOperation represents a modification to a value in a <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a>. For example, setting, deleting, or incrementing a value are all different kinds of <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_parse_field_operations.htm">ParseFieldOperations</a>. <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_parse_field_operations.htm">ParseFieldOperations</a> themselves can be considered to be immutable. </p>
+<div class="textblock"><p>A AVFieldOperation represents a modification to a value in a <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a>. For example, setting, deleting, or incrementing a value are all different kinds of AVFieldOperations. AVFieldOperations themselves can be considered to be immutable. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a297fe60c492455fa73213a4dbce70a5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a297fe60c492455fa73213a4dbce70a5c">&#9670;&nbsp;</a></span>Apply()</h2>
@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Converts the ParseFieldOperation to a data structure that can be converted to JSON and sent to <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> as part of a save operation. </p>
+<p>Converts the AVFieldOperation to a data structure that can be converted to JSON and sent to <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> as part of a save operation. </p>
 <dl class="section return"><dt>Returns</dt><dd>An object to be JSONified.</dd></dl>
 
 <p>Implemented in <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_increment_operation.htm#a52dce7c0dde9c37d0ff792e3ac5a7127">LeanCloud.Core.Internal.AVIncrementOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_relation_operation.htm#a7a328ae9fda82a38da7bcb4ca5e07de7">LeanCloud.Core.Internal.AVRelationOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_delete_operation.htm#a32dfa91b7fc3bfeb4d86e6e767d21ea5">LeanCloud.Core.Internal.AVDeleteOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_remove_operation.htm#a738c7fa2aab5729e0df1358e446bb2fa">LeanCloud.Core.Internal.AVRemoveOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_operation.htm#a56057aa09360d0f03636cfa70845db56">LeanCloud.Core.Internal.AVAddOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_unique_operation.htm#a431f888aa9f5dd6d0fe25a1726005688">LeanCloud.Core.Internal.AVAddUniqueOperation</a>, and <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_set_operation.htm#a512f2c12bcbab7e86dd6a5ef19da365f">LeanCloud.Core.Internal.AVSetOperation</a>.</p>
@@ -193,7 +193,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A new ParseFieldOperation or this.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A new AVFieldOperation or this.</dd></dl>
 
 <p>Implemented in <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_increment_operation.htm#a541c9eb48729852d8bba0870a8f60fc1">LeanCloud.Core.Internal.AVIncrementOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_relation_operation.htm#acc18b8d8203676036b9e8a418e596d89">LeanCloud.Core.Internal.AVRelationOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_delete_operation.htm#ae59ba1dc1784056bfb9b1d25713a0d44">LeanCloud.Core.Internal.AVDeleteOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_remove_operation.htm#ae0fb888a9e0f84d097a1c29b41f20449">LeanCloud.Core.Internal.AVRemoveOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_operation.htm#a2aa306a25260ee4e03ab9f9b504ea109">LeanCloud.Core.Internal.AVAddOperation</a>, <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_unique_operation.htm#a88afb9489997445329583ea46f75ac00">LeanCloud.Core.Internal.AVAddUniqueOperation</a>, and <a class="el" href="class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_set_operation.htm#a6124a471d0440446c9b9368b8f082ef4">LeanCloud.Core.Internal.AVSetOperation</a>.</p>
 

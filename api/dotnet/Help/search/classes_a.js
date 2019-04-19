@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unreadstate',['UnreadState',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_conversation_1_1_unread_state.htm',1,'LeanCloud::Realtime::AVIMConversation']]]
+  ['objectsubclassinfo',['ObjectSubclassInfo',['../class_lean_cloud_1_1_core_1_1_internal_1_1_object_subclass_info.htm',1,'LeanCloud::Core::Internal']]],
+  ['objectsubclassingcontroller',['ObjectSubclassingController',['../class_lean_cloud_1_1_core_1_1_internal_1_1_object_subclassing_controller.htm',1,'LeanCloud::Core::Internal']]]
 ];

@@ -132,9 +132,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a381a7d7f5b80c39a5bc2d86de5148ded"><td class="memItemLeft" align="right" valign="top">Task&lt; IEnumerable&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a381a7d7f5b80c39a5bc2d86de5148ded">GetFolloweesAsync</a> ()</td></tr>
 <tr class="memdesc:a381a7d7f5b80c39a5bc2d86de5148ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取当前用户所关注的用户  <a href="#a381a7d7f5b80c39a5bc2d86de5148ded">More...</a><br /></td></tr>
 <tr class="separator:a381a7d7f5b80c39a5bc2d86de5148ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b60590fdb74f99f1d6a80290ff4db3"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aa9b60590fdb74f99f1d6a80290ff4db3">UpgradeToRevocableSessionAsync</a> (CancellationToken cancellationToken)</td></tr>
+<tr class="separator:aa9b60590fdb74f99f1d6a80290ff4db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae09d91bb5c52533f24195c6a01bfa080"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#ae09d91bb5c52533f24195c6a01bfa080">UpdatePassword</a> (string oldPassword, string newPassword, CancellationToken cancellationToken)</td></tr>
 <tr class="memdesc:ae09d91bb5c52533f24195c6a01bfa080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates current user's password. Need the user's old password,  <a href="#ae09d91bb5c52533f24195c6a01bfa080">More...</a><br /></td></tr>
 <tr class="separator:ae09d91bb5c52533f24195c6a01bfa080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c7e55c7feed3b9142992bdded289f71"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a0c7e55c7feed3b9142992bdded289f71">LinkWithAsync</a> (string authType, IDictionary&lt; string, object &gt; data, CancellationToken cancellationToken)</td></tr>
+<tr class="separator:a0c7e55c7feed3b9142992bdded289f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52d0fcd2e50d55ae6c2bb3ece57a45f"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#ab52d0fcd2e50d55ae6c2bb3ece57a45f">LinkWithAsync</a> (string authType, CancellationToken cancellationToken)</td></tr>
+<tr class="separator:ab52d0fcd2e50d55ae6c2bb3ece57a45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ab8d359a3a0675d59dc262eacd74dc"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a57ab8d359a3a0675d59dc262eacd74dc">UnlinkFromAsync</a> (string authType, CancellationToken cancellationToken)</td></tr>
+<tr class="memdesc:a57ab8d359a3a0675d59dc262eacd74dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlinks a user from a service.  <a href="#a57ab8d359a3a0675d59dc262eacd74dc">More...</a><br /></td></tr>
+<tr class="separator:a57ab8d359a3a0675d59dc262eacd74dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2944887d3c484164b6c1678ca39342ca"><td class="memItemLeft" align="right" valign="top">IDictionary&lt; string, IDictionary&lt; string, object &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a2944887d3c484164b6c1678ca39342ca">GetAuthData</a> ()</td></tr>
+<tr class="separator:a2944887d3c484164b6c1678ca39342ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b966e9a242c0a3b838d7f2fa95afd1"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a33b966e9a242c0a3b838d7f2fa95afd1">AssociateAuthDataAsync</a> (IDictionary&lt; string, object &gt; data, string platform, CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="memdesc:a33b966e9a242c0a3b838d7f2fa95afd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">link a 3rd auth account to the user.  <a href="#a33b966e9a242c0a3b838d7f2fa95afd1">More...</a><br /></td></tr>
+<tr class="separator:a33b966e9a242c0a3b838d7f2fa95afd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a146f58440e00e680677f40938d5246"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a1a146f58440e00e680677f40938d5246">AssociateAuthDataAndUnionIdAsync</a> (IDictionary&lt; string, object &gt; authData, string platform, string unionId, <a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a> options=null, CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="separator:a1a146f58440e00e680677f40938d5246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a3c27634931c092e69adca3a5d0021"><td class="memItemLeft" align="right" valign="top">Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#ab1a3c27634931c092e69adca3a5d0021">DisassociateWithAuthDataAsync</a> (string platform, CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="memdesc:ab1a3c27634931c092e69adca3a5d0021"><td class="mdescLeft">&#160;</td><td class="mdescRight">unlink a 3rd auth account from the user.  <a href="#ab1a3c27634931c092e69adca3a5d0021">More...</a><br /></td></tr>
+<tr class="separator:ab1a3c27634931c092e69adca3a5d0021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_lean_cloud_1_1_a_v_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_lean_cloud_1_1_a_v_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_lean_cloud_1_1_a_v_object.htm">LeanCloud.AVObject</a></td></tr>
 <tr class="memitem:a4dfad9998d7dafa7804402ad64fb3e68 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a4dfad9998d7dafa7804402ad64fb3e68">AVObject</a> (string className)</td></tr>
 <tr class="memdesc:a4dfad9998d7dafa7804402ad64fb3e68 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a> with no data in it. A <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a> constructed in this way will not have an ObjectId and will not persist to the database until <a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ae3204827c760a4830c9ea1cf960b9645" title="Saves this object to the server.">SaveAsync()</a> is called.  <a href="class_lean_cloud_1_1_a_v_object.htm#a4dfad9998d7dafa7804402ad64fb3e68">More...</a><br /></td></tr>
@@ -142,9 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7a48aa2035d149f5e6593064cd9545e inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#af7a48aa2035d149f5e6593064cd9545e">Revert</a> ()</td></tr>
 <tr class="memdesc:af7a48aa2035d149f5e6593064cd9545e inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears any changes to this object made since the last call to <a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ae3204827c760a4830c9ea1cf960b9645" title="Saves this object to the server.">SaveAsync()</a>.  <a href="class_lean_cloud_1_1_a_v_object.htm#af7a48aa2035d149f5e6593064cd9545e">More...</a><br /></td></tr>
 <tr class="separator:af7a48aa2035d149f5e6593064cd9545e inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb0208ba90037f2cdd24aa02bbdda66 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a6eb0208ba90037f2cdd24aa02bbdda66">MergeFromServer</a> (IObjectState serverState)</td></tr>
+<tr class="memitem:a6eb0208ba90037f2cdd24aa02bbdda66 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a6eb0208ba90037f2cdd24aa02bbdda66">MergeFromServer</a> (<a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_object_state.htm">IObjectState</a> serverState)</td></tr>
 <tr class="separator:a6eb0208ba90037f2cdd24aa02bbdda66 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb5f1d64358e3c5f137ae7f0c88ad20b inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">IDictionary&lt; string, IAVFieldOperation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#abb5f1d64358e3c5f137ae7f0c88ad20b">StartSave</a> ()</td></tr>
+<tr class="memitem:abb5f1d64358e3c5f137ae7f0c88ad20b inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">IDictionary&lt; string, <a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm">IAVFieldOperation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#abb5f1d64358e3c5f137ae7f0c88ad20b">StartSave</a> ()</td></tr>
 <tr class="memdesc:abb5f1d64358e3c5f137ae7f0c88ad20b inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes new operations onto the queue and returns the current set of operations.  <a href="class_lean_cloud_1_1_a_v_object.htm#abb5f1d64358e3c5f137ae7f0c88ad20b">More...</a><br /></td></tr>
 <tr class="separator:abb5f1d64358e3c5f137ae7f0c88ad20b inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3204827c760a4830c9ea1cf960b9645 inherit pub_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">virtual Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ae3204827c760a4830c9ea1cf960b9645">SaveAsync</a> ()</td></tr>
@@ -269,39 +288,36 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a03b479b641b585f7502fa6c6facc7f71"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a03b479b641b585f7502fa6c6facc7f71">LogInByMobilePhoneNumberAsync</a> (string mobilePhoneNumber, string password)</td></tr>
 <tr class="memdesc:a03b479b641b585f7502fa6c6facc7f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和密码实现登陆。  <a href="#a03b479b641b585f7502fa6c6facc7f71">More...</a><br /></td></tr>
 <tr class="separator:a03b479b641b585f7502fa6c6facc7f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f64cb7c333255098b6799186982dc8f"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a5f64cb7c333255098b6799186982dc8f">LoginBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
-<tr class="memdesc:a5f64cb7c333255098b6799186982dc8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和验证码匹配登陆  <a href="#a5f64cb7c333255098b6799186982dc8f">More...</a><br /></td></tr>
-<tr class="separator:a5f64cb7c333255098b6799186982dc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba00995f9365f13a684bb7a639b5a5ff"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aba00995f9365f13a684bb7a639b5a5ff">LogInBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
+<tr class="memdesc:aba00995f9365f13a684bb7a639b5a5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和验证码匹配登陆  <a href="#aba00995f9365f13a684bb7a639b5a5ff">More...</a><br /></td></tr>
+<tr class="separator:aba00995f9365f13a684bb7a639b5a5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2329748a73969fd09116434d3b27a957"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a2329748a73969fd09116434d3b27a957">LogInByEmailAsync</a> (string email, string password)</td></tr>
 <tr class="memdesc:a2329748a73969fd09116434d3b27a957"><td class="mdescLeft">&#160;</td><td class="mdescRight">用邮箱作和密码匹配登录  <a href="#a2329748a73969fd09116434d3b27a957">More...</a><br /></td></tr>
 <tr class="separator:a2329748a73969fd09116434d3b27a957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936591bba0ee81aef095ca723181d765"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a936591bba0ee81aef095ca723181d765">LogInByMobilePhoneNumberAsync</a> (string mobilePhoneNumber, string password, CancellationToken cancellationToken)</td></tr>
 <tr class="memdesc:a936591bba0ee81aef095ca723181d765"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和密码匹配登陆  <a href="#a936591bba0ee81aef095ca723181d765">More...</a><br /></td></tr>
 <tr class="separator:a936591bba0ee81aef095ca723181d765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0178c538dddd468ad3b60a458fef6bd3"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a0178c538dddd468ad3b60a458fef6bd3">LogInBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode, CancellationToken cancellationToken)</td></tr>
-<tr class="memdesc:a0178c538dddd468ad3b60a458fef6bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和验证码登陆  <a href="#a0178c538dddd468ad3b60a458fef6bd3">More...</a><br /></td></tr>
-<tr class="separator:a0178c538dddd468ad3b60a458fef6bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba00995f9365f13a684bb7a639b5a5ff"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aba00995f9365f13a684bb7a639b5a5ff">LogInBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
-<tr class="memdesc:aba00995f9365f13a684bb7a639b5a5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logins the by SMS code asynchronous.  <a href="#aba00995f9365f13a684bb7a639b5a5ff">More...</a><br /></td></tr>
-<tr class="separator:aba00995f9365f13a684bb7a639b5a5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f5a107aa4e3858b0b878d559a6cd2a"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aa4f5a107aa4e3858b0b878d559a6cd2a">RequestLoginSmsCodeAsync</a> (string mobilePhoneNumber)</td></tr>
-<tr class="memdesc:aa4f5a107aa4e3858b0b878d559a6cd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#aa4f5a107aa4e3858b0b878d559a6cd2a">More...</a><br /></td></tr>
-<tr class="separator:aa4f5a107aa4e3858b0b878d559a6cd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a3c374adc13113891365479d43a7697"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a0a3c374adc13113891365479d43a7697">RequestLoginSmsCodeAsync</a> (string mobilePhoneNumber, string validateToken)</td></tr>
-<tr class="memdesc:a0a3c374adc13113891365479d43a7697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#a0a3c374adc13113891365479d43a7697">More...</a><br /></td></tr>
-<tr class="separator:a0a3c374adc13113891365479d43a7697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a143de2264f5c67a4358a0223d75558fc"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a143de2264f5c67a4358a0223d75558fc">RequestLoginSmsCodeAsync</a> (string mobilePhoneNumber, CancellationToken cancellationToken)</td></tr>
-<tr class="memdesc:a143de2264f5c67a4358a0223d75558fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#a143de2264f5c67a4358a0223d75558fc">More...</a><br /></td></tr>
-<tr class="separator:a143de2264f5c67a4358a0223d75558fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae6ce747bd03bbe67b521cdf0e865c34"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aae6ce747bd03bbe67b521cdf0e865c34">RequestLoginSmsCodeAsync</a> (string mobilePhoneNumber, string validateToken, CancellationToken cancellationToken)</td></tr>
-<tr class="memdesc:aae6ce747bd03bbe67b521cdf0e865c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#aae6ce747bd03bbe67b521cdf0e865c34">More...</a><br /></td></tr>
-<tr class="separator:aae6ce747bd03bbe67b521cdf0e865c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc54d38e3e9cf9763b86d30e50f413b5"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#afc54d38e3e9cf9763b86d30e50f413b5">SignUpOrLoginByMobilePhoneAsync</a> (string mobilePhoneNumber, string smsCode, CancellationToken cancellationToken)</td></tr>
-<tr class="memdesc:afc54d38e3e9cf9763b86d30e50f413b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">手机号一键登录  <a href="#afc54d38e3e9cf9763b86d30e50f413b5">More...</a><br /></td></tr>
-<tr class="separator:afc54d38e3e9cf9763b86d30e50f413b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa766d6d9418227f7a477d59df904d0c9"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aa766d6d9418227f7a477d59df904d0c9">SignUpOrLoginByMobilePhoneAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
-<tr class="memdesc:aa766d6d9418227f7a477d59df904d0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">手机号一键登录  <a href="#aa766d6d9418227f7a477d59df904d0c9">More...</a><br /></td></tr>
-<tr class="separator:aa766d6d9418227f7a477d59df904d0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f412d48eb82efc9c851099ac6081f6d"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a8f412d48eb82efc9c851099ac6081f6d">LogInBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode, CancellationToken cancellationToken=default(CancellationToken))</td></tr>
+<tr class="memdesc:a8f412d48eb82efc9c851099ac6081f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和验证码登陆  <a href="#a8f412d48eb82efc9c851099ac6081f6d">More...</a><br /></td></tr>
+<tr class="separator:a8f412d48eb82efc9c851099ac6081f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d12e90a27603ba2963a5860f7d3831"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a86d12e90a27603ba2963a5860f7d3831">RequestLogInSmsCodeAsync</a> (string mobilePhoneNumber)</td></tr>
+<tr class="memdesc:a86d12e90a27603ba2963a5860f7d3831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#a86d12e90a27603ba2963a5860f7d3831">More...</a><br /></td></tr>
+<tr class="separator:a86d12e90a27603ba2963a5860f7d3831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c19d501784f7aab24701a155b255a0"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a24c19d501784f7aab24701a155b255a0">RequestLogInSmsCodeAsync</a> (string mobilePhoneNumber, string validateToken)</td></tr>
+<tr class="memdesc:a24c19d501784f7aab24701a155b255a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#a24c19d501784f7aab24701a155b255a0">More...</a><br /></td></tr>
+<tr class="separator:a24c19d501784f7aab24701a155b255a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8553074f3042166819213c1b87fbe80"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#ae8553074f3042166819213c1b87fbe80">RequestLogInSmsCodeAsync</a> (string mobilePhoneNumber, CancellationToken cancellationToken)</td></tr>
+<tr class="memdesc:ae8553074f3042166819213c1b87fbe80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#ae8553074f3042166819213c1b87fbe80">More...</a><br /></td></tr>
+<tr class="separator:ae8553074f3042166819213c1b87fbe80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdec7e99f185c0ce51db13a52fe55158"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#afdec7e99f185c0ce51db13a52fe55158">RequestLogInSmsCodeAsync</a> (string mobilePhoneNumber, string validateToken, CancellationToken cancellationToken)</td></tr>
+<tr class="memdesc:afdec7e99f185c0ce51db13a52fe55158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the login SMS code asynchronous.  <a href="#afdec7e99f185c0ce51db13a52fe55158">More...</a><br /></td></tr>
+<tr class="separator:afdec7e99f185c0ce51db13a52fe55158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192238dccdddb7668fdae5424e365779"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a192238dccdddb7668fdae5424e365779">SignUpOrLogInByMobilePhoneAsync</a> (string mobilePhoneNumber, string smsCode, CancellationToken cancellationToken)</td></tr>
+<tr class="memdesc:a192238dccdddb7668fdae5424e365779"><td class="mdescLeft">&#160;</td><td class="mdescRight">手机号一键登录  <a href="#a192238dccdddb7668fdae5424e365779">More...</a><br /></td></tr>
+<tr class="separator:a192238dccdddb7668fdae5424e365779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c4d29144285d7c7ca0ce16ae91145c2"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a1c4d29144285d7c7ca0ce16ae91145c2">SignUpOrLogInByMobilePhoneAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
+<tr class="memdesc:a1c4d29144285d7c7ca0ce16ae91145c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">手机号一键登录  <a href="#a1c4d29144285d7c7ca0ce16ae91145c2">More...</a><br /></td></tr>
+<tr class="separator:a1c4d29144285d7c7ca0ce16ae91145c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3758cb07e2f419309bac6a7ad8e8b961"><td class="memItemLeft" align="right" valign="top">static Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a3758cb07e2f419309bac6a7ad8e8b961">SendSignUpSmsCodeAsync</a> (string mobilePhoneNumber)</td></tr>
 <tr class="memdesc:a3758cb07e2f419309bac6a7ad8e8b961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send sign up sms code async.  <a href="#a3758cb07e2f419309bac6a7ad8e8b961">More...</a><br /></td></tr>
 <tr class="separator:a3758cb07e2f419309bac6a7ad8e8b961"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,6 +375,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3934f8c2e049e769b0e730eab1821f59"><td class="memItemLeft" align="right" valign="top">static Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a3934f8c2e049e769b0e730eab1821f59">RequestEmailVerifyAsync</a> (string email)</td></tr>
 <tr class="memdesc:a3934f8c2e049e769b0e730eab1821f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">申请发送验证邮箱的邮件，一周之内有效 如果该邮箱已经验证通过，会直接返回 True，并不会真正发送邮件 注意，不能频繁的调用此接口，一天之内只允许向同一个邮箱发送验证邮件 3 次，超过调用次数，会直接返回错误  <a href="#a3934f8c2e049e769b0e730eab1821f59">More...</a><br /></td></tr>
 <tr class="separator:a3934f8c2e049e769b0e730eab1821f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a9550631d0e9314ddf04ed587f8499"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a48a9550631d0e9314ddf04ed587f8499">LogInWithAuthDataAsync</a> (IDictionary&lt; string, object &gt; data, string platform, <a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a> options=null, CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="memdesc:a48a9550631d0e9314ddf04ed587f8499"><td class="mdescLeft">&#160;</td><td class="mdescRight">use 3rd auth data to sign up or log in.if user with the same auth data exits,it will transfer as log in.  <a href="#a48a9550631d0e9314ddf04ed587f8499">More...</a><br /></td></tr>
+<tr class="separator:a48a9550631d0e9314ddf04ed587f8499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50eb2c5ee517b42f610b05acb2f7d040"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a50eb2c5ee517b42f610b05acb2f7d040">LogInWithAuthDataAndUnionIdAsync</a> (IDictionary&lt; string, object &gt; authData, string platform, string unionId, <a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a> options=null, CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="separator:a50eb2c5ee517b42f610b05acb2f7d040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4fca99e5adc50f44bd49fa03e7fe90"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#abc4fca99e5adc50f44bd49fa03e7fe90">LogInAnonymouslyAsync</a> (CancellationToken cancellationToken=default(System.Threading.CancellationToken))</td></tr>
+<tr class="separator:abc4fca99e5adc50f44bd49fa03e7fe90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b413cedb7f4d1388cf4f39cbfe76b37"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a8b413cedb7f4d1388cf4f39cbfe76b37">LogInWithAsync</a> (string authType, IDictionary&lt; string, object &gt; data, CancellationToken cancellationToken)</td></tr>
+<tr class="separator:a8b413cedb7f4d1388cf4f39cbfe76b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_lean_cloud_1_1_a_v_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_lean_cloud_1_1_a_v_object')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_lean_cloud_1_1_a_v_object.htm">LeanCloud.AVObject</a></td></tr>
 <tr class="memitem:ab14407ca7e0aeaa06895d79274ecc26a inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ab14407ca7e0aeaa06895d79274ecc26a">GetSubClassName&lt; TAVObject &gt;</a> ()</td></tr>
 <tr class="separator:ab14407ca7e0aeaa06895d79274ecc26a inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,14 +399,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2e32c46ea68b3d99b13d88c9f9a89e5 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ae2e32c46ea68b3d99b13d88c9f9a89e5">CreateWithoutData&lt; T &gt;</a> (string objectId)</td></tr>
 <tr class="memdesc:ae2e32c46ea68b3d99b13d88c9f9a89e5 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a reference to an existing <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a> for use in creating associations between AVObjects. Calling <a class="el" href="class_lean_cloud_1_1_a_v_object.htm#ad0e4ef1e2f29b7a3eede98a89e499e36" title="Gets whether the AVObject has been fetched.">AVObject.IsDataAvailable</a> on this object will return <code>false</code> until AVExtensions.FetchIfNeededAsync&lt;T&gt;(T) has been called. No network request will be made.  <a href="class_lean_cloud_1_1_a_v_object.htm#ae2e32c46ea68b3d99b13d88c9f9a89e5">More...</a><br /></td></tr>
 <tr class="separator:ae2e32c46ea68b3d99b13d88c9f9a89e5 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b293d59d63120d0f7d4474606775371 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a0b293d59d63120d0f7d4474606775371">FromState&lt; T &gt;</a> (IObjectState state, string defaultClassName)</td></tr>
+<tr class="memitem:a0b293d59d63120d0f7d4474606775371 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a0b293d59d63120d0f7d4474606775371">FromState&lt; T &gt;</a> (<a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_object_state.htm">IObjectState</a> state, string defaultClassName)</td></tr>
 <tr class="separator:a0b293d59d63120d0f7d4474606775371 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9900b0e9a76e1fe079c42cfe870cd18a inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static IDictionary&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a9900b0e9a76e1fe079c42cfe870cd18a">GetPropertyMappings</a> (string className)</td></tr>
 <tr class="separator:a9900b0e9a76e1fe079c42cfe870cd18a inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abace37579f432903fff62170dfde6280 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#abace37579f432903fff62170dfde6280">RegisterSubclass&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:abace37579f432903fff62170dfde6280 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a custom subclass type with the <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> SDK, enabling strong-typing of those AVObjects whenever they appear. Subclasses must specify the AVClassName attribute, have a default constructor, and properties backed by <a class="el" href="class_lean_cloud_1_1_a_v_object.htm" title="The AVObject is a local representation of data that can be saved and retrieved from the LeanCloud clo...">AVObject</a> fields should have AVFieldName attributes supplied.  <a href="class_lean_cloud_1_1_a_v_object.htm#abace37579f432903fff62170dfde6280">More...</a><br /></td></tr>
 <tr class="separator:abace37579f432903fff62170dfde6280 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa07164495dafc984ab6ba6f980ec646 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static IDictionary&lt; string, object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#aaa07164495dafc984ab6ba6f980ec646">ToJSONObjectForSaving</a> (IDictionary&lt; string, IAVFieldOperation &gt; operations)</td></tr>
+<tr class="memitem:aaa07164495dafc984ab6ba6f980ec646 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static IDictionary&lt; string, object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#aaa07164495dafc984ab6ba6f980ec646">ToJSONObjectForSaving</a> (IDictionary&lt; string, <a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_a_v_field_operation.htm">IAVFieldOperation</a> &gt; operations)</td></tr>
 <tr class="separator:aaa07164495dafc984ab6ba6f980ec646 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa734c8ab4309f63771d001c6e2fdfe4 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">static Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#afa734c8ab4309f63771d001c6e2fdfe4">SaveAllAsync&lt; T &gt;</a> (IEnumerable&lt; T &gt; objects)</td></tr>
 <tr class="memdesc:afa734c8ab4309f63771d001c6e2fdfe4 inherit pub_static_methods_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves each object in the provided list.  <a href="class_lean_cloud_1_1_a_v_object.htm#afa734c8ab4309f63771d001c6e2fdfe4">More...</a><br /></td></tr>
@@ -477,7 +502,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:a96ac7123d6977877b0c7bcbf4f50ab0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a AVQuery&lt;AVUser&gt; for AVUsers.  <a href="#a96ac7123d6977877b0c7bcbf4f50ab0d">More...</a><br /></td></tr>
 <tr class="separator:a96ac7123d6977877b0c7bcbf4f50ab0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_lean_cloud_1_1_a_v_object"><td colspan="2" onclick="javascript:toggleInherit('properties_class_lean_cloud_1_1_a_v_object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_lean_cloud_1_1_a_v_object.htm">LeanCloud.AVObject</a></td></tr>
-<tr class="memitem:a485cf2eb6a16b944887a1950600dc757 inherit properties_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">IObjectState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a485cf2eb6a16b944887a1950600dc757">State</a><code> [get]</code></td></tr>
+<tr class="memitem:a485cf2eb6a16b944887a1950600dc757 inherit properties_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_lean_cloud_1_1_core_1_1_internal_1_1_i_object_state.htm">IObjectState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#a485cf2eb6a16b944887a1950600dc757">State</a><code> [get]</code></td></tr>
 <tr class="separator:a485cf2eb6a16b944887a1950600dc757 inherit properties_class_lean_cloud_1_1_a_v_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add187ab47104a599b3b6af226b08beb4 inherit properties_class_lean_cloud_1_1_a_v_object"><td class="memItemLeft" align="right" valign="top">virtual object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_object.htm#add187ab47104a599b3b6af226b08beb4">this[string key]</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:add187ab47104a599b3b6af226b08beb4 inherit properties_class_lean_cloud_1_1_a_v_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets a value on the object. It is recommended to name keys in partialCamelCaseLikeThis.  <a href="class_lean_cloud_1_1_a_v_object.htm#add187ab47104a599b3b6af226b08beb4">More...</a><br /></td></tr>
@@ -529,6 +554,114 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a user for a <a class="el" href="namespace_lean_cloud.htm">LeanCloud</a> application. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1a146f58440e00e680677f40938d5246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a146f58440e00e680677f40938d5246">&#9670;&nbsp;</a></span>AssociateAuthDataAndUnionIdAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.AssociateAuthDataAndUnionIdAsync </td>
+          <td>(</td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>authData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>unionId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33b966e9a242c0a3b838d7f2fa95afd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b966e9a242c0a3b838d7f2fa95afd1">&#9670;&nbsp;</a></span>AssociateAuthDataAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.AssociateAuthDataAsync </td>
+          <td>(</td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>link a 3rd auth account to the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td><a class="el" href="class_lean_cloud_1_1_a_v_user.htm" title="Represents a user for a LeanCloud application.">AVUser</a> instance</td></tr>
+    <tr><td class="paramname">data</td><td>OAuth data, like {"accessToken":"xxxxxx"}</td></tr>
+    <tr><td class="paramname">platform</td><td>auth platform,maybe "facebook"/"twiiter"/"weibo"/"weixin" .etc</td></tr>
+    <tr><td class="paramname">cancellationToken</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="a010e7520c24f9d0ed3019924aeea8448"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a010e7520c24f9d0ed3019924aeea8448">&#9670;&nbsp;</a></span>BecomeAsync() <span class="overload">[1/2]</span></h2>
 
@@ -607,6 +740,53 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The user if authorization was successful</dd></dl>
+
+</div>
+</div>
+<a id="ab1a3c27634931c092e69adca3a5d0021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a3c27634931c092e69adca3a5d0021">&#9670;&nbsp;</a></span>DisassociateWithAuthDataAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.DisassociateWithAuthDataAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>unlink a 3rd auth account from the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td><a class="el" href="class_lean_cloud_1_1_a_v_user.htm" title="Represents a user for a LeanCloud application.">AVUser</a> instance</td></tr>
+    <tr><td class="paramname">platform</td><td>auth platform,maybe "facebook"/"twiiter"/"weibo"/"weixin" .etc</td></tr>
+    <tr><td class="paramname">cancellationToken</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -745,6 +925,31 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2944887d3c484164b6c1678ca39342ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2944887d3c484164b6c1678ca39342ca">&#9670;&nbsp;</a></span>GetAuthData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDictionary&lt;string, IDictionary&lt;string, object&gt; &gt; LeanCloud.AVUser.GetAuthData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -992,6 +1197,110 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_lean_cloud_1_1_a_v_object.htm#af57ac1753650de0ca8395c15eab7efc1">LeanCloud.AVObject</a>.</p>
+
+</div>
+</div>
+<a id="a0c7e55c7feed3b9142992bdded289f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c7e55c7feed3b9142992bdded289f71">&#9670;&nbsp;</a></span>LinkWithAsync() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.LinkWithAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>authType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab52d0fcd2e50d55ae6c2bb3ece57a45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52d0fcd2e50d55ae6c2bb3ece57a45f">&#9670;&nbsp;</a></span>LinkWithAsync() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.LinkWithAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>authType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc4fca99e5adc50f44bd49fa03e7fe90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4fca99e5adc50f44bd49fa03e7fe90">&#9670;&nbsp;</a></span>LogInAnonymouslyAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInAnonymouslyAsync </td>
+          <td>(</td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1285,8 +1594,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f64cb7c333255098b6799186982dc8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f64cb7c333255098b6799186982dc8f">&#9670;&nbsp;</a></span>LoginBySmsCodeAsync()</h2>
+<a id="aba00995f9365f13a684bb7a639b5a5ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba00995f9365f13a684bb7a639b5a5ff">&#9670;&nbsp;</a></span>LogInBySmsCodeAsync() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1295,7 +1604,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LoginBySmsCodeAsync </td>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInBySmsCodeAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -1331,8 +1640,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0178c538dddd468ad3b60a458fef6bd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0178c538dddd468ad3b60a458fef6bd3">&#9670;&nbsp;</a></span>LogInBySmsCodeAsync() <span class="overload">[1/2]</span></h2>
+<a id="a8f412d48eb82efc9c851099ac6081f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f412d48eb82efc9c851099ac6081f6d">&#9670;&nbsp;</a></span>LogInBySmsCodeAsync() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1356,7 +1665,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">CancellationToken&#160;</td>
-          <td class="paramname"><em>cancellationToken</em>&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(CancellationToken)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1384,8 +1693,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aba00995f9365f13a684bb7a639b5a5ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba00995f9365f13a684bb7a639b5a5ff">&#9670;&nbsp;</a></span>LogInBySmsCodeAsync() <span class="overload">[2/2]</span></h2>
+<a id="a8b413cedb7f4d1388cf4f39cbfe76b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b413cedb7f4d1388cf4f39cbfe76b37">&#9670;&nbsp;</a></span>LogInWithAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1394,16 +1703,22 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInBySmsCodeAsync </td>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInWithAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>mobilePhoneNumber</em>, </td>
+          <td class="paramname"><em>authType</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>smsCode</em>&#160;</td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1418,11 +1733,114 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Logins the by SMS code asynchronous. </p>
+</div>
+</div>
+<a id="a50eb2c5ee517b42f610b05acb2f7d040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50eb2c5ee517b42f610b05acb2f7d040">&#9670;&nbsp;</a></span>LogInWithAuthDataAndUnionIdAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInWithAuthDataAndUnionIdAsync </td>
+          <td>(</td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>authData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>unionId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48a9550631d0e9314ddf04ed587f8499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a9550631d0e9314ddf04ed587f8499">&#9670;&nbsp;</a></span>LogInWithAuthDataAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.LogInWithAuthDataAsync </td>
+          <td>(</td>
+          <td class="paramtype">IDictionary&lt; string, object &gt;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm">AVUserAuthDataLogInOption</a>&#160;</td>
+          <td class="paramname"><em>options</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(System.Threading.CancellationToken)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use 3rd auth data to sign up or log in.if user with the same auth data exits,it will transfer as log in. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mobilePhoneNumber</td><td>The mobile phone number.</td></tr>
-    <tr><td class="paramname">smsCode</td><td>The SMS code.</td></tr>
+    <tr><td class="paramname">data</td><td>OAuth data, like {"accessToken":"xxxxxx"}</td></tr>
+    <tr><td class="paramname">platform</td><td>auth platform,maybe "facebook"/"twiiter"/"weibo"/"weixin" .etc</td></tr>
+    <tr><td class="paramname">cancellationToken</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1620,8 +2038,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa4f5a107aa4e3858b0b878d559a6cd2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4f5a107aa4e3858b0b878d559a6cd2a">&#9670;&nbsp;</a></span>RequestLoginSmsCodeAsync() <span class="overload">[1/4]</span></h2>
+<a id="a86d12e90a27603ba2963a5860f7d3831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d12e90a27603ba2963a5860f7d3831">&#9670;&nbsp;</a></span>RequestLogInSmsCodeAsync() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1630,7 +2048,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLoginSmsCodeAsync </td>
+          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLogInSmsCodeAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em></td><td>)</td>
@@ -1655,8 +2073,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a3c374adc13113891365479d43a7697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a3c374adc13113891365479d43a7697">&#9670;&nbsp;</a></span>RequestLoginSmsCodeAsync() <span class="overload">[2/4]</span></h2>
+<a id="a24c19d501784f7aab24701a155b255a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c19d501784f7aab24701a155b255a0">&#9670;&nbsp;</a></span>RequestLogInSmsCodeAsync() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1665,7 +2083,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLoginSmsCodeAsync </td>
+          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLogInSmsCodeAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -1701,8 +2119,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a143de2264f5c67a4358a0223d75558fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a143de2264f5c67a4358a0223d75558fc">&#9670;&nbsp;</a></span>RequestLoginSmsCodeAsync() <span class="overload">[3/4]</span></h2>
+<a id="ae8553074f3042166819213c1b87fbe80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8553074f3042166819213c1b87fbe80">&#9670;&nbsp;</a></span>RequestLogInSmsCodeAsync() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1711,7 +2129,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLoginSmsCodeAsync </td>
+          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLogInSmsCodeAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -1747,8 +2165,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aae6ce747bd03bbe67b521cdf0e865c34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae6ce747bd03bbe67b521cdf0e865c34">&#9670;&nbsp;</a></span>RequestLoginSmsCodeAsync() <span class="overload">[4/4]</span></h2>
+<a id="afdec7e99f185c0ce51db13a52fe55158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdec7e99f185c0ce51db13a52fe55158">&#9670;&nbsp;</a></span>RequestLogInSmsCodeAsync() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1757,7 +2175,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLoginSmsCodeAsync </td>
+          <td class="memname">static Task&lt;bool&gt; LeanCloud.AVUser.RequestLogInSmsCodeAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -2553,8 +2971,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="afc54d38e3e9cf9763b86d30e50f413b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc54d38e3e9cf9763b86d30e50f413b5">&#9670;&nbsp;</a></span>SignUpOrLoginByMobilePhoneAsync() <span class="overload">[1/2]</span></h2>
+<a id="a192238dccdddb7668fdae5424e365779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192238dccdddb7668fdae5424e365779">&#9670;&nbsp;</a></span>SignUpOrLogInByMobilePhoneAsync() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2563,7 +2981,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.SignUpOrLoginByMobilePhoneAsync </td>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.SignUpOrLogInByMobilePhoneAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -2605,8 +3023,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa766d6d9418227f7a477d59df904d0c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa766d6d9418227f7a477d59df904d0c9">&#9670;&nbsp;</a></span>SignUpOrLoginByMobilePhoneAsync() <span class="overload">[2/2]</span></h2>
+<a id="a1c4d29144285d7c7ca0ce16ae91145c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c4d29144285d7c7ca0ce16ae91145c2">&#9670;&nbsp;</a></span>SignUpOrLogInByMobilePhoneAsync() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2615,7 +3033,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.SignUpOrLoginByMobilePhoneAsync </td>
+          <td class="memname">static Task&lt;<a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a>&gt; LeanCloud.AVUser.SignUpOrLogInByMobilePhoneAsync </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>mobilePhoneNumber</em>, </td>
@@ -2686,6 +3104,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a57ab8d359a3a0675d59dc262eacd74dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ab8d359a3a0675d59dc262eacd74dc">&#9670;&nbsp;</a></span>UnlinkFromAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.UnlinkFromAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>authType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unlinks a user from a service. </p>
+
+</div>
+</div>
 <a id="ae09d91bb5c52533f24195c6a01bfa080"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae09d91bb5c52533f24195c6a01bfa080">&#9670;&nbsp;</a></span>UpdatePassword()</h2>
 
@@ -2736,6 +3192,32 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aa9b60590fdb74f99f1d6a80290ff4db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b60590fdb74f99f1d6a80290ff4db3">&#9670;&nbsp;</a></span>UpgradeToRevocableSessionAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Task LeanCloud.AVUser.UpgradeToRevocableSessionAsync </td>
+          <td>(</td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
