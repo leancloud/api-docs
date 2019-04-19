@@ -1,23 +1,8 @@
 var searchData=
 [
-  ['objectid',['ObjectId',['../class_lean_cloud_1_1_a_v_file.htm#a6303b352d4d8bff3f09c7a3c0a66f1aa',1,'LeanCloud.AVFile.ObjectId()'],['../class_lean_cloud_1_1_a_v_object.htm#ab8348f813a85e1c728aa430863a6de40',1,'LeanCloud.AVObject.ObjectId()']]],
-  ['offlinemessagestrategy',['OfflineMessageStrategy',['../struct_lean_cloud_1_1_realtime_1_1_a_v_realtime_1_1_configuration.htm#a8e7ac7a0e805a64f5098d6624473d351',1,'LeanCloud::Realtime::AVRealtime::Configuration']]],
-  ['oldvalue',['OldValue',['../class_lean_cloud_1_1_property_updated_event_args.htm#a39653e949d10eca6fec9aacc82c0f66d',1,'LeanCloud::PropertyUpdatedEventArgs']]],
-  ['oldvalues',['OldValues',['../class_lean_cloud_1_1_collection_property_updated_event_args.htm#afd05aa6f3873b4c78c532201165eac9b',1,'LeanCloud::CollectionPropertyUpdatedEventArgs']]],
-  ['ondisconnected',['OnDisconnected',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a26825e6ae31327a7ada42c71a79c88b3',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['onmembersjoined',['OnMembersJoined',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_members_join_listener.htm#a80749197ec218f8cac746f957473482f',1,'LeanCloud::Realtime::AVIMMembersJoinListener']]],
-  ['onmembersleft',['OnMembersLeft',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_members_left_listener.htm#a8fcc5efebdab1fb0b82d523984d9e419',1,'LeanCloud::Realtime::AVIMMembersLeftListener']]],
-  ['onmessagemodified',['OnMessageModified',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_client.htm#a50e143c1c2f7bf14ff8a69ea46786ae3',1,'LeanCloud::Realtime::AVIMClient']]],
-  ['onmessagerecalled',['OnMessageRecalled',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_client.htm#a3478864503268177db2b26a0023bbcd9',1,'LeanCloud::Realtime::AVIMClient']]],
-  ['onmessagereceived',['OnMessageReceived',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_client.htm#a20fd4406ae6a0431a3e73256c042573e',1,'LeanCloud.Realtime.AVIMClient.OnMessageReceived()'],['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_message_listener.htm#a86d7535c97bf261afaebd02cdd9675bc',1,'LeanCloud.Realtime.AVIMMessageListener.OnMessageReceived()']]],
-  ['onofflinemessagereceived',['OnOfflineMessageReceived',['../class_lean_cloud_1_1_realtime_1_1_offline_message_listener.htm#ab45679e913692e1b18157bb6059bf831',1,'LeanCloud::Realtime::OfflineMessageListener']]],
-  ['onreceived',['OnReceived',['../class_lean_cloud_1_1_realtime_1_1_message_patch_listener.htm#a245caa23e24e8131ae86e0e3ebacbc18',1,'LeanCloud::Realtime::MessagePatchListener']]],
-  ['onreconnected',['OnReconnected',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a5863310af39feba30264cddc2237cebd',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['onreconnectfailed',['OnReconnectFailed',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a2e0ddcc65fe9b6bfec855576e1dd184c',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['onreconnecting',['OnReconnecting',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a789d7ffc83e62193bfd60035ca6ad7ac',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['onsessionclosed',['OnSessionClosed',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_client.htm#a1503596dc0a73e14e34d046b2045888b',1,'LeanCloud.Realtime.AVIMClient.OnSessionClosed()'],['../class_lean_cloud_1_1_realtime_1_1_session_listener.htm#a93ac958422f4c875ddfcab2d8e50b5fa',1,'LeanCloud.Realtime.SessionListener.OnSessionClosed()']]],
-  ['ontextmessagereceived',['OnTextMessageReceived',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_text_message_listener.htm#a5f2537c424199a54cc284586cde27404',1,'LeanCloud::Realtime::AVIMTextMessageListener']]],
-  ['opratedtime',['OpratedTime',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_on_members_changed_event_args.htm#aac82d7c3005ddf7ee745dc82d91cef2a',1,'LeanCloud::Realtime::AVIMOnMembersChangedEventArgs']]],
-  ['oprator',['Oprator',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_on_members_changed_event_args.htm#a8273776ede775828631ef180bb32659d',1,'LeanCloud::Realtime::AVIMOnMembersChangedEventArgs']]],
-  ['osversion',['OSVersion',['../struct_lean_cloud_1_1_a_v_client_1_1_configuration_1_1_version_information.htm#a7834a0bf79c34a73a8676d1b159ccbf3',1,'LeanCloud::AVClient::Configuration::VersionInformation']]]
+  ['name',['Name',['../class_lean_cloud_1_1_a_v_file.htm#acfef8ff01df0b00a2aa0627cf37e4e28',1,'LeanCloud.AVFile.Name()'],['../class_lean_cloud_1_1_a_v_role.htm#a778926efb213a0df701c4adcea554b39',1,'LeanCloud.AVRole.Name()'],['../class_lean_cloud_1_1_statistic.htm#a496710b0eb751ba22f4652d9180f4205',1,'LeanCloud.Statistic.Name()'],['../class_lean_cloud_1_1_core_1_1_internal_1_1_file_state.htm#a817b50c0d73a4d36ab3ec528eb7972f8',1,'LeanCloud.Core.Internal.FileState.Name()']]],
+  ['newvalue',['NewValue',['../class_lean_cloud_1_1_property_updated_event_args.htm#adb92bd8f8e5e202f252175d076026a72',1,'LeanCloud::PropertyUpdatedEventArgs']]],
+  ['newvalues',['NewValues',['../class_lean_cloud_1_1_collection_property_updated_event_args.htm#a88fc7e1b8ae559e788a55850bfdadbf1',1,'LeanCloud::CollectionPropertyUpdatedEventArgs']]],
+  ['nextresetat',['NextResetAt',['../class_lean_cloud_1_1_leaderboard.htm#a69d20e33c71d31c4d83c720b3e148f0c',1,'LeanCloud::Leaderboard']]],
+  ['nonce',['Nonce',['../class_lean_cloud_1_1_a_v_cloud_1_1_realtime_signature.htm#a8105b117b5a78843dc6233582443a036',1,'LeanCloud::AVCloud::RealtimeSignature']]]
 ];

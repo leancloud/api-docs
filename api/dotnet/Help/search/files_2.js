@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['iavimlistener_2ecs',['IAVIMListener.cs',['../_i_a_v_i_m_listener_8cs.htm',1,'']]],
-  ['iavimmessage_2ecs',['IAVIMMessage.cs',['../_i_a_v_i_m_message_8cs.htm',1,'']]],
-  ['iavquery_2ecs',['IAVQuery.cs',['../_i_a_v_query_8cs.htm',1,'']]],
-  ['icacheengine_2ecs',['ICacheEngine.cs',['../_i_cache_engine_8cs.htm',1,'']]],
-  ['isignaturefactory_2ecs',['ISignatureFactory.cs',['../_i_signature_factory_8cs.htm',1,'']]]
+  ['filestate_2ecs',['FileState.cs',['../_file_state_8cs.htm',1,'']]],
+  ['flexibledictionarywrapper_2ecs',['FlexibleDictionaryWrapper.cs',['../_flexible_dictionary_wrapper_8cs.htm',1,'']]],
+  ['flexiblelistwrapper_2ecs',['FlexibleListWrapper.cs',['../_flexible_list_wrapper_8cs.htm',1,'']]]
 ];

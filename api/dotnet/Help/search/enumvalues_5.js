@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['incorrecttype',['IncorrectType',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a4bf9120bfda4f7537b7fa994a9ac65d9',1,'LeanCloud::AVException']]],
-  ['internal_5ferror',['INTERNAL_ERROR',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_exception.htm#a57930dcac4736361464b10ea131e2c0bae8c0c70879b5895c615677261d64a1ee',1,'LeanCloud::Realtime::AVIMException']]],
-  ['internalservererror',['InternalServerError',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811aecbf01325f1c744e9d7bb586ac2eb5ed',1,'LeanCloud::AVException']]],
-  ['invalid_5flogin',['INVALID_LOGIN',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_exception.htm#a57930dcac4736361464b10ea131e2c0ba7fcdd3b663e06319731f58b0a7a3c043',1,'LeanCloud::Realtime::AVIMException']]],
-  ['invalid_5fmessaging_5ftarget',['INVALID_MESSAGING_TARGET',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_exception.htm#a57930dcac4736361464b10ea131e2c0bae1f307cebf1ce2c0ffa3c1171b2748e2',1,'LeanCloud::Realtime::AVIMException']]],
-  ['invalid_5forigin',['INVALID_ORIGIN',['../class_lean_cloud_1_1_realtime_1_1_a_v_i_m_exception.htm#a57930dcac4736361464b10ea131e2c0bad77d80358295d5afffd6c1b3e8fb5e97',1,'LeanCloud::Realtime::AVIMException']]],
-  ['invalidacl',['InvalidACL',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a840fce312e71ec44d8b9890081d1b3e3',1,'LeanCloud::AVException']]],
-  ['invalidchannelname',['InvalidChannelName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811ab9341c8d64f5674cc5441f751879b996',1,'LeanCloud::AVException']]],
-  ['invalidclassname',['InvalidClassName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a0c8df932cec603c6b546938422e4d1ee',1,'LeanCloud::AVException']]],
-  ['invalidemailaddress',['InvalidEmailAddress',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811af78abe1162d5363e911af3a6e60bd7e6',1,'LeanCloud::AVException']]],
-  ['invalideventname',['InvalidEventName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a9fe3a92f7ac5b3bd04f57d4ad06049d0',1,'LeanCloud::AVException']]],
-  ['invalidfilename',['InvalidFileName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a432b2eb3e10a1a9e913909138b27c8d9',1,'LeanCloud::AVException']]],
-  ['invalidjson',['InvalidJSON',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811ac52ce04d8d92790ec01705b9a20ddaa4',1,'LeanCloud::AVException']]],
-  ['invalidkeyname',['InvalidKeyName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811afb49b40b7b963ccd71380bd106957a19',1,'LeanCloud::AVException']]],
-  ['invalidlinkedsession',['InvalidLinkedSession',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a7d40c207a84290b175234e9e4087dc7f',1,'LeanCloud::AVException']]],
-  ['invalidnestedkey',['InvalidNestedKey',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a2aee82cc1cd772236c8e151bc9a82952',1,'LeanCloud::AVException']]],
-  ['invalidpointer',['InvalidPointer',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a7d4bdc38754ac378503380f7412b2adb',1,'LeanCloud::AVException']]],
-  ['invalidquery',['InvalidQuery',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811af6299569dba17df7fab2f5948ef48656',1,'LeanCloud::AVException']]],
-  ['invalidrolename',['InvalidRoleName',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811af08f28a60e0baf81dd6ab75ca8f411bd',1,'LeanCloud::AVException']]],
-  ['invalidsessiontoken',['InvalidSessionToken',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a9f2fa0e7a64c88c8591ef95a03c02727',1,'LeanCloud::AVException']]],
-  ['invited',['Invited',['../namespace_lean_cloud_1_1_realtime.htm#a5fe8d3aef19c5ab04e8de70bd1b4b31eaaa3443ffdec7410e60018515486e1279',1,'LeanCloud::Realtime']]]
+  ['filedeletefailed',['FileDeleteFailed',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a4a2a1c0641b809576d475362c459c187',1,'LeanCloud::AVException']]]
 ];
