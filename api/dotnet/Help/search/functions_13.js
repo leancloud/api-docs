@@ -1,14 +1,7 @@
 var searchData=
 [
-  ['thenby',['ThenBy',['../class_lean_cloud_1_1_a_v_query_pair.htm#a8091cebd42d9cc41f15224b9aa6d0530',1,'LeanCloud::AVQueryPair']]],
-  ['thenby_3c_20tsource_2c_20tselector_20_3e',['ThenBy&lt; TSource, TSelector &gt;',['../class_lean_cloud_1_1_a_v_query_extensions.htm#a51ecddb740ba78419207ea2e8d63446c',1,'LeanCloud::AVQueryExtensions']]],
-  ['thenbydescending',['ThenByDescending',['../class_lean_cloud_1_1_a_v_query_pair.htm#ad8a477a5f8b2759802a208e5513f69fa',1,'LeanCloud::AVQueryPair']]],
-  ['thenbydescending_3c_20tsource_2c_20tselector_20_3e',['ThenByDescending&lt; TSource, TSelector &gt;',['../class_lean_cloud_1_1_a_v_query_extensions.htm#a1ad997038473b1008b0587f33eb81aed',1,'LeanCloud::AVQueryExtensions']]],
-  ['to_3c_20t_20_3e',['To&lt; T &gt;',['../class_lean_cloud_1_1_utilities_1_1_conversion.htm#a1da17cc100f0d6908cd622bbd5baa751',1,'LeanCloud::Utilities::Conversion']]],
-  ['toggleheartbeating',['ToggleHeartBeating',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a07f37549ccb85817941792c5a72e0996',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['togglenotification',['ToggleNotification',['../class_lean_cloud_1_1_realtime_1_1_a_v_realtime.htm#a9f3fa047d166f8d1db142d54290872cc',1,'LeanCloud::Realtime::AVRealtime']]],
-  ['tojson',['ToJSON',['../struct_lean_cloud_1_1_a_v_geo_point.htm#aa9a3102755231726ed897ca522df454d',1,'LeanCloud::AVGeoPoint']]],
-  ['tojsonobjectforsaving',['ToJSONObjectForSaving',['../class_lean_cloud_1_1_a_v_object.htm#aaa07164495dafc984ab6ba6f980ec646',1,'LeanCloud::AVObject']]],
-  ['tolog',['ToLog',['../class_lean_cloud_1_1_a_v_client.htm#a1e6eb0e708945ca0ca626268c9923778',1,'LeanCloud::AVClient']]],
-  ['trygetvalue_3c_20t_20_3e',['TryGetValue&lt; T &gt;',['../class_lean_cloud_1_1_a_v_config.htm#a9a729bc395437b7ac9b673b5ecf3d0d4',1,'LeanCloud.AVConfig.TryGetValue&lt; T &gt;()'],['../class_lean_cloud_1_1_a_v_object.htm#ab79528554d9da96c7b6d269717eb388c',1,'LeanCloud.AVObject.TryGetValue&lt; T &gt;()']]]
+  ['verifyasync',['VerifyAsync',['../class_lean_cloud_1_1_a_v_cloud_1_1_captcha.htm#ae351684efeeb833d55e50ff2c45cf3b1',1,'LeanCloud::AVCloud::Captcha']]],
+  ['verifycaptchaasync',['VerifyCaptchaAsync',['../class_lean_cloud_1_1_a_v_cloud.htm#ad2019ee980b5084b602ede79ec2260c9',1,'LeanCloud::AVCloud']]],
+  ['verifymobilephoneasync',['VerifyMobilePhoneAsync',['../class_lean_cloud_1_1_a_v_user.htm#abc3983b0c3c134829b38dae51db27e4e',1,'LeanCloud.AVUser.VerifyMobilePhoneAsync(string code, string mobilePhoneNumber)'],['../class_lean_cloud_1_1_a_v_user.htm#a64de7788dcab6ed8b79a9aef76b39238',1,'LeanCloud.AVUser.VerifyMobilePhoneAsync(string code, string mobilePhoneNumber, CancellationToken cancellationToken)'],['../class_lean_cloud_1_1_a_v_user.htm#a9a2a8e03c19dc16a375d4ae096f2b7d8',1,'LeanCloud.AVUser.VerifyMobilePhoneAsync(string code)'],['../class_lean_cloud_1_1_a_v_user.htm#a98789c3ef553d2f14ddb7cffd70c84f7',1,'LeanCloud.AVUser.VerifyMobilePhoneAsync(string code, CancellationToken cancellationToken)']]],
+  ['verifysmscodeasync',['VerifySmsCodeAsync',['../class_lean_cloud_1_1_a_v_cloud.htm#a59039005d6603e74a0cdfcaa14b0681a',1,'LeanCloud.AVCloud.VerifySmsCodeAsync(string code, string mobilePhoneNumber)'],['../class_lean_cloud_1_1_a_v_cloud.htm#af043b37c94adef2449f127a1d7f9b672',1,'LeanCloud.AVCloud.VerifySmsCodeAsync(string code, string mobilePhoneNumber, CancellationToken cancellationToken)']]]
 ];
