@@ -27,7 +27,7 @@ var searchData=
   ['or',['Or',['../class_lean_cloud_1_1_a_v_query.htm#ab984e11e669358b485a3af7d07095653',1,'LeanCloud::AVQuery']]],
   ['or_3c_20q_2c_20o_20_3e',['Or&lt; Q, O &gt;',['../class_lean_cloud_1_1_a_v_query_pair.htm#a1d9f59339f284ac21081183b8b65b651',1,'LeanCloud::AVQueryPair']]],
   ['or_3c_20t_20_3e',['Or&lt; T &gt;',['../class_lean_cloud_1_1_a_v_extensions.htm#a176288567dbd97fbe58accff832dc8ef',1,'LeanCloud::AVExtensions']]],
-  ['order',['Order',['../class_lean_cloud_1_1_leaderboard.htm#a979f795f99dd54c5a1bc8aeba4f8b9a1',1,'LeanCloud::Leaderboard']]],
+  ['order',['Order',['../class_lean_cloud_1_1_a_v_leaderboard.htm#a20b85425c1eb2fed2619225454b16cd7',1,'LeanCloud::AVLeaderboard']]],
   ['orderby',['OrderBy',['../class_lean_cloud_1_1_a_v_query_pair.htm#a32a72eccdb01d8e3f3d7416387df81b5',1,'LeanCloud.AVQueryPair.OrderBy(string key)'],['../class_lean_cloud_1_1_a_v_query_pair.htm#ac965d070af97af19a8b1aecf14fee830',1,'LeanCloud.AVQueryPair.orderBy()']]],
   ['orderby_3c_20tsource_2c_20tselector_20_3e',['OrderBy&lt; TSource, TSelector &gt;',['../class_lean_cloud_1_1_a_v_query_extensions.htm#a13ec077d561476568bcc0d4c65d469bb',1,'LeanCloud::AVQueryExtensions']]],
   ['orderbydescending',['OrderByDescending',['../class_lean_cloud_1_1_a_v_query_pair.htm#ad4c34144e324ef25ad93b0fea1ee21e1',1,'LeanCloud::AVQueryPair']]],

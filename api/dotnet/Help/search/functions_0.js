@@ -49,6 +49,7 @@ var searchData=
   ['avrpcserialize_3c_20p_20_3e',['AVRPCSerialize&lt; P &gt;',['../class_lean_cloud_1_1_a_v_r_p_c_cloud_function_base.htm#a652c1f3f4cf5f3a8cab65897edc624be',1,'LeanCloud::AVRPCCloudFunctionBase']]],
   ['avsessioncontroller',['AVSessionController',['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_session_controller.htm#af84cb3ab70abf28adc22d9eb149cd793',1,'LeanCloud::Core::Internal::AVSessionController']]],
   ['avsetoperation',['AVSetOperation',['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_set_operation.htm#ad370e0e56da280fdfd5c5545a3f96b78',1,'LeanCloud::Core::Internal::AVSetOperation']]],
+  ['avstatistic',['AVStatistic',['../class_lean_cloud_1_1_a_v_statistic.htm#aeb595408d5130cd29739d75aa72ea2af',1,'LeanCloud::AVStatistic']]],
   ['avuploadprogresseventargs',['AVUploadProgressEventArgs',['../class_lean_cloud_1_1_a_v_upload_progress_event_args.htm#ae1112d002af83c25eae06ff762d86c5f',1,'LeanCloud::AVUploadProgressEventArgs']]],
   ['avuserauthdataloginoption',['AVUserAuthDataLogInOption',['../class_lean_cloud_1_1_a_v_user_auth_data_log_in_option.htm#acb8dc8ec01f8ebaf07370948c1c89617',1,'LeanCloud::AVUserAuthDataLogInOption']]],
   ['avusercontroller',['AVUserController',['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_user_controller.htm#a3540b82b31ac36857473ec5cf6bd7c9a',1,'LeanCloud::Core::Internal::AVUserController']]],
