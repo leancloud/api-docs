@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['week',['WEEK',['../namespace_lean_cloud.htm#a3043ecd684cda8c83912eea7f651be83a02854858ab6190b2e40f3d9b1ee16982',1,'LeanCloud']]],
+  ['week',['WEEK',['../namespace_lean_cloud.htm#ac2afca7d204b84e4ae71b0264e3eacfba02854858ab6190b2e40f3d9b1ee16982',1,'LeanCloud']]],
   ['where',['where',['../class_lean_cloud_1_1_a_v_query_pair.htm#a34dae50f05dd7122e8f9beb11d68983c',1,'LeanCloud.AVQueryPair.where()'],['../class_lean_cloud_1_1_a_v_query_base.htm#a9dbcd5842aba63fc1d0d2cad55e344de',1,'LeanCloud.AVQueryBase.Where()']]],
   ['where_3c_20tsource_20_3e',['Where&lt; TSource &gt;',['../class_lean_cloud_1_1_a_v_query_extensions.htm#ac478352872270d05971710fd6922c0d0',1,'LeanCloud::AVQueryExtensions']]],
   ['wherecontainedin_3c_20tin_20_3e',['WhereContainedIn&lt; TIn &gt;',['../class_lean_cloud_1_1_a_v_query_pair.htm#ab8b63600ab3785ec350d53f950f7443a',1,'LeanCloud::AVQueryPair']]],

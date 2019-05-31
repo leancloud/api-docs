@@ -5,7 +5,7 @@ var searchData=
   ['objects',['Objects',['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_operation.htm#accd89706b2d9a4aff8fb7f099b00be06',1,'LeanCloud.Core.Internal.AVAddOperation.Objects()'],['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_add_unique_operation.htm#ab14df7576fb6d789ff42afda3019b10d',1,'LeanCloud.Core.Internal.AVAddUniqueOperation.Objects()'],['../class_lean_cloud_1_1_core_1_1_internal_1_1_a_v_remove_operation.htm#a6fc49ba8f7200728c1c7eed3d6577365',1,'LeanCloud.Core.Internal.AVRemoveOperation.Objects()']]],
   ['oldvalue',['OldValue',['../class_lean_cloud_1_1_property_updated_event_args.htm#a39653e949d10eca6fec9aacc82c0f66d',1,'LeanCloud::PropertyUpdatedEventArgs']]],
   ['oldvalues',['OldValues',['../class_lean_cloud_1_1_collection_property_updated_event_args.htm#afd05aa6f3873b4c78c532201165eac9b',1,'LeanCloud::CollectionPropertyUpdatedEventArgs']]],
-  ['order',['Order',['../class_lean_cloud_1_1_leaderboard.htm#a979f795f99dd54c5a1bc8aeba4f8b9a1',1,'LeanCloud::Leaderboard']]],
+  ['order',['Order',['../class_lean_cloud_1_1_a_v_leaderboard.htm#a20b85425c1eb2fed2619225454b16cd7',1,'LeanCloud::AVLeaderboard']]],
   ['osversion',['OSVersion',['../struct_lean_cloud_1_1_a_v_client_1_1_configuration_1_1_version_information.htm#a7834a0bf79c34a73a8676d1b159ccbf3',1,'LeanCloud::AVClient::Configuration::VersionInformation']]],
   ['outputblocksize',['OutputBlockSize',['../class_lean_cloud_1_1_core_1_1_internal_1_1_m_d5.htm#ac3b3e82e8de6e9c27ddc9e6fe97eaebc',1,'LeanCloud.Core.Internal.MD5.OutputBlockSize()'],['../class_lean_cloud_1_1_core_1_1_internal_1_1_hash_algorithm.htm#a4ba498b4032f9d0e5c6b40551323c4fc',1,'LeanCloud.Core.Internal.HashAlgorithm.OutputBlockSize()']]]
 ];

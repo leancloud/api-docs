@@ -291,9 +291,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aba00995f9365f13a684bb7a639b5a5ff"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#aba00995f9365f13a684bb7a639b5a5ff">LogInBySmsCodeAsync</a> (string mobilePhoneNumber, string smsCode)</td></tr>
 <tr class="memdesc:aba00995f9365f13a684bb7a639b5a5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和验证码匹配登陆  <a href="#aba00995f9365f13a684bb7a639b5a5ff">More...</a><br /></td></tr>
 <tr class="separator:aba00995f9365f13a684bb7a639b5a5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2329748a73969fd09116434d3b27a957"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a2329748a73969fd09116434d3b27a957">LogInByEmailAsync</a> (string email, string password)</td></tr>
-<tr class="memdesc:a2329748a73969fd09116434d3b27a957"><td class="mdescLeft">&#160;</td><td class="mdescRight">用邮箱作和密码匹配登录  <a href="#a2329748a73969fd09116434d3b27a957">More...</a><br /></td></tr>
-<tr class="separator:a2329748a73969fd09116434d3b27a957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f1a0629264e21f84b01177b7366528"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a22f1a0629264e21f84b01177b7366528">LogInByEmailAsync</a> (string email, string password, CancellationToken cancellationToken=default(CancellationToken))</td></tr>
+<tr class="memdesc:a22f1a0629264e21f84b01177b7366528"><td class="mdescLeft">&#160;</td><td class="mdescRight">用邮箱作和密码匹配登录  <a href="#a22f1a0629264e21f84b01177b7366528">More...</a><br /></td></tr>
+<tr class="separator:a22f1a0629264e21f84b01177b7366528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936591bba0ee81aef095ca723181d765"><td class="memItemLeft" align="right" valign="top">static Task&lt; <a class="el" href="class_lean_cloud_1_1_a_v_user.htm">AVUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lean_cloud_1_1_a_v_user.htm#a936591bba0ee81aef095ca723181d765">LogInByMobilePhoneNumberAsync</a> (string mobilePhoneNumber, string password, CancellationToken cancellationToken)</td></tr>
 <tr class="memdesc:a936591bba0ee81aef095ca723181d765"><td class="mdescLeft">&#160;</td><td class="mdescRight">以手机号和密码匹配登陆  <a href="#a936591bba0ee81aef095ca723181d765">More...</a><br /></td></tr>
 <tr class="separator:a936591bba0ee81aef095ca723181d765"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1403,8 +1403,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2329748a73969fd09116434d3b27a957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2329748a73969fd09116434d3b27a957">&#9670;&nbsp;</a></span>LogInByEmailAsync()</h2>
+<a id="a22f1a0629264e21f84b01177b7366528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f1a0629264e21f84b01177b7366528">&#9670;&nbsp;</a></span>LogInByEmailAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1422,7 +1422,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>password</em>&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CancellationToken&#160;</td>
+          <td class="paramname"><em>cancellationToken</em> = <code>default(CancellationToken)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

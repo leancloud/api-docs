@@ -1,7 +1,7 @@
 var searchData=
 [
   ['becomeasync',['BecomeAsync',['../class_lean_cloud_1_1_a_v_user.htm#a010e7520c24f9d0ed3019924aeea8448',1,'LeanCloud.AVUser.BecomeAsync(string sessionToken)'],['../class_lean_cloud_1_1_a_v_user.htm#ac5d7019e77cefe1c042ee9240ea22c7a',1,'LeanCloud.AVUser.BecomeAsync(string sessionToken, CancellationToken cancellationToken)']]],
-  ['better',['BETTER',['../namespace_lean_cloud.htm#a1958dc33bd4172fd4ee8877047388c42a83403fbbcdbf448c9cd100da41da8dc2',1,'LeanCloud']]],
+  ['better',['BETTER',['../namespace_lean_cloud.htm#a44f72b620469a9fe4d10330c47b19c80a83403fbbcdbf448c9cd100da41da8dc2',1,'LeanCloud']]],
   ['block_5fctxes',['block_ctxes',['../class_lean_cloud_1_1_core_1_1_internal_1_1_file_state.htm#a123707852cc66b0c15774dfdfe0534b5',1,'LeanCloud::Core::Internal::FileState']]],
   ['bucket',['bucket',['../class_lean_cloud_1_1_core_1_1_internal_1_1_file_state.htm#a6e031e129d21aef917593a8219eaca09',1,'LeanCloud::Core::Internal::FileState']]],
   ['bucketid',['bucketId',['../class_lean_cloud_1_1_core_1_1_internal_1_1_file_state.htm#a854c1b0531aecc9c78c96313083af6ba',1,'LeanCloud::Core::Internal::FileState']]],

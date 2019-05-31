@@ -30,7 +30,7 @@ var searchData=
   ['ijsonconvertible',['IJsonConvertible',['../interface_lean_cloud_1_1_storage_1_1_internal_1_1_i_json_convertible.htm',1,'LeanCloud::Storage::Internal']]],
   ['ijsonconvertible_2ecs',['IJsonConvertible.cs',['../_i_json_convertible_8cs.htm',1,'']]],
   ['include',['Include',['../class_lean_cloud_1_1_a_v_query_pair.htm#ac747ae96e73c3d6f59dd91d0571cadee',1,'LeanCloud::AVQueryPair']]],
-  ['includedstatistics',['IncludedStatistics',['../class_lean_cloud_1_1_ranking.htm#a863afacf752b284a344bef32ce053f27',1,'LeanCloud::Ranking']]],
+  ['includedstatistics',['IncludedStatistics',['../class_lean_cloud_1_1_a_v_ranking.htm#a7ec8d3a25e177141fe4d5487afc39e53',1,'LeanCloud::AVRanking']]],
   ['includes',['includes',['../class_lean_cloud_1_1_a_v_query_pair.htm#a0bccf309fe4bd66f40cf9dd79c4d135b',1,'LeanCloud::AVQueryPair']]],
   ['incorrecttype',['IncorrectType',['../class_lean_cloud_1_1_a_v_exception.htm#a79d7418a12bc72a830bf56a6eae2a811a4bf9120bfda4f7537b7fa994a9ac65d9',1,'LeanCloud::AVException']]],
   ['increment',['Increment',['../class_lean_cloud_1_1_a_v_object.htm#ad466fcb2c24bdd29f3b017673444a81b',1,'LeanCloud.AVObject.Increment(string key)'],['../class_lean_cloud_1_1_a_v_object.htm#a46f1544ed21f8055fe5896e4d2e03de8',1,'LeanCloud.AVObject.Increment(string key, long amount)'],['../class_lean_cloud_1_1_a_v_object.htm#a6c52d0c6596c23ba0e15cfdd35663574',1,'LeanCloud.AVObject.Increment(string key, double amount)']]],
