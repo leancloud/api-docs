@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -102,12 +102,6 @@
 	
 
 	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/new">+ new</option>
-		
-	</optgroup>
-	
 
 	
 	<optgroup label="Instance Methods">
@@ -131,8 +125,6 @@
 		<option value="//api/name/getMemberInfoWithIgnoringCache:memberId:callback:">- getMemberInfoWithIgnoringCache:memberId:callback:</option>
 		
 		<option value="//api/name/getMemberInfoWithMemberId:callback:">- getMemberInfoWithMemberId:callback:</option>
-		
-		<option value="//api/name/init">- init</option>
 		
 		<option value="//api/name/joinWithCallback:">- joinWithCallback:</option>
 		
@@ -1264,38 +1256,6 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/new" title="new"></a>
-	<h3 class="method-title"><code><a href="#//api/name/new">+&nbsp;new</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)new</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/init" title="init"></a>
-	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (instancetype)init</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/setObject:forKey:" title="setObject:forKey:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setObject:forKey:">&ndash;&nbsp;setObject:forKey:</a></code>
 </h3>
@@ -1583,6 +1543,100 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/fetchReceiptTimestampsInBackground" title="fetchReceiptTimestampsInBackground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchReceiptTimestampsInBackground">&ndash;&nbsp;fetchReceiptTimestampsInBackground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>拉取对话最近的回执时间。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchReceiptTimestampsInBackground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>拉取对话最近的回执时间。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readInBackground" title="readInBackground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readInBackground">&ndash;&nbsp;readInBackground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>将对话标记为已读。
+该方法将本地对话中其他成员发出的最新消息标记为已读，该消息的发送者会收到已读通知。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readInBackground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>将对话标记为已读。
+该方法将本地对话中其他成员发出的最新消息标记为已读，该消息的发送者会收到已读通知。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/fetchWithCallback:" title="fetchWithCallback:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/fetchWithCallback:">&ndash;&nbsp;fetchWithCallback:</a></code>
 </h3>
@@ -1641,52 +1695,6 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/fetchReceiptTimestampsInBackground" title="fetchReceiptTimestampsInBackground"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchReceiptTimestampsInBackground">&ndash;&nbsp;fetchReceiptTimestampsInBackground</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>拉取对话最近的回执时间。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)fetchReceiptTimestampsInBackground</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>拉取对话最近的回执时间。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/updateWithCallback:" title="updateWithCallback:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/updateWithCallback:">&ndash;&nbsp;updateWithCallback:</a></code>
 </h3>
@@ -1728,122 +1736,6 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>发送更新。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/joinWithCallback:" title="joinWithCallback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/joinWithCallback:">&ndash;&nbsp;joinWithCallback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>加入对话。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)joinWithCallback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>－ 结果回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>加入对话。</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/quitWithCallback:" title="quitWithCallback:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/quitWithCallback:">&ndash;&nbsp;quitWithCallback:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>离开对话。</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)quitWithCallback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>callback</code></th>
-						<td><p>－ 结果回调</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>离开对话。</p>
 			</div>
 			
 
@@ -1977,8 +1869,8 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/readInBackground" title="readInBackground"></a>
-	<h3 class="method-title"><code><a href="#//api/name/readInBackground">&ndash;&nbsp;readInBackground</a></code>
+	<a name="//api/name/joinWithCallback:" title="joinWithCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/joinWithCallback:">&ndash;&nbsp;joinWithCallback:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -1988,15 +1880,26 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 			
 			<div class="method-subsection brief-description">
-				<p>将对话标记为已读。
-该方法将本地对话中其他成员发出的最新消息标记为已读，该消息的发送者会收到已读通知。</p>
+				<p>加入对话。</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)readInBackground</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)joinWithCallback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>－ 结果回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -2006,8 +1909,65 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>将对话标记为已读。
-该方法将本地对话中其他成员发出的最新消息标记为已读，该消息的发送者会收到已读通知。</p>
+				<p>加入对话。</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVIMConversation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/quitWithCallback:" title="quitWithCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/quitWithCallback:">&ndash;&nbsp;quitWithCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>离开对话。</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)quitWithCallback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>－ 结果回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>离开对话。</p>
 			</div>
 			
 
@@ -2498,7 +2458,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Replace a message you sent with a <a href="#//api/name/new">new</a> message.</p>
+				<p>Replace a message you sent with a new message.</p>
 			</div>
 			
 		    
@@ -2518,7 +2478,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>newMessage</code></th>
-						<td><p>A <a href="#//api/name/new">new</a> message.</p></td>
+						<td><p>A new message.</p></td>
 					</tr>
 				
 					<tr>
@@ -2537,7 +2497,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Replace a message you sent with a <a href="#//api/name/new">new</a> message.</p>
+				<p>Replace a message you sent with a new message.</p>
 			</div>
 			
 
@@ -3803,7 +3763,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)queryMutedMembersWithLimit:(NSInteger)<em>limit</em> next:(NSString *_Nullable)<em>next</em> callback:(void ( ^ ) ( NSArray&lt;NSString*&gt; *_Nullable blockedMemberIds , NSString *_Nullable next , NSError *_Nullable error ))<em>callback</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)queryMutedMembersWithLimit:(NSInteger)<em>limit</em> next:(NSString *_Nullable)<em>next</em> callback:(void ( ^ ) ( NSArray&lt;NSString*&gt; *_Nullable mutedMemberIds , NSString *_Nullable next , NSError *_Nullable error ))<em>callback</em></code></div>
 
 		    
 			
@@ -3858,8 +3818,8 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 						</div>
 						
 
-						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
-						<h2 class="task-title">AVDeprecated Methods</h2>
+						<a title="deprecated Methods" name="task_deprecated Methods"></a>
+						<h2 class="task-title">deprecated Methods</h2>
 
 						<div class="task-list">
 							<div class="section-method">
@@ -3879,7 +3839,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVIMMessage *)<em>message</em> options:(AVIMMessageSendOption)<em>options</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVIMMessage *)<em>message</em> options:(AVIMMessageSendOption)<em>options</em> callback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
 
 		    
 			
@@ -3947,7 +3907,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVIMMessage *)<em>message</em> options:(AVIMMessageSendOption)<em>options</em> progressBlock:(nullable AVIMProgressBlock)<em>progressBlock</em> callback:(AVIMBooleanResultBlock)<em>callback</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)sendMessage:(AVIMMessage *)<em>message</em> options:(AVIMMessageSendOption)<em>options</em> progressBlock:(nullable AVIMProgressBlock)<em>progressBlock</em> callback:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>callback</em></code></div>
 
 		    
 			
@@ -4132,7 +4092,7 @@ Can be changed by <a href="#//api/name/muteWithCallback:">muteWithCallback:</a> 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

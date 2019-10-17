@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -64,15 +64,11 @@
 		
 		<option value="//api/name/callFunctionInBackground:withParameters:block:">+ callFunctionInBackground:withParameters:block:</option>
 		
-		<option value="//api/name/callFunctionInBackground:withParameters:target:selector:">+ callFunctionInBackground:withParameters:target:selector:</option>
-		
 		<option value="//api/name/rpcFunction:withParameters:">+ rpcFunction:withParameters:</option>
 		
 		<option value="//api/name/rpcFunction:withParameters:error:">+ rpcFunction:withParameters:error:</option>
 		
 		<option value="//api/name/rpcFunctionInBackground:withParameters:block:">+ rpcFunctionInBackground:withParameters:block:</option>
-		
-		<option value="//api/name/rpcFunctionInBackground:withParameters:target:selector:">+ rpcFunctionInBackground:withParameters:target:selector:</option>
 		
 		<option value="//api/name/setProductionMode:">+ setProductionMode:</option>
 		
@@ -337,79 +333,6 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/callFunctionInBackground:withParameters:target:selector:" title="callFunctionInBackground:withParameters:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/callFunctionInBackground:withParameters:target:selector:">+&nbsp;callFunctionInBackground:withParameters:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Calls the given cloud function with the parameters provided asynchronously and runs the callback when it is done.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)callFunctionInBackground:(NSString *)<em>function</em> withParameters:(nullable NSDictionary *)<em>parameters</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>function</code></th>
-						<td><p>The function name to call.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>The parameters to send to the function.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call the selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(id) result error:(NSError *)error. result will be nil if error is set and vice versa.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Calls the given cloud function with the parameters provided asynchronously and runs the callback when it is done.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/rpcFunction:withParameters:" title="rpcFunction:withParameters:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/rpcFunction:withParameters:">+&nbsp;rpcFunction:withParameters:</a></code>
 </h3>
@@ -619,79 +542,6 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/rpcFunctionInBackground:withParameters:target:selector:" title="rpcFunctionInBackground:withParameters:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/rpcFunctionInBackground:withParameters:target:selector:">+&nbsp;rpcFunctionInBackground:withParameters:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Calls the given cloud function with the parameters provided by RPC asynchronously and runs the callback when it is done.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)rpcFunctionInBackground:(NSString *)<em>function</em> withParameters:(nullable id)<em>parameters</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>function</code></th>
-						<td><p>The function name to call.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>parameters</code></th>
-						<td><p>The parameters to send to the function.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call the selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(id) result error:(NSError *)error. result will be nil if error is set and vice versa.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Calls the given cloud function with the parameters provided by RPC asynchronously and runs the callback when it is done.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/setProductionMode:" title="setProductionMode:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setProductionMode:">+&nbsp;setProductionMode:</a></code>
 </h3>
@@ -764,7 +614,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

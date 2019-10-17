@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -90,25 +90,13 @@
 		
 		<option value="//api/name/followerQuery:">+ followerQuery:</option>
 		
-		<option value="//api/name/logInWithMobilePhoneNumber:password:">+ logInWithMobilePhoneNumber:password:</option>
-		
 		<option value="//api/name/logInWithMobilePhoneNumber:password:error:">+ logInWithMobilePhoneNumber:password:error:</option>
-		
-		<option value="//api/name/logInWithMobilePhoneNumber:smsCode:">+ logInWithMobilePhoneNumber:smsCode:</option>
 		
 		<option value="//api/name/logInWithMobilePhoneNumber:smsCode:error:">+ logInWithMobilePhoneNumber:smsCode:error:</option>
 		
-		<option value="//api/name/logInWithMobilePhoneNumberInBackground:password:">+ logInWithMobilePhoneNumberInBackground:password:</option>
-		
 		<option value="//api/name/logInWithMobilePhoneNumberInBackground:password:block:">+ logInWithMobilePhoneNumberInBackground:password:block:</option>
 		
-		<option value="//api/name/logInWithMobilePhoneNumberInBackground:password:target:selector:">+ logInWithMobilePhoneNumberInBackground:password:target:selector:</option>
-		
-		<option value="//api/name/logInWithMobilePhoneNumberInBackground:smsCode:">+ logInWithMobilePhoneNumberInBackground:smsCode:</option>
-		
 		<option value="//api/name/logInWithMobilePhoneNumberInBackground:smsCode:block:">+ logInWithMobilePhoneNumberInBackground:smsCode:block:</option>
-		
-		<option value="//api/name/logInWithMobilePhoneNumberInBackground:smsCode:target:selector:">+ logInWithMobilePhoneNumberInBackground:smsCode:target:selector:</option>
 		
 		<option value="//api/name/logInWithUsername:password:">+ logInWithUsername:password:</option>
 		
@@ -118,11 +106,13 @@
 		
 		<option value="//api/name/logInWithUsernameInBackground:password:block:">+ logInWithUsernameInBackground:password:block:</option>
 		
-		<option value="//api/name/logInWithUsernameInBackground:password:target:selector:">+ logInWithUsernameInBackground:password:target:selector:</option>
-		
 		<option value="//api/name/logOut">+ logOut</option>
 		
+		<option value="//api/name/loginAnonymouslyWithCallback:">+ loginAnonymouslyWithCallback:</option>
+		
 		<option value="//api/name/loginOrSignUpWithAuthData:platform:block:">+ loginOrSignUpWithAuthData:platform:block:</option>
+		
+		<option value="//api/name/loginWithEmail:password:block:">+ loginWithEmail:password:block:</option>
 		
 		<option value="//api/name/query">+ query</option>
 		
@@ -143,8 +133,6 @@
 		<option value="//api/name/requestPasswordResetForEmailInBackground:">+ requestPasswordResetForEmailInBackground:</option>
 		
 		<option value="//api/name/requestPasswordResetForEmailInBackground:block:">+ requestPasswordResetForEmailInBackground:block:</option>
-		
-		<option value="//api/name/requestPasswordResetForEmailInBackground:target:selector:">+ requestPasswordResetForEmailInBackground:target:selector:</option>
 		
 		<option value="//api/name/requestPasswordResetWithPhoneNumber:block:">+ requestPasswordResetWithPhoneNumber:block:</option>
 		
@@ -196,6 +184,8 @@
 		
 		<option value="//api/name/getRolesInBackgroundWithBlock:">- getRolesInBackgroundWithBlock:</option>
 		
+		<option value="//api/name/isAnonymous">- isAnonymous</option>
+		
 		<option value="//api/name/isAuthenticated">- isAuthenticated</option>
 		
 		<option value="//api/name/isAuthenticatedWithSessionToken:callback:">- isAuthenticatedWithSessionToken:callback:</option>
@@ -214,13 +204,9 @@
 		
 		<option value="//api/name/signUpInBackgroundWithBlock:">- signUpInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/signUpInBackgroundWithTarget:selector:">- signUpInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/unfollow:andCallback:">- unfollow:andCallback:</option>
 		
 		<option value="//api/name/updatePassword:newPassword:block:">- updatePassword:newPassword:block:</option>
-		
-		<option value="//api/name/updatePassword:newPassword:withTarget:selector:">- updatePassword:newPassword:withTarget:selector:</option>
 		
 	</optgroup>
 	
@@ -1754,6 +1740,74 @@ the <a href="#//api/name/user">user</a> locally so that calls to userFromCurrent
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/loginWithEmail:password:block:" title="loginWithEmail:password:block:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loginWithEmail:password:block:">+&nbsp;loginWithEmail:password:block:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Login by <a href="#//api/name/email">email</a> and <a href="#//api/name/password">password</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)loginWithEmail:(NSString *)<em>email</em> password:(NSString *)<em>password</em> block:(AVUserResultBlock)<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>email</code></th>
+						<td><p>The <a href="#//api/name/email">email</a> string.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>password</code></th>
+						<td><p>The <a href="#//api/name/password">password</a> string.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>callback.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Login by <a href="#//api/name/email">email</a> and <a href="#//api/name/password">password</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVUser.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/logInWithMobilePhoneNumber:password:error:" title="logInWithMobilePhoneNumber:password:error:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumber:password:error:">+&nbsp;logInWithMobilePhoneNumber:password:error:</a></code>
 </h3>
@@ -3167,6 +3221,115 @@ on how to reset their <a href="#//api/name/password">password</a>.</p>
 			
 		</div>
 	</div>
+</div><div class="section-method">
+	<a name="//api/name/loginAnonymouslyWithCallback:" title="loginAnonymouslyWithCallback:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loginAnonymouslyWithCallback:">+&nbsp;loginAnonymouslyWithCallback:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Login anonymously.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)loginAnonymouslyWithCallback:(void ( ^ ) ( AVUser *_Nullable user , NSError *_Nullable error ))<em>callback</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>callback</code></th>
+						<td><p>Result callback.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Login anonymously.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVUser.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isAnonymous" title="isAnonymous"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isAnonymous">&ndash;&nbsp;isAnonymous</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Check whether the instance of AVUser is anonymous.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isAnonymous</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Result.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Check whether the instance of AVUser is anonymous.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVUser.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
 </div>
 						</div>
 						
@@ -4108,142 +4271,6 @@ if not above platform, use a custom string.</p></td>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/signUpInBackgroundWithTarget:selector:" title="signUpInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/signUpInBackgroundWithTarget:selector:">&ndash;&nbsp;signUpInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Signs up the <a href="#//api/name/user">user</a> asynchronously. Make sure that <a href="#//api/name/password">password</a> and <a href="#//api/name/username">username</a> are set. This will also enforce that the <a href="#//api/name/username">username</a> isn&rsquo;t already taken.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)signUpInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>Target object for the selector.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector that will be called when the asynchrounous request is complete. It should have the following signature: <code>(void)callbackWithResult:(NSNumber *)result error:(NSError **)error</code>. error will be nil on success and set if there was an error. <code>[result boolValue]</code> will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Signs up the <a href="#//api/name/user">user</a> asynchronously. Make sure that <a href="#//api/name/password">password</a> and <a href="#//api/name/username">username</a> are set. This will also enforce that the <a href="#//api/name/username">username</a> isn&rsquo;t already taken.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVUser.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/updatePassword:newPassword:withTarget:selector:" title="updatePassword:newPassword:withTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/updatePassword:newPassword:withTarget:selector:">&ndash;&nbsp;updatePassword:newPassword:withTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>update user&rsquo;s <a href="#//api/name/password">password</a></p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)updatePassword:(NSString *)<em>oldPassword</em> newPassword:(NSString *)<em>newPassword</em> withTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>oldPassword</code></th>
-						<td><p>old <a href="#//api/name/password">password</a></p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>newPassword</code></th>
-						<td><p>new <a href="#//api/name/password">password</a></p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>Target object for the selector.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector that will be called when the asynchrounous request is complete. It should have the following signature: <code>(void)callbackWithResult:(id)object error:(NSError *)error</code>. error will be nil on success and set if there was an error.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>update user&rsquo;s <a href="#//api/name/password">password</a></p><div class="warning"><p><strong>Warning:</strong> the <a href="#//api/name/user">user</a> must have logged in, and provide both oldPassword and newPassword, otherwise can&rsquo;t update <a href="#//api/name/password">password</a> successfully.</p></div>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVUser.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/logInWithUsername:password:" title="logInWithUsername:password:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/logInWithUsername:password:">+&nbsp;logInWithUsername:password:</a></code>
 </h3>
@@ -4383,181 +4410,6 @@ the <a href="#//api/name/user">user</a> locally so that calls to userFromCurrent
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/logInWithUsernameInBackground:password:target:selector:" title="logInWithUsernameInBackground:password:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithUsernameInBackground:password:target:selector:">+&nbsp;logInWithUsernameInBackground:password:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Makes an asynchronous request to login a <a href="#//api/name/user">user</a> with specified credentials.
-Returns an instance of the successfully logged in AVUser. This will also cache
-the <a href="#//api/name/user">user</a> locally so that calls to userFromCurrentUser will use the latest logged in <a href="#//api/name/user">user</a>.
-The selector for the callback should look like: myCallback:(AVUser *)<a href="#//api/name/user">user</a> error:(NSError **)error</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithUsernameInBackground:(NSString *)<em>username</em> password:(NSString *)<em>password</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>username</code></th>
-						<td><p>The <a href="#//api/name/username">username</a> of the <a href="#//api/name/user">user</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>password</code></th>
-						<td><p>The <a href="#//api/name/password">password</a> of the <a href="#//api/name/user">user</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>Target object for the selector.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector that will be called when the asynchrounous request is complete.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Makes an asynchronous request to login a <a href="#//api/name/user">user</a> with specified credentials.
-Returns an instance of the successfully logged in AVUser. This will also cache
-the <a href="#//api/name/user">user</a> locally so that calls to userFromCurrentUser will use the latest logged in <a href="#//api/name/user">user</a>.
-The selector for the callback should look like: myCallback:(AVUser *)<a href="#//api/name/user">user</a> error:(NSError **)error</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVUser.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumber:password:" title="logInWithMobilePhoneNumber:password:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumber:password:">+&nbsp;logInWithMobilePhoneNumber:password:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumberInBackground:password:" title="logInWithMobilePhoneNumberInBackground:password:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumberInBackground:password:">+&nbsp;logInWithMobilePhoneNumberInBackground:password:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithMobilePhoneNumberInBackground:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumberInBackground:password:target:selector:" title="logInWithMobilePhoneNumberInBackground:password:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumberInBackground:password:target:selector:">+&nbsp;logInWithMobilePhoneNumberInBackground:password:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithMobilePhoneNumberInBackground:(NSString *)<em>phoneNumber</em> password:(NSString *)<em>password</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumber:smsCode:" title="logInWithMobilePhoneNumber:smsCode:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumber:smsCode:">+&nbsp;logInWithMobilePhoneNumber:smsCode:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (nullable instancetype)logInWithMobilePhoneNumber:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumberInBackground:smsCode:" title="logInWithMobilePhoneNumberInBackground:smsCode:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumberInBackground:smsCode:">+&nbsp;logInWithMobilePhoneNumberInBackground:smsCode:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithMobilePhoneNumberInBackground:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/logInWithMobilePhoneNumberInBackground:smsCode:target:selector:" title="logInWithMobilePhoneNumberInBackground:smsCode:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithMobilePhoneNumberInBackground:smsCode:target:selector:">+&nbsp;logInWithMobilePhoneNumberInBackground:smsCode:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithMobilePhoneNumberInBackground:(NSString *)<em>phoneNumber</em> smsCode:(NSString *)<em>code</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/requestPasswordResetForEmail:" title="requestPasswordResetForEmail:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/requestPasswordResetForEmail:">+&nbsp;requestPasswordResetForEmail:</a></code>
 </h3>
@@ -4685,78 +4537,6 @@ that address with instructions on how to reset their <a href="#//api/name/passwo
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/requestPasswordResetForEmailInBackground:target:selector:" title="requestPasswordResetForEmailInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/requestPasswordResetForEmailInBackground:target:selector:">+&nbsp;requestPasswordResetForEmailInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Send a <a href="#//api/name/password">password</a> reset request asynchronously for a specified <a href="#//api/name/email">email</a> and sets an error object.
-If a <a href="#//api/name/user">user</a> account exists with that <a href="#//api/name/email">email</a>, an <a href="#//api/name/email">email</a> will be sent to that address with instructions
-on how to reset their <a href="#//api/name/password">password</a>.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)requestPasswordResetForEmailInBackground:(NSString *)<em>email</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>email</code></th>
-						<td><p>Email of the account to send a reset <a href="#//api/name/password">password</a> request.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>Target object for the selector.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector that will be called when the asynchronous request is complete. It should have the following signature: (void)callbackWithResult:(NSNumber *)result error:(NSError **)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Send a <a href="#//api/name/password">password</a> reset request asynchronously for a specified <a href="#//api/name/email">email</a> and sets an error object.
-If a <a href="#//api/name/user">user</a> account exists with that <a href="#//api/name/email">email</a>, an <a href="#//api/name/email">email</a> will be sent to that address with instructions
-on how to reset their <a href="#//api/name/password">password</a>.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVUser.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/isAuthenticated" title="isAuthenticated"></a>
 	<h3 class="method-title"><code><a href="#//api/name/isAuthenticated">&ndash;&nbsp;isAuthenticated</a></code>
 </h3>
@@ -4824,7 +4604,7 @@ a <a href="#//api/name/signUp">signUp</a> or logIn method. An authenticated obje
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

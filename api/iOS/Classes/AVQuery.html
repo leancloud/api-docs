@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -63,8 +63,6 @@
 		<option value="//api/name/includeACL">includeACL</option>
 		
 		<option value="//api/name/limit">limit</option>
-		
-		<option value="//api/name/maxCacheAge">maxCacheAge</option>
 		
 		<option value="//api/name/skip">skip</option>
 		
@@ -126,8 +124,6 @@
 		
 		<option value="//api/name/countObjectsInBackgroundWithBlock:">- countObjectsInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/countObjectsInBackgroundWithTarget:selector:">- countObjectsInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/deleteAllInBackgroundWithBlock:">- deleteAllInBackgroundWithBlock:</option>
 		
 		<option value="//api/name/findObjects">- findObjects</option>
@@ -138,8 +134,6 @@
 		
 		<option value="//api/name/findObjectsInBackgroundWithBlock:">- findObjectsInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/findObjectsInBackgroundWithTarget:selector:">- findObjectsInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/getFirstObject">- getFirstObject</option>
 		
 		<option value="//api/name/getFirstObject:">- getFirstObject:</option>
@@ -148,11 +142,7 @@
 		
 		<option value="//api/name/getFirstObjectInBackgroundWithBlock:">- getFirstObjectInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/getFirstObjectInBackgroundWithTarget:selector:">- getFirstObjectInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/getObjectInBackgroundWithId:block:">- getObjectInBackgroundWithId:block:</option>
-		
-		<option value="//api/name/getObjectInBackgroundWithId:target:selector:">- getObjectInBackgroundWithId:target:selector:</option>
 		
 		<option value="//api/name/getObjectWithId:">- getObjectWithId:</option>
 		
@@ -3633,76 +3623,6 @@ precedence over this key.</p>
 			
 		</div>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/getObjectInBackgroundWithId:target:selector:" title="getObjectInBackgroundWithId:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getObjectInBackgroundWithId:target:selector:">&ndash;&nbsp;getObjectInBackgroundWithId:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Gets a <a href="../Classes/AVObject.html">AVObject</a> asynchronously.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)getObjectInBackgroundWithId:(NSString *)<em>objectId</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>objectId</code></th>
-						<td><p>The id of the object being requested.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target for the callback selector.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector for the callback. It should have the following signature: (void)callbackWithResult:(<a href="../Classes/AVObject.html">AVObject</a> <em>)result error:(NSError </em>)error. result will be nil if error is set and vice versa.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Gets a <a href="../Classes/AVObject.html">AVObject</a> asynchronously.</p>
-
-<p>This mutates the AVQuery</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
 </div>
 						</div>
 						
@@ -4117,69 +4037,6 @@ precedence over this key.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/findObjectsInBackgroundWithTarget:selector:" title="findObjectsInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/findObjectsInBackgroundWithTarget:selector:">&ndash;&nbsp;findObjectsInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Finds objects asynchronously and calls the given callback with the results.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)findObjectsInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call the selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSArray <em>)result error:(NSError </em>)error. result will be nil if error is set and vice versa.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Finds objects asynchronously and calls the given callback with the results.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/deleteAllInBackgroundWithBlock:" title="deleteAllInBackgroundWithBlock:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/deleteAllInBackgroundWithBlock:">&ndash;&nbsp;deleteAllInBackgroundWithBlock:</a></code>
 </h3>
@@ -4471,71 +4328,6 @@ precedence over this key.</p>
 			
 		</div>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/getFirstObjectInBackgroundWithTarget:selector:" title="getFirstObjectInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getFirstObjectInBackgroundWithTarget:selector:">&ndash;&nbsp;getFirstObjectInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Gets an object asynchronously and calls the given callback with the results.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)getFirstObjectInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call the selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(<a href="../Classes/AVObject.html">AVObject</a> <em>)result error:(NSError </em>)error. result will be nil if error is set OR no object was found matching the query. error will be nil if result is set OR if the query succeeded, but found no results.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Gets an object asynchronously and calls the given callback with the results.</p>
-
-<p>This mutates the AVQuery.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
 </div>
 						</div>
 						
@@ -4749,69 +4541,6 @@ precedence over this key.</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Counts objects asynchronously and calls the given block with the counts.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVQuery.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/countObjectsInBackgroundWithTarget:selector:" title="countObjectsInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/countObjectsInBackgroundWithTarget:selector:">&ndash;&nbsp;countObjectsInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>  Counts objects asynchronously and calls the given callback with the count.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)countObjectsInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call the selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>  Counts objects asynchronously and calls the given callback with the count.</p>
 			</div>
 			
 
@@ -5083,22 +4812,6 @@ precedence over this key.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/maxCacheAge" title="maxCacheAge"></a>
-	<h3 class="method-title"><code><a href="#//api/name/maxCacheAge">&nbsp;&nbsp;maxCacheAge</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (readwrite, assign) NSTimeInterval maxCacheAge</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/hasCachedResult" title="hasCachedResult"></a>
 	<h3 class="method-title"><code><a href="#//api/name/hasCachedResult">&ndash;&nbsp;hasCachedResult</a></code>
 </h3>
@@ -5312,7 +5025,7 @@ This should not be set in most cases.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

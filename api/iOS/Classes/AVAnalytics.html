@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -112,11 +112,11 @@
 		
 		<option value="//api/name/setLatitude:longitude:">+ setLatitude:longitude:</option>
 		
-		<option value="//api/name/setLocation:">+ setLocation:</option>
-		
 		<option value="//api/name/setLogEnabled:">+ setLogEnabled:</option>
 		
 		<option value="//api/name/setLogSendInterval:">+ setLogSendInterval:</option>
+		
+		<option value="//api/name/start">+ start</option>
 		
 		<option value="//api/name/trackAppOpenedWithLaunchOptions:">+ trackAppOpenedWithLaunchOptions:</option>
 		
@@ -180,6 +180,52 @@
 
 						<div class="task-list">
 							<div class="section-method">
+	<a name="//api/name/start" title="start"></a>
+	<h3 class="method-title"><code><a href="#//api/name/start">+&nbsp;start</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Start analytics.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)start</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Start analytics.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/setChannel:" title="setChannel:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setChannel:">+&nbsp;setChannel:</a></code>
 </h3>
@@ -1898,7 +1944,7 @@
 				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在[AVAnalytics start]方法之后调用;</p>
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
 			</div>
 			
 		    
@@ -1918,7 +1964,7 @@
 				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在[AVAnalytics start]方法之后调用;</p>
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
 			</div>
 			
 
@@ -1950,7 +1996,7 @@
 				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在[AVAnalytics start]方法之后调用;</p>
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
 			</div>
 			
 		    
@@ -1982,7 +2028,7 @@
 				<p>使用在线参数功能，可以让你动态修改应用中的参数值,
 检查并更新服务器端配置的在线参数,缓存在NSUserDefaults里,
 调用此方法您将自动拥有在线更改SDK端发送策略的功能,您需要先在服务器端设置好在线参数.
-请在[AVAnalytics start]方法之后调用;</p>
+请在<a href="#//api/name/start">[AVAnalytics start]</a>方法之后调用;</p>
 			</div>
 			
 
@@ -2191,64 +2237,6 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/setLocation:" title="setLocation:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setLocation:">+&nbsp;setLocation:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setLocation:(CLLocation *)<em>location</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>location</code></th>
-						<td><p>CLLocation *型的地理信息</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>为了更精确的统计用户地理位置，可以调用此方法传入经纬度信息</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVAnalytics.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/setCustomInfo:" title="setCustomInfo:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setCustomInfo:">+&nbsp;setCustomInfo:</a></code>
 </h3>
@@ -2321,7 +2309,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

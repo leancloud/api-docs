@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -64,8 +64,6 @@
 		
 		<option value="//api/name/getSubscribedChannelsInBackgroundWithBlock:">+ getSubscribedChannelsInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/getSubscribedChannelsInBackgroundWithTarget:selector:">+ getSubscribedChannelsInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/push">+ push</option>
 		
 		<option value="//api/name/sendPushDataToChannel:withData:error:">+ sendPushDataToChannel:withData:error:</option>
@@ -73,8 +71,6 @@
 		<option value="//api/name/sendPushDataToChannelInBackground:withData:">+ sendPushDataToChannelInBackground:withData:</option>
 		
 		<option value="//api/name/sendPushDataToChannelInBackground:withData:block:">+ sendPushDataToChannelInBackground:withData:block:</option>
-		
-		<option value="//api/name/sendPushDataToChannelInBackground:withData:target:selector:">+ sendPushDataToChannelInBackground:withData:target:selector:</option>
 		
 		<option value="//api/name/sendPushDataToQuery:withData:error:">+ sendPushDataToQuery:withData:error:</option>
 		
@@ -88,13 +84,13 @@
 		
 		<option value="//api/name/sendPushMessageToChannelInBackground:withMessage:block:">+ sendPushMessageToChannelInBackground:withMessage:block:</option>
 		
-		<option value="//api/name/sendPushMessageToChannelInBackground:withMessage:target:selector:">+ sendPushMessageToChannelInBackground:withMessage:target:selector:</option>
-		
 		<option value="//api/name/sendPushMessageToQuery:withMessage:error:">+ sendPushMessageToQuery:withMessage:error:</option>
 		
 		<option value="//api/name/sendPushMessageToQueryInBackground:withMessage:">+ sendPushMessageToQueryInBackground:withMessage:</option>
 		
 		<option value="//api/name/sendPushMessageToQueryInBackground:withMessage:block:">+ sendPushMessageToQueryInBackground:withMessage:block:</option>
+		
+		<option value="//api/name/setIgnoreProdParameterEnabled:">+ setIgnoreProdParameterEnabled:</option>
 		
 		<option value="//api/name/setProductionMode:">+ setProductionMode:</option>
 		
@@ -104,15 +100,11 @@
 		
 		<option value="//api/name/subscribeToChannelInBackground:block:">+ subscribeToChannelInBackground:block:</option>
 		
-		<option value="//api/name/subscribeToChannelInBackground:target:selector:">+ subscribeToChannelInBackground:target:selector:</option>
-		
 		<option value="//api/name/unsubscribeFromChannel:error:">+ unsubscribeFromChannel:error:</option>
 		
 		<option value="//api/name/unsubscribeFromChannelInBackground:">+ unsubscribeFromChannelInBackground:</option>
 		
 		<option value="//api/name/unsubscribeFromChannelInBackground:block:">+ unsubscribeFromChannelInBackground:block:</option>
-		
-		<option value="//api/name/unsubscribeFromChannelInBackground:target:selector:">+ unsubscribeFromChannelInBackground:target:selector:</option>
 		
 	</optgroup>
 	
@@ -133,8 +125,6 @@
 		<option value="//api/name/sendPushInBackground">- sendPushInBackground</option>
 		
 		<option value="//api/name/sendPushInBackgroundWithBlock:">- sendPushInBackgroundWithBlock:</option>
-		
-		<option value="//api/name/sendPushInBackgroundWithTarget:selector:">- sendPushInBackgroundWithTarget:selector:</option>
 		
 		<option value="//api/name/setChannel:">- setChannel:</option>
 		
@@ -307,6 +297,64 @@ or Android).</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Set call what production mode&rsquo;s cloud code</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVPush.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setIgnoreProdParameterEnabled:" title="setIgnoreProdParameterEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setIgnoreProdParameterEnabled:">+&nbsp;setIgnoreProdParameterEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Default is false, if set true, AVPush will remove &lsquo;prod&rsquo; Key-Value.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setIgnoreProdParameterEnabled:(BOOL)<em>isIgnoreProd</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isIgnoreProd</code></th>
+						<td><p>trigger.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Default is false, if set true, AVPush will remove &lsquo;prod&rsquo; Key-Value.</p>
 			</div>
 			
 
@@ -1324,80 +1372,6 @@ a letter and contain only letters, numbers, dashes, and underscores.</p></td>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/sendPushMessageToChannelInBackground:withMessage:target:selector:" title="sendPushMessageToChannelInBackground:withMessage:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendPushMessageToChannelInBackground:withMessage:target:selector:">+&nbsp;sendPushMessageToChannelInBackground:withMessage:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously send a <a href="#//api/name/push">push</a> message to a channel.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)sendPushMessageToChannelInBackground:(NSString *)<em>channel</em> withMessage:(NSString *)<em>message</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>channel</code></th>
-						<td><p>The channel to send to. The channel name must start with
-a letter and contain only letters, numbers, dashes, and underscores.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>message</code></th>
-						<td><p>The message to send.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously send a <a href="#//api/name/push">push</a> message to a channel.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/sendPushMessageToQuery:withMessage:error:" title="sendPushMessageToQuery:withMessage:error:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/sendPushMessageToQuery:withMessage:error:">+&nbsp;sendPushMessageToQuery:withMessage:error:</a></code>
 </h3>
@@ -1820,69 +1794,6 @@ created with <a href="../Classes/AVInstallation.html#//api/name/query">[AVInstal
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/sendPushInBackgroundWithTarget:selector:" title="sendPushInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendPushInBackgroundWithTarget:selector:">&ndash;&nbsp;sendPushInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously send this <a href="#//api/name/push">push</a> message and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)sendPushInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously send this <a href="#//api/name/push">push</a> message and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/sendPushDataToChannel:withData:error:" title="sendPushDataToChannel:withData:error:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/sendPushDataToChannel:withData:error:">+&nbsp;sendPushDataToChannel:withData:error:</a></code>
 </h3>
@@ -2073,80 +1984,6 @@ a letter and contain only letters, numbers, dashes, and underscores.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Asynchronously sends a <a href="#//api/name/push">push</a> message with arbitrary data to a channel and calls the given block. See the guide for information about the dictionary structure.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/sendPushDataToChannelInBackground:withData:target:selector:" title="sendPushDataToChannelInBackground:withData:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/sendPushDataToChannelInBackground:withData:target:selector:">+&nbsp;sendPushDataToChannelInBackground:withData:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously send a <a href="#//api/name/push">push</a> message with arbitrary data to a channel. See the guide for information about the dictionary structure.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)sendPushDataToChannelInBackground:(NSString *)<em>channel</em> withData:(NSDictionary *)<em>data</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>channel</code></th>
-						<td><p>The channel to send to. The channel name must start with
-a letter and contain only letters, numbers, dashes, and underscores.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>data</code></th>
-						<td><p>The data to send.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously send a <a href="#//api/name/push">push</a> message with arbitrary data to a channel. See the guide for information about the dictionary structure.</p>
 			</div>
 			
 
@@ -2548,69 +2385,6 @@ created with <a href="../Classes/AVInstallation.html#//api/name/query">[AVInstal
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/getSubscribedChannelsInBackgroundWithTarget:selector:" title="getSubscribedChannelsInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/getSubscribedChannelsInBackgroundWithTarget:selector:">+&nbsp;getSubscribedChannelsInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously get all the channels that this device is subscribed to.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)getSubscribedChannelsInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSSet <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously get all the channels that this device is subscribed to.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/subscribeToChannel:error:" title="subscribeToChannel:error:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/subscribeToChannel:error:">+&nbsp;subscribeToChannel:error:</a></code>
 </h3>
@@ -2786,75 +2560,6 @@ a letter and contain only letters, numbers, dashes, and underscores.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Asynchronously subscribes the device to a channel of <a href="#//api/name/push">push</a> notifications and calls the given block.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/subscribeToChannelInBackground:target:selector:" title="subscribeToChannelInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/subscribeToChannelInBackground:target:selector:">+&nbsp;subscribeToChannelInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously subscribes the device to a channel of <a href="#//api/name/push">push</a> notifications and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)subscribeToChannelInBackground:(NSString *)<em>channel</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>channel</code></th>
-						<td><p>The channel to subscribe to. The channel name must start with
-a letter and contain only letters, numbers, dashes, and underscores.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously subscribes the device to a channel of <a href="#//api/name/push">push</a> notifications and calls the given callback.</p>
 			</div>
 			
 
@@ -3060,74 +2765,6 @@ a letter and contain only letters, numbers, dashes, and underscores.</p></td>
 			
 		</div>
 	</div>
-</div><div class="section-method">
-	<a name="//api/name/unsubscribeFromChannelInBackground:target:selector:" title="unsubscribeFromChannelInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/unsubscribeFromChannelInBackground:target:selector:">+&nbsp;unsubscribeFromChannelInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Asynchronously unsubscribes the device from a channel of <a href="#//api/name/push">push</a> notifications and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)unsubscribeFromChannelInBackground:(NSString *)<em>channel</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>channel</code></th>
-						<td><p>The channel to unsubscribe from.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The object to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Asynchronously unsubscribes the device from a channel of <a href="#//api/name/push">push</a> notifications and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVPush.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
 </div>
 						</div>
 						
@@ -3143,7 +2780,7 @@ a letter and contain only letters, numbers, dashes, and underscores.</p></td>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

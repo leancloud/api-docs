@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -62,8 +62,6 @@
 		
 		<option value="//api/name/createdAt">createdAt</option>
 		
-		<option value="//api/name/fetchWhenSave">fetchWhenSave</option>
-		
 		<option value="//api/name/objectId">objectId</option>
 		
 		<option value="//api/name/updatedAt">updatedAt</option>
@@ -90,11 +88,7 @@
 		
 		<option value="//api/name/fetchAllIfNeededInBackground:block:">+ fetchAllIfNeededInBackground:block:</option>
 		
-		<option value="//api/name/fetchAllIfNeededInBackground:target:selector:">+ fetchAllIfNeededInBackground:target:selector:</option>
-		
 		<option value="//api/name/fetchAllInBackground:block:">+ fetchAllInBackground:block:</option>
-		
-		<option value="//api/name/fetchAllInBackground:target:selector:">+ fetchAllInBackground:target:selector:</option>
 		
 		<option value="//api/name/object">+ object</option>
 		
@@ -108,10 +102,6 @@
 		
 		<option value="//api/name/objectWithObjectId:">+ objectWithObjectId:</option>
 		
-		<option value="//api/name/objectWithoutDataWithClassName:objectId:">+ objectWithoutDataWithClassName:objectId:</option>
-		
-		<option value="//api/name/objectWithoutDataWithObjectId:">+ objectWithoutDataWithObjectId:</option>
-		
 		<option value="//api/name/query">+ query</option>
 		
 		<option value="//api/name/registerSubclass">+ registerSubclass</option>
@@ -123,8 +113,6 @@
 		<option value="//api/name/saveAllInBackground:">+ saveAllInBackground:</option>
 		
 		<option value="//api/name/saveAllInBackground:block:">+ saveAllInBackground:block:</option>
-		
-		<option value="//api/name/saveAllInBackground:target:selector:">+ saveAllInBackground:target:selector:</option>
 		
 		<option value="//api/name/setConvertingNullToNil:">+ setConvertingNullToNil:</option>
 		
@@ -158,8 +146,6 @@
 		
 		<option value="//api/name/deleteInBackgroundWithBlock:">- deleteInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/deleteInBackgroundWithTarget:selector:">- deleteInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/dictionaryForObject">- dictionaryForObject</option>
 		
 		<option value="//api/name/fetch">- fetch</option>
@@ -176,8 +162,6 @@
 		
 		<option value="//api/name/fetchIfNeededInBackgroundWithBlock:">- fetchIfNeededInBackgroundWithBlock:</option>
 		
-		<option value="//api/name/fetchIfNeededInBackgroundWithTarget:selector:">- fetchIfNeededInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/fetchIfNeededWithKeys:">- fetchIfNeededWithKeys:</option>
 		
 		<option value="//api/name/fetchIfNeededWithKeys:error:">- fetchIfNeededWithKeys:error:</option>
@@ -185,8 +169,6 @@
 		<option value="//api/name/fetchInBackgroundWithBlock:">- fetchInBackgroundWithBlock:</option>
 		
 		<option value="//api/name/fetchInBackgroundWithKeys:block:">- fetchInBackgroundWithKeys:block:</option>
-		
-		<option value="//api/name/fetchInBackgroundWithTarget:selector:">- fetchInBackgroundWithTarget:selector:</option>
 		
 		<option value="//api/name/fetchWithKeys:">- fetchWithKeys:</option>
 		
@@ -216,13 +198,9 @@
 		
 		<option value="//api/name/refreshInBackgroundWithKeys:block:">- refreshInBackgroundWithKeys:block:</option>
 		
-		<option value="//api/name/refreshInBackgroundWithTarget:selector:">- refreshInBackgroundWithTarget:selector:</option>
-		
 		<option value="//api/name/refreshWithKeys:">- refreshWithKeys:</option>
 		
 		<option value="//api/name/relationForKey:">- relationForKey:</option>
-		
-		<option value="//api/name/relationforKey:">- relationforKey:</option>
 		
 		<option value="//api/name/removeObject:forKey:">- removeObject:forKey:</option>
 		
@@ -247,10 +225,6 @@
 		<option value="//api/name/saveInBackgroundWithOption:block:">- saveInBackgroundWithOption:block:</option>
 		
 		<option value="//api/name/saveInBackgroundWithOption:eventually:block:">- saveInBackgroundWithOption:eventually:block:</option>
-		
-		<option value="//api/name/saveInBackgroundWithOption:target:selector:">- saveInBackgroundWithOption:target:selector:</option>
-		
-		<option value="//api/name/saveInBackgroundWithTarget:selector:">- saveInBackgroundWithTarget:selector:</option>
 		
 		<option value="//api/name/saveWithOption:error:">- saveWithOption:error:</option>
 		
@@ -2436,137 +2410,6 @@ array associated with a given key.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/saveInBackgroundWithTarget:selector:" title="saveInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithTarget:selector:">&ndash;&nbsp;saveInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Saves the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Saves the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/saveInBackgroundWithOption:target:selector:" title="saveInBackgroundWithOption:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithOption:target:selector:">&ndash;&nbsp;saveInBackgroundWithOption:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Saves the AVObject with option asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithOption:(nullable AVSaveOption *)<em>option</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>option</code></th>
-						<td><p>Option for current <a href="#//api/name/save">save</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Saves the AVObject with option asynchronously and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/saveEventually" title="saveEventually"></a>
 	<h3 class="method-title"><code><a href="#//api/name/saveEventually">&ndash;&nbsp;saveEventually</a></code>
 </h3>
@@ -2931,74 +2774,6 @@ can be saved.</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Saves a collection of objects all at once asynchronously and the block when done.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/saveAllInBackground:target:selector:" title="saveAllInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/saveAllInBackground:target:selector:">+&nbsp;saveAllInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Saves a collection of objects all at once asynchronously and calls a callback when done.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)saveAllInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>objects</code></th>
-						<td><p>The array of objects to <a href="#//api/name/save">save</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithError:(NSError *)error. error will be nil on success and set if there was an error.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Saves a collection of objects all at once asynchronously and calls a callback when done.</p>
 			</div>
 			
 
@@ -3394,69 +3169,6 @@ can be saved.</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Refreshes the AVObject with the current data from the server.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/refreshInBackgroundWithTarget:selector:" title="refreshInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/refreshInBackgroundWithTarget:selector:">&ndash;&nbsp;refreshInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Refreshes the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)refreshInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target on which the selector will be called.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(AVObject <em>)refreshedObject error:(NSError </em>)error. error will be nil on success and set if there was an error. refreshedObject will be the AVObject with the refreshed data.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Refreshes the AVObject asynchronously and calls the given callback.</p>
 			</div>
 			
 
@@ -4151,69 +3863,6 @@ can be saved.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/fetchInBackgroundWithTarget:selector:" title="fetchInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchInBackgroundWithTarget:selector:">&ndash;&nbsp;fetchInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Fetches the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)fetchInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target on which the selector will be called.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(AVObject <em>)refreshedObject error:(NSError </em>)error. error will be nil on success and set if there was an error. refreshedObject will be the AVObject with the refreshed data.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Fetches the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/fetchIfNeededInBackgroundWithBlock:" title="fetchIfNeededInBackgroundWithBlock:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededInBackgroundWithBlock:">&ndash;&nbsp;fetchIfNeededInBackgroundWithBlock:</a></code>
 </h3>
@@ -4255,69 +3904,6 @@ can be saved.</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback block.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/fetchIfNeededInBackgroundWithTarget:selector:" title="fetchIfNeededInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchIfNeededInBackgroundWithTarget:selector:">&ndash;&nbsp;fetchIfNeededInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)fetchIfNeededInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target on which the selector will be called.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call.  It should have the following signature: (void)callbackWithResult:(AVObject <em>)fetchedObject error:(NSError </em>)error. error will be nil on success and set if there was an error.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Fetches the AVObject&rsquo;s data asynchronously if <a href="#//api/name/isDataAvailable">isDataAvailable</a> is false, then calls the callback.</p>
 			</div>
 			
 
@@ -4658,74 +4244,6 @@ can be saved.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/fetchAllInBackground:target:selector:" title="fetchAllInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchAllInBackground:target:selector:">+&nbsp;fetchAllInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)fetchAllInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>objects</code></th>
-						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target on which the selector will be called.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSArray <em>)fetchedObjects error:(NSError </em>)error. error will be nil on success and set if there was an error. fetchedObjects will the array of AVObjects that were fetched.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/fetchAllIfNeededInBackground:block:" title="fetchAllIfNeededInBackground:block:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeededInBackground:block:">+&nbsp;fetchAllIfNeededInBackground:block:</a></code>
 </h3>
@@ -4772,75 +4290,6 @@ can be saved.</p>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given block.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/fetchAllIfNeededInBackground:target:selector:" title="fetchAllIfNeededInBackground:target:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchAllIfNeededInBackground:target:selector:">+&nbsp;fetchAllIfNeededInBackground:target:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)fetchAllIfNeededInBackground:(NSArray *)<em>objects</em> target:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>objects</code></th>
-						<td><p>The list of objects to <a href="#//api/name/fetch">fetch</a>.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The target on which the selector will be called.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSArray <em>)fetchedObjects error:(NSError </em>)error. error will be nil on success and set if there was an error. fetchedObjects will the array of AVObjects
-that were fetched.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Fetches all of the AVObjects with the current data from the server asynchronously and calls the given callback.</p>
 			</div>
 			
 
@@ -5115,69 +4564,6 @@ that were fetched.</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>Deletes the AVObject asynchronously and executes the given callback block.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVObject.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/deleteInBackgroundWithTarget:selector:" title="deleteInBackgroundWithTarget:selector:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deleteInBackgroundWithTarget:selector:">&ndash;&nbsp;deleteInBackgroundWithTarget:selector:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Deletes the AVObject asynchronously and calls the given callback.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)deleteInBackgroundWithTarget:(id)<em>target</em> selector:(SEL)<em>selector</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>target</code></th>
-						<td><p>The <a href="#//api/name/object">object</a> to call selector on.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>selector</code></th>
-						<td><p>The selector to call. It should have the following signature: (void)callbackWithResult:(NSNumber <em>)result error:(NSError </em>)error. error will be nil on success and set if there was an error. [result boolValue] will tell you whether the call succeeded or not.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Deletes the AVObject asynchronously and calls the given callback.</p>
 			</div>
 			
 
@@ -5504,22 +4890,6 @@ connection can be re-established, and the queued requests can go through.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/fetchWhenSave" title="fetchWhenSave"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fetchWhenSave">&nbsp;&nbsp;fetchWhenSave</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) BOOL fetchWhenSave</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/dictionaryForObject" title="dictionaryForObject"></a>
 	<h3 class="method-title"><code><a href="#//api/name/dictionaryForObject">&ndash;&nbsp;dictionaryForObject</a></code>
 </h3>
@@ -5679,62 +5049,6 @@ connection can be re-established, and the queued requests can go through.</p>
 			</div>
 			
 			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
-						<h2 class="task-title">AVDeprecated Methods</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/objectWithoutDataWithObjectId:" title="objectWithoutDataWithObjectId:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithObjectId:(NSString *)<em>objectId</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/objectWithoutDataWithClassName:objectId:" title="objectWithoutDataWithClassName:objectId:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithClassName:objectId:">+&nbsp;objectWithoutDataWithClassName:objectId:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/relationforKey:" title="relationforKey:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/relationforKey:">&ndash;&nbsp;relationforKey:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (AVRelation *)relationforKey:(NSString *)<em>key</em></code></div>
-
-		    
 		</div>
 	</div>
 </div>
@@ -5920,7 +5234,7 @@ A default implementation is provided by AVObject which should always be sufficie
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

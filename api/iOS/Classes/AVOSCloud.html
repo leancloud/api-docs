@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -74,10 +74,6 @@
 		
 		<option value="//api/name/getServerDateWithBlock:">+ getServerDateWithBlock:</option>
 		
-		<option value="//api/name/handleRemoteNotificationsWithDeviceToken:">+ handleRemoteNotificationsWithDeviceToken:</option>
-		
-		<option value="//api/name/handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:">+ handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:</option>
-		
 		<option value="//api/name/handleRemoteNotificationsWithDeviceToken:teamId:">+ handleRemoteNotificationsWithDeviceToken:teamId:</option>
 		
 		<option value="//api/name/handleRemoteNotificationsWithDeviceToken:teamId:constructingInstallationWithBlock:">+ handleRemoteNotificationsWithDeviceToken:teamId:constructingInstallationWithBlock:</option>
@@ -87,10 +83,6 @@
 		<option value="//api/name/networkTimeoutInterval">+ networkTimeoutInterval</option>
 		
 		<option value="//api/name/queryCacheExpiredDays">+ queryCacheExpiredDays</option>
-		
-		<option value="//api/name/registerForRemoteNotification">+ registerForRemoteNotification</option>
-		
-		<option value="//api/name/registerForRemoteNotificationTypes:categories:">+ registerForRemoteNotificationTypes:categories:</option>
 		
 		<option value="//api/name/requestSmsCodeWithPhoneNumber:appName:operation:timeToLive:callback:">+ requestSmsCodeWithPhoneNumber:appName:operation:timeToLive:callback:</option>
 		
@@ -104,6 +96,8 @@
 		
 		<option value="//api/name/setApplicationId:clientKey:">+ setApplicationId:clientKey:</option>
 		
+		<option value="//api/name/setApplicationId:clientKey:serverURLString:">+ setApplicationId:clientKey:serverURLString:</option>
+		
 		<option value="//api/name/setFileCacheExpiredDays:">+ setFileCacheExpiredDays:</option>
 		
 		<option value="//api/name/setLastModifyEnabled:">+ setLastModifyEnabled:</option>
@@ -114,8 +108,6 @@
 		
 		<option value="//api/name/setQueryCacheExpiredDays:">+ setQueryCacheExpiredDays:</option>
 		
-		<option value="//api/name/setSSLPinningEnabled:">+ setSSLPinningEnabled:</option>
-		
 		<option value="//api/name/setServerURLString:forServiceModule:">+ setServerURLString:forServiceModule:</option>
 		
 		<option value="//api/name/setServiceRegion:">+ setServiceRegion:</option>
@@ -125,6 +117,8 @@
 		<option value="//api/name/setTimeZoneForSecondsFromGMT:">+ setTimeZoneForSecondsFromGMT:</option>
 		
 		<option value="//api/name/setVerbosePolicy:">+ setVerbosePolicy:</option>
+		
+		<option value="//api/name/startNetworkStatistics">+ startNetworkStatistics</option>
 		
 		<option value="//api/name/verifySmsCode:mobilePhoneNumber:callback:">+ verifySmsCode:mobilePhoneNumber:callback:</option>
 		
@@ -180,8 +174,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/setSSLPinningEnabled:" title="setSSLPinningEnabled:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setSSLPinningEnabled:">+&nbsp;setSSLPinningEnabled:</a></code>
+	<a name="//api/name/setApplicationId:clientKey:serverURLString:" title="setApplicationId:clientKey:serverURLString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setApplicationId:clientKey:serverURLString:">+&nbsp;setApplicationId:clientKey:serverURLString:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -191,13 +185,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>A switch of SSL Pinning for all LeanCloud&rsquo;s HTTPS Requests.
-Default is False.</p>
+				<p>Setup ID, Key and Server URL of the application.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)setSSLPinningEnabled:(BOOL)<em>enabled</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)setApplicationId:(nonnull NSString *)<em>applicationId</em> clientKey:(nonnull NSString *)<em>clientKey</em> serverURLString:(nonnull NSString *)<em>serverURLString</em></code></div>
 
 		    
 			
@@ -206,8 +199,18 @@ Default is False.</p>
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>enabled</code></th>
-						<td><p>Set whatever you want if you master SSL &amp; SSL Pinning.</p></td>
+						<th scope="row" class="argument-name"><code>applicationId</code></th>
+						<td><p>The applicaiton id for your LeanCloud application.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>clientKey</code></th>
+						<td><p>The client key for your LeanCloud application.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>serverURLString</code></th>
+						<td><p>The server url for your LeanCloud application.</p></td>
 					</tr>
 				
 				</table>
@@ -221,8 +224,7 @@ Default is False.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>A switch of SSL Pinning for all LeanCloud&rsquo;s HTTPS Requests.
-Default is False.</p>
+				<p>Setup ID, Key and Server URL of the application.</p>
 			</div>
 			
 
@@ -240,119 +242,6 @@ Default is False.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/setAllLogsEnabled:" title="setAllLogsEnabled:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setAllLogsEnabled:">+&nbsp;setAllLogsEnabled:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Enable logs of all levels and domains. When define DEBUG macro, it&rsquo;s enabled, otherwise, it&rsquo;s not enabled. This is recommended. But you can set it NO, and call AVLogger&rsquo;s methods to control which domains' log should be output.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setAllLogsEnabled:(BOOL)<em>enabled</em></code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Enable logs of all levels and domains. When define DEBUG macro, it&rsquo;s enabled, otherwise, it&rsquo;s not enabled. This is recommended. But you can set it NO, and call AVLogger&rsquo;s methods to control which domains' log should be output.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/setVerbosePolicy:" title="setVerbosePolicy:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setVerbosePolicy:">+&nbsp;setVerbosePolicy:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>设置SDK信息显示</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setVerbosePolicy:(AVVerbosePolicy)<em>verbosePolicy</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>verbosePolicy</code></th>
-						<td><p>SDK信息显示策略，kAVVerboseShow为显示，
-kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>设置SDK信息显示</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Connecting to LeanCloud" name="task_Connecting to LeanCloud"></a>
-						<h2 class="task-title">Connecting to LeanCloud</h2>
-
-						<div class="task-list">
-							<div class="section-method">
 	<a name="//api/name/setApplicationId:clientKey:" title="setApplicationId:clientKey:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setApplicationId:clientKey:">+&nbsp;setApplicationId:clientKey:</a></code>
 </h3>
@@ -369,7 +258,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)setApplicationId:(NSString *)<em>applicationId</em> clientKey:(NSString *)<em>clientKey</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)setApplicationId:(nonnull NSString *)<em>applicationId</em> clientKey:(nonnull NSString *)<em>clientKey</em></code></div>
 
 		    
 			
@@ -501,6 +390,69 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>get Client Key</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setServerURLString:forServiceModule:" title="setServerURLString:forServiceModule:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setServerURLString:forServiceModule:">+&nbsp;setServerURLString:forServiceModule:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Custom server URL for specific service module.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setServerURLString:(nullable NSString *)<em>URLString</em> forServiceModule:(AVServiceModule)<em>serviceModule</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>URLString</code></th>
+						<td><p>The URL string of service module.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>serviceModule</code></th>
+						<td><p>The service module which you want to customize.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Custom server URL for specific service module.</p>
 			</div>
 			
 
@@ -669,175 +621,6 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/setStorageType:" title="setStorageType:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setStorageType:">+&nbsp;setStorageType:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setStorageType:(AVStorageType)<em>type</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>type</code></th>
-						<td><p>Qiniu, QCloud or AWS S3.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/setServiceRegion:" title="setServiceRegion:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setServiceRegion:">+&nbsp;setServiceRegion:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Use specified region.
-If not specified, AVServiceRegionCN will be used.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setServiceRegion:(AVServiceRegion)<em>region</em></code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Use specified region.
-If not specified, AVServiceRegionCN will be used.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/setServerURLString:forServiceModule:" title="setServerURLString:forServiceModule:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setServerURLString:forServiceModule:">+&nbsp;setServerURLString:forServiceModule:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Custom server URL for specific service module.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setServerURLString:(NSString *)<em>URLString</em> forServiceModule:(AVServiceModule)<em>serviceModule</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>URLString</code></th>
-						<td><p>The URL string of service module.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>serviceModule</code></th>
-						<td><p>The service module which you want to customize.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Custom server URL for specific service module.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/networkTimeoutInterval" title="networkTimeoutInterval"></a>
 	<h3 class="method-title"><code><a href="#//api/name/networkTimeoutInterval">+&nbsp;networkTimeoutInterval</a></code>
 </h3>
@@ -849,7 +632,7 @@ If not specified, AVServiceRegionCN will be used.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Get the timeout interval for network requests. Default is kAVDefaultNetworkTimeoutInterval (10 seconds)</p>
+				<p>Get the timeout interval for network requests. Default is 60 seconds.</p>
 			</div>
 			
 		    
@@ -871,7 +654,7 @@ If not specified, AVServiceRegionCN will be used.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Get the timeout interval for network requests. Default is kAVDefaultNetworkTimeoutInterval (10 seconds)</p>
+				<p>Get the timeout interval for network requests. Default is 60 seconds.</p>
 			</div>
 			
 
@@ -947,6 +730,111 @@ If not specified, AVServiceRegionCN will be used.</p>
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/setAllLogsEnabled:" title="setAllLogsEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAllLogsEnabled:">+&nbsp;setAllLogsEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enable logs of all levels and domains. When define DEBUG macro, it&rsquo;s enabled, otherwise, it&rsquo;s not enabled. This is recommended. But you can set it NO, and call AVLogger&rsquo;s methods to control which domains' log should be output.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setAllLogsEnabled:(BOOL)<em>enabled</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Enable logs of all levels and domains. When define DEBUG macro, it&rsquo;s enabled, otherwise, it&rsquo;s not enabled. This is recommended. But you can set it NO, and call AVLogger&rsquo;s methods to control which domains' log should be output.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setVerbosePolicy:" title="setVerbosePolicy:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setVerbosePolicy:">+&nbsp;setVerbosePolicy:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置SDK信息显示</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setVerbosePolicy:(AVVerbosePolicy)<em>verbosePolicy</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>verbosePolicy</code></th>
+						<td><p>SDK信息显示策略，kAVVerboseShow为显示，
+kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置SDK信息显示</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/setLogLevel:" title="setLogLevel:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setLogLevel:">+&nbsp;setLogLevel:</a></code>
 </h3>
@@ -956,10 +844,52 @@ If not specified, AVServiceRegionCN will be used.</p>
 
 		<div class="method-info-container">
 			
+			
+			<div class="method-subsection brief-description">
+				<p>Set log level.</p>
+			</div>
+			
+		    
 
 			<div class="method-subsection method-declaration"><code>+ (void)setLogLevel:(AVLogLevel)<em>level</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>level</code></th>
+						<td><p>The level of log.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set log level.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -972,10 +902,40 @@ If not specified, AVServiceRegionCN will be used.</p>
 
 		<div class="method-info-container">
 			
+			
+			<div class="method-subsection brief-description">
+				<p>Get log level.</p>
+			</div>
+			
+		    
 
 			<div class="method-subsection method-declaration"><code>+ (AVLogLevel)logLevel</code></div>
 
 		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Get log level.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -1477,176 +1437,6 @@ If not specified, AVServiceRegionCN will be used.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/registerForRemoteNotification" title="registerForRemoteNotification"></a>
-	<h3 class="method-title"><code><a href="#//api/name/registerForRemoteNotification">+&nbsp;registerForRemoteNotification</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Register remote notification with all types (badge, alert, sound) and empty categories.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)registerForRemoteNotification</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Register remote notification with all types (badge, alert, sound) and empty categories.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/registerForRemoteNotificationTypes:categories:" title="registerForRemoteNotificationTypes:categories:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/registerForRemoteNotificationTypes:categories:">+&nbsp;registerForRemoteNotificationTypes:categories:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Register remote notification with types.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)registerForRemoteNotificationTypes:(NSUInteger)<em>types</em> categories:(nullable NSSet *)<em>categories</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>types</code></th>
-						<td><p>Notification types.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>categories</code></th>
-						<td><p>A set of UIUserNotificationCategory objects that define the groups of actions a notification may include.
-NOTE: categories only supported by iOS 8 and later. If application run below iOS 8, categories will be ignored.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Register remote notification with types.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/handleRemoteNotificationsWithDeviceToken:" title="handleRemoteNotificationsWithDeviceToken:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/handleRemoteNotificationsWithDeviceToken:">+&nbsp;handleRemoteNotificationsWithDeviceToken:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Handle device token registered from APNs.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>deviceToken</code></th>
-						<td><p>Device token issued by APNs.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Handle device token registered from APNs.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/handleRemoteNotificationsWithDeviceToken:teamId:" title="handleRemoteNotificationsWithDeviceToken:teamId:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/handleRemoteNotificationsWithDeviceToken:teamId:">+&nbsp;handleRemoteNotificationsWithDeviceToken:teamId:</a></code>
 </h3>
@@ -1658,13 +1448,12 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Handle device token registered from APNs, with a team ID.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
+				<p>Convenient method for setting the device token of APNs and the team ID of Apple Developer Account.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em> teamId:(NSString *_Nullable)<em>teamId</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em> teamId:(NSString *)<em>teamId</em></code></div>
 
 		    
 			
@@ -1674,12 +1463,12 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>deviceToken</code></th>
-						<td><p>Device token issued by APNs.</p></td>
+						<td><p>The device token of APNs.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>teamId</code></th>
-						<td><p>Team ID.</p></td>
+						<td><p>The team ID of Apple Developer Account.</p></td>
 					</tr>
 				
 				</table>
@@ -1693,73 +1482,7 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Handle device token registered from APNs, with a team ID.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:" title="handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:">+&nbsp;handleRemoteNotificationsWithDeviceToken:constructingInstallationWithBlock:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Handle device token registered from APNs.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em> constructingInstallationWithBlock:(void ( ^ _Nullable ) ( AVInstallation *currentInstallation ))<em>block</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>deviceToken</code></th>
-						<td><p>Device token issued by APNs.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>block</code></th>
-						<td><p>Constructing block of <a href="../Classes/AVInstallation.html#//api/name/defaultInstallation">[AVInstallation defaultInstallation]</a>.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Handle device token registered from APNs.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
+				<p>Convenient method for setting the device token of APNs and the team ID of Apple Developer Account.</p>
 			</div>
 			
 
@@ -1788,13 +1511,12 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Handle device token registered from APNs, with a team ID.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
+				<p>Convenient method for setting the device token of APNs and the team ID of Apple Developer Account.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em> teamId:(NSString *_Nullable)<em>teamId</em> constructingInstallationWithBlock:(void ( ^ _Nullable ) ( AVInstallation *))<em>block</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (void)handleRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em> teamId:(NSString *)<em>teamId</em> constructingInstallationWithBlock:(nullable void ( ^ ) ( AVInstallation *))<em>block</em></code></div>
 
 		    
 			
@@ -1804,17 +1526,17 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>deviceToken</code></th>
-						<td><p>Device token issued by APNs.</p></td>
+						<td><p>The device token of APNs.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>teamId</code></th>
-						<td><p>Team ID.</p></td>
+						<td><p>The team ID of Apple Developer Account.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>block</code></th>
-						<td><p>Constructing block of <a href="../Classes/AVInstallation.html#//api/name/defaultInstallation">[AVInstallation defaultInstallation]</a>.</p></td>
+						<td><p>The constructing block before saving.</p></td>
 					</tr>
 				
 				</table>
@@ -1828,8 +1550,7 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Handle device token registered from APNs, with a team ID.
-This method should be called in [UIApplication application:didRegisterForRemoteNotificationsWithDeviceToken:].</p>
+				<p>Convenient method for setting the device token of APNs and the team ID of Apple Developer Account.</p>
 			</div>
 			
 
@@ -1855,6 +1576,158 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 
 						<div class="task-list">
 							<div class="section-method">
+	<a name="//api/name/startNetworkStatistics" title="startNetworkStatistics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startNetworkStatistics">+&nbsp;startNetworkStatistics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Start Network Statistics</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)startNetworkStatistics</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Start Network Statistics</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setStorageType:" title="setStorageType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setStorageType:">+&nbsp;setStorageType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setStorageType:(AVStorageType)<em>type</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>type</code></th>
+						<td><p>Qiniu, QCloud or AWS S3.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setServiceRegion:" title="setServiceRegion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setServiceRegion:">+&nbsp;setServiceRegion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Use specified region.
+If not specified, AVServiceRegionCN will be used.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setServiceRegion:(AVServiceRegion)<em>region</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Use specified region.
+If not specified, AVServiceRegionCN will be used.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/requestSmsCodeWithPhoneNumber:callback:" title="requestSmsCodeWithPhoneNumber:callback:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/requestSmsCodeWithPhoneNumber:callback:">+&nbsp;requestSmsCodeWithPhoneNumber:callback:</a></code>
 </h3>
@@ -2159,7 +2032,7 @@ This method should be called in [UIApplication application:didRegisterForRemoteN
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

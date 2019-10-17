@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -84,6 +84,8 @@
 		
 		<option value="//api/name/defaultInstallation">+ defaultInstallation</option>
 		
+		<option value="//api/name/installation">+ installation</option>
+		
 		<option value="//api/name/query">+ query</option>
 		
 	</optgroup>
@@ -92,9 +94,9 @@
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/setDeviceTokenFromData:">- setDeviceTokenFromData:</option>
-		
 		<option value="//api/name/setDeviceTokenFromData:teamId:">- setDeviceTokenFromData:teamId:</option>
+		
+		<option value="//api/name/setDeviceTokenHexString:teamId:">- setDeviceTokenHexString:teamId:</option>
 		
 	</optgroup>
 	
@@ -130,24 +132,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>A LeanCloud Framework Installation Object that is a local representation of an
-installation persisted to the LeanCloud. This class is a subclass of a
-AVObject, and retains the same functionality of a AVObject, but also extends
-it with installation-specific fields and related immutability and validity
-checks.</p>
-
-<p>A valid AVInstallation can only be instantiated via
-<a href="#//api/name/defaultInstallation">[AVInstallation defaultInstallation]</a> because the required identifier fields
-are readonly. The <a href="#//api/name/timeZone">timeZone</a> and <a href="#//api/name/badge">badge</a> fields are also readonly properties which
-are automatically updated to match the device&rsquo;s time zone and application <a href="#//api/name/badge">badge</a>
-when the AVInstallation is saved, thus these fields might not reflect the
-latest device state if the installation has not recently been saved.</p>
-
-<p>AVInstallation objects which have a valid <a href="#//api/name/deviceToken">deviceToken</a> and are saved to
-the LeanCloud can be used to target push notifications.</p>
-
-<p>This class is currently for iOS only. There is no AVInstallation for LeanCloud
-applications running on OS X, because they cannot receive push notifications.</p>
+						<p>LeanCloud <a href="#//api/name/installation">installation</a> type.</p>
 					</div>
 					
 					
@@ -158,328 +143,11 @@ applications running on OS X, because they cannot receive push notifications.</p
 						<a title="Tasks" name="tasks"></a>
 						
 
-						<a title="Targeting Installations" name="task_Targeting Installations"></a>
-						<h2 class="task-title">Targeting Installations</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/query" title="query"></a>
-	<h3 class="method-title"><code><a href="#//api/name/query">+&nbsp;query</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates a query for AVInstallation objects. The resulting query can only
-be used for targeting a <a href="../Classes/AVPush.html">AVPush</a>. Calling find methods on the resulting query
-will raise an exception.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVQuery *)query</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a query for AVInstallation objects. The resulting query can only
-be used for targeting a <a href="../Classes/AVPush.html">AVPush</a>. Calling find methods on the resulting query
-will raise an exception.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
+						
 						
 
-						<a title="Accessing the Current Installation" name="task_Accessing the Current Installation"></a>
-						<h2 class="task-title">Accessing the Current Installation</h2>
-
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/defaultInstallation" title="defaultInstallation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/defaultInstallation">+&nbsp;defaultInstallation</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Default Singleton Installation.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (AVInstallation *)defaultInstallation</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>Default Singleton Instance.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Default Singleton Installation.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/currentInstallation" title="currentInstallation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/currentInstallation">+&nbsp;currentInstallation</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (AVInstallation *)currentInstallation</code></div>
-
-		    
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Properties" name="task_Properties"></a>
-						<h2 class="task-title">Properties</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/deviceType" title="deviceType"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deviceType">&nbsp;&nbsp;deviceType</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The device type for the AVInstallation.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *deviceType</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The device type for the AVInstallation.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/installationId" title="installationId"></a>
-	<h3 class="method-title"><code><a href="#//api/name/installationId">&nbsp;&nbsp;installationId</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The installationId for the AVInstallation.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *installationId</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The installationId for the AVInstallation.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/deviceToken" title="deviceToken"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deviceToken">&nbsp;&nbsp;deviceToken</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The device token for the AVInstallation.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceToken</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The device token for the AVInstallation.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/deviceProfile" title="deviceProfile"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deviceProfile">&nbsp;&nbsp;deviceProfile</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>The device profile for the AVInstallation.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceProfile</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>The device profile for the AVInstallation.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVInstallation.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/badge" title="badge"></a>
 	<h3 class="method-title"><code><a href="#//api/name/badge">&nbsp;&nbsp;badge</a></code>
 </h3>
@@ -491,7 +159,7 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The badge for the AVInstallation.</p>
+				<p>The badge for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 		    
@@ -508,7 +176,7 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The badge for the AVInstallation.</p>
+				<p>The badge for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 
@@ -537,12 +205,12 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The timeZone for the AVInstallation.</p>
+				<p>The timeZone for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *timeZone</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *timeZone</code></div>
 
 		    
 			
@@ -554,7 +222,7 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The timeZone for the AVInstallation.</p>
+				<p>The timeZone for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 
@@ -572,8 +240,8 @@ will raise an exception.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/channels" title="channels"></a>
-	<h3 class="method-title"><code><a href="#//api/name/channels">&nbsp;&nbsp;channels</a></code>
+	<a name="//api/name/deviceType" title="deviceType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceType">&nbsp;&nbsp;deviceType</a></code>
 </h3>
 
 	<div class="method-info">
@@ -583,12 +251,12 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The channels for the AVInstallation.</p>
+				<p>The device type for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray *channels</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceType</code></div>
 
 		    
 			
@@ -600,7 +268,99 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The channels for the AVInstallation.</p>
+				<p>The device type for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/installationId" title="installationId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/installationId">&nbsp;&nbsp;installationId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The <a href="#//api/name/installation">installation</a> ID for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *installationId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The <a href="#//api/name/installation">installation</a> ID for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceProfile" title="deviceProfile"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceProfile">&nbsp;&nbsp;deviceProfile</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The device profile for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *deviceProfile</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The device profile for the <a href="#//api/name/installation">installation</a>.</p>
 			</div>
 			
 
@@ -629,7 +389,7 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The apns topic for universal push notification.</p>
+				<p>The APNs topic, typically is the bundle ID for the App.</p>
 			</div>
 			
 		    
@@ -646,7 +406,99 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The apns topic for universal push notification.</p>
+				<p>The APNs topic, typically is the bundle ID for the App.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/channels" title="channels"></a>
+	<h3 class="method-title"><code><a href="#//api/name/channels">&nbsp;&nbsp;channels</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The channels for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray *channels</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The channels for the <a href="#//api/name/installation">installation</a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceToken" title="deviceToken"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceToken">&nbsp;&nbsp;deviceToken</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The hex string of the APNs device token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *deviceToken</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The hex string of the APNs device token.</p>
 			</div>
 			
 
@@ -675,12 +527,12 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The apns teamId for universal push notification.</p>
+				<p>The team id of the apple developer account.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *apnsTeamId</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSString *apnsTeamId</code></div>
 
 		    
 			
@@ -692,7 +544,7 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The apns teamId for universal push notification.</p>
+				<p>The team id of the apple developer account.</p>
 			</div>
 			
 
@@ -710,8 +562,8 @@ will raise an exception.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/setDeviceTokenFromData:" title="setDeviceTokenFromData:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setDeviceTokenFromData:">&ndash;&nbsp;setDeviceTokenFromData:</a></code>
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="method-title"><code><a href="#//api/name/query">+&nbsp;query</a></code>
 </h3>
 
 	<div class="method-info">
@@ -721,26 +573,14 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Sets the device token string property from an NSData-encoded token.</p>
+				<p>Query for <a href="#//api/name/installation">installation</a></p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)setDeviceTokenFromData:(NSData *)<em>deviceTokenData</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (AVQuery *)query</code></div>
 
 		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>deviceTokenData</code></th>
-						<td><p>NSData-encoded device token.</p></td>
-					</tr>
-				
-				</table>
-			</div>
 			
 
 			
@@ -750,7 +590,145 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sets the device token string property from an NSData-encoded token.</p>
+				<p>Query for <a href="#//api/name/installation">installation</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/defaultInstallation" title="defaultInstallation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/defaultInstallation">+&nbsp;defaultInstallation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Default <a href="#//api/name/installation">installation</a> instance.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)defaultInstallation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Default <a href="#//api/name/installation">installation</a> instance.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/currentInstallation" title="currentInstallation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentInstallation">+&nbsp;currentInstallation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>For compatibility, same as the <a href="#//api/name/defaultInstallation"><code>defaultInstallation</code></a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)currentInstallation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>For compatibility, same as the <a href="#//api/name/defaultInstallation"><code>defaultInstallation</code></a>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/installation" title="installation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/installation">+&nbsp;installation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create a new installation instance.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)installation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create a new installation instance.</p>
 			</div>
 			
 
@@ -779,12 +757,12 @@ will raise an exception.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Sets the device token string property from an NSData-encoded token, with a team ID.</p>
+				<p>Set device token.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)setDeviceTokenFromData:(NSData *)<em>deviceTokenData</em> teamId:(NSString *_Nullable)<em>teamId</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)setDeviceTokenFromData:(NSData *)<em>deviceTokenData</em> teamId:(NSString *)<em>teamId</em></code></div>
 
 		    
 			
@@ -794,12 +772,12 @@ will raise an exception.</p>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>deviceTokenData</code></th>
-						<td><p>NSData-encoded device token</p></td>
+						<td><p>The device token.</p></td>
 					</tr>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>teamId</code></th>
-						<td><p>Team ID</p></td>
+						<td><p>The team id of the apple developer account.</p></td>
 					</tr>
 				
 				</table>
@@ -813,7 +791,70 @@ will raise an exception.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sets the device token string property from an NSData-encoded token, with a team ID.</p>
+				<p>Set device token.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AVInstallation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDeviceTokenHexString:teamId:" title="setDeviceTokenHexString:teamId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDeviceTokenHexString:teamId:">&ndash;&nbsp;setDeviceTokenHexString:teamId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set hex string of the device token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setDeviceTokenHexString:(NSString *)<em>deviceTokenString</em> teamId:(NSString *)<em>teamId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deviceTokenString</code></th>
+						<td><p>The hex string of the device token.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>teamId</code></th>
+						<td><p>The team id of the apple developer account.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set hex string of the device token.</p>
 			</div>
 			
 
@@ -845,7 +886,7 @@ will raise an exception.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

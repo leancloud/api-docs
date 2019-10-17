@@ -14,11 +14,11 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">LeanCloud Objective-C SDK </a>
+				<a href="../index.html">LeanCloud-Objc-SDK </a>
 			</h1>
 
 			<p id="developer-home">
-				<a href="../index.html">LeanCloud, Inc.</a>
+				<a href="../index.html">LeanCloud</a>
 			</p>
 			
 		</div>
@@ -60,8 +60,6 @@
 		
 		<option value="//api/name/messageQueryCacheEnabled">messageQueryCacheEnabled</option>
 		
-		<option value="//api/name/signatureDataSource">signatureDataSource</option>
-		
 		<option value="//api/name/tag">tag</option>
 		
 		<option value="//api/name/user">user</option>
@@ -71,8 +69,6 @@
 
 	
 	<optgroup label="Class Methods">
-		
-		<option value="//api/name/new">+ new</option>
 		
 		<option value="//api/name/setTimeoutIntervalInSeconds:">+ setTimeoutIntervalInSeconds:</option>
 		
@@ -105,8 +101,6 @@
 		<option value="//api/name/createTemporaryConversationWithClientIds:timeToLive:callback:">- createTemporaryConversationWithClientIds:timeToLive:callback:</option>
 		
 		<option value="//api/name/getConversationsFromMemoryWith:callback:">- getConversationsFromMemoryWith:callback:</option>
-		
-		<option value="//api/name/init">- init</option>
 		
 		<option value="//api/name/initWithClientId:">- initWithClientId:</option>
 		
@@ -334,22 +328,6 @@ Defaults to <code>NO</code>.</p></td>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/signatureDataSource" title="signatureDataSource"></a>
-	<h3 class="method-title"><code><a href="#//api/name/signatureDataSource">&nbsp;&nbsp;signatureDataSource</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, nullable) id&lt;AVIMSignatureDataSource&gt; signatureDataSource</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/clientId" title="clientId"></a>
 	<h3 class="method-title"><code><a href="#//api/name/clientId">&nbsp;&nbsp;clientId</a></code>
 </h3>
@@ -534,38 +512,6 @@ Defaults to <code>NO</code>.</p></td>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/new" title="new"></a>
-	<h3 class="method-title"><code><a href="#//api/name/new">+&nbsp;new</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)new</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/init" title="init"></a>
-	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (instancetype)init</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/initWithClientId:" title="initWithClientId:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/initWithClientId:">&ndash;&nbsp;initWithClientId:</a></code>
 </h3>
@@ -611,7 +557,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64].</p></div>
+				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64], and all characters must be letters, digits, or the underscore.</p></div>
 			</div>
 			
 
@@ -679,7 +625,7 @@ Defaults to <code>NO</code>.</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64], <a href="#//api/name/tag"><code>tag</code></a> should not use @&ldquo;default&rdquo;.</p></div>
+				<p>Initialization method.</p><div class="note"><p><strong>Note:</strong> <a href="#//api/name/clientId"><code>clientId</code></a>&rsquo;s length should in range [1, 64], and all characters must be letters, digits, or the underscore.</p></div><div class="note"><p><strong>Note:</strong> <a href="#//api/name/tag"><code>tag</code></a> should not use @&ldquo;default&rdquo;.</p></div>
 			</div>
 			
 
@@ -1146,7 +1092,7 @@ It is similar to Logout.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Create a <a href="#//api/name/new">new</a> chat room conversation.</p>
+				<p>Create a new chat room conversation.</p>
 			</div>
 			
 		    
@@ -1185,7 +1131,7 @@ It is similar to Logout.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Create a <a href="#//api/name/new">new</a> chat room conversation.</p>
+				<p>Create a new chat room conversation.</p>
 			</div>
 			
 
@@ -1214,7 +1160,7 @@ It is similar to Logout.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Create a <a href="#//api/name/new">new</a> temporary conversation.</p>
+				<p>Create a new temporary conversation.</p>
 			</div>
 			
 		    
@@ -1253,7 +1199,7 @@ It is similar to Logout.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Create a <a href="#//api/name/new">new</a> temporary conversation.</p>
+				<p>Create a new temporary conversation.</p>
 			</div>
 			
 
@@ -1878,8 +1824,8 @@ Thread-safe &amp; Async.</p>
 						</div>
 						
 
-						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
-						<h2 class="task-title">AVDeprecated Methods</h2>
+						<a title="deprecated Methods" name="task_deprecated Methods"></a>
+						<h2 class="task-title">deprecated Methods</h2>
 
 						<div class="task-list">
 							<div class="section-method">
@@ -1957,7 +1903,7 @@ Thread-safe &amp; Async.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 LeanCloud, Inc. All rights reserved. Updated: 2018-06-29</p>
+						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-10-17</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
