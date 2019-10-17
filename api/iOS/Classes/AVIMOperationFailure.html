@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>AVCaptchaRequestOptions Class Reference</title>
+	<title>AVIMOperationFailure Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -54,9 +54,11 @@
 	
 	<optgroup label="Properties">
 		
-		<option value="//api/name/height">height</option>
+		<option value="//api/name/clientIds">clientIds</option>
 		
-		<option value="//api/name/width">width</option>
+		<option value="//api/name/code">code</option>
+		
+		<option value="//api/name/reason">reason</option>
 		
 	</optgroup>
 	
@@ -77,16 +79,16 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">AVCaptchaRequestOptions Class Reference</h1>
+					<h1 class="title">AVIMOperationFailure Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td><a href="../Classes/AVDynamicObject.html">AVDynamicObject</a> : NSObject</td>
+	<td>NSObject</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>AVCaptcha.h</td>
+	<td>AVIMConversation.h</td>
 </tr>
 						</tbody></table></div>
 					
@@ -104,8 +106,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/width" title="width"></a>
-	<h3 class="method-title"><code><a href="#//api/name/width">&nbsp;&nbsp;width</a></code>
+	<a name="//api/name/code" title="code"></a>
+	<h3 class="method-title"><code><a href="#//api/name/code">&nbsp;&nbsp;code</a></code>
 </h3>
 
 	<div class="method-info">
@@ -113,47 +115,15 @@
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Width of captcha image, in pixels.</p>
-			</div>
-			
-		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger width</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger code</code></div>
 
 		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Width of captcha image, in pixels.</p>
-
-<p>Defaults to 85. Minimum is 85, maximum is 200.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVCaptcha.h</code></p>
-			</div>
-			
-			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/height" title="height"></a>
-	<h3 class="method-title"><code><a href="#//api/name/height">&nbsp;&nbsp;height</a></code>
+	<a name="//api/name/reason" title="reason"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reason">&nbsp;&nbsp;reason</a></code>
 </h3>
 
 	<div class="method-info">
@@ -161,42 +131,26 @@
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Height of captcha image, in pixels.</p>
-			</div>
-			
-		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSInteger height</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSString *reason</code></div>
 
 		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clientIds" title="clientIds"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clientIds">&nbsp;&nbsp;clientIds</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
 			
 
-			
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable) NSArray&lt;NSString*&gt; *clientIds</code></div>
 
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Height of captcha image, in pixels.</p>
-
-<p>Defaults to 30. Minimum is 30, maximum is 100.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVCaptcha.h</code></p>
-			</div>
-			
-			
+		    
 		</div>
 	</div>
 </div>

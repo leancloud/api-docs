@@ -112,6 +112,10 @@
 		
 		<option value="//api/name/downloadWithProgress:completionHandler:">- downloadWithProgress:completionHandler:</option>
 		
+		<option value="//api/name/getDataInBackgroundWithBlock:">- getDataInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/getDataInBackgroundWithBlock:progressBlock:">- getDataInBackgroundWithBlock:progressBlock:</option>
+		
 		<option value="//api/name/getThumbnail:width:height:withBlock:">- getThumbnail:width:height:withBlock:</option>
 		
 		<option value="//api/name/getThumbnailURLWithScaleToFit:width:height:">- getThumbnailURLWithScaleToFit:width:height:</option>
@@ -129,6 +133,10 @@
 		<option value="//api/name/pathExtension">- pathExtension</option>
 		
 		<option value="//api/name/persistentCachePath">- persistentCachePath</option>
+		
+		<option value="//api/name/saveInBackgroundWithBlock:">- saveInBackgroundWithBlock:</option>
+		
+		<option value="//api/name/saveInBackgroundWithBlock:progressBlock:">- saveInBackgroundWithBlock:progressBlock:</option>
 		
 		<option value="//api/name/size">- size</option>
 		
@@ -2206,6 +2214,70 @@ if not set, AVFile will use a default Persistent Cache Directory.</p>
 			</div>
 			
 			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithBlock:" title="saveInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>block</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveInBackgroundWithBlock:progressBlock:" title="saveInBackgroundWithBlock:progressBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;saveInBackgroundWithBlock:progressBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)saveInBackgroundWithBlock:(void ( ^ ) ( BOOL succeeded , NSError *_Nullable error ))<em>block</em> progressBlock:(void ( ^ _Nullable ) ( NSInteger number ))<em>progressBlock</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDataInBackgroundWithBlock:" title="getDataInBackgroundWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDataInBackgroundWithBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(void ( ^ ) ( NSData *_Nullable data , NSError *_Nullable error ))<em>block</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDataInBackgroundWithBlock:progressBlock:" title="getDataInBackgroundWithBlock:progressBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDataInBackgroundWithBlock:progressBlock:">&ndash;&nbsp;getDataInBackgroundWithBlock:progressBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)getDataInBackgroundWithBlock:(void ( ^ ) ( NSData *_Nullable data , NSError *_Nullable error ))<em>block</em> progressBlock:(void ( ^ _Nullable ) ( NSInteger number ))<em>progressBlock</em></code></div>
+
+		    
 		</div>
 	</div>
 </div>

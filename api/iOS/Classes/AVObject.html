@@ -62,6 +62,8 @@
 		
 		<option value="//api/name/createdAt">createdAt</option>
 		
+		<option value="//api/name/fetchWhenSave">fetchWhenSave</option>
+		
 		<option value="//api/name/objectId">objectId</option>
 		
 		<option value="//api/name/updatedAt">updatedAt</option>
@@ -101,6 +103,10 @@
 		<option value="//api/name/objectWithDictionary:">+ objectWithDictionary:</option>
 		
 		<option value="//api/name/objectWithObjectId:">+ objectWithObjectId:</option>
+		
+		<option value="//api/name/objectWithoutDataWithClassName:objectId:">+ objectWithoutDataWithClassName:objectId:</option>
+		
+		<option value="//api/name/objectWithoutDataWithObjectId:">+ objectWithoutDataWithObjectId:</option>
 		
 		<option value="//api/name/query">+ query</option>
 		
@@ -201,6 +207,8 @@
 		<option value="//api/name/refreshWithKeys:">- refreshWithKeys:</option>
 		
 		<option value="//api/name/relationForKey:">- relationForKey:</option>
+		
+		<option value="//api/name/relationforKey:">- relationforKey:</option>
 		
 		<option value="//api/name/removeObject:forKey:">- removeObject:forKey:</option>
 		
@@ -4890,6 +4898,22 @@ connection can be re-established, and the queued requests can go through.</p>
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/fetchWhenSave" title="fetchWhenSave"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchWhenSave">&nbsp;&nbsp;fetchWhenSave</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) BOOL fetchWhenSave</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/dictionaryForObject" title="dictionaryForObject"></a>
 	<h3 class="method-title"><code><a href="#//api/name/dictionaryForObject">&ndash;&nbsp;dictionaryForObject</a></code>
 </h3>
@@ -5049,6 +5073,62 @@ connection can be re-established, and the queued requests can go through.</p>
 			</div>
 			
 			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="AVDeprecated Methods" name="task_AVDeprecated Methods"></a>
+						<h2 class="task-title">AVDeprecated Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/objectWithoutDataWithObjectId:" title="objectWithoutDataWithObjectId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithObjectId:">+&nbsp;objectWithoutDataWithObjectId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithObjectId:(NSString *)<em>objectId</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectWithoutDataWithClassName:objectId:" title="objectWithoutDataWithClassName:objectId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectWithoutDataWithClassName:objectId:">+&nbsp;objectWithoutDataWithClassName:objectId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)objectWithoutDataWithClassName:(NSString *)<em>className</em> objectId:(NSString *)<em>objectId</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/relationforKey:" title="relationforKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/relationforKey:">&ndash;&nbsp;relationforKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (AVRelation *)relationforKey:(NSString *)<em>key</em></code></div>
+
+		    
 		</div>
 	</div>
 </div>
