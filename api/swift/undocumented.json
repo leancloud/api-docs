@@ -443,14 +443,14 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Dictionary.swift",
-      "line": 122,
+      "line": 125,
       "symbol": "LCDictionary.subscript(dynamicMember:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Dictionary.swift",
-      "line": 143,
+      "line": 146,
       "symbol": "LCDictionary.removeAll(keepingCapacity:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -509,20 +509,6 @@
       "line": 130,
       "symbol": "LCError",
       "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/File.swift",
-      "line": 55,
-      "symbol": "LCFile.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/File.swift",
-      "line": 59,
-      "symbol": "LCFile.init(application:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -634,20 +620,6 @@
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/GeoPoint.swift",
       "line": 81,
       "symbol": "LCGeoPoint.isEqual(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 47,
-      "symbol": "LCInstallation.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 67,
-      "symbol": "LCInstallation.init(application:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -779,119 +751,56 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 20,
-      "symbol": "LCObject.application",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 28,
-      "symbol": "LCObject.createdAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 29,
-      "symbol": "LCObject.updatedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 82,
-      "symbol": "LCObject.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 91,
-      "symbol": "LCObject.init(application:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 100,
-      "symbol": "LCObject.init(application:objectId:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 108,
-      "symbol": "LCObject.init(application:className:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 116,
-      "symbol": "LCObject.init(application:className:objectId:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 133,
-      "symbol": "LCObject.init(coder:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 149,
-      "symbol": "LCObject.encode(with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 161,
+      "line": 186,
       "symbol": "LCObject.copy(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 165,
+      "line": 190,
       "symbol": "LCObject.isEqual(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 173,
+      "line": 198,
       "symbol": "LCObject.value(forKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 504,
+      "line": 203,
+      "symbol": "LCObject.value(forUndefinedKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
+      "line": 528,
       "symbol": "LCObject.subscript(dynamicMember:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 707,
+      "line": 716,
       "symbol": "LCObject.SaveOption",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 708,
+      "line": 717,
       "symbol": "LCObject.SaveOption.fetchWhenSave",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 709,
+      "line": 718,
       "symbol": "LCObject.SaveOption.query(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
