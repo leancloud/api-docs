@@ -14,7 +14,7 @@
     <a title="LCEngine Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.3.0 Docs</a> (57% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.3.2 Docs</a> (58% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -489,7 +489,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>LeanCloud Cloud Engine Client</p>
 
           </section>
           <section class="section task-group-section">
@@ -508,7 +508,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function synchronously</p>
+                        <p>Call the cloud function synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -516,7 +516,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">run</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCGenericResult.html">LCGenericResult</a></span><span class="o">&lt;</span><span class="kt">Any</span><span class="o">&gt;</span></code></pre>
@@ -535,7 +535,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -547,7 +547,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -559,19 +559,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The result of the function</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L20-L31">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L19-L34">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -579,9 +575,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud8LCEngineC3run11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSSDySSypGSgyAA15LCGenericResultOyypGctFZ"></a>
-                    <a name="//apple_ref/swift/Method/run(application:_:parameters:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud8LCEngineC3run11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSSDySSypGSgyAA15LCGenericResultOyypGctFZ">run(application:_:parameters:completion:)</a>
+                    <a name="/s:9LeanCloud8LCEngineC3run11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSSDySSypGSgSo17OS_dispatch_queueCyAA15LCGenericResultOyypGctFZ"></a>
+                    <a name="//apple_ref/swift/Method/run(application:_:parameters:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud8LCEngineC3run11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSSDySSypGSgSo17OS_dispatch_queueCyAA15LCGenericResultOyypGctFZ">run(application:_:parameters:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -589,7 +585,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function asynchronously</p>
+                        <p>Call the cloud function asynchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -598,9 +594,10 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">run</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCGenericResult.html">LCGenericResult</a></span><span class="o">&lt;</span><span class="kt">Any</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -618,7 +615,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -630,7 +627,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -642,7 +639,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be executed, default is main.</p>
                                 </div>
                               </td>
                             </tr>
@@ -654,19 +663,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The result of the callback</p>
+                                  <p>Result callback.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The Request</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L42-L54">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L44-L61">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -684,7 +689,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function by RPC synchronously</p>
+                        <p>RPC call the cloud function synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -692,7 +697,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="kt"><a href="../Protocols/LCDictionaryConvertible.html">LCDictionaryConvertible</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCValueOptionalResult.html">LCValueOptionalResult</a></span></code></pre>
@@ -711,7 +716,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -723,7 +728,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -735,19 +740,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The result of the function</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L89-L100">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L95-L110">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -755,9 +756,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud8LCEngineC4call11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSAA23LCDictionaryConvertible_pSgyAA21LCValueOptionalResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/call(application:_:parameters:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud8LCEngineC4call11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSAA23LCDictionaryConvertible_pSgyAA21LCValueOptionalResultOctFZ">call(application:_:parameters:completion:)</a>
+                    <a name="/s:9LeanCloud8LCEngineC4call11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSAA23LCDictionaryConvertible_pSgSo17OS_dispatch_queueCyAA21LCValueOptionalResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/call(application:_:parameters:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud8LCEngineC4call11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSAA23LCDictionaryConvertible_pSgSo17OS_dispatch_queueCyAA21LCValueOptionalResultOctFZ">call(application:_:parameters:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -765,7 +766,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function by RPC asynchronously</p>
+                        <p>RPC call the cloud function asynchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -774,9 +775,10 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="kt"><a href="../Protocols/LCDictionaryConvertible.html">LCDictionaryConvertible</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueOptionalResult.html">LCValueOptionalResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -794,7 +796,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -806,7 +808,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -818,7 +820,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be executed, default is main.</p>
                                 </div>
                               </td>
                             </tr>
@@ -830,19 +844,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The result of the callback</p>
+                                  <p>Result callback.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The Request</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L111-L123">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L120-L137">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -860,7 +870,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function by RPC synchronously</p>
+                        <p>RPC call the cloud function synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -868,7 +878,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCValueOptionalResult.html">LCValueOptionalResult</a></span></code></pre>
@@ -887,7 +897,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -899,7 +909,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -911,19 +921,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The result of the function</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L132-L139">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L144-L157">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -931,9 +937,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud8LCEngineC4call11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSAA8LCObjectCyAA21LCValueOptionalResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/call(application:_:parameters:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud8LCEngineC4call11application_10parameters10completionAA9LCRequestCAA13LCApplicationC_SSAA8LCObjectCyAA21LCValueOptionalResultOctFZ">call(application:_:parameters:completion:)</a>
+                    <a name="/s:9LeanCloud8LCEngineC4call11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSAA8LCObjectCSo17OS_dispatch_queueCyAA21LCValueOptionalResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/call(application:_:parameters:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud8LCEngineC4call11application_10parameters15completionQueue0G0AA9LCRequestCAA13LCApplicationC_SSAA8LCObjectCSo17OS_dispatch_queueCyAA21LCValueOptionalResultOctFZ">call(application:_:parameters:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -941,17 +947,19 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>call the cloud function by RPC asynchronously</p>
+                        <p>RPC call the cloud function asynchronously.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">parameters</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueOptionalResult.html">LCValueOptionalResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -969,7 +977,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application.</p>
                                 </div>
                               </td>
                             </tr>
@@ -981,7 +989,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The name of the function in the cloud</p>
+                                  <p>The name of the function in the cloud.</p>
                                 </div>
                               </td>
                             </tr>
@@ -993,7 +1001,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The parameters of the function</p>
+                                  <p>The parameters passing to the function in the cloud.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be executed, default is main.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1005,19 +1025,15 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The result of the callback</p>
+                                  <p>Result callback.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>The Request</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/EngineClient.swift#L149-L157">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/EngineClient.swift#L167-L184">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1027,7 +1043,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-11-23)</p>
+          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-02)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

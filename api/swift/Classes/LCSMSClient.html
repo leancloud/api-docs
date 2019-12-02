@@ -14,7 +14,7 @@
     <a title="LCSMSClient Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.3.0 Docs</a> (57% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.3.2 Docs</a> (58% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -576,7 +576,7 @@
                         <p>The result of short message request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L84-L105">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L84-L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -601,7 +601,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestShortMessage</span><span class="p">(</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestShortMessage</span><span class="p">(</span>
     <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">templateName</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Register_Notice"</span><span class="p">,</span>
@@ -669,7 +670,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L115-L137">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L116-L138">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -764,7 +765,7 @@
                         <p>The result of verification code request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L149-L162">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L150-L163">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -789,7 +790,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVerificationCode</span><span class="p">(</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVerificationCode</span><span class="p">(</span>
     <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">applicationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
@@ -868,7 +870,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L173-L187">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L175-L189">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -924,7 +926,7 @@
                         <p>The result of verification code request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L225-L235">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L227-L237">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -949,7 +951,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVoiceVerificationCode</span><span class="p">(</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVoiceVerificationCode</span><span class="p">(</span>
     <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
@@ -989,7 +992,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L243-L254">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L246-L257">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1058,7 +1061,7 @@
                         <p>The result of verification request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L280-L291">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L283-L294">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1083,7 +1086,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">verifyMobilePhoneNumber</span><span class="p">(</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">verifyMobilePhoneNumber</span><span class="p">(</span>
     <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">verificationCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
@@ -1136,7 +1140,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.0/Sources/Foundation/SMSClient.swift#L300-L312">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L304-L316">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1146,7 +1150,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-11-23)</p>
+          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-02)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -456,13 +456,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/EngineClient.swift",
-      "line": 11,
-      "symbol": "LCEngine",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Error.swift",
       "line": 11,
       "symbol": "LCError",
@@ -513,14 +506,14 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/File.swift",
-      "line": 326,
+      "line": 315,
       "symbol": "LCFile.Thumbnail.scale(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/File.swift",
-      "line": 327,
+      "line": 316,
       "symbol": "LCFile.Thumbnail.size(width:height:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -625,42 +618,42 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 203,
+      "line": 208,
       "symbol": "LCDeviceTokenConvertible",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 205,
+      "line": 210,
       "symbol": "LCDeviceTokenConvertible.lcDeviceToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 211,
+      "line": 215,
       "symbol": "String.lcDeviceToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 219,
+      "line": 222,
       "symbol": "NSString.lcDeviceToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 227,
+      "line": 229,
       "symbol": "Data.lcDeviceToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Installation.swift",
-      "line": 237,
+      "line": 238,
       "symbol": "NSData.lcDeviceToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1542,107 +1535,37 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1059,
-      "symbol": "LCUser.AuthDataPlatform",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1060,
+      "line": 1076,
       "symbol": "LCUser.AuthDataPlatform.qq",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1061,
+      "line": 1077,
       "symbol": "LCUser.AuthDataPlatform.weibo",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1062,
+      "line": 1078,
       "symbol": "LCUser.AuthDataPlatform.weixin",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1063,
+      "line": 1079,
       "symbol": "LCUser.AuthDataPlatform.custom(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1065,
+      "line": 1081,
       "symbol": "LCUser.AuthDataPlatform.key",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1079,
-      "symbol": "LCUser.AuthDataOptions",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1086,
-      "symbol": "LCUser.AuthDataOptions.mainAccount",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1088,
-      "symbol": "LCUser.AuthDataOptions.failOnNotExist",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1091,
-      "symbol": "LCUser.logIn(authData:platform:unionID:unionIDPlatform:options:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1112,
-      "symbol": "LCUser.logIn(authData:platform:unionID:unionIDPlatform:options:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1182,
-      "symbol": "LCUser.associate(authData:platform:unionID:unionIDPlatform:options:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1204,
-      "symbol": "LCUser.associate(authData:platform:unionID:unionIDPlatform:options:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1277,
-      "symbol": "LCUser.disassociate(authData:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1287,
-      "symbol": "LCUser.disassociate(authData:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -2326,7 +2249,7 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/Command.pb.swift",
-      "line": 880,
+      "line": 906,
       "symbol": "IMErrorCommand",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
