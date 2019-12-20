@@ -14,7 +14,7 @@
     <a title="LCPush Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.3.2 Docs</a> (58% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.4.0 Docs</a> (58% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -193,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCFile/Payload.html">– Payload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFile/Options.html">– Options</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCFile/Thumbnail.html">– Thumbnail</a>
@@ -386,6 +389,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/NSString.html">NSString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSURL.html">NSURL</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -623,7 +629,7 @@
                         <p>Result</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/PushClient.swift#L24-L39">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/PushClient.swift#L24-L39">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -631,9 +637,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval10completionAA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAZSdSgyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval10completionAA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAZSdSgyAA15LCBooleanResultOctFZ">send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completion:)</a>
+                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15completionQueue0M0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA_SdSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15completionQueue0M0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA_SdSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -650,13 +656,14 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">send</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span>
     <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">channels</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">pushDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">expirationDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">expirationInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -770,7 +777,7 @@
                         <p>Request</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/PushClient.swift#L54-L70">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/PushClient.swift#L54-L71">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -780,7 +787,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-02)</p>
+          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-20)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

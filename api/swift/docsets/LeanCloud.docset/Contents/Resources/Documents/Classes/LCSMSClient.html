@@ -14,7 +14,7 @@
     <a title="LCSMSClient Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.3.2 Docs</a> (58% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.4.0 Docs</a> (58% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -193,6 +193,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCFile/Payload.html">– Payload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFile/Options.html">– Options</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCFile/Thumbnail.html">– Thumbnail</a>
@@ -388,6 +391,9 @@
                 <a href="../Extensions/NSString.html">NSString</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Extensions/NSURL.html">NSURL</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
               </li>
               <li class="nav-group-task">
@@ -576,7 +582,7 @@
                         <p>The result of short message request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L84-L105">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L84-L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -584,9 +590,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud11LCSMSClientC19requestShortMessage11application17mobilePhoneNumber12templateName09signatureL024captchaVerificationToken9variables10completionAA9LCRequestCAA13LCApplicationC_S4SSgAA23LCDictionaryConvertible_pSgyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/requestShortMessage(application:mobilePhoneNumber:templateName:signatureName:captchaVerificationToken:variables:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC19requestShortMessage11application17mobilePhoneNumber12templateName09signatureL024captchaVerificationToken9variables10completionAA9LCRequestCAA13LCApplicationC_S4SSgAA23LCDictionaryConvertible_pSgyAA15LCBooleanResultOctFZ">requestShortMessage(application:mobilePhoneNumber:templateName:signatureName:captchaVerificationToken:variables:completion:)</a>
+                    <a name="/s:9LeanCloud11LCSMSClientC19requestShortMessage11application17mobilePhoneNumber12templateName09signatureL024captchaVerificationToken9variables15completionQueue0R0AA9LCRequestCAA13LCApplicationC_S4SSgAA23LCDictionaryConvertible_pSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/requestShortMessage(application:mobilePhoneNumber:templateName:signatureName:captchaVerificationToken:variables:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC19requestShortMessage11application17mobilePhoneNumber12templateName09signatureL024captchaVerificationToken9variables15completionQueue0R0AA9LCRequestCAA13LCApplicationC_S4SSgAA23LCDictionaryConvertible_pSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">requestShortMessage(application:mobilePhoneNumber:templateName:signatureName:captchaVerificationToken:variables:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -603,12 +609,13 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestShortMessage</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">templateName</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"Register_Notice"</span><span class="p">,</span>
     <span class="nv">signatureName</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"LeanCloud"</span><span class="p">,</span>
     <span class="nv">captchaVerificationToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">variables</span><span class="p">:</span> <span class="kt"><a href="../Protocols/LCDictionaryConvertible.html">LCDictionaryConvertible</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -670,7 +677,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L116-L138">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L116-L139">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -765,7 +772,7 @@
                         <p>The result of verification code request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L150-L163">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L151-L164">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -773,9 +780,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud11LCSMSClientC23requestVerificationCode11application17mobilePhoneNumber0G4Name9operation10timeToLive10completionAA9LCRequestCAA13LCApplicationC_S2SSgAOSuSgyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/requestVerificationCode(application:mobilePhoneNumber:applicationName:operation:timeToLive:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC23requestVerificationCode11application17mobilePhoneNumber0G4Name9operation10timeToLive10completionAA9LCRequestCAA13LCApplicationC_S2SSgAOSuSgyAA15LCBooleanResultOctFZ">requestVerificationCode(application:mobilePhoneNumber:applicationName:operation:timeToLive:completion:)</a>
+                    <a name="/s:9LeanCloud11LCSMSClientC23requestVerificationCode11application17mobilePhoneNumber0G4Name9operation10timeToLive15completionQueue0P0AA9LCRequestCAA13LCApplicationC_S2SSgAPSuSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/requestVerificationCode(application:mobilePhoneNumber:applicationName:operation:timeToLive:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC23requestVerificationCode11application17mobilePhoneNumber0G4Name9operation10timeToLive15completionQueue0P0AA9LCRequestCAA13LCApplicationC_S2SSgAPSuSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">requestVerificationCode(application:mobilePhoneNumber:applicationName:operation:timeToLive:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -792,11 +799,12 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVerificationCode</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">applicationName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">operation</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">timeToLive</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -870,7 +878,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L175-L189">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L176-L191">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -926,7 +934,7 @@
                         <p>The result of verification code request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L227-L237">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L225-L235">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -934,9 +942,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud11LCSMSClientC28requestVoiceVerificationCode11application17mobilePhoneNumber10completionAA9LCRequestCAA13LCApplicationC_SSyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/requestVoiceVerificationCode(application:mobilePhoneNumber:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC28requestVoiceVerificationCode11application17mobilePhoneNumber10completionAA9LCRequestCAA13LCApplicationC_SSyAA15LCBooleanResultOctFZ">requestVoiceVerificationCode(application:mobilePhoneNumber:completion:)</a>
+                    <a name="/s:9LeanCloud11LCSMSClientC28requestVoiceVerificationCode11application17mobilePhoneNumber15completionQueue0L0AA9LCRequestCAA13LCApplicationC_SSSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/requestVoiceVerificationCode(application:mobilePhoneNumber:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC28requestVoiceVerificationCode11application17mobilePhoneNumber15completionQueue0L0AA9LCRequestCAA13LCApplicationC_SSSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">requestVoiceVerificationCode(application:mobilePhoneNumber:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -953,8 +961,9 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">requestVoiceVerificationCode</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -992,7 +1001,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L246-L257">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L244-L256">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1061,7 +1070,7 @@
                         <p>The result of verification request.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L283-L294">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L278-L289">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1069,9 +1078,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud11LCSMSClientC23verifyMobilePhoneNumber11application_16verificationCode10completionAA9LCRequestCAA13LCApplicationC_S2SyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/verifyMobilePhoneNumber(application:_:verificationCode:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC23verifyMobilePhoneNumber11application_16verificationCode10completionAA9LCRequestCAA13LCApplicationC_S2SyAA15LCBooleanResultOctFZ">verifyMobilePhoneNumber(application:_:verificationCode:completion:)</a>
+                    <a name="/s:9LeanCloud11LCSMSClientC23verifyMobilePhoneNumber11application_16verificationCode15completionQueue0K0AA9LCRequestCAA13LCApplicationC_S2SSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/verifyMobilePhoneNumber(application:_:verificationCode:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud11LCSMSClientC23verifyMobilePhoneNumber11application_16verificationCode15completionQueue0K0AA9LCRequestCAA13LCApplicationC_S2SSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">verifyMobilePhoneNumber(application:_:verificationCode:completionQueue:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1088,9 +1097,10 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">verifyMobilePhoneNumber</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="n">_</span> <span class="nv">mobilePhoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
     <span class="nv">verificationCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
@@ -1140,7 +1150,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.3.2/Sources/Foundation/SMSClient.swift#L304-L316">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/Foundation/SMSClient.swift#L299-L312">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1150,7 +1160,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-02)</p>
+          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-20)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
