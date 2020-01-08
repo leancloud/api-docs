@@ -14,7 +14,7 @@
     <a title="Extensions  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">LeanCloud 17.4.0 Docs</a> (58% documented)</p>
+        <p><a href="index.html">LeanCloud 17.4.2 Docs</a> (59% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -328,39 +328,6 @@
                 <a href="Extensions/Float.html">Float</a>
               </li>
               <li class="nav-group-task">
-                <a href="Extensions/IMBlacklistCommand.html">IMBlacklistCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMConvCommand.html">IMConvCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMDataCommand.html">IMDataCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMErrorCommand.html">IMErrorCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMGenericCommand.html">IMGenericCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMJsonObjectMessage.html">IMJsonObjectMessage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMPubsubCommand.html">IMPubsubCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMReadCommand.html">IMReadCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMReadTuple.html">IMReadTuple</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMUnreadCommand.html">IMUnreadCommand</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/IMUnreadTuple.html">IMUnreadTuple</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Extensions/Int.html">Int</a>
               </li>
               <li class="nav-group-task">
@@ -479,6 +446,12 @@
                 <a href="Structs/LCError.html">LCError</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/LCError/InternalErrorCode.html">– InternalErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/LCError/ServerErrorCode.html">– ServerErrorCode</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/Version.html">Version</a>
               </li>
             </ul>
@@ -497,9 +470,11 @@
               <div class="task-name-container">
                 <a name="/Device%20Token%20Convertible"></a>
                 <a name="//apple_ref/swift/Section/Device Token Convertible" class="dashAnchor"></a>
-                <a href="#/Device%20Token%20Convertible">
-                  <h3 class="section-name">Device Token Convertible</h3>
-                </a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Device%20Token%20Convertible"></a>
+                  <h3 class="section-name"><p>Device Token Convertible</p>
+</h3>
+                </div>
               </div>
               <ul>
                 <li class="item">
@@ -523,6 +498,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">String</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDeviceTokenConvertible.html">LCDeviceTokenConvertible</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">String</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCStringConvertible.html">LCStringConvertible</a></span></code></pre>
 
                         </div>
                       </div>
@@ -550,6 +526,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSString</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDeviceTokenConvertible.html">LCDeviceTokenConvertible</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSString</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCStringConvertible.html">LCStringConvertible</a></span></code></pre>
 
                         </div>
                       </div>
@@ -577,6 +554,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Data</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDeviceTokenConvertible.html">LCDeviceTokenConvertible</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Data</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDataConvertible.html">LCDataConvertible</a></span></code></pre>
 
                         </div>
                       </div>
@@ -604,16 +582,13 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSData</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDeviceTokenConvertible.html">LCDeviceTokenConvertible</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSData</span><span class="p">:</span> <span class="kt"><a href="Protocols/LCDataConvertible.html">LCDataConvertible</a></span></code></pre>
 
                         </div>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -1183,363 +1158,11 @@
                 </li>
               </ul>
             </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Code%20below%20here%20is%20support%20for%20the%20SwiftProtobuf%20runtime."></a>
-                <a name="//apple_ref/swift/Section/Code below here is support for the SwiftProtobuf runtime." class="dashAnchor"></a>
-                <a href="#/Code%20below%20here%20is%20support%20for%20the%20SwiftProtobuf%20runtime.">
-                  <h3 class="section-name">Code below here is support for the SwiftProtobuf runtime.</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud19IMJsonObjectMessageV"></a>
-                    <a name="//apple_ref/swift/Extension/IMJsonObjectMessage" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud19IMJsonObjectMessageV">IMJsonObjectMessage</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMJsonObjectMessage.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMJsonObjectMessage</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L2760-L2792">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud13IMUnreadTupleV"></a>
-                    <a name="//apple_ref/swift/Extension/IMUnreadTuple" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud13IMUnreadTupleV">IMUnreadTuple</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMUnreadTuple.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMUnreadTuple</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L2794-L2881">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud13IMDataCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMDataCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud13IMDataCommandV">IMDataCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMDataCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMDataCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L3013-L3057">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud14IMErrorCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMErrorCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud14IMErrorCommandV">IMErrorCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMErrorCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMErrorCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L3264-L3327">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud15IMUnreadCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMUnreadCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud15IMUnreadCommandV">IMUnreadCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMUnreadCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMUnreadCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L3637-L3675">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud13IMConvCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMConvCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud13IMConvCommandV">IMConvCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMConvCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMConvCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L3677-L4027">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud11IMReadTupleV"></a>
-                    <a name="//apple_ref/swift/Extension/IMReadTuple" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud11IMReadTupleV">IMReadTuple</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMReadTuple.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMReadTuple</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L4261-L4305">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud13IMReadCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMReadCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud13IMReadCommandV">IMReadCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMReadCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMReadCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L4348-L4392">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud15IMPubsubCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMPubsubCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud15IMPubsubCommandV">IMPubsubCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMPubsubCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMPubsubCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L4606-L4720">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud18IMBlacklistCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMBlacklistCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud18IMBlacklistCommandV">IMBlacklistCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMBlacklistCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMBlacklistCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L4722-L4826">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud16IMGenericCommandV"></a>
-                    <a name="//apple_ref/swift/Extension/IMGenericCommand" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud16IMGenericCommandV">IMGenericCommand</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Extensions/IMGenericCommand.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">IMGenericCommand</span><span class="p">:</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="kt">Message</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_MessageImplementationBase</span><span class="p">,</span> <span class="kt">SwiftProtobuf</span><span class="o">.</span><span class="n">_ProtoNameProviding</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.0/Sources/RTM/Command.pb.swift#L4828-L5108">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2019-12-20)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-01-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
