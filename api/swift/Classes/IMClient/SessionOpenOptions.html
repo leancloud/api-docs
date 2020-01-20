@@ -14,7 +14,7 @@
     <a title="SessionOpenOptions Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">LeanCloud 17.4.2 Docs</a> (59% documented)</p>
+        <p><a href="../../index.html">LeanCloud 17.4.3 Docs</a> (59% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -498,7 +498,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.2/Sources/RTM/IMClient.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.3/Sources/RTM/IMClient.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -527,7 +527,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.2/Sources/RTM/IMClient.swift#L436-L438">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.3/Sources/RTM/IMClient.swift#L435-L437">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -545,7 +545,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Default options is <code><a href="../../Classes/IMClient/SessionOpenOptions.html#/s:9LeanCloud8IMClientC18SessionOpenOptionsV6forcedAEvpZ">forced</a></code>.</p>
+                        <p>Default is <code>[.forced]</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -557,7 +557,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.2/Sources/RTM/IMClient.swift#L441">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.3/Sources/RTM/IMClient.swift#L440">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -575,7 +575,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>For two sessions of the same client (Application, ID and Tag are same), the later one will force to make the previous one offline. After later one opened success, the previous one will get session closed error (code: 4111).</p>
+                        <p>For two sessions of the same client (have valid tag and application-id, client-id, client-tag are same), the later one will force to make the previous one offline. After later one opened success, the previous one will get session-closed-error(code: 4111).</p>
 
                       </div>
                       <div class="declaration">
@@ -587,7 +587,37 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.2/Sources/RTM/IMClient.swift#L444">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.3/Sources/RTM/IMClient.swift#L443">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud8IMClientC18SessionOpenOptionsV9reconnectAEvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/reconnect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud8IMClientC18SessionOpenOptionsV9reconnectAEvpZ">reconnect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Session open with this option means this opening is reconnect. if the session has been offline by other client, then open result is session-closed-error(code: 4111).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">reconnect</span><span class="p">:</span> <span class="kt"><a href="../../Classes/IMClient.html">IMClient</a></span><span class="o">.</span><span class="kt">SessionOpenOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.4.3/Sources/RTM/IMClient.swift#L446">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -597,7 +627,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-01-08)</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-01-20)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
