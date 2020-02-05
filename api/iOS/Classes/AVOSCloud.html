@@ -1238,7 +1238,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>获取服务端时间。</p>
+				<p>Get current server date synchronously.</p>
 			</div>
 			
 		    
@@ -1246,6 +1246,18 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			<div class="method-subsection method-declaration"><code>+ (nullable NSDate *)getServerDate:(NSError **)<em>error</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to <code>NSError *</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -1255,7 +1267,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>获取服务端时间。</p>
+				<p>Get current server date synchronously.</p>
 			</div>
 			
 
@@ -1284,8 +1296,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>An alias of <a href="#//api/name/getServerDate:"><code>[AVOSCloud getServerDate:]</code></a> methods that supports Swift exception.
-@seealso <code>[AVPush getServerDate:]</code></p>
+				<p>Get current server date synchronously.</p>
 			</div>
 			
 		    
@@ -1294,60 +1305,13 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 
 		    
 			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>An alias of <a href="#//api/name/getServerDate:"><code>[AVOSCloud getServerDate:]</code></a> methods that supports Swift exception.
-@seealso <code>[AVPush getServerDate:]</code></p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/setTimeZoneForSecondsFromGMT:" title="setTimeZoneForSecondsFromGMT:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/setTimeZoneForSecondsFromGMT:">+&nbsp;setTimeZoneForSecondsFromGMT:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Set a time zone offset from Greenwich Mean Time by a given number of seconds.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)setTimeZoneForSecondsFromGMT:(NSInteger)<em>seconds</em></code></div>
-
-		    
-			
 			<div class="method-subsection arguments-section parameters">
 				<h4 class="method-subtitle parameter-title">Parameters</h4>
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>seconds</code></th>
-						<td><p>Default is 0.</p></td>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Pointer to <code>NSError *</code>.</p></td>
 					</tr>
 				
 				</table>
@@ -1361,7 +1325,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Set a time zone offset from Greenwich Mean Time by a given number of seconds.</p>
+				<p>Get current server date synchronously.</p>
 			</div>
 			
 
@@ -1390,7 +1354,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>异步地获取服务端时间。</p>
+				<p>Get current server date asynchronously.</p>
 			</div>
 			
 		    
@@ -1405,7 +1369,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 				
 					<tr>
 						<th scope="row" class="argument-name"><code>block</code></th>
-						<td><p>回调结果。</p></td>
+						<td><p>Result callback.</p></td>
 					</tr>
 				
 				</table>
@@ -1419,7 +1383,7 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>异步地获取服务端时间。</p>
+				<p>Get current server date asynchronously.</p>
 			</div>
 			
 
@@ -1585,40 +1549,10 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Start Network Statistics</p>
-			</div>
-			
-		    
 
 			<div class="method-subsection method-declaration"><code>+ (void)startNetworkStatistics</code></div>
 
 		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Start Network Statistics</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -1631,52 +1565,10 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
-			</div>
-			
-		    
 
 			<div class="method-subsection method-declaration"><code>+ (void)setStorageType:(AVStorageType)<em>type</em></code></div>
 
 		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>type</code></th>
-						<td><p>Qiniu, QCloud or AWS S3.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Set third party file storage service. If uses China server, you can use QCloud or Qiniu, the default is Qiniu, if uses US server, the default is AWS S3.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
 		</div>
 	</div>
 </div><div class="section-method">
@@ -1689,42 +1581,26 @@ kAVVerboseNone为不显示，kAVVerboseAuto在DEBUG时显示</p></td>
 
 		<div class="method-info-container">
 			
-			
-			<div class="method-subsection brief-description">
-				<p>Use specified region.
-If not specified, AVServiceRegionCN will be used.</p>
-			</div>
-			
-		    
 
 			<div class="method-subsection method-declaration"><code>+ (void)setServiceRegion:(AVServiceRegion)<em>region</em></code></div>
 
 		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setTimeZoneForSecondsFromGMT:" title="setTimeZoneForSecondsFromGMT:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setTimeZoneForSecondsFromGMT:">+&nbsp;setTimeZoneForSecondsFromGMT:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
 			
 
-			
+			<div class="method-subsection method-declaration"><code>+ (void)setTimeZoneForSecondsFromGMT:(NSInteger)<em>seconds</em></code></div>
 
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Use specified region.
-If not specified, AVServiceRegionCN will be used.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVOSCloud.h</code></p>
-			</div>
-			
-			
+		    
 		</div>
 	</div>
 </div><div class="section-method">
@@ -2032,7 +1908,7 @@ If not specified, AVServiceRegionCN will be used.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2019 LeanCloud. All rights reserved. Updated: 2019-11-27</p>
+						<p class="copyright">Copyright &copy; 2020 LeanCloud. All rights reserved. Updated: 2020-02-05</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
