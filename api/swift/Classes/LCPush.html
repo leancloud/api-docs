@@ -14,7 +14,7 @@
     <a title="LCPush Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.5.0 Docs</a> (61% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -468,7 +468,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>LeanCloud Push Client</p>
 
           </section>
           <section class="section task-group-section">
@@ -477,9 +477,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8IntervalAA15LCBooleanResultOAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAYSdSgtFZ"></a>
-                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8IntervalAA15LCBooleanResultOAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAYSdSgtFZ">send(application:data:query:channels:pushDate:expirationDate:expirationInterval:)</a>
+                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15extraParametersAA15LCBooleanResultOAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAZSdSgAQSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:extraParameters:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15extraParametersAA15LCBooleanResultOAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgAZSdSgAQSgtFZ">send(application:<wbr>data:<wbr>query:<wbr>channels:<wbr>pushDate:<wbr>expirationDate:<wbr>expirationInterval:<wbr>extraParameters:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -487,7 +487,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>send push notification synchronously</p>
+                        <p>Send push notification synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -495,13 +495,14 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">send</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span>
     <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">channels</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">pushDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">expirationDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
-    <span class="nv">expirationInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="nv">expirationInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">extraParameters</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span></code></pre>
 
                         </div>
@@ -518,7 +519,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application, default is <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC7defaultACvpZ">LCApplication.default</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -530,7 +531,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The data of the push message</p>
+                                  <p>The body data of the push message.</p>
                                 </div>
                               </td>
                             </tr>
@@ -542,7 +543,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The query condition, if this parameter be set, then <code>channels</code> will be ignored</p>
+                                  <p>The query condition, if this parameter be set, then <code>channels</code> will be ignored.</p>
                                 </div>
                               </td>
                             </tr>
@@ -554,7 +555,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The channels condition, if <code>query</code> be set, then this parameter will be ignored</p>
+                                  <p>The channels condition, if <code>query</code> be set, then this parameter will be ignored.</p>
                                 </div>
                               </td>
                             </tr>
@@ -566,7 +567,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The date of sending</p>
+                                  <p>The date when to send.</p>
                                 </div>
                               </td>
                             </tr>
@@ -578,7 +579,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The date of expiration</p>
+                                  <p>The expiration date of this push notification.</p>
                                 </div>
                               </td>
                             </tr>
@@ -590,7 +591,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>If time interval since sending date is greater then this parameter, then the push expired</p>
+                                  <p>The expiration interval from <code>pushDate</code> of this push notification.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>extraParameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The extra parameters, for some specific configuration.</p>
                                 </div>
                               </td>
                             </tr>
@@ -599,10 +612,10 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Result</p>
+                        <p>Boolean result, see <code><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></code>.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.0/Sources/Foundation/PushClient.swift#L24-L39">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/PushClient.swift#L25-L50">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -610,9 +623,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15completionQueue0M0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA_SdSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
-                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completionQueue:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15completionQueue0M0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA_SdSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">send(application:data:query:channels:pushDate:expirationDate:expirationInterval:completionQueue:completion:)</a>
+                    <a name="/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15extraParameters15completionQueue0O0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA0_SdSgASSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ"></a>
+                    <a name="//apple_ref/swift/Method/send(application:data:query:channels:pushDate:expirationDate:expirationInterval:extraParameters:completionQueue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud6LCPushC4send11application4data5query8channels8pushDate010expirationJ00K8Interval15extraParameters15completionQueue0O0AA9LCRequestCAA13LCApplicationC_SDySSypGAA7LCQueryCSgSaySSGSg10Foundation0J0VSgA0_SdSgASSgSo17OS_dispatch_queueCyAA15LCBooleanResultOctFZ">send(application:<wbr>data:<wbr>query:<wbr>channels:<wbr>pushDate:<wbr>expirationDate:<wbr>expirationInterval:<wbr>extraParameters:<wbr>completionQueue:<wbr>completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -620,7 +633,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>send push notification asynchronously</p>
+                        <p>Send push notification asynchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -636,6 +649,7 @@
     <span class="nv">pushDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">expirationDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">expirationInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">extraParameters</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCBooleanResult.html">LCBooleanResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
     <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
@@ -654,7 +668,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The application</p>
+                                  <p>The application, default is <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC7defaultACvpZ">LCApplication.default</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -666,7 +680,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The data of the push message</p>
+                                  <p>The body data of the push message.</p>
                                 </div>
                               </td>
                             </tr>
@@ -678,7 +692,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The query condition, if this parameter be set, then <code>channels</code> will be ignored</p>
+                                  <p>The query condition, if this parameter be set, then <code>channels</code> will be ignored.</p>
                                 </div>
                               </td>
                             </tr>
@@ -690,7 +704,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The channels condition, if <code>query</code> be set, then this parameter will be ignored</p>
+                                  <p>The channels condition, if <code>query</code> be set, then this parameter will be ignored.</p>
                                 </div>
                               </td>
                             </tr>
@@ -702,7 +716,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The date of sending</p>
+                                  <p>The date when to send.</p>
                                 </div>
                               </td>
                             </tr>
@@ -714,7 +728,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The date of expiration</p>
+                                  <p>The expiration date of this push notification.</p>
                                 </div>
                               </td>
                             </tr>
@@ -726,7 +740,31 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>If time interval since sending date is greater then this parameter, then the push expired</p>
+                                  <p>The expiration interval from <code>pushDate</code> of this push notification.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>extraParameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The extra parameters, for some specific configuration.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where <code>completion</code> be called.</p>
                                 </div>
                               </td>
                             </tr>
@@ -738,7 +776,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The callback of the result</p>
+                                  <p>The result callback.</p>
                                 </div>
                               </td>
                             </tr>
@@ -747,10 +785,10 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Request</p>
+                        <p>The request, see <code><a href="../Classes/LCRequest.html">LCRequest</a></code>.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.0/Sources/Foundation/PushClient.swift#L54-L71">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/PushClient.swift#L66-L93">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -760,8 +798,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-02-21)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
