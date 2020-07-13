@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>AVAnonymousUtils Class Reference</title>
+	<title></title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+	
 </head>
 <body class="appledoc">
 	<header>
@@ -43,29 +43,9 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	<option value="overview">Overview</option>
-	
 
 	
-	
-	<option value="tasks">Tasks</option>
-	
-	
 
-	
-	
-
-	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/isLinkedWithUser:">+ isLinkedWithUser:</option>
-		
-		<option value="//api/name/logInWithBlock:">+ logInWithBlock:</option>
-		
-	</optgroup>
-	
-
-	
 	
 </select>
 						</label>
@@ -79,205 +59,22 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">AVAnonymousUtils Class Reference</h1>
+					<h1 class="title"></h1>
 
-					
-					<div class="section section-specification"><table cellspacing="0"><tbody>
-						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
-</tr><tr>
-	<th>Declared in</th>
-	<td>AVAnonymousUtils.h</td>
-</tr>
-						</tbody></table></div>
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Provides utility functions for working with Anonymously logged-in users.  Anonymous users have some unique characteristics:</p>
 
-<ul>
-   <li>Anonymous users don't need a user name or password.</li>
-   <li>Once logged out, an anonymous user cannot be recovered.</li>
-   <li>When the current user is anonymous, the following methods can be used to switch to a different user or convert the
-     anonymous user into a regular one:
-     <ul>
-       <li>signUp converts an anonymous user to a standard user with the given username and password.
-           Data associated with the anonymous user is retained.</li>
-       <li>logIn switches users without converting the anonymous user.  Data associated with the anonymous user will be lost.</li>
-       <li>Service logIn (e.g. Facebook, Twitter) will attempt to convert the anonymous user into a standard user by linking it to the service.
-           If a user already exists that is linked to the service, it will instead switch to the existing user.</li>
-       <li>Service linking (e.g. Facebook, Twitter) will convert the anonymous user into a standard user by linking it to the service.</li>
-     </ul>
-</ul>
-
-					</div>
-					
-					
-
-					
-					
-					<div class="section section-tasks">
-						<a title="Tasks" name="tasks"></a>
-						
-
-						<a title="Creating an Anonymous User" name="task_Creating an Anonymous User"></a>
-						<h2 class="task-title">Creating an Anonymous User</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/logInWithBlock:" title="logInWithBlock:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/logInWithBlock:">+&nbsp;logInWithBlock:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates an anonymous user.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (void)logInWithBlock:(AVUserResultBlock)<em>block</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>block</code></th>
-						<td><p>The block to execute when anonymous user creation is complete. The block should have the following argument signature:
-(<a href="../Classes/AVUser.html">AVUser</a> <em>user, NSError </em>error)</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates an anonymous user.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVAnonymousUtils.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Determining Whether a AVUser is Anonymous" name="task_Determining Whether a AVUser is Anonymous"></a>
-						<h2 class="task-title">Determining Whether a AVUser is Anonymous</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/isLinkedWithUser:" title="isLinkedWithUser:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isLinkedWithUser:">+&nbsp;isLinkedWithUser:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Whether the user is logged in anonymously.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (BOOL)isLinkedWithUser:(AVUser *)<em>user</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>user</code></th>
-						<td><p>User to check for anonymity. The user must be logged in on this device.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>True if the user is anonymous.  False if the user is not the current user or is not anonymous.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Whether the user is logged in anonymously.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVAnonymousUtils.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-					</div>
-					
 					
 
                     
-                    
-          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2020 LeanCloud. All rights reserved. Updated: 2020-02-05</p>
+						<p class="copyright">Copyright &copy; 2020 LeanCloud. All rights reserved. Updated: 2020-07-13</p>
 						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
 						
 					</div>
 				</footer>

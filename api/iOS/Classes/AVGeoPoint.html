@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>AVGeoPoint Class Reference</title>
+	<title></title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+	
 </head>
 <body class="appledoc">
 	<header>
@@ -43,37 +43,9 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	<option value="overview">Overview</option>
-	
 
 	
-	
-	<option value="tasks">Tasks</option>
-	
-	
 
-	
-	
-	<optgroup label="Properties">
-		
-		<option value="//api/name/latitude">latitude</option>
-		
-		<option value="//api/name/longitude">longitude</option>
-		
-	</optgroup>
-	
-
-	
-	<optgroup label="Class Methods">
-		
-		<option value="//api/name/geoPoint">+ geoPoint</option>
-		
-		<option value="//api/name/geoPointWithLatitude:longitude:">+ geoPointWithLatitude:longitude:</option>
-		
-	</optgroup>
-	
-
-	
 	
 </select>
 						</label>
@@ -87,286 +59,22 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">AVGeoPoint Class Reference</h1>
+					<h1 class="title"></h1>
 
-					
-					<div class="section section-specification"><table cellspacing="0"><tbody>
-						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
-</tr><tr>
-	<th>Conforms to</th>
-	<td>NSCopying</td>
-</tr><tr>
-	<th>Declared in</th>
-	<td>AVGeoPoint.h</td>
-</tr>
-						</tbody></table></div>
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Object which may be used to embed a <a href="#//api/name/latitude">latitude</a> / <a href="#//api/name/longitude">longitude</a> point as the value for a key in a <a href="../Classes/AVObject.html">AVObject</a>.
-AVObjects with a AVGeoPoint field may be queried in a geospatial manner using AVQuery&rsquo;s whereKey:nearGeoPoint:.</p>
 
-<p>This is also used as a point specifier for whereKey:nearGeoPoint: queries.</p>
-
-<p>Currently, object classes may only have one key associated with a GeoPoint type.</p>
-					</div>
-					
-					
-
-					
-					
-					<div class="section section-tasks">
-						<a title="Tasks" name="tasks"></a>
-						
-
-						<a title="Creating a AVGeoPoint" name="task_Creating a AVGeoPoint"></a>
-						<h2 class="task-title">Creating a AVGeoPoint</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/geoPoint" title="geoPoint"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPoint">+&nbsp;geoPoint</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)geoPoint</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>a new AVGeoPoint.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Create a AVGeoPoint object.  Latitude and <a href="#//api/name/longitude">longitude</a> are set to 0.0.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/geoPointWithLatitude:longitude:" title="geoPointWithLatitude:longitude:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/geoPointWithLatitude:longitude:">+&nbsp;geoPointWithLatitude:longitude:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>+ (instancetype)geoPointWithLatitude:(double)<em>latitude</em> longitude:(double)<em>longitude</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>latitude</code></th>
-						<td><p>Latitude of point in degrees.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>longitude</code></th>
-						<td><p>Longitude of point in degrees.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>New point object with specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Creates a new AVGeoPoint object with the specified <a href="#//api/name/latitude">latitude</a> and <a href="#//api/name/longitude">longitude</a>.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-
-						<a title="Controlling Position" name="task_Controlling Position"></a>
-						<h2 class="task-title">Controlling Position</h2>
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/latitude" title="latitude"></a>
-	<h3 class="method-title"><code><a href="#//api/name/latitude">&nbsp;&nbsp;latitude</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic) double latitude</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Latitude of point in degrees.  Valid range (-90.0, 90.0).</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/longitude" title="longitude"></a>
-	<h3 class="method-title"><code><a href="#//api/name/longitude">&nbsp;&nbsp;longitude</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic) double longitude</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Longitude of point in degrees.  Valid range (-180.0, 180.0).</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">AVGeoPoint.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-					</div>
-					
 					
 
                     
-                    
-          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2020 LeanCloud. All rights reserved. Updated: 2020-02-05</p>
+						<p class="copyright">Copyright &copy; 2020 LeanCloud. All rights reserved. Updated: 2020-07-13</p>
 						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
 						
 					</div>
 				</footer>
