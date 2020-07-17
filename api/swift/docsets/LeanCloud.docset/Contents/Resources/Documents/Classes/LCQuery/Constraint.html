@@ -8,15 +8,23 @@
     <script src="../../js/jquery.min.js" defer></script>
     <script src="../../js/jazzy.js" defer></script>
     
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Enum/Constraint" class="dashAnchor"></a>
     <a title="Constraint Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
+        <p><a href="../../index.html">LeanCloud 17.6.0 Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2Fswift%2Fdocsets%2FLeanCloud.xml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -464,12 +472,16 @@
             <h1>Constraint</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Constraint</span></code></pre>
 
                 </div>
               </div>
             <p>Constraint for key.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L178-L258">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -487,7 +499,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The value of the key contains all metadata;
+Supporting key path by concatenating multiple keys with <code>.</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -499,7 +512,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L183">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -517,7 +530,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Only the value of the key will return, prefixing the key with <code>-</code> means only the value of the key will not return;
+Supporting key path by concatenating multiple keys with <code>.</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -529,7 +543,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L186">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -547,7 +561,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Whether the field exist.</p>
 
                       </div>
                       <div class="declaration">
@@ -559,7 +573,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L188">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -577,7 +591,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Whether the field not exist.</p>
 
                       </div>
                       <div class="declaration">
@@ -589,7 +603,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L190">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -607,7 +621,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$eq</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -619,7 +633,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L195">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -637,7 +651,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$ne</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -649,7 +663,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L197">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -667,7 +681,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$lt</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -679,7 +693,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L199">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -697,7 +711,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$lte</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -709,7 +723,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L201">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -727,7 +741,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$gt</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -739,7 +753,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L203">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -757,7 +771,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$gte</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -769,7 +783,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L205">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -787,7 +801,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$in</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -799,7 +813,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L210">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -817,7 +831,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$nin</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -829,7 +843,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L212">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -847,7 +861,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$all</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -859,7 +873,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L214">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -877,7 +891,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$size</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -889,7 +903,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L216">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -907,7 +921,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$nearSphere</code>, <code>$minDistance</code> and <code>$maxDistance</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -919,7 +933,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L221">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -937,7 +951,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$geoWithin</code> and <code>$box</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -949,7 +963,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L223">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -967,7 +981,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The value of the key match the query.</p>
 
                       </div>
                       <div class="declaration">
@@ -979,7 +993,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L228">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -997,7 +1011,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The value of the key not match the query.</p>
 
                       </div>
                       <div class="declaration">
@@ -1009,7 +1023,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L230">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1027,7 +1041,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The value of the key match the query and the key of the value will be <code><a href="../../Classes/LCQuery/Constraint.html#/s:9LeanCloud7LCQueryC10ConstraintO8selectedyA2EmF">selected</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -1039,7 +1053,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L232">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1057,7 +1071,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The value of the key match the query and the key of the value will not be <code><a href="../../Classes/LCQuery/Constraint.html#/s:9LeanCloud7LCQueryC10ConstraintO8selectedyA2EmF">selected</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -1069,7 +1083,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L234">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1087,7 +1101,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>See <code>$regex</code> and <code>$options</code> in MongoDB.</p>
 
                       </div>
                       <div class="declaration">
@@ -1099,7 +1113,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L239">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1117,7 +1131,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The string of the key contains the string.</p>
 
                       </div>
                       <div class="declaration">
@@ -1129,7 +1143,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L241">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1147,7 +1161,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The string of the key has the prefix.</p>
 
                       </div>
                       <div class="declaration">
@@ -1159,7 +1173,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L243">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1177,7 +1191,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The string of the key has the suffix.</p>
 
                       </div>
                       <div class="declaration">
@@ -1189,7 +1203,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L245">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1207,7 +1221,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Relation</p>
 
                       </div>
                       <div class="declaration">
@@ -1219,7 +1233,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L250">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1237,7 +1251,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Ascending</p>
 
                       </div>
                       <div class="declaration">
@@ -1249,7 +1263,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L255">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1267,7 +1281,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Descending</p>
 
                       </div>
                       <div class="declaration">
@@ -1279,7 +1293,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L257">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1289,8 +1303,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

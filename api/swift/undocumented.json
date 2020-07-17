@@ -51,84 +51,91 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 28,
+      "line": 23,
+      "symbol": "LCApplication.LogLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
+      "line": 24,
       "symbol": "LCApplication.LogLevel.off",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 29,
+      "line": 25,
       "symbol": "LCApplication.LogLevel.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 30,
+      "line": 26,
       "symbol": "LCApplication.LogLevel.debug",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 31,
+      "line": 27,
       "symbol": "LCApplication.LogLevel.verbose",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 32,
+      "line": 28,
       "symbol": "LCApplication.LogLevel.all",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 47,
+      "line": 43,
       "symbol": "LCApplication.Identifier",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 62,
+      "line": 58,
       "symbol": "LCApplication.ServerCustomizableModule.api(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 63,
+      "line": 59,
       "symbol": "LCApplication.ServerCustomizableModule.push(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 64,
+      "line": 60,
       "symbol": "LCApplication.ServerCustomizableModule.engine(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 65,
+      "line": 61,
       "symbol": "LCApplication.ServerCustomizableModule.rtm(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 115,
+      "line": 109,
       "symbol": "LCApplication.Configuration.default",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 138,
+      "line": 132,
       "symbol": "LCApplication.Configuration.init(customizedServers:environment:HTTPRequestTimeoutInterval:HTTPURLCache:RTMConnectingTimeoutInterval:RTMCommandTimeoutInterval:RTMCustomServerURL:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -933,240 +940,23 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 15,
-      "symbol": "LCQuery.application",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 108,
-      "symbol": "LCQuery.Constraint.included",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
       "line": 109,
-      "symbol": "LCQuery.Constraint.selected",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 110,
-      "symbol": "LCQuery.Constraint.existed",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 111,
-      "symbol": "LCQuery.Constraint.notExisted",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 113,
-      "symbol": "LCQuery.Constraint.equalTo(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 114,
-      "symbol": "LCQuery.Constraint.notEqualTo(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 115,
-      "symbol": "LCQuery.Constraint.lessThan(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 116,
-      "symbol": "LCQuery.Constraint.lessThanOrEqualTo(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 117,
-      "symbol": "LCQuery.Constraint.greaterThan(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 118,
-      "symbol": "LCQuery.Constraint.greaterThanOrEqualTo(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 120,
-      "symbol": "LCQuery.Constraint.containedIn(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 121,
-      "symbol": "LCQuery.Constraint.notContainedIn(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 122,
-      "symbol": "LCQuery.Constraint.containedAllIn(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 123,
-      "symbol": "LCQuery.Constraint.equalToSize(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 125,
-      "symbol": "LCQuery.Constraint.locatedNear(_:minimal:maximal:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 126,
-      "symbol": "LCQuery.Constraint.locatedWithin(southwest:northeast:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 128,
-      "symbol": "LCQuery.Constraint.matchedQuery(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 129,
-      "symbol": "LCQuery.Constraint.notMatchedQuery(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 130,
-      "symbol": "LCQuery.Constraint.matchedQueryAndKey(query:key:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 131,
-      "symbol": "LCQuery.Constraint.notMatchedQueryAndKey(query:key:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 133,
-      "symbol": "LCQuery.Constraint.matchedRegularExpression(_:option:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 134,
-      "symbol": "LCQuery.Constraint.matchedSubstring(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 135,
-      "symbol": "LCQuery.Constraint.prefixedBy(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 136,
-      "symbol": "LCQuery.Constraint.suffixedBy(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 138,
-      "symbol": "LCQuery.Constraint.relatedTo(_:)",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 140,
-      "symbol": "LCQuery.Constraint.ascending",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 141,
-      "symbol": "LCQuery.Constraint.descending",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 161,
       "symbol": "LCQuery.copy(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 175,
+      "line": 126,
       "symbol": "LCQuery.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 192,
+      "line": 149,
       "symbol": "LCQuery.encode(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 417,
-      "symbol": "LCQuery.CachePolicy.onlyNetwork",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 418,
-      "symbol": "LCQuery.CachePolicy.onlyCache",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Query.swift",
-      "line": 419,
-      "symbol": "LCQuery.CachePolicy.networkElseCache",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
@@ -1668,35 +1458,35 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1060,
+      "line": 1202,
       "symbol": "LCUser.AuthDataPlatform.qq",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1061,
+      "line": 1203,
       "symbol": "LCUser.AuthDataPlatform.weibo",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1062,
+      "line": 1204,
       "symbol": "LCUser.AuthDataPlatform.weixin",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1063,
+      "line": 1205,
       "symbol": "LCUser.AuthDataPlatform.custom(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/User.swift",
-      "line": 1065,
+      "line": 1207,
       "symbol": "LCUser.AuthDataPlatform.key",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2501,70 +2291,70 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 1008,
+      "line": 1013,
       "symbol": "IMClient.StoredConversationOrder.updatedTimestamp(descending:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 1009,
+      "line": 1014,
       "symbol": "IMClient.StoredConversationOrder.createdTimestamp(descending:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 1010,
+      "line": 1015,
       "symbol": "IMClient.StoredConversationOrder.lastMessageSentTimestamp(descending:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2615,
+      "line": 2625,
       "symbol": "IMSignature",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2626,
+      "line": 2636,
       "symbol": "IMSignature.Action.open",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2627,
+      "line": 2637,
       "symbol": "IMSignature.Action.createConversation(memberIDs:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2628,
+      "line": 2638,
       "symbol": "IMSignature.Action.add(memberIDs:toConversation:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2629,
+      "line": 2639,
       "symbol": "IMSignature.Action.remove(memberIDs:fromConversation:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2630,
+      "line": 2640,
       "symbol": "IMSignature.Action.conversationBlocking(_:blockedMemberIDs:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMClient.swift",
-      "line": 2631,
+      "line": 2641,
       "symbol": "IMSignature.Action.conversationUnblocking(_:unblockedMemberIDs:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -2592,140 +2382,140 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1262,
+      "line": 1273,
       "symbol": "IMConversation.MessageQueryDirection.newToOld",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1263,
+      "line": 1274,
       "symbol": "IMConversation.MessageQueryDirection.oldToNew",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1291,
+      "line": 1302,
       "symbol": "IMConversation.MessageQueryPolicy.default",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1292,
+      "line": 1303,
       "symbol": "IMConversation.MessageQueryPolicy.onlyNetwork",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1294,
+      "line": 1305,
       "symbol": "IMConversation.MessageQueryPolicy.onlyCache",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1295,
+      "line": 1306,
       "symbol": "IMConversation.MessageQueryPolicy.cacheThenNetwork",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1572,
+      "line": 1583,
       "symbol": "IMConversation.MemberResult.allSucceeded",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1573,
+      "line": 1584,
       "symbol": "IMConversation.MemberResult.failure(error:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1574,
+      "line": 1585,
       "symbol": "IMConversation.MemberResult.slicing(success:failure:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1576,
+      "line": 1587,
       "symbol": "IMConversation.MemberResult.isSuccess",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1585,
+      "line": 1596,
       "symbol": "IMConversation.MemberResult.error",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1594,
+      "line": 1605,
       "symbol": "IMConversation.MemberResult.init(error:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1856,
+      "line": 1867,
       "symbol": "IMConversation.MemberRole.owner",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1857,
+      "line": 1868,
       "symbol": "IMConversation.MemberRole.manager",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 1858,
+      "line": 1869,
       "symbol": "IMConversation.MemberRole.member",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2105,
+      "line": 2114,
       "symbol": "IMConversation.BlockedMembersResult",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2247,
+      "line": 2256,
       "symbol": "IMConversation.MutedMembersResult",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2830,
+      "line": 2839,
       "symbol": "IMChatRoom.MessagePriority.high",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2831,
+      "line": 2840,
       "symbol": "IMChatRoom.MessagePriority.normal",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2832,
+      "line": 2841,
       "symbol": "IMChatRoom.MessagePriority.low",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -2935,35 +2725,35 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMMessage.swift",
-      "line": 612,
+      "line": 620,
       "symbol": "IMTextMessage.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMMessage.swift",
-      "line": 616,
+      "line": 624,
       "symbol": "IMTextMessage.init(text:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMMessage.swift",
-      "line": 772,
+      "line": 780,
       "symbol": "IMLocationMessage.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMMessage.swift",
-      "line": 776,
+      "line": 784,
       "symbol": "IMLocationMessage.init(latitude:longitude:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMMessage.swift",
-      "line": 817,
+      "line": 825,
       "symbol": "IMRecalledMessage.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -3096,21 +2886,21 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/LiveQuery.swift",
-      "line": 60,
+      "line": 63,
       "symbol": "LiveQuery.init(application:query:eventQueue:eventHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/LiveQuery.swift",
-      "line": 75,
+      "line": 83,
       "symbol": "LiveQuery.subscribe(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/LiveQuery.swift",
-      "line": 139,
+      "line": 146,
       "symbol": "LiveQuery.unsubscribe(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

@@ -8,15 +8,23 @@
     <script src="../../js/jquery.min.js" defer></script>
     <script src="../../js/jazzy.js" defer></script>
     
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Struct/Configuration" class="dashAnchor"></a>
     <a title="Configuration Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
+        <p><a href="../../index.html">LeanCloud 17.6.0 Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2Fswift%2Fdocsets%2FLeanCloud.xml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -464,12 +472,16 @@
             <h1>Configuration</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Configuration</span> <span class="p">:</span> <span class="kt">CustomDebugStringConvertible</span></code></pre>
 
                 </div>
               </div>
-            <p>Application Configuration.</p>
+            <p>Configuration of the application.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L108-L174">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -499,7 +511,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -517,7 +529,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Customized Servers</p>
+                        <p>Customized Servers, default is <code>[]</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -529,7 +541,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L118">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L112">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -547,7 +559,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Environment</p>
+                        <p>Environment, default is <code><a href="../../Classes/LCApplication/Environment.html#/s:9LeanCloud13LCApplicationC11EnvironmentV7defaultAEvpZ">Environment.default</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -559,7 +571,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L121">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L115">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -577,7 +589,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>HTTP Request Timeout Interval, default is 60.0 second.</p>
+                        <p>HTTP Request Timeout Interval, default is <code>60.0</code> second.</p>
 
                       </div>
                       <div class="declaration">
@@ -589,7 +601,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L124">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L118">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -607,7 +619,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>URL Cache for HTTP Response, default is nil.</p>
+                        <p>URL Cache for HTTP Response, default is <code>nil</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -619,7 +631,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L127">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L121">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -637,7 +649,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>RTM Connecting Timeout Interval, default is 15.0 second.</p>
+                        <p>RTM Connecting Timeout Interval, default is <code>60.0</code> second.</p>
 
                       </div>
                       <div class="declaration">
@@ -649,7 +661,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L130">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L124">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -667,7 +679,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>RTM Command Timeout Interval, default is 30.0 second.</p>
+                        <p>RTM Command Timeout Interval, default is <code>30.0</code> second.</p>
 
                       </div>
                       <div class="declaration">
@@ -679,7 +691,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L133">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L127">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -697,7 +709,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>RTM Custom Server URL.</p>
+                        <p>RTM Custom Server URL, default is <code>nil</code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -709,7 +721,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L136">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L130">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -739,14 +751,14 @@
     <span class="nv">environment</span><span class="p">:</span> <span class="kt"><a href="../../Classes/LCApplication/Environment.html">Environment</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
     <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV26HTTPRequestTimeoutIntervalSdvp">HTTPRequestTimeoutInterval</a></span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">60.0</span><span class="p">,</span>
     <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV12HTTPURLCacheSo10NSURLCacheCSgvp">HTTPURLCache</a></span><span class="p">:</span> <span class="kt">URLCache</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
-    <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV28RTMConnectingTimeoutIntervalSdvp">RTMConnectingTimeoutInterval</a></span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">15.0</span><span class="p">,</span>
+    <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV28RTMConnectingTimeoutIntervalSdvp">RTMConnectingTimeoutInterval</a></span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">60.0</span><span class="p">,</span>
     <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV25RTMCommandTimeoutIntervalSdvp">RTMCommandTimeoutInterval</a></span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">,</span>
     <span class="kt"><a href="../../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV18RTMCustomServerURL10Foundation0G0VSgvp">RTMCustomServerURL</a></span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L138-L154">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L132-L148">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -775,7 +787,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L156-L179">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L150-L173">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -785,8 +797,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

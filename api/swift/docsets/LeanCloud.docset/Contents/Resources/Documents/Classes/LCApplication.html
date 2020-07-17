@@ -8,15 +8,23 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/LCApplication" class="dashAnchor"></a>
     <a title="LCApplication Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.6.0 Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2Fswift%2Fdocsets%2FLeanCloud.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -464,16 +472,19 @@
             <h1>LCApplication</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">LCApplication</span></code></pre>
 
                 </div>
               </div>
-            <p>LeanCloud application.</p>
+            <p>LeanCloud Application.</p>
 
-<p>An <code>LCApplication</code> object is an abstract of remote LeanCloud application.</p>
+<p>an <code>LCApplication</code> object is an abstraction of LeanCloud application,
+it is the context of application-specific settings and objects.</p>
 
-<p>It is a context of application-specific settings and objects.</p>
-
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L15-L387">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -500,7 +511,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Application log level.</p>
+                        <p>Undocumented</p>
 
                         <a href="../Classes/LCApplication/LogLevel.html" class="slightly-smaller">See more</a>
                       </div>
@@ -513,7 +524,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L27-L37">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L23-L33">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -531,7 +542,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Log level.</p>
+                        <p>Console log level, default is <code><a href="../Classes/LCApplication/LogLevel.html#/s:9LeanCloud13LCApplicationC8LogLevelO3offyA2EmF">LogLevel.off</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -543,7 +554,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L40">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L36">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -586,7 +597,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L45">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L41">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -616,7 +627,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -646,7 +657,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L50">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L46">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -676,7 +687,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L53">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L49">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -706,7 +717,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L56">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L52">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -737,7 +748,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Module of Customizable Server.</p>
+                        <p>Module of customizable server.</p>
 
                         <a href="../Classes/LCApplication/ServerCustomizableModule.html" class="slightly-smaller">See more</a>
                       </div>
@@ -750,7 +761,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L61-L79">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L57-L75">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -768,7 +779,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Environment of the Application</p>
+                        <p>Environment of the application.</p>
 
                         <a href="../Classes/LCApplication/Environment.html" class="slightly-smaller">See more</a>
                       </div>
@@ -781,7 +792,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L82-L97">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L78-L93">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -799,7 +810,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Application Configuration.</p>
+                        <p>Configuration of the application.</p>
 
                         <a href="../Classes/LCApplication/Configuration.html" class="slightly-smaller">See more</a>
                       </div>
@@ -812,7 +823,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L114-L180">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L108-L174">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -830,7 +841,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Application Configuration.</p>
+                        <p>Application configuration.</p>
 
                       </div>
                       <div class="declaration">
@@ -842,7 +853,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L183">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L177">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -873,7 +884,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Current Installation.</p>
+                        <p>Current installation.</p>
 
                       </div>
                       <div class="declaration">
@@ -885,7 +896,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L228-L237">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L222-L231">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -916,7 +927,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Current User.</p>
+                        <p>Current user.</p>
 
                       </div>
                       <div class="declaration">
@@ -928,7 +939,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L255-L266">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L249-L260">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -960,6 +971,11 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Create an application.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC9serverURLSSSgvp">serverURL</a></code> not provide in some region.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -987,7 +1003,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The ID.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC2idSSSgvp">id</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -999,7 +1015,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The Key.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC3keySSSgvp">key</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1011,7 +1027,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The server URL string.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC9serverURLSSSgvp">serverURL</a></code>, default is <code>nil</code>, MUST provide if the application is in China.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1023,7 +1039,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The Configuration.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC13configurationAC13ConfigurationVvp">configuration</a></code>, default is <code><a href="../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV7defaultAEvpZ">Configuration.default</a></code></p>
                                 </div>
                               </td>
                             </tr>
@@ -1031,7 +1047,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L296-L310">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L292-L305">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1049,7 +1065,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Setup the application.</p>
+                        <p>Set up an application.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC9serverURLSSSgvp">serverURL</a></code> not provide in some region.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -1077,7 +1098,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The ID.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC2idSSSgvp">id</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1089,7 +1110,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The Key.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC3keySSSgvp">key</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1101,7 +1122,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The server URL string.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC9serverURLSSSgvp">serverURL</a></code>, default is <code>nil</code>, MUST provide if the application is in China.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1113,7 +1134,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The Configuration.</p>
+                                  <p>see property <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC13configurationAC13ConfigurationVvp">configuration</a></code>, default is <code><a href="../Classes/LCApplication/Configuration.html#/s:9LeanCloud13LCApplicationC13ConfigurationV7defaultAEvpZ">Configuration.default</a></code></p>
                                 </div>
                               </td>
                             </tr>
@@ -1121,7 +1142,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L317-L337">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L314-L331">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1152,7 +1173,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>should unregister the application before releasing it&rsquo;s memory.</p>
+                        <p>Before release the instance of the application, should unregister it to break circular reference.</p>
 
                       </div>
                       <div class="declaration">
@@ -1164,7 +1185,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L385-L392">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L379-L386">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1174,8 +1195,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

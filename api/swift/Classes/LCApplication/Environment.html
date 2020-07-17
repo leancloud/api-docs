@@ -8,15 +8,23 @@
     <script src="../../js/jquery.min.js" defer></script>
     <script src="../../js/jazzy.js" defer></script>
     
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Struct/Environment" class="dashAnchor"></a>
     <a title="Environment Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
+        <p><a href="../../index.html">LeanCloud 17.6.0 Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2Fswift%2Fdocsets%2FLeanCloud.xml"><img src="../../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -464,12 +472,16 @@
             <h1>Environment</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Environment</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
 
                 </div>
               </div>
-            <p>Environment of the Application</p>
+            <p>Environment of the application.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L78-L93">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -498,7 +510,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -527,7 +539,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L85-L87">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L81-L83">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -545,7 +557,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>development environment of Cloud Engine</p>
+                        <p>Development environment of Cloud Engine Service.</p>
 
                       </div>
                       <div class="declaration">
@@ -557,7 +569,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L90">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L86">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -575,7 +587,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>development environment of Push</p>
+                        <p>Development environment of Push Service.</p>
 
                       </div>
                       <div class="declaration">
@@ -587,7 +599,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L93">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L89">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -605,7 +617,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>default is production environment</p>
+                        <p>Default is production environment.</p>
 
                       </div>
                       <div class="declaration">
@@ -617,7 +629,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Application.swift#L96">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Application.swift#L92">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -627,8 +639,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

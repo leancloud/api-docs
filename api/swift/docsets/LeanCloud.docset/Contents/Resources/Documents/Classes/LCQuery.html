@@ -8,15 +8,23 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/LCQuery" class="dashAnchor"></a>
     <a title="LCQuery Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloud 17.5.4 Docs</a> (61% documented)</p>
+        <p><a href="../index.html">LeanCloud 17.6.0 Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/swift-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud%2Ecn%2Fapi%2Ddocs%2Fswift%2Fdocsets%2FLeanCloud%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2Fswift%2Fdocsets%2FLeanCloud.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -464,12 +472,16 @@
             <h1>LCQuery</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">LCQuery</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span><span class="p">,</span> <span class="kt">NSCoding</span></code></pre>
 
                 </div>
               </div>
-            <p>Query defines a query for objects.</p>
+            <p>Query</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L12-L796">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -487,7 +499,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The application this query belong to.</p>
 
                       </div>
                       <div class="declaration">
@@ -499,7 +511,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L15">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -517,7 +529,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Object class name.</p>
+                        <p>The class name of the object.</p>
 
                       </div>
                       <div class="declaration">
@@ -529,7 +541,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L18">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L18">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -559,7 +571,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L21">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L21">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -589,7 +601,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L24">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L24">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -619,7 +631,280 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L27">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L27">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC11whereStringSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/whereString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC11whereStringSSSgvp">whereString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If this property is a non-nil value, query will always use it as where condition, default is <code>nil</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">whereString</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L30">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC11orderedKeysSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/orderedKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC11orderedKeysSSSgvp">orderedKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The ordered keys.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">orderedKeys</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L33">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC12includedKeysShySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/includedKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC12includedKeysShySSGvp">includedKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The included keys.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">includedKeys</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L36">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC12selectedKeysShySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC12selectedKeysShySSGvp">selectedKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The selected keys.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">selectedKeys</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L39">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC11application9classNameAcA13LCApplicationC_SStcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(application:className:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC11application9classNameAcA13LCApplicationC_SStcfc">init(application:<wbr>className:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialization.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span>
+    <span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>application</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The application this query belong to, default is <code><a href="../Classes/LCApplication.html#/s:9LeanCloud13LCApplicationC7defaultACvpZ">LCApplication.default</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>className</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the class which will be queried.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L101-L107">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)copyWithZone:"></a>
+                    <a name="//apple_ref/swift/Method/copy(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)copyWithZone:">copy(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">copy</span><span class="p">(</span><span class="n">with</span> <span class="nv">zone</span><span class="p">:</span> <span class="kt">NSZone</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L109-L124">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)initWithCoder:">init(coder:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L126-L147">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)encodeWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/encode(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)encodeWithCoder:">encode(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">with</span> <span class="nv">aCoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L149-L175">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -650,148 +935,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L107-L142">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9LeanCloud7LCQueryC11application9classNameAcA13LCApplicationC_SStcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(application:className:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9LeanCloud7LCQueryC11application9classNameAcA13LCApplicationC_SStcfc">init(application:<wbr>className:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Construct query with class name.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
-    <span class="nv">application</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span> <span class="o">=</span> <span class="kt"><a href="../Classes/LCApplication.html">LCApplication</a></span><span class="o">.</span><span class="k">default</span><span class="p">,</span>
-    <span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>objectClassName</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The class name to query.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L153-L159">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)copyWithZone:"></a>
-                    <a name="//apple_ref/swift/Method/copy(with:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)copyWithZone:">copy(with:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">copy</span><span class="p">(</span><span class="n">with</span> <span class="nv">zone</span><span class="p">:</span> <span class="kt">NSZone</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L161-L173">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)initWithCoder:"></a>
-                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)initWithCoder:">init(coder:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L175-L190">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@LeanCloud@objc(cs)LCQuery(im)encodeWithCoder:"></a>
-                    <a name="//apple_ref/swift/Method/encode(with:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@LeanCloud@objc(cs)LCQuery(im)encodeWithCoder:">encode(with:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">with</span> <span class="nv">aCoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L192-L210">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L178-L258">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -809,7 +953,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Add constraint in query.</p>
+                        <p>Add a constraint for key.</p>
 
                       </div>
                       <div class="declaration">
@@ -827,12 +971,24 @@
                             <tr>
                               <td>
                                 <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The key will be constrained.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
                                 <em>constraint</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The constraint.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/Constraint.html">Constraint</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -840,7 +996,131 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L217-L220">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L264-L270">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC5whereyySS_AC10ConstraintOtKF"></a>
+                    <a name="//apple_ref/swift/Method/where(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC5whereyySS_AC10ConstraintOtKF">where(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a constraint for key.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/LCError.html">LCError</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="p">`</span><span class="nv">where</span><span class="p">`(</span><span class="n">_</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">constraint</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/Constraint.html">Constraint</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The key will be constrained.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>constraint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>See <code><a href="../Classes/LCQuery/Constraint.html">Constraint</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L277-L377">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC3andyACSayACGKFZ"></a>
+                    <a name="//apple_ref/swift/Method/and(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC3andyACSayACGKFZ">and(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs a logical AND operation on an array of one or more expressions of query.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/LCError.html">LCError</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">and</span><span class="p">(</span><span class="n">_</span> <span class="nv">queries</span><span class="p">:</span> <span class="p">[</span><span class="kt">LCQuery</span><span class="p">])</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">LCQuery</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queries</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of one or more expressions of query.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new <code>LCQuery</code>.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L434-L436">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -858,9 +1138,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get logic AND of another query.</p>
+                        <p>Performs a logical AND operation on self and the query.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/LCError.html">LCError</a></code>
 
-<p>Note that it only combine constraints of two queries, the limit and skip option will be discarded.</p>
+</div>
 
                       </div>
                       <div class="declaration">
@@ -883,7 +1166,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The another query.</p>
+                                  <p>The query.</p>
                                 </div>
                               </td>
                             </tr>
@@ -892,10 +1175,68 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>The logic AND of two queries.</p>
+                        <p>A new <code>LCQuery</code>.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L327-L335">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L442-L444">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9LeanCloud7LCQueryC2oryACSayACGKFZ"></a>
+                    <a name="//apple_ref/swift/Method/or(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9LeanCloud7LCQueryC2oryACSayACGKFZ">or(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs a logical OR operation on an array of one or more expressions of query.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/LCError.html">LCError</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">or</span><span class="p">(</span><span class="n">_</span> <span class="nv">queries</span><span class="p">:</span> <span class="p">[</span><span class="kt">LCQuery</span><span class="p">])</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">LCQuery</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queries</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of one or more expressions of query.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A new <code>LCQuery</code>.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L450-L452">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -913,9 +1254,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get logic OR of another query.</p>
+                        <p>Performs a logical OR operation on self and the query.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Structs/LCError.html">LCError</a></code>
 
-<p>Note that it only combine constraints of two queries, the limit and skip option will be discarded.</p>
+</div>
 
                       </div>
                       <div class="declaration">
@@ -938,7 +1282,7 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The another query.</p>
+                                  <p>The query.</p>
                                 </div>
                               </td>
                             </tr>
@@ -947,10 +1291,10 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>The logic OR of two queries.</p>
+                        <p>A new <code>LCQuery</code>.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L346-L354">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L458-L460">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -981,11 +1325,24 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L416-L420">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L520-L527">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Find"></a>
+                <a name="//apple_ref/swift/Section/Find" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Find"></a>
+                  <h3 class="section-name"><p>Find</p>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -1022,15 +1379,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The result of query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L424-L430">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L534-L540">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1056,11 +1417,10 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="n">find</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">find</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span><span class="o">&gt;</span><span class="p">(</span>
     <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">,</span>
     <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
-    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCQueryResult.html">LCQueryResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
-    <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCQueryResult.html">LCQueryResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
                         </div>
                       </div>
@@ -1076,7 +1436,19 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be called, default is <code>DispatchQueue.main</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1088,19 +1460,36 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>The completion callback closure.</p>
+                                  <p>The result callback of query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Classes/LCRequest.html">LCRequest</a></code></p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L436-L447">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L549-L559">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get%20First"></a>
+                <a name="//apple_ref/swift/Section/Get First" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Get%20First"></a>
+                  <h3 class="section-name"><p>Get First</p>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -1114,8 +1503,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get first object of query synchronously.
-All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanCloud7LCQueryC5limitSiSgvp">limit</a></code> will take effect for current request.</p>
+                        <p>Get first object synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -1138,15 +1526,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The result of query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L470-L476">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L607-L613">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1164,8 +1556,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get first object of query asynchronously.
-All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanCloud7LCQueryC5limitSiSgvp">limit</a></code> will take effect for current request.</p>
+                        <p>Get first object asynchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -1176,8 +1567,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
 <span class="kd">public</span> <span class="kd">func</span> <span class="n">getFirst</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span><span class="o">&gt;</span><span class="p">(</span>
     <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">,</span>
     <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
-    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
-    <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
                         </div>
                       </div>
@@ -1193,7 +1583,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be called, default is <code>DispatchQueue.main</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1205,19 +1607,36 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The completion callback closure.</p>
+                                  <p>The result callback of query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Classes/LCRequest.html">LCRequest</a></code></p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L483-L494">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L622-L632">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get"></a>
+                <a name="//apple_ref/swift/Section/Get" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Get"></a>
+                  <h3 class="section-name"><p>Get</p>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -1231,7 +1650,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get object by object ID synchronously.</p>
+                        <p>Get object by ID synchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -1240,8 +1659,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="k">get</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span><span class="o">&gt;</span><span class="p">(</span>
     <span class="n">_</span> <span class="nv">objectId</span><span class="p">:</span> <span class="kt"><a href="../Protocols/LCStringConvertible.html">LCStringConvertible</a></span><span class="p">,</span>
-    <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">)</span>
-    <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+    <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
 
                         </div>
                       </div>
@@ -1257,7 +1675,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The object ID.</p>
+                                  <p>The ID of the object.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1269,15 +1687,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The result of query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L524-L534">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L676-L688">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1295,7 +1717,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get object by object ID asynchronously.</p>
+                        <p>Get object by ID asynchronously.</p>
 
                       </div>
                       <div class="declaration">
@@ -1307,8 +1729,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
     <span class="n">_</span> <span class="nv">objectId</span><span class="p">:</span> <span class="kt"><a href="../Protocols/LCStringConvertible.html">LCStringConvertible</a></span><span class="p">,</span>
     <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">,</span>
     <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
-    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
-    <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCValueResult.html">LCValueResult</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
                         </div>
                       </div>
@@ -1324,7 +1745,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The object ID.</p>
+                                  <p>The ID of the object.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1336,7 +1757,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be called, default is <code>DispatchQueue.main</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1348,19 +1781,36 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The completion callback closure.</p>
+                                  <p>The result callback of query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Classes/LCRequest.html">LCRequest</a></code></p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L541-L553">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L698-L712">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Count"></a>
+                <a name="//apple_ref/swift/Section/Count" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Count"></a>
+                  <h3 class="section-name"><p>Count</p>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -1397,15 +1847,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The result of query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L573-L579">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L744-L750">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1434,8 +1888,7 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">count</span><span class="p">(</span>
     <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">onlyNetwork</span><span class="p">,</span>
     <span class="nv">completionQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
-    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCCountResult.html">LCCountResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span>
-    <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/LCCountResult.html">LCCountResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCRequest.html">LCRequest</a></span></code></pre>
 
                         </div>
                       </div>
@@ -1451,7 +1904,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The request’s cache policy, default is <code>onlyNetwork</code>.</p>
+                                  <p>See <code><a href="../Classes/LCQuery/CachePolicy.html">CachePolicy</a></code>, default is <code><a href="../Classes/LCQuery/CachePolicy.html#/s:9LeanCloud7LCQueryC11CachePolicyO11onlyNetworkyA2EmF">CachePolicy.onlyNetwork</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionQueue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue where the <code>completion</code> be called, default is <code>DispatchQueue.main</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1463,15 +1928,19 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
                               </td>
                               <td>
                                 <div>
-                                  <p>The completion callback closure.</p>
+                                  <p>The result callback of query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code><a href="../Classes/LCRequest.html">LCRequest</a></code></p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/swift-sdk/tree/17.5.4/Sources/Foundation/Query.swift#L585-L596">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/swift-sdk/tree/17.6.0/Sources/Foundation/Query.swift#L759-L769">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1481,8 +1950,8 @@ All query conditions other than <code><a href="../Classes/LCQuery.html#/s:9LeanC
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-05-06)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2020-07-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
