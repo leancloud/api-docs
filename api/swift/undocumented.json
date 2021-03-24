@@ -1948,280 +1948,371 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 391,
+      "line": 385,
+      "symbol": "Int.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 395,
       "symbol": "UInt.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 401,
+      "line": 399,
+      "symbol": "UInt.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 409,
       "symbol": "Int8.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 411,
+      "line": 413,
+      "symbol": "Int8.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 423,
       "symbol": "UInt8.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 421,
+      "line": 427,
+      "symbol": "UInt8.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 437,
       "symbol": "Int16.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 431,
-      "symbol": "UInt16.lcNumber",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
       "line": 441,
-      "symbol": "Int32.lcNumber",
+      "symbol": "Int16.stringValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
       "line": 451,
+      "symbol": "UInt16.lcNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 455,
+      "symbol": "UInt16.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 465,
+      "symbol": "Int32.lcNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 469,
+      "symbol": "Int32.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 479,
       "symbol": "UInt32.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 461,
+      "line": 483,
+      "symbol": "UInt32.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 493,
       "symbol": "Int64.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 471,
+      "line": 497,
+      "symbol": "Int64.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 507,
       "symbol": "UInt64.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 481,
+      "line": 511,
+      "symbol": "UInt64.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 521,
       "symbol": "Float.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 491,
-      "symbol": "Double.lcNumber",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 501,
-      "symbol": "Bool.lcBool",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 511,
-      "symbol": "NSNumber.lcNumber",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 515,
-      "symbol": "NSNumber.lcBool",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
       "line": 525,
-      "symbol": "String.lcString",
+      "symbol": "Float.stringValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
       "line": 535,
+      "symbol": "Double.lcNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 539,
+      "symbol": "Double.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 549,
+      "symbol": "Bool.lcBool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 559,
+      "symbol": "NSNumber.lcNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 563,
+      "symbol": "NSNumber.lcBool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 567,
+      "symbol": "NSNumber.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 577,
+      "symbol": "String.lcString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
+      "line": 587,
       "symbol": "NSString.lcString",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 545,
+      "line": 597,
       "symbol": "URL.lcString",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 555,
+      "line": 607,
       "symbol": "NSURL.lcString",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 565,
+      "line": 617,
       "symbol": "Array.lcArray",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 575,
+      "line": 627,
       "symbol": "Dictionary.lcDictionary",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 585,
+      "line": 637,
       "symbol": "Data.lcData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 595,
+      "line": 647,
       "symbol": "NSData.lcData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 605,
+      "line": 657,
       "symbol": "Date.lcDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 615,
+      "line": 667,
       "symbol": "NSDate.lcDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 621,
+      "line": 673,
       "symbol": "LCNull.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 625,
+      "line": 677,
       "symbol": "LCNull.lcNull",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 631,
+      "line": 683,
       "symbol": "LCNumber.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 635,
+      "line": 687,
       "symbol": "LCNumber.lcNumber",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 641,
+      "line": 693,
       "symbol": "LCBool.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 645,
+      "line": 697,
       "symbol": "LCBool.lcBool",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 651,
+      "line": 703,
       "symbol": "LCString.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 655,
+      "line": 707,
       "symbol": "LCString.lcString",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 661,
+      "line": 713,
       "symbol": "LCArray.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 665,
+      "line": 717,
       "symbol": "LCArray.lcArray",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 671,
+      "line": 723,
       "symbol": "LCDictionary.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 675,
+      "line": 727,
       "symbol": "LCDictionary.lcDictionary",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 699,
+      "line": 751,
       "symbol": "LCData.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 703,
+      "line": 755,
       "symbol": "LCData.lcData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 709,
+      "line": 761,
       "symbol": "LCDate.lcValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Valuable.swift",
-      "line": 713,
+      "line": 765,
       "symbol": "LCDate.lcDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2494,35 +2585,35 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2130,
+      "line": 2138,
       "symbol": "IMConversation.BlockedMembersResult",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2272,
+      "line": 2280,
       "symbol": "IMConversation.MutedMembersResult",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2855,
+      "line": 2863,
       "symbol": "IMChatRoom.MessagePriority.high",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2856,
+      "line": 2864,
       "symbol": "IMChatRoom.MessagePriority.normal",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/RTM/IMConversation.swift",
-      "line": 2857,
+      "line": 2865,
       "symbol": "IMChatRoom.MessagePriority.low",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
