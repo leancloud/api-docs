@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LCIMClientDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Protocol/LCIMClientDelegate" class="dashAnchor"></a>
+    <a title="LCIMClientDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">LeanCloudObjc 13.0.0-beta.2 Docs</a> (33% documented)</p>
+        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">LeanCloudObjc Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        LCIMClientDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/LCACL.html">LCACL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCApplication.html">LCApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptcha.html">LCCaptcha</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptchaDigest.html">LCCaptchaDigest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptchaRequestOptions.html">LCCaptchaRequestOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCloud.html">LCCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCloudQueryResult.html">LCCloudQueryResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCDynamicObject.html">LCDynamicObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFile.html">LCFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFileQuery.html">LCFileQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCGeoPoint.html">LCGeoPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMAudioMessage.html">LCIMAudioMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMChatRoom">LCIMChatRoom</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClient.html">LCIMClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClientInternalConversationManager.html">LCIMClientInternalConversationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversationMemberInfo.html">LCIMConversationMemberInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversationQuery.html">LCIMConversationQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMFileMessage.html">LCIMFileMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMImageMessage.html">LCIMImageMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMKeyedConversation.html">LCIMKeyedConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMLocationMessage.html">LCIMLocationMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessage.html">LCIMMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageInterval.html">LCIMMessageInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageIntervalBound.html">LCIMMessageIntervalBound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageOption.html">LCIMMessageOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMOperationFailure.html">LCIMOperationFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMRecalledMessage">LCIMRecalledMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMServiceConversation.html">LCIMServiceConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMSignature.html">LCIMSignature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMTemporaryConversation">LCIMTemporaryConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMTextMessage.html">LCIMTextMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMTypedMessage.html">LCIMTypedMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMVideoMessage.html">LCIMVideoMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCInstallation.html">LCInstallation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCLiveQuery.html">LCLiveQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCLogger.html">LCLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCObject.html">LCObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCPush.html">LCPush</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCQuery.html">LCQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRelation.html">LCRelation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRole.html">LCRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRouter.html">LCRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSMS.html">LCSMS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSaveOption.html">LCSaveOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSearchQuery.html">LCSearchQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSearchSortBuilder.html">LCSearchSortBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCShortMessageRequestOptions.html">LCShortMessageRequestOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCStatus.html">LCStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCStatusQuery.html">LCStatusQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUser.html">LCUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUserAuthDataLoginOption.html">LCUserAuthDataLoginOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUserShortMessageRequestOptions.html">LCUserShortMessageRequestOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@AVIMUserOptionCustomProtocols">AVIMUserOptionCustomProtocols</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastDeliveredAt">LCIMConversationUpdatedKeyLastDeliveredAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastMessage">LCIMConversationUpdatedKeyLastMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastMessageAt">LCIMConversationUpdatedKeyLastMessageAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastReadAt">LCIMConversationUpdatedKeyLastReadAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesCount">LCIMConversationUpdatedKeyUnreadMessagesCount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesMentioned">LCIMConversationUpdatedKeyUnreadMessagesMentioned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionAdd">LCIMSignatureActionAdd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionBlock">LCIMSignatureActionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionOpen">LCIMSignatureActionOpen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionRemove">LCIMSignatureActionRemove</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionStart">LCIMSignatureActionStart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionUnblock">LCIMSignatureActionUnblock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMUserOptionUseUnread">LCIMUserOptionUseUnread</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainCURL">LCLoggerDomainCURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainDefault">LCLoggerDomainDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainIM">LCLoggerDomainIM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainNetwork">LCLoggerDomainNetwork</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainStorage">LCLoggerDomainStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudObjcVersionNumber">LeanCloudObjcVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudObjcVersionString">LeanCloudObjcVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformQQ">LeanCloudSocialPlatformQQ</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiBo">LeanCloudSocialPlatformWeiBo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiXin">LeanCloudSocialPlatformWeiXin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RouterCacheKeyApp">RouterCacheKeyApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RouterCacheKeyRTM">RouterCacheKeyRTM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorAccountAlreadyLinked">kLCErrorAccountAlreadyLinked</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorCacheMiss">kLCErrorCacheMiss</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorCommandUnavailable">kLCErrorCommandUnavailable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorConnectionFailed">kLCErrorConnectionFailed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorDuplicateValue">kLCErrorDuplicateValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorExceededQuota">kLCErrorExceededQuota</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorFileDeleteFailure">kLCErrorFileDeleteFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorIncorrectType">kLCErrorIncorrectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInternalServer">kLCErrorInternalServer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidACL">kLCErrorInvalidACL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidChannelName">kLCErrorInvalidChannelName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidClassName">kLCErrorInvalidClassName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidDeviceToken">kLCErrorInvalidDeviceToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidEmailAddress">kLCErrorInvalidEmailAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidFileName">kLCErrorInvalidFileName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidImageData">kLCErrorInvalidImageData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidJSON">kLCErrorInvalidJSON</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidKeyName">kLCErrorInvalidKeyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidLinkedSession">kLCErrorInvalidLinkedSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidNestedKey">kLCErrorInvalidNestedKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidPointer">kLCErrorInvalidPointer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidProductIdentifier">kLCErrorInvalidProductIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidPurchaseReceipt">kLCErrorInvalidPurchaseReceipt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidQuery">kLCErrorInvalidQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidRoleName">kLCErrorInvalidRoleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidServerResponse">kLCErrorInvalidServerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorLinkedIdMissing">kLCErrorLinkedIdMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorMissingObjectId">kLCErrorMissingObjectId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorObjectNotFound">kLCErrorObjectNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorObjectTooLarge">kLCErrorObjectTooLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorOperationForbidden">kLCErrorOperationForbidden</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorPaymentDisabled">kLCErrorPaymentDisabled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorProductDownloadFileSystemFailure">kLCErrorProductDownloadFileSystemFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorProductNotFoundInAppStore">kLCErrorProductNotFoundInAppStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorPushMisconfigured">kLCErrorPushMisconfigured</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorReceiptMissing">kLCErrorReceiptMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorTimeout">kLCErrorTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUnsavedFile">kLCErrorUnsavedFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserCanOnlyBeCreatedThroughSignUp">kLCErrorUserCanOnlyBeCreatedThroughSignUp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserCannotBeAlteredWithoutSession">kLCErrorUserCannotBeAlteredWithoutSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserEmailMissing">kLCErrorUserEmailMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserEmailTaken">kLCErrorUserEmailTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserIdMismatch">kLCErrorUserIdMismatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneMissing">kLCErrorUserMobilePhoneMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneNotVerified">kLCErrorUserMobilePhoneNotVerified</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneNumberTaken">kLCErrorUserMobilePhoneNumberTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserNotFound">kLCErrorUserNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserPasswordMissing">kLCErrorUserPasswordMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserSNSAuthDataInvalid">kLCErrorUserSNSAuthDataInvalid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserWithEmailNotFound">kLCErrorUserWithEmailNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserWithMobilePhoneNotFound">kLCErrorUserWithMobilePhoneNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernameMissing">kLCErrorUsernameMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernamePasswordMismatch">kLCErrorUsernamePasswordMismatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernameTaken">kLCErrorUsernameTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMAppCodeKey">kLCIMAppCodeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMAppMsgKey">kLCIMAppMsgKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMCodeKey">kLCIMCodeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMDetailKey">kLCIMDetailKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMReasonKey">kLCIMReasonKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformAndroid">kLCPushTargetPlatformAndroid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformIOS">kLCPushTargetPlatformIOS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformWindowsPhone">kLCPushTargetPlatformWindowsPhone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCScriptError">kLCScriptError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCStatusTypePrivateMessage">kLCStatusTypePrivateMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCStatusTypeTimeline">kLCStatusTypeTimeline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCValidationError">kLCValidationError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLeanCloudErrorDomain">kLeanCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLeanCloudRESTAPIResponseError">kLeanCloudRESTAPIResponseError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/LCCachePolicy.html">LCCachePolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCFileDownloadOption.html">LCFileDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCFileUploadOption.html">LCFileUploadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMCachePolicy.html">LCIMCachePolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMClientOpenOption.html">LCIMClientOpenOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMClientStatus.html">LCIMClientStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationOption.html">LCIMConversationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationQueryOption.html">LCIMConversationQueryOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMErrorCode.html">LCIMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageIOType.html">LCIMMessageIOType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageMediaType.html">LCIMMessageMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessagePriority.html">LCIMMessagePriority</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageQueryDirection.html">LCIMMessageQueryDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageStatus.html">LCIMMessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCLogLevel.html">LCLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCQueryDistanceUnit.html">LCQueryDistanceUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCServiceModule.html">LCServiceModule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCShortMessageType.html">LCShortMessageType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMClientDelegate.html">LCIMClientDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMSignatureDataSource.html">LCIMSignatureDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMTypedMessageSubclassing.html">LCIMTypedMessageSubclassing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCLiveQueryDelegate.html">LCLiveQueryDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCSubclassing.html">LCSubclassing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@AVIMMessageSendOption">AVIMMessageSendOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCArrayResultBlock">LCArrayResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCaptcha.h@T@LCCaptchaRequestCallback">LCCaptchaRequestCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCaptcha.h@T@LCCaptchaVerificationCallback">LCCaptchaVerificationCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCloudQueryResult.h@T@LCCloudQueryCallback">LCCloudQueryCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDataResultBlock">LCDataResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDataStreamResultBlock">LCDataStreamResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDictionaryResultBlock">LCDictionaryResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCFileResultBlock">LCFileResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMArrayResultBlock">LCIMArrayResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMBooleanResultBlock">LCIMBooleanResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMChatRoomResultBlock">LCIMChatRoomResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationResultBlock">LCIMConversationResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationUpdatedKey">LCIMConversationUpdatedKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMIntegerResultBlock">LCIMIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMProgressBlock">LCIMProgressBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMSignatureAction">LCIMSignatureAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMTemporaryConversationResultBlock">LCIMTemporaryConversationResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCIdResultBlock">LCIdResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCImageResultBlock">LCImageResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCIntegerResultBlock">LCIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/LCLoggerLevel.html">LCLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCObjectResultBlock">LCObjectResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCProgressBlock">LCProgressBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCSetResultBlock">LCSetResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCStatus.h@T@LCStatusResultBlock">LCStatusResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCStatus.h@T@LCStatusType">LCStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCStringResultBlock">LCStringResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCUser.h@T@LeanCloudSocialPlatform">LeanCloudSocialPlatform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCRouter.h@T@RouterCacheKey">RouterCacheKey</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>LCIMClientDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">LCIMClientDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">LCIMClientDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                </div>
+              </div>
+            <p>This protocol defines methods to handle the events about client, conversation, message and so on.</p>
+
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L19-L224">Show on GitHub</a>
+              </div>
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientPaused:error:"></a>
+                    <a name="//apple_ref/objc/Method/-imClientPaused:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)imClientPaused:error:">-imClientPaused:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Client paused, means the connection lost.</p>
+
+<p>Common Scenario:
+    * Network unreachable or interface changed.
+    * App enter background
+    * &hellip;</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientPaused</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span>
+                 <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientPaused</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imClient</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The reason for pause.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L34">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientResuming:"></a>
+                    <a name="//apple_ref/objc/Method/-imClientResuming:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)imClientResuming:">-imClientResuming:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Client in resuming, invoked when the client try recover connection automatically.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientResuming</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientResuming</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imClient</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L38">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientResumed:"></a>
+                    <a name="//apple_ref/objc/Method/-imClientResumed:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)imClientResumed:">-imClientResumed:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Client resumed, means the client recover connection successfully.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientResumed</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientResumed</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imClient</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L42">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientClosed:error:"></a>
+                    <a name="//apple_ref/objc/Method/-imClientClosed:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)imClientClosed:error:">-imClientClosed:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Client closed and will not try recover connection automatically.</p>
+
+<p>Common Scenario:
+    * code: <code>4111</code>, reason: <code>SESSION_CONFLICT</code>
+    * code: <code>4115</code>, reason: <code>KICKED_BY_APP</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientClosed</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span>
+                 <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientClosed</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imClient</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The reason for close.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L52">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveCommonMessage:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didReceiveCommonMessage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveCommonMessage:">-conversation:<wbr>didReceiveCommonMessage:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didReceiveCommonMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didReceiveCommonMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveTypedMessage:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didReceiveTypedMessage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveTypedMessage:">-conversation:<wbr>didReceiveTypedMessage:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didReceiveTypedMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMTypedMessage.html">LCIMTypedMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didReceive</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMTypedMessage.html">LCIMTypedMessage</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:messageDelivered:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:messageDelivered:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:messageDelivered:">-conversation:<wbr>messageDelivered:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">messageDelivered</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">messageDelivered</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:messageHasBeenUpdated:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:">-conversation:<wbr>messageHasBeenUpdated:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoking when the sent message has been updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">messageHasBeenUpdated</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">messageHasBeenUpdated</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation which the sent message belongs to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The updated message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L83">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:membersAdded:byClientId:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:membersAdded:byClientId:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:membersAdded:byClientId:">-conversation:<wbr>membersAdded:<wbr>byClientId:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+        <span class="nf">membersAdded</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientIds</span>
+          <span class="nf">byClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">membersAdded</span> <span class="nv">clientIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?,</span> <span class="n">byClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:membersRemoved:byClientId:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:membersRemoved:byClientId:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:membersRemoved:byClientId:">-conversation:<wbr>membersRemoved:<wbr>byClientId:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+      <span class="nf">membersRemoved</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientIds</span>
+          <span class="nf">byClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">membersRemoved</span> <span class="nv">clientIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?,</span> <span class="n">byClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:invitedByClientId:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:invitedByClientId:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:invitedByClientId:">-conversation:<wbr>invitedByClientId:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">invitedByClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">invitedByClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:kickedByClientId:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:kickedByClientId:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:kickedByClientId:">-conversation:<wbr>kickedByClientId:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">kickedByClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">kickedByClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateForKey:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didUpdateForKey:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateForKey:">-conversation:<wbr>didUpdateForKey:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+     <span class="nf">didUpdateForKey</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationUpdatedKey">LCIMConversationUpdatedKey</a></span><span class="p">)</span><span class="nv">key</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUpdateForKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationUpdatedKey">LCIMConversationUpdatedKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didUpdateAt:byClientId:updatedData:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:">-conversation:<wbr>didUpdateAt:<wbr>byClientId:<wbr>updatedData:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for conversation&rsquo;s attribution updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+         <span class="nf">didUpdateAt</span><span class="p">:(</span><span class="n">NSDate</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">date</span>
+          <span class="nf">byClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span>
+         <span class="nf">updatedData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">data</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUpdateAt</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?,</span> <span class="n">byClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">updatedData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updated conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>date</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updated date.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Client ID of doing updates.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updated data.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L133">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMemberInfoUpdateBy:memberId:role:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMemberInfoUpdateBy:memberId:role:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMemberInfoUpdateBy:memberId:role:">-conversation:<wbr>didMemberInfoUpdateBy:<wbr>memberId:<wbr>role:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for conversation&rsquo;s member info updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didMemberInfoUpdateBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span>
+                 <span class="nf">memberId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">memberId</span>
+                     <span class="nf">role</span><span class="p">:(</span><span class="n"><a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a></span><span class="p">)</span><span class="nv">role</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMemberInfoUpdateBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">memberId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">role</span><span class="p">:</span> <span class="kt"><a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updated conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Client ID of doing update.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>memberId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Client ID of being updated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>role</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updated role.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L143">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didBlockBy:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didBlockBy:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didBlockBy:">-conversation:<wbr>didBlockBy:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for this client was blocked by other client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+          <span class="nf">didBlockBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didBlockBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who blocking this client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L151">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUnblockBy:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didUnblockBy:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUnblockBy:">-conversation:<wbr>didUnblockBy:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for this client was Unblocked by other client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+        <span class="nf">didUnblockBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUnblockBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who unblocking this client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L159">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersBlockBy:memberIds:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMembersBlockBy:memberIds:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersBlockBy:memberIds:">-conversation:<wbr>didMembersBlockBy:<wbr>memberIds:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for some other clients was blocked by a client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didMembersBlockBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span>
+            <span class="nf">memberIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">memberIds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMembersBlockBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">memberIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who blocking these clients.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>memberIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Being blocked clients&rsquo;s ID array.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L168">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersUnblockBy:memberIds:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMembersUnblockBy:memberIds:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersUnblockBy:memberIds:">-conversation:<wbr>didMembersUnblockBy:<wbr>memberIds:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for some other clients was unblocked by a client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didMembersUnblockBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span>
+              <span class="nf">memberIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">memberIds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMembersUnblockBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">memberIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who unblocking these clients.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>memberIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Being unblocked clients&rsquo;s ID array.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L177">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMuteBy:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMuteBy:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMuteBy:">-conversation:<wbr>didMuteBy:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for this client was muted by other client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+           <span class="nf">didMuteBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMuteBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who muting this client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L185">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUnmuteBy:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didUnmuteBy:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUnmuteBy:">-conversation:<wbr>didUnmuteBy:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for this client was Unmuted by other client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+         <span class="nf">didUnmuteBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUnmuteBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who unmuting this client.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L193">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersMuteBy:memberIds:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMembersMuteBy:memberIds:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersMuteBy:memberIds:">-conversation:<wbr>didMembersMuteBy:<wbr>memberIds:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for some other clients was muted by a client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didMembersMuteBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span>
+           <span class="nf">memberIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">memberIds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMembersMuteBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">memberIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who muted these clients.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>memberIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Being muted clients&rsquo;s ID array.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L202">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersUnmuteBy:memberIds:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didMembersUnmuteBy:memberIds:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didMembersUnmuteBy:memberIds:">-conversation:<wbr>didMembersUnmuteBy:<wbr>memberIds:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notification for some other clients was unmuted by a client in the conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">didMembersUnmuteBy</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">byClientId</span>
+             <span class="nf">memberIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">memberIds</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didMembersUnmuteBy</span> <span class="nv">byClientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">memberIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Conversation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byClientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Who unmuting these clients.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>memberIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Being unmuting clients&rsquo;s ID array.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L211">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientPaused:"></a>
+                    <a name="//apple_ref/objc/Method/-imClientPaused:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)imClientPaused:">-imClientPaused:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)imClientPaused:error:">-[LCIMClientDelegate imClientPaused:error:]</a></code> instead.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientPaused</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span>
+<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate imClientPaused:error:]` instead."</span><span class="p">);</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientPaused</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L215-L216">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)client:didOfflineWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-client:didOfflineWithError:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)client:didOfflineWithError:">-client:<wbr>didOfflineWithError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)imClientClosed:error:">-[LCIMClientDelegate imClientClosed:error:]</a></code> instead.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">client</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">client</span> <span class="nf">didOfflineWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span>
+<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate imClientClosed:error:]` instead."</span><span class="p">);</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">client</span><span class="p">(</span><span class="n">_</span> <span class="nv">client</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">,</span> <span class="n">didOfflineWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L218-L219">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveUnread:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didReceiveUnread:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveUnread:">-conversation:<wbr>didReceiveUnread:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateForKey:">-[LCIMClientDelegate conversation:didUpdateForKey:]</a></code> instead.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span> <span class="nf">didReceiveUnread</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">unread</span>
+<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate conversation:didUpdateForKey:]` instead."</span><span class="p">);</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didReceiveUnread</span> <span class="nv">unread</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L221-L222">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-05-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

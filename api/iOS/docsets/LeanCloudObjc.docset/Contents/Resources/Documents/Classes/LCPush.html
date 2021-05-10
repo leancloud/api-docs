@@ -1,0 +1,2356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LCPush Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/LCPush" class="dashAnchor"></a>
+    <a title="LCPush Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">LeanCloudObjc 13.0.0-beta.2 Docs</a> (33% documented)</p>
+        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">LeanCloudObjc Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        LCPush Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/LCACL.html">LCACL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCApplication.html">LCApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptcha.html">LCCaptcha</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptchaDigest.html">LCCaptchaDigest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCaptchaRequestOptions.html">LCCaptchaRequestOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCloud.html">LCCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCCloudQueryResult.html">LCCloudQueryResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCDynamicObject.html">LCDynamicObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFile.html">LCFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCFileQuery.html">LCFileQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCGeoPoint.html">LCGeoPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMAudioMessage.html">LCIMAudioMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMChatRoom">LCIMChatRoom</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClient.html">LCIMClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClientInternalConversationManager.html">LCIMClientInternalConversationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversationMemberInfo.html">LCIMConversationMemberInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMConversationQuery.html">LCIMConversationQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMFileMessage.html">LCIMFileMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMImageMessage.html">LCIMImageMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMKeyedConversation.html">LCIMKeyedConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMLocationMessage.html">LCIMLocationMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessage.html">LCIMMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageInterval.html">LCIMMessageInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageIntervalBound.html">LCIMMessageIntervalBound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMMessageOption.html">LCIMMessageOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMOperationFailure.html">LCIMOperationFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMRecalledMessage">LCIMRecalledMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMServiceConversation.html">LCIMServiceConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMSignature.html">LCIMSignature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)LCIMTemporaryConversation">LCIMTemporaryConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMTextMessage.html">LCIMTextMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMTypedMessage.html">LCIMTypedMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMVideoMessage.html">LCIMVideoMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCInstallation.html">LCInstallation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCLiveQuery.html">LCLiveQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCLogger.html">LCLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCObject.html">LCObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCPush.html">LCPush</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCQuery.html">LCQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRelation.html">LCRelation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRole.html">LCRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCRouter.html">LCRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSMS.html">LCSMS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSaveOption.html">LCSaveOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSearchQuery.html">LCSearchQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCSearchSortBuilder.html">LCSearchSortBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCShortMessageRequestOptions.html">LCShortMessageRequestOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCStatus.html">LCStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCStatusQuery.html">LCStatusQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUser.html">LCUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUserAuthDataLoginOption.html">LCUserAuthDataLoginOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCUserShortMessageRequestOptions.html">LCUserShortMessageRequestOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@AVIMUserOptionCustomProtocols">AVIMUserOptionCustomProtocols</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastDeliveredAt">LCIMConversationUpdatedKeyLastDeliveredAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastMessage">LCIMConversationUpdatedKeyLastMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastMessageAt">LCIMConversationUpdatedKeyLastMessageAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastReadAt">LCIMConversationUpdatedKeyLastReadAt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesCount">LCIMConversationUpdatedKeyUnreadMessagesCount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesMentioned">LCIMConversationUpdatedKeyUnreadMessagesMentioned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionAdd">LCIMSignatureActionAdd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionBlock">LCIMSignatureActionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionOpen">LCIMSignatureActionOpen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionRemove">LCIMSignatureActionRemove</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionStart">LCIMSignatureActionStart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMSignatureActionUnblock">LCIMSignatureActionUnblock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMUserOptionUseUnread">LCIMUserOptionUseUnread</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainCURL">LCLoggerDomainCURL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainDefault">LCLoggerDomainDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainIM">LCLoggerDomainIM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainNetwork">LCLoggerDomainNetwork</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCLoggerDomainStorage">LCLoggerDomainStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudObjcVersionNumber">LeanCloudObjcVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudObjcVersionString">LeanCloudObjcVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformQQ">LeanCloudSocialPlatformQQ</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiBo">LeanCloudSocialPlatformWeiBo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiXin">LeanCloudSocialPlatformWeiXin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RouterCacheKeyApp">RouterCacheKeyApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@RouterCacheKeyRTM">RouterCacheKeyRTM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorAccountAlreadyLinked">kLCErrorAccountAlreadyLinked</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorCacheMiss">kLCErrorCacheMiss</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorCommandUnavailable">kLCErrorCommandUnavailable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorConnectionFailed">kLCErrorConnectionFailed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorDuplicateValue">kLCErrorDuplicateValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorExceededQuota">kLCErrorExceededQuota</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorFileDeleteFailure">kLCErrorFileDeleteFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorIncorrectType">kLCErrorIncorrectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInternalServer">kLCErrorInternalServer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidACL">kLCErrorInvalidACL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidChannelName">kLCErrorInvalidChannelName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidClassName">kLCErrorInvalidClassName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidDeviceToken">kLCErrorInvalidDeviceToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidEmailAddress">kLCErrorInvalidEmailAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidFileName">kLCErrorInvalidFileName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidImageData">kLCErrorInvalidImageData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidJSON">kLCErrorInvalidJSON</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidKeyName">kLCErrorInvalidKeyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidLinkedSession">kLCErrorInvalidLinkedSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidNestedKey">kLCErrorInvalidNestedKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidPointer">kLCErrorInvalidPointer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidProductIdentifier">kLCErrorInvalidProductIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidPurchaseReceipt">kLCErrorInvalidPurchaseReceipt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidQuery">kLCErrorInvalidQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidRoleName">kLCErrorInvalidRoleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorInvalidServerResponse">kLCErrorInvalidServerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorLinkedIdMissing">kLCErrorLinkedIdMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorMissingObjectId">kLCErrorMissingObjectId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorObjectNotFound">kLCErrorObjectNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorObjectTooLarge">kLCErrorObjectTooLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorOperationForbidden">kLCErrorOperationForbidden</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorPaymentDisabled">kLCErrorPaymentDisabled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorProductDownloadFileSystemFailure">kLCErrorProductDownloadFileSystemFailure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorProductNotFoundInAppStore">kLCErrorProductNotFoundInAppStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorPushMisconfigured">kLCErrorPushMisconfigured</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorReceiptMissing">kLCErrorReceiptMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorTimeout">kLCErrorTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUnsavedFile">kLCErrorUnsavedFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserCanOnlyBeCreatedThroughSignUp">kLCErrorUserCanOnlyBeCreatedThroughSignUp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserCannotBeAlteredWithoutSession">kLCErrorUserCannotBeAlteredWithoutSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserEmailMissing">kLCErrorUserEmailMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserEmailTaken">kLCErrorUserEmailTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserIdMismatch">kLCErrorUserIdMismatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneMissing">kLCErrorUserMobilePhoneMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneNotVerified">kLCErrorUserMobilePhoneNotVerified</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserMobilePhoneNumberTaken">kLCErrorUserMobilePhoneNumberTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserNotFound">kLCErrorUserNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserPasswordMissing">kLCErrorUserPasswordMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserSNSAuthDataInvalid">kLCErrorUserSNSAuthDataInvalid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserWithEmailNotFound">kLCErrorUserWithEmailNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUserWithMobilePhoneNotFound">kLCErrorUserWithMobilePhoneNotFound</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernameMissing">kLCErrorUsernameMissing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernamePasswordMismatch">kLCErrorUsernamePasswordMismatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCErrorUsernameTaken">kLCErrorUsernameTaken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMAppCodeKey">kLCIMAppCodeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMAppMsgKey">kLCIMAppMsgKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMCodeKey">kLCIMCodeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMDetailKey">kLCIMDetailKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCIMReasonKey">kLCIMReasonKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformAndroid">kLCPushTargetPlatformAndroid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformIOS">kLCPushTargetPlatformIOS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCPushTargetPlatformWindowsPhone">kLCPushTargetPlatformWindowsPhone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCScriptError">kLCScriptError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCStatusTypePrivateMessage">kLCStatusTypePrivateMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCStatusTypeTimeline">kLCStatusTypeTimeline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLCValidationError">kLCValidationError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLeanCloudErrorDomain">kLeanCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kLeanCloudRESTAPIResponseError">kLeanCloudRESTAPIResponseError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/LCCachePolicy.html">LCCachePolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCFileDownloadOption.html">LCFileDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCFileUploadOption.html">LCFileUploadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMCachePolicy.html">LCIMCachePolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMClientOpenOption.html">LCIMClientOpenOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMClientStatus.html">LCIMClientStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationOption.html">LCIMConversationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMConversationQueryOption.html">LCIMConversationQueryOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMErrorCode.html">LCIMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageIOType.html">LCIMMessageIOType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageMediaType.html">LCIMMessageMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessagePriority.html">LCIMMessagePriority</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageQueryDirection.html">LCIMMessageQueryDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCIMMessageStatus.html">LCIMMessageStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCLogLevel.html">LCLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCQueryDistanceUnit.html">LCQueryDistanceUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCServiceModule.html">LCServiceModule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LCShortMessageType.html">LCShortMessageType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMClientDelegate.html">LCIMClientDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMSignatureDataSource.html">LCIMSignatureDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCIMTypedMessageSubclassing.html">LCIMTypedMessageSubclassing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCLiveQueryDelegate.html">LCLiveQueryDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LCSubclassing.html">LCSubclassing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@AVIMMessageSendOption">AVIMMessageSendOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCArrayResultBlock">LCArrayResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCaptcha.h@T@LCCaptchaRequestCallback">LCCaptchaRequestCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCaptcha.h@T@LCCaptchaVerificationCallback">LCCaptchaVerificationCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCCloudQueryResult.h@T@LCCloudQueryCallback">LCCloudQueryCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDataResultBlock">LCDataResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDataStreamResultBlock">LCDataStreamResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCDictionaryResultBlock">LCDictionaryResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCFileResultBlock">LCFileResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMArrayResultBlock">LCIMArrayResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMBooleanResultBlock">LCIMBooleanResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMChatRoomResultBlock">LCIMChatRoomResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationResultBlock">LCIMConversationResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMConversationUpdatedKey">LCIMConversationUpdatedKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMIntegerResultBlock">LCIMIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMProgressBlock">LCIMProgressBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMSignatureAction">LCIMSignatureAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMTemporaryConversationResultBlock">LCIMTemporaryConversationResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCIdResultBlock">LCIdResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCImageResultBlock">LCImageResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCIntegerResultBlock">LCIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/LCLoggerLevel.html">LCLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCObjectResultBlock">LCObjectResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCProgressBlock">LCProgressBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCSetResultBlock">LCSetResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCStatus.h@T@LCStatusResultBlock">LCStatusResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCStatus.h@T@LCStatusType">LCStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCStringResultBlock">LCStringResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCUser.h@T@LeanCloudSocialPlatform">LeanCloudSocialPlatform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCRouter.h@T@RouterCacheKey">RouterCacheKey</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>LCPush</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">LCPush</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">LCPush</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+              <div class="slightly-smaller">
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L28-L378">Show on GitHub</a>
+              </div>
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Creating%20a%20Push%20Notification%20%2A%2F"></a>
+                <a name="//apple_ref/objc/Section/Creating a Push Notification */" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Creating%20a%20Push%20Notification%20%2A%2F"></a>
+                  <h3 class="section-name"><p>Creating a Push Notification */</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)push"></a>
+                    <a name="//apple_ref/objc/Method/+push" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)push">+push</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>创建一个 LCPush 对象</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">push</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>LCPush 对象</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L36">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)setProductionMode:"></a>
+                    <a name="//apple_ref/objc/Method/+setProductionMode:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)setProductionMode:">+setProductionMode:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set call what production mode&rsquo;s cloud code</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setProductionMode</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">isProduction</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setProductionMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">isProduction</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isProduction</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the production mode or test mode</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L42">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)setIgnoreProdParameterEnabled:"></a>
+                    <a name="//apple_ref/objc/Method/+setIgnoreProdParameterEnabled:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)setIgnoreProdParameterEnabled:">+setIgnoreProdParameterEnabled:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default is false, if set true, LCPush will remove &lsquo;prod&rsquo; Key-Value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setIgnoreProdParameterEnabled</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">isIgnoreProd</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setIgnoreProdParameterEnabled</span><span class="p">(</span><span class="n">_</span> <span class="nv">isIgnoreProd</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isIgnoreProd</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>trigger.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L49">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Configuring%20a%20Push%20Notification%20%2A%2F"></a>
+                <a name="//apple_ref/objc/Section/Configuring a Push Notification */" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Configuring%20a%20Push%20Notification%20%2A%2F"></a>
+                  <h3 class="section-name"><p>Configuring a Push Notification */</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setChannel:"></a>
+                    <a name="//apple_ref/objc/Method/-setChannel:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setChannel:">-setChannel:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setChannel</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setChannel</span><span class="p">(</span><span class="n">_</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setChannels:"></a>
+                    <a name="//apple_ref/objc/Method/-setChannels:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setChannels:">-setChannels:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setChannels</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">channels</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setChannels</span><span class="p">(</span><span class="n">_</span> <span class="nv">channels</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setQuery:"></a>
+                    <a name="//apple_ref/objc/Method/-setQuery:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setQuery:">-setQuery:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setQuery</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setQuery</span><span class="p">(</span><span class="n">_</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setMessage:"></a>
+                    <a name="//apple_ref/objc/Method/-setMessage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setMessage:">-setMessage:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setData:"></a>
+                    <a name="//apple_ref/objc/Method/-setData:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setData:">-setData:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setData</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setPushToTargetPlatforms:"></a>
+                    <a name="//apple_ref/objc/Method/-setPushToTargetPlatforms:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setPushToTargetPlatforms:">-setPushToTargetPlatforms:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets push target platforms.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPushToTargetPlatforms</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">platforms</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPushToTargetPlatforms</span><span class="p">(</span><span class="n">_</span> <span class="nv">platforms</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>platforms</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Target platforms.
+     Value maybe in kLCPushTargetPlatformIOS,kLCPushTargetPlatformAndroid,kLCPushTargetPlatformWindowsPhone</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L97">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setPushToAndroid:"></a>
+                    <a name="//apple_ref/objc/Method/-setPushToAndroid:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setPushToAndroid:">-setPushToAndroid:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets whether this push will go to Android devices.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPushToAndroid</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">pushToAndroid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPushToAndroid</span><span class="p">(</span><span class="n">_</span> <span class="nv">pushToAndroid</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pushToAndroid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Defaults to true.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L104">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setPushToIOS:"></a>
+                    <a name="//apple_ref/objc/Method/-setPushToIOS:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setPushToIOS:">-setPushToIOS:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets whether this push will go to iOS devices</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPushToIOS</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">pushToIOS</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPushToIOS</span><span class="p">(</span><span class="n">_</span> <span class="nv">pushToIOS</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pushToIOS</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Defaults to true</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L111">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setPushToWP:"></a>
+                    <a name="//apple_ref/objc/Method/-setPushToWP:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setPushToWP:">-setPushToWP:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets whether this push will go to WinPhone devices.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPushToWP</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">pushToWP</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPushToWP</span><span class="p">(</span><span class="n">_</span> <span class="nv">pushToWP</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pushToWP</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Defaults to true.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L118">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)setPushDate:"></a>
+                    <a name="//apple_ref/objc/Method/-setPushDate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)setPushDate:">-setPushDate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets to push at sometime </p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPushDate</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDate</span> <span class="o">*</span><span class="p">)</span><span class="nv">dateToPush</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPush</span><span class="p">(</span><span class="n">_</span> <span class="nv">dateToPush</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dateToPush</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Defaults is now.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L125">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)expireAtDate:"></a>
+                    <a name="//apple_ref/objc/Method/-expireAtDate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)expireAtDate:">-expireAtDate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">expireAtDate</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDate</span> <span class="o">*</span><span class="p">)</span><span class="nv">date</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">expire</span><span class="p">(</span><span class="n">at</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)expireAfterTimeInterval:"></a>
+                    <a name="//apple_ref/objc/Method/-expireAfterTimeInterval:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)expireAfterTimeInterval:">-expireAfterTimeInterval:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">expireAfterTimeInterval</span><span class="p">:(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">timeInterval</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">expire</span><span class="p">(</span><span class="n">afterTimeInterval</span> <span class="nv">timeInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)clearExpiration"></a>
+                    <a name="//apple_ref/objc/Method/-clearExpiration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)clearExpiration">-clearExpiration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">clearExpiration</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">clearExpiration</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Sending%20Push%20Notifications%20%2A%2F"></a>
+                <a name="//apple_ref/objc/Section/Sending Push Notifications */" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Sending%20Push%20Notifications%20%2A%2F"></a>
+                  <h3 class="section-name"><p>Sending Push Notifications */</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToChannel:withMessage:error:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToChannel:withMessage:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToChannel:withMessage:error:">+sendPushMessageToChannel:<wbr>withMessage:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPushMessageToChannel</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                     <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                           <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="n">toChannel</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L165-L167">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToChannelInBackground:withMessage:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToChannelInBackground:withMessage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToChannelInBackground:withMessage:">+sendPushMessageToChannelInBackground:<wbr>withMessage:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushMessageToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                 <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessageToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L175-L176">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToChannelInBackground:withMessage:block:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToChannelInBackground:withMessage:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToChannelInBackground:withMessage:block:">+sendPushMessageToChannelInBackground:<wbr>withMessage:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushMessageToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                 <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                                       <span class="nf">block</span><span class="p">:</span>
+                                           <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessageToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L185-L187">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToQuery:withMessage:error:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToQuery:withMessage:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToQuery:withMessage:error:">+sendPushMessageToQuery:<wbr>withMessage:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPushMessageToQuery</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                   <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                         <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="n">to</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L197-L199">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToQueryInBackground:withMessage:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToQueryInBackground:withMessage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToQueryInBackground:withMessage:">+sendPushMessageToQueryInBackground:<wbr>withMessage:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushMessageToQueryInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                               <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessageToQuery</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L207-L208">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushMessageToQueryInBackground:withMessage:block:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushMessageToQueryInBackground:withMessage:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushMessageToQueryInBackground:withMessage:block:">+sendPushMessageToQueryInBackground:<wbr>withMessage:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushMessageToQueryInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                               <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                                     <span class="nf">block</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendMessageToQuery</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L217-L219">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)sendPush:"></a>
+                    <a name="//apple_ref/objc/Method/-sendPush:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)sendPush:">-sendPush:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPush</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">send</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)sendPushAndThrowsWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-sendPushAndThrowsWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)sendPushAndThrowsWithError:">-sendPushAndThrowsWithError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPushAndThrowsWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendAndThrows</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)sendPushInBackground"></a>
+                    <a name="//apple_ref/objc/Method/-sendPushInBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)sendPushInBackground">-sendPushInBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">sendPushInBackground</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendInBackground</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(im)sendPushInBackgroundWithBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-sendPushInBackgroundWithBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(im)sendPushInBackgroundWithBlock:">-sendPushInBackgroundWithBlock:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushInBackgroundWithBlock</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendInBackground</span><span class="p">(</span><span class="n">_</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToChannel:withData:error:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToChannel:withData:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToChannel:withData:error:">+sendPushDataToChannel:<wbr>withData:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPushDataToChannel</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                     <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span>
+                        <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendData</span><span class="p">(</span><span class="n">toChannel</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L253-L255">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToChannelInBackground:withData:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToChannelInBackground:withData:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToChannelInBackground:withData:">+sendPushDataToChannelInBackground:<wbr>withData:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushDataToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                 <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendDataToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L263-L264">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToChannelInBackground:withData:block:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToChannelInBackground:withData:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToChannelInBackground:withData:block:">+sendPushDataToChannelInBackground:<wbr>withData:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushDataToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                 <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span>
+                                    <span class="nf">block</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendDataToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L273-L275">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToQuery:withData:error:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToQuery:withData:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToQuery:withData:error:">+sendPushDataToQuery:<wbr>withData:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendPushDataToQuery</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                   <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span>
+                      <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendData</span><span class="p">(</span><span class="n">to</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L285-L287">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToQueryInBackground:withData:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToQueryInBackground:withData:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToQueryInBackground:withData:">+sendPushDataToQueryInBackground:<wbr>withData:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushDataToQueryInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                               <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendDataToQuery</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L295-L296">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)sendPushDataToQueryInBackground:withData:block:"></a>
+                    <a name="//apple_ref/objc/Method/+sendPushDataToQueryInBackground:withData:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)sendPushDataToQueryInBackground:withData:block:">+sendPushDataToQueryInBackground:<wbr>withData:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendPushDataToQueryInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                               <span class="nf">withData</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span>
+                                  <span class="nf">block</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendDataToQuery</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">query</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span><span class="p">,</span> <span class="n">withData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L305-L307">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Handling%20Notifications%20%2A%2F"></a>
+                <a name="//apple_ref/objc/Section/Handling Notifications */" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Handling%20Notifications%20%2A%2F"></a>
+                  <h3 class="section-name"><p>Handling Notifications */</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)getSubscribedChannels:"></a>
+                    <a name="//apple_ref/objc/Method/+getSubscribedChannels:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)getSubscribedChannels:">+getSubscribedChannels:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">NSSet</span> <span class="o">*</span><span class="p">)</span><span class="nf">getSubscribedChannels</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getSubscribedChannels</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)getSubscribedChannelsAndThrowsWithError:"></a>
+                    <a name="//apple_ref/objc/Method/+getSubscribedChannelsAndThrowsWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)getSubscribedChannelsAndThrowsWithError:">+getSubscribedChannelsAndThrowsWithError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">NSSet</span> <span class="o">*</span><span class="p">)</span><span class="nf">getSubscribedChannelsAndThrowsWithError</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getSubscribedChannelsAndThrows</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)getSubscribedChannelsInBackgroundWithBlock:"></a>
+                    <a name="//apple_ref/objc/Method/+getSubscribedChannelsInBackgroundWithBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)getSubscribedChannelsInBackgroundWithBlock:">+getSubscribedChannelsInBackgroundWithBlock:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getSubscribedChannelsInBackgroundWithBlock</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCSetResultBlock">LCSetResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">getSubscribedChannelsInBackground</span><span class="p">(</span><span class="n">_</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCSetResultBlock">LCSetResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)subscribeToChannel:error:"></a>
+                    <a name="//apple_ref/objc/Method/+subscribeToChannel:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)subscribeToChannel:error:">+subscribeToChannel:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">subscribeToChannel</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                     <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">subscribe</span><span class="p">(</span><span class="n">toChannel</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)subscribeToChannelInBackground:"></a>
+                    <a name="//apple_ref/objc/Method/+subscribeToChannelInBackground:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)subscribeToChannelInBackground:">+subscribeToChannelInBackground:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">subscribeToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">subscribeToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)subscribeToChannelInBackground:block:"></a>
+                    <a name="//apple_ref/objc/Method/+subscribeToChannelInBackground:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)subscribeToChannelInBackground:block:">+subscribeToChannelInBackground:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">subscribeToChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                 <span class="nf">block</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">subscribeToChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L352-L353">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)unsubscribeFromChannel:error:"></a>
+                    <a name="//apple_ref/objc/Method/+unsubscribeFromChannel:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)unsubscribeFromChannel:error:">+unsubscribeFromChannel:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">unsubscribeFromChannel</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                         <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">unsubscribe</span><span class="p">(</span><span class="n">fromChannel</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)unsubscribeFromChannelInBackground:"></a>
+                    <a name="//apple_ref/objc/Method/+unsubscribeFromChannelInBackground:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)unsubscribeFromChannelInBackground:">+unsubscribeFromChannelInBackground:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">unsubscribeFromChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">unsubscribeFromChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCPush(cm)unsubscribeFromChannelInBackground:block:"></a>
+                    <a name="//apple_ref/objc/Method/+unsubscribeFromChannelInBackground:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCPush(cm)unsubscribeFromChannelInBackground:block:">+unsubscribeFromChannelInBackground:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">unsubscribeFromChannelInBackground</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">channel</span>
+                                     <span class="nf">block</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">unsubscribeFromChannel</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">channel</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCBooleanResultBlock">LCBooleanResultBlock</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Push/LCPush.h#L375-L376">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-05-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
