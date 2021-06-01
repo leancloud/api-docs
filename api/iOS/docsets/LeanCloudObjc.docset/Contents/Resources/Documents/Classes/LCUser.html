@@ -17,7 +17,7 @@
     <a title="LCUser Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloudObjc 13.0.0-beta.2 Docs</a> (33% documented)</p>
+        <p><a href="../index.html">LeanCloudObjc 13.0.0 Docs</a> (35% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
         <p class="header-right">
@@ -83,10 +83,10 @@
                 <a href="../Classes/LCIMClient.html">LCIMClient</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCIMClientInternalConversationManager.html">LCIMClientInternalConversationManager</a>
+                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
+                <a href="../Classes/LCIMConversationCreationOption.html">LCIMConversationCreationOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMConversationMemberInfo.html">LCIMConversationMemberInfo</a>
@@ -119,10 +119,13 @@
                 <a href="../Classes/LCIMMessageOption.html">LCIMMessageOption</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/LCIMOperationFailure.html">LCIMOperationFailure</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/c:objc(cs)LCIMRecalledMessage">LCIMRecalledMessage</a>
+                <a href="../Classes/LCIMRecalledMessage.html">LCIMRecalledMessage</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMServiceConversation.html">LCIMServiceConversation</a>
@@ -167,9 +170,6 @@
                 <a href="../Classes/LCRole.html">LCRole</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCRouter.html">LCRouter</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/LCSMS.html">LCSMS</a>
               </li>
               <li class="nav-group-task">
@@ -204,9 +204,6 @@
           <li class="nav-group-name">
             <a href="../Constants.html">Constants</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@AVIMUserOptionCustomProtocols">AVIMUserOptionCustomProtocols</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastDeliveredAt">LCIMConversationUpdatedKeyLastDeliveredAt</a>
               </li>
@@ -244,9 +241,6 @@
                 <a href="../Constants.html#/c:@LCIMSignatureActionUnblock">LCIMSignatureActionUnblock</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Constants.html#/c:@LCIMUserOptionUseUnread">LCIMUserOptionUseUnread</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCLoggerDomainCURL">LCLoggerDomainCURL</a>
               </li>
               <li class="nav-group-task">
@@ -275,12 +269,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiXin">LeanCloudSocialPlatformWeiXin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@RouterCacheKeyApp">RouterCacheKeyApp</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@RouterCacheKeyRTM">RouterCacheKeyRTM</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@kLCErrorAccountAlreadyLinked">kLCErrorAccountAlreadyLinked</a>
@@ -513,9 +501,6 @@
                 <a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LCIMConversationOption.html">LCIMConversationOption</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/LCIMConversationQueryOption.html">LCIMConversationQueryOption</a>
               </li>
               <li class="nav-group-task">
@@ -573,9 +558,6 @@
           <li class="nav-group-name">
             <a href="../Type%20Definitions.html">Type Definitions</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@AVIMMessageSendOption">AVIMMessageSendOption</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCArrayResultBlock">LCArrayResultBlock</a>
               </li>
@@ -666,9 +648,6 @@
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCUser.h@T@LeanCloudSocialPlatform">LeanCloudSocialPlatform</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Type%20Definitions.html#/c:LCRouter.h@T@RouterCacheKey">RouterCacheKey</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -692,7 +671,7 @@
             <p>User</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L58-L502">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L58-L502">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -737,7 +716,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -772,7 +751,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -807,7 +786,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L77">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L77">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -842,7 +821,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L80">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L80">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -878,7 +857,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -921,7 +900,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -956,7 +935,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -991,7 +970,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L105">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1027,7 +1006,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L111">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L111">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1062,7 +1041,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L116">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L116">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1097,7 +1076,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L121">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L121">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1132,7 +1111,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L126">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L126">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1205,7 +1184,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L137">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L137">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1240,7 +1219,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1276,7 +1255,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1312,7 +1291,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1342,12 +1321,12 @@ the password. It is only meant to be set.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">signUp</span><span class="p">(</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSErrorPointer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">signUp</span><span class="p">()</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1382,7 +1361,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1417,7 +1396,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1454,7 +1433,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1489,7 +1468,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1521,12 +1500,12 @@ the password. It is only meant to be set.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withUsername</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="p">())</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withUsername</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L205-L207">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L205-L207">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1563,7 +1542,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L217-L219">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L217-L219">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1643,7 +1622,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L228">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L228">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1676,12 +1655,12 @@ the password. It is only meant to be set.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="p">())</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L237-L239">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L237-L239">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1718,7 +1697,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L246-L248">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L246-L248">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1754,7 +1733,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1836,7 +1815,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L266-L268">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L266-L268">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1869,12 +1848,12 @@ the password. It is only meant to be set.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">smsCode</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="p">())</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">smsCode</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L276-L278">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L276-L278">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1911,7 +1890,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L286-L288">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L286-L288">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1949,7 +1928,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L298-L300">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L298-L300">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1989,7 +1968,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L309-L311">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L309-L311">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2085,7 +2064,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L321-L324">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L321-L324">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2133,7 +2112,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2177,12 +2156,12 @@ the password. It is only meant to be set.</p>
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">requestPasswordReset</span><span class="p">(</span><span class="n">forEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="p">())</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">requestPasswordReset</span><span class="p">(</span><span class="n">forEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L345-L346">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L345-L346">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2219,7 +2198,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L355-L356">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L355-L356">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2255,7 +2234,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L364-L365">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L364-L365">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2340,7 +2319,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L374-L376">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L374-L376">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2377,7 +2356,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L384-L386">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L384-L386">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2413,7 +2392,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2450,7 +2429,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2498,7 +2477,7 @@ the password. It is only meant to be set.</p>
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2566,7 +2545,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L414-L415">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L414-L415">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2649,7 +2628,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L421-L423">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L421-L423">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2730,7 +2709,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L429-L431">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L429-L431">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2816,7 +2795,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L437-L439">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L437-L439">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2898,7 +2877,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L445-L447">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L445-L447">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2991,7 +2970,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L459-L462">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L459-L462">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3085,7 +3064,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L472-L475">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L472-L475">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3153,7 +3132,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L483-L484">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L483-L484">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3208,7 +3187,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L493">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L493">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3247,7 +3226,7 @@ the password. It is only meant to be set.</p>
                         <p>Result.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L500">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/User/LCUser.h#L500">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3318,7 +3297,7 @@ the password. It is only meant to be set.</p>
                         <p>用于查询的LCQuery</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L210">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L181">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3357,7 +3336,7 @@ the password. It is only meant to be set.</p>
                         <p>用于查询的LCQuery</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L217">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L188">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3415,7 +3394,7 @@ the password. It is only meant to be set.</p>
                         <p>用于查询的LCQuery</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L226">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L197">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3454,7 +3433,7 @@ the password. It is only meant to be set.</p>
                         <p>用于查询的LCQuery</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L233">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L204">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3526,7 +3505,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L241">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L212">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3611,7 +3590,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L250">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L221">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3678,7 +3657,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L259">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L230">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3732,7 +3711,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L266">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L237">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3786,7 +3765,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L274">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L245">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -3840,647 +3819,7 @@ the password. It is only meant to be set.</p>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/Status/LCStatus.h#L281">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/Deprecated"></a>
-                <a name="//apple_ref/objc/Section/Deprecated" class="dashAnchor"></a>
-                <div class="section-name-container">
-                  <a class="section-name-link" href="#/Deprecated"></a>
-                  <h3 class="section-name"><p>Deprecated</p>
-</h3>
-                </div>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)loginOrSignUpWithAuthData:platform:block:"></a>
-                    <a name="//apple_ref/objc/Method/+loginOrSignUpWithAuthData:platform:block:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)loginOrSignUpWithAuthData:platform:block:">+loginOrSignUpWithAuthData:<wbr>platform:<wbr>block:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)loginWithAuthData:platformId:options:callback:">-[LCUser loginWithAuthData:platformId:options:callback:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">loginOrSignUpWithAuthData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">authData</span>
-                         <span class="nf">platform</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">platform</span>
-                            <span class="nf">block</span><span class="p">:(</span><span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span><span class="nv">block</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser loginWithAuthData:platformId:options:callback:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">loginOrSignUp</span><span class="p">(</span><span class="n">withAuthData</span> <span class="nv">authData</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">platform</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L506-L509">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(im)associateWithAuthData:platform:block:"></a>
-                    <a name="//apple_ref/objc/Method/-associateWithAuthData:platform:block:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(im)associateWithAuthData:platform:block:">-associateWithAuthData:<wbr>platform:<wbr>block:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)associateWithAuthData:platformId:options:callback:">-[LCUser associateWithAuthData:platformId:options:callback:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">associateWithAuthData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">authData</span>
-                     <span class="nf">platform</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">platform</span>
-                        <span class="nf">block</span><span class="p">:(</span><span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span><span class="nv">block</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser associateWithAuthData:platformId:options:callback:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">associate</span><span class="p">(</span><span class="n">withAuthData</span> <span class="nv">authData</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">platform</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L511-L514">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(im)disassociateWithPlatform:block:"></a>
-                    <a name="//apple_ref/objc/Method/-disassociateWithPlatform:block:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(im)disassociateWithPlatform:block:">-disassociateWithPlatform:<wbr>block:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)disassociateWithPlatformId:callback:">-[LCUser disassociateWithPlatformId:callback:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">disassociateWithPlatform</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">platform</span>
-                           <span class="nf">block</span><span class="p">:(</span><span class="n"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span><span class="nv">block</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser disassociateWithPlatformId:callback:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">disassociate</span><span class="p">(</span><span class="n">withPlatform</span> <span class="nv">platform</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCUserResultBlock">LCUserResultBlock</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L516-L518">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(im)signUp"></a>
-                    <a name="//apple_ref/objc/Method/-signUp" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(im)signUp">-signUp</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)signUp:">-[LCUser signUp:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">signUp</span>
-<span class="nf">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser signUp:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">signUp</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L520-L521">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(im)signUpInBackground"></a>
-                    <a name="//apple_ref/objc/Method/-signUpInBackground" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(im)signUpInBackground">-signUpInBackground</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)signUpInBackgroundWithBlock:">-[LCUser signUpInBackgroundWithBlock:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">signUpInBackground</span>
-<span class="nf">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser signUpInBackgroundWithBlock:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">signUpInBackground</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L523-L524">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithUsername:password:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithUsername:password:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithUsername:password:">+logInWithUsername:<wbr>password:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithUsername:password:error:">+[LCUser logInWithUsername:password:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">logInWithUsername</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">username</span>
-                                  <span class="nf">password</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithUsername:password:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withUsername</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L526-L528">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithUsernameInBackground:password:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithUsernameInBackground:password:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithUsernameInBackground:password:">+logInWithUsernameInBackground:<wbr>password:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithUsernameInBackground:password:block:">+[LCUser logInWithUsernameInBackground:password:block:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">logInWithUsernameInBackground</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">username</span>
-                             <span class="nf">password</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithUsernameInBackground:password:block:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logInWithUsername</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L530-L532">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:password:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithMobilePhoneNumber:password:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:password:">+logInWithMobilePhoneNumber:<wbr>password:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:password:error:">+[LCUser logInWithMobilePhoneNumber:password:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">logInWithMobilePhoneNumber</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">phoneNumber</span>
-                                           <span class="nf">password</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithMobilePhoneNumber:password:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L534-L536">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:password:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithMobilePhoneNumberInBackground:password:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:password:">+logInWithMobilePhoneNumberInBackground:<wbr>password:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:password:block:">+[LCUser logInWithMobilePhoneNumberInBackground:password:block:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">logInWithMobilePhoneNumberInBackground</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">phoneNumber</span>
-                                      <span class="nf">password</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithMobilePhoneNumberInBackground:password:block:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logInWithMobilePhoneNumber</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L538-L540">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:smsCode:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithMobilePhoneNumber:smsCode:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:smsCode:">+logInWithMobilePhoneNumber:<wbr>smsCode:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumber:smsCode:error:">+[LCUser logInWithMobilePhoneNumber:smsCode:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">logInWithMobilePhoneNumber</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">phoneNumber</span>
-                                            <span class="nf">smsCode</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">code</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithMobilePhoneNumber:smsCode:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logIn</span><span class="p">(</span><span class="n">withMobilePhoneNumber</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">smsCode</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L542-L544">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:smsCode:"></a>
-                    <a name="//apple_ref/objc/Method/+logInWithMobilePhoneNumberInBackground:smsCode:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:smsCode:">+logInWithMobilePhoneNumberInBackground:<wbr>smsCode:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)logInWithMobilePhoneNumberInBackground:smsCode:block:">+[LCUser logInWithMobilePhoneNumberInBackground:smsCode:block:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">logInWithMobilePhoneNumberInBackground</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">phoneNumber</span>
-                                       <span class="nf">smsCode</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">code</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser logInWithMobilePhoneNumberInBackground:smsCode:block:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">logInWithMobilePhoneNumber</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">smsCode</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L546-L548">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)requestPasswordResetForEmail:"></a>
-                    <a name="//apple_ref/objc/Method/+requestPasswordResetForEmail:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)requestPasswordResetForEmail:">+requestPasswordResetForEmail:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)requestPasswordResetForEmail:error:">+[LCUser requestPasswordResetForEmail:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">requestPasswordResetForEmail</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser requestPasswordResetForEmail:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">requestPasswordReset</span><span class="p">(</span><span class="n">forEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L550-L551">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)requestPasswordResetForEmailInBackground:"></a>
-                    <a name="//apple_ref/objc/Method/+requestPasswordResetForEmailInBackground:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)requestPasswordResetForEmailInBackground:">+requestPasswordResetForEmailInBackground:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)requestPasswordResetForEmailInBackground:block:">+[LCUser requestPasswordResetForEmailInBackground:block:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">requestPasswordResetForEmailInBackground</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser requestPasswordResetForEmailInBackground:block:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">requestPasswordResetForEmail</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L553-L554">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(im)isAuthenticated"></a>
-                    <a name="//apple_ref/objc/Method/-isAuthenticated" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(im)isAuthenticated">-isAuthenticated</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(im)isAuthenticatedWithSessionToken:callback:">-[LCUser isAuthenticatedWithSessionToken:callback:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isAuthenticated</span>
-<span class="nf">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCUser isAuthenticatedWithSessionToken:callback:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isAuthenticated</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L556-L557">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)LCUser(cm)verifyMobilePhone:withBlock:"></a>
-                    <a name="//apple_ref/objc/Method/+verifyMobilePhone:withBlock:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(cs)LCUser(cm)verifyMobilePhone:withBlock:">+verifyMobilePhone:<wbr>withBlock:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Classes/LCUser.html#/c:objc(cs)LCUser(cm)verifyCodeForPhoneNumber:code:block:">+[LCUser verifyCodeForPhoneNumber:code:block:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">verifyMobilePhone</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">code</span>
-                <span class="nf">withBlock</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span> <span class="n">succeeded</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">block</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `+[LCUser verifyCodeForPhoneNumber:code:block:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">verifyMobilePhone</span><span class="p">(</span><span class="n">_</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">with</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Foundation/User/LCUser.h#L559-L561">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Foundation/Status/LCStatus.h#L252">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -4490,8 +3829,8 @@ the password. It is only meant to be set.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-05-10)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-06-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

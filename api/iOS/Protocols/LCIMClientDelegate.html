@@ -17,7 +17,7 @@
     <a title="LCIMClientDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloudObjc 13.0.0-beta.2 Docs</a> (33% documented)</p>
+        <p><a href="../index.html">LeanCloudObjc 13.0.0 Docs</a> (35% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
         <p class="header-right">
@@ -83,10 +83,10 @@
                 <a href="../Classes/LCIMClient.html">LCIMClient</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCIMClientInternalConversationManager.html">LCIMClientInternalConversationManager</a>
+                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
+                <a href="../Classes/LCIMConversationCreationOption.html">LCIMConversationCreationOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMConversationMemberInfo.html">LCIMConversationMemberInfo</a>
@@ -119,10 +119,13 @@
                 <a href="../Classes/LCIMMessageOption.html">LCIMMessageOption</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/LCIMOperationFailure.html">LCIMOperationFailure</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/c:objc(cs)LCIMRecalledMessage">LCIMRecalledMessage</a>
+                <a href="../Classes/LCIMRecalledMessage.html">LCIMRecalledMessage</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMServiceConversation.html">LCIMServiceConversation</a>
@@ -167,9 +170,6 @@
                 <a href="../Classes/LCRole.html">LCRole</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/LCRouter.html">LCRouter</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Classes/LCSMS.html">LCSMS</a>
               </li>
               <li class="nav-group-task">
@@ -204,9 +204,6 @@
           <li class="nav-group-name">
             <a href="../Constants.html">Constants</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@AVIMUserOptionCustomProtocols">AVIMUserOptionCustomProtocols</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyLastDeliveredAt">LCIMConversationUpdatedKeyLastDeliveredAt</a>
               </li>
@@ -244,9 +241,6 @@
                 <a href="../Constants.html#/c:@LCIMSignatureActionUnblock">LCIMSignatureActionUnblock</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Constants.html#/c:@LCIMUserOptionUseUnread">LCIMUserOptionUseUnread</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCLoggerDomainCURL">LCLoggerDomainCURL</a>
               </li>
               <li class="nav-group-task">
@@ -275,12 +269,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LeanCloudSocialPlatformWeiXin">LeanCloudSocialPlatformWeiXin</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@RouterCacheKeyApp">RouterCacheKeyApp</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Constants.html#/c:@RouterCacheKeyRTM">RouterCacheKeyRTM</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@kLCErrorAccountAlreadyLinked">kLCErrorAccountAlreadyLinked</a>
@@ -513,9 +501,6 @@
                 <a href="../Enums/LCIMConversationMemberRole.html">LCIMConversationMemberRole</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LCIMConversationOption.html">LCIMConversationOption</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/LCIMConversationQueryOption.html">LCIMConversationQueryOption</a>
               </li>
               <li class="nav-group-task">
@@ -573,9 +558,6 @@
           <li class="nav-group-name">
             <a href="../Type%20Definitions.html">Type Definitions</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@AVIMMessageSendOption">AVIMMessageSendOption</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCConstants.h@T@LCArrayResultBlock">LCArrayResultBlock</a>
               </li>
@@ -666,9 +648,6 @@
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCUser.h@T@LeanCloudSocialPlatform">LeanCloudSocialPlatform</a>
               </li>
-              <li class="nav-group-task">
-                <a href="../Type%20Definitions.html#/c:LCRouter.h@T@RouterCacheKey">RouterCacheKey</a>
-              </li>
             </ul>
           </li>
         </ul>
@@ -692,7 +671,7 @@
             <p>This protocol defines methods to handle the events about client, conversation, message and so on.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L19-L224">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L21-L217">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -765,7 +744,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L34">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L36">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -819,7 +798,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L38">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L40">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -873,7 +852,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L42">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L44">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -944,7 +923,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L52">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L54">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -980,7 +959,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1016,7 +995,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1052,7 +1031,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1060,9 +1039,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:"></a>
-                    <a name="//apple_ref/objc/Method/-conversation:messageHasBeenUpdated:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:">-conversation:<wbr>messageHasBeenUpdated:<wbr></a>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:reason:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:messageHasBeenUpdated:reason:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenUpdated:reason:">-conversation:<wbr>messageHasBeenUpdated:<wbr>reason:<wbr></a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1078,12 +1057,13 @@
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
                           <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
-    <span class="nf">messageHasBeenUpdated</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span></code></pre>
+    <span class="nf">messageHasBeenUpdated</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                   <span class="nf">reason</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">reason</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">messageHasBeenUpdated</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">messageHasBeenUpdated</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessage.html">LCIMMessage</a></span><span class="p">,</span> <span class="nv">reason</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a></span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -1115,11 +1095,103 @@
                                 </div>
                               </td>
                             </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reason</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The reason when the message was forced to be modified by the server.</p>
+                                </div>
+                              </td>
+                            </tr>
                           </tbody>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L83">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L83">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenRecalled:reason:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:messageHasBeenRecalled:reason:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:messageHasBeenRecalled:reason:">-conversation:<wbr>messageHasBeenRecalled:<wbr>reason:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invoking when the sent message has been recalled.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
+    <span class="nf">messageHasBeenRecalled</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMRecalledMessage.html">LCIMRecalledMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span>
+                    <span class="nf">reason</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">reason</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">messageHasBeenRecalled</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMRecalledMessage.html">LCIMRecalledMessage</a></span><span class="p">,</span> <span class="nv">reason</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMMessagePatchedReason.html">LCIMMessagePatchedReason</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>conversation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The conversation which the sent message belongs to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The recalled message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reason</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The reason when the message was forced to be modified by the server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L89">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1156,7 +1228,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1193,7 +1265,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1229,7 +1301,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1265,7 +1337,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1301,7 +1373,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1309,9 +1381,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:"></a>
-                    <a name="//apple_ref/objc/Method/-conversation:didUpdateAt:byClientId:updatedData:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:">-conversation:<wbr>didUpdateAt:<wbr>byClientId:<wbr>updatedData:<wbr></a>
+                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:updatingData:"></a>
+                    <a name="//apple_ref/objc/Method/-conversation:didUpdateAt:byClientId:updatedData:updatingData:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateAt:byClientId:updatedData:updatingData:">-conversation:<wbr>didUpdateAt:<wbr>byClientId:<wbr>updatedData:<wbr>updatingData:<wbr></a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1329,12 +1401,13 @@
                           <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span>
          <span class="nf">didUpdateAt</span><span class="p">:(</span><span class="n">NSDate</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">date</span>
           <span class="nf">byClientId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">clientId</span>
-         <span class="nf">updatedData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">data</span><span class="p">;</span></code></pre>
+         <span class="nf">updatedData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">updatedData</span>
+        <span class="nf">updatingData</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">updatingData</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUpdateAt</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?,</span> <span class="n">byClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">updatedData</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didUpdateAt</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?,</span> <span class="n">byClientId</span> <span class="nv">clientId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">updatedData</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?,</span> <span class="nv">updatingData</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
 
                         </div>
                       </div>
@@ -1374,14 +1447,14 @@
                               </td>
                               <td>
                                 <div>
-                                  <p>Client ID of doing updates.</p>
+                                  <p>Client ID which do this update.</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>data</em>
+                                <em>updatedData</em>
                                 </code>
                               </td>
                               <td>
@@ -1390,11 +1463,23 @@
                                 </div>
                               </td>
                             </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>updatingData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Updating data.</p>
+                                </div>
+                              </td>
+                            </tr>
                           </tbody>
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L133">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L137">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1487,7 +1572,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L143">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L147">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1554,7 +1639,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L151">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L155">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1621,7 +1706,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L159">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L163">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1701,7 +1786,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L168">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L172">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1781,7 +1866,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L177">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L181">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1848,7 +1933,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L185">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L189">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1915,7 +2000,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L193">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L197">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1995,7 +2080,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L202">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L206">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2075,130 +2160,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L211">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)LCIMClientDelegate(im)imClientPaused:"></a>
-                    <a name="//apple_ref/objc/Method/-imClientPaused:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)imClientPaused:">-imClientPaused:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)imClientPaused:error:">-[LCIMClientDelegate imClientPaused:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">imClientPaused</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">imClient</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate imClientPaused:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">imClientPaused</span><span class="p">(</span><span class="n">_</span> <span class="nv">imClient</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L215-L216">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)LCIMClientDelegate(im)client:didOfflineWithError:"></a>
-                    <a name="//apple_ref/objc/Method/-client:didOfflineWithError:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)client:didOfflineWithError:">-client:<wbr>didOfflineWithError:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)imClientClosed:error:">-[LCIMClientDelegate imClientClosed:error:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">client</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMClient.html">LCIMClient</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">client</span> <span class="nf">didOfflineWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">error</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate imClientClosed:error:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">client</span><span class="p">(</span><span class="n">_</span> <span class="nv">client</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMClient.html">LCIMClient</a></span><span class="p">,</span> <span class="n">didOfflineWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L218-L219">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveUnread:"></a>
-                    <a name="//apple_ref/objc/Method/-conversation:didReceiveUnread:" class="dashAnchor"></a>
-                    <a class="token discouraged" href="#/c:objc(pl)LCIMClientDelegate(im)conversation:didReceiveUnread:">-conversation:<wbr>didReceiveUnread:<wbr></a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="aside aside-deprecated">
-                        <p class="aside-title">Deprecated</p>
-                        <p>Deprecated, use <code><a href="../Protocols/LCIMClientDelegate.html#/c:objc(pl)LCIMClientDelegate(im)conversation:didUpdateForKey:">-[LCIMClientDelegate conversation:didUpdateForKey:]</a></code> instead.</p>
-
-                      </div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">conversation</span><span class="p">:(</span><span class="n"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">conversation</span> <span class="nf">didReceiveUnread</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">unread</span>
-<span class="n">__deprecated_msg</span><span class="p">(</span><span class="s">"Deprecated, use `-[LCIMClientDelegate conversation:didUpdateForKey:]` instead."</span><span class="p">);</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">conversation</span><span class="p">(</span><span class="n">_</span> <span class="nv">conversation</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCIMConversation.html">LCIMConversation</a></span><span class="p">,</span> <span class="n">didReceiveUnread</span> <span class="nv">unread</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0-beta.2/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L221-L222">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.0.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L215">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2208,8 +2170,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-05-10)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-06-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

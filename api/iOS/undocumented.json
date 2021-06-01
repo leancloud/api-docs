@@ -429,22 +429,8 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 345,
+      "line": 344,
       "symbol": "LCFile.-saveInBackgroundWithBlock:progressBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 349,
-      "symbol": "LCFile.-getDataInBackgroundWithBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 352,
-      "symbol": "LCFile.-getDataInBackgroundWithBlock:progressBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
@@ -1758,34 +1744,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 635,
-      "symbol": "LCObject(AVDeprecated)",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 637,
-      "symbol": "LCObject.+objectWithoutDataWithObjectId:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 639,
-      "symbol": "LCObject.+objectWithoutDataWithClassName:objectId:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 641,
-      "symbol": "LCObject.-relationforKey:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCRelation.h",
       "line": 17,
       "symbol": "LCRelation",
@@ -2564,219 +2522,149 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 486,
-      "symbol": "LCQuery.+queryForUser",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 497,
+      "line": 492,
       "symbol": "LCQuery.-findObjects",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 504,
+      "line": 499,
       "symbol": "LCQuery.-findObjects:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 510,
+      "line": 505,
       "symbol": "LCQuery.-findObjectsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 516,
+      "line": 511,
       "symbol": "LCQuery.-findObjectsInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 522,
+      "line": 517,
       "symbol": "LCQuery.-deleteAllInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 534,
+      "line": 529,
       "symbol": "LCQuery.-getFirstObject",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 544,
+      "line": 539,
       "symbol": "LCQuery.-getFirstObject:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 550,
+      "line": 545,
       "symbol": "LCQuery.-getFirstObjectAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 559,
+      "line": 554,
       "symbol": "LCQuery.-getFirstObjectInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 570,
+      "line": 565,
       "symbol": "LCQuery.-countObjects",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 577,
+      "line": 572,
       "symbol": "LCQuery.-countObjects:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 583,
+      "line": 578,
       "symbol": "LCQuery.-countObjectsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 590,
+      "line": 585,
       "symbol": "LCQuery.-countObjectsInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 600,
+      "line": 595,
       "symbol": "LCQuery.-cancel",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 615,
+      "line": 610,
       "symbol": "LCQuery.skip",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 630,
+      "line": 625,
       "symbol": "LCQuery.cachePolicy",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 635,
+      "line": 630,
       "symbol": "LCQuery.maxCacheAge",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 641,
+      "line": 636,
       "symbol": "LCQuery.-hasCachedResult",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 646,
+      "line": 641,
       "symbol": "LCQuery.-clearCachedResult",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 651,
+      "line": 646,
       "symbol": "LCQuery.+clearAllCachedResults",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 661,
+      "line": 656,
       "symbol": "LCQuery.trace",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 13,
-      "symbol": "RouterCacheKey",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 14,
-      "symbol": "RouterCacheKeyApp",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 15,
-      "symbol": "RouterCacheKeyRTM",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 17,
-      "symbol": "LCRouter",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 19,
-      "symbol": "LCRouter.-init",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 20,
-      "symbol": "LCRouter.+new",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 22,
-      "symbol": "LCRouter.+sharedInstance",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 32,
-      "symbol": "LCRouter(Deprecated)",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Router/LCRouter.h",
-      "line": 34,
-      "symbol": "LCRouter.-URLStringForPath:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -3333,118 +3221,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 504,
-      "symbol": "LCUser(Deprecated)",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 506,
-      "symbol": "LCUser.+loginOrSignUpWithAuthData:platform:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 511,
-      "symbol": "LCUser.-associateWithAuthData:platform:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 516,
-      "symbol": "LCUser.-disassociateWithPlatform:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 520,
-      "symbol": "LCUser.-signUp",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 523,
-      "symbol": "LCUser.-signUpInBackground",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 526,
-      "symbol": "LCUser.+logInWithUsername:password:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 530,
-      "symbol": "LCUser.+logInWithUsernameInBackground:password:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 534,
-      "symbol": "LCUser.+logInWithMobilePhoneNumber:password:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 538,
-      "symbol": "LCUser.+logInWithMobilePhoneNumberInBackground:password:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 542,
-      "symbol": "LCUser.+logInWithMobilePhoneNumber:smsCode:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 546,
-      "symbol": "LCUser.+logInWithMobilePhoneNumberInBackground:smsCode:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 550,
-      "symbol": "LCUser.+requestPasswordResetForEmail:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 553,
-      "symbol": "LCUser.+requestPasswordResetForEmailInBackground:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 556,
-      "symbol": "LCUser.-isAuthenticated",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 559,
-      "symbol": "LCUser.+verifyMobilePhone:withBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCDynamicObject.h",
       "line": 13,
       "symbol": "LCDynamicObject",
@@ -3649,155 +3425,85 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 25,
+      "line": 69,
       "symbol": "LCIMClient.+new",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 26,
+      "line": 70,
       "symbol": "LCIMClient.-init",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 35,
-      "symbol": "LCIMClient.+setUnreadNotificationEnabled:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 132,
-      "symbol": "LCIMClient.-createConversationWithName:clientIds:callback:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 167,
-      "symbol": "LCIMClient.-createConversationWithName:clientIds:attributes:options:callback:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 233,
+      "line": 198,
       "symbol": "LCIMClient.-conversationWithKeyedConversation:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 239,
-      "symbol": "LCIMClient.-conversationQuery",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 249,
+      "line": 215,
       "symbol": "LCIMClient.-queryOnlineClientsInClients:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 256,
-      "symbol": "LCIMClient(Deprecated)",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 258,
-      "symbol": "LCIMClient.+setUserOptions:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientInternalConversationManager.h",
-      "line": 13,
-      "symbol": "LCIMClientInternalConversationManager",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 61,
+      "line": 63,
       "symbol": "LCIMClientDelegate.-conversation:didReceiveCommonMessage:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 68,
+      "line": 70,
       "symbol": "LCIMClientDelegate.-conversation:didReceiveTypedMessage:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 75,
+      "line": 77,
       "symbol": "LCIMClientDelegate.-conversation:messageDelivered:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 91,
+      "line": 97,
       "symbol": "LCIMClientDelegate.-conversation:membersAdded:byClientId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 99,
+      "line": 105,
       "symbol": "LCIMClientDelegate.-conversation:membersRemoved:byClientId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 106,
+      "line": 112,
       "symbol": "LCIMClientDelegate.-conversation:invitedByClientId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 113,
+      "line": 119,
       "symbol": "LCIMClientDelegate.-conversation:kickedByClientId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 123,
+      "line": 129,
       "symbol": "LCIMClientDelegate.-conversation:didUpdateForKey:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 215,
-      "symbol": "LCIMClientDelegate.-imClientPaused:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 218,
-      "symbol": "LCIMClientDelegate.-client:didOfflineWithError:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h",
-      "line": 221,
-      "symbol": "LCIMClientDelegate.-conversation:didReceiveUnread:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
@@ -3902,260 +3608,211 @@
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
       "line": 162,
-      "symbol": "LCIMConversation.createAt",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 165,
-      "symbol": "LCIMConversation.updateAt",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 168,
       "symbol": "LCIMConversation.+new",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 169,
+      "line": 163,
       "symbol": "LCIMConversation.-init",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 193,
+      "line": 187,
       "symbol": "LCIMConversation.-objectForKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 206,
+      "line": 200,
       "symbol": "LCIMConversation.-keyedConversation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 213,
+      "line": 207,
       "symbol": "LCIMConversation.-fetchReceiptTimestampsInBackground",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 219,
+      "line": 213,
       "symbol": "LCIMConversation.-readInBackground",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 227,
+      "line": 221,
       "symbol": "LCIMConversation.-fetchWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 233,
+      "line": 227,
       "symbol": "LCIMConversation.-updateWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 241,
+      "line": 235,
       "symbol": "LCIMConversation.-muteWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 247,
+      "line": 241,
       "symbol": "LCIMConversation.-unmuteWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 255,
+      "line": 249,
       "symbol": "LCIMConversation.-joinWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 261,
+      "line": 255,
       "symbol": "LCIMConversation.-quitWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 268,
+      "line": 262,
       "symbol": "LCIMConversation.-addMembersWithClientIds:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 276,
+      "line": 270,
       "symbol": "LCIMConversation.-removeMembersWithClientIds:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 283,
+      "line": 277,
       "symbol": "LCIMConversation.-countMembersWithCallback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 292,
+      "line": 286,
       "symbol": "LCIMConversation.-sendMessage:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 301,
+      "line": 295,
       "symbol": "LCIMConversation.-sendMessage:option:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 311,
+      "line": 305,
       "symbol": "LCIMConversation.-sendMessage:progressBlock:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 322,
+      "line": 316,
       "symbol": "LCIMConversation.-sendMessage:option:progressBlock:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 336,
+      "line": 330,
       "symbol": "LCIMConversation.-updateMessage:toNewMessage:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 346,
+      "line": 340,
       "symbol": "LCIMConversation.-recallMessage:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 356,
+      "line": 350,
       "symbol": "LCIMConversation.-addMessageToCache:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 363,
+      "line": 357,
       "symbol": "LCIMConversation.-removeMessageFromCache:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 372,
+      "line": 366,
       "symbol": "LCIMConversation.-queryMessagesFromServerWithLimit:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 380,
+      "line": 374,
       "symbol": "LCIMConversation.-queryMessagesFromCacheWithLimit:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 387,
+      "line": 381,
       "symbol": "LCIMConversation.-queryMessagesWithLimit:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 399,
+      "line": 393,
       "symbol": "LCIMConversation.-queryMessagesBeforeId:timestamp:limit:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 545,
+      "line": 539,
       "symbol": "LCIMChatRoom",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 549,
+      "line": 543,
       "symbol": "LCIMServiceConversation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 567,
+      "line": 561,
       "symbol": "LCIMTemporaryConversation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 571,
-      "symbol": "LCIMConversation(deprecated)",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 579,
-      "symbol": "LCIMConversation.-sendMessage:options:callback:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 590,
-      "symbol": "LCIMConversation.-sendMessage:options:progressBlock:callback:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 600,
-      "symbol": "LCIMConversation.-update:callback:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Conversation/LCIMConversation.h",
-      "line": 607,
-      "symbol": "LCIMConversation.-markAsReadInBackground",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -4650,198 +4307,149 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 86,
+      "line": 74,
       "symbol": "LCIMConversationUpdatedKeyLastMessage",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 87,
+      "line": 75,
       "symbol": "LCIMConversationUpdatedKeyLastMessageAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 88,
+      "line": 76,
       "symbol": "LCIMConversationUpdatedKeyLastReadAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 89,
+      "line": 77,
       "symbol": "LCIMConversationUpdatedKeyLastDeliveredAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 90,
+      "line": 78,
       "symbol": "LCIMConversationUpdatedKeyUnreadMessagesCount",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 91,
+      "line": 79,
       "symbol": "LCIMConversationUpdatedKeyUnreadMessagesMentioned",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 133,
+      "line": 121,
       "symbol": "LCIMMessageQueryDirection.LCIMMessageQueryDirectionFromNewToOld",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 134,
+      "line": 122,
       "symbol": "LCIMMessageQueryDirection.LCIMMessageQueryDirectionFromOldToNew",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 141,
+      "line": 129,
       "symbol": "LCIMSignatureActionOpen",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 142,
+      "line": 130,
       "symbol": "LCIMSignatureActionStart",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 143,
+      "line": 131,
       "symbol": "LCIMSignatureActionAdd",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 144,
+      "line": 132,
       "symbol": "LCIMSignatureActionRemove",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 145,
+      "line": 133,
       "symbol": "LCIMSignatureActionBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 146,
+      "line": 134,
       "symbol": "LCIMSignatureActionUnblock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 150,
+      "line": 138,
       "symbol": "LCIMBooleanResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 151,
+      "line": 139,
       "symbol": "LCIMIntegerResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 152,
+      "line": 140,
       "symbol": "LCIMArrayResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 153,
+      "line": 141,
       "symbol": "LCIMConversationResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 154,
+      "line": 142,
       "symbol": "LCIMChatRoomResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 155,
+      "line": 143,
       "symbol": "LCIMTemporaryConversationResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 156,
+      "line": 144,
       "symbol": "LCIMProgressBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 158,
-      "symbol": "LCIMUserOptionUseUnread",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 160,
-      "symbol": "AVIMUserOptionCustomProtocols",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 163,
-      "symbol": "AVIMMessageSendOption",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 165,
-      "symbol": "",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 166,
-      "symbol": ".AVIMMessageSendOptionNone",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 167,
-      "symbol": ".AVIMMessageSendOptionTransient",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/LCIMCommon.h",
-      "line": 168,
-      "symbol": ".AVIMMessageSendOptionRequestReceipt",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -5001,125 +4609,139 @@
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 38,
-      "symbol": "LCIMMessage",
+      "symbol": "LCIMMessagePatchedReason",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 40,
-      "symbol": "LCIMMessage.mediaType",
+      "symbol": "LCIMMessagePatchedReason.code",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 41,
+      "symbol": "LCIMMessagePatchedReason.reason",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 45,
+      "symbol": "LCIMMessage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 47,
+      "symbol": "LCIMMessage.mediaType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 52,
       "symbol": "LCIMMessage.ioType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 50,
+      "line": 57,
       "symbol": "LCIMMessage.status",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 55,
+      "line": 62,
       "symbol": "LCIMMessage.messageId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 60,
+      "line": 67,
       "symbol": "LCIMMessage.clientId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 65,
+      "line": 72,
       "symbol": "LCIMMessage.mentionAll",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 70,
+      "line": 77,
       "symbol": "LCIMMessage.mentionList",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 75,
+      "line": 82,
       "symbol": "LCIMMessage.mentioned",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 80,
+      "line": 87,
       "symbol": "LCIMMessage.conversationId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 85,
+      "line": 92,
       "symbol": "LCIMMessage.content",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 90,
+      "line": 97,
       "symbol": "LCIMMessage.sendTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 95,
+      "line": 102,
       "symbol": "LCIMMessage.deliveredTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 100,
+      "line": 107,
       "symbol": "LCIMMessage.readTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 105,
-      "symbol": "LCIMMessage.transient",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 110,
+      "line": 112,
       "symbol": "LCIMMessage.updatedAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 112,
+      "line": 114,
       "symbol": "LCIMMessage.-payload",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 118,
+      "line": 120,
       "symbol": "LCIMMessage.+messageWithContent:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
@@ -5210,16 +4832,9 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Signature/LCIMSignature.h",
-      "line": 37,
+      "line": 40,
       "symbol": "LCIMSignatureDataSource",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Realtime/IM/Signature/LCIMSignature.h",
-      "line": 48,
-      "symbol": "LCIMSignatureDataSource.-signatureWithClientId:conversationId:action:actionOnClientIds:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
