@@ -135,7 +135,7 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Application.swift",
-      "line": 132,
+      "line": 135,
       "symbol": "LCApplication.Configuration.init(customizedServers:environment:HTTPRequestTimeoutInterval:HTTPURLCache:RTMConnectingTimeoutInterval:RTMCommandTimeoutInterval:RTMCustomServerURL:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -898,42 +898,42 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 67,
+      "line": 70,
       "symbol": "LCObject.hasObjectId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 243,
+      "line": 263,
       "symbol": "LCObject.isEqual(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 251,
+      "line": 271,
       "symbol": "LCObject.value(forKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 256,
+      "line": 276,
       "symbol": "LCObject.value(forUndefinedKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 508,
+      "line": 539,
       "symbol": "LCObject.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/swift-sdk/Sources/Foundation/Object.swift",
-      "line": 521,
+      "line": 552,
       "symbol": "LCObject.subscript(dynamicMember:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
