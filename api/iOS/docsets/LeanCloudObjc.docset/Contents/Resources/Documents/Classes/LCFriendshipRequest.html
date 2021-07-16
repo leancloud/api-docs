@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LCFileUploadOption Enumeration Reference</title>
+    <title>LCFriendshipRequest Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/objc/Enum/LCFileUploadOption" class="dashAnchor"></a>
-    <a title="LCFileUploadOption Enumeration Reference"></a>
+    <a name="//apple_ref/objc/Class/LCFriendshipRequest" class="dashAnchor"></a>
+    <a title="LCFriendshipRequest Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">LeanCloudObjc 13.1.0 Docs</a> (35% documented)</p>
@@ -31,7 +31,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
         <img id="carat" src="../img/carat.png" />
-        LCFileUploadOption Enumeration Reference
+        LCFriendshipRequest Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -661,31 +661,23 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>LCFileUploadOption</h1>
+            <h1>LCFriendshipRequest</h1>
               <div class="declaration">
                 <div class="language">
                   <p class="aside-title">Objective-C</p>
-                  <pre class="highlight objective_c"><code><span class="n">NS_OPTIONS</span><span class="p">(</span><span class="n">NSUInteger</span><span class="p">,</span> <span class="n">LCFileUploadOption</span><span class="p">)</span> <span class="p">{</span>
-    
-    <span class="c1">/// default option. Data or File will be persistent cached after successfully uploading.</span>
-    <span class="c1">/// Note: Remote URL not be cached after successfully uploading.</span>
-    <span class="n">LCFileUploadOptionCachingData</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-    
-    <span class="c1">/// Data or File will not be persistent cached after successfully uploading.</span>
-    <span class="n">LCFileUploadOptionIgnoringCachingData</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">0</span>
-<span class="p">}</span></code></pre>
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">LCFriendshipRequest</span> <span class="p">:</span> <span class="nc"><a href="../Classes/LCObject.html">LCObject</a></span></code></pre>
 
                 </div>
                 <div class="language">
                   <p class="aside-title">Swift</p>
-                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileUploadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">LCFriendshipRequest</span> <span class="p">:</span> <span class="kt"><a href="../Classes/LCObject.html">LCObject</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>The request of becoming friends.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L14-L22">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L17-L25">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -694,9 +686,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCFileUploadOption@LCFileUploadOptionCachingData"></a>
-                    <a name="//apple_ref/objc/Case/LCFileUploadOptionCachingData" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCFileUploadOption@LCFileUploadOptionCachingData">LCFileUploadOptionCachingData</a>
+                    <a name="/c:objc(cs)LCFriendshipRequest(cm)className"></a>
+                    <a name="//apple_ref/objc/Method/+className" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendshipRequest(cm)className">+className</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -704,20 +696,24 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>default option. Data or File will be persistent cached after successfully uploading.
-    Note: Remote URL not be cached after successfully uploading.</p>
+                        <p>The name of this class.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCFileUploadOptionCachingData</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">className</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">className</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L18">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L20">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -725,9 +721,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCFileUploadOption@LCFileUploadOptionIgnoringCachingData"></a>
-                    <a name="//apple_ref/objc/Case/LCFileUploadOptionIgnoringCachingData" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCFileUploadOption@LCFileUploadOptionIgnoringCachingData">LCFileUploadOptionIgnoringCachingData</a>
+                    <a name="/c:objc(cs)LCFriendshipRequest(cm)query"></a>
+                    <a name="//apple_ref/objc/Method/+query" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendshipRequest(cm)query">+query</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -735,24 +731,24 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Data or File will not be persistent cached after successfully uploading.</p>
+                        <p>New a query for this class.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCFileUploadOptionIgnoringCachingData</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCQuery.html">LCQuery</a></span> <span class="o">*</span><span class="p">)</span><span class="n">query</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">ignoringCachingData</span><span class="p">:</span> <span class="kt">LCFileUploadOption</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">query</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LCQuery.html">LCQuery</a></span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L21">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L23">Show on GitHub</a>
                       </div>
                     </section>
                   </div>

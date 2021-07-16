@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LCFileUploadOption Enumeration Reference</title>
+    <title>LCFriendship Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/objc/Enum/LCFileUploadOption" class="dashAnchor"></a>
-    <a title="LCFileUploadOption Enumeration Reference"></a>
+    <a name="//apple_ref/objc/Class/LCFriendship" class="dashAnchor"></a>
+    <a title="LCFriendship Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">LeanCloudObjc 13.1.0 Docs</a> (35% documented)</p>
@@ -31,7 +31,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
         <img id="carat" src="../img/carat.png" />
-        LCFileUploadOption Enumeration Reference
+        LCFriendship Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -661,31 +661,23 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>LCFileUploadOption</h1>
+            <h1>LCFriendship</h1>
               <div class="declaration">
                 <div class="language">
                   <p class="aside-title">Objective-C</p>
-                  <pre class="highlight objective_c"><code><span class="n">NS_OPTIONS</span><span class="p">(</span><span class="n">NSUInteger</span><span class="p">,</span> <span class="n">LCFileUploadOption</span><span class="p">)</span> <span class="p">{</span>
-    
-    <span class="c1">/// default option. Data or File will be persistent cached after successfully uploading.</span>
-    <span class="c1">/// Note: Remote URL not be cached after successfully uploading.</span>
-    <span class="n">LCFileUploadOptionCachingData</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-    
-    <span class="c1">/// Data or File will not be persistent cached after successfully uploading.</span>
-    <span class="n">LCFileUploadOptionIgnoringCachingData</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">0</span>
-<span class="p">}</span></code></pre>
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">LCFriendship</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
 
                 </div>
                 <div class="language">
                   <p class="aside-title">Swift</p>
-                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileUploadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">LCFriendship</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Friendship.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L14-L22">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L28-L64">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -694,9 +686,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCFileUploadOption@LCFileUploadOptionCachingData"></a>
-                    <a name="//apple_ref/objc/Case/LCFileUploadOptionCachingData" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCFileUploadOption@LCFileUploadOptionCachingData">LCFileUploadOptionCachingData</a>
+                    <a name="/c:objc(cs)LCFriendship(cm)requestWithUserId:callback:"></a>
+                    <a name="//apple_ref/objc/Method/+requestWithUserId:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendship(cm)requestWithUserId:callback:">+requestWithUserId:<wbr>callback:<wbr></a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -704,20 +696,56 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>default option. Data or File will be persistent cached after successfully uploading.
-    Note: Remote URL not be cached after successfully uploading.</p>
+                        <p>The request for becoming friends.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCFileUploadOptionCachingData</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">requestWithUserId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+                 <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">withUserId</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ID of the target user.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L18">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L33-L34">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -725,9 +753,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCFileUploadOption@LCFileUploadOptionIgnoringCachingData"></a>
-                    <a name="//apple_ref/objc/Case/LCFileUploadOptionIgnoringCachingData" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCFileUploadOption@LCFileUploadOptionIgnoringCachingData">LCFileUploadOptionIgnoringCachingData</a>
+                    <a name="/c:objc(cs)LCFriendship(cm)requestWithUserId:attributes:callback:"></a>
+                    <a name="//apple_ref/objc/Method/+requestWithUserId:attributes:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendship(cm)requestWithUserId:attributes:callback:">+requestWithUserId:<wbr>attributes:<wbr>callback:<wbr></a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -735,24 +763,283 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Data or File will not be persistent cached after successfully uploading.</p>
+                        <p>The request for becoming friends.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCFileUploadOptionIgnoringCachingData</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">requestWithUserId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+               <span class="nf">attributes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">attributes</span>
+                 <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">ignoringCachingData</span><span class="p">:</span> <span class="kt">LCFileUploadOption</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">withUserId</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ID of the target user.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>attributes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Custom key-value attributes.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/File/LCFile.h#L21">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L40-L42">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCFriendship(cm)acceptRequest:callback:"></a>
+                    <a name="//apple_ref/objc/Method/+acceptRequest:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendship(cm)acceptRequest:callback:">+acceptRequest:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Accept a friendship request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">acceptRequest</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">request</span>
+             <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">accept</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>See <code><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L47-L48">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCFriendship(cm)acceptRequest:attributes:callback:"></a>
+                    <a name="//apple_ref/objc/Method/+acceptRequest:attributes:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendship(cm)acceptRequest:attributes:callback:">+acceptRequest:<wbr>attributes:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Accept a friendship request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">acceptRequest</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">request</span>
+           <span class="nf">attributes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">attributes</span>
+             <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">accept</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span><span class="p">,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>See <code><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>attributes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Custom key-value attributes.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L54-L56">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCFriendship(cm)declineRequest:callback:"></a>
+                    <a name="//apple_ref/objc/Method/+declineRequest:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCFriendship(cm)declineRequest:callback:">+declineRequest:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decline a friendship request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">declineRequest</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">request</span>
+              <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">declineRequest</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>See <code><a href="../Classes/LCFriendshipRequest.html">LCFriendshipRequest</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.1.0/AVOS/Sources/Foundation/User/LCFriendship.h#L61-L62">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
