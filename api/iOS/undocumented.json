@@ -1123,43 +1123,78 @@
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
       "line": 171,
-      "symbol": "LCDataStreamResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 172,
       "symbol": "LCStringResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 173,
+      "line": 172,
       "symbol": "LCIdResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 174,
+      "line": 173,
       "symbol": "LCProgressBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 175,
+      "line": 174,
       "symbol": "LCFileResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 176,
+      "line": 175,
       "symbol": "LCDictionaryResultBlock",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 16,
+      "symbol": "LCLeaderboardStatistic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 33,
+      "symbol": "LCLeaderboardRanking",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 52,
+      "symbol": "LCLeaderboardQueryOption",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 61,
+      "symbol": "LCLeaderboard",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 76,
+      "symbol": "LCLeaderboard.+new",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h",
+      "line": 77,
+      "symbol": "LCLeaderboard.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -1724,23 +1759,23 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 611,
+      "line": 612,
       "symbol": "LCObject.fetchWhenSave",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 616,
-      "symbol": "LCObject.-dictionaryForObject",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "line": 618,
+      "symbol": "LCObject.+objectWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 622,
-      "symbol": "LCObject.+objectWithDictionary:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "line": 623,
+      "symbol": "LCObject.-dictionaryForObject",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
