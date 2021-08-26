@@ -317,120 +317,99 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 14,
+      "line": 15,
       "symbol": "LCFileUploadOption",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 14,
+      "line": 15,
       "symbol": "LCFileUploadOption",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 24,
+      "line": 25,
       "symbol": "LCFileDownloadOption",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 24,
+      "line": 25,
       "symbol": "LCFileDownloadOption",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 37,
+      "line": 38,
       "symbol": "LCFile",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 95,
-      "symbol": "LCFile.-name",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 100,
-      "symbol": "LCFile.-objectId",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 105,
-      "symbol": "LCFile.-url",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 110,
-      "symbol": "LCFile.metaData",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 140,
-      "symbol": "LCFile.ACL",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 155,
+      "line": 115,
       "symbol": "LCFile.uploadingHeaders",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 302,
+      "line": 262,
       "symbol": "LCFile.-getThumbnailURLWithScaleToFit:width:height:quality:format:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 316,
+      "line": 276,
       "symbol": "LCFile.-getThumbnailURLWithScaleToFit:width:height:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 328,
+      "line": 288,
       "symbol": "LCFile.-getThumbnail:width:height:withBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 338,
+      "line": 298,
       "symbol": "LCFile.+query",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 342,
+      "line": 302,
       "symbol": "LCFile.-saveInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
-      "line": 344,
+      "line": 304,
       "symbol": "LCFile.-saveInBackgroundWithBlock:progressBlock:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
+      "line": 307,
+      "symbol": "LCFile.-setPathPrefix:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/File/LCFile.h",
+      "line": 308,
+      "symbol": "LCFile.-clearPathPrefix",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
@@ -656,503 +635,6 @@
       "line": 171,
       "symbol": "LCApplication.-setWithIdentifier:key:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 43,
-      "symbol": "kLeanCloudErrorDomain",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 44,
-      "symbol": "kLeanCloudRESTAPIResponseError",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 47,
-      "symbol": "kLCErrorInternalServer",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 49,
-      "symbol": "kLCErrorConnectionFailed",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 51,
-      "symbol": "kLCErrorObjectNotFound",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 53,
-      "symbol": "kLCErrorInvalidQuery",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 55,
-      "symbol": "kLCErrorInvalidClassName",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 57,
-      "symbol": "kLCErrorMissingObjectId",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 59,
-      "symbol": "kLCErrorInvalidKeyName",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 61,
-      "symbol": "kLCErrorInvalidPointer",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 63,
-      "symbol": "kLCErrorInvalidJSON",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 65,
-      "symbol": "kLCErrorCommandUnavailable",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 67,
-      "symbol": "kLCErrorIncorrectType",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 69,
-      "symbol": "kLCErrorInvalidChannelName",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 71,
-      "symbol": "kLCErrorInvalidDeviceToken",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 73,
-      "symbol": "kLCErrorPushMisconfigured",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 75,
-      "symbol": "kLCErrorObjectTooLarge",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 77,
-      "symbol": "kLCErrorOperationForbidden",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 79,
-      "symbol": "kLCErrorCacheMiss",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 81,
-      "symbol": "kLCErrorInvalidNestedKey",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 83,
-      "symbol": "kLCErrorInvalidFileName",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 85,
-      "symbol": "kLCErrorInvalidACL",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 87,
-      "symbol": "kLCErrorTimeout",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 89,
-      "symbol": "kLCErrorInvalidEmailAddress",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 91,
-      "symbol": "kLCErrorDuplicateValue",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 93,
-      "symbol": "kLCErrorInvalidRoleName",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 95,
-      "symbol": "kLCErrorExceededQuota",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 97,
-      "symbol": "kLCScriptError",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 99,
-      "symbol": "kLCValidationError",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 101,
-      "symbol": "kLCErrorReceiptMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 103,
-      "symbol": "kLCErrorInvalidPurchaseReceipt",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 105,
-      "symbol": "kLCErrorPaymentDisabled",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 107,
-      "symbol": "kLCErrorInvalidProductIdentifier",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 109,
-      "symbol": "kLCErrorProductNotFoundInAppStore",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 111,
-      "symbol": "kLCErrorInvalidServerResponse",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 113,
-      "symbol": "kLCErrorProductDownloadFileSystemFailure",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 115,
-      "symbol": "kLCErrorInvalidImageData",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 117,
-      "symbol": "kLCErrorUnsavedFile",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 119,
-      "symbol": "kLCErrorFileDeleteFailure",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 121,
-      "symbol": "kLCErrorUsernameMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 123,
-      "symbol": "kLCErrorUserPasswordMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 125,
-      "symbol": "kLCErrorUsernameTaken",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 127,
-      "symbol": "kLCErrorUserEmailTaken",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 129,
-      "symbol": "kLCErrorUserEmailMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 131,
-      "symbol": "kLCErrorUserWithEmailNotFound",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 133,
-      "symbol": "kLCErrorUserCannotBeAlteredWithoutSession",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 135,
-      "symbol": "kLCErrorUserCanOnlyBeCreatedThroughSignUp",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 137,
-      "symbol": "kLCErrorAccountAlreadyLinked",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 139,
-      "symbol": "kLCErrorUserIdMismatch",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 141,
-      "symbol": "kLCErrorUsernamePasswordMismatch",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 143,
-      "symbol": "kLCErrorUserNotFound",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 145,
-      "symbol": "kLCErrorUserMobilePhoneMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 147,
-      "symbol": "kLCErrorUserWithMobilePhoneNotFound",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 149,
-      "symbol": "kLCErrorUserMobilePhoneNumberTaken",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 151,
-      "symbol": "kLCErrorUserMobilePhoneNotVerified",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 153,
-      "symbol": "kLCErrorUserSNSAuthDataInvalid",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 155,
-      "symbol": "kLCErrorLinkedIdMissing",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 157,
-      "symbol": "kLCErrorInvalidLinkedSession",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 159,
-      "symbol": "LCBooleanResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 160,
-      "symbol": "LCIntegerResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 161,
-      "symbol": "LCArrayResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 162,
-      "symbol": "LCObjectResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 163,
-      "symbol": "LCSetResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 164,
-      "symbol": "LCUserResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 165,
-      "symbol": "LCDataResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 169,
-      "symbol": "LCImageResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 171,
-      "symbol": "LCStringResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 172,
-      "symbol": "LCIdResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 173,
-      "symbol": "LCProgressBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 174,
-      "symbol": "LCFileResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/LCConstants.h",
-      "line": 175,
-      "symbol": "LCDictionaryResultBlock",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
@@ -1521,48 +1003,6 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 362,
-      "symbol": "LCObject.-refresh",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 368,
-      "symbol": "LCObject.-refreshWithKeys:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 375,
-      "symbol": "LCObject.-refresh:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 381,
-      "symbol": "LCObject.-refreshAndThrowsWithError:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 387,
-      "symbol": "LCObject.-refreshInBackgroundWithBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 394,
-      "symbol": "LCObject.-refreshInBackgroundWithKeys:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
       "line": 404,
       "symbol": "LCObject.-fetch",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
@@ -1871,259 +1311,259 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 12,
+      "line": 11,
       "symbol": "kLCPushTargetPlatformIOS",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 13,
+      "line": 12,
       "symbol": "kLCPushTargetPlatformAndroid",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 14,
+      "line": 13,
       "symbol": "kLCPushTargetPlatformWindowsPhone",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 28,
+      "line": 27,
       "symbol": "LCPush",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 58,
+      "line": 57,
       "symbol": "LCPush.-setChannel:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 66,
+      "line": 65,
       "symbol": "LCPush.-setChannels:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 74,
+      "line": 73,
       "symbol": "LCPush.-setQuery:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 81,
+      "line": 80,
       "symbol": "LCPush.-setMessage:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 89,
+      "line": 88,
       "symbol": "LCPush.-setData:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 136,
+      "line": 135,
       "symbol": "LCPush.-expireAtDate:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 147,
+      "line": 146,
       "symbol": "LCPush.-expireAfterTimeInterval:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 153,
+      "line": 152,
       "symbol": "LCPush.-clearExpiration",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 165,
+      "line": 164,
       "symbol": "LCPush.+sendPushMessageToChannel:withMessage:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 175,
+      "line": 174,
       "symbol": "LCPush.+sendPushMessageToChannelInBackground:withMessage:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 185,
+      "line": 184,
       "symbol": "LCPush.+sendPushMessageToChannelInBackground:withMessage:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 197,
+      "line": 196,
       "symbol": "LCPush.+sendPushMessageToQuery:withMessage:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 207,
+      "line": 206,
       "symbol": "LCPush.+sendPushMessageToQueryInBackground:withMessage:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 217,
+      "line": 216,
       "symbol": "LCPush.+sendPushMessageToQueryInBackground:withMessage:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 226,
+      "line": 225,
       "symbol": "LCPush.-sendPush:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 232,
+      "line": 231,
       "symbol": "LCPush.-sendPushAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 237,
+      "line": 236,
       "symbol": "LCPush.-sendPushInBackground",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 243,
+      "line": 242,
       "symbol": "LCPush.-sendPushInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 253,
+      "line": 252,
       "symbol": "LCPush.+sendPushDataToChannel:withData:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 263,
+      "line": 262,
       "symbol": "LCPush.+sendPushDataToChannelInBackground:withData:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 273,
+      "line": 272,
       "symbol": "LCPush.+sendPushDataToChannelInBackground:withData:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 285,
+      "line": 284,
       "symbol": "LCPush.+sendPushDataToQuery:withData:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 295,
+      "line": 294,
       "symbol": "LCPush.+sendPushDataToQueryInBackground:withData:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 305,
+      "line": 304,
       "symbol": "LCPush.+sendPushDataToQueryInBackground:withData:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 316,
+      "line": 315,
       "symbol": "LCPush.+getSubscribedChannels:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 322,
+      "line": 321,
       "symbol": "LCPush.+getSubscribedChannelsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 328,
+      "line": 327,
       "symbol": "LCPush.+getSubscribedChannelsInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 337,
+      "line": 336,
       "symbol": "LCPush.+subscribeToChannel:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 344,
+      "line": 343,
       "symbol": "LCPush.+subscribeToChannelInBackground:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 352,
+      "line": 351,
       "symbol": "LCPush.+subscribeToChannelInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 361,
+      "line": 360,
       "symbol": "LCPush.+unsubscribeFromChannel:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 367,
+      "line": 366,
       "symbol": "LCPush.+unsubscribeFromChannelInBackground:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Push/LCPush.h",
-      "line": 375,
+      "line": 374,
       "symbol": "LCPush.+unsubscribeFromChannelInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
@@ -2136,568 +1576,561 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCCloudQueryResult.h",
-      "line": 31,
-      "symbol": "LCCloudQueryCallback",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 14,
-      "symbol": "LCQuery",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 19,
+      "line": 28,
       "symbol": "LCQueryDistanceUnit",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 19,
+      "line": 28,
       "symbol": "LCQueryDistanceUnit",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 20,
+      "line": 29,
       "symbol": "LCQueryDistanceUnit.LCQueryDistanceUnitMile",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 21,
+      "line": 30,
       "symbol": "LCQueryDistanceUnit.LCQueryDistanceUnitKilometer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 22,
+      "line": 31,
       "symbol": "LCQueryDistanceUnit.LCQueryDistanceUnitRadian",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 34,
+      "line": 39,
+      "symbol": "LCQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
+      "line": 50,
       "symbol": "LCQuery.+queryWithClassName:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 41,
+      "line": 57,
       "symbol": "LCQuery.+doCloudQueryWithCQL:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 49,
+      "line": 65,
       "symbol": "LCQuery.+doCloudQueryWithCQL:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 58,
+      "line": 74,
       "symbol": "LCQuery.+doCloudQueryWithCQL:pvalues:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 65,
+      "line": 81,
       "symbol": "LCQuery.+doCloudQueryInBackgroundWithCQL:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 73,
+      "line": 89,
       "symbol": "LCQuery.+doCloudQueryInBackgroundWithCQL:pvalues:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 79,
+      "line": 95,
       "symbol": "LCQuery.-initWithClassName:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 84,
+      "line": 100,
       "symbol": "LCQuery.className",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 94,
+      "line": 110,
       "symbol": "LCQuery.-includeKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 101,
+      "line": 117,
       "symbol": "LCQuery.-selectKeys:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 107,
+      "line": 123,
       "symbol": "LCQuery.-whereKeyExists:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 113,
+      "line": 129,
       "symbol": "LCQuery.-whereKeyDoesNotExist:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 120,
+      "line": 136,
       "symbol": "LCQuery.-whereKey:equalTo:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 127,
+      "line": 143,
       "symbol": "LCQuery.-whereKey:lessThan:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 134,
+      "line": 150,
       "symbol": "LCQuery.-whereKey:lessThanOrEqualTo:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 141,
+      "line": 157,
       "symbol": "LCQuery.-whereKey:greaterThan:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 148,
+      "line": 164,
       "symbol": "LCQuery.-whereKey:greaterThanOrEqualTo:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 155,
+      "line": 171,
       "symbol": "LCQuery.-whereKey:notEqualTo:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 162,
+      "line": 178,
       "symbol": "LCQuery.-whereKey:containedIn:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 169,
+      "line": 185,
       "symbol": "LCQuery.-whereKey:notContainedIn:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 176,
+      "line": 192,
       "symbol": "LCQuery.-whereKey:containsAllObjectsInArray:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 187,
+      "line": 203,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 197,
+      "line": 213,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:withinMiles:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 207,
+      "line": 223,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:withinKilometers:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 217,
+      "line": 233,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:withinRadians:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 231,
+      "line": 247,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:maxDistance:maxDistanceUnit:minDistance:minDistanceUnit:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 248,
+      "line": 264,
       "symbol": "LCQuery.-whereKey:nearGeoPoint:minDistance:minDistanceUnit:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 260,
+      "line": 276,
       "symbol": "LCQuery.-whereKey:withinGeoBoxFromSouthwest:toNortheast:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 270,
+      "line": 286,
       "symbol": "LCQuery.-whereKey:matchesRegex:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 279,
+      "line": 295,
       "symbol": "LCQuery.-whereKey:matchesRegex:modifiers:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 287,
+      "line": 303,
       "symbol": "LCQuery.-whereKey:containsString:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 295,
+      "line": 311,
       "symbol": "LCQuery.-whereKey:hasPrefix:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 303,
+      "line": 319,
       "symbol": "LCQuery.-whereKey:hasSuffix:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 312,
+      "line": 328,
       "symbol": "LCQuery.+orQueryWithSubqueries:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 319,
+      "line": 335,
       "symbol": "LCQuery.+andQueryWithSubqueries:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 328,
+      "line": 344,
       "symbol": "LCQuery.-whereKey:matchesKey:inQuery:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 337,
+      "line": 353,
       "symbol": "LCQuery.-whereKey:doesNotMatchKey:inQuery:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 345,
+      "line": 361,
       "symbol": "LCQuery.-whereKey:matchesQuery:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 353,
+      "line": 369,
       "symbol": "LCQuery.-whereKey:doesNotMatchQuery:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 361,
+      "line": 377,
       "symbol": "LCQuery.-whereKey:sizeEqualTo:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 372,
+      "line": 388,
       "symbol": "LCQuery.-orderByAscending:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 379,
+      "line": 395,
       "symbol": "LCQuery.-addAscendingOrder:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 385,
+      "line": 401,
       "symbol": "LCQuery.-orderByDescending:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 391,
+      "line": 407,
       "symbol": "LCQuery.-addDescendingOrder:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 397,
+      "line": 413,
       "symbol": "LCQuery.-orderBySortDescriptor:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 403,
+      "line": 419,
       "symbol": "LCQuery.-orderBySortDescriptors:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 416,
+      "line": 432,
       "symbol": "LCQuery.+getObjectOfClass:objectId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 426,
+      "line": 442,
       "symbol": "LCQuery.+getObjectOfClass:objectId:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 438,
+      "line": 454,
       "symbol": "LCQuery.-getObjectWithId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 449,
+      "line": 465,
       "symbol": "LCQuery.-getObjectWithId:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 458,
+      "line": 474,
       "symbol": "LCQuery.-getObjectInBackgroundWithId:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 471,
+      "line": 487,
       "symbol": "LCQuery.+getUserObjectWithId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 480,
+      "line": 496,
       "symbol": "LCQuery.+getUserObjectWithId:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 492,
+      "line": 508,
       "symbol": "LCQuery.-findObjects",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 499,
+      "line": 515,
       "symbol": "LCQuery.-findObjects:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 505,
+      "line": 521,
       "symbol": "LCQuery.-findObjectsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 511,
+      "line": 527,
       "symbol": "LCQuery.-findObjectsInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 517,
+      "line": 533,
       "symbol": "LCQuery.-deleteAllInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 529,
+      "line": 545,
       "symbol": "LCQuery.-getFirstObject",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 539,
+      "line": 555,
       "symbol": "LCQuery.-getFirstObject:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 545,
+      "line": 561,
       "symbol": "LCQuery.-getFirstObjectAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 554,
+      "line": 570,
       "symbol": "LCQuery.-getFirstObjectInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 565,
+      "line": 581,
       "symbol": "LCQuery.-countObjects",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 572,
+      "line": 588,
       "symbol": "LCQuery.-countObjects:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 578,
+      "line": 594,
       "symbol": "LCQuery.-countObjectsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 585,
+      "line": 601,
       "symbol": "LCQuery.-countObjectsInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 595,
+      "line": 611,
       "symbol": "LCQuery.-cancel",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 610,
+      "line": 626,
       "symbol": "LCQuery.skip",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 625,
+      "line": 641,
       "symbol": "LCQuery.cachePolicy",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 630,
+      "line": 646,
       "symbol": "LCQuery.maxCacheAge",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 636,
+      "line": 652,
       "symbol": "LCQuery.-hasCachedResult",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 641,
+      "line": 657,
       "symbol": "LCQuery.-clearCachedResult",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 646,
+      "line": 662,
       "symbol": "LCQuery.+clearAllCachedResults",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Query/LCQuery.h",
-      "line": 656,
+      "line": 672,
       "symbol": "LCQuery.trace",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
@@ -2732,168 +2165,168 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 15,
+      "line": 17,
       "symbol": "LCSearchQuery",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 21,
+      "line": 23,
       "symbol": "LCSearchQuery.+searchWithQueryString:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 26,
+      "line": 28,
       "symbol": "LCSearchQuery.className",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 31,
+      "line": 33,
       "symbol": "LCSearchQuery.skip",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 36,
+      "line": 38,
       "symbol": "LCSearchQuery.limit",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 41,
+      "line": 43,
       "symbol": "LCSearchQuery.queryString",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 46,
+      "line": 48,
       "symbol": "LCSearchQuery.sortBuilder",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 51,
+      "line": 53,
       "symbol": "LCSearchQuery.hits",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 58,
+      "line": 60,
       "symbol": "LCSearchQuery.sid",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 63,
+      "line": 65,
       "symbol": "LCSearchQuery.fields",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 69,
+      "line": 71,
       "symbol": "LCSearchQuery.highlights",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 74,
+      "line": 76,
       "symbol": "LCSearchQuery.cachePolicy",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 79,
+      "line": 81,
       "symbol": "LCSearchQuery.maxCacheAge",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 88,
+      "line": 90,
       "symbol": "LCSearchQuery.-includeKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 96,
+      "line": 98,
       "symbol": "LCSearchQuery.-findObjects",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 103,
+      "line": 105,
       "symbol": "LCSearchQuery.-findObjects:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 109,
+      "line": 111,
       "symbol": "LCSearchQuery.-findObjectsAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 115,
+      "line": 117,
       "symbol": "LCSearchQuery.-findInBackground:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 122,
+      "line": 124,
       "symbol": "LCSearchQuery.-orderByAscending:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 128,
+      "line": 130,
       "symbol": "LCSearchQuery.-addAscendingOrder:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 134,
+      "line": 136,
       "symbol": "LCSearchQuery.-orderByDescending:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 140,
+      "line": 142,
       "symbol": "LCSearchQuery.-addDescendingOrder:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 146,
+      "line": 148,
       "symbol": "LCSearchQuery.-orderBySortDescriptor:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Search/LCSearchQuery.h",
-      "line": 152,
+      "line": 154,
       "symbol": "LCSearchQuery.-orderBySortDescriptors:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
@@ -3012,245 +2445,245 @@
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 14,
+      "line": 13,
       "symbol": "LeanCloudSocialPlatform",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 15,
+      "line": 14,
       "symbol": "LeanCloudSocialPlatformWeiBo",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 16,
+      "line": 15,
       "symbol": "LeanCloudSocialPlatformQQ",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 17,
+      "line": 16,
       "symbol": "LeanCloudSocialPlatformWeiXin",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 30,
+      "line": 29,
       "symbol": "LCUserAuthDataLoginOption",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 66,
+      "line": 65,
       "symbol": "LCUser.+currentUser",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 74,
+      "line": 73,
       "symbol": "LCUser.+changeCurrentUser:save:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 85,
+      "line": 84,
       "symbol": "LCUser.-isAuthenticatedWithSessionToken:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 93,
+      "line": 92,
       "symbol": "LCUser.+user",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 102,
+      "line": 101,
       "symbol": "LCUser.+enableAutomaticUser",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 146,
+      "line": 145,
       "symbol": "LCUser.-getRoles:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 152,
+      "line": 151,
       "symbol": "LCUser.-getRolesAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 159,
+      "line": 158,
       "symbol": "LCUser.-getRolesInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 166,
+      "line": 165,
       "symbol": "LCUser.-signUp:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 172,
+      "line": 171,
       "symbol": "LCUser.-signUpAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 178,
+      "line": 177,
       "symbol": "LCUser.-signUpInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 187,
+      "line": 186,
       "symbol": "LCUser.-updatePassword:newPassword:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 194,
+      "line": 193,
       "symbol": "LCUser.-refreshSessionTokenWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 205,
+      "line": 204,
       "symbol": "LCUser.+logInWithUsername:password:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 217,
+      "line": 216,
       "symbol": "LCUser.+logInWithUsernameInBackground:password:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 237,
+      "line": 236,
       "symbol": "LCUser.+logInWithMobilePhoneNumber:password:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 246,
+      "line": 245,
       "symbol": "LCUser.+logInWithMobilePhoneNumberInBackground:password:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 257,
+      "line": 256,
       "symbol": "LCUser.+requestLoginSmsCode:withBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 276,
+      "line": 275,
       "symbol": "LCUser.+logInWithMobilePhoneNumber:smsCode:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 286,
+      "line": 285,
       "symbol": "LCUser.+logInWithMobilePhoneNumberInBackground:smsCode:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 298,
+      "line": 297,
       "symbol": "LCUser.+signUpOrLoginWithMobilePhoneNumber:smsCode:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 309,
+      "line": 308,
       "symbol": "LCUser.+signUpOrLoginWithMobilePhoneNumberInBackground:smsCode:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 332,
+      "line": 331,
       "symbol": "LCUser.+logOut",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 345,
+      "line": 344,
       "symbol": "LCUser.+requestPasswordResetForEmail:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 355,
+      "line": 354,
       "symbol": "LCUser.+requestPasswordResetForEmailInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 364,
+      "line": 363,
       "symbol": "LCUser.+requestPasswordResetWithPhoneNumber:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 384,
+      "line": 383,
       "symbol": "LCUser.+resetPasswordWithSmsCode:newPassword:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 393,
+      "line": 392,
       "symbol": "LCUser.+becomeWithSessionTokenInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 400,
+      "line": 399,
       "symbol": "LCUser.+becomeWithSessionToken:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/User/LCUser.h",
-      "line": 407,
+      "line": 406,
       "symbol": "LCUser.+query",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
@@ -3274,6 +2707,440 @@
       "line": 17,
       "symbol": "LCDynamicObject.-setObject:forKeyedSubscript:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 12,
+      "symbol": "kLCErrorInternalServer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 14,
+      "symbol": "kLCErrorConnectionFailed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 16,
+      "symbol": "kLCErrorObjectNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 18,
+      "symbol": "kLCErrorInvalidQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 20,
+      "symbol": "kLCErrorInvalidClassName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 22,
+      "symbol": "kLCErrorMissingObjectId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 24,
+      "symbol": "kLCErrorInvalidKeyName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 26,
+      "symbol": "kLCErrorInvalidPointer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 28,
+      "symbol": "kLCErrorInvalidJSON",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 30,
+      "symbol": "kLCErrorCommandUnavailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 32,
+      "symbol": "kLCErrorIncorrectType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 34,
+      "symbol": "kLCErrorInvalidChannelName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 36,
+      "symbol": "kLCErrorInvalidDeviceToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 38,
+      "symbol": "kLCErrorPushMisconfigured",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 40,
+      "symbol": "kLCErrorObjectTooLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 42,
+      "symbol": "kLCErrorOperationForbidden",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 44,
+      "symbol": "kLCErrorCacheMiss",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 46,
+      "symbol": "kLCErrorInvalidNestedKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 48,
+      "symbol": "kLCErrorInvalidFileName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 50,
+      "symbol": "kLCErrorInvalidACL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 52,
+      "symbol": "kLCErrorTimeout",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 54,
+      "symbol": "kLCErrorInvalidEmailAddress",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 56,
+      "symbol": "kLCErrorDuplicateValue",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 58,
+      "symbol": "kLCErrorInvalidRoleName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 60,
+      "symbol": "kLCErrorExceededQuota",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 62,
+      "symbol": "kLCScriptError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 64,
+      "symbol": "kLCValidationError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 66,
+      "symbol": "kLCErrorReceiptMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 68,
+      "symbol": "kLCErrorInvalidPurchaseReceipt",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 70,
+      "symbol": "kLCErrorPaymentDisabled",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 72,
+      "symbol": "kLCErrorInvalidProductIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 74,
+      "symbol": "kLCErrorProductNotFoundInAppStore",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 76,
+      "symbol": "kLCErrorInvalidServerResponse",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 78,
+      "symbol": "kLCErrorProductDownloadFileSystemFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 80,
+      "symbol": "kLCErrorInvalidImageData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 82,
+      "symbol": "kLCErrorUnsavedFile",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 84,
+      "symbol": "kLCErrorFileDeleteFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 86,
+      "symbol": "kLCErrorUsernameMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 88,
+      "symbol": "kLCErrorUserPasswordMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 90,
+      "symbol": "kLCErrorUsernameTaken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 92,
+      "symbol": "kLCErrorUserEmailTaken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 94,
+      "symbol": "kLCErrorUserEmailMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 96,
+      "symbol": "kLCErrorUserWithEmailNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 98,
+      "symbol": "kLCErrorUserCannotBeAlteredWithoutSession",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 100,
+      "symbol": "kLCErrorUserCanOnlyBeCreatedThroughSignUp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 102,
+      "symbol": "kLCErrorAccountAlreadyLinked",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 104,
+      "symbol": "kLCErrorUserIdMismatch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 106,
+      "symbol": "kLCErrorUsernamePasswordMismatch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 108,
+      "symbol": "kLCErrorUserNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 110,
+      "symbol": "kLCErrorUserMobilePhoneMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 112,
+      "symbol": "kLCErrorUserWithMobilePhoneNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 114,
+      "symbol": "kLCErrorUserMobilePhoneNumberTaken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 116,
+      "symbol": "kLCErrorUserMobilePhoneNotVerified",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 118,
+      "symbol": "kLCErrorUserSNSAuthDataInvalid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 120,
+      "symbol": "kLCErrorLinkedIdMissing",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 122,
+      "symbol": "kLCErrorInvalidLinkedSession",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 140,
+      "symbol": "kLeanCloudErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 141,
+      "symbol": "kLeanCloudRESTAPIResponseError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 143,
+      "symbol": "LCError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 144,
+      "symbol": "LCErrorInconsistency",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 145,
+      "symbol": "LCErrorFromUnderlyingError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCErrorUtils.h",
+      "line": 146,
+      "symbol": "LCErrorInternalServer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.function",
       "warning": "undocumented"
     },
     {
@@ -3455,6 +3322,237 @@
       "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCLogger.h",
       "line": 34,
       "symbol": "LCLogger.+containDomain:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 18,
+      "symbol": "LCBooleanResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 19,
+      "symbol": "LCIntegerResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 20,
+      "symbol": "LCStringResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 21,
+      "symbol": "LCDataResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 22,
+      "symbol": "LCArrayResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 23,
+      "symbol": "LCSetResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 24,
+      "symbol": "LCDictionaryResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 25,
+      "symbol": "LCIdResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 26,
+      "symbol": "LCProgressBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 27,
+      "symbol": "LCObjectResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 28,
+      "symbol": "LCUserResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 29,
+      "symbol": "LCFileResultBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 30,
+      "symbol": "LCCloudQueryCallback",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 32,
+      "symbol": "LCUtils",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 36,
+      "symbol": "LCUtils.+jsonStringFromDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 37,
+      "symbol": "LCUtils.+jsonStringFromArray:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 38,
+      "symbol": "LCUtils.+jsonStringFromJSONObject:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 42,
+      "symbol": "LCUtils.+callBooleanResultBlock:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 43,
+      "symbol": "LCUtils.+callIntegerResultBlock:number:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 44,
+      "symbol": "LCUtils.+callStringResultBlock:string:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 45,
+      "symbol": "LCUtils.+callDataResultBlock:data:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 46,
+      "symbol": "LCUtils.+callArrayResultBlock:array:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 47,
+      "symbol": "LCUtils.+callSetResultBlock:set:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 48,
+      "symbol": "LCUtils.+callDictionaryResultBlock:dictionary:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 49,
+      "symbol": "LCUtils.+callIdResultBlock:object:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 50,
+      "symbol": "LCUtils.+callProgressBlock:percent:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 51,
+      "symbol": "LCUtils.+callObjectResultBlock:object:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 52,
+      "symbol": "LCUtils.+callUserResultBlock:user:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 53,
+      "symbol": "LCUtils.+callFileResultBlock:file:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 54,
+      "symbol": "LCUtils.+callCloudQueryCallback:result:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 58,
+      "symbol": "NSObject(LeanCloudObjcSDK)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 60,
+      "symbol": "NSObject(LeanCloudObjcSDK).+_lc_isTypeOf:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/leancloud/objc-sdk/AVOS/Sources/Foundation/Utils/LCUtils.h",
+      "line": 61,
+      "symbol": "NSObject(LeanCloudObjcSDK).+_lc_decoding:key:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
