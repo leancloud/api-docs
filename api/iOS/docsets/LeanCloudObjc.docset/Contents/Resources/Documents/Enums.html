@@ -17,20 +17,20 @@
     <a title="Enumerations  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">LeanCloudObjc 13.5.0 Docs</a> (42% documented)</p>
-        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="img/dash.png"/>Install in Dash</a></p>
-        <p class="header-right">
+        <p><a href="index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
+        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
           </form>
-        </p>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="index.html">LeanCloudObjc Reference</a>
-        <img id="carat" src="img/carat.png" />
+        <img id="carat" src="img/carat.png" alt=""/>
         Enumerations  Reference
       </p>
     </div>
@@ -107,6 +107,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/LCIMClient.html">LCIMClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LCIMClientOption.html">LCIMClientOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/LCIMConversation.html">LCIMConversation</a>
@@ -206,6 +209,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/LCObject.html">LCObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LCObjectFetchOption.html">LCObjectFetchOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/LCPaasClient.html">LCPaasClient</a>
@@ -313,6 +319,30 @@
               </li>
               <li class="nav-group-task">
                 <a href="Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesMentioned">LCIMConversationUpdatedKeyUnreadMessagesMentioned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeAudio">LCIMMessageMediaTypeAudio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeFile">LCIMMessageMediaTypeFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeImage">LCIMMessageMediaTypeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeLocation">LCIMMessageMediaTypeLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeNone">LCIMMessageMediaTypeNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeRecalled">LCIMMessageMediaTypeRecalled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeText">LCIMMessageMediaTypeText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@LCIMMessageMediaTypeVideo">LCIMMessageMediaTypeVideo</a>
               </li>
               <li class="nav-group-task">
                 <a href="Constants.html#/c:@LCIMSignatureActionAdd">LCIMSignatureActionAdd</a>
@@ -668,9 +698,6 @@
                 <a href="Enums/LCIMMessageIOType.html">LCIMMessageIOType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/LCIMMessageMediaType.html">LCIMMessageMediaType</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Enums/LCIMMessagePriority.html">LCIMMessagePriority</a>
               </li>
               <li class="nav-group-task">
@@ -702,6 +729,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/LCShortMessageType.html">LCShortMessageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/kLCIMMessageMediaType.html">kLCIMMessageMediaType</a>
               </li>
             </ul>
           </li>
@@ -781,6 +811,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMIntegerResultBlock">LCIMIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a>
               </li>
               <li class="nav-group-task">
                 <a href="Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMProgressBlock">LCIMProgressBlock</a>
@@ -898,12 +931,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileUploadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileUploadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/File/LCFile.h#L15-L23">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/File/LCFile.h#L15-L23">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -941,12 +974,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileDownloadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCFileDownloadOption</span> <span class="p">:</span> <span class="kt">OptionSet</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/File/LCFile.h#L25-L32">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/File/LCFile.h#L25-L32">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -984,12 +1017,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCLogLevel</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCLogLevel</span> <span class="p">:</span> <span class="kt">OptionSet</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/LCApplication.h#L12-L19">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/LCApplication.h#L12-L19">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1026,12 +1059,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCServiceModule</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCServiceModule</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/LCApplication.h#L21-L27">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/LCApplication.h#L21-L27">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1062,12 +1095,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCCachePolicy</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCCachePolicy</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/Query/LCQuery.h#L10-L23">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Query/LCQuery.h#L10-L23">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1098,12 +1131,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCQueryDistanceUnit</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCQueryDistanceUnit</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/Query/LCQuery.h#L28-L32">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Query/LCQuery.h#L28-L32">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1134,12 +1167,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCShortMessageType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCShortMessageType</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/SMS/LCSMS.h#L18-L21">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/SMS/LCSMS.h#L18-L21">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1170,12 +1203,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCErrorInternalErrorCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCErrorInternalErrorCode</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Foundation/Utils/LCErrorUtils.h#L125-L136">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Utils/LCErrorUtils.h#L125-L136">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1206,12 +1239,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMErrorCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMErrorCode</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L22-L37">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L22-L37">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1242,12 +1275,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMClientStatus</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMClientStatus</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L49-L57">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L49-L57">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1278,12 +1311,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMClientOpenOption</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMClientOpenOption</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L60-L68">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L60-L68">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1314,12 +1347,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMConversationMemberRole</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMConversationMemberRole</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L82-L87">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L82-L87">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1350,12 +1383,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCIMConversationQueryOption</span> <span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LCIMConversationQueryOption</span> <span class="p">:</span> <span class="kt">OptionSet</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L92-L99">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L92-L99">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1386,12 +1419,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMCachePolicy</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMCachePolicy</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L102-L115">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L102-L115">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1422,12 +1455,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageQueryDirection</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageQueryDirection</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L120-L123">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L120-L123">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1435,25 +1468,30 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMMessageMediaType"></a>
-                    <a name="//apple_ref/objc/Enum/LCIMMessageMediaType" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMMessageMediaType">LCIMMessageMediaType</a>
+                    <a name="/c:@E@kLCIMMessageMediaType"></a>
+                    <a name="//apple_ref/objc/Enum/kLCIMMessageMediaType" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType">kLCIMMessageMediaType</a>
                     </code>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Enums/LCIMMessageMediaType.html" class="slightly-smaller">See more</a>
+                        <a href="Enums/kLCIMMessageMediaType.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">NS_ENUM</span><span class="p">(</span><span class="kt">int32_t</span><span class="p">,</span> <span class="n">LCIMMessageMediaType</span><span class="p">)</span> <span class="p">{</span>
+                          <pre class="highlight objective_c"><code><span class="n">NS_ENUM</span><span class="p">(</span><span class="kt">int32_t</span><span class="p">,</span> <span class="n">kLCIMMessageMediaType</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">kLCIMMessageMediaTypeNone</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
     <span class="n">kLCIMMessageMediaTypeText</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
     <span class="n">kLCIMMessageMediaTypeImage</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span>
@@ -1467,12 +1505,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageMediaType</span> <span class="p">:</span> <span class="kt">Int32</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="nv">kLCIMMessageMediaType</span> <span class="p">:</span> <span class="kt">Int32</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L11-L20">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L21-L30">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1506,12 +1544,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageIOType</span> <span class="p">:</span> <span class="kt">Int8</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageIOType</span> <span class="p">:</span> <span class="kt">Int8</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L22-L25">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L32-L35">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1549,12 +1587,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageStatus</span> <span class="p">:</span> <span class="kt">Int8</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessageStatus</span> <span class="p">:</span> <span class="kt">Int8</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L27-L34">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L37-L44">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1589,12 +1627,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessagePriority</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMMessagePriority</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Message/LCIMMessageOption.h#L11-L15">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessageOption.h#L11-L15">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1630,12 +1668,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCNetworkReachabilityStatus</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCNetworkReachabilityStatus</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCNetworkReachabilityManager.h#L27-L32">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCNetworkReachabilityManager.h#L27-L32">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1670,12 +1708,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCSSLPinningMode</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCSSLPinningMode</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCSecurityPolicy.h#L25-L29">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCSecurityPolicy.h#L25-L29">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1705,12 +1743,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCHTTPRequestQueryStringSerializationStyle</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCHTTPRequestQueryStringSerializationStyle</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L85-L87">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L85-L87">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1756,12 +1794,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCRTMWebSocketCloseCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCRTMWebSocketCloseCode</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/WebSocket/LCRTMWebSocket.h#L11-L26">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/WebSocket/LCRTMWebSocket.h#L11-L26">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1795,12 +1833,12 @@
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCRTMWebSocketMessageType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCRTMWebSocketMessageType</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/WebSocket/LCRTMWebSocket.h#L28-L31">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/WebSocket/LCRTMWebSocket.h#L28-L31">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1810,11 +1848,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="noopener" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-10-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://leancloud.cn" target="_blank" rel="external noopener">LeanCloud</a>. All rights reserved. (Last updated: 2022-05-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

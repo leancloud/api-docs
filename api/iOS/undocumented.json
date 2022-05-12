@@ -716,513 +716,506 @@
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 18,
+      "line": 19,
       "symbol": "LCObject",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 30,
+      "line": 31,
       "symbol": "LCObject.+objectWithObjectId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 39,
+      "line": 40,
       "symbol": "LCObject.+objectWithClassName:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 50,
+      "line": 51,
       "symbol": "LCObject.+objectWithClassName:objectId:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 58,
+      "line": 59,
       "symbol": "LCObject.+objectWithClassName:dictionary:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 65,
+      "line": 66,
       "symbol": "LCObject.-initWithClassName:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 83,
+      "line": 84,
       "symbol": "LCObject.objectId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 88,
+      "line": 89,
       "symbol": "LCObject.updatedAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 93,
+      "line": 94,
       "symbol": "LCObject.createdAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 98,
+      "line": 99,
       "symbol": "LCObject.className",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 103,
+      "line": 104,
       "symbol": "LCObject.ACL",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 110,
+      "line": 111,
       "symbol": "LCObject.-allKeys",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 120,
+      "line": 121,
       "symbol": "LCObject.-objectForKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 127,
+      "line": 128,
       "symbol": "LCObject.-setObject:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 133,
+      "line": 134,
       "symbol": "LCObject.-removeObjectForKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 139,
+      "line": 140,
       "symbol": "LCObject.-objectForKeyedSubscript:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 146,
+      "line": 147,
       "symbol": "LCObject.-setObject:forKeyedSubscript:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 152,
+      "line": 153,
       "symbol": "LCObject.-relationForKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 162,
+      "line": 163,
       "symbol": "LCObject.-addObject:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 170,
+      "line": 171,
       "symbol": "LCObject.-addObjectsFromArray:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 178,
+      "line": 179,
       "symbol": "LCObject.-addUniqueObject:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 187,
+      "line": 188,
       "symbol": "LCObject.-addUniqueObjectsFromArray:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 195,
+      "line": 196,
       "symbol": "LCObject.-removeObject:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 203,
+      "line": 204,
       "symbol": "LCObject.-removeObjectsInArray:forKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 212,
+      "line": 213,
       "symbol": "LCObject.-incrementKey:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 219,
+      "line": 220,
       "symbol": "LCObject.-incrementKey:byAmount:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 230,
+      "line": 231,
       "symbol": "LCObject.-save",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 237,
+      "line": 238,
       "symbol": "LCObject.-save:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 243,
+      "line": 244,
       "symbol": "LCObject.-saveAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 251,
+      "line": 252,
       "symbol": "LCObject.-saveWithOption:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 261,
+      "line": 262,
       "symbol": "LCObject.-saveWithOption:eventually:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 266,
+      "line": 267,
       "symbol": "LCObject.-saveInBackground",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 272,
+      "line": 273,
       "symbol": "LCObject.-saveInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 279,
+      "line": 280,
       "symbol": "LCObject.-saveInBackgroundWithOption:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 287,
+      "line": 288,
       "symbol": "LCObject.-saveInBackgroundWithOption:eventually:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 292,
+      "line": 293,
       "symbol": "LCObject.-saveEventually",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 310,
+      "line": 311,
       "symbol": "LCObject.-saveEventually:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 322,
+      "line": 323,
       "symbol": "LCObject.+saveAll:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 330,
+      "line": 331,
       "symbol": "LCObject.+saveAll:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 336,
+      "line": 337,
       "symbol": "LCObject.+saveAllInBackground:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 343,
+      "line": 344,
       "symbol": "LCObject.+saveAllInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 354,
-      "symbol": "LCObject.-isDataAvailable",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 404,
-      "symbol": "LCObject.-fetch",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 410,
-      "symbol": "LCObject.-fetch:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 416,
-      "symbol": "LCObject.-fetchAndThrowsWithError:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 422,
-      "symbol": "LCObject.-fetchWithKeys:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 430,
-      "symbol": "LCObject.-fetchWithKeys:error:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 436,
-      "symbol": "LCObject.-fetchIfNeeded",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 442,
-      "symbol": "LCObject.-fetchIfNeeded:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 448,
-      "symbol": "LCObject.-fetchIfNeededAndThrowsWithError:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 454,
-      "symbol": "LCObject.-fetchIfNeededWithKeys:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 461,
-      "symbol": "LCObject.-fetchIfNeededWithKeys:error:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 468,
-      "symbol": "LCObject.-fetchInBackgroundWithBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 475,
-      "symbol": "LCObject.-fetchInBackgroundWithKeys:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 482,
-      "symbol": "LCObject.-fetchIfNeededInBackgroundWithBlock:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 490,
-      "symbol": "LCObject.+fetchAll:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 498,
+      "line": 376,
       "symbol": "LCObject.+fetchAll:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 504,
-      "symbol": "LCObject.+fetchAllIfNeeded:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 512,
-      "symbol": "LCObject.+fetchAllIfNeeded:error:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 519,
+      "line": 383,
       "symbol": "LCObject.+fetchAllInBackground:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 527,
-      "symbol": "LCObject.+fetchAllIfNeededInBackground:block:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 538,
+      "line": 393,
       "symbol": "LCObject.-delete",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 545,
+      "line": 400,
       "symbol": "LCObject.-delete:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 551,
+      "line": 406,
       "symbol": "LCObject.-deleteAndThrowsWithError:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 556,
+      "line": 411,
       "symbol": "LCObject.-deleteInBackground",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 562,
+      "line": 417,
       "symbol": "LCObject.-deleteInBackgroundWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 576,
+      "line": 431,
       "symbol": "LCObject.-deleteEventually",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 583,
+      "line": 438,
       "symbol": "LCObject.-deleteEventuallyWithBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 591,
+      "line": 446,
       "symbol": "LCObject.+deleteAll:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 599,
+      "line": 454,
       "symbol": "LCObject.+deleteAll:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 612,
+      "line": 467,
       "symbol": "LCObject.fetchWhenSave",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 618,
+      "line": 473,
       "symbol": "LCObject.+objectWithDictionary:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
-      "line": 623,
+      "line": 478,
       "symbol": "LCObject.-dictionaryForObject",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 494,
+      "symbol": "LCObject.-fetch:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 501,
+      "symbol": "LCObject.-fetchWithKeys:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 510,
+      "symbol": "LCObject.-fetchWithKeys:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 516,
+      "symbol": "LCObject.-fetchIfNeeded",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 523,
+      "symbol": "LCObject.-fetchIfNeeded:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 530,
+      "symbol": "LCObject.-fetchIfNeededAndThrowsWithError:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 537,
+      "symbol": "LCObject.-fetchIfNeededWithKeys:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 545,
+      "symbol": "LCObject.-fetchIfNeededWithKeys:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 553,
+      "symbol": "LCObject.-fetchInBackgroundWithKeys:block:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 560,
+      "symbol": "LCObject.-fetchIfNeededInBackgroundWithBlock:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 567,
+      "symbol": "LCObject.+fetchAll:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 574,
+      "symbol": "LCObject.+fetchAllIfNeeded:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 583,
+      "symbol": "LCObject.+fetchAllIfNeeded:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObject.h",
+      "line": 591,
+      "symbol": "LCObject.+fetchAllIfNeededInBackground:block:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObjectOption.h",
+      "line": 15,
+      "symbol": "LCSaveOption",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObjectOption.h",
+      "line": 17,
+      "symbol": "LCSaveOption.fetchWhenSave",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCObjectOption.h",
+      "line": 18,
+      "symbol": "LCSaveOption.query",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -1258,27 +1251,6 @@
       "line": 43,
       "symbol": "LCRelation.-removeObject:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCSaveOption.h",
-      "line": 15,
-      "symbol": "LCSaveOption",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCSaveOption.h",
-      "line": 17,
-      "symbol": "LCSaveOption.fetchWhenSave",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Object/LCSaveOption.h",
-      "line": 18,
-      "symbol": "LCSaveOption.query",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -2340,120 +2312,141 @@
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 63,
+      "line": 62,
+      "symbol": "LCPaasClient.-getObject:withParameters:block:wait:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
+      "line": 66,
       "symbol": "LCPaasClient.-getObject:withParameters:policy:maxCacheAge:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 69,
+      "line": 72,
       "symbol": "LCPaasClient.-putObject:withParameters:sessionToken:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 74,
+      "line": 77,
       "symbol": "LCPaasClient.-postBatchObject:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 75,
-      "symbol": "LCPaasClient.-postBatchObject:headerMap:eventually:block:",
+      "line": 79,
+      "symbol": "LCPaasClient.-postBatchObject:headerMap:block:wait:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 77,
+      "line": 84,
       "symbol": "LCPaasClient.-postBatchSaveObject:headerMap:eventually:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 79,
+      "line": 86,
       "symbol": "LCPaasClient.-postObject:withParameters:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 80,
+      "line": 87,
       "symbol": "LCPaasClient.-postObject:withParameters:eventually:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 82,
+      "line": 89,
       "symbol": "LCPaasClient.-deleteObject:withParameters:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 86,
+      "line": 93,
       "symbol": "LCPaasClient.-deleteObject:withParameters:eventually:block:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 91,
+      "line": 98,
       "symbol": "LCPaasClient.-absoluteStringFromPath:parameters:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 93,
+      "line": 100,
       "symbol": "LCPaasClient.-addSubclassMapEntry:classObject:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 95,
+      "line": 102,
       "symbol": "LCPaasClient.-classFor:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 99,
+      "line": 106,
       "symbol": "LCPaasClient.-handleAllArchivedRequests",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 106,
+      "line": 113,
       "symbol": "LCPaasClient.-signatureHeaderFieldValue",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 108,
+      "line": 115,
       "symbol": "LCPaasClient.-requestWithPath:method:headers:parameters:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 113,
+      "line": 120,
       "symbol": "LCPaasClient.-performRequest:success:failure:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
-      "line": 117,
+      "line": 124,
+      "symbol": "LCPaasClient.-performRequest:validator:success:failure:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
+      "line": 129,
       "symbol": "LCPaasClient.-performRequest:success:failure:wait:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Request/LCPaasClient.h",
+      "line": 134,
+      "symbol": "LCPaasClient.-performRequest:validator:success:failure:wait:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
@@ -3468,6 +3461,13 @@
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Utils/LCLogger.h",
       "line": 11,
+      "symbol": "LCLoggerLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Utils/LCLogger.h",
+      "line": 11,
       "symbol": "LCLoggerLevel.",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
@@ -3540,13 +3540,6 @@
       "line": 16,
       "symbol": "LCLoggerLevel..LCLoggerLevelAll",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Foundation/Utils/LCLogger.h",
-      "line": 17,
-      "symbol": "LCLoggerLevel",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
@@ -3873,28 +3866,28 @@
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 69,
+      "line": 77,
       "symbol": "LCIMClient.+new",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 70,
+      "line": 78,
       "symbol": "LCIMClient.-init",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 198,
+      "line": 242,
       "symbol": "LCIMClient.-conversationWithKeyedConversation:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Client/LCIMClient.h",
-      "line": 215,
+      "line": 259,
       "symbol": "LCIMClient.-queryOnlineClientsInClients:callback:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
@@ -4904,292 +4897,355 @@
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 11,
       "symbol": "LCIMMessageMediaType",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 11,
-      "symbol": "LCIMMessageMediaType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 12,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeNone",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 13,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeText",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeText",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 14,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeImage",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 15,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeAudio",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeAudio",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 16,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeVideo",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeVideo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 17,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeLocation",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeLocation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 18,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeFile",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeFile",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 19,
-      "symbol": "LCIMMessageMediaType.kLCIMMessageMediaTypeRecalled",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "symbol": "LCIMMessageMediaTypeRecalled",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 22,
-      "symbol": "LCIMMessageIOType",
+      "line": 21,
+      "symbol": "kLCIMMessageMediaType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 22,
-      "symbol": "LCIMMessageIOType",
+      "line": 21,
+      "symbol": "kLCIMMessageMediaType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 22,
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 23,
-      "symbol": "LCIMMessageIOType.LCIMMessageIOTypeIn",
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeText",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 24,
-      "symbol": "LCIMMessageIOType.LCIMMessageIOTypeOut",
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 25,
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeAudio",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 26,
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeVideo",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 27,
-      "symbol": "LCIMMessageStatus",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 27,
-      "symbol": "LCIMMessageStatus",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeLocation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 28,
-      "symbol": "LCIMMessageStatus.LCIMMessageStatusNone",
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeFile",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 29,
-      "symbol": "LCIMMessageStatus.LCIMMessageStatusSending",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 30,
-      "symbol": "LCIMMessageStatus.LCIMMessageStatusSent",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 31,
-      "symbol": "LCIMMessageStatus.LCIMMessageStatusDelivered",
+      "symbol": "kLCIMMessageMediaType.kLCIMMessageMediaTypeRecalled",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
       "line": 32,
+      "symbol": "LCIMMessageIOType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 32,
+      "symbol": "LCIMMessageIOType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 33,
+      "symbol": "LCIMMessageIOType.LCIMMessageIOTypeIn",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 34,
+      "symbol": "LCIMMessageIOType.LCIMMessageIOTypeOut",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 37,
+      "symbol": "LCIMMessageStatus",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 37,
+      "symbol": "LCIMMessageStatus",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 38,
+      "symbol": "LCIMMessageStatus.LCIMMessageStatusNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 39,
+      "symbol": "LCIMMessageStatus.LCIMMessageStatusSending",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 40,
+      "symbol": "LCIMMessageStatus.LCIMMessageStatusSent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 41,
+      "symbol": "LCIMMessageStatus.LCIMMessageStatusDelivered",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
+      "line": 42,
       "symbol": "LCIMMessageStatus.LCIMMessageStatusFailed",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 33,
+      "line": 43,
       "symbol": "LCIMMessageStatus.LCIMMessageStatusRead",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 38,
+      "line": 48,
       "symbol": "LCIMMessagePatchedReason",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 40,
+      "line": 50,
       "symbol": "LCIMMessagePatchedReason.code",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 41,
+      "line": 51,
       "symbol": "LCIMMessagePatchedReason.reason",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 45,
+      "line": 55,
       "symbol": "LCIMMessage",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 47,
+      "line": 57,
       "symbol": "LCIMMessage.mediaType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 52,
+      "line": 62,
       "symbol": "LCIMMessage.ioType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 57,
+      "line": 67,
       "symbol": "LCIMMessage.status",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 62,
+      "line": 72,
       "symbol": "LCIMMessage.messageId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 67,
+      "line": 77,
       "symbol": "LCIMMessage.clientId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 72,
+      "line": 82,
       "symbol": "LCIMMessage.mentionAll",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 77,
+      "line": 87,
       "symbol": "LCIMMessage.mentionList",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 82,
+      "line": 92,
       "symbol": "LCIMMessage.mentioned",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 87,
+      "line": 97,
       "symbol": "LCIMMessage.conversationId",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 92,
+      "line": 102,
       "symbol": "LCIMMessage.content",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 97,
+      "line": 107,
       "symbol": "LCIMMessage.sendTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 102,
+      "line": 112,
       "symbol": "LCIMMessage.deliveredTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 107,
+      "line": 117,
       "symbol": "LCIMMessage.readTimestamp",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 112,
+      "line": 122,
       "symbol": "LCIMMessage.updatedAt",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 114,
+      "line": 124,
       "symbol": "LCIMMessage.-payload",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/zapcannon87/Work/tds/objc-sdk/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h",
-      "line": 120,
+      "line": 130,
       "symbol": "LCIMMessage.+messageWithContent:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"

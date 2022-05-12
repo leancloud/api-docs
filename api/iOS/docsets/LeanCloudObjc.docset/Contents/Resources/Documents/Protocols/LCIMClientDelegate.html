@@ -17,20 +17,20 @@
     <a title="LCIMClientDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloudObjc 13.5.0 Docs</a> (42% documented)</p>
-        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
-        <p class="header-right">
+        <p><a href="../index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
+        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
           </form>
-        </p>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         LCIMClientDelegate Protocol Reference
       </p>
     </div>
@@ -107,6 +107,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMClient.html">LCIMClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClientOption.html">LCIMClientOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
@@ -206,6 +209,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCObject.html">LCObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCObjectFetchOption.html">LCObjectFetchOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCPaasClient.html">LCPaasClient</a>
@@ -313,6 +319,30 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesMentioned">LCIMConversationUpdatedKeyUnreadMessagesMentioned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeAudio">LCIMMessageMediaTypeAudio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeFile">LCIMMessageMediaTypeFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeImage">LCIMMessageMediaTypeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeLocation">LCIMMessageMediaTypeLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeNone">LCIMMessageMediaTypeNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeRecalled">LCIMMessageMediaTypeRecalled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeText">LCIMMessageMediaTypeText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeVideo">LCIMMessageMediaTypeVideo</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMSignatureActionAdd">LCIMSignatureActionAdd</a>
@@ -668,9 +698,6 @@
                 <a href="../Enums/LCIMMessageIOType.html">LCIMMessageIOType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LCIMMessageMediaType.html">LCIMMessageMediaType</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/LCIMMessagePriority.html">LCIMMessagePriority</a>
               </li>
               <li class="nav-group-task">
@@ -702,6 +729,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/LCShortMessageType.html">LCShortMessageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/kLCIMMessageMediaType.html">kLCIMMessageMediaType</a>
               </li>
             </ul>
           </li>
@@ -781,6 +811,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMIntegerResultBlock">LCIMIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMProgressBlock">LCIMProgressBlock</a>
@@ -873,7 +906,7 @@
             <p>This protocol defines methods to handle the events about client, conversation, message and so on.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L21-L217">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L21-L217">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -946,7 +979,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L36">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L36">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1000,7 +1033,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L40">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L40">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1054,7 +1087,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L44">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L44">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1125,7 +1158,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L54">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L54">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1161,7 +1194,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L63">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L63">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1197,7 +1230,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L70">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L70">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1233,7 +1266,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L77">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L77">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1313,7 +1346,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L83">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L83">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1393,7 +1426,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L89">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L89">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1430,7 +1463,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L97">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L97">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1467,7 +1500,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L105">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1503,7 +1536,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L112">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L112">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1539,7 +1572,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L119">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L119">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1575,7 +1608,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L129">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L129">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1681,7 +1714,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L137">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L137">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1774,7 +1807,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L147">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L147">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1841,7 +1874,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L155">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L155">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1908,7 +1941,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L163">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L163">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1988,7 +2021,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L172">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L172">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2068,7 +2101,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L181">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L181">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2135,7 +2168,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L189">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L189">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2202,7 +2235,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L197">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L197">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2282,7 +2315,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L206">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L206">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2362,7 +2395,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L215">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Client/LCIMClientProtocol.h#L215">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2372,11 +2405,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="noopener" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-10-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://leancloud.cn" target="_blank" rel="external noopener">LeanCloud</a>. All rights reserved. (Last updated: 2022-05-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

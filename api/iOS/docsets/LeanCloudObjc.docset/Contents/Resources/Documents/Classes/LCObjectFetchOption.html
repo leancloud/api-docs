@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LCIMConversationMemberRole Enumeration Reference</title>
+    <title>LCObjectFetchOption Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/objc/Enum/LCIMConversationMemberRole" class="dashAnchor"></a>
-    <a title="LCIMConversationMemberRole Enumeration Reference"></a>
+    <a name="//apple_ref/objc/Class/LCObjectFetchOption" class="dashAnchor"></a>
+    <a title="LCObjectFetchOption Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
@@ -31,7 +31,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        LCIMConversationMemberRole Enumeration Reference
+        LCObjectFetchOption Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -890,23 +890,23 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>LCIMConversationMemberRole</h1>
+            <h1>LCObjectFetchOption</h1>
               <div class="declaration">
                 <div class="language">
                   <p class="aside-title">Objective-C</p>
-                  <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">LCIMConversationMemberRole</span> <span class="o">:</span> <span class="n">NSUInteger</span> <span class="p">{}</span></code></pre>
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">LCObjectFetchOption</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
 
                 </div>
                 <div class="language">
                   <p class="aside-title">Swift</p>
-                  <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMConversationMemberRole</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">LCObjectFetchOption</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
-            <p>Conversation Member Role.</p>
+            <p>Option for fetch-method of LCObject.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L82-L87">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Object/LCObjectOption.h#L23-L31">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -915,9 +915,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleMember"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleMember" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleMember">LCIMConversationMemberRoleMember</a>
+                    <a name="/c:objc(cs)LCObjectFetchOption(py)selectKeys"></a>
+                    <a name="//apple_ref/objc/Property/selectKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCObjectFetchOption(py)selectKeys">selectKeys</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -925,24 +925,25 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
+                        <p>Selecting which only key-value will be returned.
+If the key is prefixed with <code>-</code>, means which only key-value will NOT be returned.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleMember</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">selectKeys</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">member</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L84">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Object/LCObjectOption.h#L27">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -950,9 +951,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleManager"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleManager" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleManager">LCIMConversationMemberRoleManager</a>
+                    <a name="/c:objc(cs)LCObjectFetchOption(py)includeKeys"></a>
+                    <a name="//apple_ref/objc/Property/includeKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCObjectFetchOption(py)includeKeys">includeKeys</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -960,59 +961,24 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
+                        <p>Selecting which pointer&rsquo;s all value will be returned.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleManager</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">includeKeys</span><span class="p">;</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">manager</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">includeKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L85">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleOwner"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleOwner" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleOwner">LCIMConversationMemberRoleOwner</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleOwner</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">owner</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L86">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Object/LCObjectOption.h#L29">Show on GitHub</a>
                       </div>
                     </section>
                   </div>

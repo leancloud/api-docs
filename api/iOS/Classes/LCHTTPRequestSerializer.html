@@ -17,20 +17,20 @@
     <a title="LCHTTPRequestSerializer Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloudObjc 13.5.0 Docs</a> (42% documented)</p>
-        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png"/>Install in Dash</a></p>
-        <p class="header-right">
+        <p><a href="../index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
+        <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
           </form>
-        </p>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         LCHTTPRequestSerializer Class Reference
       </p>
     </div>
@@ -107,6 +107,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMClient.html">LCIMClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCIMClientOption.html">LCIMClientOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCIMConversation.html">LCIMConversation</a>
@@ -206,6 +209,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCObject.html">LCObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LCObjectFetchOption.html">LCObjectFetchOption</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/LCPaasClient.html">LCPaasClient</a>
@@ -313,6 +319,30 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMConversationUpdatedKeyUnreadMessagesMentioned">LCIMConversationUpdatedKeyUnreadMessagesMentioned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeAudio">LCIMMessageMediaTypeAudio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeFile">LCIMMessageMediaTypeFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeImage">LCIMMessageMediaTypeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeLocation">LCIMMessageMediaTypeLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeNone">LCIMMessageMediaTypeNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeRecalled">LCIMMessageMediaTypeRecalled</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeText">LCIMMessageMediaTypeText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@LCIMMessageMediaTypeVideo">LCIMMessageMediaTypeVideo</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Constants.html#/c:@LCIMSignatureActionAdd">LCIMSignatureActionAdd</a>
@@ -668,9 +698,6 @@
                 <a href="../Enums/LCIMMessageIOType.html">LCIMMessageIOType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LCIMMessageMediaType.html">LCIMMessageMediaType</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/LCIMMessagePriority.html">LCIMMessagePriority</a>
               </li>
               <li class="nav-group-task">
@@ -702,6 +729,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/LCShortMessageType.html">LCShortMessageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/kLCIMMessageMediaType.html">kLCIMMessageMediaType</a>
               </li>
             </ul>
           </li>
@@ -781,6 +811,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMIntegerResultBlock">LCIMIntegerResultBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Type%20Definitions.html#/c:LCIMCommon.h@T@LCIMProgressBlock">LCIMProgressBlock</a>
@@ -875,7 +908,7 @@
 <p>Any request or response serializer dealing with HTTP is encouraged to subclass <code>LCHTTPRequestSerializer</code> in order to ensure consistent default behavior.</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L96-L276">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L96-L276">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -911,7 +944,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L101">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L101">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -951,7 +984,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L108">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L108">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -991,7 +1024,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L115">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L115">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1031,7 +1064,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L122">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L122">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1071,7 +1104,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L129">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L129">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1111,7 +1144,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L136">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L136">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1151,7 +1184,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L143">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L143">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1164,7 +1197,7 @@
                 <a name="//apple_ref/objc/Section/Configuring HTTP Request Headers" class="dashAnchor"></a>
                 <div class="section-name-container">
                   <a class="section-name-link" href="#/Configuring%20HTTP%20Request%20Headers"></a>
-                  <h3 class="section-name"><p>Configuring HTTP Request Headers</p>
+                  <h3 class="section-name"><span>Configuring HTTP Request Headers</span>
 </h3>
                 </div>
               </div>
@@ -1206,7 +1239,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L157">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L157">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1236,7 +1269,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L162">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L162">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1303,7 +1336,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L170-L171">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L170-L171">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1361,7 +1394,7 @@
                         <p>The value set as default for the specified header, or <code>nil</code></p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L180">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L180">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1428,7 +1461,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L188-L189">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L188-L189">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1463,7 +1496,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L194">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L194">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1476,7 +1509,7 @@
                 <a name="//apple_ref/objc/Section/Configuring Query String Parameter Serialization" class="dashAnchor"></a>
                 <div class="section-name-container">
                   <a class="section-name-link" href="#/Configuring%20Query%20String%20Parameter%20Serialization"></a>
-                  <h3 class="section-name"><p>Configuring Query String Parameter Serialization</p>
+                  <h3 class="section-name"><span>Configuring Query String Parameter Serialization</span>
 </h3>
                 </div>
               </div>
@@ -1511,7 +1544,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L203">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L203">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1571,7 +1604,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L212">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L212">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1627,7 +1660,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L219">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L219">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1640,7 +1673,7 @@
                 <a name="//apple_ref/objc/Section/Creating Request Objects" class="dashAnchor"></a>
                 <div class="section-name-container">
                   <a class="section-name-link" href="#/Creating%20Request%20Objects"></a>
-                  <h3 class="section-name"><p>Creating Request Objects</p>
+                  <h3 class="section-name"><span>Creating Request Objects</span>
 </h3>
                 </div>
               </div>
@@ -1740,7 +1773,7 @@
                         <p>An <code>NSMutableURLRequest</code> object.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L237-L240">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L237-L240">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1855,7 +1888,7 @@
                         <p>An <code>NSMutableURLRequest</code> object</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L255-L259">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L255-L259">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1944,7 +1977,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.5.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L272-L274">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Vendor/LCNetworking/LCURLRequestSerialization.h#L272-L274">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1954,11 +1987,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://leancloud.cn" target="_blank" rel="noopener" rel="external">LeanCloud</a>. All rights reserved. (Last updated: 2021-10-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://leancloud.cn" target="_blank" rel="external noopener">LeanCloud</a>. All rights reserved. (Last updated: 2022-05-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

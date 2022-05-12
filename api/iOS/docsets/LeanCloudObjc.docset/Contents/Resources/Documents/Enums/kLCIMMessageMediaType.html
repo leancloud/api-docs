@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LCIMConversationMemberRole Enumeration Reference</title>
+    <title>kLCIMMessageMediaType Enumeration Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/objc/Enum/LCIMConversationMemberRole" class="dashAnchor"></a>
-    <a title="LCIMConversationMemberRole Enumeration Reference"></a>
+    <a name="//apple_ref/objc/Enum/kLCIMMessageMediaType" class="dashAnchor"></a>
+    <a title="kLCIMMessageMediaType Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
@@ -31,7 +31,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">LeanCloudObjc Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        LCIMConversationMemberRole Enumeration Reference
+        kLCIMMessageMediaType Enumeration Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -890,23 +890,37 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>LCIMConversationMemberRole</h1>
+            <h1>kLCIMMessageMediaType</h1>
+            <div class="aside aside-deprecated">
+              <p class="aside-title">Deprecated</p>
+              <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+            </div>
               <div class="declaration">
                 <div class="language">
                   <p class="aside-title">Objective-C</p>
-                  <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="n">LCIMConversationMemberRole</span> <span class="o">:</span> <span class="n">NSUInteger</span> <span class="p">{}</span></code></pre>
+                  <pre class="highlight objective_c"><code><span class="n">NS_ENUM</span><span class="p">(</span><span class="kt">int32_t</span><span class="p">,</span> <span class="n">kLCIMMessageMediaType</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">kLCIMMessageMediaTypeNone</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeText</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeImage</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeAudio</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeVideo</span> <span class="o">=</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeLocation</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeFile</span> <span class="o">=</span> <span class="o">-</span><span class="mi">6</span><span class="p">,</span>
+    <span class="n">kLCIMMessageMediaTypeRecalled</span> <span class="o">=</span> <span class="o">-</span><span class="mi">127</span>
+<span class="p">}</span></code></pre>
 
                 </div>
                 <div class="language">
                   <p class="aside-title">Swift</p>
-                  <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">LCIMConversationMemberRole</span> <span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">enum</span> <span class="nv">kLCIMMessageMediaType</span> <span class="p">:</span> <span class="kt">Int32</span><span class="p">,</span> <span class="kd">@unchecked</span> <span class="kt">Sendable</span></code></pre>
 
                 </div>
               </div>
-            <p>Conversation Member Role.</p>
+            <p>Undocumented</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L82-L87">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L21-L30">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -915,34 +929,39 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleMember"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleMember" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleMember">LCIMConversationMemberRoleMember</a>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeNone"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeNone" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeNone">kLCIMMessageMediaTypeNone</a>
                     </code>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
                       <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleMember</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeNone</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">member</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeNone</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L84">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L22">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -950,34 +969,39 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleManager"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleManager" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleManager">LCIMConversationMemberRoleManager</a>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeText"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeText" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeText">kLCIMMessageMediaTypeText</a>
                     </code>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
                       <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleManager</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeText</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">manager</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeText</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L85">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L23">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -985,34 +1009,239 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleOwner"></a>
-                    <a name="//apple_ref/objc/Case/LCIMConversationMemberRoleOwner" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@E@LCIMConversationMemberRole@LCIMConversationMemberRoleOwner">LCIMConversationMemberRoleOwner</a>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeImage"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeImage" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeImage">kLCIMMessageMediaTypeImage</a>
                     </code>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
                       <div class="abstract">
-                        <p>Privilege: Owner &gt; Manager &gt; Member</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight objective_c"><code><span class="n">LCIMConversationMemberRoleOwner</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeImage</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span></code></pre>
 
                         </div>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">owner</span> <span class="o">=</span> <span class="mi">2</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeImage</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/LCIMCommon.h#L86">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L24">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeAudio"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeAudio" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeAudio">kLCIMMessageMediaTypeAudio</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeAudio</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeAudio</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L25">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeVideo"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeVideo" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeVideo">kLCIMMessageMediaTypeVideo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeVideo</span> <span class="o">=</span> <span class="o">-</span><span class="mi">4</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeVideo</span> <span class="o">=</span> <span class="o">-</span><span class="mi">4</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L26">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeLocation"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeLocation" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeLocation">kLCIMMessageMediaTypeLocation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeLocation</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeLocation</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L27">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeFile"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeFile" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeFile">kLCIMMessageMediaTypeFile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeFile</span> <span class="o">=</span> <span class="o">-</span><span class="mi">6</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeFile</span> <span class="o">=</span> <span class="o">-</span><span class="mi">6</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L28">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeRecalled"></a>
+                    <a name="//apple_ref/objc/Case/kLCIMMessageMediaTypeRecalled" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:@E@kLCIMMessageMediaType@kLCIMMessageMediaTypeRecalled">kLCIMMessageMediaTypeRecalled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Deprecated! please use <code><a href="../Type%20Definitions.html#/c:LCIMMessage.h@T@LCIMMessageMediaType">LCIMMessageMediaType</a></code> instead, this ENUM may be removed in the future.</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kLCIMMessageMediaTypeRecalled</span> <span class="o">=</span> <span class="o">-</span><span class="mi">127</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">lcimMessageMediaTypeRecalled</span> <span class="o">=</span> <span class="o">-</span><span class="mi">127</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Realtime/IM/Message/LCIMMessage.h#L29">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
