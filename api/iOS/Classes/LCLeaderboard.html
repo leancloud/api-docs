@@ -17,7 +17,7 @@
     <a title="LCLeaderboard Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LeanCloudObjc 13.8.0 Docs</a> (42% documented)</p>
+        <p><a href="../index.html">LeanCloudObjc 13.9.0 Docs</a> (42% documented)</p>
         <p class="header-right"><a href="https://github.com/leancloud/objc-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fleancloud.cn%2Fapi-docs%2FiOS%2Fdocsets%2FLeanCloudObjc.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
@@ -1020,6 +1020,24 @@
 <span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getEntityResultsAroundEntity</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">entity</span>
                             <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span> <span class="o">*&gt;</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">rankings</span><span class="p">,</span> <span class="n">NSInteger</span> <span class="n">count</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span>
 
+<span class="c1">/// Get rankings of a group of user on this leaderboard.</span>
+<span class="c1">/// @param userIds A group of user's object id.</span>
+<span class="c1">/// @param option The query option, see `LCLeaderboardQueryOption`.</span>
+<span class="c1">/// @param callback Result callback.</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getGroupUserResultsWithUserIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">userIds</span>
+                                <span class="nf">option</span><span class="p">:(</span><span class="n"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">option</span>
+                              <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span> <span class="o">*&gt;</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">rankings</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span>
+
+<span class="c1">/// Get rankings of a group of user around one user on this leaderboard.</span>
+<span class="c1">/// @param userIds A group of user's object id.</span>
+<span class="c1">/// @param userId The object id of the around user.</span>
+<span class="c1">/// @param option The query option, see `LCLeaderboardQueryOption`.</span>
+<span class="c1">/// @param callback Result callback.</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getGroupUserResultsWithUserIds</span><span class="p">:(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">userIds</span>
+                            <span class="nf">aroundUser</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">userId</span>
+                                <span class="nf">option</span><span class="p">:(</span><span class="n"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">option</span>
+                              <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span> <span class="o">*&gt;</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">rankings</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span>
+
 <span class="k">@end</span></code></pre>
 
                 </div>
@@ -1032,7 +1050,7 @@
             <p>Undocumented</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L61-L187">Show on GitHub</a>
+                <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L61-L205">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -1068,7 +1086,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L64">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L64">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1103,7 +1121,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L66">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L66">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1138,7 +1156,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L68">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L68">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1173,7 +1191,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L70">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L70">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1208,7 +1226,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L72">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L72">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1243,7 +1261,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L74">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L74">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1277,7 +1295,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L76">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L76">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1311,7 +1329,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L77">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L77">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1365,7 +1383,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L81">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L81">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1435,7 +1453,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L88-L89">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L88-L89">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1504,7 +1522,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L94-L95">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L94-L95">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1587,7 +1605,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L103-L105">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L103-L105">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1683,7 +1701,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L112-L115">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L112-L115">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1766,7 +1784,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L121-L123">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L121-L123">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1836,7 +1854,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L130-L131">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L130-L131">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1919,7 +1937,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L137-L139">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L137-L139">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -1989,7 +2007,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L144-L145">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L144-L145">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2058,7 +2076,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L152-L153">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L152-L153">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2140,7 +2158,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L159-L161">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L159-L161">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2210,7 +2228,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L166-L167">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L166-L167">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2293,7 +2311,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L173-L175">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L173-L175">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2349,7 +2367,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L179">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L179">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2419,7 +2437,188 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/leancloud/objc-sdk/tree/13.8.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L184-L185">Show on GitHub</a>
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L184-L185">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCLeaderboard(im)getGroupUserResultsWithUserIds:option:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-getGroupUserResultsWithUserIds:option:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCLeaderboard(im)getGroupUserResultsWithUserIds:option:callback:">-getGroupUserResultsWithUserIds:<wbr>option:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get rankings of a group of user on this leaderboard.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+    <span class="nf">getGroupUserResultsWithUserIds</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">userIds</span>
+                            <span class="nf">option</span><span class="p">:(</span><span class="n"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">option</span>
+                          <span class="nf">callback</span><span class="p">:</span>
+                              <span class="p">(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span>
+                                  <span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                  <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getGroupUserResults</span><span class="p">(</span><span class="n">withUserIds</span> <span class="nv">userIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="nv">option</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span><span class="p">?,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">([</span><span class="kt"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A group of user&rsquo;s object id.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>option</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The query option, see <code><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L191-L193">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)LCLeaderboard(im)getGroupUserResultsWithUserIds:aroundUser:option:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-getGroupUserResultsWithUserIds:aroundUser:option:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)LCLeaderboard(im)getGroupUserResultsWithUserIds:aroundUser:option:callback:">-getGroupUserResultsWithUserIds:<wbr>aroundUser:<wbr>option:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get rankings of a group of user around one user on this leaderboard.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+    <span class="nf">getGroupUserResultsWithUserIds</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">NSString</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">userIds</span>
+                        <span class="nf">aroundUser</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">userId</span>
+                            <span class="nf">option</span><span class="p">:(</span><span class="n"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">option</span>
+                          <span class="nf">callback</span><span class="p">:</span>
+                              <span class="p">(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span>
+                                  <span class="n">NSArray</span><span class="o">&lt;</span><span class="n"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                  <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getGroupUserResults</span><span class="p">(</span><span class="n">withUserIds</span> <span class="nv">userIds</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="n">aroundUser</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">option</span><span class="p">:</span> <span class="kt"><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></span><span class="p">?,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">([</span><span class="kt"><a href="../Classes/LCLeaderboardRanking.html">LCLeaderboardRanking</a></span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A group of user&rsquo;s object id.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The object id of the around user.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>option</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The query option, see <code><a href="../Classes/LCLeaderboardQueryOption.html">LCLeaderboardQueryOption</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Result callback.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/leancloud/objc-sdk/tree/13.9.0/AVOS/Sources/Foundation/Leaderboard/LCLeaderboard.h#L200-L203">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -2429,7 +2628,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://leancloud.cn" target="_blank" rel="external noopener">LeanCloud</a>. All rights reserved. (Last updated: 2022-05-12)</p>
+          <p>&copy; 2022 <a class="link" href="https://leancloud.cn" target="_blank" rel="external noopener">LeanCloud</a>. All rights reserved. (Last updated: 2022-05-16)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
